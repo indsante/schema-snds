@@ -1,0 +1,13 @@
+data/
+!data/.gitkeep
+notebooks/ignore
+!notebooks/ignore/.gitkeep
+
+venv/
+.ipynb_checkpoints/
+*.ipynb
+
+
+.idea/
+.pytest_cache
+.DS_Store

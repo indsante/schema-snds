@@ -1,0 +1,8 @@
+jupyter==1.0.0
+jupytext==0.8.6
+matplotlib==3.0.2
+pandas==0.23.4
+psycopg2-binary==2.7.6.1
+pytest==4.1.1
+SQLAlchemy==1.2.16
+tableschema

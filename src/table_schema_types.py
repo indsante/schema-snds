@@ -1,0 +1,17 @@
+# https://frictionlessdata.io/specs/table-schema/#types-and-formats
+
+STRING = 'string'
+NUMBER = 'number'
+INTEGER = 'integer'
+BOOLEAN = 'boolean'
+OBJECT = 'object'
+ARRAY = 'array'
+DATE = 'date'
+TIME = 'time'
+DATETIME = 'datetime'
+YEAR = 'year'
+YEARMONTH = 'yearmonth'
+DURATION = 'duration'
+GEOPOINT = 'geopoint'
+GEOJSON = 'geojson'
+ANY = 'any'

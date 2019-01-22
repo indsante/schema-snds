@@ -6,17 +6,17 @@
 qui permet de décrire formellement le schéma de données tabulaires.
 
 Une table est décrite principalement par 
-- une liste de `champs` (= colonnes)
+- une liste de `field` (champ, colonne)
 - une [clé primaire](https://fr.wikipedia.org/wiki/Cl%C3%A9_primaire) (optionnelle)
 - des [clés étrangères](https://fr.wikipedia.org/wiki/Cl%C3%A9_%C3%A9trang%C3%A8re) (optionnelles)
 
-Un `champ` est principalement décrit par
-- un `nom`(seul champ obligatoire)
-- un `titre`plus lisible
+Un `field` est principalement décrit par 
+- un `name` (seul champ obligatoire)
+- un `title` plus lisible
 - une `description`
 - un `type`, parmi une liste extensible [string, number, integer, boolean, date, etc.]
 - un `format`, qui précise le type (ex : format de la date)
-- des `contraintes`, telles que valeurs min et max, listes de modalités autorisées, etc.
+- des `constraints`, telles que valeurs min et max, listes de modalités autorisées, etc.
  
 Cette spécification est extensible librement. 
 Ils est donc possible d'ajouter des catégories d'informations spécifiques aux données considérées.

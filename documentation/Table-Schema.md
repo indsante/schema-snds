@@ -6,9 +6,9 @@
 qui permet de décrire formellement le schéma de données tabulaires.
 
 Une table est décrite principalement par 
-- une liste de `field` (champ, colonne)
-- une [clé primaire](https://fr.wikipedia.org/wiki/Cl%C3%A9_primaire) (optionnelle)
-- des [clés étrangères](https://fr.wikipedia.org/wiki/Cl%C3%A9_%C3%A9trang%C3%A8re) (optionnelles)
+- une liste de `fields` (champ, colonne)
+- une [primaryKey](https://fr.wikipedia.org/wiki/Cl%C3%A9_primaire) (optionnelle)
+- des [foreignKeys](https://fr.wikipedia.org/wiki/Cl%C3%A9_%C3%A9trang%C3%A8re) (optionnelles)
 
 Un `field` est principalement décrit par 
 - un `name` (seul champ obligatoire)
@@ -34,6 +34,7 @@ Ce standard est indépendant de tout logiciel ou langage, et donc extrêmement p
 Des outils génériques existent ainsi pour manipuler ces schémas, par exemple
 - [tableschema-py](https://github.com/frictionlessdata/tableschema-py) est un outil Python (ou CLI), 
 qui permet d'inférer, manipuler et valider des schémas
+- [tableschema-r](https://github.com/frictionlessdata/tableschema-r) est un outil R similaire 
 - [goodtables-py](https://github.com/frictionlessdata/goodtables-py) est un outil Python (ou web), 
 qui permet de valider qu'un fichier de données respecte un schéma
 - [table-schema-to-markdown](https://github.com/AntoineAugusti/table-schema-to-markdown)

@@ -34,11 +34,22 @@ pd.options.display.max_colwidth = 100
 from src.reformat_snds_dico import *
 from tableschema import validate
 
-df = read_snds_vars('../dico-snds')
-df.head(2)
+dico_snds_path = '../dico-snds'
 
-df = add_type_and_length_columns(df)
-df = convert_to_table_schema_type(df)
-df.head(2)
+# +
+df_vars = read_snds_vars(dico_snds_path)
+df_vars = add_type_and_length_columns(df_vars)
+df_vars = convert_to_table_schema_type(df_vars)
 
-write_all_schema(df, 'data/table_schema')
+
+df_table_lib = read_snds_table_lib(dico_snds_path)
+df_table_lib = duplicate_common_dcirs_dcirs(df_table_lib)
+
+df = merge_vars_table(df_vars, df_table_lib)
+df.head(2)
+# -
+
+
+write_all_schema(df, 'data/tableschema')
+
+

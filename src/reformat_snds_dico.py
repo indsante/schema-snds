@@ -61,6 +61,49 @@ def convert_to_table_schema_type(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
+def read_snds_table_lib(dico_snds_path):
+    snds_vars_path = os.path.join(dico_snds_path, 'app', 'app_data', 'SNDS_tables_lib.csv')
+    return (pd
+            .read_csv(snds_vars_path, sep=';')
+            .rename(columns={'Unnamed: 0': 'table_id'})
+            )
+
+
+def duplicate_common_dcirs_dcirs(df):
+    """ Replace each DCIR/DCIRS line by 2 lines with DCIR and DCIRS """
+    mask_double = df.Produit == 'DCIR/DCIRS'
+
+    df_not_double = df[~mask_double].copy()
+    df_not_double['dcir_dcirs'] = False
+
+    df_dcir = df[mask_double].copy()
+    df_dcir.Produit = 'DCIR'
+    df_dcir['dcir_dcirs'] = True
+
+    df_dcirs = df[mask_double].copy()
+    df_dcirs.Produit = 'DCIRS'
+    df_dcirs['dcir_dcirs'] = True
+
+    return pd.concat([df_not_double, df_dcir, df_dcirs])
+
+
+def merge_vars_table(df_vars, df_table_lib):
+    print("Erreur éventuelle à corriger :\n"
+          "- Table présente dans les variables et pas dans les tables {}\n"
+          "- Table présente dans les tables et pas dans les variables {}\n"
+          .format(set(df_vars.table) - set(df_table_lib.Table), set(df_table_lib.Table) - set(df_vars.table))
+          )
+
+    print("Nombre de lignes avant jointure : variables {}, tables {} ".format(len(df_vars), len(df_table_lib)))
+    df = (df_vars
+          .merge(df_table_lib, how='outer', left_on='table', right_on='Table')
+          .drop(columns='Table')
+          )
+    print("Nombre de lignes après jointure : {}".format(len(df)))
+
+    return df
+
+
 def get_table_schema(df_table: pd.DataFrame) -> Schema:
     fields = list()
     columns = ['name', 'description', 'type']
@@ -71,15 +114,20 @@ def get_table_schema(df_table: pd.DataFrame) -> Schema:
 
 
 def write_all_schema(df: pd.DataFrame, directory) -> None:
-    for i, (table, df_table) in enumerate(df.groupby('table')):
+    for i, ((produit, table), df_table) in enumerate(df.groupby(['Produit', 'table'])):
         schema = get_table_schema(df_table)
-        path = os.path.join(directory, table + '.json')
+        path = os.path.join(directory, produit, table + '.json')
         schema.save(path, ensure_ascii=False)
 
 
 if __name__ == '__main__':
-    print(os.getcwd())
-    df_vars = read_snds_vars('../../dico-snds')
+    dico_snds_path = '../../dico-snds'
+    df_vars = read_snds_vars(dico_snds_path)
     df_vars = add_type_and_length_columns(df_vars)
     df_vars = convert_to_table_schema_type(df_vars)
-    write_all_schema(df_vars, '../data/tableschema')
+
+    df_table_lib = read_snds_table_lib(dico_snds_path)
+    df_table_lib = duplicate_common_dcirs_dcirs(df_table_lib)
+
+    df = merge_vars_table(df_vars, df_table_lib)
+    write_all_schema(df, '../data/tableschema')

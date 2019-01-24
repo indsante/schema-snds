@@ -34,7 +34,7 @@ pd.options.display.max_colwidth = 100
 from src.reformat_snds_dico import *
 from tableschema import validate
 
-df = read_snds_vars('../SNDS-portail/Dictionnaire/app/app_data/snds_vars.csv')
+df = read_snds_vars('../dico-snds')
 df.head(2)
 
 df = add_type_and_length_columns(df)
@@ -42,7 +42,3 @@ df = convert_to_table_schema_type(df)
 df.head(2)
 
 write_all_schema(df, 'data/table_schema')
-
-
-
-

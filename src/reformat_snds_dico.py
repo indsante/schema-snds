@@ -9,7 +9,8 @@ from tableschema import Schema
 from src.table_schema_types import STRING, NUMBER, DATE, DATETIME, ANY
 
 
-def read_snds_vars(snds_vars_path):
+def read_snds_vars(dico_snds_path):
+    snds_vars_path = os.path.join(dico_snds_path, 'app', 'app_data', 'snds_vars.csv')
     return (pd
             .read_csv(snds_vars_path)
             .rename(columns={'var': 'name'})
@@ -77,7 +78,8 @@ def write_all_schema(df: pd.DataFrame, directory) -> None:
 
 
 if __name__ == '__main__':
-    df = read_snds_vars('../../SNDS-portail/Dictionnaire/app/app_data/snds_vars.csv')
-    df = add_type_and_length_columns(df)
-    df = convert_to_table_schema_type(df)
-    write_all_schema(df, '../data/tableschema')
+    print(os.getcwd())
+    df_vars = read_snds_vars('../../dico-snds')
+    df_vars = add_type_and_length_columns(df_vars)
+    df_vars = convert_to_table_schema_type(df_vars)
+    write_all_schema(df_vars, '../data/tableschema')

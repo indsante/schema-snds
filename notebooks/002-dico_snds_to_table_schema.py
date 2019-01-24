@@ -47,7 +47,7 @@ df = merge_vars_table(df_vars, df_table_lib)
 df.head(2)
 # -
 
-
 write_all_schema(df, 'data/tableschema')
+df.to_csv('data/variables.csv', index=False)
 
 

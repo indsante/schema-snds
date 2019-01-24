@@ -8,12 +8,16 @@ from tableschema import Schema
 
 from src.table_schema_types import STRING, NUMBER, DATE, DATETIME, ANY
 
+FORMAT_SOURCE = 'format_source'
+
 
 def read_snds_vars(dico_snds_path):
     snds_vars_path = os.path.join(dico_snds_path, 'app', 'app_data', 'snds_vars.csv')
     return (pd
             .read_csv(snds_vars_path)
-            .rename(columns={'var': 'name'})
+            .rename(columns={'var': 'variable',
+                             'format': FORMAT_SOURCE
+                             })
             )
 
 
@@ -30,7 +34,7 @@ def extract_type_and_length(type_str: str) -> Tuple[str, str]:
 
 
 def add_type_and_length_columns(df: pd.DataFrame) -> pd.DataFrame:
-    df_type_and_length = (df['format']
+    df_type_and_length = (df[FORMAT_SOURCE]
                           .str.lower()
                           .map(extract_type_and_length)
                           .apply(pd.Series)
@@ -61,13 +65,20 @@ def convert_to_table_schema_type(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
+PRODUIT = 'produit'
+
+
 def read_snds_table_lib(dico_snds_path):
     snds_vars_path = os.path.join(dico_snds_path, 'app', 'app_data', 'SNDS_tables_lib.csv')
     df = (pd
-          .read_csv(snds_vars_path, sep=';')
-          .rename(columns={'Unnamed: 0': 'table_id'})
+          .read_csv(snds_vars_path, sep=';', dtype=str)
+          .rename(columns={'Unnamed: 0': 'table_id',
+                           'Produit': PRODUIT,
+                           'Libelle': 'libelle_table',
+                           'Champ': 'champ_table'
+                           })
           )
-    df.Produit = df.Produit.str.replace('DCIR/DCIRS', 'DCIR_DCIRS')
+    df[PRODUIT] = df[PRODUIT].str.replace('DCIR/DCIRS', 'DCIR_DCIRS')
     return df
 
 
@@ -90,15 +101,15 @@ def merge_vars_table(df_vars, df_table_lib):
 
 def get_table_schema(df_table: pd.DataFrame) -> Schema:
     fields = list()
-    columns = ['name', 'description', 'type']
-    for index, row in df_table[columns].iterrows():
+    df_table = df_table.rename(columns={'variable': 'name'})
+    for index, row in df_table[['name', 'description', 'type']].iterrows():
         fields.append(row.to_dict())
     descriptor = {'fields': fields}
     return Schema(descriptor, strict=True)
 
 
 def write_all_schema(df: pd.DataFrame, directory) -> None:
-    for i, ((produit, table), df_table) in enumerate(df.groupby(['Produit', 'table'])):
+    for i, ((produit, table), df_table) in enumerate(df.groupby([PRODUIT, 'table'])):
         schema = get_table_schema(df_table)
         path = os.path.join(directory, produit, table + '.json')
         schema.save(path, ensure_ascii=False)
@@ -113,4 +124,6 @@ if __name__ == '__main__':
     df_table_lib = read_snds_table_lib(dico_snds_path)
 
     df = merge_vars_table(df_vars, df_table_lib)
+
+    df.to_csv('../data/variables.csv', index=False)
     write_all_schema(df, '../data/tableschema')

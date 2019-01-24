@@ -41,9 +41,7 @@ df_vars = read_snds_vars(dico_snds_path)
 df_vars = add_type_and_length_columns(df_vars)
 df_vars = convert_to_table_schema_type(df_vars)
 
-
 df_table_lib = read_snds_table_lib(dico_snds_path)
-df_table_lib = duplicate_common_dcirs_dcirs(df_table_lib)
 
 df = merge_vars_table(df_vars, df_table_lib)
 df.head(2)

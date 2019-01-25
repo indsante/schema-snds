@@ -1,6 +1,7 @@
 import os
 from tableschema import Schema
 from typing import Union, List
+import logging
 
 
 def add_primary_key(schema: Schema, primary_key: Union[str, List[str]]) -> None:
@@ -24,6 +25,7 @@ def add_foreign_key(schema: Schema, fields, referenced_table, referenced_fields)
 
 
 def add_dcirs_keys(dcir_dir='data/tableschema/DCIRS'):
+    logging.info("Add primary and foreign key inside DCIRS table schemas")
     for tableschema in os.listdir(dcir_dir):
         path = os.path.join(dcir_dir, tableschema)
         schema = Schema(path)

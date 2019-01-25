@@ -2,7 +2,7 @@ import os
 import re
 from collections import defaultdict
 from typing import Tuple
-
+import logging
 import pandas as pd
 from tableschema import Schema
 
@@ -81,23 +81,23 @@ def read_snds_table_lib(dico_snds_path: str) -> pd.DataFrame:
 
 
 def merge_vars_table(df_vars, df_table_lib):
-    print("Erreur éventuelle à corriger :\n"
-          "- Table présente dans les variables et pas dans les tables {}\n"
-          "- Table présente dans les tables et pas dans les variables {}\n"
-          .format(set(df_vars.table) - set(df_table_lib.Table), set(df_table_lib.Table) - set(df_vars.table))
-          )
+    logging.warning("Les tables {} sont présentes dans les 'variables' et pas dans les 'tables', "
+                    "et réciproquement pour {}"
+                    .format(set(df_vars.table) - set(df_table_lib.Table), set(df_table_lib.Table) - set(df_vars.table))
+                    )
 
-    print("Nombre de lignes avant jointure : variables {}, tables {} ".format(len(df_vars), len(df_table_lib)))
+    logging.info("Nombre de lignes avant jointure : variables {}, tables {} ".format(len(df_vars), len(df_table_lib)))
     df = (df_vars
           .merge(df_table_lib, how='inner', left_on='table', right_on='Table', validate='many_to_one')
           .drop(columns='Table')
           )
-    print("Nombre de lignes après jointure : {}".format(len(df)))
+    logging.info("Nombre de lignes après jointure : {}".format(len(df)))
 
     return df
 
 
 def get_dico_snds_variables(dico_snds_path: str) -> pd.DataFrame:
+    logging.info("Reformat and combine informations from dico-snds files 'snds_vars.csv' and 'SNDS_tables_lib.csv'")
     df_vars = read_snds_vars(dico_snds_path)
     df_vars = add_type_and_length_columns(df_vars)
     df_vars = convert_to_table_schema_type(df_vars)
@@ -107,6 +107,7 @@ def get_dico_snds_variables(dico_snds_path: str) -> pd.DataFrame:
 
 
 def write_all_schema(df: pd.DataFrame, directory: str) -> None:
+    logging.info("Write all raw tableschema from 'snds-dico'")
     for i, ((produit, table), df_table) in enumerate(df.groupby([PRODUIT, 'table'])):
         schema = get_table_schema(df_table)
         path = os.path.join(directory, produit, table + '.json')

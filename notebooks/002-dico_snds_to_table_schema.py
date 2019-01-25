@@ -31,23 +31,14 @@ pd.options.display.max_rows = 30
 pd.options.display.max_columns = 100
 pd.options.display.max_colwidth = 100
 
-from src.reformat_snds_dico import *
-from tableschema import validate
+from src.reformat_snds_dico import get_dico_snds_variables, write_all_schema
+from src.add_keys import add_dcirs_keys
 
 dico_snds_path = '../dico-snds'
-
-# +
-df_vars = read_snds_vars(dico_snds_path)
-df_vars = add_type_and_length_columns(df_vars)
-df_vars = convert_to_table_schema_type(df_vars)
-
-df_table_lib = read_snds_table_lib(dico_snds_path)
-
-df = merge_vars_table(df_vars, df_table_lib)
-df.head(2)
-# -
-
-write_all_schema(df, 'data/tableschema')
+df = get_dico_snds_variables(dico_snds_path)
 df.to_csv('data/variables.csv', index=False)
+write_all_schema(df, 'data/tableschema')
+add_dcirs_keys()
+
 
 

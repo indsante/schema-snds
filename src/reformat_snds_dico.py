@@ -6,12 +6,13 @@ from typing import Tuple
 import pandas as pd
 from tableschema import Schema
 
-from src.table_schema_types import STRING, NUMBER, DATE, DATETIME, ANY
+from src.constants import STRING, NUMBER, DATE, DATETIME, ANY
 
 FORMAT_SOURCE = 'format_source'
+PRODUIT = 'produit'
 
 
-def read_snds_vars(dico_snds_path):
+def read_snds_vars(dico_snds_path: str) -> pd.DataFrame:
     snds_vars_path = os.path.join(dico_snds_path, 'app', 'app_data', 'snds_vars.csv')
     return (pd
             .read_csv(snds_vars_path)
@@ -65,10 +66,7 @@ def convert_to_table_schema_type(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-PRODUIT = 'produit'
-
-
-def read_snds_table_lib(dico_snds_path):
+def read_snds_table_lib(dico_snds_path: str) -> pd.DataFrame:
     snds_vars_path = os.path.join(dico_snds_path, 'app', 'app_data', 'SNDS_tables_lib.csv')
     df = (pd
           .read_csv(snds_vars_path, sep=';', dtype=str)
@@ -91,7 +89,7 @@ def merge_vars_table(df_vars, df_table_lib):
 
     print("Nombre de lignes avant jointure : variables {}, tables {} ".format(len(df_vars), len(df_table_lib)))
     df = (df_vars
-          .merge(df_table_lib, how='outer', left_on='table', right_on='Table')
+          .merge(df_table_lib, how='inner', left_on='table', right_on='Table', validate='many_to_one')
           .drop(columns='Table')
           )
     print("Nombre de lignes après jointure : {}".format(len(df)))
@@ -99,31 +97,29 @@ def merge_vars_table(df_vars, df_table_lib):
     return df
 
 
-def get_table_schema(df_table: pd.DataFrame) -> Schema:
-    fields = list()
-    df_table = df_table.rename(columns={'variable': 'name'})
-    for index, row in df_table[['name', 'description', 'type']].iterrows():
-        fields.append(row.to_dict())
-    descriptor = {'fields': fields}
-    return Schema(descriptor, strict=True)
+def get_dico_snds_variables(dico_snds_path: str) -> pd.DataFrame:
+    df_vars = read_snds_vars(dico_snds_path)
+    df_vars = add_type_and_length_columns(df_vars)
+    df_vars = convert_to_table_schema_type(df_vars)
+    df_table_lib = read_snds_table_lib(dico_snds_path)
+    df = merge_vars_table(df_vars, df_table_lib)
+    return df
 
 
-def write_all_schema(df: pd.DataFrame, directory) -> None:
+def write_all_schema(df: pd.DataFrame, directory: str) -> None:
     for i, ((produit, table), df_table) in enumerate(df.groupby([PRODUIT, 'table'])):
         schema = get_table_schema(df_table)
         path = os.path.join(directory, produit, table + '.json')
         schema.save(path, ensure_ascii=False)
 
 
-if __name__ == '__main__':
-    dico_snds_path = '../../dico-snds'
-    df_vars = read_snds_vars(dico_snds_path)
-    df_vars = add_type_and_length_columns(df_vars)
-    df_vars = convert_to_table_schema_type(df_vars)
-
-    df_table_lib = read_snds_table_lib(dico_snds_path)
-
-    df = merge_vars_table(df_vars, df_table_lib)
-
-    df.to_csv('../data/variables.csv', index=False)
-    write_all_schema(df, '../data/tableschema')
+def get_table_schema(df_table: pd.DataFrame) -> Schema:
+    fields = list()
+    for i, row in df_table.iterrows():
+        fields.append({
+            'name': row['variable'],
+            'description': row['description'],
+            'type': row['type']
+        })
+    descriptor = {'fields': fields}
+    return Schema(descriptor, strict=True)

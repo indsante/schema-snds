@@ -108,13 +108,13 @@ def get_dico_snds_variables(dico_snds_path: str) -> pd.DataFrame:
 
 def write_all_schema(df: pd.DataFrame, directory: str) -> None:
     logging.info("Write all raw tableschema from 'snds-dico'")
-    for i, ((produit, table), df_table) in enumerate(df.groupby([PRODUIT, 'table'])):
-        schema = get_table_schema(df_table)
-        path = os.path.join(directory, produit, table + '.json')
+    for i, ((produit, table_name), df_table) in enumerate(df.groupby([PRODUIT, 'table'])):
+        schema = get_table_schema(df_table, table_name)
+        path = os.path.join(directory, produit, table_name + '.json')
         schema.save(path, ensure_ascii=False)
 
 
-def get_table_schema(df_table: pd.DataFrame) -> Schema:
+def get_table_schema(df_table: pd.DataFrame, table_name: str) -> Schema:
     fields = list()
     for i, row in df_table.iterrows():
         fields.append({
@@ -122,5 +122,5 @@ def get_table_schema(df_table: pd.DataFrame) -> Schema:
             'description': row['description'],
             'type': row['type']
         })
-    descriptor = {'fields': fields}
+    descriptor = {'fields': fields, 'title': table_name}
     return Schema(descriptor, strict=True)

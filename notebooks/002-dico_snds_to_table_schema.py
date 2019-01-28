@@ -31,14 +31,27 @@ pd.options.display.max_rows = 30
 pd.options.display.max_columns = 100
 pd.options.display.max_colwidth = 100
 
+# +
+from table_schema_to_markdown import convert_source
+
 from src.reformat_snds_dico import get_dico_snds_variables, write_all_schema
 from src.add_keys import add_dcirs_keys
+from src.convert import convert_schemas_to_markdown
+# -
 
 dico_snds_path = '../dico-snds'
 df = get_dico_snds_variables(dico_snds_path)
 df.to_csv('data/variables.csv', index=False)
 write_all_schema(df, 'data/tableschema')
 add_dcirs_keys()
+
+
+convert_schemas_to_markdown('data/tableschema')
+
+
+
+
+
 
 
 

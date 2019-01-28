@@ -24,10 +24,10 @@ def add_foreign_key(schema: Schema, fields, referenced_table, referenced_fields)
     schema.commit(strict=True)
 
 
-def add_dcirs_keys(dcir_dir='data/tableschema/DCIRS'):
+def add_dcirs_keys(dcirs_dir: str) -> None:
     logging.info("Add primary and foreign key inside DCIRS table schemas")
-    for tableschema in os.listdir(dcir_dir):
-        path = os.path.join(dcir_dir, tableschema)
+    for tableschema in os.listdir(dcirs_dir):
+        path = os.path.join(dcirs_dir, tableschema)
         schema = Schema(path)
         if tableschema == 'NS_PRS_F.json':
             add_primary_key(schema, 'CLE_DCI_JNT')

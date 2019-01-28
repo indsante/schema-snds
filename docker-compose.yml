@@ -1,0 +1,18 @@
+version: "3"
+services:
+  postgres:
+    image: postgres:11.1-alpine
+    ports:
+     - 5432:5432
+
+  schemacrawler:
+    image: schemacrawler/schemacrawler
+    volumes:
+      - ./data/diagram:/share
+    command:
+      /opt/schemacrawler/schemacrawler.sh
+      -command=brief
+      -infolevel=standard
+      -server=postgresql -host=postgres -port=5432 -user=postgres -database=postgres
+      -title "Schema DCIRS"
+      -outputformat=pdf -outputfile=/share/schema_postgres.pdf

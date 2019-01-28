@@ -36,7 +36,7 @@ from table_schema_to_markdown import convert_source
 
 from src.reformat_snds_dico import get_dico_snds_variables, write_all_schema
 from src.add_keys import add_dcirs_keys
-from src.convert import convert_schemas_to_markdown, create_schema_in_storage
+from src.convert import convert_schemas_to_markdown, create_schemas_in_sql_storage
 # -
 
 dico_snds_path = '../dico-snds'
@@ -59,7 +59,7 @@ from sqlalchemy import create_engine
 engine = create_engine('postgresql://postgres@localhost:5432/postgres')
 engine = create_engine('sqlite:///notebooks/ignore/db.sql')
 
-create_schema_in_storage(dcirs_dir, engine)
+create_schemas_in_sql_storage(dcirs_dir, engine)
 # -
 
 

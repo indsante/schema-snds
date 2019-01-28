@@ -36,11 +36,11 @@ Tester l'installation
 
     python -m pytest tests
 
-## Docker
+## Docker et Docker-Compose
 
-Docker permet d'installer et de lancer rapidement des bases de données. 
+Docker simplifie l'installation de services, indépendamment de votre système d'exploitation. 
+Nous l'utilisons notamment pour démarrer rapidement des bases de données.
 
-Une fois Docker installé, la commande suivante démarre une base PostgreSQL.
- `docker run --rm -p 5432:5432 postgres` 
- 
-Cette base est alors accessible en local (adresse `localhost:5432/postgres`), sans mot de passe, avec l'utilisateur `postgres`.  
+Docker-Compose simplifie la configuration et la composition de services Docker.
+
+Une fois installé, installer et démarrer les services avec la commande `docker-compose up`

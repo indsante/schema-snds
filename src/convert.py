@@ -3,7 +3,7 @@ import os
 
 from sqlalchemy.engine.base import Engine
 from table_schema_to_markdown import convert_source
-from tableschema import Schema
+from src.utils import get_schemas_in_directory
 from tableschema_sql import Storage
 
 
@@ -19,13 +19,9 @@ def convert_schemas_to_markdown(tableschema_dir: str) -> None:
                 convert_source(schema_path, out)
 
 
-def create_schema_in_storage(schemas_directory: str, engine: Engine) -> None:
+def create_schemas_in_sql_storage(schemas_directory: str, engine: Engine) -> None:
     logging.info("Read schemas from '{}' and create them in SQL engine".format(schemas_directory))
-    schemas = list()
-    for table_schema in os.listdir(schemas_directory):
-        path = os.path.join(schemas_directory, table_schema)
-        schemas.append(Schema(path))
-
+    schemas = get_schemas_in_directory(schemas_directory)
     storage = Storage(engine=engine)
     storage.create([schema.descriptor['title'] for schema in schemas],
                    [schema.descriptor for schema in schemas],

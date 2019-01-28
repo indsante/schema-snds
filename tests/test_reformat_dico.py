@@ -1,7 +1,7 @@
 import pytest
 import pandas as pd
 
-from src.reformat_snds_dico import extract_type_and_length, add_type_and_length_columns
+from src.reformat_snds_dico import FORMAT_SOURCE, extract_type_and_length, add_type_and_length_columns
 
 input_arg_to_expected_output = [
     ('Numérique (4)', ['Numérique ', '4']),
@@ -18,11 +18,11 @@ def test_extract_type_and_length(input_arg, expected_output):
 def test_add_type_and_length():
     # Given
     input_df = pd.DataFrame.from_dict({
-        'format': ['Numérique (4)', 'Caractère (2)']
+        FORMAT_SOURCE: ['Numérique (4)', 'Caractère (2)']
     })
 
     expected_output = pd.DataFrame({
-        'format': ['Numérique (4)', 'Caractère (2)'],
+        FORMAT_SOURCE: ['Numérique (4)', 'Caractère (2)'],
         'type': ['numérique ', 'caractère '],
         'length': ['4', '2']
     })

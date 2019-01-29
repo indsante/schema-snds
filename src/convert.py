@@ -1,10 +1,12 @@
 import logging
 import os
+import subprocess
 
 from sqlalchemy.engine.base import Engine
 from table_schema_to_markdown import convert_source
-from src.utils import get_schemas_in_directory
 from tableschema_sql import Storage
+
+from src.utils import get_schemas_in_directory
 
 
 def convert_schemas_to_markdown(tableschema_dir: str) -> None:
@@ -26,3 +28,8 @@ def create_schemas_in_sql_storage(schemas_directory: str, engine: Engine) -> Non
     storage.create([schema.descriptor['title'] for schema in schemas],
                    [schema.descriptor for schema in schemas],
                    force=True)
+
+
+def create_diagram_from_postgresql() -> None:
+    logging.info('Running schemacrawler via docker-compose to create diagram from PostgreSQL')
+    subprocess.run('docker-compose up schemacrawler'.split())

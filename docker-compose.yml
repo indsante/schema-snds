@@ -11,7 +11,7 @@ services:
       - ./data/diagram:/share
     command:
       /opt/schemacrawler/schemacrawler.sh
-      -command=brief
+      -command=schema
       -infolevel=standard
       -server=postgresql -host=postgres -port=5432 -user=postgres -database=postgres
       -title "Schema DCIRS"

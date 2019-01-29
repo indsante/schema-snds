@@ -1,9 +1,8 @@
 import logging
 
-from sqlalchemy import create_engine
-
 from src.add_keys import add_dcirs_keys
-from src.convert import convert_schemas_to_markdown, create_schemas_in_sql_storage
+from src.convert import convert_schemas_to_markdown, create_schemas_in_sql_storage, create_diagram_from_postgresql
+from src.database import get_postgres_engine, start_postgres, stop_postgres
 from src.reformat_snds_dico import get_dico_snds_variables, write_all_schema
 
 DICO_SNDS_PATH = '../dico-snds'
@@ -21,7 +20,9 @@ add_dcirs_keys(DCIRS_SCHMEMA_DIR)
 
 convert_schemas_to_markdown(MAIN_SCHEMA_DIR)
 
-engine = create_engine('postgresql://postgres@localhost:5432/postgres')
-# engine = create_engine('sqlite:///notebooks/ignore/db.sql')
+start_postgres()
+engine = get_postgres_engine()
+# engine = get_sqlite_engine()
 create_schemas_in_sql_storage(DCIRS_SCHMEMA_DIR, engine)
-
+create_diagram_from_postgresql()
+stop_postgres()

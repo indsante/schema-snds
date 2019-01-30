@@ -1,0 +1,144 @@
+;Produit;Table;Libelle;Champ
+1;BENEFICIAIRE;IR_BEN_R;Référentiel des bénéficiaires (DCIR);
+2;BENEFICIAIRE;IR_IBA_R;Référentiel des bénéficiaires (DCIRS);
+3;DCIR/DCIRS;IR_IMB_R;Référentiel médicalisé des bénéficiaires (ALD);
+4;DCIR/DCIRS;IR_MAT_R;Maternité;
+5;DCIR/DCIRS;IR_ORC_R;Affiliations à un organisme complémentaire;
+6;DCIR/DCIRS;IR_MTT_R;Médecin traitant;
+7;DCIR/DCIRS;IR_ETM_R;Exonérations du ticket modérateur liées à la personne ;
+8;DCIR/DCIRS;IR_ACS_R;Affiliations à l’Aide à l’acquisition d’une Complémentaire Santé (ACS) ;
+9;DCIRS;NS_PRS_F;prestations;
+10;DCIRS;NS_BIO_F;affinage des actes de biologie;
+11;DCIRS;NS_CAM_F;affinage des actes médicaux (codage CCAM);
+12;DCIRS;NS_DTR_F;affinage des actes de transport ;
+13;DCIRS;NS_TRS_F;affinage des actes détaillés de transport ;
+14;DCIRS;NS_INV_F;affinage des actes invalidité;
+15;DCIRS;NS_RAT_F;affinage des rentes et accidents du travail;
+16;DCIRS;NS_PHA_F;affinage des actes de pharmacie (officine de ville);
+17;DCIRS;NS_UCD_F;affinage UCD (pharmacie hospitalière);
+18;DCIRS;NS_TIP_F;affinage Liste des Produits et Prestations (LPP);
+19;DCIR;ER_PRS_F;prestations;
+20;DCIR;ER_BIO_F;affinage des actes de biologie;
+21;DCIR;ER_CAM_F;affinage des actes médicaux (codage CCAM);
+22;DCIR;ER_DTR_F;affinage des actes de transport ;
+23;DCIR;ER_TRS_F;affinage des actes détaillés de transport ;
+24;DCIR;ER_INV_F;affinage des actes invalidité;
+25;DCIR;ER_RAT_F;affinage des rentes et accidents du travail;
+26;DCIR;ER_PHA_F;affinage des actes de pharmacie (officine de ville);
+27;DCIR;ER_UCD_F;affinage UCD (pharmacie hospitalière);
+28;DCIR;ER_TIP_F;affinage Liste des Produits et Prestations (LPP);
+29;DCIR;ER_DCT_F;Décomptes;
+30;DCIR;ER_CPT_F;Données comptables;
+31;DCIR;ER_ARO_F;Autre remboursement que régime obligatoire (partie complémentaire CMU-C, Alsace moselle, FNASS,…);
+32;DCIR;ER_ETE_F;Informations liées à l'exécution dans un établissement;
+33;DCIR;ER_LOT_F;Lot et numéro de série des prestations affinnées pharmacie;
+34;DCIR;ER_ANO_F;Miroir;
+35;DCIR/DCIRS;DA_PRA_R;Référentiel des professionnels de santé;
+36;Causes de décès;KI_CCI_R;Certificats de décès;
+37;Causes de décès;KI_ECD_R;Causes de décès;
+38;CARTOGRAPHIE_PATHOLOGIES;CT_IDE_AAAA_GN;Table individus de la cartographie des pathologies pour l'année AAAA et l'algorithme N;Regime general
+39;CARTOGRAPHIE_PATHOLOGIES;CT_IND_AAAA_GN;Table pathologies de la cartographie des pathologies pour l'année AAAA et l'algorithme N;Regime general
+40;CARTOGRAPHIE_PATHOLOGIES;CT_DEP_AAAA_GN;Table dépenses de la cartographie des pathologies pour l'année AAAA et l'algorithme N;Regime general
+41;PMSI MCO;T_MCOaa_nnA;Acte CCAM;Public et Privé
+42;PMSI MCO;T_MCOaa_nnB;Description du Séjour;Public et Privé
+43;PMSI MCO;T_MCOaa_nnC;NIR patient et Dates de soin;Public et Privé
+44;PMSI MCO;T_MCOaa_nnD;Diagnostic associé;Public et Privé
+45;PMSI MCO;T_MCOaa_nnE;Etablissement;Public et Privé
+46;PMSI MCO;T_MCOaa_nnUM;Unité médicale;Public et Privé
+47;PMSI MCO;T_MCOaa_nnGV2018;Table de passage en version de GHM à partir de mars de l'année suivante;Public et Privé
+48;PMSI MCO;T_MCOaa_nnUPGV;Types d'autorisations d'unités médicales à portée globale valides;Public et Privé
+49;PMSI MCO;T_MCOaa_nnSTC;Prise en charge;Public
+50;PMSI MCO;T_MCOaa_nnVALO;Valorisation des séjours;Public
+51;PMSI MCO;T_MCOaa_nnDMIP;Fich comp dmi en sus;Public
+52;PMSI MCO;T_MCOaa_nnDIALP;Fich comp dialyse péritonéale en sus;Public
+53;PMSI MCO;T_MCOaa_nnIVG;Fich comp IVG;Public
+54;PMSI MCO;T_MCOaa_nnMED;Fich comp medicament en sus;Public
+55;PMSI MCO;T_MCOaa_nnMEDATU;Fich comp médicament soumis à autorisation temporaire d'utilisation;Public et Privé
+56;PMSI MCO;T_MCOaa_nnMEDTHROMBO;Fich comp Méd. thrombolytiques pour le traitement des AVC ischémiques ;Public
+57;PMSI MCO;T_MCOaa_nnPIE;Fich comp prestation inter établissement;Public
+58;PMSI MCO;T_MCOaa_nnPORG;Fich comp prélévement d'organe;Public
+59;PMSI MCO;T_MCOaa_nnZ;Fich comp radiothérapie;Public
+60;PMSI MCO;T_MCOaa_nnVALOACE;Valorisation des actes et consultations externes;Public
+61;PMSI MCO;T_MCOaa_nnCSTC;ACE NIR/date;Public
+62;PMSI MCO;T_MCOaa_nnFASTC;ACE Entete facture;Public
+63;PMSI MCO;T_MCOaa_nnFBSTC;ACE Prestation;Public
+64;PMSI MCO;T_MCOaa_nnFCSTC;ACE Honoraire;Public
+65;PMSI MCO;T_MCOaa_nnFHSTC;ACE medicament en sus;Public
+66;PMSI MCO;T_MCOaa_nnFLSTC;ACE biologie NABM;Public
+67;PMSI MCO;T_MCOaa_nnFMSTC;ACE actes CCAM;Public
+68;PMSI MCO;T_MCOaa_nnFPSTC;ACE DMI en sus;Public
+69;PMSI MCO;T_MCOaa_nnFA;OQN Entete facture;Privé
+70;PMSI MCO;T_MCOaa_nnFB;OQN Prestation;Privé
+71;PMSI MCO;T_MCOaa_nnFC;OQN Honoraire;Privé
+72;PMSI MCO;T_MCOaa_nnFI;OQN Interruption séjour;Privé
+73;PMSI MCO;T_MCOaa_nnFL;OQN biologie NABM;Privé
+74;PMSI MCO;T_MCOaa_nnFH;OQN medicament en sus;Privé
+75;PMSI MCO;T_MCOaa_nnFM;OQN actes CCAM;Privé
+76;PMSI MCO;T_MCOaa_nnFP;OQN DMI en sus;Privé
+77;PMSI HAD;T_HADaa_nnA;Table des actes;Public et Privé
+78;PMSI HAD;T_HADaa_nnB;Table des Résumés Anonyme Par Sous-Séquence (RAPSS);Public et Privé
+79;PMSI HAD;T_HADaa_nnC;Table des NIR foinisé deux fois et date entrè/sortie complètes;Public et Privé
+80;PMSI HAD;T_HADaa_nnE;Table des Etablissements;Public et Privé
+81;PMSI HAD;T_HADaa_nnDMPP;Table des diagnostics liés au MPP (mode de prise en charge principal);Public et Privé
+82;PMSI HAD;T_HADaa_nnDMPA;Table des diagnostics liés au MPA (mode de prise en charge associé);Public et Privé
+83;PMSI HAD;T_HADaa_nnD;Table des diagnostics associés;Public et Privé
+84;PMSI HAD;T_HADaa_nnS;Synthèses des Résumés Anonyme Par Sous-Séquence;Public et Privé
+85;PMSI HAD;T_HADaa_nnGRE;Table des GHT (groupage établissement);Public et Privé
+86;PMSI HAD;T_HADaa_nnGRP;Table des GHT et des GHPC (groupage paprica);Public et Privé
+87;PMSI HAD;T_HADaa_nnMED;Table Molécules onéreuses (fichier COMP);Public
+88;PMSI HAD;T_HADaa_nnSTC;Prise en charge par l'AM de chaque séjour, pour les établissements valorisés STC ;Public
+89;PMSI HAD;T_HADaa_nnFA;TableFA : Table des RSFA début de facture des établissements ex-OQN;Privé
+90;PMSI HAD;T_HADaa_nnFB;Table FB : Table des RSFA facture des établissements ex-OQN;Privé
+91;PMSI HAD;T_HADaa_nnFC;Table FC : Table des RSFA des honoraires des établissements ex-OQN;Privé
+92;PMSI HAD;T_HADaa_nnFH;Table FH : Table des RSFA des Médicaments en sus des établissements ex-OQN;Privé
+93;PMSI HAD;T_HADaa_nnFM;Table FM : Table des RSFA des actes CCAM des établissements ex-OQN;Privé
+94;PMSI HAD;T_HADaa_nnFL;Table FL : Table des actes de biologie (issus de la NABM) des établissements ex-OQN;Privé
+95;PMSI HAD;T_HADaa_nnFI;Table FI : Table des RSFA interruption de séjour des établissements ex-OQN;Privé
+96;PMSI HAD;T_HADaa_nnFP;Table FP : Table des RSFA des LPP/DMI en sus des établissements ex-OQN;Privé
+97;PMSI HAD;T_HADaa_nnMEDATU;Fich comp médicament soumis à autorisation temporaire d'utilisation;Public et Privé
+98;PMSI HAD;T_HADaa_nnMEDCHL;Fich comp Médicament coûteux hors liste en sus et hors ATU;Public et Privé
+99;PMSI HAD;T_HADaa_nnEHPA;Table des conventions HAD-EHPA;Public et Privé
+100;PMSI SSR;T_SSRaa_nnB;Description du Séjour;Public et Privé
+101;PMSI SSR;T_SSRaa_nnC;NIR patient et Dates de soin;Public et Privé
+102;PMSI SSR;T_SSRaa_nnCCAM;Acte CCAM;Public et Privé
+103;PMSI SSR;T_SSRaa_nnCSARR;actes du Catalogue spécifique des actes de rééducation et réadaptation;Public et Privé
+104;PMSI SSR;T_SSRaa_nnD;diagnostic associé;Public et Privé
+105;PMSI SSR;T_SSRaa_nnE;Etablissement;Public et Privé
+106;PMSI SSR;T_SSRaa_nnS;synthese;Public et Privé
+107;PMSI SSR;T_SSRaa_nnGME;GME;Public et Privé
+108;PMSI SSR;T_SSRaa_nnMED;Med en sus;Public et Privé
+109;PMSI SSR;T_SSRaa_nnMEDATU;Med à autorisation temporaire d'utilisation;Public et Privé
+110;PMSI SSR;T_SSRaa_nnLEG;Erreurs détectées par la fonction groupage;Public et Privé
+111;PMSI SSR;T_SSRaa_nnSTC;facturation patient DGF;Public
+112;PMSI SSR;T_SSRaa_nnCSTC;ACE NIR/date;Public
+113;PMSI SSR;T_SSRaa_nnFASTC;ACE Entete facture;Public
+114;PMSI SSR;T_SSRaa_nnFBSTC;ACE Prestation;Public
+115;PMSI SSR;T_SSRaa_nnFCSTC;ACE Honoraire;Public
+116;PMSI SSR;T_SSRaa_nnFLSTC;ACE actes de biologie (issus de la NABM);Public
+117;PMSI SSR;T_SSRaa_nnFMSTC;ACE actes CCAM;Public
+118;PMSI SSR;T_SSRaa_nnFA;OQN Entete facture;Privé
+119;PMSI SSR;T_SSRaa_nnFB;OQN Prestation;Privé
+120;PMSI SSR;T_SSRaa_nnFC;OQN Honoraire;Privé
+121;PMSI SSR;T_SSRaa_nnFI;OQN Interruption séjour;Privé
+122;PMSI SSR;T_SSRaa_nnFL;OQN actes de biologie (issus de la NABM);Privé
+123;PMSI SSR;T_SSRaa_nnFH;OQN med en sus;Privé
+124;PMSI SSR;T_SSRaa_nnFM;OQN actes CCAM;Privé
+125;PMSI SSR;T_SSRaa_nnFP;OQN DMI en sus;Privé
+126;PMSI RIM-P;T_RIPaa_nnRA;Résumé par acte ambulatoire anonymisé;Public (et qq privé)
+127;PMSI RIM-P;T_RIPaa_nnR3AD;Diagnostic associé à l'acte;Public (et qq privé)
+128;PMSI RIM-P;T_RIPaa_nnRSA;Résumé par séquence;Public et Privé
+129;PMSI RIM-P;T_RIPaa_nnCCAM;Actes CCAM;Public et Privé
+130;PMSI RIM-P;T_RIPaa_nnRSAD;Diagnostic associé à la séquence;Public et Privé
+131;PMSI RIM-P;T_RIPaa_nnC;chainage;Public et Privé
+132;PMSI RIM-P;T_RIPaa_nnE;etablissement;Public et Privé
+133;PMSI RIM-P;T_RIPaa_nnS;Synthèse du Séjour de Résumé par séquence anonymisé;Public et Privé
+134;PMSI RIM-P;T_RIPaa_nnSTC;Prise en charge patient pour etb DG;Public
+135;PMSI RIM-P;T_RIPaa_nnISOCONT;Fich Comp : Isolement et contention;Public
+136;PMSI RIM-P;T_RIPaa_nnFA;debut facture;Privé
+137;PMSI RIM-P;T_RIPaa_nnFB;prestation hospitalière;Privé
+138;PMSI RIM-P;T_RIPaa_nnFC;honoraire;Privé
+139;PMSI RIM-P;T_RIPaa_nnFH;medicament;Privé
+140;PMSI RIM-P;T_RIPaa_nnFI;interruption de sejour;Privé
+141;PMSI RIM-P;T_RIPaa_nnFL;actes de Biologie;Privé
+142;PMSI RIM-P;T_RIPaa_nnFM;ccam;Privé
+143;PMSI RIM-P;T_RIPaa_nnFP;prothese;Privé

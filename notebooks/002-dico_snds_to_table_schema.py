@@ -31,36 +31,21 @@ pd.options.display.max_rows = 30
 pd.options.display.max_columns = 100
 pd.options.display.max_colwidth = 100
 
-# +
-from table_schema_to_markdown import convert_source
+from src.add_keys import add_dcirs_key_to_schemas
+from src.convert import convert_schemas_to_markdown, create_sql_schema_from_docker, create_relational_diagram_from_host
+from src.reformat_snds_dico import snds_dico_to_schemas
+from src.utils import is_running_in_docker
 
-from src.reformat_snds_dico import get_dico_snds_variables, write_all_schema
-from src.add_keys import add_dcirs_keys
-from src.convert import convert_schemas_to_markdown, create_schemas_in_sql_storage
-# -
-
-dico_snds_path = '../dico-snds'
-tableschema_dir = 'data/tableschema'
-df = get_dico_snds_variables(dico_snds_path)
-df.to_csv('data/variables.csv', index=False)
-write_all_schema(df, 'data/tableschema')
+snds_dico_to_schemas()
+add_dcirs_key_to_schemas()
+convert_schemas_to_markdown()
 
 
-dcirs_dir = 'data/tableschema/dcirs'
-add_dcirs_keys(dcirs_dir)
+if is_running_in_docker():
+    create_sql_schema_from_docker()
+else:
+    create_relational_diagram_from_host()
 
-
-convert_schemas_to_markdown(tableschema_dir)
-
-
-
-# +
-from sqlalchemy import create_engine
-engine = create_engine('postgresql://postgres@localhost:5432/postgres')
-engine = create_engine('sqlite:///notebooks/ignore/db.sql')
-
-create_schemas_in_sql_storage(dcirs_dir, engine)
-# -
 
 
 

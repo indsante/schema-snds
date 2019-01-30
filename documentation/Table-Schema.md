@@ -49,4 +49,48 @@ Nous souhaitons par ailleurs développer des outils permettant de
 
 L'adoption de la spécification Table Schema est encouragée pour améliorer la qualité des données publiées en open-data.
 
-Etalab référence ainsi quelques schemas de données publiques sur [GitHub](https://github.com/etalab/schema.data.gouv.fr). 
+Etalab référence ainsi quelques schemas de données publiques sur [GitHub](https://github.com/etalab/schema.data.gouv.fr).
+
+## minimal
+
+
+Field descriptor
+
+    {
+      "name": "name of field (e.g. column name)", // REQUIRED 
+      "title": "A nicer human readable label or title for the field",
+      "type": "A string specifying the type",
+      "format": "A string specifying a format",
+      "description": "A description for the field",
+      "constraints": {
+          // a constraints-descriptor
+      }
+    }
+
+
+Table Schema descriptor
+
+    {
+      // fields is an ordered list of field descriptors
+      // one for each field (column) in the table
+      "fields": [ // REQUIRED
+        // FIELDS DESCRIPTORS
+      ],
+      // specification of missing values
+      "missingValues": [
+        ...
+      ],
+      // (optional) specification of the primary key
+      "primaryKey": ...
+      // (optional) specification of the foreign keys
+      "foreignKeys": [
+        {
+          "fields": "state-code"
+          "reference": {
+            "resource": "referenced table",
+            "fields": "code"
+          }
+        }
+      ]
+    }
+

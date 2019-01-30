@@ -11,3 +11,19 @@ def get_schemas_in_directory(schemas_directory: str) -> List[Schema]:
         schemas.append(Schema(path))
 
     return schemas
+
+
+def is_running_in_docker():
+    proc_cgroup_file = os.path.join('/', 'proc', 'self', 'cgroup')
+    if not os.path.exists(proc_cgroup_file):
+        return False
+
+    with open(proc_cgroup_file, 'r') as f:
+        for line in f.readlines():
+            t = line.split('/')
+            if len(t) < 2:
+                continue
+            if t[1] == 'docker':
+                return True
+
+    return False

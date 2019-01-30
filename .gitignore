@@ -2,6 +2,8 @@ venv/
 .ipynb_checkpoints/
 *.ipynb
 
+data/*
+!data/dico-snds
 
 .idea/
 .pytest_cache

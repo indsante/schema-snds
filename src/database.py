@@ -1,10 +1,11 @@
 import logging
-import subprocess
 from time import sleep
 
 from sqlalchemy import create_engine
 from sqlalchemy.engine import Engine
 from sqlalchemy.exc import OperationalError
+
+from src.utils import is_running_in_docker
 
 
 def get_sqlite_engine() -> Engine:
@@ -12,19 +13,8 @@ def get_sqlite_engine() -> Engine:
 
 
 def get_postgres_engine() -> Engine:
-    return create_engine('postgresql://postgres@localhost:5432/postgres')
-
-
-def start_postgres() -> None:
-    logging.info('Starting PostgreSQL via docker-compose')
-    subprocess.run('docker-compose up -d postgres'.split())
-    engine = get_postgres_engine()
-    wait_for_postgres(engine)
-
-
-def stop_postgres() -> None:
-    logging.info('Stopping PostgreSQL via docker-compose')
-    subprocess.run('docker-compose stop postgres'.split())
+    postgres_host = 'postgres' if is_running_in_docker() else 'localhost'
+    return create_engine('postgresql://postgres@{}:5432/postgres'.format(postgres_host))
 
 
 def wait_for_postgres(engine: Engine, max_waiting_time: int = 10):

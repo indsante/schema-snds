@@ -1,19 +1,20 @@
+import logging
 import os
 import re
 from collections import defaultdict
 from typing import Tuple
-import logging
+
 import pandas as pd
 from tableschema import Schema
 
-from src.constants import STRING, NUMBER, DATE, DATETIME, ANY
+from src.constants import STRING, NUMBER, DATE, DATETIME, ANY, DICO_SNDS_PATH, MAIN_SCHEMA_DIR
 
 FORMAT_SOURCE = 'format_source'
 PRODUIT = 'produit'
 
 
-def read_snds_vars(dico_snds_path: str) -> pd.DataFrame:
-    snds_vars_path = os.path.join(dico_snds_path, 'app', 'app_data', 'snds_vars.csv')
+def read_snds_vars() -> pd.DataFrame:
+    snds_vars_path = os.path.join(DICO_SNDS_PATH, 'snds_vars.csv')
     return (pd
             .read_csv(snds_vars_path)
             .rename(columns={'var': 'variable',
@@ -66,8 +67,8 @@ def convert_to_table_schema_type(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-def read_snds_table_lib(dico_snds_path: str) -> pd.DataFrame:
-    snds_vars_path = os.path.join(dico_snds_path, 'app', 'app_data', 'SNDS_tables_lib.csv')
+def read_snds_table_lib() -> pd.DataFrame:
+    snds_vars_path = os.path.join(DICO_SNDS_PATH, 'SNDS_tables_lib.csv')
     df = (pd
           .read_csv(snds_vars_path, sep=';', dtype=str)
           .rename(columns={'Unnamed: 0': 'table_id',
@@ -96,21 +97,21 @@ def merge_vars_table(df_vars, df_table_lib):
     return df
 
 
-def get_dico_snds_variables(dico_snds_path: str) -> pd.DataFrame:
+def get_dico_snds_variables() -> pd.DataFrame:
     logging.info("Reformat and combine informations from dico-snds files 'snds_vars.csv' and 'SNDS_tables_lib.csv'")
-    df_vars = read_snds_vars(dico_snds_path)
+    df_vars = read_snds_vars()
     df_vars = add_type_and_length_columns(df_vars)
     df_vars = convert_to_table_schema_type(df_vars)
-    df_table_lib = read_snds_table_lib(dico_snds_path)
+    df_table_lib = read_snds_table_lib()
     df = merge_vars_table(df_vars, df_table_lib)
     return df
 
 
-def write_all_schema(df: pd.DataFrame, directory: str) -> None:
+def write_all_schema(df: pd.DataFrame) -> None:
     logging.info("Write all raw tableschema from 'snds-dico'")
     for i, ((produit, table_name), df_table) in enumerate(df.groupby([PRODUIT, 'table'])):
         schema = get_table_schema(df_table, table_name)
-        path = os.path.join(directory, produit, table_name + '.json')
+        path = os.path.join(MAIN_SCHEMA_DIR, produit, table_name + '.json')
         schema.save(path, ensure_ascii=False)
 
 
@@ -124,3 +125,10 @@ def get_table_schema(df_table: pd.DataFrame, table_name: str) -> Schema:
         })
     descriptor = {'fields': fields, 'title': table_name}
     return Schema(descriptor, strict=True)
+
+
+def snds_dico_to_schemas():
+    df = get_dico_snds_variables()
+    logging.info("Write reformated snds-dico information")
+    df.to_csv('data/variables.csv', index=False)
+    write_all_schema(df)

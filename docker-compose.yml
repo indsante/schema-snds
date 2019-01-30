@@ -1,5 +1,12 @@
 version: "3"
 services:
+  python:
+    build: .
+    volumes:
+      - .:/usr/src/app
+    ports:
+    - 8888:8888
+
   postgres:
     image: postgres:11.1-alpine
     ports:

@@ -1,0 +1,13 @@
+.DS_Store
+.dockerignore
+.env
+.git
+.gitignore
+.gitlab
+.idea
+.pytest_cache
+**/__pycache__
+data
+documentation
+notebooks
+venv

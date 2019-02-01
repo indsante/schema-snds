@@ -1,5 +1,5 @@
-import pytest
 import pandas as pd
+import pytest
 
 from src.reformat_snds_dico import FORMAT_SOURCE, extract_type_and_length, add_type_and_length_columns
 
@@ -25,10 +25,10 @@ def test_add_type_and_length():
         FORMAT_SOURCE: ['Numérique (4)', 'Caractère (2)'],
         'type': ['numérique ', 'caractère '],
         'length': ['4', '2']
-    })
+    },
+        columns=[FORMAT_SOURCE, 'type', 'length'])
 
     # When
     actual_output = add_type_and_length_columns(input_df)
-    print(actual_output.to_records())
 
     assert expected_output.equals(actual_output)

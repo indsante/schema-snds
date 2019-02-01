@@ -52,6 +52,14 @@ Pour arrêter tous les services
     
     docker-compose stop
 
+Pour tester des modifications du code python, on peut rentrer dans l'image docker:
+```docker-compose run --rm python bash
+```
+Pour windows, en utilisant le terminal [gitbash](https://gitlab.com/DREES/tutoriels/blob/master/tutos/INSTALLATION_GIT_EXE.md) recommandé pour utiliser git et docker, il faut rajouter winpty afin de spéficier que l'on utilise ce bash:
+
+```winpty docker-compose run --rm python bash
+```
+
 Pour le reste, se référer à la documentaiton de Docker-Compose`.
 
 ## 2- Installation permettant d'exécuter le code Python sans Docker

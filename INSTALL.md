@@ -34,6 +34,10 @@ est le système de gestion de versions du code
 
     git clone https://gitlab.com/SNDS/database-schema.git
     cd database-schema
+    cp .env-template .env
+    
+La dernière commande copie le fichier de template contenant les variables d'environnement. 
+Si besoin, modifier les valeurs dans le fichier `.env`, qui est ignoré par git (non versionné).  
 
 1- Installer et démarrer les services
 

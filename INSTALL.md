@@ -24,7 +24,8 @@ simplifie la configuration et la composition de services Docker.
 - [git](https://git-scm.com/book/fr/v1/D%C3%A9marrage-rapide-Installation-de-Git)
 est le système de gestion de versions du code
 
-*Note: il est possible de se passer de git pour une pure utilisation, en téléchargeant une archive zip depuis Gitlab*
+- Pour windows, on recommande le terminal [gitbash](https://gitlab.com/DREES/tutoriels/blob/master/tutos/INSTALLATION_GIT_EXE.md) pour utiliser git et docker. **Il faut ajouter `winpty` devant chaque commande Docker pour l'utiliser.**
+
 
 **Installation**
 
@@ -52,7 +53,12 @@ Pour arrêter tous les services
     
     docker-compose stop
 
-Pour le reste, se référer à la documentaiton de Docker-Compose`.
+Pour tester des modifications du code python, on peut rentrer dans l'image docker:
+
+    docker-compose run --rm python bash
+
+
+Pour le reste, se référer à la documentaiton de Docker-Compose.
 
 ## 2- Installation permettant d'exécuter le code Python sans Docker
 

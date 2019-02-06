@@ -15,7 +15,7 @@ RUN_SCHEMACRAWLER_CONTAINER = 'docker-compose up schemacrawler'
 STOP_POSTGRES_CONTAINER = 'docker-compose stop postgres'
 
 
-def convert_schemas_to_markdown() -> None:
+def table_schema_to_markdown() -> None:
     logging.getLogger('table_schema_to_markdown').setLevel(logging.WARNING)
     logging.info("Convert schemas to Markdown")
     for root, dirs, files in os.walk(MAIN_SCHEMA_DIR):
@@ -27,7 +27,7 @@ def convert_schemas_to_markdown() -> None:
                 convert_source(schema_path, out)
 
 
-def create_schemas_in_sql_storage(schemas_directory: str, engine: Engine) -> None:
+def table_schema_to_sql(schemas_directory: str, engine: Engine) -> None:
     logging.info("Read schemas from '{}' and create them in SQL engine".format(schemas_directory))
     schemas = get_schemas_in_directory(schemas_directory)
     storage = Storage(engine=engine)
@@ -36,11 +36,11 @@ def create_schemas_in_sql_storage(schemas_directory: str, engine: Engine) -> Non
                    force=True)
 
 
-def create_sql_schema_from_docker():
+def table_schema_to_sql_within_docker():
     logging.info("Create relational schema in PostgreSQL running in docker container.")
     engine = get_postgres_engine()
     if does_postgres_accept_connection(engine):
-        create_schemas_in_sql_storage(DCIRS_SCHMEMA_DIR, engine)
+        table_schema_to_sql(DCIRS_SCHMEMA_DIR, engine)
         logging.info("You can now create relational diagram with command `{}`"
                      .format(RUN_SCHEMACRAWLER_CONTAINER))
     else:
@@ -49,14 +49,14 @@ def create_sql_schema_from_docker():
                         .format(START_POSTGRES_CONTAINER_IN_BACKGROUND))
 
 
-def create_relational_diagram_from_host():
+def table_schema_to_relational_diagram_from_host():
     logging.info('Starting PostgreSQL via docker-compose')
     subprocess.run(START_POSTGRES_CONTAINER_IN_BACKGROUND.split())
 
     engine = get_postgres_engine()
     wait_for_postgres(engine)
 
-    create_schemas_in_sql_storage(DCIRS_SCHMEMA_DIR, engine)
+    table_schema_to_sql(DCIRS_SCHMEMA_DIR, engine)
 
     logging.info('Running schemacrawler via docker-compose to create diagram from PostgreSQL')
     subprocess.run(RUN_SCHEMACRAWLER_CONTAINER.split())

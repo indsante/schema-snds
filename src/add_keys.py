@@ -25,7 +25,7 @@ def add_foreign_key(schema: Schema, fields, referenced_table, referenced_fields)
     schema.commit(strict=True)
 
 
-def add_dcirs_key_to_schemas() -> None:
+def add_dcirs_keys_to_table_schema() -> None:
     logging.info("Add primary and foreign key inside DCIRS table schemas")
     for tableschema in os.listdir(DCIRS_SCHMEMA_DIR):
         path = os.path.join(DCIRS_SCHMEMA_DIR, tableschema)

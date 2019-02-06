@@ -127,7 +127,7 @@ def get_table_schema(df_table: pd.DataFrame, table_name: str) -> Schema:
     return Schema(descriptor, strict=True)
 
 
-def snds_dico_to_schemas():
+def dico_snds_to_table_schema():
     df = get_dico_snds_variables()
     logging.info("Write reformated snds-dico information")
     df.to_csv('data/variables.csv', index=False)

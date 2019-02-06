@@ -1,6 +1,7 @@
 # Data directories
 DICO_SNDS_PATH = 'data/dico-snds'
 DCIRS_SCHMEMA_DIR = 'data/tableschema/DCIRS'
+DCIR_SCHMEMA_DIR = 'data/tableschema/DCIR'
 MAIN_SCHEMA_DIR = 'data/tableschema'
 
 # https://frictionlessdata.io/specs/table-schema/#types-and-formats

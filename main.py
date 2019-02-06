@@ -1,13 +1,15 @@
-from src.add_keys import add_dcirs_key_to_schemas
-from src.convert import convert_schemas_to_markdown, create_sql_schema_from_docker, create_relational_diagram_from_host
-from src.reformat_snds_dico import snds_dico_to_schemas
+from src.add_keys import add_dcirs_keys_to_table_schema, add_dcir_keys_to_table_schema
+from src.convert import table_schema_to_markdown, table_schema_to_sql_within_docker, \
+    table_schema_to_relational_diagram_from_host
+from src.reformat_snds_dico import dico_snds_to_table_schema
 from src.utils import is_running_in_docker
 
-snds_dico_to_schemas()
-add_dcirs_key_to_schemas()
-convert_schemas_to_markdown()
+dico_snds_to_table_schema()
+add_dcirs_keys_to_table_schema()
+add_dcir_keys_to_table_schema()
+table_schema_to_markdown()
 
 if is_running_in_docker():
-    create_sql_schema_from_docker()
+    table_schema_to_sql_within_docker()
 else:
-    create_relational_diagram_from_host()
+    table_schema_to_relational_diagram_from_host()

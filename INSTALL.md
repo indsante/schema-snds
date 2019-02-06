@@ -32,7 +32,7 @@ est le système de gestion de versions du code
 0- Copier le projet en local
 
 
-    git clone https://gitlab.com/SNDS/database-schema.git
+    git clone https://gitlab.com/SNDS/schema-snds.git
     cd database-schema
 
 1- Installer et démarrer les services

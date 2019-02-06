@@ -6,7 +6,7 @@ from sqlalchemy.engine.base import Engine
 from table_schema_to_markdown import convert_source
 from tableschema_sql import Storage
 
-from src.constants import DCIRS_SCHMEMA_DIR, MAIN_SCHEMA_DIR
+from src.constants import DCIRS_SCHMEMA_DIR, DCIR_SCHMEMA_DIR, MAIN_SCHEMA_DIR
 from src.database import get_postgres_engine, does_postgres_accept_connection, wait_for_postgres
 from src.utils import get_schemas_in_directory
 
@@ -27,7 +27,7 @@ def table_schema_to_markdown() -> None:
                 convert_source(schema_path, out)
 
 
-def table_schema_to_sql(schemas_directory: str, engine: Engine) -> None:
+def table_schema_directory_to_sql(schemas_directory: str, engine: Engine) -> None:
     logging.info("Read schemas from '{}' and create them in SQL engine".format(schemas_directory))
     schemas = get_schemas_in_directory(schemas_directory)
     storage = Storage(engine=engine)
@@ -36,11 +36,16 @@ def table_schema_to_sql(schemas_directory: str, engine: Engine) -> None:
                    force=True)
 
 
+def table_schema_to_sql(engine):
+    table_schema_directory_to_sql(DCIRS_SCHMEMA_DIR, engine)
+    table_schema_directory_to_sql(DCIR_SCHMEMA_DIR, engine)
+
+
 def table_schema_to_sql_within_docker():
     logging.info("Create relational schema in PostgreSQL running in docker container.")
     engine = get_postgres_engine()
     if does_postgres_accept_connection(engine):
-        table_schema_to_sql(DCIRS_SCHMEMA_DIR, engine)
+        table_schema_to_sql(engine)
         logging.info("You can now create relational diagram with command `{}`"
                      .format(RUN_SCHEMACRAWLER_CONTAINER))
     else:
@@ -56,7 +61,7 @@ def table_schema_to_relational_diagram_from_host():
     engine = get_postgres_engine()
     wait_for_postgres(engine)
 
-    table_schema_to_sql(DCIRS_SCHMEMA_DIR, engine)
+    table_schema_to_sql(engine)
 
     logging.info('Running schemacrawler via docker-compose to create diagram from PostgreSQL')
     subprocess.run(RUN_SCHEMACRAWLER_CONTAINER.split())

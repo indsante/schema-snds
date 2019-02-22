@@ -6,7 +6,7 @@ from sqlalchemy.engine.base import Engine
 from table_schema_to_markdown import convert_source
 from tableschema_sql import Storage
 
-from src.constants import DCIRS_SCHMEMA_DIR, DCIR_SCHMEMA_DIR, MAIN_SCHEMA_DIR
+from src.constants import DCIRS_SCHMEMA_DIR, DCIR_SCHMEMA_DIR, MAIN_SCHEMA_DIR, BENEFICIARY_SCHEMA_DIR
 from src.database import get_postgres_engine, does_postgres_accept_connection, wait_for_postgres
 from src.utils import get_schemas_in_directory
 
@@ -39,6 +39,8 @@ def table_schema_directory_to_sql(schemas_directory: str, engine: Engine) -> Non
 def table_schema_to_sql(engine):
     table_schema_directory_to_sql(DCIRS_SCHMEMA_DIR, engine)
     table_schema_directory_to_sql(DCIR_SCHMEMA_DIR, engine)
+    table_schema_directory_to_sql(BENEFICIARY_SCHEMA_DIR, engine)
+    table_schema_directory_to_sql(, engine)
 
 
 def table_schema_to_sql_within_docker():

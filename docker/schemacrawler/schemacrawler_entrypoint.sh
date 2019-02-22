@@ -3,6 +3,7 @@ echo 'Running schema crawler against PostgreSQL'
 
 /opt/schemacrawler/schemacrawler.sh -command=brief \
 -infolevel=standard \
+-portablenames=true \
 -server=postgresql -host=postgres -port=5432 -user=postgres -database=postgres \
 -title 'Schema DCIR et DCIRS' \
 -only-matching \

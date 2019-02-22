@@ -16,12 +16,6 @@ services:
     image: schemacrawler/schemacrawler
     volumes:
       - ./data/diagram:/share
-    command: >
-      bash -c "echo 'Running schema crawler against PostgreSQL' &&
-      /opt/schemacrawler/schemacrawler.sh
-      -command=schema
-      -infolevel=standard
-      -server=postgresql -host=postgres -port=5432 -user=postgres -database=postgres
-      -title 'Schema DCIR et DCIRS'
-      -outputformat=pdf -outputfile=/share/schema_postgres.pdf &&
-      echo 'Done. Relational diagram has been written in data/diagram'"
+      - ./docker/schemacrawler/schemacrawler_entrypoint.sh:/home/schcrwlr/schemacrawler_entrypoint.sh
+      - ./docker/schemacrawler/schemacrawler.config.properties:/home/schcrwlr/schemacrawler.config.properties
+    command: /bin/bash ./schemacrawler_entrypoint.sh

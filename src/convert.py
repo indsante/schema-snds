@@ -25,7 +25,7 @@ def table_schema_to_markdown() -> None:
             schema_path = os.path.join(root, file)
             markdown_path = schema_path.replace('tableschema', 'markdown').replace('.json', '.md')
             os.makedirs(os.path.dirname(markdown_path), exist_ok=True)
-            with open(markdown_path, 'a', encoding='utf8') as out:
+            with open(markdown_path, 'w', encoding='utf8') as out:
                 convert_source(schema_path, out)
 
 

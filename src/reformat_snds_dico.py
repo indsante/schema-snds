@@ -132,3 +132,4 @@ def dico_snds_to_table_schema():
     logging.info("Write reformated snds-dico information")
     df.to_csv('data/variables.csv', index=False)
     write_all_schema(df)
+

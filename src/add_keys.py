@@ -40,7 +40,9 @@ DECES_JOIN_KEY = ['BEN_IDT_ANO']
 
 def add_primary_key(schema: Schema, primary_key: Union[str, List[str]]) -> None:
     schema.descriptor['primaryKey'] = primary_key
-    schema.commit(strict=True)
+    print(schema.valid) # false
+    print(schema.errors)
+    schema.commit()
 
 
 def add_foreign_key(schema: Schema, fields: Union[str, List[str]], referenced_table: str,
@@ -101,7 +103,12 @@ def add_beneficiary_central_table_DCIR_keys() -> None:
                  "ses tables associés beneficiaires dans le table schema")
     path_beneficiary_dcir = os.path.join(BENEFICIARY_SCHEMA_DIR, BENEFICIARY_CENTRAL_TABLE_DCIR + '.json')
     schema_beneficiary_dcir = Schema(path_beneficiary_dcir)
-    add_primary_key(schema_beneficiary_dcir, BENEFICIARY_CENTRAL_TABLE_DCIR_JOIN_KEY + DECES_JOIN_KEY)
+    #schema_beneficiary_dcir.get_field('BEN_IDT_ANO').descriptor.update({"constraints": {"unique": True}})
+    #schema_beneficiary_dcir.commit()
+    #print(schema_beneficiary_dcir.descriptor)
+    add_primary_key(schema_beneficiary_dcir, BENEFICIARY_CENTRAL_TABLE_DCIR_JOIN_KEY)
+    add_foreign_key(schema_beneficiary_dcir, BENEFICIARY_CENTRAL_TABLE_DCIRS_JOIN_KEY, BENEFICIARY_CENTRAL_TABLE_DCIRS,
+                    BENEFICIARY_CENTRAL_TABLE_DCIRS_JOIN_KEY)
     schema_beneficiary_dcir.save(path_beneficiary_dcir, ensure_ascii=False)
     add_associated_beneficiary_tables_foreign_keys(BENEFICIARY_CENTRAL_TABLE_DCIR,
                                                    BENEFICIARY_DCIR_EXCLUDED_TABLES,

@@ -5,7 +5,7 @@ from typing import Union, List
 from tableschema import Schema
 
 from src.constants import DCIRS_SCHMEMA_DIR, DCIR_SCHMEMA_DIR, DCIR_DCIRS_SCHEMA_DIR, BENEFICIARY_SCHEMA_DIR, \
-    DECES_SCHEMA_DIR
+    DECES_SCHEMA_DIR, CARTO_PATHO_SCHEMA_DIR
 
 DCIRS_CENTRAL_TABLE = 'NS_PRS_F'
 DCIRS_JOIN_KEY = ['CLE_DCI_JNT']
@@ -29,6 +29,7 @@ BENEFICIARY_CENTRAL_TABLE_DCIR_JOIN_KEY = [
     'BEN_RNG_GEM',
 ]
 BENEFICIARY_DCIR_EXCLUDED_TABLES = 'DA_PRA_R.json'
+BENEFICIARY_CENTRAL_TABLE_DCIR_JOIN_KEY_LOWERCASE = [x.lower() for x in BENEFICIARY_CENTRAL_TABLE_DCIR_JOIN_KEY]
 
 BENEFICIARY_CENTRAL_TABLE_DCIRS = 'IR_IBA_R'
 BENEFICIARY_CENTRAL_TABLE_DCIRS_JOIN_KEY = ['BEN_IDT_ANO']
@@ -45,6 +46,9 @@ PS_CHAMP_DCIR_DCIRS = [
     'PFS_PRE_NUM',
     'PRS_MTT_NUM',
 ]
+
+CARTO_PATHO_CENTRAL_TABLE = 'CT_IDE_AAAA_GN'
+CARTO_PATHO_JOIN_KEY = "id_carto"
 
 
 def add_primary_key(schema: Schema, primary_key: Union[str, List[str]]) -> None:
@@ -64,13 +68,15 @@ def add_foreign_key(schema: Schema, fields: Union[str, List[str]], referenced_ta
             'fields': referenced_fields
         }
     }
-
     schema.descriptor['foreignKeys'].append(foreign_key_descriptor)
     schema.commit(strict=True)
 
 
 def add_dcirs_keys() -> None:
     """ Ajout des liens entre la table centrale prestation du DCIRS et ses tables associées
+
+    1) Ajout des clefs primaires et étrangères liant les tables du DCIRS entre elles.
+    2) Ajout du lien entre la table centrale du DCIRS (NS_PRS_F) et la table des professionnels de santé DA_PRA_R
     """
     logging.info("Ajout des liens entre la table centrale prestation du DCIRS et ses tables associées"
                  " dans le table schema")
@@ -89,6 +95,11 @@ def add_dcirs_keys() -> None:
 
 def add_dcir_keys() -> None:
     """ Ajout des liens entre la table centrale prestation du DCIR et ses tables associées
+
+    1) Ajout des clefs primaires et étrangères liant les tables du DCIR entre elles.
+    2) Ajout de la clef étrangère entre la table prestation du DCIR et la table centrale de la cartographie des
+    pathologies
+    3) Ajout du lien entre la table centrale du DCIR (ES_PRS_F) et la table des professionnels de santé DA_PRA_R
     """
     logging.info("Ajout des liens entre la table centrale prestation du DCIR et ses tables associées"
                  " dans le table schema")
@@ -97,6 +108,8 @@ def add_dcir_keys() -> None:
         schema = Schema(path)
         if tableschema_filename == DCIR_CENTRAL_TABLE + '.json':
             add_primary_key(schema, DCIR_JOIN_KEY)
+            add_foreign_key(schema, BENEFICIARY_CENTRAL_TABLE_DCIR_JOIN_KEY, CARTO_PATHO_CENTRAL_TABLE,
+                            BENEFICIARY_CENTRAL_TABLE_DCIR_JOIN_KEY_LOWERCASE)
         else:
             add_foreign_key(schema, DCIR_JOIN_KEY, DCIR_CENTRAL_TABLE, DCIR_JOIN_KEY)
         schema.save(path, ensure_ascii=False)
@@ -121,6 +134,8 @@ def add_beneficiary_central_table_DCIR_keys() -> None:
 
     Toutes les tables DCIR_DCIRS sont des tables associées aux bénéficiaires sauf la table DA_PRA_R qui concerne
     les Professionnels de Santé.
+    1) Liens entre la table référentiel bénéficiaire et ses tables associées
+    2) Liens entre la table centrale beneficiaire DCIR et les tables de décès
     """
     logging.info("Ajout des liens entre la table réferentiel beneficiaire du DCIR IR_BEN_R et "
                  "ses tables associés beneficiaires dans le table schema")
@@ -191,6 +206,7 @@ def add_deces_foreign_keys_with_beneficiary(beneficiary_central_table: str) -> N
         add_foreign_key(schema, DECES_JOIN_KEY, beneficiary_central_table, DECES_JOIN_KEY)
         schema.save(path, ensure_ascii=False)
 
+
 def add_DCIR_beneficiary_link() -> None:
     """
     Ajout des liens entre les tables bénéficiaires et les tables de prestations
@@ -220,7 +236,6 @@ def add_DCIRS_beneficiary_link() -> None:
 def add_DA_PRA_R_keys() -> None:
     """
     Ajout des clefs primaires à la table des professionels de santé DA_PRA_R
-
     """
     logging.info("Ajout des clefs primaires à la table des professionels de santé DA_PRA_R")
     path = os.path.join(DCIR_DCIRS_SCHEMA_DIR, "DA_PRA_R.json")
@@ -233,8 +248,52 @@ def add_da_pra_r_foreign_keys(schema: Schema, path: Union[bytes, str]) -> None:
     """
     Ajout des clefs étrangères aux tables des prestations pointant vers la table des professionnels de santé DA_PRA_R
 
+    Fonction appelée dans la génération des clefs du DCIR et du DCIRS. Pour les trois champs possibles (PFS_EXE_NUM,
+    PFS_PRE_NUM, PRS_MTT_NUM) on crée une clef étrangère pointant la clef principale du DA_PRA_R : PFS_PFS_NUM
     """
     for ps_join_foreign_key in PS_CHAMP_DCIR_DCIRS:
         add_foreign_key(schema, ps_join_foreign_key, 'DA_PRA_R', PS_JOIN_KEY)
         schema.save(path, ensure_ascii=False)
 
+
+def add_cartographie_pathologies_dcir_dircs_foreign_keys() -> None:
+    """
+    Ajout du lien entre les tables associées bénéficiaires et celles de la cartographie des pathologies
+
+    On considère l'ensemble des tables du dossier DCIR_DCIRS sauf celles des professionnels de santé DA_PRA_R.
+    On fait le choix de dire que ce sont les tables associées bénéficiaires qui sont référencés pour la table des
+    individus de la cartographie des pathologies CT_IDE_AAAA_GN (et pas l'inverse) - ce choix est à arbitrer.
+    """
+    for tableschema_filename in os.listdir(DCIR_DCIRS_SCHEMA_DIR):
+        path = os.path.join(DCIR_DCIRS_SCHEMA_DIR, tableschema_filename)
+        schema = Schema(path)
+        if tableschema_filename not in 'DA_PRA_R.json':
+            add_foreign_key(schema, BENEFICIARY_CENTRAL_TABLE_DCIR_JOIN_KEY, CARTO_PATHO_CENTRAL_TABLE,
+                            BENEFICIARY_CENTRAL_TABLE_DCIR_JOIN_KEY_LOWERCASE)
+        schema.save(path, ensure_ascii=False)
+
+
+def add_cartographie_pathologies_foreign_keys() -> None:
+    """
+    Ajout des clefs étrangères aux tables des prestations pointant vers la table des professionnels de santé DA_PRA_R
+
+    Les champs sont en minuscules dans la table principale carto des pathologies.
+    1) On lie la table principale de la cartographie des pathologies (CT_IDE_AAAA_GN) aux tables associés carto à l'aide
+    de la clef unique id_carto
+    2) Déclaration en clefs primaires [ben_nir_psa,ben_rng_gem] afin d'assurer la contrainte d'unicité lorsque les
+    tables DCIR_DCIRS pointent vers la table centrale carto des pathologies.
+    3) Lien avec la table centrales du DCIR benéficiaires (IR_BEN_R)
+    4) On lie la table CT_IDE_AAAA_GN aux tables associées bénéficiaires
+    """
+    for tableschema_filename in os.listdir(CARTO_PATHO_SCHEMA_DIR):
+        path = os.path.join(CARTO_PATHO_SCHEMA_DIR, tableschema_filename)
+        schema = Schema(path)
+        if tableschema_filename == CARTO_PATHO_CENTRAL_TABLE + '.json':
+            schema.update_field('id_carto', {"constraints": {"unique": True}})
+            add_primary_key(schema, BENEFICIARY_CENTRAL_TABLE_DCIR_JOIN_KEY_LOWERCASE)
+            add_foreign_key(schema, BENEFICIARY_CENTRAL_TABLE_DCIR_JOIN_KEY_LOWERCASE, BENEFICIARY_CENTRAL_TABLE_DCIR,
+                            BENEFICIARY_CENTRAL_TABLE_DCIR_JOIN_KEY)
+        else:
+            add_foreign_key(schema, CARTO_PATHO_JOIN_KEY, CARTO_PATHO_CENTRAL_TABLE, CARTO_PATHO_JOIN_KEY)
+        schema.save(path, ensure_ascii=False)
+    add_cartographie_pathologies_dcir_dircs_foreign_keys()

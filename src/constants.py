@@ -5,6 +5,7 @@ DCIR_SCHMEMA_DIR = 'data/tableschema/DCIR'
 DCIR_DCIRS_SCHEMA_DIR = 'data/tableschema/DCIR_DCIRS'
 BENEFICIARY_SCHEMA_DIR = 'data/tableschema/BENEFICIAIRE'
 DECES_SCHEMA_DIR = 'data/tableschema/Causes de décès'
+CARTO_PATHO_SCHEMA_DIR = 'data/tableschema/CARTOGRAPHIE_PATHOLOGIES'
 MAIN_SCHEMA_DIR = 'data/tableschema'
 
 # Data files

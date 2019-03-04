@@ -20,7 +20,6 @@ RUN_SCHEMACRAWLER_CONTAINER = 'docker-compose up schemacrawler'
 STOP_POSTGRES_CONTAINER = 'docker-compose stop postgres'
 
 SKIPPED_SCHEMA_DIRS = [
-    'data/tableschema/CARTOGRAPHIE_PATHOLOGIES',
     'data/tableschema/PMSI HAD',
     'data/tableschema/PMSI MCO',
     'data/tableschema/PMSI RIM-P',

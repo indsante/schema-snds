@@ -5,7 +5,8 @@ from typing import Union, List
 from tableschema import Schema
 
 from src.constants import DCIRS_SCHMEMA_DIR, DCIR_SCHMEMA_DIR, DCIR_DCIRS_SCHEMA_DIR, BENEFICIARY_SCHEMA_DIR, \
-    DECES_SCHEMA_DIR, CARTO_PATHO_SCHEMA_DIR
+    DECES_SCHEMA_DIR, CARTO_PATHO_SCHEMA_DIR, PMSI_MCO_SCHEMA_DIR, PMSI_HAD_SCHEMA_DIR, PMSI_RIMP_SCHEMA_DIR, \
+    PMSI_SSR_SCHEMA_DIR
 
 DCIRS_CENTRAL_TABLE = 'NS_PRS_F'
 DCIRS_JOIN_KEY = ['CLE_DCI_JNT']
@@ -50,6 +51,29 @@ PS_CHAMP_DCIR_DCIRS = [
 CARTO_PATHO_CENTRAL_TABLE = 'CT_IDE_AAAA_GN'
 CARTO_PATHO_JOIN_KEY = "id_carto"
 
+PMSI_MCO_CENTRAL_TABLE = 'T_MCOaa_nnC'
+PMSI_MCO_JOIN_KEY = [
+    'ETA_NUM',
+    'RSA_NUM',
+]
+
+PMSI_HAD_CENTRAL_TABLE = 'T_HADaa_nnC'
+PMSI_HAD_JOIN_KEY = [
+    'ETA_NUM_EPMSI',
+    'RHAD_NUM',
+]
+
+PMSI_RIMP_CENTRAL_TABLE = 'T_RIPaa_nnC'
+PMSI_RIMP_JOIN_KEY = [
+    'ETA_NUM_EPMSI',
+    'RIP_NUM',
+]
+
+PMSI_SSR_CENTRAL_TABLE = 'T_SSRaa_nnC'
+PMSI_SSR_JOIN_KEY = [
+    'ETA_NUM',
+    'RSA_NUM',
+]
 
 def add_primary_key(schema: Schema, primary_key: Union[str, List[str]]) -> None:
     schema.descriptor['primaryKey'] = primary_key
@@ -297,3 +321,72 @@ def add_cartographie_pathologies_foreign_keys() -> None:
             add_foreign_key(schema, CARTO_PATHO_JOIN_KEY, CARTO_PATHO_CENTRAL_TABLE, CARTO_PATHO_JOIN_KEY)
         schema.save(path, ensure_ascii=False)
     add_cartographie_pathologies_dcir_dircs_foreign_keys()
+
+
+def add_pmsi_mco_keys() -> None:
+    """ Ajout du PMSI MCO
+
+    """
+    logging.info("Ajout des liens entre les tables du PMSI MCO")
+    for tableschema_filename in os.listdir(PMSI_MCO_SCHEMA_DIR):
+        path = os.path.join(PMSI_MCO_SCHEMA_DIR, tableschema_filename)
+        schema = Schema(path)
+        if tableschema_filename == PMSI_MCO_CENTRAL_TABLE + '.json':
+            add_primary_key(schema, PMSI_MCO_JOIN_KEY)
+        else:
+            add_foreign_key(schema, PMSI_MCO_JOIN_KEY, PMSI_MCO_CENTRAL_TABLE, PMSI_MCO_JOIN_KEY)
+        schema.save(path, ensure_ascii=False)
+
+
+def add_pmsi_had_keys() -> None:
+    """ Ajout du PMSI MCO
+
+    """
+    logging.info("Ajout des liens entre les tables du PMSI HAD")
+    for tableschema_filename in os.listdir(PMSI_HAD_SCHEMA_DIR):
+        path = os.path.join(PMSI_HAD_SCHEMA_DIR, tableschema_filename)
+        schema = Schema(path)
+        if tableschema_filename == PMSI_HAD_CENTRAL_TABLE + '.json':
+            add_primary_key(schema, PMSI_HAD_JOIN_KEY)
+        else:
+            add_foreign_key(schema, PMSI_HAD_JOIN_KEY, PMSI_HAD_CENTRAL_TABLE, PMSI_HAD_JOIN_KEY)
+        schema.save(path, ensure_ascii=False)
+
+
+def add_pmsi_rimp_keys() -> None:
+    """ Ajout du PMSI MCO
+
+    """
+    logging.info("Ajout des liens entre les tables du PMSI RIM-P")
+    for tableschema_filename in os.listdir(PMSI_RIMP_SCHEMA_DIR):
+        path = os.path.join(PMSI_RIMP_SCHEMA_DIR, tableschema_filename)
+        schema = Schema(path)
+        if tableschema_filename == PMSI_RIMP_CENTRAL_TABLE + '.json':
+            add_primary_key(schema, PMSI_RIMP_JOIN_KEY)
+        else:
+            add_foreign_key(schema, PMSI_RIMP_JOIN_KEY, PMSI_RIMP_CENTRAL_TABLE, PMSI_RIMP_JOIN_KEY)
+        schema.save(path, ensure_ascii=False)
+
+
+def add_pmsi_ssr_keys() -> None:
+    """ Ajout du PMSI MCO
+
+    """
+    logging.info("Ajout des liens entre les tables du PMSI RIM-P")
+    for tableschema_filename in os.listdir(PMSI_SSR_SCHEMA_DIR):
+        path = os.path.join(PMSI_SSR_SCHEMA_DIR, tableschema_filename)
+        schema = Schema(path)
+        if tableschema_filename == PMSI_SSR_CENTRAL_TABLE + '.json':
+            add_primary_key(schema, PMSI_SSR_JOIN_KEY)
+        else:
+            add_foreign_key(schema, PMSI_SSR_JOIN_KEY, PMSI_SSR_CENTRAL_TABLE, PMSI_SSR_JOIN_KEY)
+        schema.save(path, ensure_ascii=False)
+
+
+def add_pmsi_dcir_link() -> None:
+    """ Ajout du lien entre la table beneficiaire DCIR et les tables beneficiaires des PMSI
+
+    """
+    for tableschema_filename in [PMSI_HAD_CENTRAL_TABLE,PMSI_MCO_CENTRAL_TABLE,PMSI_RIMP_CENTRAL_TABLE,
+                                 PMSI_SSR_CENTRAL_TABLE]:
+        path = os.path.join()

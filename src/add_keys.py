@@ -94,7 +94,7 @@ PMSI_ETAB_TABLES = [
 ]
 
 
-SNIIRAM_TABLES_LINKED_TO_PMSI = [
+PMSI_TABLES_LINKED_TO_SNIIRAM = [
     [PMSI_MCO_CENTRAL_TABLE + ".json", PMSI_MCO_SCHEMA_DIR],
     [PMSI_MCO_EXT_CENTRAL_TABLE + ".json", PMSI_MCO_SCHEMA_DIR],
     [PMSI_RIMP_CENTRAL_TABLE + ".json", PMSI_RIMP_SCHEMA_DIR],
@@ -353,7 +353,10 @@ def add_cartographie_pathologies_foreign_keys() -> None:
 
 
 def add_pmsi_mco_keys() -> None:
-    """ Ajout du PMSI MCO
+    """ Generation des liens entre la table de chainage principale C du PMSI MCO.
+
+    On dissocie les tables se terminant en STC qui correspondent aux actes et consultations externes.
+    On dissocie la table E qui correspond à la table établissement et qui est indépendante du séjour.
     """
     logging.info("Ajout des liens entre les tables du PMSI MCO")
     for tableschema_filename in os.listdir(PMSI_MCO_SCHEMA_DIR):
@@ -373,6 +376,8 @@ def add_pmsi_mco_keys() -> None:
 
 def add_pmsi_mco_etablissement_keys() -> None:
     """ Gestion de la table etablissement E du PMSI MCO
+
+    Lien avec les deux tables de chainage C et CSTC
     """
     path_etab = os.path.join(PMSI_MCO_SCHEMA_DIR, 'T_MCOaa_nnE.json')
     schema_etab = Schema(path_etab)
@@ -386,7 +391,7 @@ def add_pmsi_mco_etablissement_keys() -> None:
 
 
 def add_pmsi_mco_actes_ext_keys() -> None:
-    """ Ajout des liens pour les tables d'actes et consultations externes
+    """ Ajout des liens pour les tables d'actes et consultations externes du PMSI MCO
     """
     for tableschema_filename in ['T_MCOaa_nnVALOACE.json', 'T_MCOaa_nnCSTC.json', 'T_MCOaa_nnFASTC.json',
                                  'T_MCOaa_nnFBSTC.json', 'T_MCOaa_nnFCSTC.json', 'T_MCOaa_nnFHSTC.json',
@@ -402,10 +407,12 @@ def add_pmsi_mco_actes_ext_keys() -> None:
 
 
 def add_pmsi_had_keys() -> None:
-    """ Ajout du PMSI MCO
+    """ Generation des liens entre la table de chainage principale C du PMSI HAD.
 
     Le champ ETA_NUM_EPMSI est nommé ETA_NUM_ePMSI dans la table centrale de chainage du HAD.
-    Modification du fichier SNDS_vars directement.
+    Modification du fichier SNDS_vars réalisée directement.
+    On ne prends pas en compte les deux tables correspondant à des tables établissements indépendantes du séjour :
+    E et EHPA.
     """
     logging.info("Ajout des liens entre les tables du PMSI HAD")
     for tableschema_filename in os.listdir(PMSI_HAD_SCHEMA_DIR):
@@ -420,7 +427,10 @@ def add_pmsi_had_keys() -> None:
 
 
 def add_pmsi_had_etablissement_keys() -> None:
-    """ Gestion de la table etablissement E du PMSI MCO
+    """ Gestion des tables etablissement E et EHPA du PMSI HAD
+
+    Lien avec la table de chainage C et les deux tables établissements avec leurs clefs qui leurs sont propres pour
+    se référer à l'ID Finess de l'établissement.
     """
     for tableschema_keys_etab_had in [['T_HADaa_nnE', 'ETA_NUM'],
                                       ['T_HADaa_nnEHPA', 'ETA_NUM_EPMSI']]:
@@ -435,8 +445,10 @@ def add_pmsi_had_etablissement_keys() -> None:
 
 
 def add_pmsi_rimp_keys() -> None:
-    """ Ajout du PMSI MCO
+    """ AGeneration des liens entre la table de chainage principale C du PMSI RIM-P.
 
+    On ne prend pas en compte la table établissement ni la table R3AD (ambulatoire) qui est difficilement reliable à
+    ce jour.
     """
     logging.info("Ajout des liens entre les tables du PMSI RIM-P")
     for tableschema_filename in os.listdir(PMSI_RIMP_SCHEMA_DIR):
@@ -452,6 +464,8 @@ def add_pmsi_rimp_keys() -> None:
 
 def add_pmsi_rimp_etablissement_keys() -> None:
     """ Gestion de la table etablissement E du PMSI RIMP
+
+    Lien de la table établissement avec la table de chainage C du PMSI RIM-P
     """
     path_etab = os.path.join(PMSI_RIMP_SCHEMA_DIR, 'T_RIPaa_nnE.json')
     schema_etab = Schema(path_etab)
@@ -464,6 +478,10 @@ def add_pmsi_rimp_etablissement_keys() -> None:
 
 
 def add_pmsi_ssr_actes_ext_keys() -> None:
+    """ Ajout des liens pour les tables d'actes et consultations externes du PMSI SSR
+
+    La table de chainage centrale avec le DCIR est la CSTC, les autres sont reliés à celle-ci.
+    """
     for tableschema_filename in ['T_SSRaa_nnCSTC.json', 'T_SSRaa_nnFASTC.json',
                                  'T_SSRaa_nnFBSTC.json', 'T_SSRaa_nnFCSTC.json', 'T_SSRaa_nnFLSTC.json',
                                  'T_SSRaa_nnFMSTC.json']:
@@ -477,8 +495,11 @@ def add_pmsi_ssr_actes_ext_keys() -> None:
 
 
 def add_pmsi_ssr_keys() -> None:
-    """ Ajout du PMSI MCO
+    """ Ajout du PMSI SSR
 
+    Generation des liens entre la table de chainage principale C du PMSI SSR.
+    On dissocie les tables se terminant en STC qui correspondent aux actes et consultations externes.
+    On dissocie la table E qui correspond à la table établissement et qui est indépendante du séjour.
     """
     logging.info("Ajout des liens entre les tables du PMSI SSR")
     for tableschema_filename in os.listdir(PMSI_SSR_SCHEMA_DIR):
@@ -497,6 +518,8 @@ def add_pmsi_ssr_keys() -> None:
 
 def add_pmsi_ssr_etablissement_keys() -> None:
     """ Gestion de la table etablissement E du PMSI MCO
+
+    Lien avec les deux tables de chainage C et CSTC
     """
     path_etab = os.path.join(PMSI_SSR_SCHEMA_DIR, 'T_SSRaa_nnE.json')
     schema_etab = Schema(path_etab)
@@ -512,7 +535,10 @@ def add_pmsi_ssr_etablissement_keys() -> None:
 def add_unicity_constraint_DCIR() -> None:
     """ Ajout de la contrainte d'unicité au champ BEN_NIR_PSA dans les tableschema beneficiaires et prestations du DCIR
 
-    Nécessité d'ajouter cette unicité pour pouvoir faire le chainage entre le DCIR et les tables du PMSI
+    Nécessité d'ajouter cette unicité pour pouvoir faire le chainage entre le DCIR et les tables du PMSI.
+    Utilisation de cette fonction dans la fonction add_pmsi_dcir_link suivante.
+    Cette contrainte d'unicité est obligatoire pour le lien avec postgres ne se vérifie pas dans les faits.
+    Le PMSI n'a pas le rang gemelaire et ne permet donc pas de différencier 2 personnes jumelles de même sexe.
     """
     for tableschema_filename_dir_list in [[BENEFICIARY_CENTRAL_TABLE_DCIR, BENEFICIARY_SCHEMA_DIR],
                                           [DCIR_CENTRAL_TABLE, DCIR_SCHMEMA_DIR]]:
@@ -531,7 +557,7 @@ def add_pmsi_dcir_link() -> None:
     """
     logging.info("Ajout des liens entre les tables du PMSI et les tables du DCIR")
     add_unicity_constraint_DCIR()
-    for tableschema_filename_dir_list in SNIIRAM_TABLES_LINKED_TO_PMSI:
+    for tableschema_filename_dir_list in PMSI_TABLES_LINKED_TO_SNIIRAM:
         path = os.path.join(tableschema_filename_dir_list[1], tableschema_filename_dir_list[0])
         schema = Schema(path)
         add_foreign_key(schema, 'NIR_ANO_17', BENEFICIARY_CENTRAL_TABLE_DCIR, 'BEN_NIR_PSA')

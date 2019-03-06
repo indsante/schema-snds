@@ -19,12 +19,7 @@ START_POSTGRES_CONTAINER_IN_BACKGROUND = 'docker-compose up -d postgres'
 RUN_SCHEMACRAWLER_CONTAINER = 'docker-compose up schemacrawler'
 STOP_POSTGRES_CONTAINER = 'docker-compose stop postgres'
 
-SKIPPED_SCHEMA_DIRS = [
-    'data/tableschema/PMSI HAD',
-    'data/tableschema/PMSI MCO',
-    'data/tableschema/PMSI RIM-P',
-    'data/tableschema/PMSI SSR',
-]
+SKIPPED_SCHEMA_DIRS = []
 
 
 def table_schema_to_markdown() -> None:

@@ -2803,7 +2803,7 @@ mnt_mon, mnt_dmi, mnt_med_atu, mnt_ghs, mnt_exinf, mnt_ghs50, mnt_exh, mnt_supph
 "T_HADaa_nnB","SSEQ_SEJ_DER","Char","Dernière sous séquence du séjour","-"
 "T_HADaa_nnB","SSEQ_SEQ_DER","Char","Dernière sous-séquence de la séquence","-"
 "T_HADaa_nnB","SSEQ_SEQ_NBJ","Num","Nombre de journées entre le début de la sous-séquence et le début de la séquence","-"
-"T_HADaa_nnC","ETA_NUM_ePMSI","char","N° FINESS e-PMSI","-"
+"T_HADaa_nnC","ETA_NUM_EPMSI","char","N° FINESS e-PMSI","-"
 "T_HADaa_nnC","ETA_NUM_GEO","char","Numéro FINESS de l’établissement (code géographique)","-"
 "T_HADaa_nnC","format","char","N° format","-"
 "T_HADaa_nnC","vid_hosp_for","char","N° format VID-HOSP","-"

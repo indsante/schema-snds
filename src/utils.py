@@ -3,13 +3,23 @@ from typing import List
 
 from tableschema import Schema
 
+from src.constants import MAIN_SCHEMA_DIR
+
+
+def get_all_schema(skipped_schemas_directory: List[str] = None) -> List[Schema]:
+    schemas = list()
+    for schema in os.listdir(MAIN_SCHEMA_DIR):
+        schemas_directory = MAIN_SCHEMA_DIR + '/' + schema
+        if skipped_schemas_directory is None or schemas_directory not in skipped_schemas_directory:
+            schemas += get_schemas_in_directory(schemas_directory)
+    return schemas
+
 
 def get_schemas_in_directory(schemas_directory: str) -> List[Schema]:
     schemas = list()
     for table_schema in os.listdir(schemas_directory):
         path = os.path.join(schemas_directory, table_schema)
         schemas.append(Schema(path))
-
     return schemas
 
 

@@ -7,6 +7,9 @@ BENEFICIARY_SCHEMA_DIR = 'data/tableschema/BENEFICIAIRE'
 DECES_SCHEMA_DIR = 'data/tableschema/Causes de décès'
 MAIN_SCHEMA_DIR = 'data/tableschema'
 
+# Data files
+TABLES_SIDEBAR_JS_PATH = 'data/tables_sidebar.js'
+
 # https://frictionlessdata.io/specs/table-schema/#types-and-formats
 
 STRING = 'string'

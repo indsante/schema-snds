@@ -1,3 +1,4 @@
+import json
 import logging
 import os
 import subprocess
@@ -6,8 +7,8 @@ from sqlalchemy.engine.base import Engine
 from table_schema_to_markdown import convert_source
 from tableschema_sql import Storage
 
-from src.constants import DCIRS_SCHMEMA_DIR, DCIR_SCHMEMA_DIR, MAIN_SCHEMA_DIR, BENEFICIARY_SCHEMA_DIR, \
-    DECES_SCHEMA_DIR, DCIR_DCIRS_SCHEMA_DIR
+from src.constants import DCIRS_SCHMEMA_DIR, DCIR_SCHMEMA_DIR, MAIN_SCHEMA_DIR, TABLES_SIDEBAR_JS_PATH, \
+    BENEFICIARY_SCHEMA_DIR, DECES_SCHEMA_DIR, DCIR_DCIRS_SCHEMA_DIR
 from src.database import get_postgres_engine, does_postgres_accept_connection, wait_for_postgres
 from src.utils import get_schemas_in_directory
 
@@ -24,8 +25,24 @@ def table_schema_to_markdown() -> None:
             schema_path = os.path.join(root, file)
             markdown_path = schema_path.replace('tableschema', 'markdown').replace('.json', '.md')
             os.makedirs(os.path.dirname(markdown_path), exist_ok=True)
-            with open(markdown_path, 'a', encoding='utf8') as out:
+            with open(markdown_path, 'w', encoding='utf8') as out:
                 convert_source(schema_path, out)
+
+
+def generate_table_sidebar() -> None:
+    logging.info("Generate 'table_sidebar.js' for VuePress documentation")
+    sidebar = ['']
+    for product_folder in os.listdir(MAIN_SCHEMA_DIR):
+        table_schemas = os.listdir(os.path.join(MAIN_SCHEMA_DIR, product_folder))
+        sidebar.append({
+            'title': product_folder,
+            'children': [product_folder + '/' + table[:-5] for table in table_schemas]
+        })
+
+    with open(TABLES_SIDEBAR_JS_PATH, 'w', encoding='utf8') as f:
+        f.write('module.exports =')
+        json.dump(sidebar, f, ensure_ascii=False, indent=4)
+        f.write(';')
 
 
 def table_schema_directory_to_sql(schemas_directory: str, engine: Engine) -> None:

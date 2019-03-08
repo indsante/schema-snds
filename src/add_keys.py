@@ -5,7 +5,8 @@ from typing import Union, List
 from tableschema import Schema
 
 from src.constants import DCIRS_SCHMEMA_DIR, DCIR_SCHMEMA_DIR, DCIR_DCIRS_SCHEMA_DIR, BENEFICIARY_SCHEMA_DIR, \
-    DECES_SCHEMA_DIR
+    DECES_SCHEMA_DIR, CARTO_PATHO_SCHEMA_DIR, PMSI_MCO_SCHEMA_DIR, PMSI_HAD_SCHEMA_DIR, PMSI_RIMP_SCHEMA_DIR, \
+    PMSI_SSR_SCHEMA_DIR
 
 DCIRS_CENTRAL_TABLE = 'NS_PRS_F'
 DCIRS_JOIN_KEY = ['CLE_DCI_JNT']
@@ -29,6 +30,7 @@ BENEFICIARY_CENTRAL_TABLE_DCIR_JOIN_KEY = [
     'BEN_RNG_GEM',
 ]
 BENEFICIARY_DCIR_EXCLUDED_TABLES = 'DA_PRA_R.json'
+BENEFICIARY_CENTRAL_TABLE_DCIR_JOIN_KEY_LOWERCASE = [x.lower() for x in BENEFICIARY_CENTRAL_TABLE_DCIR_JOIN_KEY]
 
 BENEFICIARY_CENTRAL_TABLE_DCIRS = 'IR_IBA_R'
 BENEFICIARY_CENTRAL_TABLE_DCIRS_JOIN_KEY = ['BEN_IDT_ANO']
@@ -38,6 +40,68 @@ BENEFICIARY_DCIRS_EXCLUDED_TABLES = [
 ]
 
 DECES_JOIN_KEY = ['BEN_IDT_ANO']
+
+PS_JOIN_KEY = 'PFS_PFS_NUM'
+PS_CHAMP_DCIR_DCIRS = [
+    'PFS_EXE_NUM',
+    'PFS_PRE_NUM',
+    'PRS_MTT_NUM',
+]
+
+CARTO_PATHO_CENTRAL_TABLE = 'CT_IDE_AAAA_GN'
+CARTO_PATHO_JOIN_KEY = "id_carto"
+
+PMSI_MCO_CENTRAL_TABLE = 'T_MCOaa_nnC'
+PMSI_MCO_JOIN_KEY = [
+    'ETA_NUM',
+    'RSA_NUM',
+]
+PMSI_MCO_EXT_JOIN_KEY = [
+    'ETA_NUM',
+    'SEQ_NUM'
+]
+PMSI_MCO_EXT_CENTRAL_TABLE = 'T_MCOaa_nnCSTC'
+
+PMSI_HAD_CENTRAL_TABLE = 'T_HADaa_nnC'
+PMSI_HAD_JOIN_KEY = [
+    'ETA_NUM_EPMSI',
+    'RHAD_NUM',
+]
+
+PMSI_RIMP_CENTRAL_TABLE = 'T_RIPaa_nnC'
+PMSI_RIMP_JOIN_KEY = [
+    'ETA_NUM_EPMSI',
+    'RIP_NUM',
+]
+
+PMSI_SSR_CENTRAL_TABLE = 'T_SSRaa_nnC'
+PMSI_SSR_JOIN_KEY = [
+    'ETA_NUM',
+    'RHA_NUM',
+]
+
+PMSI_SSR_EXT_CENTRAL_TABLE = 'T_SSRaa_nnCSTC'
+PMSI_SSR_EXT_JOIN_KEY = [
+    'ETA_NUM',
+    'SEQ_NUM'
+]
+
+PMSI_ETAB_TABLES = [
+    'T_MCOaa_nnE.json',
+    'T_SSRaa_nnE.json',
+    'T_RIPaa_nnE.json',
+    'T_HADaa_nnE.json'
+]
+
+
+PMSI_TABLES_LINKED_TO_SNIIRAM = [
+    [PMSI_MCO_CENTRAL_TABLE + ".json", PMSI_MCO_SCHEMA_DIR],
+    [PMSI_MCO_EXT_CENTRAL_TABLE + ".json", PMSI_MCO_SCHEMA_DIR],
+    [PMSI_RIMP_CENTRAL_TABLE + ".json", PMSI_RIMP_SCHEMA_DIR],
+    [PMSI_SSR_CENTRAL_TABLE + ".json", PMSI_SSR_SCHEMA_DIR],
+    [PMSI_SSR_EXT_CENTRAL_TABLE + ".json", PMSI_SSR_SCHEMA_DIR],
+    [PMSI_HAD_CENTRAL_TABLE + ".json", PMSI_HAD_SCHEMA_DIR]
+]
 
 
 def add_primary_key(schema: Schema, primary_key: Union[str, List[str]]) -> None:
@@ -57,13 +121,15 @@ def add_foreign_key(schema: Schema, fields: Union[str, List[str]], referenced_ta
             'fields': referenced_fields
         }
     }
-
     schema.descriptor['foreignKeys'].append(foreign_key_descriptor)
     schema.commit(strict=True)
 
 
 def add_dcirs_keys() -> None:
     """ Ajout des liens entre la table centrale prestation du DCIRS et ses tables associées
+
+    1) Ajout des clefs primaires et étrangères liant les tables du DCIRS entre elles.
+    2) Ajout du lien entre la table centrale du DCIRS (NS_PRS_F) et la table des professionnels de santé DA_PRA_R
     """
     logging.info("Ajout des liens entre la table centrale prestation du DCIRS et ses tables associées"
                  " dans le table schema")
@@ -75,10 +141,18 @@ def add_dcirs_keys() -> None:
         else:
             add_foreign_key(schema, DCIRS_JOIN_KEY, DCIRS_CENTRAL_TABLE, DCIRS_JOIN_KEY)
         schema.save(path, ensure_ascii=False)
+    path_dcirs = os.path.join(DCIRS_SCHMEMA_DIR, 'NS_PRS_F.json')
+    schema_dcirs = Schema(path_dcirs)
+    add_da_pra_r_foreign_keys(schema_dcirs, path_dcirs)
 
 
 def add_dcir_keys() -> None:
     """ Ajout des liens entre la table centrale prestation du DCIR et ses tables associées
+
+    1) Ajout des clefs primaires et étrangères liant les tables du DCIR entre elles.
+    2) Ajout de la clef étrangère entre la table prestation du DCIR et la table centrale de la cartographie des
+    pathologies
+    3) Ajout du lien entre la table centrale du DCIR (ES_PRS_F) et la table des professionnels de santé DA_PRA_R
     """
     logging.info("Ajout des liens entre la table centrale prestation du DCIR et ses tables associées"
                  " dans le table schema")
@@ -87,9 +161,14 @@ def add_dcir_keys() -> None:
         schema = Schema(path)
         if tableschema_filename == DCIR_CENTRAL_TABLE + '.json':
             add_primary_key(schema, DCIR_JOIN_KEY)
+            add_foreign_key(schema, BENEFICIARY_CENTRAL_TABLE_DCIR_JOIN_KEY, CARTO_PATHO_CENTRAL_TABLE,
+                            BENEFICIARY_CENTRAL_TABLE_DCIR_JOIN_KEY_LOWERCASE)
         else:
             add_foreign_key(schema, DCIR_JOIN_KEY, DCIR_CENTRAL_TABLE, DCIR_JOIN_KEY)
         schema.save(path, ensure_ascii=False)
+    path_dcir = os.path.join(DCIR_SCHMEMA_DIR, 'ER_PRS_F.json')
+    schema_dcir = Schema(path_dcir)
+    add_da_pra_r_foreign_keys(schema_dcir, path_dcir)
 
 
 def update_descriptor_field(schema: Schema, field_name: str, update_dict: dict) -> bool:
@@ -108,6 +187,8 @@ def add_beneficiary_central_table_DCIR_keys() -> None:
 
     Toutes les tables DCIR_DCIRS sont des tables associées aux bénéficiaires sauf la table DA_PRA_R qui concerne
     les Professionnels de Santé.
+    1) Liens entre la table référentiel bénéficiaire et ses tables associées
+    2) Liens entre la table centrale beneficiaire DCIR et les tables de décès
     """
     logging.info("Ajout des liens entre la table réferentiel beneficiaire du DCIR IR_BEN_R et "
                  "ses tables associés beneficiaires dans le table schema")
@@ -177,3 +258,334 @@ def add_deces_foreign_keys_with_beneficiary(beneficiary_central_table: str) -> N
         schema = Schema(path)
         add_foreign_key(schema, DECES_JOIN_KEY, beneficiary_central_table, DECES_JOIN_KEY)
         schema.save(path, ensure_ascii=False)
+
+
+def add_DCIR_beneficiary_link() -> None:
+    """
+    Ajout des liens entre les tables bénéficiaires et les tables de prestations
+
+    """
+    logging.info("Ajout des liens entre la table bénéficiaire du DCIR et les tables de prestations")
+    path = os.path.join(DCIR_SCHMEMA_DIR, DCIR_CENTRAL_TABLE + ".json")
+    schema = Schema(path)
+    add_foreign_key(schema, BENEFICIARY_CENTRAL_TABLE_DCIR_JOIN_KEY, BENEFICIARY_CENTRAL_TABLE_DCIR,
+                    BENEFICIARY_CENTRAL_TABLE_DCIR_JOIN_KEY)
+    schema.save(path, ensure_ascii=False)
+
+
+def add_DCIRS_beneficiary_link() -> None:
+    """
+    Ajout des liens entre les tables bénéficiaires et les tables de prestations
+
+    """
+    logging.info("Ajout des liens entre la table bénéficiaire du DCIRS et les tables de prestations")
+    path = os.path.join(DCIRS_SCHMEMA_DIR, DCIRS_CENTRAL_TABLE + ".json")
+    schema = Schema(path)
+    add_foreign_key(schema, BENEFICIARY_CENTRAL_TABLE_DCIRS_JOIN_KEY, BENEFICIARY_CENTRAL_TABLE_DCIRS,
+                    BENEFICIARY_CENTRAL_TABLE_DCIRS_JOIN_KEY)
+    schema.save(path, ensure_ascii=False)
+
+
+def add_DA_PRA_R_keys() -> None:
+    """
+    Ajout des clefs primaires à la table des professionels de santé DA_PRA_R
+    """
+    logging.info("Ajout des clefs primaires à la table des professionels de santé DA_PRA_R")
+    path = os.path.join(DCIR_DCIRS_SCHEMA_DIR, "DA_PRA_R.json")
+    schema = Schema(path)
+    add_primary_key(schema, PS_JOIN_KEY)
+    schema.save(path, ensure_ascii=False)
+
+
+def add_da_pra_r_foreign_keys(schema: Schema, path: Union[bytes, str]) -> None:
+    """
+    Ajout des clefs étrangères aux tables des prestations pointant vers la table des professionnels de santé DA_PRA_R
+
+    Fonction appelée dans la génération des clefs du DCIR et du DCIRS. Pour les trois champs possibles (PFS_EXE_NUM,
+    PFS_PRE_NUM, PRS_MTT_NUM) on crée une clef étrangère pointant la clef principale du DA_PRA_R : PFS_PFS_NUM
+    """
+    for ps_join_foreign_key in PS_CHAMP_DCIR_DCIRS:
+        add_foreign_key(schema, ps_join_foreign_key, 'DA_PRA_R', PS_JOIN_KEY)
+        schema.save(path, ensure_ascii=False)
+
+
+def add_cartographie_pathologies_dcir_dircs_foreign_keys() -> None:
+    """
+    Ajout du lien entre les tables associées bénéficiaires et celles de la cartographie des pathologies
+
+    On considère l'ensemble des tables du dossier DCIR_DCIRS sauf celles des professionnels de santé DA_PRA_R.
+    On fait le choix de dire que ce sont les tables associées bénéficiaires qui sont référencés pour la table des
+    individus de la cartographie des pathologies CT_IDE_AAAA_GN (et pas l'inverse) - ce choix est à arbitrer.
+    """
+    for tableschema_filename in os.listdir(DCIR_DCIRS_SCHEMA_DIR):
+        path = os.path.join(DCIR_DCIRS_SCHEMA_DIR, tableschema_filename)
+        schema = Schema(path)
+        if tableschema_filename not in 'DA_PRA_R.json':
+            add_foreign_key(schema, BENEFICIARY_CENTRAL_TABLE_DCIR_JOIN_KEY, CARTO_PATHO_CENTRAL_TABLE,
+                            BENEFICIARY_CENTRAL_TABLE_DCIR_JOIN_KEY_LOWERCASE)
+        schema.save(path, ensure_ascii=False)
+
+
+def add_cartographie_pathologies_foreign_keys() -> None:
+    """
+    Ajout des clefs étrangères aux tables des prestations pointant vers la table des professionnels de santé DA_PRA_R
+
+    Les champs sont en minuscules dans la table principale carto des pathologies.
+    1) On lie la table principale de la cartographie des pathologies (CT_IDE_AAAA_GN) aux tables associés carto à l'aide
+    de la clef unique id_carto
+    2) Déclaration en clefs primaires [ben_nir_psa,ben_rng_gem] afin d'assurer la contrainte d'unicité lorsque les
+    tables DCIR_DCIRS pointent vers la table centrale carto des pathologies.
+    3) Lien avec la table centrales du DCIR benéficiaires (IR_BEN_R)
+    4) On lie la table CT_IDE_AAAA_GN aux tables associées bénéficiaires
+    """
+    for tableschema_filename in os.listdir(CARTO_PATHO_SCHEMA_DIR):
+        path = os.path.join(CARTO_PATHO_SCHEMA_DIR, tableschema_filename)
+        schema = Schema(path)
+        if tableschema_filename == CARTO_PATHO_CENTRAL_TABLE + '.json':
+            schema.update_field('id_carto', {"constraints": {"unique": True}})
+            add_primary_key(schema, BENEFICIARY_CENTRAL_TABLE_DCIR_JOIN_KEY_LOWERCASE)
+            add_foreign_key(schema, BENEFICIARY_CENTRAL_TABLE_DCIR_JOIN_KEY_LOWERCASE, BENEFICIARY_CENTRAL_TABLE_DCIR,
+                            BENEFICIARY_CENTRAL_TABLE_DCIR_JOIN_KEY)
+        else:
+            add_foreign_key(schema, CARTO_PATHO_JOIN_KEY, CARTO_PATHO_CENTRAL_TABLE, CARTO_PATHO_JOIN_KEY)
+        schema.save(path, ensure_ascii=False)
+    add_cartographie_pathologies_dcir_dircs_foreign_keys()
+
+
+def add_pmsi_mco_keys() -> None:
+    """ Generation des liens entre la table de chainage principale C du PMSI MCO.
+
+    On dissocie les tables se terminant en STC qui correspondent aux actes et consultations externes.
+    On dissocie la table E qui correspond à la table établissement et qui est indépendante du séjour.
+    """
+    logging.info("Ajout des liens entre les tables du PMSI MCO")
+    for tableschema_filename in os.listdir(PMSI_MCO_SCHEMA_DIR):
+        path = os.path.join(PMSI_MCO_SCHEMA_DIR, tableschema_filename)
+        schema = Schema(path)
+        if tableschema_filename == PMSI_MCO_CENTRAL_TABLE + '.json':
+            add_primary_key(schema, PMSI_MCO_JOIN_KEY)
+        elif tableschema_filename not in ['T_MCOaa_nnCSTC.json', 'T_MCOaa_nnE.json', 'T_MCOaa_nnFASTC.json',
+                                          'T_MCOaa_nnFBSTC.json', 'T_MCOaa_nnFCSTC.json', 'T_MCOaa_nnFHSTC.json',
+                                          'T_MCOaa_nnFLSTC.json', 'T_MCOaa_nnFMSTC.json', 'T_MCOaa_nnFPSTC.json',
+                                          'T_MCOaa_nnVALOACE.json', PMSI_MCO_CENTRAL_TABLE + '.json']:
+            add_foreign_key(schema, PMSI_MCO_JOIN_KEY, PMSI_MCO_CENTRAL_TABLE, PMSI_MCO_JOIN_KEY)
+        schema.save(path, ensure_ascii=False)
+    add_pmsi_mco_actes_ext_keys()
+    add_pmsi_mco_etablissement_keys()
+
+
+def add_pmsi_mco_etablissement_keys() -> None:
+    """ Gestion de la table etablissement E du PMSI MCO
+
+    Lien avec les deux tables de chainage C et CSTC
+    """
+    path_etab = os.path.join(PMSI_MCO_SCHEMA_DIR, 'T_MCOaa_nnE.json')
+    schema_etab = Schema(path_etab)
+    add_primary_key(schema_etab, 'ETA_NUM')
+    schema_etab.save(path_etab, ensure_ascii=False)
+    for tableschema_filename in ['T_MCOaa_nnC.json', 'T_MCOaa_nnCSTC.json']:
+        path = os.path.join(PMSI_MCO_SCHEMA_DIR, tableschema_filename)
+        schema = Schema(path)
+        add_foreign_key(schema, 'ETA_NUM', 'T_MCOaa_nnE', 'ETA_NUM')
+        schema.save(path, ensure_ascii=False)
+
+
+def add_pmsi_mco_actes_ext_keys() -> None:
+    """ Ajout des liens pour les tables d'actes et consultations externes du PMSI MCO
+    """
+    for tableschema_filename in ['T_MCOaa_nnVALOACE.json', 'T_MCOaa_nnCSTC.json', 'T_MCOaa_nnFASTC.json',
+                                 'T_MCOaa_nnFBSTC.json', 'T_MCOaa_nnFCSTC.json', 'T_MCOaa_nnFHSTC.json',
+                                 'T_MCOaa_nnFLSTC.json', 'T_MCOaa_nnFMSTC.json', 'T_MCOaa_nnFPSTC.json']:
+        path = os.path.join(PMSI_MCO_SCHEMA_DIR, tableschema_filename)
+        schema = Schema(path)
+        if tableschema_filename == PMSI_MCO_EXT_CENTRAL_TABLE + '.json':
+            add_primary_key(schema, PMSI_MCO_EXT_JOIN_KEY)
+        else:
+            add_foreign_key(schema, PMSI_MCO_EXT_JOIN_KEY, PMSI_MCO_EXT_CENTRAL_TABLE, PMSI_MCO_EXT_JOIN_KEY)
+        schema.save(path, ensure_ascii=False)
+
+
+
+def add_pmsi_had_keys() -> None:
+    """ Generation des liens entre la table de chainage principale C du PMSI HAD.
+
+    Le champ ETA_NUM_EPMSI est nommé ETA_NUM_ePMSI dans la table centrale de chainage du HAD.
+    Modification du fichier SNDS_vars réalisée directement.
+    On ne prends pas en compte les deux tables correspondant à des tables établissements indépendantes du séjour :
+    E et EHPA.
+    """
+    logging.info("Ajout des liens entre les tables du PMSI HAD")
+    for tableschema_filename in os.listdir(PMSI_HAD_SCHEMA_DIR):
+        path = os.path.join(PMSI_HAD_SCHEMA_DIR, tableschema_filename)
+        schema = Schema(path)
+        if tableschema_filename == PMSI_HAD_CENTRAL_TABLE + '.json':
+            add_primary_key(schema, PMSI_HAD_JOIN_KEY)
+        elif tableschema_filename not in ['T_HADaa_nnE.json', 'T_HADaa_nnEHPA.json', PMSI_HAD_CENTRAL_TABLE + '.json']:
+            add_foreign_key(schema, PMSI_HAD_JOIN_KEY, PMSI_HAD_CENTRAL_TABLE, PMSI_HAD_JOIN_KEY)
+        schema.save(path, ensure_ascii=False)
+    add_pmsi_had_etablissement_keys()
+
+
+def add_pmsi_had_etablissement_keys() -> None:
+    """ Gestion des tables etablissement E et EHPA du PMSI HAD
+
+    Lien avec la table de chainage C et les deux tables établissements avec leurs clefs qui leurs sont propres pour
+    se référer à l'ID Finess de l'établissement.
+    """
+    for tableschema_keys_etab_had in [['T_HADaa_nnE', 'ETA_NUM'],
+                                      ['T_HADaa_nnEHPA', 'ETA_NUM_EPMSI']]:
+        path_etab = os.path.join(PMSI_HAD_SCHEMA_DIR, tableschema_keys_etab_had[0] + '.json')
+        schema_etab = Schema(path_etab)
+        add_primary_key(schema_etab, tableschema_keys_etab_had[1])
+        schema_etab.save(path_etab, ensure_ascii=False)
+        path = os.path.join(PMSI_HAD_SCHEMA_DIR, 'T_HADaa_nnC.json')
+        schema = Schema(path)
+        add_foreign_key(schema, 'ETA_NUM_EPMSI', tableschema_keys_etab_had[0], tableschema_keys_etab_had[1])
+        schema.save(path, ensure_ascii=False)
+
+
+def add_pmsi_rimp_keys() -> None:
+    """ AGeneration des liens entre la table de chainage principale C du PMSI RIM-P.
+
+    On ne prend pas en compte la table établissement ni la table R3AD (ambulatoire) qui est difficilement reliable à
+    ce jour.
+    """
+    logging.info("Ajout des liens entre les tables du PMSI RIM-P")
+    for tableschema_filename in os.listdir(PMSI_RIMP_SCHEMA_DIR):
+        path = os.path.join(PMSI_RIMP_SCHEMA_DIR, tableschema_filename)
+        schema = Schema(path)
+        if tableschema_filename == PMSI_RIMP_CENTRAL_TABLE + '.json':
+            add_primary_key(schema, PMSI_RIMP_JOIN_KEY)
+        elif tableschema_filename not in ['T_RIPaa_nnE.json', 'T_RIPaa_nnR3AD.json', PMSI_RIMP_CENTRAL_TABLE + '.json']:
+            add_foreign_key(schema, PMSI_RIMP_JOIN_KEY, PMSI_RIMP_CENTRAL_TABLE, PMSI_RIMP_JOIN_KEY)
+        schema.save(path, ensure_ascii=False)
+    add_pmsi_rimp_etablissement_keys()
+
+
+def add_pmsi_rimp_etablissement_keys() -> None:
+    """ Gestion de la table etablissement E du PMSI RIMP
+
+    Lien de la table établissement avec la table de chainage C du PMSI RIM-P
+    """
+    path_etab = os.path.join(PMSI_RIMP_SCHEMA_DIR, 'T_RIPaa_nnE.json')
+    schema_etab = Schema(path_etab)
+    add_primary_key(schema_etab, 'ETA_NUM')
+    schema_etab.save(path_etab, ensure_ascii=False)
+    path = os.path.join(PMSI_RIMP_SCHEMA_DIR, 'T_RIPaa_nnC.json')
+    schema = Schema(path)
+    add_foreign_key(schema, 'ETA_NUM_EPMSI', 'T_RIPaa_nnE', 'ETA_NUM')
+    schema.save(path, ensure_ascii=False)
+
+
+def add_pmsi_ssr_actes_ext_keys() -> None:
+    """ Ajout des liens pour les tables d'actes et consultations externes du PMSI SSR
+
+    La table de chainage centrale avec le DCIR est la CSTC, les autres sont reliés à celle-ci.
+    """
+    for tableschema_filename in ['T_SSRaa_nnCSTC.json', 'T_SSRaa_nnFASTC.json',
+                                 'T_SSRaa_nnFBSTC.json', 'T_SSRaa_nnFCSTC.json', 'T_SSRaa_nnFLSTC.json',
+                                 'T_SSRaa_nnFMSTC.json']:
+        path = os.path.join(PMSI_SSR_SCHEMA_DIR, tableschema_filename)
+        schema = Schema(path)
+        if tableschema_filename == PMSI_SSR_EXT_CENTRAL_TABLE + '.json':
+            add_primary_key(schema, PMSI_SSR_EXT_JOIN_KEY)
+        else:
+            add_foreign_key(schema, PMSI_SSR_EXT_JOIN_KEY, PMSI_SSR_EXT_CENTRAL_TABLE, PMSI_SSR_EXT_JOIN_KEY)
+        schema.save(path, ensure_ascii=False)
+
+
+def add_pmsi_ssr_keys() -> None:
+    """ Ajout du PMSI SSR
+
+    Generation des liens entre la table de chainage principale C du PMSI SSR.
+    On dissocie les tables se terminant en STC qui correspondent aux actes et consultations externes.
+    On dissocie la table E qui correspond à la table établissement et qui est indépendante du séjour.
+    """
+    logging.info("Ajout des liens entre les tables du PMSI SSR")
+    for tableschema_filename in os.listdir(PMSI_SSR_SCHEMA_DIR):
+        path = os.path.join(PMSI_SSR_SCHEMA_DIR, tableschema_filename)
+        schema = Schema(path)
+        if tableschema_filename == PMSI_SSR_CENTRAL_TABLE + '.json':
+            add_primary_key(schema, PMSI_SSR_JOIN_KEY)
+        elif tableschema_filename not in ['T_SSRaa_nnCSTC.json', PMSI_SSR_CENTRAL_TABLE + '.json',
+                                          'T_SSRaa_nnE.json', 'T_SSRaa_nnFASTC.json', 'T_SSRaa_nnFBSTC.json',
+                                          'T_SSRaa_nnFCSTC.json', 'T_SSRaa_nnFLSTC.json', 'T_SSRaa_nnFMSTC.json']:
+            add_foreign_key(schema, PMSI_SSR_JOIN_KEY, PMSI_SSR_CENTRAL_TABLE, PMSI_SSR_JOIN_KEY)
+        schema.save(path, ensure_ascii=False)
+    add_pmsi_ssr_actes_ext_keys()
+    add_pmsi_ssr_etablissement_keys()
+
+
+def add_pmsi_ssr_etablissement_keys() -> None:
+    """ Gestion de la table etablissement E du PMSI MCO
+
+    Lien avec les deux tables de chainage C et CSTC
+    """
+    path_etab = os.path.join(PMSI_SSR_SCHEMA_DIR, 'T_SSRaa_nnE.json')
+    schema_etab = Schema(path_etab)
+    add_primary_key(schema_etab, 'ETA_NUM')
+    schema_etab.save(path_etab, ensure_ascii=False)
+    for tableschema_filename in ['T_SSRaa_nnC.json', 'T_SSRaa_nnCSTC.json']:
+        path = os.path.join(PMSI_SSR_SCHEMA_DIR, tableschema_filename)
+        schema = Schema(path)
+        add_foreign_key(schema, 'ETA_NUM', 'T_SSRaa_nnE', 'ETA_NUM')
+        schema.save(path, ensure_ascii=False)
+
+
+def add_unicity_constraint_DCIR() -> None:
+    """ Ajout de la contrainte d'unicité au champ BEN_NIR_PSA dans les tableschema beneficiaires et prestations du DCIR
+
+    Nécessité d'ajouter cette unicité pour pouvoir faire le chainage entre le DCIR et les tables du PMSI.
+    Utilisation de cette fonction dans la fonction add_pmsi_dcir_link suivante.
+    Cette contrainte d'unicité est obligatoire pour le lien avec postgres ne se vérifie pas dans les faits.
+    Le PMSI n'a pas le rang gemelaire et ne permet donc pas de différencier 2 personnes jumelles de même sexe.
+    """
+    for tableschema_filename_dir_list in [[BENEFICIARY_CENTRAL_TABLE_DCIR, BENEFICIARY_SCHEMA_DIR],
+                                          [DCIR_CENTRAL_TABLE, DCIR_SCHMEMA_DIR]]:
+        path = os.path.join(tableschema_filename_dir_list[1], tableschema_filename_dir_list[0] + ".json")
+        schema = Schema(path)
+        update_descriptor_field(schema, 'BEN_NIR_PSA', {"constraints": {"unique": True}})
+        schema.save(path, ensure_ascii=False)
+
+
+def add_pmsi_dcir_link() -> None:
+    """ Ajout du lien entre les tables beneficiaire et prestation du DCIR et les tables beneficiaires des PMSI
+
+    Contrainte d'unicité pour BEN_NIR_PSA à rajouter alors que c'est faux ?
+    Generation du lien entre les différentes tables centrales de chainage beneficiaires PMSI avec la table beneficiaire
+    du DCIR et la table prestation du DCIR
+    """
+    logging.info("Ajout des liens entre les tables du PMSI et les tables du DCIR")
+    add_unicity_constraint_DCIR()
+    for tableschema_filename_dir_list in PMSI_TABLES_LINKED_TO_SNIIRAM:
+        path = os.path.join(tableschema_filename_dir_list[1], tableschema_filename_dir_list[0])
+        schema = Schema(path)
+        add_foreign_key(schema, 'NIR_ANO_17', BENEFICIARY_CENTRAL_TABLE_DCIR, 'BEN_NIR_PSA')
+        add_foreign_key(schema, 'NIR_ANO_17', DCIR_CENTRAL_TABLE, 'BEN_NIR_PSA')
+        schema.save(path, ensure_ascii=False)
+
+
+def add_pmsi_keys_to_tableschema() -> None:
+    """ Ajout des clefs associées aux PMSI
+    """
+    add_pmsi_mco_keys()
+    add_pmsi_had_keys()
+    add_pmsi_rimp_keys()
+    add_pmsi_ssr_keys()
+    add_pmsi_ssr_actes_ext_keys()
+    add_pmsi_dcir_link()
+
+
+def add_all_keys_to_tableschema() -> None:
+    """ Fonctions regroupant l'ajout de toutes les clefs primaires et étrangères du SNDS (SNIIRAM + PMSI)
+    """
+    logging.info("Ajout des clefs primaires et étrangères au tableschema")
+    add_DA_PRA_R_keys()
+    add_dcirs_keys()
+    add_dcir_keys()
+    add_beneficiary_central_table_DCIR_keys()
+    add_beneficiary_central_table_DCIRS_keys()
+    add_DCIR_beneficiary_link()
+    add_DCIRS_beneficiary_link()
+    add_cartographie_pathologies_foreign_keys()
+    add_pmsi_keys_to_tableschema()

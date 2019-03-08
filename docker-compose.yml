@@ -5,7 +5,7 @@ services:
     volumes:
       - .:/usr/src/app
     ports:
-    - 8888:8888
+    - 8887:8887
 
   postgres:
     image: postgres:11.1-alpine

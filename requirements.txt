@@ -5,6 +5,6 @@ pandas==0.23.4
 psycopg2-binary==2.7.6.1
 pytest==4.1.1
 SQLAlchemy==1.2.16
--e git+https://github.com/pajachiet/tableschema-py@fix-ascii-conversion-schema#egg=tableschema
+-e git+https://github.com/pajachiet/tableschema-py@master#egg=tableschema
 table-schema-to-markdown
 -e git+https://github.com/pajachiet/tableschema-sql-py@feat-create-comment#egg=tableschema_sql

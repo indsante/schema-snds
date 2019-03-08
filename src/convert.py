@@ -2,16 +2,14 @@ import json
 import logging
 import os
 import subprocess
+from typing import List
 
 from sqlalchemy.engine.base import Engine
 from table_schema_to_markdown import convert_source
-from tableschema_sql import Storage
 from tableschema import Schema
+from tableschema_sql import Storage
 
-from typing import List
-
-from src.constants import DCIRS_SCHMEMA_DIR, DCIR_SCHMEMA_DIR, MAIN_SCHEMA_DIR, TABLES_SIDEBAR_JS_PATH, \
-    BENEFICIARY_SCHEMA_DIR, DECES_SCHEMA_DIR, DCIR_DCIRS_SCHEMA_DIR
+from src.constants import MAIN_SCHEMA_DIR, TABLES_SIDEBAR_JS_PATH
 from src.database import get_postgres_engine, does_postgres_accept_connection, wait_for_postgres
 from src.utils import get_schemas_in_directory
 
@@ -50,15 +48,6 @@ def generate_table_sidebar() -> None:
         f.write(';')
 
 
-# def table_schema_directory_to_sql(schemas_directory: str, engine: Engine, force: bool) -> None:
-#     logging.info("Read schemas from '{}' and create them in SQL engine".format(schemas_directory))
-#     schemas = get_schemas_in_directory(schemas_directory)
-#     storage = Storage(engine=engine)
-#     storage.create([schema.descriptor['title'] for schema in schemas],
-#                    [schema.descriptor for schema in schemas],
-#                    force=force)
-
-
 def get_all_schema(skipped_schemas_directory: List[str]) -> List[Schema]:
     schemas = list()
     for schema in os.listdir(MAIN_SCHEMA_DIR):
@@ -74,14 +63,6 @@ def table_schema_all_directories_to_sql(engine: Engine) -> None:
     storage.create([schema.descriptor['title'] for schema in schemas],
                    [schema.descriptor for schema in schemas],
                    force=True)
-
-# def table_schema_to_sql(engine):
-#     table_schema_directory_to_sql(BENEFICIARY_SCHEMA_DIR, engine, True)
-#     table_schema_directory_to_sql(DCIR_DCIRS_SCHEMA_DIR, engine, True)
-#     table_schema_directory_to_sql(DCIRS_SCHMEMA_DIR, engine, True)
-#     table_schema_directory_to_sql(DCIR_SCHMEMA_DIR, engine, True)
-#     table_schema_directory_to_sql(DECES_SCHEMA_DIR, engine, True)
-#     #table_schema_directory_to_sql(DCIR_DCIRS_SCHEMA_DIR, engine, False)
 
 
 def table_schema_to_sql_within_docker():

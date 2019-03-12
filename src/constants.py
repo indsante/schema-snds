@@ -1,5 +1,6 @@
 # Data directories
 DICO_SNDS_PATH = 'data/dico-snds'
+APP_DICO_SNDS_PATH = 'data/app_dico-snds'
 DCIRS_SCHMEMA_DIR = 'data/tableschema/DCIRS'
 DCIR_SCHMEMA_DIR = 'data/tableschema/DCIR'
 DCIR_DCIRS_SCHEMA_DIR = 'data/tableschema/DCIR_DCIRS'

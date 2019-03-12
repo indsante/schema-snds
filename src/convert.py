@@ -2,16 +2,14 @@ import json
 import logging
 import os
 import subprocess
-from typing import List
 
 from sqlalchemy.engine.base import Engine
 from table_schema_to_markdown import convert_source
-from tableschema import Schema
 from tableschema_sql import Storage
 
 from src.constants import MAIN_SCHEMA_DIR, TABLES_SIDEBAR_JS_PATH
 from src.database import get_postgres_engine, does_postgres_accept_connection, wait_for_postgres
-from src.utils import get_schemas_in_directory
+from src.utils import get_all_schema
 
 START_POSTGRES_CONTAINER_IN_BACKGROUND = 'docker-compose up -d postgres'
 RUN_SCHEMACRAWLER_CONTAINER = 'docker-compose up schemacrawler'
@@ -48,25 +46,16 @@ def generate_table_sidebar() -> None:
         f.write(';')
 
 
-def get_all_schema(skipped_schemas_directory: List[str]) -> List[Schema]:
-    schemas = list()
-    for schema in os.listdir(MAIN_SCHEMA_DIR):
-        schemas_directory = MAIN_SCHEMA_DIR + '/' + schema
-        if schemas_directory not in skipped_schemas_directory:
-            schemas += get_schemas_in_directory(schemas_directory)
-    return schemas
-
-
 def table_schema_all_directories_to_sql(engine: Engine) -> None:
+    logging.info("Create relational schema in PostgreSQL running in docker container.")
     schemas = get_all_schema(SKIPPED_SCHEMA_DIRS)
     storage = Storage(engine=engine)
-    storage.create([schema.descriptor['title'] for schema in schemas],
+    storage.create([schema.descriptor['name'] for schema in schemas],
                    [schema.descriptor for schema in schemas],
                    force=True)
 
 
 def table_schema_to_sql_within_docker():
-    logging.info("Create relational schema in PostgreSQL running in docker container.")
     engine = get_postgres_engine()
     if does_postgres_accept_connection(engine):
         table_schema_all_directories_to_sql(engine)
@@ -78,17 +67,28 @@ def table_schema_to_sql_within_docker():
                         .format(START_POSTGRES_CONTAINER_IN_BACKGROUND))
 
 
-def table_schema_to_relational_diagram_from_host():
+def table_schema_to_relational_diagram_from_host(stop_postgres=False):
     logging.info('Starting PostgreSQL via docker-compose')
     subprocess.run(START_POSTGRES_CONTAINER_IN_BACKGROUND.split())
 
     engine = get_postgres_engine()
     wait_for_postgres(engine)
+    drop_all_tables_postgres(engine)
 
     table_schema_all_directories_to_sql(engine)
 
     logging.info('Running schemacrawler via docker-compose to create diagram from PostgreSQL')
     subprocess.run(RUN_SCHEMACRAWLER_CONTAINER.split())
 
-    logging.info('Stopping PostgreSQL via docker-compose')
-    subprocess.run(STOP_POSTGRES_CONTAINER.split())
+    if stop_postgres:
+        logging.info('Stopping PostgreSQL via docker-compose')
+        subprocess.run(STOP_POSTGRES_CONTAINER.split())
+
+
+def drop_all_tables_postgres(engine):
+    """ This allow a much faster table creation. """
+    engine.execute("""
+    DROP SCHEMA public CASCADE;
+    CREATE SCHEMA public;
+    GRANT ALL ON SCHEMA public TO postgres;
+    GRANT ALL ON SCHEMA public TO public;""")

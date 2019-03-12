@@ -109,21 +109,30 @@ def get_dico_snds_variables() -> pd.DataFrame:
 
 def write_all_schema(df: pd.DataFrame) -> None:
     logging.info("Write all raw tableschema from 'snds-dico'")
-    for i, ((produit, table_name), df_table) in enumerate(df.groupby([PRODUIT, 'table'])):
-        schema = get_table_schema(df_table, table_name)
+    df['champ_table'] = df['champ_table'].fillna('')
+    df_groupby = df.groupby([PRODUIT, 'table', 'libelle_table', 'champ_table'])
+    for i, ((produit, table_name, table_label, table_description),
+            df_table) in enumerate(df_groupby):
+        table_description = 'Champ : ' + table_description if table_description else ''
+        schema = get_table_schema(df_table, produit, table_name, table_label, table_description)
         path = os.path.join(MAIN_SCHEMA_DIR, produit, table_name + '.json')
         schema.save(path, ensure_ascii=False)
 
 
-def get_table_schema(df_table: pd.DataFrame, table_name: str) -> Schema:
+def get_table_schema(df_table: pd.DataFrame, produit: str, table_name: str, table_label: str,
+                     table_description: str) -> Schema:
     fields = list()
     for i, row in df_table.iterrows():
         fields.append({
             'name': row['variable'],
             'description': row['description'],
-            'type': row['type']
+            'type': row['type'],
+            'nomenclature': row['nomenclature'],
+            'length': row['length'],
+
         })
-    descriptor = {'fields': fields, 'title': table_name}
+    descriptor = {'fields': fields, 'name': table_name, 'title': table_label, 'description': table_description,
+                  PRODUIT: produit}
     return Schema(descriptor, strict=True)
 
 
@@ -133,3 +142,6 @@ def dico_snds_to_table_schema():
     df.to_csv('data/variables.csv', index=False)
     write_all_schema(df)
 
+
+if __name__ == '__main__':
+    dico_snds_to_table_schema()

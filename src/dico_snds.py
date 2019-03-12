@@ -46,7 +46,7 @@ def table_schema_to_app_dico():
 
 
 def table_schema_to_snds_variables():
-    dico_produit = "produit"
+    # dico_produit = "produit"
     logging.info("Convert schemas to {}".format(SNDS_VARIABLES_CSV))
     variables_list = []
     for schema in get_all_schema():

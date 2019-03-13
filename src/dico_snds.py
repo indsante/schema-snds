@@ -54,13 +54,15 @@ def table_schema_to_snds_variables():
             descriptor = field.descriptor
             length = descriptor.get('length', '')
             length = ' ({})'.format(length) if length else ''
+            nomenclature = str(descriptor.get('nomenclature', ''))
+            nomenclature = nomenclature if (nomenclature.strip() != 'nan') else '-'
             variables_list.append({
                 # dico_produit: schema.descriptor[SCHEMA_PRODUIT],
                 'table': schema.descriptor['name'],
                 DICO_VARIABLE: descriptor['name'],
                 'format': descriptor['type'] + length,
                 'description': descriptor['description'],
-                'nomenclature': descriptor.get('nomenclature', ''),
+                'nomenclature': nomenclature,
             })
     df = pd.DataFrame(variables_list,
                       columns=[

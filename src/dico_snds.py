@@ -15,7 +15,7 @@ from src.utils import get_all_schema
 
 EDGES_CSV = "snds_links.csv"
 NODES_CSV = "snds_nodes.csv"
-TABLES_CSV = "SNDS_tables_lib.csv"
+TABLES_CSV = "snds_tables.csv"
 SNDS_VARIABLES_CSV = "snds_vars.csv"
 
 DICO_VARIABLE = 'var'
@@ -54,13 +54,15 @@ def table_schema_to_snds_variables():
             descriptor = field.descriptor
             length = descriptor.get('length', '')
             length = ' ({})'.format(length) if length else ''
+            nomenclature = str(descriptor.get('nomenclature', ''))
+            nomenclature = nomenclature if (nomenclature.strip() != 'nan') else '-'
             variables_list.append({
                 # dico_produit: schema.descriptor[SCHEMA_PRODUIT],
                 'table': schema.descriptor['name'],
                 DICO_VARIABLE: descriptor['name'],
                 'format': descriptor['type'] + length,
                 'description': descriptor['description'],
-                'nomenclature': descriptor.get('nomenclature', ''),
+                'nomenclature': nomenclature,
             })
     df = pd.DataFrame(variables_list,
                       columns=[
@@ -70,7 +72,7 @@ def table_schema_to_snds_variables():
         # dico_produit,
         'table', DICO_VARIABLE])
     snds_variable_path = os.path.join(APP_DICO_SNDS_PATH, SNDS_VARIABLES_CSV)
-    df.to_csv(snds_variable_path, index=False, sep=';')
+    df.to_csv(snds_variable_path, index=False)
 
 
 def table_schema_to_snds_tables():
@@ -89,7 +91,7 @@ def table_schema_to_snds_tables():
     df = pd.DataFrame(table_list, columns=[dico_produit, dico_table, dico_libelle])
     df = df.sort_values([dico_produit, dico_table, dico_libelle])
     snds_table_path = os.path.join(APP_DICO_SNDS_PATH, TABLES_CSV)
-    df.to_csv(snds_table_path, index=True, sep=';')
+    df.to_csv(snds_table_path, index=False)
 
 
 def table_schema_to_snds_graph():

@@ -10,7 +10,7 @@ services:
   postgres:
     image: postgres:11.1-alpine
     ports:
-     - "${POSTGRES_PORT}:5432"
+     - "5432:5432"
 
   schemacrawler:
     image: schemacrawler/schemacrawler

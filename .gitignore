@@ -5,7 +5,7 @@ venv/
 *.ipynb
 
 data/*
-!data/dico-snds
+!data/sources
 
 .idea/
 .pytest_cache

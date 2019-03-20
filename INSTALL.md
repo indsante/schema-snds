@@ -59,7 +59,7 @@ Pour tester des modifications du code python, on peut rentrer dans l'image docke
     docker-compose run --rm python bash
 
 
-Pour le reste, se référer à la documentaiton de Docker-Compose.
+Pour le reste, se référer à la documentation de Docker-Compose.
 
 ## 2- Installation permettant d'exécuter le code Python sans Docker
 

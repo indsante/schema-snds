@@ -13,9 +13,9 @@ services:
      - "5432:5432"
 
   schemacrawler:
-    image: schemacrawler/schemacrawler
+    image: schemacrawler/schemacrawler:v15.05.01
     volumes:
-      - ./data/diagram:/share
+      - ./data/byproducts/relational_diagram:/share
       - ./docker/schemacrawler/schemacrawler_entrypoint.sh:/home/schcrwlr/schemacrawler_entrypoint.sh
       - ./docker/schemacrawler/schemacrawler.config.properties:/home/schcrwlr/schemacrawler.config.properties
     command: /bin/bash ./schemacrawler_entrypoint.sh

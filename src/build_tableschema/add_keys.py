@@ -128,7 +128,7 @@ def add_foreign_key(schema: Schema, fields: Union[str, List[str]], referenced_ta
 def add_dcirs_keys() -> None:
     """ Ajout des liens entre la table centrale prestation du DCIRS et ses tables associées
 
-    1) Ajout des clefs primaires et étrangères liant les tables du DCIRS entre elles.
+    1) Ajout des clefs primaires et étrangères liant les tables du DCIRS entre elles
     2) Ajout du lien entre la table centrale du DCIRS (NS_PRS_F) et la table des professionnels de santé DA_PRA_R
     """
     logging.info("Ajout des liens entre la table centrale prestation du DCIRS et ses tables associées"
@@ -187,8 +187,9 @@ def add_beneficiary_central_table_DCIR_keys() -> None:
 
     Toutes les tables DCIR_DCIRS sont des tables associées aux bénéficiaires sauf la table DA_PRA_R qui concerne
     les Professionnels de Santé.
-    1) Liens entre la table référentiel bénéficiaire et ses tables associées
-    2) Liens entre la table centrale beneficiaire DCIR et les tables de décès
+    1) Ajout du lien entre la table référentiel bénéficiaire du DCIR et celle du DCIRS
+    3) Liens entre la table référentiel bénéficiaire et ses tables associées
+    3) Liens entre la table centrale beneficiaire DCIR et les tables de décès
     """
     logging.info("Ajout des liens entre la table réferentiel beneficiaire du DCIR IR_BEN_R et "
                  "ses tables associés beneficiaires dans le table schema")
@@ -196,8 +197,6 @@ def add_beneficiary_central_table_DCIR_keys() -> None:
     schema_beneficiary_dcir = Schema(path_beneficiary_dcir)
     update_descriptor_field(schema_beneficiary_dcir, 'BEN_IDT_ANO', {"constraints": {"unique": True}})
     add_primary_key(schema_beneficiary_dcir, BENEFICIARY_CENTRAL_TABLE_DCIR_JOIN_KEY)
-    add_foreign_key(schema_beneficiary_dcir, BENEFICIARY_CENTRAL_TABLE_DCIRS_JOIN_KEY, BENEFICIARY_CENTRAL_TABLE_DCIRS,
-                    BENEFICIARY_CENTRAL_TABLE_DCIRS_JOIN_KEY)
     schema_beneficiary_dcir.save(path_beneficiary_dcir, ensure_ascii=False)
     add_associated_beneficiary_tables_foreign_keys(BENEFICIARY_CENTRAL_TABLE_DCIR,
                                                    BENEFICIARY_DCIR_EXCLUDED_TABLES,
@@ -262,15 +261,20 @@ def add_deces_foreign_keys_with_beneficiary(beneficiary_central_table: str) -> N
 
 def add_DCIR_beneficiary_link() -> None:
     """
-    Ajout des liens entre les tables bénéficiaires et les tables de prestations
+    Ajout des liens entre la table bénéficiaire DCIR et les tables de prestations DCIR et DCIRS
 
     """
     logging.info("Ajout des liens entre la table bénéficiaire du DCIR et les tables de prestations")
-    path = os.path.join(DCIR_SCHMEMA_DIR, DCIR_CENTRAL_TABLE + ".json")
-    schema = Schema(path)
-    add_foreign_key(schema, BENEFICIARY_CENTRAL_TABLE_DCIR_JOIN_KEY, BENEFICIARY_CENTRAL_TABLE_DCIR,
+    path_dcir = os.path.join(DCIR_SCHMEMA_DIR, DCIR_CENTRAL_TABLE + ".json")
+    schema_dcir = Schema(path_dcir)
+    add_foreign_key(schema_dcir, BENEFICIARY_CENTRAL_TABLE_DCIR_JOIN_KEY, BENEFICIARY_CENTRAL_TABLE_DCIR,
                     BENEFICIARY_CENTRAL_TABLE_DCIR_JOIN_KEY)
-    schema.save(path, ensure_ascii=False)
+    schema_dcir.save(path_dcir, ensure_ascii=False)
+    path_dcirs = os.path.join(DCIRS_SCHMEMA_DIR, DCIRS_CENTRAL_TABLE + ".json")
+    schema_dcirs = Schema(path_dcirs)
+    add_foreign_key(schema_dcirs, BENEFICIARY_CENTRAL_TABLE_DCIRS_JOIN_KEY, BENEFICIARY_CENTRAL_TABLE_DCIR,
+                    BENEFICIARY_CENTRAL_TABLE_DCIRS_JOIN_KEY)
+    schema_dcirs.save(path_dcirs, ensure_ascii=False)
 
 
 def add_DCIRS_beneficiary_link() -> None:
@@ -349,7 +353,6 @@ def add_cartographie_pathologies_foreign_keys() -> None:
         else:
             add_foreign_key(schema, CARTO_PATHO_JOIN_KEY, CARTO_PATHO_CENTRAL_TABLE, CARTO_PATHO_JOIN_KEY)
         schema.save(path, ensure_ascii=False)
-    add_cartographie_pathologies_dcir_dircs_foreign_keys()
 
 
 def add_pmsi_mco_keys() -> None:

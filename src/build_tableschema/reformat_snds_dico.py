@@ -7,14 +7,14 @@ from typing import Tuple
 import pandas as pd
 from tableschema import Schema
 
-from src.constants import STRING, NUMBER, DATE, DATETIME, ANY, DICO_SNDS_PATH, MAIN_SCHEMA_DIR
+from src.constants import STRING, NUMBER, DATE, DATETIME, ANY, SOURCES_DICO_SNDS_DIR, TABLESCHEMA_DIR
 
 FORMAT_SOURCE = 'format_source'
 PRODUIT = 'produit'
 
 
 def read_snds_vars() -> pd.DataFrame:
-    snds_vars_path = os.path.join(DICO_SNDS_PATH, 'snds_vars.csv')
+    snds_vars_path = os.path.join(SOURCES_DICO_SNDS_DIR, 'snds_vars.csv')
     return (pd
             .read_csv(snds_vars_path)
             .rename(columns={'var': 'variable',
@@ -68,7 +68,7 @@ def convert_to_table_schema_type(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def read_snds_table_lib() -> pd.DataFrame:
-    snds_vars_path = os.path.join(DICO_SNDS_PATH, 'SNDS_tables_lib.csv')
+    snds_vars_path = os.path.join(SOURCES_DICO_SNDS_DIR, 'SNDS_tables_lib.csv')
     df = (pd
           .read_csv(snds_vars_path, sep=';', dtype=str)
           .rename(columns={'Unnamed: 0': 'table_id',
@@ -115,7 +115,7 @@ def write_all_schema(df: pd.DataFrame) -> None:
             df_table) in enumerate(df_groupby):
         table_description = 'Champ : ' + table_description if table_description else ''
         schema = get_table_schema(df_table, produit, table_name, table_label, table_description)
-        path = os.path.join(MAIN_SCHEMA_DIR, produit, table_name + '.json')
+        path = os.path.join(TABLESCHEMA_DIR, produit, table_name + '.json')
         schema.save(path, ensure_ascii=False)
 
 
@@ -136,12 +136,11 @@ def get_table_schema(df_table: pd.DataFrame, produit: str, table_name: str, tabl
     return Schema(descriptor, strict=True)
 
 
-def dico_snds_to_table_schema():
+def build_tableschema_from_dico_snds():
     df = get_dico_snds_variables()
     logging.info("Write reformated snds-dico information")
-    df.to_csv('data/variables.csv', index=False)
     write_all_schema(df)
 
 
 if __name__ == '__main__':
-    dico_snds_to_table_schema()
+    build_tableschema_from_dico_snds()

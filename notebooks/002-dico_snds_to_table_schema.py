@@ -31,20 +31,22 @@ pd.options.display.max_rows = 30
 pd.options.display.max_columns = 100
 pd.options.display.max_colwidth = 100
 
-from src.add_keys import add_dcirs_keys
-from src.convert import table_schema_to_markdown, table_schema_to_sql_within_docker, table_schema_to_relational_diagram_from_host
-from src.reformat_snds_dico import dico_snds_to_table_schema
+from src.build_tableschema.add_keys import add_dcirs_keys
+from src.byproducts.convert import table_schema_to_markdown
+from src.byproducts.relational_diagram import generate_postgresql_tables_within_docker, \
+    generate_relational_diagram_from_host
+from src.build_tableschema.reformat_snds_dico import build_tableschema_from_dico_snds
 from src.utils import is_running_in_docker
 
-dico_snds_to_table_schema()
+build_tableschema_from_dico_snds()
 add_dcirs_keys()
 table_schema_to_markdown()
 
 
 if is_running_in_docker():
-    table_schema_to_sql_within_docker()
+    generate_postgresql_tables_within_docker()
 else:
-    table_schema_to_relational_diagram_from_host()
+    generate_relational_diagram_from_host()
 
 
 

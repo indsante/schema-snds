@@ -1,7 +1,7 @@
 import pandas as pd
 import pytest
 
-from src.reformat_snds_dico import FORMAT_SOURCE, extract_type_and_length, add_type_and_length_columns
+from src.build_tableschema.reformat_snds_dico import FORMAT_SOURCE, extract_type_and_length, add_type_and_length_columns
 
 input_arg_to_expected_output = [
     ('Numérique (4)', ['Numérique ', '4']),

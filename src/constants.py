@@ -1,20 +1,24 @@
-# Data directories
-DICO_SNDS_PATH = 'data/dico-snds'
-APP_DICO_SNDS_PATH = 'data/app_dico-snds'
-DCIRS_SCHMEMA_DIR = 'data/tableschema/DCIRS'
-DCIR_SCHMEMA_DIR = 'data/tableschema/DCIR'
-DCIR_DCIRS_SCHEMA_DIR = 'data/tableschema/DCIR_DCIRS'
-BENEFICIARY_SCHEMA_DIR = 'data/tableschema/BENEFICIAIRE'
-DECES_SCHEMA_DIR = 'data/tableschema/Causes de décès'
-CARTO_PATHO_SCHEMA_DIR = 'data/tableschema/CARTOGRAPHIE_PATHOLOGIES'
-PMSI_MCO_SCHEMA_DIR = 'data/tableschema/PMSI MCO'
-PMSI_HAD_SCHEMA_DIR = 'data/tableschema/PMSI HAD'
-PMSI_RIMP_SCHEMA_DIR = 'data/tableschema/PMSI RIM-P'
-PMSI_SSR_SCHEMA_DIR = 'data/tableschema/PMSI SSR'
-MAIN_SCHEMA_DIR = 'data/tableschema'
+from os.path import join
 
-# Data files
-TABLES_SIDEBAR_JS_PATH = 'data/tables_sidebar.js'
+# Data directories
+SOURCES_DICO_SNDS_DIR = 'data/sources'
+
+TABLESCHEMA_DIR = 'data/tableschema'
+
+DCIRS_SCHMEMA_DIR = join(TABLESCHEMA_DIR, 'DCIRS')
+DCIR_SCHMEMA_DIR = join(TABLESCHEMA_DIR, 'DCIR')
+DCIR_DCIRS_SCHEMA_DIR = join(TABLESCHEMA_DIR, 'DCIR_DCIRS')
+BENEFICIARY_SCHEMA_DIR = join(TABLESCHEMA_DIR, 'BENEFICIAIRE')
+DECES_SCHEMA_DIR = join(TABLESCHEMA_DIR, 'Causes de décès')
+CARTO_PATHO_SCHEMA_DIR = join(TABLESCHEMA_DIR, 'CARTOGRAPHIE_PATHOLOGIES')
+PMSI_MCO_SCHEMA_DIR = join(TABLESCHEMA_DIR, 'PMSI MCO')
+PMSI_HAD_SCHEMA_DIR = join(TABLESCHEMA_DIR, 'PMSI HAD')
+PMSI_RIMP_SCHEMA_DIR = join(TABLESCHEMA_DIR, 'PMSI RIM-P')
+PMSI_SSR_SCHEMA_DIR = join(TABLESCHEMA_DIR, 'PMSI SSR')
+
+BYPRODUCTS_DIR = 'data/byproducts'
+DICO_SNDS_DIR = join(BYPRODUCTS_DIR, 'dico_snds')
+TABLES_SIDEBAR_JS_PATH = join(BYPRODUCTS_DIR, 'documentation_snds/tables_sidebar.js')
 
 # https://frictionlessdata.io/specs/table-schema/#types-and-formats
 

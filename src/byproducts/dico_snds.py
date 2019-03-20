@@ -10,7 +10,7 @@ from typing import Union, List
 
 import pandas as pd
 
-from src.constants import APP_DICO_SNDS_PATH
+from src.constants import DICO_SNDS_DIR
 from src.utils import get_all_schema
 
 EDGES_CSV = "snds_links.csv"
@@ -37,9 +37,9 @@ PRODUIT_TO_GROUP = {
 pd.options.display.max_columns = 100
 
 
-def table_schema_to_app_dico():
+def generate_dico_snds():
     logging.info("Convert schemas to dico-snds app data")
-    os.makedirs(APP_DICO_SNDS_PATH, exist_ok=True)
+    os.makedirs(DICO_SNDS_DIR, exist_ok=True)
     table_schema_to_snds_tables()
     table_schema_to_snds_variables()
     table_schema_to_snds_graph()
@@ -71,7 +71,7 @@ def table_schema_to_snds_variables():
     df = df.sort_values([
         # dico_produit,
         'table', DICO_VARIABLE])
-    snds_variable_path = os.path.join(APP_DICO_SNDS_PATH, SNDS_VARIABLES_CSV)
+    snds_variable_path = os.path.join(DICO_SNDS_DIR, SNDS_VARIABLES_CSV)
     df.to_csv(snds_variable_path, index=False)
 
 
@@ -90,7 +90,7 @@ def table_schema_to_snds_tables():
         })
     df = pd.DataFrame(table_list, columns=[dico_produit, dico_table, dico_libelle])
     df = df.sort_values([dico_produit, dico_table, dico_libelle])
-    snds_table_path = os.path.join(APP_DICO_SNDS_PATH, TABLES_CSV)
+    snds_table_path = os.path.join(DICO_SNDS_DIR, TABLES_CSV)
     df.to_csv(snds_table_path, index=False)
 
 
@@ -120,12 +120,12 @@ def table_schema_to_snds_graph():
             })
     df_nodes = pd.DataFrame(list(node_dict.values()), columns=['name', 'description', 'group', 'index', 'nb_vars'])
     df_nodes = df_nodes.sort_values(['index'])
-    snds_nodes_path = os.path.join(APP_DICO_SNDS_PATH, NODES_CSV)
+    snds_nodes_path = os.path.join(DICO_SNDS_DIR, NODES_CSV)
     df_nodes.to_csv(snds_nodes_path, index=False)
 
     df_edges = pd.DataFrame(edge_list, columns=['source', 'target', 'group', 'joint_var'])
     df_edges = df_edges.sort_values(['source', 'target'])
-    snds_edges_path = os.path.join(APP_DICO_SNDS_PATH, EDGES_CSV)
+    snds_edges_path = os.path.join(DICO_SNDS_DIR, EDGES_CSV)
     df_edges.to_csv(snds_edges_path, index=False)
 
 
@@ -143,4 +143,4 @@ def create_join_str(source_fields: Union[str, List[str]], referenced_fields: Uni
 
 
 if __name__ == '__main__':
-    table_schema_to_app_dico()
+    generate_dico_snds()

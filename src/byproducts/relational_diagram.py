@@ -4,7 +4,7 @@ import subprocess
 from sqlalchemy.engine import Engine
 from tableschema_sql import Storage
 
-from src.database import get_postgres_engine, does_postgres_accept_connection, wait_for_postgres
+from src.byproducts.postgres import get_postgres_engine, does_postgres_accept_connection, wait_for_postgres
 from src.utils import get_all_schema
 
 START_POSTGRES_CONTAINER_IN_BACKGROUND = 'docker-compose up -d postgres'

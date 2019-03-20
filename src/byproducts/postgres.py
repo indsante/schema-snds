@@ -8,10 +8,6 @@ from sqlalchemy.exc import OperationalError
 from src.utils import is_running_in_docker
 
 
-def get_sqlite_engine() -> Engine:
-    return create_engine('sqlite:///notebooks/ignore/db.sql')
-
-
 def get_postgres_engine() -> Engine:
     postgres_host = 'postgres' if is_running_in_docker() else 'localhost'
     return create_engine('postgresql://postgres@{}:5432/postgres'.format(postgres_host))

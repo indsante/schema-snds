@@ -9,4 +9,4 @@ echo 'Running schema crawler against PostgreSQL'
 -only-matching \
 -outputformat=pdf -outputfile=/share/schema_postgres.pdf
 
-echo 'Done. Relational diagram has been written in data/diagram'
+echo 'Done. Relational diagram has been written in data/byproducts/relational_diagram'

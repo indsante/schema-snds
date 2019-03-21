@@ -129,7 +129,8 @@ def add_dcirs_keys() -> None:
     """ Ajout des liens entre la table centrale prestation du DCIRS et ses tables associées
 
     1) Ajout des clefs primaires et étrangères liant les tables du DCIRS entre elles
-    2) Ajout du lien entre la table centrale du DCIRS (NS_PRS_F) et la table des professionnels de santé DA_PRA_R
+    2) Lien entre la table référentiel beneficiaire IR_IBA_R et les tables affinées du DCIRS
+    3) Ajout du lien entre la table centrale du DCIRS (NS_PRS_F) et la table des professionnels de santé DA_PRA_R
     """
     logging.info("Ajout des liens entre la table centrale prestation du DCIRS et ses tables associées"
                  " dans le table schema")
@@ -140,6 +141,8 @@ def add_dcirs_keys() -> None:
             add_primary_key(schema, DCIRS_JOIN_KEY)
         else:
             add_foreign_key(schema, DCIRS_JOIN_KEY, DCIRS_CENTRAL_TABLE, DCIRS_JOIN_KEY)
+            add_foreign_key(schema, BENEFICIARY_CENTRAL_TABLE_DCIRS_JOIN_KEY, BENEFICIARY_CENTRAL_TABLE_DCIRS,
+                            BENEFICIARY_CENTRAL_TABLE_DCIRS_JOIN_KEY)
         schema.save(path, ensure_ascii=False)
     path_dcirs = os.path.join(DCIRS_SCHMEMA_DIR, 'NS_PRS_F.json')
     schema_dcirs = Schema(path_dcirs)

@@ -1,26 +1,35 @@
+import logging
 import os
+import shutil
 from typing import List
 
 from tableschema import Schema
 
-from src.constants import TABLESCHEMA_DIR
+from src.constants import DATA_DIR, SOURCES, TABLESCHEMA_DIR
 
 
-def get_all_schema(skipped_schemas_directory: List[str] = None) -> List[Schema]:
-    schemas = list()
-    for schema in os.listdir(TABLESCHEMA_DIR):
-        schemas_directory = TABLESCHEMA_DIR + '/' + schema
-        if skipped_schemas_directory is None or schemas_directory not in skipped_schemas_directory:
-            schemas += get_schemas_in_directory(schemas_directory)
-    return schemas
+def reset_data_directory():
+    logging.info("Reset data directory")
+    for folder in os.listdir(DATA_DIR):
+        folder_path = os.path.join(DATA_DIR, folder)
+        if folder == SOURCES:
+            continue
+        if not os.path.isdir(folder_path):
+            logging.warning("'{}' is not a folder. We do not delete it.".format(folder_path))
+            continue
+        logging.info("Delete folder '{}'".format(folder_path))
+        shutil.rmtree(folder_path, ignore_errors=True)
 
 
-def get_schemas_in_directory(schemas_directory: str) -> List[Schema]:
-    schemas = list()
-    for table_schema in os.listdir(schemas_directory):
-        path = os.path.join(schemas_directory, table_schema)
-        schemas.append(Schema(path))
-    return schemas
+def get_all_schema() -> List[Schema]:
+    return [Schema(schema_path) for schema_path in get_all_schema_path()]
+
+
+def get_all_schema_path() -> List[str]:
+    for root, dirs, files in os.walk(TABLESCHEMA_DIR):
+        for file in files:
+            schema_path = os.path.join(root, file)
+            yield schema_path
 
 
 def is_running_in_docker():

@@ -5,7 +5,7 @@ from sqlalchemy.engine import Engine
 from tableschema_sql import Storage
 
 from src.byproducts.postgres import get_postgres_engine, does_postgres_accept_connection, wait_for_postgres
-from src.utils import get_all_schema
+from src.utils import get_all_schema, is_running_in_docker
 
 START_POSTGRES_CONTAINER_IN_BACKGROUND = 'docker-compose up -d postgres'
 RUN_SCHEMACRAWLER_CONTAINER = 'docker-compose up schemacrawler'
@@ -58,3 +58,10 @@ def drop_all_tables_postgres(engine):
     CREATE SCHEMA public;
     GRANT ALL ON SCHEMA public TO postgres;
     GRANT ALL ON SCHEMA public TO public;""")
+
+
+def generate_relational_diagram():
+    if is_running_in_docker():
+        generate_postgresql_tables_within_docker()
+    else:
+        generate_relational_diagram_from_host()

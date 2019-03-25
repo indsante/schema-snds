@@ -11,10 +11,12 @@ PRODUCT_TO_GROUP['PMSI RIM-P'] = PMSI
 PRODUCT_TO_GROUP['PMSI SSR'] = PMSI
 
 # Data directories
-SOURCES_DICO_SNDS_DIR = 'data/sources'
+DATA_DIR = 'data'
 
-TABLESCHEMA_DIR = 'data/tableschema'
+SOURCES = 'sources'
+SOURCES_DICO_SNDS_DIR = join(DATA_DIR, SOURCES)
 
+TABLESCHEMA_DIR = join(DATA_DIR, 'tableschema')
 DCIRS_SCHMEMA_DIR = join(TABLESCHEMA_DIR, 'DCIRS')
 DCIR_SCHMEMA_DIR = join(TABLESCHEMA_DIR, 'DCIR')
 DCIR_DCIRS_SCHEMA_DIR = join(TABLESCHEMA_DIR, 'DCIR_DCIRS')
@@ -29,11 +31,10 @@ PMSI_HAD_SCHEMA_DIR = join(PMSI_SCHEMA_DIR, 'PMSI HAD')
 PMSI_RIMP_SCHEMA_DIR = join(PMSI_SCHEMA_DIR, 'PMSI RIM-P')
 PMSI_SSR_SCHEMA_DIR = join(PMSI_SCHEMA_DIR, 'PMSI SSR')
 
-BYPRODUCTS_DIR = 'data/byproducts'
+BYPRODUCTS_DIR = join(DATA_DIR, 'byproducts')
 DICO_SNDS_DIR = join(BYPRODUCTS_DIR, 'dico_snds')
 MARKDOWN_DIR = join(BYPRODUCTS_DIR, 'documentation_snds/markdown')
 TABLES_SIDEBAR_JS_PATH = join(BYPRODUCTS_DIR, 'documentation_snds/tables_sidebar.js')
-
 
 # https://frictionlessdata.io/specs/table-schema/#types-and-formats
 

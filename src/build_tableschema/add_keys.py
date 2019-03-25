@@ -582,7 +582,7 @@ def add_pmsi_keys_to_tableschema() -> None:
     add_pmsi_dcir_link()
 
 
-def add_all_keys_to_tableschema() -> None:
+def add_primary_and_foreign_keys_to_tableschema() -> None:
     """ Fonctions regroupant l'ajout de toutes les clefs primaires et étrangères du SNDS (SNIIRAM + PMSI)
     """
     logging.info("Ajout des clefs primaires et étrangères au tableschema")

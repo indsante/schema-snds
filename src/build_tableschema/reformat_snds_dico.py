@@ -7,7 +7,7 @@ from typing import Tuple
 import pandas as pd
 from tableschema import Schema
 
-from src.constants import STRING, NUMBER, DATE, DATETIME, ANY, SOURCES_DICO_SNDS_DIR, TABLESCHEMA_DIR
+from src.constants import STRING, NUMBER, DATE, DATETIME, ANY, SOURCES_DICO_SNDS_DIR, TABLESCHEMA_DIR, PRODUCT_TO_GROUP
 
 FORMAT_SOURCE = 'format_source'
 PRODUIT = 'produit'
@@ -111,11 +111,14 @@ def write_all_schema(df: pd.DataFrame) -> None:
     logging.info("Write all raw tableschema from 'snds-dico'")
     df['champ_table'] = df['champ_table'].fillna('')
     df_groupby = df.groupby([PRODUIT, 'table', 'libelle_table', 'champ_table'])
-    for i, ((produit, table_name, table_label, table_description),
+
+    for i, ((product, table_name, table_label, table_description),
             df_table) in enumerate(df_groupby):
+        product_group = PRODUCT_TO_GROUP[product]
+        path = os.path.join(TABLESCHEMA_DIR, product_group, product, table_name + '.json')
+
         table_description = 'Champ : ' + table_description if table_description else ''
-        schema = get_table_schema(df_table, produit, table_name, table_label, table_description)
-        path = os.path.join(TABLESCHEMA_DIR, produit, table_name + '.json')
+        schema = get_table_schema(df_table, product, table_name, table_label, table_description)
         schema.save(path, ensure_ascii=False)
 
 

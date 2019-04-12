@@ -1,5 +1,10 @@
+import os
 from collections import defaultdict
 from os.path import join
+
+
+RUNNING_TEST = os.getenv('RUNNING_TEST', '')
+TESTS_DIR = 'tests'
 
 # Product groups
 PMSI = 'PMSI'
@@ -32,6 +37,9 @@ PMSI_RIMP_SCHEMA_DIR = join(PMSI_SCHEMA_DIR, 'PMSI RIM-P')
 PMSI_SSR_SCHEMA_DIR = join(PMSI_SCHEMA_DIR, 'PMSI SSR')
 
 BYPRODUCTS_DIR = join(DATA_DIR, 'byproducts')
+if RUNNING_TEST:
+    BYPRODUCTS_DIR = join(TESTS_DIR, BYPRODUCTS_DIR)
+
 DICO_SNDS_DIR = join(BYPRODUCTS_DIR, 'dico_snds')
 MARKDOWN_DIR = join(BYPRODUCTS_DIR, 'documentation_snds/markdown')
 TABLES_SIDEBAR_JS_PATH = join(BYPRODUCTS_DIR, 'documentation_snds/tables_sidebar.js')

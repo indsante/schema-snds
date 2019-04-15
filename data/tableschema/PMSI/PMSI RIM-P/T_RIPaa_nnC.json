@@ -256,7 +256,8 @@
                     "ETA_NUM_EPMSI",
                     "RIP_NUM"
                 ]
-            }
+            },
+            "description": "Bidirectionnel"
         },
         {
             "fields": "NIR_ANO_17",

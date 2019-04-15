@@ -8,6 +8,8 @@ from src.constants import DCIRS_SCHMEMA_DIR, DCIR_SCHMEMA_DIR, DCIR_DCIRS_SCHEMA
     DECES_SCHEMA_DIR, CARTO_PATHO_SCHEMA_DIR, PMSI_MCO_SCHEMA_DIR, PMSI_HAD_SCHEMA_DIR, PMSI_RIMP_SCHEMA_DIR, \
     PMSI_SSR_SCHEMA_DIR
 
+BIDIRECTIONNELLE = 'Bidirectionnel'
+
 NS_PRS_F = 'NS_PRS_F'
 CLE_DCI_JNT = ['CLE_DCI_JNT']
 
@@ -108,7 +110,7 @@ def add_primary_key(schema: Schema, primary_key: Union[str, List[str]]) -> None:
 
 
 def add_foreign_key(schema: Schema, fields: Union[str, List[str]], referenced_table: str,
-                    referenced_fields: Union[str, List[str]]) -> None:
+                    referenced_fields: Union[str, List[str]], description: str = None) -> None:
     if 'foreignKeys' not in schema.descriptor:
         schema.descriptor['foreignKeys'] = list()
 
@@ -119,6 +121,8 @@ def add_foreign_key(schema: Schema, fields: Union[str, List[str]], referenced_ta
             'fields': referenced_fields
         },
     }
+    if description:
+        foreign_key_descriptor['description'] = description
     schema.descriptor['foreignKeys'].append(foreign_key_descriptor)
     schema.commit(strict=True)
 
@@ -198,6 +202,7 @@ def add_beneficiary_central_table_DCIR_keys() -> None:
     schema_beneficiary_dcir = Schema(path_beneficiary_dcir)
     update_descriptor_field(schema_beneficiary_dcir, 'BEN_IDT_ANO', {"constraints": {"unique": True}})
     add_primary_key(schema_beneficiary_dcir, DCIR_BENEFICIARY_JOIN_KEY)
+    add_foreign_key(schema_beneficiary_dcir, BEN_IDT_ANO, IR_IBA_R, BEN_IDT_ANO, BIDIRECTIONNELLE)
     schema_beneficiary_dcir.save(path_beneficiary_dcir, ensure_ascii=False)
     add_associated_beneficiary_tables_foreign_keys(IR_BEN_R,
                                                    DA_PRA_R_json,
@@ -370,7 +375,7 @@ def add_pmsi_mco_keys() -> None:
             add_primary_key(schema, PMSI_MCO_JOIN_KEY)
         elif tableschema_filename[:-5] == PMSI_MCO_C_TABLE:
             add_primary_key(schema, PMSI_MCO_JOIN_KEY)
-            add_foreign_key(schema, PMSI_MCO_JOIN_KEY, PMSI_MCO_B_TABLE, PMSI_MCO_JOIN_KEY)
+            add_foreign_key(schema, PMSI_MCO_JOIN_KEY, PMSI_MCO_B_TABLE, PMSI_MCO_JOIN_KEY, BIDIRECTIONNELLE)
         elif tableschema_filename not in ['T_MCOaa_nnCSTC.json', 'T_MCOaa_nnE.json', 'T_MCOaa_nnFASTC.json',
                                           'T_MCOaa_nnFBSTC.json', 'T_MCOaa_nnFCSTC.json', 'T_MCOaa_nnFHSTC.json',
                                           'T_MCOaa_nnFLSTC.json', 'T_MCOaa_nnFMSTC.json', 'T_MCOaa_nnFPSTC.json',
@@ -409,7 +414,8 @@ def add_pmsi_mco_actes_ext_keys() -> None:
             add_primary_key(schema, PMSI_MCO_EXT_JOIN_KEY)
         elif tableschema_filename[:-5] == PMSI_MCO_EXT_C_TABLE:
             add_primary_key(schema, PMSI_MCO_EXT_JOIN_KEY)
-            add_foreign_key(schema, PMSI_MCO_EXT_JOIN_KEY, PMSI_MCO_EXT_B_TABLE, PMSI_MCO_EXT_JOIN_KEY)
+            add_foreign_key(schema, PMSI_MCO_EXT_JOIN_KEY, PMSI_MCO_EXT_B_TABLE, PMSI_MCO_EXT_JOIN_KEY,
+                            BIDIRECTIONNELLE)
         else:
             add_foreign_key(schema, PMSI_MCO_EXT_JOIN_KEY, PMSI_MCO_EXT_B_TABLE, PMSI_MCO_EXT_JOIN_KEY)
         schema.save(path, ensure_ascii=False)
@@ -431,7 +437,7 @@ def add_pmsi_had_keys() -> None:
             add_primary_key(schema, PMSI_HAD_JOIN_KEY)
         elif tableschema_filename[:-5] == PMSI_HAD_C_TABLE:
             add_primary_key(schema, PMSI_HAD_JOIN_KEY)
-            add_foreign_key(schema, PMSI_HAD_JOIN_KEY, PMSI_HAD_B_TABLE, PMSI_HAD_JOIN_KEY)
+            add_foreign_key(schema, PMSI_HAD_JOIN_KEY, PMSI_HAD_B_TABLE, PMSI_HAD_JOIN_KEY, BIDIRECTIONNELLE)
         elif tableschema_filename not in ['T_HADaa_nnE.json', 'T_HADaa_nnEHPA.json']:
             add_foreign_key(schema, PMSI_HAD_JOIN_KEY, PMSI_HAD_B_TABLE, PMSI_HAD_JOIN_KEY)
         schema.save(path, ensure_ascii=False)
@@ -470,7 +476,7 @@ def add_pmsi_rimp_keys() -> None:
             add_primary_key(schema, PMSI_RIMP_JOIN_KEY)
         elif tableschema_filename[:-5] == PMSI_RIMP_C_TABLE:
             add_primary_key(schema, PMSI_RIMP_JOIN_KEY)
-            add_foreign_key(schema, PMSI_RIMP_JOIN_KEY, PMSI_RIMP_B_TABLE, PMSI_RIMP_JOIN_KEY)
+            add_foreign_key(schema, PMSI_RIMP_JOIN_KEY, PMSI_RIMP_B_TABLE, PMSI_RIMP_JOIN_KEY, BIDIRECTIONNELLE)
         elif tableschema_filename not in ['T_RIPaa_nnE.json', 'T_RIPaa_nnR3A.json', 'T_RIPaa_nnR3AD.json']:
             add_foreign_key(schema, PMSI_RIMP_JOIN_KEY, PMSI_RIMP_B_TABLE, PMSI_RIMP_JOIN_KEY)
         schema.save(path, ensure_ascii=False)
@@ -506,7 +512,8 @@ def add_pmsi_ssr_actes_ext_keys() -> None:
             add_primary_key(schema, PMSI_SSR_EXT_JOIN_KEY)
         elif tableschema_filename[:-5] == PMSI_SSR_EXT_C_TABLE:
             add_primary_key(schema, PMSI_SSR_EXT_JOIN_KEY)
-            add_foreign_key(schema, PMSI_SSR_EXT_JOIN_KEY, PMSI_SSR_EXT_B_TABLE, PMSI_SSR_EXT_JOIN_KEY)
+            add_foreign_key(schema, PMSI_SSR_EXT_JOIN_KEY, PMSI_SSR_EXT_B_TABLE, PMSI_SSR_EXT_JOIN_KEY,
+                            BIDIRECTIONNELLE)
         else:
             add_foreign_key(schema, PMSI_SSR_EXT_JOIN_KEY, PMSI_SSR_EXT_B_TABLE, PMSI_SSR_EXT_JOIN_KEY)
         schema.save(path, ensure_ascii=False)
@@ -527,7 +534,7 @@ def add_pmsi_ssr_keys() -> None:
             add_primary_key(schema, PMSI_SSR_JOIN_KEY)
         elif tableschema_filename[:-5] == PMSI_SSR_C_TABLE:
             add_primary_key(schema, PMSI_SSR_JOIN_KEY)
-            add_foreign_key(schema, PMSI_SSR_JOIN_KEY, PMSI_SSR_B_TABLE, PMSI_SSR_JOIN_KEY)
+            add_foreign_key(schema, PMSI_SSR_JOIN_KEY, PMSI_SSR_B_TABLE, PMSI_SSR_JOIN_KEY, BIDIRECTIONNELLE)
         elif tableschema_filename not in ['T_SSRaa_nnCSTC.json', 'T_SSRaa_nnB.json',
                                           'T_SSRaa_nnE.json', 'T_SSRaa_nnFASTC.json', 'T_SSRaa_nnFBSTC.json',
                                           'T_SSRaa_nnFCSTC.json', 'T_SSRaa_nnFLSTC.json', 'T_SSRaa_nnFMSTC.json']:
@@ -554,19 +561,23 @@ def add_pmsi_ssr_etablissement_keys() -> None:
 
 
 def add_unicity_constraint_DCIR() -> None:
-    """ Ajout de la contrainte d'unicité au champ BEN_NIR_PSA dans les tableschema beneficiaires et prestations du DCIR
+    """ Ajout de la contrainte d'unicité au champ BEN_NIR_PSA dans IR_BEN_R
 
     Nécessité d'ajouter cette unicité pour pouvoir faire le chainage entre le DCIR et les tables du PMSI.
     Utilisation de cette fonction dans la fonction add_pmsi_dcir_link suivante.
     Cette contrainte d'unicité est obligatoire pour le lien avec postgres ne se vérifie pas dans les faits.
     Le PMSI n'a pas le rang gemelaire et ne permet donc pas de différencier 2 personnes jumelles de même sexe.
     """
-    for tableschema_filename_dir_list in [[IR_BEN_R, BENEFICIARY_SCHEMA_DIR],
-                                          [ER_PRS_F, DCIR_SCHMEMA_DIR]]:
-        path = os.path.join(tableschema_filename_dir_list[1], tableschema_filename_dir_list[0] + ".json")
-        schema = Schema(path)
-        update_descriptor_field(schema, 'BEN_NIR_PSA', {"constraints": {"unique": True}})
-        schema.save(path, ensure_ascii=False)
+    path = os.path.join(BENEFICIARY_SCHEMA_DIR, IR_BEN_R + ".json")
+    schema = Schema(path)
+    update_descriptor_field(schema, 'BEN_NIR_PSA',
+                            {"constraints": {
+                                "unique": True,
+                                "description": "Unicité fausse sans le rang gémellaire. "
+                                               "Contrainte nécessaire pour les clés étrangère du PMSI, "
+                                               "qui n'a pas le rang gémellaire"
+                            }})
+    schema.save(path, ensure_ascii=False)
 
 
 def add_pmsi_dcir_link() -> None:

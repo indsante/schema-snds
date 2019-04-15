@@ -94,10 +94,7 @@
             "type": "string",
             "nomenclature": "-",
             "length": "17",
-            "format": "default",
-            "constraints": {
-                "unique": true
-            }
+            "format": "default"
         },
         {
             "name": "BEN_RNG_GEM",

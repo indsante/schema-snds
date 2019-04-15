@@ -288,7 +288,8 @@
                     "ETA_NUM_EPMSI",
                     "RHAD_NUM"
                 ]
-            }
+            },
+            "description": "Bidirectionnel"
         },
         {
             "fields": "NIR_ANO_17",

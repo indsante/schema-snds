@@ -328,7 +328,8 @@
                     "ETA_NUM",
                     "RSA_NUM"
                 ]
-            }
+            },
+            "description": "Bidirectionnel"
         },
         {
             "fields": "NIR_ANO_17",

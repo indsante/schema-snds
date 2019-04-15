@@ -352,7 +352,8 @@
                     "ETA_NUM",
                     "SEQ_NUM"
                 ]
-            }
+            },
+            "description": "Bidirectionnel"
         },
         {
             "fields": [
@@ -365,7 +366,8 @@
                     "ETA_NUM",
                     "SEQ_NUM"
                 ]
-            }
+            },
+            "description": "Bidirectionnel"
         },
         {
             "fields": "NIR_ANO_17",

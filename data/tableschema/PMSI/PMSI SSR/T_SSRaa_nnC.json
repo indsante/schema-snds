@@ -232,7 +232,8 @@
                     "ETA_NUM",
                     "RHA_NUM"
                 ]
-            }
+            },
+            "description": "Bidirectionnel"
         },
         {
             "fields": "NIR_ANO_17",

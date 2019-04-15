@@ -8,7 +8,8 @@
             "length": "17",
             "format": "default",
             "constraints": {
-                "unique": true
+                "unique": true,
+                "description": "Unicité fausse sans le rang gémellaire. Contrainte nécessaire pour les clés étrangère du PMSI, qui n'a pas le rang gémellaire"
             }
         },
         {
@@ -185,5 +186,19 @@
     "primaryKey": [
         "BEN_NIR_PSA",
         "BEN_RNG_GEM"
+    ],
+    "foreignKeys": [
+        {
+            "fields": [
+                "BEN_IDT_ANO"
+            ],
+            "reference": {
+                "resource": "IR_IBA_R",
+                "fields": [
+                    "BEN_IDT_ANO"
+                ]
+            },
+            "description": "Bidirectionnel"
+        }
     ]
 }

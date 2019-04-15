@@ -19,7 +19,7 @@ prestations
 |BEN_IAT_CAT|chaîne de caractères|Catégorie du bénéficiaire (Invalidité / RAT)|||
 |BEN_NAI_ANN|chaîne de caractères|Année de naissance du bénéficiaire (format AAAA)|||
 |BEN_PAI_CMU|chaîne de caractères|Type de procédure de paiement CMU|||
-|BEN_NIR_PSA|chaîne de caractères|Identifiant anonyme du bénéficiaire||Valeur unique|
+|BEN_NIR_PSA|chaîne de caractères|Identifiant anonyme du bénéficiaire|||
 |BEN_RNG_GEM|nombre réel|Rang de naissance du bénéficiaire|||
 |BEN_QAF_COD|nombre réel|Qualité affinée du bénéficiaire|||
 |BEN_RES_COM|chaîne de caractères|Commune de résidence du bénéficiaire|||

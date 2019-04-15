@@ -2917,6 +2917,32 @@ T_RIPaa_nnISOCONT,MOI_FIN,string,Mois fin de mesure,-
 T_RIPaa_nnISOCONT,RIP_NUM,string,N° séquentiel de séjour du RPSA,-
 T_RIPaa_nnISOCONT,SEQ_SEQ_NUM,string,N° sequentiel de séquence ,-
 T_RIPaa_nnISOCONT,TYP_ISO_CONT,string,Type de contention/isolement,-
+T_RIPaa_nnR3A,ACT_LIB_IND,string,Indicateur d’activité libérale,-
+T_RIPaa_nnR3A,ACT_LIEU,string,Lieu de l’acte,-
+T_RIPaa_nnR3A,ACT_NAT,string,Nature de l’acte,-
+T_RIPaa_nnR3A,AGE_ANN,number,Age du patient en années à la date de réalisation de l'acte,-
+T_RIPaa_nnR3A,AGE_JOU,number,Age du patient en jours pour les enfants de moins d'un an,-
+T_RIPaa_nnR3A,ANO_IND,string,Indicateur d'anomalie,-
+T_RIPaa_nnR3A,BDI_COD,string,Code géographique de résidence,-
+T_RIPaa_nnR3A,BDI_DEP,string,Code département de résidence,-
+T_RIPaa_nnR3A,COD_SEX,string,Sexe du patient,-
+T_RIPaa_nnR3A,DGN_PAL,string,Diagnostic principal ou motif de prise en charge principale,-
+T_RIPaa_nnR3A,ETA_NUM_EPMSI,string,N° FINESS e-PMSI,-
+T_RIPaa_nnR3A,ETA_NUM_TWO,string,Second n° FINESS,-
+T_RIPaa_nnR3A,ETB_SAN_AUTOR,string,Indicateur FINESS géographique sans autorisation,-
+T_RIPaa_nnR3A,FOR_ACT,string,Forme d'activité,-
+T_RIPaa_nnR3A,FOR_NUM,string,N° format,-
+T_RIPaa_nnR3A,FOR_NUM_ORI,string,N° format RIM d'orgine,-
+T_RIPaa_nnR3A,INT_NBR,number,Nombre d’intervenants,-
+T_RIPaa_nnR3A,IPP_IRR_CRY,string,Cryptage irreversible de l'IPP,-
+T_RIPaa_nnR3A,MOD_SOI,string,Mode légal de soins,-
+T_RIPaa_nnR3A,NBR_DGN,number,Nombre de diagnostics et facteurs associés,-
+T_RIPaa_nnR3A,ORD_NUM,string,N° d'ordre,-
+T_RIPaa_nnR3A,PRO_CAT,string,Catégorie professionnelle de l’intervenant,-
+T_RIPaa_nnR3A,RAL_ACT_ANN,string,Année de la date de réalisation de l'acte,-
+T_RIPaa_nnR3A,RAL_ACT_MOI,string,Mois de la date de réalisation de l'acte,-
+T_RIPaa_nnR3A,SEC_NUM,string,N°de secteur ou de dispositif intersectoriel,-
+T_RIPaa_nnR3A,SEJ_IDT,string,Identifiant de séjour,-
 T_RIPaa_nnR3AD,ASS_DGN,string,Diagnostics et facteurs associés,-
 T_RIPaa_nnR3AD,ETA_NUM_EPMSI,string,N° FINESS e-PMSI,-
 T_RIPaa_nnR3AD,ETA_NUM_TWO,string,Second n° FINESS,-

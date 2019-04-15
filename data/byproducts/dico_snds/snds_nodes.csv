@@ -71,73 +71,74 @@ T_SSRaa_nnMEDATU,Med à autorisation temporaire d'utilisation,9,68,1
 T_SSRaa_nnLEG,Erreurs détectées par la fonction groupage,9,69,1
 T_SSRaa_nnFBSTC,ACE Prestation,9,70,1
 T_SSRaa_nnFCSTC,ACE Honoraire,9,71,1
-T_RIPaa_nnR3AD,Diagnostic associé à l'acte,10,72,1
-T_RIPaa_nnSTC,Prise en charge patient pour etb DG,10,73,1
-T_RIPaa_nnE,etablissement,10,74,1
-T_RIPaa_nnRSA,Résumé par séquence,10,75,1
-T_RIPaa_nnRSAD,Diagnostic associé à la séquence,10,76,1
-T_RIPaa_nnFA,debut facture,10,77,1
-T_RIPaa_nnFM,ccam,10,78,1
-T_RIPaa_nnCCAM,Actes CCAM,10,79,1
-T_RIPaa_nnC,chainage,10,80,1
-T_RIPaa_nnFL,actes de Biologie,10,81,1
-T_RIPaa_nnFC,honoraire,10,82,1
-T_RIPaa_nnISOCONT,Fich Comp : Isolement et contention,10,83,1
-T_RIPaa_nnFB,prestation hospitalière,10,84,1
-T_RIPaa_nnFI,interruption de sejour,10,85,1
-T_RIPaa_nnS,Synthèse du Séjour de Résumé par séquence anonymisé,10,86,1
-T_RIPaa_nnFP,prothese,10,87,1
-T_RIPaa_nnFH,medicament,10,88,1
-T_HADaa_nnFI,Table FI : Table des RSFA interruption de séjour des établissements ex-OQN,8,89,1
-T_HADaa_nnE,Table des Etablissements,8,90,1
-T_HADaa_nnEHPA,Table des conventions HAD-EHPA,8,91,1
-T_HADaa_nnFP,Table FP : Table des RSFA des LPP/DMI en sus des établissements ex-OQN,8,92,1
-T_HADaa_nnSTC,"Prise en charge par l'AM de chaque séjour, pour les établissements valorisés STC ",8,93,1
-T_HADaa_nnD,Table des diagnostics associés,8,94,1
-T_HADaa_nnFH,Table FH : Table des RSFA des Médicaments en sus des établissements ex-OQN,8,95,1
-T_HADaa_nnFC,Table FC : Table des RSFA des honoraires des établissements ex-OQN,8,96,1
-T_HADaa_nnDMPP,Table des diagnostics liés au MPP (mode de prise en charge principal),8,97,1
-T_HADaa_nnGRE,Table des GHT (groupage établissement),8,98,1
-T_HADaa_nnC,Table des NIR foinisé deux fois et date entrè/sortie complètes,8,99,1
-T_HADaa_nnGRP,Table des GHT et des GHPC (groupage paprica),8,100,1
-T_HADaa_nnB,Table des Résumés Anonyme Par Sous-Séquence (RAPSS),8,101,1
-T_HADaa_nnFB,Table FB : Table des RSFA facture des établissements ex-OQN,8,102,1
-T_HADaa_nnMEDCHL,Fich comp Médicament coûteux hors liste en sus et hors ATU,8,103,1
-T_HADaa_nnFA,TableFA : Table des RSFA début de facture des établissements ex-OQN,8,104,1
-T_HADaa_nnA,Table des actes,8,105,1
-T_HADaa_nnFM,Table FM : Table des RSFA des actes CCAM des établissements ex-OQN,8,106,1
-T_HADaa_nnFL,Table FL : Table des actes de biologie (issus de la NABM) des établissements ex-OQN,8,107,1
-T_HADaa_nnMED,Table Molécules onéreuses (fichier COMP),8,108,1
-T_HADaa_nnDMPA,Table des diagnostics liés au MPA (mode de prise en charge associé),8,109,1
-T_HADaa_nnMEDATU,Fich comp médicament soumis à autorisation temporaire d'utilisation,8,110,1
-T_HADaa_nnS,Synthèses des Résumés Anonyme Par Sous-Séquence,8,111,1
-KI_ECD_R,Causes de décès,5,112,1
-KI_CCI_R,Certificats de décès,5,113,1
-CT_IND_AAAA_GN,Table pathologies de la cartographie des pathologies pour l'année AAAA et l'algorithme N,6,114,1
-CT_IDE_AAAA_GN,Table individus de la cartographie des pathologies pour l'année AAAA et l'algorithme N,6,115,1
-CT_DEP_AAAA_GN,Table dépenses de la cartographie des pathologies pour l'année AAAA et l'algorithme N,6,116,1
-IR_IBA_R,Référentiel des bénéficiaires (DCIRS),1,117,1
-IR_BEN_R,Référentiel des bénéficiaires (DCIR),1,118,1
-IR_MTT_R,Médecin traitant,2,119,1
-IR_MAT_R,Maternité,2,120,1
-IR_IMB_R,Référentiel médicalisé des bénéficiaires (ALD),2,121,1
-IR_ETM_R,Exonérations du ticket modérateur liées à la personne ,2,122,1
-DA_PRA_R,Référentiel des professionnels de santé,2,123,1
-IR_ACS_R,Affiliations à l’Aide à l’acquisition d’une Complémentaire Santé (ACS) ,2,124,1
-IR_ORC_R,Affiliations à un organisme complémentaire,2,125,1
-ER_BIO_F,affinage des actes de biologie,4,126,1
-ER_CAM_F,affinage des actes médicaux (codage CCAM),4,127,1
-ER_UCD_F,affinage UCD (pharmacie hospitalière),4,128,1
-ER_INV_F,affinage des actes invalidité,4,129,1
-ER_ETE_F,Informations liées à l'exécution dans un établissement,4,130,1
-ER_ANO_F,Miroir,4,131,1
-ER_ARO_F,"Autre remboursement que régime obligatoire (partie complémentaire CMU-C, Alsace moselle, FNASS,…)",4,132,1
-ER_CPT_F,Données comptables,4,133,1
-ER_PHA_F,affinage des actes de pharmacie (officine de ville),4,134,1
-ER_TIP_F,affinage Liste des Produits et Prestations (LPP),4,135,1
-ER_TRS_F,affinage des actes détaillés de transport ,4,136,1
-ER_RAT_F,affinage des rentes et accidents du travail,4,137,1
-ER_DCT_F,Décomptes,4,138,1
-ER_PRS_F,prestations,4,139,1
-ER_DTR_F,affinage des actes de transport ,4,140,1
-ER_LOT_F,Lot et numéro de série des prestations affinnées pharmacie,4,141,1
+T_RIPaa_nnR3A,Résumé par acte ambulatoire anonymisé,10,72,1
+T_RIPaa_nnR3AD,Diagnostic associé à l'acte,10,73,1
+T_RIPaa_nnSTC,Prise en charge patient pour etb DG,10,74,1
+T_RIPaa_nnE,etablissement,10,75,1
+T_RIPaa_nnRSA,Résumé par séquence,10,76,1
+T_RIPaa_nnRSAD,Diagnostic associé à la séquence,10,77,1
+T_RIPaa_nnFA,debut facture,10,78,1
+T_RIPaa_nnFM,ccam,10,79,1
+T_RIPaa_nnCCAM,Actes CCAM,10,80,1
+T_RIPaa_nnC,chainage,10,81,1
+T_RIPaa_nnFL,actes de Biologie,10,82,1
+T_RIPaa_nnFC,honoraire,10,83,1
+T_RIPaa_nnISOCONT,Fich Comp : Isolement et contention,10,84,1
+T_RIPaa_nnFB,prestation hospitalière,10,85,1
+T_RIPaa_nnFI,interruption de sejour,10,86,1
+T_RIPaa_nnS,Synthèse du Séjour de Résumé par séquence anonymisé,10,87,1
+T_RIPaa_nnFP,prothese,10,88,1
+T_RIPaa_nnFH,medicament,10,89,1
+T_HADaa_nnFI,Table FI : Table des RSFA interruption de séjour des établissements ex-OQN,8,90,1
+T_HADaa_nnE,Table des Etablissements,8,91,1
+T_HADaa_nnEHPA,Table des conventions HAD-EHPA,8,92,1
+T_HADaa_nnFP,Table FP : Table des RSFA des LPP/DMI en sus des établissements ex-OQN,8,93,1
+T_HADaa_nnSTC,"Prise en charge par l'AM de chaque séjour, pour les établissements valorisés STC ",8,94,1
+T_HADaa_nnD,Table des diagnostics associés,8,95,1
+T_HADaa_nnFH,Table FH : Table des RSFA des Médicaments en sus des établissements ex-OQN,8,96,1
+T_HADaa_nnFC,Table FC : Table des RSFA des honoraires des établissements ex-OQN,8,97,1
+T_HADaa_nnDMPP,Table des diagnostics liés au MPP (mode de prise en charge principal),8,98,1
+T_HADaa_nnGRE,Table des GHT (groupage établissement),8,99,1
+T_HADaa_nnC,Table des NIR foinisé deux fois et date entrè/sortie complètes,8,100,1
+T_HADaa_nnGRP,Table des GHT et des GHPC (groupage paprica),8,101,1
+T_HADaa_nnB,Table des Résumés Anonyme Par Sous-Séquence (RAPSS),8,102,1
+T_HADaa_nnFB,Table FB : Table des RSFA facture des établissements ex-OQN,8,103,1
+T_HADaa_nnMEDCHL,Fich comp Médicament coûteux hors liste en sus et hors ATU,8,104,1
+T_HADaa_nnFA,TableFA : Table des RSFA début de facture des établissements ex-OQN,8,105,1
+T_HADaa_nnA,Table des actes,8,106,1
+T_HADaa_nnFM,Table FM : Table des RSFA des actes CCAM des établissements ex-OQN,8,107,1
+T_HADaa_nnFL,Table FL : Table des actes de biologie (issus de la NABM) des établissements ex-OQN,8,108,1
+T_HADaa_nnMED,Table Molécules onéreuses (fichier COMP),8,109,1
+T_HADaa_nnDMPA,Table des diagnostics liés au MPA (mode de prise en charge associé),8,110,1
+T_HADaa_nnMEDATU,Fich comp médicament soumis à autorisation temporaire d'utilisation,8,111,1
+T_HADaa_nnS,Synthèses des Résumés Anonyme Par Sous-Séquence,8,112,1
+KI_ECD_R,Causes de décès,5,113,1
+KI_CCI_R,Certificats de décès,5,114,1
+CT_IND_AAAA_GN,Table pathologies de la cartographie des pathologies pour l'année AAAA et l'algorithme N,6,115,1
+CT_IDE_AAAA_GN,Table individus de la cartographie des pathologies pour l'année AAAA et l'algorithme N,6,116,1
+CT_DEP_AAAA_GN,Table dépenses de la cartographie des pathologies pour l'année AAAA et l'algorithme N,6,117,1
+IR_IBA_R,Référentiel des bénéficiaires (DCIRS),1,118,1
+IR_BEN_R,Référentiel des bénéficiaires (DCIR),1,119,1
+IR_MTT_R,Médecin traitant,2,120,1
+IR_MAT_R,Maternité,2,121,1
+IR_IMB_R,Référentiel médicalisé des bénéficiaires (ALD),2,122,1
+IR_ETM_R,Exonérations du ticket modérateur liées à la personne ,2,123,1
+DA_PRA_R,Référentiel des professionnels de santé,2,124,1
+IR_ACS_R,Affiliations à l’Aide à l’acquisition d’une Complémentaire Santé (ACS) ,2,125,1
+IR_ORC_R,Affiliations à un organisme complémentaire,2,126,1
+ER_BIO_F,affinage des actes de biologie,4,127,1
+ER_CAM_F,affinage des actes médicaux (codage CCAM),4,128,1
+ER_UCD_F,affinage UCD (pharmacie hospitalière),4,129,1
+ER_INV_F,affinage des actes invalidité,4,130,1
+ER_ETE_F,Informations liées à l'exécution dans un établissement,4,131,1
+ER_ANO_F,Miroir,4,132,1
+ER_ARO_F,"Autre remboursement que régime obligatoire (partie complémentaire CMU-C, Alsace moselle, FNASS,…)",4,133,1
+ER_CPT_F,Données comptables,4,134,1
+ER_PHA_F,affinage des actes de pharmacie (officine de ville),4,135,1
+ER_TIP_F,affinage Liste des Produits et Prestations (LPP),4,136,1
+ER_TRS_F,affinage des actes détaillés de transport ,4,137,1
+ER_RAT_F,affinage des rentes et accidents du travail,4,138,1
+ER_DCT_F,Décomptes,4,139,1
+ER_PRS_F,prestations,4,140,1
+ER_DTR_F,affinage des actes de transport ,4,141,1
+ER_LOT_F,Lot et numéro de série des prestations affinnées pharmacie,4,142,1

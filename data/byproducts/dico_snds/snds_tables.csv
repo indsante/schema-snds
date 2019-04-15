@@ -110,6 +110,7 @@ PMSI RIM-P,T_RIPaa_nnFL,actes de Biologie
 PMSI RIM-P,T_RIPaa_nnFM,ccam
 PMSI RIM-P,T_RIPaa_nnFP,prothese
 PMSI RIM-P,T_RIPaa_nnISOCONT,Fich Comp : Isolement et contention
+PMSI RIM-P,T_RIPaa_nnR3A,Résumé par acte ambulatoire anonymisé
 PMSI RIM-P,T_RIPaa_nnR3AD,Diagnostic associé à l'acte
 PMSI RIM-P,T_RIPaa_nnRSA,Résumé par séquence
 PMSI RIM-P,T_RIPaa_nnRSAD,Diagnostic associé à la séquence

@@ -246,23 +246,22 @@
     ],
     "foreignKeys": [
         {
-            "fields": "ETA_NUM_EPMSI",
+            "fields": [
+                "ETA_NUM_EPMSI",
+                "RIP_NUM"
+            ],
             "reference": {
-                "resource": "T_RIPaa_nnE",
-                "fields": "ETA_NUM"
+                "resource": "T_RIPaa_nnFB",
+                "fields": [
+                    "ETA_NUM_EPMSI",
+                    "RIP_NUM"
+                ]
             }
         },
         {
             "fields": "NIR_ANO_17",
             "reference": {
                 "resource": "IR_BEN_R",
-                "fields": "BEN_NIR_PSA"
-            }
-        },
-        {
-            "fields": "NIR_ANO_17",
-            "reference": {
-                "resource": "ER_PRS_F",
                 "fields": "BEN_NIR_PSA"
             }
         }

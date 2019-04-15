@@ -43,36 +43,43 @@ PFS_PFS_NUM = 'PFS_PFS_NUM'
 CARTO_PATHO_CENTRAL_TABLE = 'CT_IDE_AAAA_GN'
 CARTO_PATHO_JOIN_KEY = "id_carto"
 
-PMSI_MCO_CENTRAL_TABLE = 'T_MCOaa_nnC'
+PMSI_MCO_B_TABLE = 'T_MCOaa_nnB'
+PMSI_MCO_C_TABLE = 'T_MCOaa_nnC'
+PMSI_MCO_EXT_B_TABLE = 'T_MCOaa_nnFBSTC'
+PMSI_MCO_EXT_C_TABLE = 'T_MCOaa_nnCSTC'
+
 PMSI_MCO_JOIN_KEY = [
     'ETA_NUM',
     'RSA_NUM',
 ]
-PMSI_MCO_EXT_CENTRAL_TABLE = 'T_MCOaa_nnCSTC'
 PMSI_MCO_EXT_JOIN_KEY = [
     'ETA_NUM',
     'SEQ_NUM'
 ]
 
-PMSI_HAD_CENTRAL_TABLE = 'T_HADaa_nnC'
+PMSI_HAD_B_TABLE = 'T_HADaa_nnB'
+PMSI_HAD_C_TABLE = 'T_HADaa_nnC'
 PMSI_HAD_JOIN_KEY = [
     'ETA_NUM_EPMSI',
     'RHAD_NUM',
 ]
 
-PMSI_RIMP_CENTRAL_TABLE = 'T_RIPaa_nnC'
+PMSI_RIMP_B_TABLE = 'T_RIPaa_nnFB'
+PMSI_RIMP_C_TABLE = 'T_RIPaa_nnC'
 PMSI_RIMP_JOIN_KEY = [
     'ETA_NUM_EPMSI',
     'RIP_NUM',
 ]
 
-PMSI_SSR_CENTRAL_TABLE = 'T_SSRaa_nnC'
+PMSI_SSR_B_TABLE = 'T_SSRaa_nnB'
+PMSI_SSR_C_TABLE = 'T_SSRaa_nnC'
 PMSI_SSR_JOIN_KEY = [
     'ETA_NUM',
     'RHA_NUM',
 ]
 
-PMSI_SSR_EXT_CENTRAL_TABLE = 'T_SSRaa_nnCSTC'
+PMSI_SSR_EXT_B_TABLE = 'T_SSRaa_nnFBSTC'
+PMSI_SSR_EXT_C_TABLE = 'T_SSRaa_nnCSTC'
 PMSI_SSR_EXT_JOIN_KEY = [
     'ETA_NUM',
     'SEQ_NUM'
@@ -86,12 +93,12 @@ PMSI_ETAB_TABLES = [
 ]
 
 PMSI_TABLES_LINKED_TO_SNIIRAM = [
-    [PMSI_MCO_CENTRAL_TABLE + ".json", PMSI_MCO_SCHEMA_DIR],
-    [PMSI_MCO_EXT_CENTRAL_TABLE + ".json", PMSI_MCO_SCHEMA_DIR],
-    [PMSI_RIMP_CENTRAL_TABLE + ".json", PMSI_RIMP_SCHEMA_DIR],
-    [PMSI_SSR_CENTRAL_TABLE + ".json", PMSI_SSR_SCHEMA_DIR],
-    [PMSI_SSR_EXT_CENTRAL_TABLE + ".json", PMSI_SSR_SCHEMA_DIR],
-    [PMSI_HAD_CENTRAL_TABLE + ".json", PMSI_HAD_SCHEMA_DIR]
+    [PMSI_MCO_C_TABLE + ".json", PMSI_MCO_SCHEMA_DIR],
+    [PMSI_MCO_EXT_C_TABLE + ".json", PMSI_MCO_SCHEMA_DIR],
+    [PMSI_RIMP_C_TABLE + ".json", PMSI_RIMP_SCHEMA_DIR],
+    [PMSI_SSR_C_TABLE + ".json", PMSI_SSR_SCHEMA_DIR],
+    [PMSI_SSR_EXT_C_TABLE + ".json", PMSI_SSR_SCHEMA_DIR],
+    [PMSI_HAD_C_TABLE + ".json", PMSI_HAD_SCHEMA_DIR]
 ]
 
 
@@ -359,13 +366,16 @@ def add_pmsi_mco_keys() -> None:
     for tableschema_filename in os.listdir(PMSI_MCO_SCHEMA_DIR):
         path = os.path.join(PMSI_MCO_SCHEMA_DIR, tableschema_filename)
         schema = Schema(path)
-        if tableschema_filename == PMSI_MCO_CENTRAL_TABLE + '.json':
+        if tableschema_filename[:-5] == PMSI_MCO_B_TABLE:
             add_primary_key(schema, PMSI_MCO_JOIN_KEY)
+        elif tableschema_filename[:-5] == PMSI_MCO_C_TABLE:
+            add_primary_key(schema, PMSI_MCO_JOIN_KEY)
+            add_foreign_key(schema, PMSI_MCO_JOIN_KEY, PMSI_MCO_B_TABLE, PMSI_MCO_JOIN_KEY)
         elif tableschema_filename not in ['T_MCOaa_nnCSTC.json', 'T_MCOaa_nnE.json', 'T_MCOaa_nnFASTC.json',
                                           'T_MCOaa_nnFBSTC.json', 'T_MCOaa_nnFCSTC.json', 'T_MCOaa_nnFHSTC.json',
                                           'T_MCOaa_nnFLSTC.json', 'T_MCOaa_nnFMSTC.json', 'T_MCOaa_nnFPSTC.json',
-                                          'T_MCOaa_nnVALOACE.json', PMSI_MCO_CENTRAL_TABLE + '.json']:
-            add_foreign_key(schema, PMSI_MCO_JOIN_KEY, PMSI_MCO_CENTRAL_TABLE, PMSI_MCO_JOIN_KEY)
+                                          'T_MCOaa_nnVALOACE.json']:
+            add_foreign_key(schema, PMSI_MCO_JOIN_KEY, PMSI_MCO_B_TABLE, PMSI_MCO_JOIN_KEY)
         schema.save(path, ensure_ascii=False)
     add_pmsi_mco_actes_ext_keys()
     add_pmsi_mco_etablissement_keys()
@@ -380,7 +390,7 @@ def add_pmsi_mco_etablissement_keys() -> None:
     schema_etab = Schema(path_etab)
     add_primary_key(schema_etab, 'ETA_NUM')
     schema_etab.save(path_etab, ensure_ascii=False)
-    for tableschema_filename in [PMSI_MCO_CENTRAL_TABLE + '.json', PMSI_MCO_EXT_CENTRAL_TABLE + '.json']:
+    for tableschema_filename in [PMSI_MCO_B_TABLE + '.json', PMSI_MCO_EXT_B_TABLE + '.json']:
         path = os.path.join(PMSI_MCO_SCHEMA_DIR, tableschema_filename)
         schema = Schema(path)
         add_foreign_key(schema, 'ETA_NUM', 'T_MCOaa_nnE', 'ETA_NUM')
@@ -395,10 +405,13 @@ def add_pmsi_mco_actes_ext_keys() -> None:
                                  'T_MCOaa_nnFLSTC.json', 'T_MCOaa_nnFMSTC.json', 'T_MCOaa_nnFPSTC.json']:
         path = os.path.join(PMSI_MCO_SCHEMA_DIR, tableschema_filename)
         schema = Schema(path)
-        if tableschema_filename == PMSI_MCO_EXT_CENTRAL_TABLE + '.json':
+        if tableschema_filename[:-5] == PMSI_MCO_EXT_B_TABLE:
             add_primary_key(schema, PMSI_MCO_EXT_JOIN_KEY)
+        elif tableschema_filename[:-5] == PMSI_MCO_EXT_C_TABLE:
+            add_primary_key(schema, PMSI_MCO_EXT_JOIN_KEY)
+            add_foreign_key(schema, PMSI_MCO_EXT_JOIN_KEY, PMSI_MCO_EXT_B_TABLE, PMSI_MCO_EXT_JOIN_KEY)
         else:
-            add_foreign_key(schema, PMSI_MCO_EXT_JOIN_KEY, PMSI_MCO_EXT_CENTRAL_TABLE, PMSI_MCO_EXT_JOIN_KEY)
+            add_foreign_key(schema, PMSI_MCO_EXT_JOIN_KEY, PMSI_MCO_EXT_B_TABLE, PMSI_MCO_EXT_JOIN_KEY)
         schema.save(path, ensure_ascii=False)
 
 
@@ -414,10 +427,13 @@ def add_pmsi_had_keys() -> None:
     for tableschema_filename in os.listdir(PMSI_HAD_SCHEMA_DIR):
         path = os.path.join(PMSI_HAD_SCHEMA_DIR, tableschema_filename)
         schema = Schema(path)
-        if tableschema_filename == PMSI_HAD_CENTRAL_TABLE + '.json':
+        if tableschema_filename[:-5] == PMSI_HAD_B_TABLE:
             add_primary_key(schema, PMSI_HAD_JOIN_KEY)
-        elif tableschema_filename not in ['T_HADaa_nnE.json', 'T_HADaa_nnEHPA.json', PMSI_HAD_CENTRAL_TABLE + '.json']:
-            add_foreign_key(schema, PMSI_HAD_JOIN_KEY, PMSI_HAD_CENTRAL_TABLE, PMSI_HAD_JOIN_KEY)
+        elif tableschema_filename[:-5] == PMSI_HAD_C_TABLE:
+            add_primary_key(schema, PMSI_HAD_JOIN_KEY)
+            add_foreign_key(schema, PMSI_HAD_JOIN_KEY, PMSI_HAD_B_TABLE, PMSI_HAD_JOIN_KEY)
+        elif tableschema_filename not in ['T_HADaa_nnE.json', 'T_HADaa_nnEHPA.json']:
+            add_foreign_key(schema, PMSI_HAD_JOIN_KEY, PMSI_HAD_B_TABLE, PMSI_HAD_JOIN_KEY)
         schema.save(path, ensure_ascii=False)
     add_pmsi_had_etablissement_keys()
 
@@ -434,7 +450,7 @@ def add_pmsi_had_etablissement_keys() -> None:
         schema_etab = Schema(path_etab)
         add_primary_key(schema_etab, tableschema_keys_etab_had[1])
         schema_etab.save(path_etab, ensure_ascii=False)
-        path = os.path.join(PMSI_HAD_SCHEMA_DIR, PMSI_HAD_CENTRAL_TABLE + '.json')
+        path = os.path.join(PMSI_HAD_SCHEMA_DIR, PMSI_HAD_B_TABLE + '.json')
         schema = Schema(path)
         add_foreign_key(schema, 'ETA_NUM_EPMSI', tableschema_keys_etab_had[0], tableschema_keys_etab_had[1])
         schema.save(path, ensure_ascii=False)
@@ -450,11 +466,13 @@ def add_pmsi_rimp_keys() -> None:
     for tableschema_filename in os.listdir(PMSI_RIMP_SCHEMA_DIR):
         path = os.path.join(PMSI_RIMP_SCHEMA_DIR, tableschema_filename)
         schema = Schema(path)
-        if tableschema_filename == PMSI_RIMP_CENTRAL_TABLE + '.json':
+        if tableschema_filename[:-5] == PMSI_RIMP_B_TABLE:
             add_primary_key(schema, PMSI_RIMP_JOIN_KEY)
-        elif tableschema_filename not in ['T_RIPaa_nnE.json', 'T_RIPaa_nnR3A.json', 'T_RIPaa_nnR3AD.json',
-                                          PMSI_RIMP_CENTRAL_TABLE + '.json']:
-            add_foreign_key(schema, PMSI_RIMP_JOIN_KEY, PMSI_RIMP_CENTRAL_TABLE, PMSI_RIMP_JOIN_KEY)
+        elif tableschema_filename[:-5] == PMSI_RIMP_C_TABLE:
+            add_primary_key(schema, PMSI_RIMP_JOIN_KEY)
+            add_foreign_key(schema, PMSI_RIMP_JOIN_KEY, PMSI_RIMP_B_TABLE, PMSI_RIMP_JOIN_KEY)
+        elif tableschema_filename not in ['T_RIPaa_nnE.json', 'T_RIPaa_nnR3A.json', 'T_RIPaa_nnR3AD.json']:
+            add_foreign_key(schema, PMSI_RIMP_JOIN_KEY, PMSI_RIMP_B_TABLE, PMSI_RIMP_JOIN_KEY)
         schema.save(path, ensure_ascii=False)
     add_pmsi_rimp_etablissement_keys()
 
@@ -468,7 +486,7 @@ def add_pmsi_rimp_etablissement_keys() -> None:
     schema_etab = Schema(path_etab)
     add_primary_key(schema_etab, 'ETA_NUM')
     schema_etab.save(path_etab, ensure_ascii=False)
-    path = os.path.join(PMSI_RIMP_SCHEMA_DIR, PMSI_RIMP_CENTRAL_TABLE + '.json')
+    path = os.path.join(PMSI_RIMP_SCHEMA_DIR, PMSI_RIMP_B_TABLE + '.json')
     schema = Schema(path)
     add_foreign_key(schema, 'ETA_NUM_EPMSI', 'T_RIPaa_nnE', 'ETA_NUM')
     schema.save(path, ensure_ascii=False)
@@ -484,10 +502,13 @@ def add_pmsi_ssr_actes_ext_keys() -> None:
                                  'T_SSRaa_nnFMSTC.json']:
         path = os.path.join(PMSI_SSR_SCHEMA_DIR, tableschema_filename)
         schema = Schema(path)
-        if tableschema_filename == PMSI_SSR_EXT_CENTRAL_TABLE + '.json':
+        if tableschema_filename[:-5] == PMSI_SSR_EXT_B_TABLE:
             add_primary_key(schema, PMSI_SSR_EXT_JOIN_KEY)
+        elif tableschema_filename[:-5] == PMSI_SSR_EXT_C_TABLE:
+            add_primary_key(schema, PMSI_SSR_EXT_JOIN_KEY)
+            add_foreign_key(schema, PMSI_SSR_EXT_JOIN_KEY, PMSI_SSR_EXT_B_TABLE, PMSI_SSR_EXT_JOIN_KEY)
         else:
-            add_foreign_key(schema, PMSI_SSR_EXT_JOIN_KEY, PMSI_SSR_EXT_CENTRAL_TABLE, PMSI_SSR_EXT_JOIN_KEY)
+            add_foreign_key(schema, PMSI_SSR_EXT_JOIN_KEY, PMSI_SSR_EXT_B_TABLE, PMSI_SSR_EXT_JOIN_KEY)
         schema.save(path, ensure_ascii=False)
 
 
@@ -502,12 +523,15 @@ def add_pmsi_ssr_keys() -> None:
     for tableschema_filename in os.listdir(PMSI_SSR_SCHEMA_DIR):
         path = os.path.join(PMSI_SSR_SCHEMA_DIR, tableschema_filename)
         schema = Schema(path)
-        if tableschema_filename == PMSI_SSR_CENTRAL_TABLE + '.json':
+        if tableschema_filename[:-5] == PMSI_SSR_B_TABLE:
             add_primary_key(schema, PMSI_SSR_JOIN_KEY)
-        elif tableschema_filename not in ['T_SSRaa_nnCSTC.json', 'T_SSRaa_nnC.json',
+        elif tableschema_filename[:-5] == PMSI_SSR_C_TABLE:
+            add_primary_key(schema, PMSI_SSR_JOIN_KEY)
+            add_foreign_key(schema, PMSI_SSR_JOIN_KEY, PMSI_SSR_B_TABLE, PMSI_SSR_JOIN_KEY)
+        elif tableschema_filename not in ['T_SSRaa_nnCSTC.json', 'T_SSRaa_nnB.json',
                                           'T_SSRaa_nnE.json', 'T_SSRaa_nnFASTC.json', 'T_SSRaa_nnFBSTC.json',
                                           'T_SSRaa_nnFCSTC.json', 'T_SSRaa_nnFLSTC.json', 'T_SSRaa_nnFMSTC.json']:
-            add_foreign_key(schema, PMSI_SSR_JOIN_KEY, PMSI_SSR_CENTRAL_TABLE, PMSI_SSR_JOIN_KEY)
+            add_foreign_key(schema, PMSI_SSR_JOIN_KEY, PMSI_SSR_B_TABLE, PMSI_SSR_JOIN_KEY)
         schema.save(path, ensure_ascii=False)
     add_pmsi_ssr_actes_ext_keys()
     add_pmsi_ssr_etablissement_keys()
@@ -522,7 +546,7 @@ def add_pmsi_ssr_etablissement_keys() -> None:
     schema_etab = Schema(path_etab)
     add_primary_key(schema_etab, 'ETA_NUM')
     schema_etab.save(path_etab, ensure_ascii=False)
-    for tableschema_filename in [PMSI_SSR_CENTRAL_TABLE + '.json', PMSI_SSR_EXT_CENTRAL_TABLE + '.json']:
+    for tableschema_filename in [PMSI_SSR_B_TABLE + '.json', PMSI_SSR_EXT_B_TABLE + '.json']:
         path = os.path.join(PMSI_SSR_SCHEMA_DIR, tableschema_filename)
         schema = Schema(path)
         add_foreign_key(schema, 'ETA_NUM', 'T_SSRaa_nnE', 'ETA_NUM')
@@ -558,7 +582,6 @@ def add_pmsi_dcir_link() -> None:
         path = os.path.join(tableschema_filename_dir_list[1], tableschema_filename_dir_list[0])
         schema = Schema(path)
         add_foreign_key(schema, 'NIR_ANO_17', IR_BEN_R, 'BEN_NIR_PSA')
-        add_foreign_key(schema, 'NIR_ANO_17', ER_PRS_F, 'BEN_NIR_PSA')
         schema.save(path, ensure_ascii=False)
 
 

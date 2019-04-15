@@ -111,7 +111,7 @@
                 "RIP_NUM"
             ],
             "reference": {
-                "resource": "T_RIPaa_nnC",
+                "resource": "T_RIPaa_nnFB",
                 "fields": [
                     "ETA_NUM_EPMSI",
                     "RIP_NUM"

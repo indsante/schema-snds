@@ -4,6 +4,7 @@ Table des Résumés Anonyme Par Sous-Séquence (RAPSS)
 
 Champ : Public et Privé
 
+- Clé primaire : `ETA_NUM_EPMSI, RHAD_NUM`
 
 ## Modèle de données
 

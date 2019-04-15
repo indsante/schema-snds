@@ -208,18 +208,16 @@
     "missingValues": [
         ""
     ],
+    "primaryKey": [
+        "ETA_NUM",
+        "SEQ_NUM"
+    ],
     "foreignKeys": [
         {
-            "fields": [
-                "ETA_NUM",
-                "SEQ_NUM"
-            ],
+            "fields": "ETA_NUM",
             "reference": {
-                "resource": "T_MCOaa_nnCSTC",
-                "fields": [
-                    "ETA_NUM",
-                    "SEQ_NUM"
-                ]
+                "resource": "T_MCOaa_nnE",
+                "fields": "ETA_NUM"
             }
         }
     ]

@@ -240,18 +240,16 @@
     "missingValues": [
         ""
     ],
+    "primaryKey": [
+        "ETA_NUM_EPMSI",
+        "RIP_NUM"
+    ],
     "foreignKeys": [
         {
-            "fields": [
-                "ETA_NUM_EPMSI",
-                "RIP_NUM"
-            ],
+            "fields": "ETA_NUM_EPMSI",
             "reference": {
-                "resource": "T_RIPaa_nnC",
-                "fields": [
-                    "ETA_NUM_EPMSI",
-                    "RIP_NUM"
-                ]
+                "resource": "T_RIPaa_nnE",
+                "fields": "ETA_NUM"
             }
         }
     ]

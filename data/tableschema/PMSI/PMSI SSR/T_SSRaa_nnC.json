@@ -222,23 +222,22 @@
     ],
     "foreignKeys": [
         {
-            "fields": "ETA_NUM",
+            "fields": [
+                "ETA_NUM",
+                "RHA_NUM"
+            ],
             "reference": {
-                "resource": "T_SSRaa_nnE",
-                "fields": "ETA_NUM"
+                "resource": "T_SSRaa_nnB",
+                "fields": [
+                    "ETA_NUM",
+                    "RHA_NUM"
+                ]
             }
         },
         {
             "fields": "NIR_ANO_17",
             "reference": {
                 "resource": "IR_BEN_R",
-                "fields": "BEN_NIR_PSA"
-            }
-        },
-        {
-            "fields": "NIR_ANO_17",
-            "reference": {
-                "resource": "ER_PRS_F",
                 "fields": "BEN_NIR_PSA"
             }
         }

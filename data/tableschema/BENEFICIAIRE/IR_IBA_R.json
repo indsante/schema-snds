@@ -146,5 +146,19 @@
     ],
     "primaryKey": [
         "BEN_IDT_ANO"
+    ],
+    "foreignKeys": [
+        {
+            "fields": [
+                "BEN_IDT_ANO"
+            ],
+            "reference": {
+                "resource": "IR_BEN_R",
+                "fields": [
+                    "BEN_IDT_ANO"
+                ]
+            },
+            "description": "Bidirectionnel"
+        }
     ]
 }

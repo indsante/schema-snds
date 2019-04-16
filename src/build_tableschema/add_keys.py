@@ -143,8 +143,7 @@ def add_dcirs_keys() -> None:
             add_primary_key(schema, CLE_DCI_JNT)
         else:
             add_foreign_key(schema, CLE_DCI_JNT, NS_PRS_F, CLE_DCI_JNT)
-            add_foreign_key(schema, BEN_IDT_ANO, IR_IBA_R,
-                            BEN_IDT_ANO)
+            add_foreign_key(schema, BEN_IDT_ANO, IR_IBA_R, BEN_IDT_ANO)
         schema.save(path, ensure_ascii=False)
     path_dcirs = os.path.join(DCIRS_SCHMEMA_DIR, 'NS_PRS_F.json')
     schema_dcirs = Schema(path_dcirs)
@@ -167,7 +166,7 @@ def add_dcir_keys() -> None:
         if tableschema_filename == ER_PRS_F + '.json':
             add_primary_key(schema, DCIR_JOIN_KEY)
             add_foreign_key(schema, DCIR_BENEFICIARY_JOIN_KEY, CARTO_PATHO_CENTRAL_TABLE,
-                            DCIR_BENEFICIARY_JOIN_KEY_lowercase)
+                            DCIR_BENEFICIARY_JOIN_KEY_lowercase, BIDIRECTIONNELLE)
         else:
             add_foreign_key(schema, DCIR_JOIN_KEY, ER_PRS_F, DCIR_JOIN_KEY)
         schema.save(path, ensure_ascii=False)
@@ -202,7 +201,6 @@ def add_beneficiary_central_table_DCIR_keys() -> None:
     schema_beneficiary_dcir = Schema(path_beneficiary_dcir)
     update_descriptor_field(schema_beneficiary_dcir, 'BEN_IDT_ANO', {"constraints": {"unique": True}})
     add_primary_key(schema_beneficiary_dcir, DCIR_BENEFICIARY_JOIN_KEY)
-    add_foreign_key(schema_beneficiary_dcir, BEN_IDT_ANO, IR_IBA_R, BEN_IDT_ANO, BIDIRECTIONNELLE)
     schema_beneficiary_dcir.save(path_beneficiary_dcir, ensure_ascii=False)
     add_associated_beneficiary_tables_foreign_keys(IR_BEN_R,
                                                    DA_PRA_R_json,
@@ -225,6 +223,7 @@ def add_beneficiary_central_table_DCIRS_keys() -> None:
     path_beneficiary_dcirs = os.path.join(BENEFICIARY_SCHEMA_DIR, IR_IBA_R + '.json')
     schema_beneficiary_dcirs = Schema(path_beneficiary_dcirs)
     add_primary_key(schema_beneficiary_dcirs, BEN_IDT_ANO)
+    add_foreign_key(schema_beneficiary_dcirs, BEN_IDT_ANO, IR_BEN_R, BEN_IDT_ANO, BIDIRECTIONNELLE)
     schema_beneficiary_dcirs.save(path_beneficiary_dcirs, ensure_ascii=False)
     add_associated_beneficiary_tables_foreign_keys(IR_IBA_R,
                                                    ['DA_PRA_R.json', 'IR_IMB_R.json'],

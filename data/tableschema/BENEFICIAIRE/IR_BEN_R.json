@@ -186,19 +186,5 @@
     "primaryKey": [
         "BEN_NIR_PSA",
         "BEN_RNG_GEM"
-    ],
-    "foreignKeys": [
-        {
-            "fields": [
-                "BEN_IDT_ANO"
-            ],
-            "reference": {
-                "resource": "IR_IBA_R",
-                "fields": [
-                    "BEN_IDT_ANO"
-                ]
-            },
-            "description": "Bidirectionnel"
-        }
     ]
 }

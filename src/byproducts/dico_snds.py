@@ -114,7 +114,6 @@ def table_schema_to_snds_graph():
             edge_list.append({
                 'source': node_dict[descriptor['name']]['index'],
                 'target': node_dict[foreign_key['reference']['resource']]['index'],
-                'group': 1,
                 'joint_var': create_join_str(foreign_key['fields'], foreign_key['reference']['fields'],
                                              foreign_key.get('description', None)),
 
@@ -124,8 +123,13 @@ def table_schema_to_snds_graph():
     snds_nodes_path = os.path.join(DICO_SNDS_DIR, NODES_CSV)
     df_nodes.to_csv(snds_nodes_path, index=False)
 
-    df_edges = pd.DataFrame(edge_list, columns=['source', 'target', 'group', 'joint_var'])
-    df_edges = df_edges.sort_values(['source', 'target'])
+    df_edges = pd.DataFrame(edge_list, columns=['source', 'target', 'joint_var'])
+    df_edges = (df_edges
+                .groupby(['source', 'target'])['joint_var']
+                .apply(lambda s: ' | '.join(s))
+                .reset_index()
+                .sort_values(['source', 'target'])
+                )
     snds_edges_path = os.path.join(DICO_SNDS_DIR, EDGES_CSV)
     df_edges.to_csv(snds_edges_path, index=False)
 

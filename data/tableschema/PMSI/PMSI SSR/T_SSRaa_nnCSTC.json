@@ -356,20 +356,6 @@
             "description": "Bidirectionnel"
         },
         {
-            "fields": [
-                "ETA_NUM",
-                "SEQ_NUM"
-            ],
-            "reference": {
-                "resource": "T_SSRaa_nnFBSTC",
-                "fields": [
-                    "ETA_NUM",
-                    "SEQ_NUM"
-                ]
-            },
-            "description": "Bidirectionnel"
-        },
-        {
             "fields": "NIR_ANO_17",
             "reference": {
                 "resource": "IR_BEN_R",

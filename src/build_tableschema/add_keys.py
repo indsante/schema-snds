@@ -318,23 +318,6 @@ def add_da_pra_r_foreign_keys(schema: Schema, path: Union[bytes, str]) -> None:
         schema.save(path, ensure_ascii=False)
 
 
-def add_cartographie_pathologies_dcir_dircs_foreign_keys() -> None:
-    """
-    Ajout du lien entre les tables associées bénéficiaires et celles de la cartographie des pathologies
-
-    On considère l'ensemble des tables du dossier DCIR_DCIRS sauf celles des professionnels de santé DA_PRA_R.
-    On fait le choix de dire que ce sont les tables associées bénéficiaires qui sont référencés pour la table des
-    individus de la cartographie des pathologies CT_IDE_AAAA_GN (et pas l'inverse) - ce choix est à arbitrer.
-    """
-    for tableschema_filename in os.listdir(DCIR_DCIRS_SCHEMA_DIR):
-        path = os.path.join(DCIR_DCIRS_SCHEMA_DIR, tableschema_filename)
-        schema = Schema(path)
-        if tableschema_filename not in 'DA_PRA_R.json':
-            add_foreign_key(schema, DCIR_BENEFICIARY_JOIN_KEY, CARTO_PATHO_CENTRAL_TABLE,
-                            DCIR_BENEFICIARY_JOIN_KEY_lowercase)
-        schema.save(path, ensure_ascii=False)
-
-
 def add_cartographie_pathologies_foreign_keys() -> None:
     """
     Ajout des clefs étrangères aux tables des prestations pointant vers la table des professionnels de santé DA_PRA_R
@@ -602,7 +585,6 @@ def add_pmsi_keys_to_tableschema() -> None:
     add_pmsi_had_keys()
     add_pmsi_rimp_keys()
     add_pmsi_ssr_keys()
-    add_pmsi_ssr_actes_ext_keys()
     add_pmsi_dcir_link()
 
 

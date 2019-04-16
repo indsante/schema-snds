@@ -26,10 +26,11 @@ def tableschema_to_markdown() -> None:
 def generate_table_sidebar() -> None:
     logging.info("Generate 'table_sidebar.js' for VuePress documentation")
     sidebar = ['']
-    for product_folder in os.listdir(TABLESCHEMA_DIR):
-        table_schemas = os.listdir(os.path.join(TABLESCHEMA_DIR, product_folder))
+    product_folders = sorted(os.listdir(TABLESCHEMA_DIR))
+    for product_folder in product_folders:
+        table_schema_filenames = sorted(os.listdir(os.path.join(TABLESCHEMA_DIR, product_folder)))
         children = list()
-        for table_json in table_schemas:
+        for table_json in table_schema_filenames:
             table = table_json[:-5]
             children.append([product_folder + '/' + table, table])
         sidebar.append({

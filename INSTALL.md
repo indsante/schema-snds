@@ -66,6 +66,11 @@ Pour le reste, se référer à la documentation de Docker-Compose.
 Cette deuxième étape permet d'exécuter le code Python sur votre système hôte, sans Docker.
 Les autres services sont toujours executés via Docker.
 
+Installation rapide avec les commandes. Voir les détails ci-desous sinon. 
+
+    ./create_vitualenv.sh
+    source venv/bin/activate
+
 **Dépendances**
 
 Le projet utilise `Python3` et des librairies listées dans le fichier [requirements](requirements.txt). 

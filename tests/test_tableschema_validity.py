@@ -22,7 +22,7 @@ def test_tableschema_is_valid(schema_path):
 
 
 def test_generated_byproducts_equal_files():
-    shutil.rmtree(BYPRODUCTS_DIR)
+    shutil.rmtree(BYPRODUCTS_DIR, ignore_errors=True)
     generate_dico_snds()
     generate_documentation_snds()
 

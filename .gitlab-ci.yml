@@ -5,6 +5,7 @@ test:
   image: python:3.6-stretch
   stage: test
   before_script:
-    - pip install -r requirements.txt
+    - ./create_virtualenv.sh
+    - source venv/bin/activate
   script:
   - pytest

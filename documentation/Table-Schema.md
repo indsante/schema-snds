@@ -26,12 +26,11 @@ Un schema qui suit la spécification Table Schema est enregistré au format
 
 ## Intérêt
 
-Un schema suivant la spécification Table Schema est lisible par des humains, 
-mais aussi très facilement manipulable informatiquement.
+La spécification Table Schema est facilement lisible par des humains, **et** manipulable informatiquement.
  
-Ce standard est indépendant de tout logiciel ou langage, et donc extrêmement portable.
+Ce standard est indépendant de tout logiciel ou langage, il est donc extrêmement portable.
 
-Des outils génériques existent ainsi pour manipuler ces schémas, par exemple
+Des outils génériques existent pour manipuler les schémas suivant cette spécification, par exemple
 - [tableschema-py](https://github.com/frictionlessdata/tableschema-py) est un outil Python (ou CLI), 
 qui permet d'inférer, manipuler et valider des schémas
 - [tableschema-r](https://github.com/frictionlessdata/tableschema-r) est un outil R similaire 
@@ -47,50 +46,40 @@ Nous souhaitons par ailleurs développer des outils permettant de
 (a priori en utilisant la brique précédente + [schemacrawler](https://www.schemacrawler.com/))
 - générer des données synthétiques
 
-L'adoption de la spécification Table Schema est encouragée pour améliorer la qualité des données publiées en open-data.
+Plus généralement, l'adoption de la spécification Table Schema est encouragée pour améliorer la qualité des données publiées en open-data.
 
 Etalab référence ainsi quelques schemas de données publiques sur [GitHub](https://github.com/etalab/schema.data.gouv.fr).
 
-## minimal
+## Descripteur type d'une table
 
-
-Field descriptor
-
+```json
+{
+  // 'fields' est une liste ordonnée de descripteurs de colonnes
+  "fields": [ 
     {
-      "name": "name of field (e.g. column name)", // REQUIRED 
-      "title": "A nicer human readable label or title for the field",
-      "type": "A string specifying the type",
-      "format": "A string specifying a format",
-      "description": "A description for the field",
+      "name": "Nom de la colonne", // OBLIGATOIRE 
+      "title": "Titre plus lisible",
+      "description": "Description de la colonne",
+      "type": "Chaîne de caractères spécifiant le type",
+      "format": "Chaîne de caratères spécifiant le format",
       "constraints": {
-          // a constraints-descriptor
+        // descripteurs de contraintes sur la colonne (ex: unicité des valeurs)
       }
     }
-
-
-Table Schema descriptor
-
+    // Autres descripteurs de colonnes
+  ],
+  // Spécification (optionnelle) de la clé primaire
+  "primaryKey": "Nom de la colonne, ou liste de nom de colonnes séparées par des virgules",
+  // Spécification (optionnelle) des clés étrangères
+  "foreignKeys": [
     {
-      // fields is an ordered list of field descriptors
-      // one for each field (column) in the table
-      "fields": [ // REQUIRED
-        // FIELDS DESCRIPTORS
-      ],
-      // specification of missing values
-      "missingValues": [
-        ...
-      ],
-      // (optional) specification of the primary key
-      "primaryKey": ...
-      // (optional) specification of the foreign keys
-      "foreignKeys": [
-        {
-          "fields": "state-code"
-          "reference": {
-            "resource": "referenced table",
-            "fields": "code"
-          }
-        }
-      ]
+      "fields": "Nom (ou liste) de la colonne  de la table",
+      "reference": {
+        "resource": "Nom de la table référencée",
+        "fields": "Nom (ou liste) de la colonne de la table référencée"
+      }
     }
+  ]
+}
+```
 

@@ -24,7 +24,7 @@ simplifie la configuration et la composition de services Docker.
 - [git](https://git-scm.com/book/fr/v1/D%C3%A9marrage-rapide-Installation-de-Git)
 est le système de gestion de versions du code
 
-- Pour windows, on recommande le terminal [gitbash](https://gitlab.com/DREES/tutoriels/blob/master/tutos/INSTALLATION_GIT_EXE.md) pour utiliser git et docker. **Il faut ajouter `winpty` devant chaque commande Docker pour l'utiliser.**
+- Pour windows, on recommande le terminal `gitbash pour utiliser git et docker. **Il faut ajouter `winpty` devant chaque commande Docker pour l'utiliser.**
 
 
 **Installation**
@@ -32,7 +32,7 @@ est le système de gestion de versions du code
 0- Copier le projet en local
 
 
-    git clone https://gitlab.com/SNDS/schema-snds.git
+    git clone https://gitlab.com/healthdatahub/schema-snds.git
     cd database-schema
 
 

@@ -1,0 +1,11 @@
+stages:
+  - test
+
+test:
+  image: python:3.6-stretch
+  stage: test
+  before_script:
+    - ./create_virtualenv.sh
+    - source venv/bin/activate
+  script:
+  - pytest

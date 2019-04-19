@@ -1,0 +1,93 @@
+{
+    "fields": [
+        {
+            "name": "BEN_NIR_PSA",
+            "description": "Pseudo NIR du bénéficiaire anonymisé",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "17",
+            "format": "default"
+        },
+        {
+            "name": "BEN_RNG_GEM",
+            "description": "Code rang gémellaire du bénéficiaire",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default"
+        },
+        {
+            "name": "BEN_NIR_ANO",
+            "description": "NIR anonymisé du bénéficiaire",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "17",
+            "format": "default"
+        },
+        {
+            "name": "BEN_IDT_ANO",
+            "description": "Identifiant synthétique pseudonymisé du bénéficiaire",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "18",
+            "format": "default"
+        },
+        {
+            "name": "FAM_DRT_VRU",
+            "description": "Code de verrouillage des droits",
+            "type": "string",
+            "nomenclature": NaN,
+            "length": "1",
+            "format": "default"
+        },
+        {
+            "name": "FAM_DRT_DSD",
+            "description": "Date de début de verrouillage des droits",
+            "type": "date",
+            "nomenclature": NaN,
+            "length": null,
+            "format": "default"
+        },
+        {
+            "name": "FAM_DRT_DSF",
+            "description": "Date de fin de verrouillage des droits",
+            "type": "date",
+            "nomenclature": NaN,
+            "length": null,
+            "format": "default"
+        }
+    ],
+    "name": "IR_ACS_R",
+    "title": "Affiliations à l’Aide à l’acquisition d’une Complémentaire Santé (ACS) ",
+    "description": "",
+    "produit": "DCIR_DCIRS",
+    "missingValues": [
+        ""
+    ],
+    "foreignKeys": [
+        {
+            "fields": [
+                "BEN_NIR_PSA",
+                "BEN_RNG_GEM"
+            ],
+            "reference": {
+                "resource": "IR_BEN_R",
+                "fields": [
+                    "BEN_NIR_PSA",
+                    "BEN_RNG_GEM"
+                ]
+            }
+        },
+        {
+            "fields": [
+                "BEN_IDT_ANO"
+            ],
+            "reference": {
+                "resource": "IR_IBA_R",
+                "fields": [
+                    "BEN_IDT_ANO"
+                ]
+            }
+        }
+    ]
+}

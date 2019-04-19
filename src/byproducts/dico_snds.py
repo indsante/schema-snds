@@ -114,8 +114,8 @@ def table_schema_to_snds_graph():
             edge_list.append({
                 'source': node_dict[descriptor['name']]['index'],
                 'target': node_dict[foreign_key['reference']['resource']]['index'],
-                'group': 1,
-                'joint_var': create_join_str(foreign_key['fields'], foreign_key['reference']['fields']),
+                'joint_var': create_join_str(foreign_key['fields'], foreign_key['reference']['fields'],
+                                             foreign_key.get('description', None)),
 
             })
     df_nodes = pd.DataFrame(list(node_dict.values()), columns=['name', 'description', 'group', 'index', 'nb_vars'])
@@ -123,13 +123,19 @@ def table_schema_to_snds_graph():
     snds_nodes_path = os.path.join(DICO_SNDS_DIR, NODES_CSV)
     df_nodes.to_csv(snds_nodes_path, index=False)
 
-    df_edges = pd.DataFrame(edge_list, columns=['source', 'target', 'group', 'joint_var'])
-    df_edges = df_edges.sort_values(['source', 'target'])
+    df_edges = pd.DataFrame(edge_list, columns=['source', 'target', 'joint_var'])
+    df_edges = (df_edges
+                .groupby(['source', 'target'])['joint_var']
+                .apply(lambda s: ' | '.join(s))
+                .reset_index()
+                .sort_values(['source', 'target'])
+                )
     snds_edges_path = os.path.join(DICO_SNDS_DIR, EDGES_CSV)
     df_edges.to_csv(snds_edges_path, index=False)
 
 
-def create_join_str(source_fields: Union[str, List[str]], referenced_fields: Union[str, List[str]]) -> str:
+def create_join_str(source_fields: Union[str, List[str]], referenced_fields: Union[str, List[str]],
+                    description: str = None) -> str:
     if isinstance(source_fields, str):
         source_fields = [source_fields]
     if isinstance(referenced_fields, str):
@@ -137,9 +143,12 @@ def create_join_str(source_fields: Union[str, List[str]], referenced_fields: Uni
 
     sep = ' + '
     if set(source_fields) == set(referenced_fields):
-        return sep.join(source_fields)
+        result = sep.join(source_fields)
     else:
-        return '{} => {}'.format(sep.join(source_fields), sep.join(referenced_fields))
+        result = '{} => {}'.format(sep.join(source_fields), sep.join(referenced_fields))
+    if description:
+        result += ' | ' + description
+    return result
 
 
 if __name__ == '__main__':

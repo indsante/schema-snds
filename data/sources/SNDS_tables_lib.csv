@@ -124,7 +124,7 @@
 123;PMSI SSR;T_SSRaa_nnFH;OQN med en sus;Privé
 124;PMSI SSR;T_SSRaa_nnFM;OQN actes CCAM;Privé
 125;PMSI SSR;T_SSRaa_nnFP;OQN DMI en sus;Privé
-126;PMSI RIM-P;T_RIPaa_nnRA;Résumé par acte ambulatoire anonymisé;Public (et qq privé)
+126;PMSI RIM-P;T_RIPaa_nnR3A;Résumé par acte ambulatoire anonymisé;Public (et qq privé)
 127;PMSI RIM-P;T_RIPaa_nnR3AD;Diagnostic associé à l'acte;Public (et qq privé)
 128;PMSI RIM-P;T_RIPaa_nnRSA;Résumé par séquence;Public et Privé
 129;PMSI RIM-P;T_RIPaa_nnCCAM;Actes CCAM;Public et Privé

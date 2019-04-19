@@ -4,9 +4,11 @@ venv/
 .ipynb_checkpoints/
 *.ipynb
 
-data/*
-!data/sources
+data/byproducts/relational_diagram
+
+tests/data
 
 .idea/
 .pytest_cache
 .DS_Store
+__pycache__/

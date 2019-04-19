@@ -27,7 +27,8 @@ def get_all_schema() -> List[Schema]:
 
 def get_all_schema_path() -> List[str]:
     for root, dirs, files in os.walk(TABLESCHEMA_DIR):
-        for file in files:
+        dirs.sort()
+        for file in sorted(files):
             schema_path = os.path.join(root, file)
             yield schema_path
 

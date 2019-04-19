@@ -82,10 +82,13 @@ def read_snds_table_lib() -> pd.DataFrame:
 
 
 def merge_vars_table(df_vars, df_table_lib):
-    logging.warning("Les tables {} sont présentes dans les 'variables' et pas dans les 'tables', "
-                    "et réciproquement pour {}"
-                    .format(set(df_vars.table) - set(df_table_lib.Table), set(df_table_lib.Table) - set(df_vars.table))
-                    )
+    tables_in_var_not_in_table = set(df_vars.table) - set(df_table_lib.Table)
+    tables_in_table_not_in_var = set(df_table_lib.Table) - set(df_vars.table)
+    if tables_in_var_not_in_table or tables_in_table_not_in_var:
+        logging.warning("Les tables {} sont présentes dans les 'variables' et pas dans les 'tables', "
+                        "et réciproquement pour {}"
+                        .format(tables_in_var_not_in_table, tables_in_table_not_in_var)
+                        )
 
     logging.info("Nombre de lignes avant jointure : variables {}, tables {} ".format(len(df_vars), len(df_table_lib)))
     df = (df_vars

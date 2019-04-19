@@ -1,0 +1,90 @@
+{
+    "fields": [
+        {
+            "name": "ANN",
+            "description": "Année période",
+            "type": "string",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default"
+        },
+        {
+            "name": "ETA_NUM",
+            "description": "N° FINESS",
+            "type": "string",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default"
+        },
+        {
+            "name": "ETA_NUM_ENT",
+            "description": "N° FINESS du fichier d'entrée",
+            "type": "string",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default"
+        },
+        {
+            "name": "MOI",
+            "description": "N° période (mois)",
+            "type": "string",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default"
+        },
+        {
+            "name": "NBR_PRS",
+            "description": "Nombre de suppléments DIP",
+            "type": "number",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default"
+        },
+        {
+            "name": "PRS_COD",
+            "description": "Code Prestation",
+            "type": "string",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default"
+        },
+        {
+            "name": "PRS_TYP",
+            "description": "Type de prestation",
+            "type": "string",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default"
+        },
+        {
+            "name": "RSA_NUM",
+            "description": "N° d'index du RSA",
+            "type": "string",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default"
+        }
+    ],
+    "name": "T_MCOaa_nnDIALP",
+    "title": "Fich comp dialyse péritonéale en sus",
+    "description": "Champ : Public",
+    "produit": "PMSI MCO",
+    "missingValues": [
+        ""
+    ],
+    "foreignKeys": [
+        {
+            "fields": [
+                "ETA_NUM",
+                "RSA_NUM"
+            ],
+            "reference": {
+                "resource": "T_MCOaa_nnB",
+                "fields": [
+                    "ETA_NUM",
+                    "RSA_NUM"
+                ]
+            }
+        }
+    ]
+}

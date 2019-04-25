@@ -26,17 +26,26 @@ def tableschema_to_markdown() -> None:
 def generate_table_sidebar() -> None:
     logging.info("Generate 'table_sidebar.js' for VuePress documentation")
     sidebar = ['']
-    product_folders = sorted(os.listdir(TABLESCHEMA_DIR))
-    for product_folder in product_folders:
-        table_schema_filenames = sorted(os.listdir(os.path.join(TABLESCHEMA_DIR, product_folder)))
-        children = list()
-        for table_json in table_schema_filenames:
-            table = table_json[:-5]
-            children.append([product_folder + '/' + table, table])
-        sidebar.append({
-            'title': product_folder,
-            'children': children
-        })
+    for product in sorted(os.listdir(TABLESCHEMA_DIR)):
+        if product == 'PMSI':
+            children = list()
+            for subproduct in sorted(os.listdir(os.path.join(TABLESCHEMA_DIR, product))):
+                subproduct_path = product + '/' + subproduct
+                subchildren = generate_product_directory_children(subproduct_path)
+                children.append({
+                    'title': subproduct,
+                    'children': subchildren
+                })
+            sidebar.append({
+                'title': product,
+                'children': children
+            })
+        else:
+            children = generate_product_directory_children(product)
+            sidebar.append({
+                'title': product,
+                'children': children
+            })
 
     with open(TABLES_SIDEBAR_JS_PATH, 'w', encoding='utf8') as f:
         f.write('module.exports =')
@@ -44,5 +53,15 @@ def generate_table_sidebar() -> None:
         f.write(';')
 
 
+def generate_product_directory_children(product_directory_rel_path):
+    product_directory_abs_path = os.path.join(TABLESCHEMA_DIR, product_directory_rel_path)
+    table_schema_filenames = sorted(os.listdir(product_directory_abs_path))
+    children = list()
+    for table_json in table_schema_filenames:
+        table = table_json[:-5]
+        children.append([product_directory_rel_path + '/' + table, table])
+    return children
+
+
 if __name__ == '__main__':
-    tableschema_to_markdown()
+    generate_documentation_snds()

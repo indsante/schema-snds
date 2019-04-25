@@ -25,7 +25,7 @@ def tableschema_to_markdown() -> None:
 
 def generate_table_sidebar() -> None:
     logging.info("Generate 'table_sidebar.js' for VuePress documentation")
-    sidebar = ['']
+    sidebar = []
     for product in sorted(os.listdir(TABLESCHEMA_DIR)):
         if product == 'PMSI':
             children = list()
@@ -59,7 +59,7 @@ def generate_product_directory_children(product_directory_rel_path):
     children = list()
     for table_json in table_schema_filenames:
         table = table_json[:-5]
-        children.append([product_directory_rel_path + '/' + table, table])
+        children.append(['tables/' + product_directory_rel_path + '/' + table, table])
     return children
 
 

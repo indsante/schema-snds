@@ -40,9 +40,9 @@ BYPRODUCTS_DIR = join(DATA_DIR, 'byproducts')
 if RUNNING_TEST:
     BYPRODUCTS_DIR = join(TESTS_DIR, BYPRODUCTS_DIR)
 
-DICO_SNDS_DIR = join(BYPRODUCTS_DIR, 'dico_snds')
-MARKDOWN_DIR = join(BYPRODUCTS_DIR, 'documentation_snds/markdown')
-TABLES_SIDEBAR_JS_PATH = join(BYPRODUCTS_DIR, 'documentation_snds/tables_sidebar.js')
+DICO_SNDS_DIR = join(BYPRODUCTS_DIR, 'dico-snds')
+MARKDOWN_DIR = join(BYPRODUCTS_DIR, 'documentation-snds/markdown')
+TABLES_SIDEBAR_JS_PATH = join(BYPRODUCTS_DIR, 'documentation-snds/tables_sidebar.js')
 
 # https://frictionlessdata.io/specs/table-schema/#types-and-formats
 

@@ -508,7 +508,7 @@ NS_PRS_F,PRS_PDS_QCP,NUMBER(2),Code qualificatif du parcours de soins,IR_QPS_V
 NS_PRS_F,PRS_PPU_SEC,NUMBER(1),Code privé / public de la prestation,IR_PPU_V
 NS_PRS_F,PRS_PRE_MTT,NUMBER(1),Code origine de la prescription,IR_TMT_V
 NS_PRS_F,PSE_ACT_NAT,NUMBER(2),Nature d'activité du professionnel de santé exécutant,IR_ACT_V
-NS_PRS_F,PSE_ACT_SPE,NUMBER(2),Spécialité ou nature d'activité du professionnel de santé exécutant,-
+NS_PRS_F,PSE_ACT_SPE,NUMBER(2),Spécialité ou nature d'activité du professionnel de santé exécutant,IR_PFS_V
 NS_PRS_F,PSE_CNV_COD,NUMBER(1),Code convention du professionnel de santé exécutant,IR_CNV_V
 NS_PRS_F,PSE_SPE_COD,NUMBER(2),Spécialite médicale du professionnel de santé exécutant,IR_SPE_V
 NS_PRS_F,PSE_STJ_COD,NUMBER(2),Mode d'exercice du professionnel de santé exécutant,IR_SJP_V

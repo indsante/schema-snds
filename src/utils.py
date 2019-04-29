@@ -15,7 +15,7 @@ def reset_data_directory():
         if folder == SOURCES:
             continue
         if not os.path.isdir(folder_path):
-            logging.warning("'{}' is not a folder. We do not delete it.".format(folder_path))
+            logging.warning("'{}' is not a folder. We do not delete it in data directory.".format(folder_path))
             continue
         logging.info("Delete folder '{}'".format(folder_path))
         shutil.rmtree(folder_path, ignore_errors=True)

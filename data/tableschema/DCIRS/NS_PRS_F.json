@@ -676,7 +676,7 @@
             "name": "PSE_ACT_SPE",
             "description": "Spécialité ou nature d'activité du professionnel de santé exécutant",
             "type": "number",
-            "nomenclature": "-",
+            "nomenclature": "IR_PFS_V",
             "length": "2",
             "format": "default"
         },

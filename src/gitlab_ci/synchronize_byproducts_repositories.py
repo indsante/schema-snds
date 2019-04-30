@@ -27,72 +27,94 @@ def synchronize_all_byproducts() -> None:
         return
 
     current_commit = bash("git rev-parse --verify HEAD").strip()
+    shutil.rmtree(TMP_DIR, ignore_errors=True)
 
-    synchronize_byproduct_repository(current_commit,
-                                     repository_name="documentation-snds",
-                                     project_id=11935953,
-                                     local_to_target_directories=[('markdown', 'docs/tables')],
-                                     local_to_target_files=[('tables_sidebar.js', 'docs/.vuepress/tables_sidebar.js')],
-                                     automatic_merge=True)
+    synchronize_byproduct_repository_with_local_changes(current_commit,
+                                                        byproduct_repository="documentation-snds",
+                                                        byproduct_project_id=11935953,
+                                                        local_to_byproduct_directories=[('markdown', 'docs/tables')],
+                                                        local_to_byproduct_files=[
+                                                            ('tables_sidebar.js', 'docs/.vuepress/tables_sidebar.js')],
+                                                        automatic_merge=True)
 
-    synchronize_byproduct_repository(current_commit,
-                                     repository_name="dico-snds",
-                                     project_id=11925754,
-                                     local_to_target_directories=[],
-                                     local_to_target_files=[
-                                         ('snds_links.csv', 'app/app_data/snds_links.csv'),
-                                         ('snds_nodes.csv', 'app/app_data/snds_nodes.csv'),
-                                         ('snds_tables.csv', 'app/app_data/snds_tables.csv'),
-                                         ('snds_vars.csv', 'app/app_data/snds_vars.csv')
-                                     ])
+    synchronize_byproduct_repository_with_local_changes(current_commit,
+                                                        byproduct_repository="dico-snds",
+                                                        byproduct_project_id=11925754,
+                                                        local_to_byproduct_directories=[],
+                                                        local_to_byproduct_files=[
+                                                            ('snds_links.csv', 'app/app_data/snds_links.csv'),
+                                                            ('snds_nodes.csv', 'app/app_data/snds_nodes.csv'),
+                                                            ('snds_tables.csv', 'app/app_data/snds_tables.csv'),
+                                                            ('snds_vars.csv', 'app/app_data/snds_vars.csv')
+                                                        ])
 
 
-def synchronize_byproduct_repository(current_commit: str, repository_name: str, project_id: int,
-                                     local_to_target_directories: LIST_TUPLE_STR_STR,
-                                     local_to_target_files: LIST_TUPLE_STR_STR,
-                                     automatic_merge: bool = False) -> None:
-    clone_repository_to_tmp_directory(repository_name)
-    copy_local_to_target_repository(repository_name, local_to_target_directories, local_to_target_files)
+def synchronize_byproduct_repository_with_local_changes(current_commit: str,
+                                                        byproduct_repository: str, byproduct_project_id: int,
+                                                        local_to_byproduct_directories: LIST_TUPLE_STR_STR,
+                                                        local_to_byproduct_files: LIST_TUPLE_STR_STR,
+                                                        automatic_merge: bool = False) -> None:
+    """
+    Synchronize byproduct repository with byproduct version in this repository current commit
 
-    os.chdir(pjoin(TMP_DIR, repository_name))
+    :param current_commit: commit sha
+    :param byproduct_repository: repository name
+    :param byproduct_project_id: byproduct GitLab project id
+    :param local_to_byproduct_directories: directories to erase and replace from this repository to byproduct repository
+    :param local_to_byproduct_files: files to replace from this repository to byproduct repository
+    :param automatic_merge: do we approve and merge Merge Request automatically when pipeline succeeds
+    """
+    clone_repository_to_tmp_directory(byproduct_repository)
+    copy_local_to_byproduct_repository(byproduct_repository, local_to_byproduct_directories, local_to_byproduct_files)
+
+    current_dir = os.getcwd()
+    os.chdir(pjoin(TMP_DIR, byproduct_repository))
     if not bash("git status --porcelain"):
         logging.info("No modifications in target repository. Exit.")
-        return
+    else:
+        bash("git config user.name 'schema-snds GitLab-CI robot'")
+        bash('git config user.mail "ld-lab-github@sante.gouv.fr"')
+        branch_name = "update-from-schema-snds-{}".format(current_commit)
+        commit_and_push_modifications(branch_name, current_commit)
 
-    bash("git config user.name 'schema-snds GitLab-CI robot'")
-    bash('git config user.mail "ld-lab-github@sante.gouv.fr"')
-    branch_name = "update-from-schema-snds-{}".format(current_commit)
-    commit_and_push_modifications(branch_name, current_commit)
+        merge_request_iid = create_merge_request(byproduct_project_id, branch_name, byproduct_repository)
+        if automatic_merge:
+            merge_when_pipeline_succeeds(byproduct_project_id, merge_request_iid)
 
-    merge_request_iid = create_merge_request(project_id, branch_name, repository_name)
-    if automatic_merge:
-        merge_when_pipeline_succeeds(project_id, merge_request_iid)
+    os.chdir(current_dir)
 
 
 def clone_repository_to_tmp_directory(repository_name: str):
-    shutil.rmtree(TMP_DIR, ignore_errors=True)
-    git_clone_cmd = "git clone https://oauth2:{gitlab_token}@gitlab.com/healthdatahub/{repository}.git/ tmp/{repository}" \
-        .format(gitlab_token=GITLAB_TOKEN, repository=repository_name)
+    git_clone_cmd = \
+        "git clone https://oauth2:{gitlab_token}@gitlab.com/healthdatahub/{repository}.git/ tmp/{repository}" \
+            .format(gitlab_token=GITLAB_TOKEN, repository=repository_name)
     bash(git_clone_cmd)
 
 
-def copy_local_to_target_repository(repository_name: str, local_to_target_directories: LIST_TUPLE_STR_STR,
-                                    local_to_target_files: LIST_TUPLE_STR_STR):
-    for source_dir, target_dir in local_to_target_directories:
-        copy_directory_to_target_repository(source_dir, repository_name, target_dir)
-    for source_file, target_file in local_to_target_files:
-        copy_file_to_target_repository(source_file, repository_name, target_file)
+def copy_local_to_byproduct_repository(byproduct_repository: str,
+                                       local_to_byproduct_directories: LIST_TUPLE_STR_STR,
+                                       local_to_byproduct_files: LIST_TUPLE_STR_STR):
+    for source_dir, target_dir in local_to_byproduct_directories:
+        copy_directory_to_byproduct_repository(source_dir, byproduct_repository, target_dir)
+    for source_file, target_file in local_to_byproduct_files:
+        copy_file_to_byproduct_repository(source_file, byproduct_repository, target_file)
 
 
-def copy_file_to_target_repository(source_file: str, target_repo: str, target_file: str) -> None:
-    source_file_path = pjoin(BYPRODUCTS_DIR, target_repo, source_file)
-    target_file_path = pjoin(TMP_DIR, target_repo, target_file)
+def copy_file_to_byproduct_repository(source_file: str, byproduct_repository: str, target_file: str) -> None:
+    """
+    Replace file in byproducts's repository local copy by source file.
+    """
+    source_file_path = pjoin(BYPRODUCTS_DIR, byproduct_repository, source_file)
+    target_file_path = pjoin(TMP_DIR, byproduct_repository, target_file)
     shutil.copy(source_file_path, target_file_path)
 
 
-def copy_directory_to_target_repository(source_dir: str, target_repo: str, target_dir: str) -> None:
-    source_dir_path = pjoin(BYPRODUCTS_DIR, target_repo, source_dir)
-    target_dir_path = pjoin(TMP_DIR, target_repo, target_dir)
+def copy_directory_to_byproduct_repository(source_dir: str, byproduct_repository: str, target_dir: str) -> None:
+    """
+    Erase target directory in byproduct's repository local copy. Replace it with source directory.
+    """
+    source_dir_path = pjoin(BYPRODUCTS_DIR, byproduct_repository, source_dir)
+    target_dir_path = pjoin(TMP_DIR, byproduct_repository, target_dir)
     shutil.rmtree(target_dir_path, ignore_errors=True)
     shutil.copytree(source_dir_path, target_dir_path)
 
@@ -101,8 +123,8 @@ def commit_and_push_modifications(branch_name: str, current_commit: str):
     bash("git checkout -b {}".format(branch_name))
     bash("git add -A")
 
-    commit_message = "MAJ automatique depuis 'schema-snds', commit {}\n\nCf '{}/{}/commit/{}'".format(
-        current_commit, HDH_GITLAB_URL, 'schema-snds', current_commit)
+    commit_message = "MAJ automatique depuis 'schema-snds', commit {}\n\n" \
+                     "Cf '{}/{}/commit/{}'".format(current_commit, HDH_GITLAB_URL, 'schema-snds', current_commit)
 
     bash("git commit -m '{}'".format(commit_message))
     bash("git push --set-upstream origin {}".format(branch_name))
@@ -140,13 +162,16 @@ def merge_when_pipeline_succeeds(project_id: int, merge_request_iid: int) -> Non
 
 
 def bash(bash_command: str) -> str:
-    logging.info("Execute: {}".format(bash_command))
+    logging.info("Execute: {}".format(bash_command.replace(GITLAB_TOKEN, 'XXXXXXXX')))
     bash_command_list = shlex.split(bash_command)
     return subprocess.check_output(bash_command_list).decode()
 
 
 def check_response_code(response: requests.Response, expected_status_code: int) -> None:
-    response_log_msg = '{} {}\n{}'.format(response.status_code, response.reason, response.text)
+    response_log_msg = ('{} {}\n{}'
+                        .format(response.status_code, response.reason, response.text)
+                        .replace(GITLAB_TOKEN, 'XXXXXXXX')
+                        )
     if response.status_code != expected_status_code:
         logging.error(response_log_msg)
         raise Exception("wrong status_code")

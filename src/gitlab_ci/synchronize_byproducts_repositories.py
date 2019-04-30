@@ -10,7 +10,7 @@ import requests
 
 from src.constants import BYPRODUCTS_DIR
 
-GITLAB_TOKEN = os.environ['GITLAB_TOKEN']
+GITLAB_TOKEN = os.environ.get('GITLAB_TOKEN', None)
 
 HDH_GITLAB_URL = 'https://gitlab.com/healthdatahub'
 GITLAB_COM_API_V4 = 'https://gitlab.com/api/v4'
@@ -18,7 +18,14 @@ TMP_DIR = 'tmp'
 LIST_TUPLE_STR_STR = List[Tuple[str, str]]
 
 
-def main():
+def synchronize_all_byproducts() -> None:
+    if GITLAB_TOKEN is None:
+        logging.error("GITLAB TOKEN is not set. "
+                      "This is expected, if we are not executing on GitLab-CI runners, for protected branches. "
+                      "Exiting, as we cannot automatically synchronize byproducts. "
+                      )
+        return
+
     current_commit = bash("git rev-parse --verify HEAD").strip()
 
     synchronize_byproduct_repository(current_commit,
@@ -148,4 +155,4 @@ def check_response_code(response: requests.Response, expected_status_code: int) 
 
 
 if __name__ == '__main__':
-    main()
+    synchronize_all_byproducts()

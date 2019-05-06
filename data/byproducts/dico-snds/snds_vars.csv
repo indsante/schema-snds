@@ -704,9 +704,9 @@ IR_BEN_R,BEN_DCD_AME,string (6),Année et mois de décès du bénéficiaire,-
 IR_BEN_R,BEN_DCD_DTE,date,Date de décès du bénéficiaire,-
 IR_BEN_R,BEN_DTE_INS,date,date d'insertion dans le référentiel,-
 IR_BEN_R,BEN_DTE_MAJ,date,date de mise à jour,-
-IR_BEN_R,BEN_IDT_ANO,string (18),Identifiant syntéhtique anonymisé du bénéficiaire,-
+IR_BEN_R,BEN_IDT_ANO,string (18),Identifiant synthétique anonymisé du bénéficiaire,-
 IR_BEN_R,BEN_IDT_MAJ,date,Date d'alimentation du NIR BEN_NIR_NAO,-
-IR_BEN_R,BEN_IDT_TOP,number (1),Top associé ç ben_idt_ano,-
+IR_BEN_R,BEN_IDT_TOP,number (1),Top associé à ben_idt_ano,-
 IR_BEN_R,BEN_NAI_ANN,string (4),Année de naissance du bénéficiaire,-
 IR_BEN_R,BEN_NAI_MOI,string (2),Mois de naissance du bénéficiaire,-
 IR_BEN_R,BEN_NIR_ANO,string (18),NIR anonymisé du bénéficiaire,-

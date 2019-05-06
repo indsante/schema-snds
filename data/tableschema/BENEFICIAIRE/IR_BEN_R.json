@@ -30,7 +30,7 @@
         },
         {
             "name": "BEN_IDT_ANO",
-            "description": "Identifiant syntéhtique anonymisé du bénéficiaire",
+            "description": "Identifiant synthétique anonymisé du bénéficiaire",
             "type": "string",
             "nomenclature": "-",
             "length": "18",
@@ -41,7 +41,7 @@
         },
         {
             "name": "BEN_IDT_TOP",
-            "description": "Top associé ç ben_idt_ano",
+            "description": "Top associé à ben_idt_ano",
             "type": "number",
             "nomenclature": "-",
             "length": "1",

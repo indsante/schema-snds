@@ -406,8 +406,8 @@ ER_ETE_F,REM_TYP_AFF,Numérique (8),Type de remboursement affiné               
 IR_BEN_R,BEN_NIR_PSA,VARCHAR2(17),Identifiant SNIIRAM anonymisé du bénéficiaire,-
 IR_BEN_R,BEN_RNG_GEM,NUM(1),Rang gémélaire,-
 IR_BEN_R,BEN_NIR_ANO,VARCHAR2(18),NIR anonymisé du bénéficiaire,-
-IR_BEN_R,BEN_IDT_ANO,VARCHAR2(18),Identifiant syntéhtique anonymisé du bénéficiaire,-
-IR_BEN_R,BEN_IDT_TOP,NUM(1),Top associé ç ben_idt_ano,-
+IR_BEN_R,BEN_IDT_ANO,VARCHAR2(18),Identifiant synthétique anonymisé du bénéficiaire,-
+IR_BEN_R,BEN_IDT_TOP,NUM(1),Top associé à ben_idt_ano,-
 IR_BEN_R,ASS_NIR_ANO,CHAR(17),Matricule anonymisé de l'ouvreur de droits,-
 IR_BEN_R,BEN_IDT_MAJ,DATE,Date d'alimentation du NIR BEN_NIR_NAO,-
 IR_BEN_R,BEN_CDI_NIR,CHAR(2),Qualité du matricule de l'ouvreur de droits,-

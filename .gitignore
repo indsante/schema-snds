@@ -8,6 +8,8 @@ data/byproducts/relational_diagram
 
 tests/data
 
+tmp/
+
 .idea/
 .pytest_cache
 .DS_Store

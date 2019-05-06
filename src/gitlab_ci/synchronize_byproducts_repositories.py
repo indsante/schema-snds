@@ -73,7 +73,7 @@ def synchronize_byproduct_repository_with_local_changes(current_commit: str,
         logging.info("No modifications in target repository. Exit.")
     else:
         bash("git config user.name 'schema-snds GitLab-CI robot'")
-        bash('git config user.mail "ld-lab-github@sante.gouv.fr"')
+        bash('git config user.email "ld-lab-github@sante.gouv.fr"')
         branch_name = "update-from-schema-snds-{}".format(current_commit)
         commit_and_push_modifications(branch_name, current_commit)
 

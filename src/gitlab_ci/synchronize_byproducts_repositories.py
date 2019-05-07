@@ -46,7 +46,8 @@ def synchronize_all_byproducts() -> None:
                                                             ('snds_nodes.csv', 'app/app_data/snds_nodes.csv'),
                                                             ('snds_tables.csv', 'app/app_data/snds_tables.csv'),
                                                             ('snds_vars.csv', 'app/app_data/snds_vars.csv')
-                                                        ])
+                                                        ],
+                                                        automatic_merge=True)
 
 
 def synchronize_byproduct_repository_with_local_changes(current_commit: str,

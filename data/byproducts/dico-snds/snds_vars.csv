@@ -1101,7 +1101,7 @@ NS_PRS_F,PSE_CNV_COD,number (1),Code convention du professionnel de santé exéc
 NS_PRS_F,PSE_SPE_COD,number (2),Spécialite médicale du professionnel de santé exécutant,IR_SPE_V
 NS_PRS_F,PSE_STJ_COD,number (2),Mode d'exercice du professionnel de santé exécutant,IR_SJP_V
 NS_PRS_F,PSP_ACT_NAT,number (2),Nature d'activite du professionnel de santé prescripteur,IR_ACT_V
-NS_PRS_F,PSP_ACT_SPE,number (2),Spécialité ou nature d'activité du professionnel de santé prescripteur,-
+NS_PRS_F,PSP_ACT_SPE,number (2),Spécialité ou nature d'activité du professionnel de santé prescripteur,IR_PFS_V
 NS_PRS_F,PSP_CNV_COD,number (1),Code convention du professionnel de santé prescripteur,IR_CNV_V
 NS_PRS_F,PSP_PPS_NUM,string (10),Numéro RPPS du prescripteur salarié,-
 NS_PRS_F,PSP_SPE_COD,number (2),Spécialité médicale du professionnel de santé prescripteur,IR_SPE_V

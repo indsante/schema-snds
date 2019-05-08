@@ -44,7 +44,7 @@
             "name": "DGN_PAL",
             "description": "DP",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_CIM_V",
             "length": null,
             "format": "default"
         },
@@ -52,7 +52,7 @@
             "name": "DGN_REL",
             "description": "DR",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_CIM_V",
             "length": null,
             "format": "default"
         },

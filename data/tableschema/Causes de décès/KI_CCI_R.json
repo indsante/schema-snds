@@ -196,7 +196,7 @@
             "name": "DCD_CIM_COD",
             "description": "Cause initiale du décès",
             "type": "string",
-            "nomenclature": "IR_CCI_V,IR_CIM_V,MS_CIM_V",
+            "nomenclature": "IR_CIM_V",
             "length": "4",
             "format": "default"
         },

@@ -108,7 +108,7 @@
             "name": "DGN_PAL",
             "description": "Diagnostic principal",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_CIM_V",
             "length": null,
             "format": "default"
         },

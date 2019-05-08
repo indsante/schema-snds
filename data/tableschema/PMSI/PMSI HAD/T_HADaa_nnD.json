@@ -4,7 +4,7 @@
             "name": "DGN_ASS",
             "description": "Diagnostic associé",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_CIM_V",
             "length": null,
             "format": "default"
         },

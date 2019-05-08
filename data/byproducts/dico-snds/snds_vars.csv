@@ -801,7 +801,7 @@ KI_CCI_R,CER_SUP_TYP,any,Type de support,DS_VER_V
 KI_CCI_R,CER_VER_NUM,any,Version du certificat,DS_VER_V
 KI_CCI_R,DCD_ATT_COD,number (1),Accident du travail,DS_ATT_V
 KI_CCI_R,DCD_CAU_COD,number (1),Recherche de la cause de décès,DS_CAU_V
-KI_CCI_R,DCD_CIM_COD,string (4),Cause initiale du décès,"IR_CCI_V,IR_CIM_V,MS_CIM_V"
+KI_CCI_R,DCD_CIM_COD,string (4),Cause initiale du décès,IR_CIM_V
 KI_CCI_R,DCD_COM_CO,any,Commune de décès,IR_GEO_V
 KI_CCI_R,DCD_DPT_COD,string (3),Département de décès,IR_DPT_V
 KI_CCI_R,DCD_GRS_COD,number (1),La grossesse a contribué au décès,DS_GRS_V
@@ -842,7 +842,7 @@ KI_ECD_R,DCD_IDT_ENC,string (64),Identifiant décès encodé,-
 KI_ECD_R,DCD_IDT_TOP,number (1),Top apparié avec IR_BEN_R,-
 KI_ECD_R,ECD_CAU_LIB,string (100),Libellé de la cause,-
 KI_ECD_R,ECD_CAU_RNG,number (3),Rang de la cause,-
-KI_ECD_R,ECD_CIM_COD,string (4),Code de la cause,"IR_CCI_V,IR_CIM_V,MS_CIM_V"
+KI_ECD_R,ECD_CIM_COD,string (4),Code de la cause,IR_CIM_V
 KI_ECD_R,FLX_PER_ANN,string (4),Année du décès,-
 NS_BIO_F,BEN_IDT_ANO,string (18),Identifiant bénéficiaire anonymisé,-
 NS_BIO_F,BEN_IDT_TOP,number (1),Top identifiant bénéficiaire Anonymisé,-
@@ -1281,7 +1281,7 @@ T_HADaa_nnB,BDI_DEP,string,Code département,-
 T_HADaa_nnB,COD_CONF,string,Confirmation de codage,-
 T_HADaa_nnB,COD_SEX,string,Sexe du patient,-
 T_HADaa_nnB,DEP_COT,string,Cotation dépendance selon Karnofsky,-
-T_HADaa_nnB,DGN_PAL,string,Diagnostic principal,-
+T_HADaa_nnB,DGN_PAL,string,Diagnostic principal,IR_CIM_V
 T_HADaa_nnB,ENT_MOD,string,Mode d’entrée,-
 T_HADaa_nnB,ENT_PRV,string,Provenance,-
 T_HADaa_nnB,ETA_NUM_EPMSI,string,N° FINESS e-PMSI,-
@@ -1355,19 +1355,19 @@ T_HADaa_nnC,SEX_RET,string,Code retour contrôle « sexe « ,-
 T_HADaa_nnC,SOR_DAT,string,Date de sortie,-
 T_HADaa_nnC,format,string,N° format,-
 T_HADaa_nnC,vid_hosp_for,string,N° format VID-HOSP,-
-T_HADaa_nnD,DGN_ASS,string,Diagnostic associé,-
+T_HADaa_nnD,DGN_ASS,string,Diagnostic associé,IR_CIM_V
 T_HADaa_nnD,ETA_NUM_EPMSI,string,N° FINESS e-PMSI,-
 T_HADaa_nnD,ETA_NUM_GEO,string,Numéro FINESS de l’établissement (code géographique),-
 T_HADaa_nnD,RHAD_NUM,string,N° séquentiel de séjour d'HAD,-
 T_HADaa_nnD,SEQ_NUM,string,N° de la séquence dans le séjour,-
 T_HADaa_nnD,SSEQ_NUM,string,N° de la sous-séquence,-
-T_HADaa_nnDMPA,DGN_ASS_MPA,string,Diagnostic lié au MPA,-
+T_HADaa_nnDMPA,DGN_ASS_MPA,string,Diagnostic lié au MPA,IR_CIM_V
 T_HADaa_nnDMPA,ETA_NUM_EPMSI,string,N° FINESS e-PMSI,-
 T_HADaa_nnDMPA,ETA_NUM_GEO,string,Numéro FINESS de l’établissement (code géographique),-
 T_HADaa_nnDMPA,RHAD_NUM,string,N° séquentiel de séjour d'HAD,-
 T_HADaa_nnDMPA,SEQ_NUM,string,N° de la séquence dans le séjour,-
 T_HADaa_nnDMPA,SSEQ_NUM,string,N° de la sous-séquence,-
-T_HADaa_nnDMPP,DGN_ASS_MPP,string,Diagnostic lié au MPP,-
+T_HADaa_nnDMPP,DGN_ASS_MPP,string,Diagnostic lié au MPP,IR_CIM_V
 T_HADaa_nnDMPP,ETA_NUM_EPMSI,string,N° FINESS e-PMSI,-
 T_HADaa_nnDMPP,ETA_NUM_GEO,string,Numéro FINESS de l’établissement (code géographique),-
 T_HADaa_nnDMPP,RHAD_NUM,string,N° séquentiel de séjour d'HAD,-
@@ -1771,8 +1771,8 @@ T_MCOaa_nnB,BEH_NBJ,number,Nombre de journées au-delà de la borne extrême hau
 T_MCOaa_nnB,CAI_SUP_NBR,number,Nombre de suppléments caisson hyperbare,-
 T_MCOaa_nnB,COD_SEX,string,Sexe ,-
 T_MCOaa_nnB,DEL_REG_ENT,number,Délai de la date des dernières règles par rapport à la date d'entrée,-
-T_MCOaa_nnB,DGN_PAL,string,Diagnostic principal (DP) ,-
-T_MCOaa_nnB,DGN_REL,string,Diagnostic relié (DR) ,-
+T_MCOaa_nnB,DGN_PAL,string,Diagnostic principal (DP) ,IR_CIM_V
+T_MCOaa_nnB,DGN_REL,string,Diagnostic relié (DR) ,IR_CIM_V
 T_MCOaa_nnB,DOS_TYP,string,Type de dosimétrie,-
 T_MCOaa_nnB,ENT_MOD,string,Mode d'entrée dans le champ du PMSI-MCO ,-
 T_MCOaa_nnB,ENT_PRV,string,Provenance ,-
@@ -1907,7 +1907,7 @@ T_MCOaa_nnCSTC,VALID_FAC_AMO,string,Statut FT AMO,-
 T_MCOaa_nnCSTC,VALID_FAC_AMO_RET,string,Code retour contrôle « Statut FT AMO «,-
 T_MCOaa_nnCSTC,VALID_FAC_RAC,string,Statut FT patient,-
 T_MCOaa_nnCSTC,VALID_FAC_RAC_RET,string,Code retour contrôle « Statut FT patient «,-
-T_MCOaa_nnD,ASS_DGN,string,Diagnostic associé,-
+T_MCOaa_nnD,ASS_DGN,string,Diagnostic associé,IR_CIM_V
 T_MCOaa_nnD,DGN_ASS_NUM,number,Numero de diag par couple eta_num rsa_num,-
 T_MCOaa_nnD,ETA_NUM,string,Numéro FINESS e-PMSI,-
 T_MCOaa_nnD,RSA_NUM,string,N° d'index du RSA ,-
@@ -2462,8 +2462,8 @@ T_MCOaa_nnUM,AGE_GES,number,Age gestationnel du RUM,-
 T_MCOaa_nnUM,AUT_TYP1_UM,string,Premier type d'autorisation d'UM,-
 T_MCOaa_nnUM,AUT_TYP2_UM,string,Deuxième type d'autorisation d'UM,-
 T_MCOaa_nnUM,DGN_ASS_NBR,number,Nombre de diagnostics associés du RUM (Nb_DA_R_1),-
-T_MCOaa_nnUM,DGN_PAL,string,DP,-
-T_MCOaa_nnUM,DGN_REL,string,DR,-
+T_MCOaa_nnUM,DGN_PAL,string,DP,IR_CIM_V
+T_MCOaa_nnUM,DGN_REL,string,DR,IR_CIM_V
 T_MCOaa_nnUM,ETA_NUM,string,Numéro FINESS e-PMSI,-
 T_MCOaa_nnUM,ETA_NUM_GEO,string,Premier numéro FINESS géographique,-
 T_MCOaa_nnUM,IGS2_COD,string,IGS2,-
@@ -2926,7 +2926,7 @@ T_RIPaa_nnR3A,ANO_IND,string,Indicateur d'anomalie,-
 T_RIPaa_nnR3A,BDI_COD,string,Code géographique de résidence,-
 T_RIPaa_nnR3A,BDI_DEP,string,Code département de résidence,-
 T_RIPaa_nnR3A,COD_SEX,string,Sexe du patient,-
-T_RIPaa_nnR3A,DGN_PAL,string,Diagnostic principal ou motif de prise en charge principale,-
+T_RIPaa_nnR3A,DGN_PAL,string,Diagnostic principal ou motif de prise en charge principale,IR_CIM_V
 T_RIPaa_nnR3A,ETA_NUM_EPMSI,string,N° FINESS e-PMSI,-
 T_RIPaa_nnR3A,ETA_NUM_TWO,string,Second n° FINESS,-
 T_RIPaa_nnR3A,ETB_SAN_AUTOR,string,Indicateur FINESS géographique sans autorisation,-
@@ -2943,7 +2943,7 @@ T_RIPaa_nnR3A,RAL_ACT_ANN,string,Année de la date de réalisation de l'acte,-
 T_RIPaa_nnR3A,RAL_ACT_MOI,string,Mois de la date de réalisation de l'acte,-
 T_RIPaa_nnR3A,SEC_NUM,string,N°de secteur ou de dispositif intersectoriel,-
 T_RIPaa_nnR3A,SEJ_IDT,string,Identifiant de séjour,-
-T_RIPaa_nnR3AD,ASS_DGN,string,Diagnostics et facteurs associés,-
+T_RIPaa_nnR3AD,ASS_DGN,string,Diagnostics et facteurs associés,IR_CIM_V
 T_RIPaa_nnR3AD,ETA_NUM_EPMSI,string,N° FINESS e-PMSI,-
 T_RIPaa_nnR3AD,ETA_NUM_TWO,string,Second n° FINESS,-
 T_RIPaa_nnR3AD,IPP_IRR_CRY,string,Cryptage irreversible de l'IPP,-
@@ -2956,7 +2956,7 @@ T_RIPaa_nnRSA,BDI_COD,string,Code géographique de résidence,-
 T_RIPaa_nnRSA,BDI_DEP,string,Code département de résidence,-
 T_RIPaa_nnRSA,COD_SEX,string,Sexe du patient,-
 T_RIPaa_nnRSA,DEL_DAT,number,Délai entre la date de début de la séquence et la date d'entrée du séjour,-
-T_RIPaa_nnRSA,DGN_PAL,string,Diagnostic principal ou motif de prise en charge principale,-
+T_RIPaa_nnRSA,DGN_PAL,string,Diagnostic principal ou motif de prise en charge principale,IR_CIM_V
 T_RIPaa_nnRSA,ENT_MOD,string,Mode d'entrée de séjour,-
 T_RIPaa_nnRSA,ENT_PRV,string,Provenance,-
 T_RIPaa_nnRSA,ETA_NUM_EPMSI,string,N° FINESS e-PMSI,-
@@ -2992,7 +2992,7 @@ T_RIPaa_nnRSA,SOR_MOD,string,Mode de sortie de séjour,-
 T_RIPaa_nnRSA,THE_ISO_NBJ,number,Nombre de jours d’isolement thérapeutique,-
 T_RIPaa_nnRSA,THE_MS_IND,string,Indicateur d’accompagnement thérapeutique en milieu scolaire,-
 T_RIPaa_nnRSA,TYP_GEN_RSA,string,Type de génération automatique du RPSA,-
-T_RIPaa_nnRSAD,ASS_DGN,string,Diagnostics et facteurs associés,-
+T_RIPaa_nnRSAD,ASS_DGN,string,Diagnostics et facteurs associés,IR_CIM_V
 T_RIPaa_nnRSAD,ETA_NUM_EPMSI,string,N° FINESS e-PMSI,-
 T_RIPaa_nnRSAD,ETA_NUM_TWO,string,Second n° FINESS,-
 T_RIPaa_nnRSAD,IPP_IRR_CRY,string,Cryptage irreversible de l'IPP,-

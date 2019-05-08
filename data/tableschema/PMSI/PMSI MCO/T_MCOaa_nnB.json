@@ -100,7 +100,7 @@
             "name": "DGN_PAL",
             "description": "Diagnostic principal (DP) ",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_CIM_V",
             "length": null,
             "format": "default"
         },
@@ -108,7 +108,7 @@
             "name": "DGN_REL",
             "description": "Diagnostic relié (DR) ",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_CIM_V",
             "length": null,
             "format": "default"
         },

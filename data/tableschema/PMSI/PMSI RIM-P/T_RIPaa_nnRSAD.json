@@ -52,7 +52,7 @@
             "name": "ASS_DGN",
             "description": "Diagnostics et facteurs associés",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_CIM_V",
             "length": null,
             "format": "default"
         }

@@ -1220,8 +1220,8 @@ T_MCOaa_nnB,BEH_NBJ,num,Nombre de journées au-delà de la borne extrême haute,
 T_MCOaa_nnB,CAI_SUP_NBR,num,Nombre de suppléments caisson hyperbare,-
 T_MCOaa_nnB,COD_SEX,char,Sexe ,-
 T_MCOaa_nnB,DEL_REG_ENT,num,Délai de la date des dernières règles par rapport à la date d'entrée,-
-T_MCOaa_nnB,DGN_PAL,char,Diagnostic principal (DP) ,-
-T_MCOaa_nnB,DGN_REL,char,Diagnostic relié (DR) ,-
+T_MCOaa_nnB,DGN_PAL,char,Diagnostic principal (DP) ,IR_CIM_V
+T_MCOaa_nnB,DGN_REL,char,Diagnostic relié (DR) ,IR_CIM_V
 T_MCOaa_nnB,DOS_TYP,char,Type de dosimétrie,-
 T_MCOaa_nnB,ENT_MOD,char,Mode d'entrée dans le champ du PMSI-MCO ,-
 T_MCOaa_nnB,ENT_PRV,char,Provenance ,-
@@ -1315,7 +1315,7 @@ T_MCOaa_nnC,SOR_ANN,char,Année de sortie ,-
 T_MCOaa_nnC,SOR_DAT,char,Date de sortie du séjour PMSI,-
 T_MCOaa_nnC,SOR_MOI,char,Mois de sortie,-
 T_MCOaa_nnC,VID_HOSP_FOR,char,N° format VID-HOSP,-
-T_MCOaa_nnD,ASS_DGN,char,Diagnostic associé,-
+T_MCOaa_nnD,ASS_DGN,char,Diagnostic associé,IR_CIM_V
 T_MCOaa_nnD,DGN_ASS_NUM,num,Numero de diag par couple eta_num rsa_num,-
 T_MCOaa_nnD,ETA_NUM,char,Numéro FINESS e-PMSI,-
 T_MCOaa_nnD,RSA_NUM,char,N° d'index du RSA ,-
@@ -1701,8 +1701,8 @@ T_MCOaa_nnUM,AGE_GES,num,Age gestationnel du RUM,-
 T_MCOaa_nnUM,AUT_TYP1_UM,char,Premier type d'autorisation d'UM,-
 T_MCOaa_nnUM,AUT_TYP2_UM,char,Deuxième type d'autorisation d'UM,-
 T_MCOaa_nnUM,DGN_ASS_NBR,num,Nombre de diagnostics associés du RUM (Nb_DA_R_1),-
-T_MCOaa_nnUM,DGN_PAL,char,DP,-
-T_MCOaa_nnUM,DGN_REL,char,DR,-
+T_MCOaa_nnUM,DGN_PAL,char,DP,IR_CIM_V
+T_MCOaa_nnUM,DGN_REL,char,DR,IR_CIM_V
 T_MCOaa_nnUM,ETA_NUM,char,Numéro FINESS e-PMSI,-
 T_MCOaa_nnUM,ETA_NUM_GEO,char,Premier numéro FINESS géographique,-
 T_MCOaa_nnUM,IGS2_COD,char,IGS2,-
@@ -2762,7 +2762,7 @@ T_HADaa_nnB,BDI_DEP,Char,Code département,-
 T_HADaa_nnB,COD_CONF,Char,Confirmation de codage,-
 T_HADaa_nnB,COD_SEX,Char,Sexe du patient,-
 T_HADaa_nnB,DEP_COT,Char,Cotation dépendance selon Karnofsky,-
-T_HADaa_nnB,DGN_PAL,Char,Diagnostic principal,-
+T_HADaa_nnB,DGN_PAL,Char,Diagnostic principal,IR_CIM_V
 T_HADaa_nnB,ENT_MOD,Char,Mode d’entrée,-
 T_HADaa_nnB,ENT_PRV,Char,Provenance,-
 T_HADaa_nnB,ETA_NUM_ESMS,Char,Numéro FINESS EHPA,-
@@ -2843,19 +2843,19 @@ T_HADaa_nnE,REG_ETA,char,Région,-
 T_HADaa_nnE,SOC_RAI,char,Raison sociale,-
 T_HADaa_nnE,STA_ETA,char,Statut de l'établissement,-
 T_HADaa_nnE,VAL_ETA,char,Validation des données,-
-T_HADaa_nnDMPP,DGN_ASS_MPP,Char,Diagnostic lié au MPP,-
+T_HADaa_nnDMPP,DGN_ASS_MPP,Char,Diagnostic lié au MPP,IR_CIM_V
 T_HADaa_nnDMPP,ETA_NUM_EPMSI,Char,N° FINESS e-PMSI,-
 T_HADaa_nnDMPP,ETA_NUM_GEO,Char,Numéro FINESS de l’établissement (code géographique),-
 T_HADaa_nnDMPP,RHAD_NUM,Char,N° séquentiel de séjour d'HAD,-
 T_HADaa_nnDMPP,SEQ_NUM,Char,N° de la séquence dans le séjour,-
 T_HADaa_nnDMPP,SSEQ_NUM,Char,N° de la sous-séquence,-
-T_HADaa_nnDMPA,DGN_ASS_MPA,Char,Diagnostic lié au MPA,-
+T_HADaa_nnDMPA,DGN_ASS_MPA,Char,Diagnostic lié au MPA,IR_CIM_V
 T_HADaa_nnDMPA,ETA_NUM_EPMSI,Char,N° FINESS e-PMSI,-
 T_HADaa_nnDMPA,ETA_NUM_GEO,Char,Numéro FINESS de l’établissement (code géographique),-
 T_HADaa_nnDMPA,RHAD_NUM,Char,N° séquentiel de séjour d'HAD,-
 T_HADaa_nnDMPA,SEQ_NUM,Char,N° de la séquence dans le séjour,-
 T_HADaa_nnDMPA,SSEQ_NUM,Char,N° de la sous-séquence,-
-T_HADaa_nnD,DGN_ASS,char,Diagnostic associé,-
+T_HADaa_nnD,DGN_ASS,char,Diagnostic associé,IR_CIM_V
 T_HADaa_nnD,ETA_NUM_EPMSI,Char,N° FINESS e-PMSI,-
 T_HADaa_nnD,ETA_NUM_GEO,Char,Numéro FINESS de l’établissement (code géographique),-
 T_HADaa_nnD,RHAD_NUM,Char,N° séquentiel de séjour d'HAD,-
@@ -3250,14 +3250,14 @@ T_RIPaa_nnR3A,INT_NBR,num,Nombre d’intervenants,-
 T_RIPaa_nnR3A,ANO_IND,char,Indicateur d'anomalie,-
 T_RIPaa_nnR3A,ACT_LIB_IND,char,Indicateur d’activité libérale,-
 T_RIPaa_nnR3A,ETB_SAN_AUTOR,char,Indicateur FINESS géographique sans autorisation,-
-T_RIPaa_nnR3A,DGN_PAL,char,Diagnostic principal ou motif de prise en charge principale,-
+T_RIPaa_nnR3A,DGN_PAL,char,Diagnostic principal ou motif de prise en charge principale,IR_CIM_V
 T_RIPaa_nnR3A,NBR_DGN,num,Nombre de diagnostics et facteurs associés,-
 T_RIPaa_nnR3AD,ETA_NUM_EPMSI,char,N° FINESS e-PMSI,-
 T_RIPaa_nnR3AD,ETA_NUM_TWO,char,Second n° FINESS,-
 T_RIPaa_nnR3AD,SEJ_IDT,char,Identifiant de séjour,-
 T_RIPaa_nnR3AD,IPP_IRR_CRY,char,Cryptage irreversible de l'IPP,-
 T_RIPaa_nnR3AD,ORD_NUM,char,N° d'ordre,-
-T_RIPaa_nnR3AD,ASS_DGN,char,Diagnostics et facteurs associés,-
+T_RIPaa_nnR3AD,ASS_DGN,char,Diagnostics et facteurs associés,IR_CIM_V
 T_RIPaa_nnRSA,ETA_NUM_EPMSI,char,N° FINESS e-PMSI,-
 T_RIPaa_nnRSA,FOR_NUM,char,N° format,-
 T_RIPaa_nnRSA,FOR_NUM_ORI,char,N° format RIM d'orgine,-
@@ -3298,7 +3298,7 @@ T_RIPaa_nnRSA,THE_MS_IND,char,Indicateur d’accompagnement thérapeutique en mi
 T_RIPaa_nnRSA,ANO_IND,char,Indicateur d'anomalie,-
 T_RIPaa_nnRSA,ETB_SAN_AUTOR,char,Indicateur FINESS géographique sans autorisation,-
 T_RIPaa_nnRSA,TYP_GEN_RSA,char,Type de génération automatique du RPSA,-
-T_RIPaa_nnRSA,DGN_PAL,char,Diagnostic principal ou motif de prise en charge principale,-
+T_RIPaa_nnRSA,DGN_PAL,char,Diagnostic principal ou motif de prise en charge principale,IR_CIM_V
 T_RIPaa_nnRSA,NBR_DGN,num,Nombre de diagnostics et facteurs associés,-
 T_RIPaa_nnRSA,NBR_CCAM,num,Nombre d'actes CCAM,-
 T_RIPaa_nnRSAD,ETA_NUM_EPMSI,char,N° FINESS e-PMSI,-
@@ -3307,7 +3307,7 @@ T_RIPaa_nnRSAD,IPP_IRR_CRY,char,Cryptage irreversible de l'IPP,-
 T_RIPaa_nnRSAD,SEJ_IDT,char,Identifiant de séjour,-
 T_RIPaa_nnRSAD,RIP_NUM,char,N° séquentiel de séjour,-
 T_RIPaa_nnRSAD,SEQ_SEQ_NUM,char,N° séquentiel de séquence au sein du séjour,-
-T_RIPaa_nnRSAD,ASS_DGN,char,Diagnostics et facteurs associés,-
+T_RIPaa_nnRSAD,ASS_DGN,char,Diagnostics et facteurs associés,IR_CIM_V
 T_RIPaa_nnC,ETA_NUM_EPMSI,char,FINESS d’inscription e-PMSI,-
 T_RIPaa_nnC,ETA_NUM_TWO,char,Second n° FINESS,-
 T_RIPaa_nnC,FOR_NUM,char,N° format,-
@@ -3681,7 +3681,7 @@ KI_CCI_R,BEN_SEX_COD,num(1),Sexe,IR_SEX_V
 KI_CCI_R,PFV_ACP_COD,num(1),Activité professionnelle,DS_ACP_V
 KI_CCI_R,CAT_PCS_COD,car(4),Profession et caégorie socioprofessionnelle,"DS_PC1_V,DS_PC2_V,DS_PC3_V"
 KI_CCI_R,ETA_MAR_COD,num(1),Etat matrimonial,DS_MAR_V
-KI_CCI_R,DCD_CIM_COD,car(4),Cause initiale du décès,"IR_CCI_V,IR_CIM_V,MS_CIM_V"
+KI_CCI_R,DCD_CIM_COD,car(4),Cause initiale du décès,IR_CIM_V
 KI_CCI_R,DCD_CAU_COD,num(1),Recherche de la cause de décès,DS_CAU_V
 KI_CCI_R,DCD_GRS_COD,num(1),La grossesse a contribué au décès,DS_GRS_V
 KI_CCI_R,DCD_GRS_DEL,car(4),Délai entre fin de grossesse et décès,-
@@ -3715,6 +3715,6 @@ KI_ECD_R,FLX_PER_ANN,car(4),Année du décès,-
 KI_ECD_R,CER_LIG_NUM,num(1),Numéro de ligne du certificat de décès,-
 KI_ECD_R,ECD_CAU_RNG,num(3),Rang de la cause,-
 KI_ECD_R,ECD_CAU_LIB,car(100),Libellé de la cause,-
-KI_ECD_R,ECD_CIM_COD,car(4),Code de la cause,"IR_CCI_V,IR_CIM_V,MS_CIM_V"
+KI_ECD_R,ECD_CIM_COD,car(4),Code de la cause,IR_CIM_V
 KI_ECD_R,BEN_DCD_DTE,date,Date du décès,-
 KI_ECD_R,BEN_DCD_AME,car(6),Année et mois du décès,AAAAMM

@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import argparse
 
 from src.byproducts.dico_snds import generate_dico_snds

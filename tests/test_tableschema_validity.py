@@ -1,12 +1,10 @@
 import logging
 import os
-import shutil
 
 import pytest
 from tableschema import Schema
 
-from src.byproducts.dico_snds import generate_dico_snds
-from src.byproducts.documentation_snds import generate_documentation_snds
+from src.byproducts.main import generate_byproducts
 from src.constants import TESTS_DIR, BYPRODUCTS_DIR
 from src.utils import get_all_schema_path
 
@@ -22,9 +20,7 @@ def test_tableschema_is_valid(schema_path):
 
 
 def test_generated_byproducts_equal_files():
-    shutil.rmtree(BYPRODUCTS_DIR, ignore_errors=True)
-    generate_dico_snds()
-    generate_documentation_snds()
+    generate_byproducts()
 
     for root, dirs, files in os.walk(BYPRODUCTS_DIR):
         for file in files:

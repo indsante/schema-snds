@@ -34,32 +34,32 @@ def synchronize_all_byproducts() -> None:
     logging.info("Suppression du dossier temporaire '{}' contenant les dépôts de produits dérivés".format(TMP_DIR))
     shutil.rmtree(TMP_DIR, ignore_errors=True)
 
-    synchronize_byproduct_repository_with_current_schema(last_commit_sha,
-                                                         byproduct_repository="documentation-snds",
-                                                         byproduct_project_id=11935953,
-                                                         local_to_byproduct_directories=[('markdown', 'docs/tables')],
-                                                         local_to_byproduct_files=[
-                                                             ('tables_sidebar.js', 'docs/.vuepress/tables_sidebar.js')],
-                                                         automatic_merge=True)
+    synchronize_byproduct_repository(last_commit_sha,
+                                     byproduct_repository='documentation-snds',
+                                     byproduct_project_id=11935953,
+                                     local_to_byproduct_directories=[('markdown', 'docs/tables')],
+                                     local_to_byproduct_files=[
+                                         ('tables_sidebar.js', 'docs/.vuepress/tables_sidebar.js')],
+                                     automatic_merge=True)
 
-    synchronize_byproduct_repository_with_current_schema(last_commit_sha,
-                                                         byproduct_repository="dico-snds",
-                                                         byproduct_project_id=11925754,
-                                                         local_to_byproduct_directories=[],
-                                                         local_to_byproduct_files=[
-                                                             ('snds_links.csv', 'app/app_data/snds_links.csv'),
-                                                             ('snds_nodes.csv', 'app/app_data/snds_nodes.csv'),
-                                                             ('snds_tables.csv', 'app/app_data/snds_tables.csv'),
-                                                             ('snds_vars.csv', 'app/app_data/snds_vars.csv')
-                                                         ],
-                                                         automatic_merge=True)
+    synchronize_byproduct_repository(last_commit_sha,
+                                     byproduct_repository='dico-snds',
+                                     byproduct_project_id=11925754,
+                                     local_to_byproduct_directories=[],
+                                     local_to_byproduct_files=[
+                                         ('snds_links.csv', 'app/app_data/snds_links.csv'),
+                                         ('snds_nodes.csv', 'app/app_data/snds_nodes.csv'),
+                                         ('snds_tables.csv', 'app/app_data/snds_tables.csv'),
+                                         ('snds_vars.csv', 'app/app_data/snds_vars.csv')
+                                     ],
+                                     automatic_merge=True)
 
 
-def synchronize_byproduct_repository_with_current_schema(last_commit_sha: str,
-                                                         byproduct_repository: str, byproduct_project_id: int,
-                                                         local_to_byproduct_directories: LIST_TUPLE_STR_STR,
-                                                         local_to_byproduct_files: LIST_TUPLE_STR_STR,
-                                                         automatic_merge: bool = False) -> None:
+def synchronize_byproduct_repository(last_commit_sha: str,
+                                     byproduct_repository: str, byproduct_project_id: int,
+                                     local_to_byproduct_directories: LIST_TUPLE_STR_STR,
+                                     local_to_byproduct_files: LIST_TUPLE_STR_STR,
+                                     automatic_merge: bool = False) -> None:
     """
     Synchronize byproduct repository with current schema
 
@@ -187,7 +187,3 @@ def check_response_code(response: requests.Response, expected_status_code: int) 
         raise Exception("wrong status_code")
     else:
         logging.debug(response_log_msg)
-
-
-if __name__ == '__main__':
-    synchronize_all_byproducts()

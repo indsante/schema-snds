@@ -1,24 +1,9 @@
-import logging
 import os
-import shutil
 from typing import List, Union
 
 from tableschema import Schema
 
-from src.constants import DATA_DIR, TABLESCHEMA_DIR, TABLESCHEMA
-
-
-def reset_data_directory():
-    logging.info("Reset data directory")
-    for folder in os.listdir(DATA_DIR):
-        folder_path = os.path.join(DATA_DIR, folder)
-        if folder == TABLESCHEMA:
-            continue
-        if not os.path.isdir(folder_path):
-            logging.warning("'{}' is not a folder. We do not delete it in data directory.".format(folder_path))
-            continue
-        logging.info("Delete folder '{}'".format(folder_path))
-        shutil.rmtree(folder_path, ignore_errors=True)
+from src.constants import TABLESCHEMA_DIR
 
 
 def get_all_schema() -> List[Schema]:

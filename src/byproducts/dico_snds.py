@@ -40,8 +40,8 @@ pd.options.display.max_columns = 100
 def generate_dico_snds():
     logging.info("Convert schemas to dico-snds app data")
     os.makedirs(DICO_SNDS_DIR, exist_ok=True)
-    table_schema_to_snds_tables()
     table_schema_to_snds_variables()
+    table_schema_to_snds_tables()
     table_schema_to_snds_graph()
 
 

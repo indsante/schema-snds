@@ -1,17 +1,17 @@
+"""
+These tests are looking at current schemas, not tests ones. Hence we do not use
+"""
+
 import logging
-import os
-import shutil
 
 import pytest
 from tableschema import Schema
 
-from src.byproducts.dico_snds import generate_dico_snds
-from src.byproducts.documentation_snds import generate_documentation_snds
-from src.constants import TESTS_DIR, BYPRODUCTS_DIR
 from src.utils import get_all_schema_path
+from src.constants import SCHEMAS
 
 
-@pytest.mark.parametrize('schema_path', get_all_schema_path())
+@pytest.mark.parametrize('schema_path', get_all_schema_path(SCHEMAS))
 def test_tableschema_is_valid(schema_path):
     schema = Schema(schema_path)
     if not schema.valid:
@@ -21,17 +21,6 @@ def test_tableschema_is_valid(schema_path):
         assert schema.valid
 
 
-def test_generated_byproducts_equal_files():
-    shutil.rmtree(BYPRODUCTS_DIR, ignore_errors=True)
-    generate_dico_snds()
-    generate_documentation_snds()
-
-    for root, dirs, files in os.walk(BYPRODUCTS_DIR):
-        for file in files:
-            actual_file_path = os.path.join(root, file)
-            expected_file_path = os.path.join(root[len(TESTS_DIR) + 1:], file)
-            with open(actual_file_path, encoding="utf-8") as f:
-                actual = f.read().split("\n")
-            with open(expected_file_path, encoding="utf-8") as f:
-                expected = f.read().split("\n")
-            assert expected == actual
+def test_get_all_schema_path_return_all_schemas():
+    number_of_schemas = len(list(get_all_schema_path(SCHEMAS)))
+    assert number_of_schemas == 143

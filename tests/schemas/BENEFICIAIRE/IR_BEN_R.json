@@ -1,0 +1,190 @@
+{
+    "fields": [
+        {
+            "name": "BEN_NIR_PSA",
+            "description": "Identifiant SNIIRAM anonymisé du bénéficiaire",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "17",
+            "format": "default",
+            "constraints": {
+                "unique": true,
+                "description": "Unicité fausse sans le rang gémellaire. Contrainte nécessaire pour les clés étrangère du PMSI, qui n'a pas le rang gémellaire"
+            }
+        },
+        {
+            "name": "BEN_RNG_GEM",
+            "description": "Rang gémélaire",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default"
+        },
+        {
+            "name": "BEN_NIR_ANO",
+            "description": "NIR anonymisé du bénéficiaire",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "18",
+            "format": "default"
+        },
+        {
+            "name": "BEN_IDT_ANO",
+            "description": "Identifiant synthétique anonymisé du bénéficiaire",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "18",
+            "format": "default",
+            "constraints": {
+                "unique": true
+            }
+        },
+        {
+            "name": "BEN_IDT_TOP",
+            "description": "Top associé à ben_idt_ano",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default"
+        },
+        {
+            "name": "ASS_NIR_ANO",
+            "description": "Matricule anonymisé de l'ouvreur de droits",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "17",
+            "format": "default"
+        },
+        {
+            "name": "BEN_IDT_MAJ",
+            "description": "Date d'alimentation du NIR BEN_NIR_NAO",
+            "type": "date",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default"
+        },
+        {
+            "name": "BEN_CDI_NIR",
+            "description": "Qualité du matricule de l'ouvreur de droits",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "2",
+            "format": "default"
+        },
+        {
+            "name": "BEN_NAI_ANN",
+            "description": "Année de naissance du bénéficiaire",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "4",
+            "format": "default"
+        },
+        {
+            "name": "BEN_NAI_MOI",
+            "description": "Mois de naissance du bénéficiaire",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "2",
+            "format": "default"
+        },
+        {
+            "name": "BEN_SEX_COD",
+            "description": "Code sexe du bénéficiaire",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default"
+        },
+        {
+            "name": "BEN_DCD_DTE",
+            "description": "Date de décès du bénéficiaire",
+            "type": "date",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default"
+        },
+        {
+            "name": "BEN_DCD_AME",
+            "description": "Année et mois de décès du bénéficiaire",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "6",
+            "format": "default"
+        },
+        {
+            "name": "ORG_AFF_BEN",
+            "description": "Organisme d'affiliation",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "9",
+            "format": "default"
+        },
+        {
+            "name": "BEN_RES_DPT",
+            "description": "Département de résidence du destinataire du règlement",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "3",
+            "format": "default"
+        },
+        {
+            "name": "BEN_RES_COM",
+            "description": "commune de résidence du destinataire du règlement",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "3",
+            "format": "default"
+        },
+        {
+            "name": "BEN_TOP_CNS",
+            "description": "top consommant / non consommant",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default"
+        },
+        {
+            "name": "MAX_TRT_DTD",
+            "description": "date maximale de traitement d'une prestation",
+            "type": "date",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default"
+        },
+        {
+            "name": "ORG_CLE_NEW",
+            "description": "organisme de liquidation",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "9",
+            "format": "default"
+        },
+        {
+            "name": "BEN_DTE_INS",
+            "description": "date d'insertion dans le référentiel",
+            "type": "date",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default"
+        },
+        {
+            "name": "BEN_DTE_MAJ",
+            "description": "date de mise à jour",
+            "type": "date",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default"
+        }
+    ],
+    "name": "IR_BEN_R",
+    "title": "Référentiel des bénéficiaires (DCIR)",
+    "description": "",
+    "produit": "BENEFICIAIRE",
+    "missingValues": [
+        ""
+    ],
+    "primaryKey": [
+        "BEN_NIR_PSA",
+        "BEN_RNG_GEM"
+    ]
+}

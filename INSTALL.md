@@ -1,75 +1,20 @@
 # Installation du projet
 
+## Copier le projet en local
 
-*Note : Cette procédure **devrait** fonctionner sur Linux et Mac. Il faut la tester et la compléter pour Windows.*
+**Dépendance**
 
-Nous détaillons 2 étapes d'installation 
+[git](https://git-scm.com/book/fr/v1/D%C3%A9marrage-rapide-Installation-de-Git)
+est le système de gestion de versions du code.
 
-1. La première étape utilise uniquement Docker. L'installation est simplifiée.
-2. La seconde étape permet d'éxécuter le code Python sans Docker. Le développement est alors simplifié. 
+Pour windows, on recommande le terminal `gitbash` pour utiliser git et docker. 
 
-## 1- Installation pure Docker
+Commande
 
-Cette installation utilise Docker pour exécuter le code Python, 
-ainsi que d'autres services tels que PostgreSQL et SchemaCrawler.
-
-**Dépendances**
-
-- [Docker](https://docs.docker.com/engine/installation/) 
-simplifie l'installation de services, indépendamment du système d'exploitation. 
-
-- [Docker-Compose](https://docs.docker.com/compose/install/) 
-simplifie la configuration et la composition de services Docker.
-
-- [git](https://git-scm.com/book/fr/v1/D%C3%A9marrage-rapide-Installation-de-Git)
-est le système de gestion de versions du code
-
-- Pour windows, on recommande le terminal `gitbash pour utiliser git et docker. **Il faut ajouter `winpty` devant chaque commande Docker pour l'utiliser.**
-
-
-**Installation**
-
-0- Copier le projet en local
-
-
-    git clone https://gitlab.com/healthdatahub/schema-snds.git
-    cd database-schema
-
-
-1- Installer et démarrer les services
-
-*Note: cette étape télécharge des images Docker volumineuses.*
-
-
-    docker-compose up -d
+    git clone https://gitlab.com/healthdatahub/schema-snds.git 
     
 
-**Usage**
-
-Pour lancer un service en particulier, par exemple SchemaCrawler
-
-    docker-compose up schemacrawler
-
-Pour arrêter tous les services
-    
-    docker-compose stop
-
-Pour tester des modifications du code python, on peut rentrer dans l'image docker:
-
-    docker-compose run --rm python bash
-
-
-Pour le reste, se référer à la documentation de Docker-Compose.
-
-## 2- Installation permettant d'exécuter le code Python sans Docker
-
-Cette deuxième étape permet d'exécuter le code Python sur votre système hôte, sans Docker.
-Les autres services sont toujours executés via Docker.
-
-Installation rapide avec les commandes. Voir les détails ci-desous sinon. 
-
-    ./create_vitualenv.sh
-    source venv/bin/activate
+## Activation d'un environnement virtuel Python avec les dépendances installées
 
 **Dépendances**
 
@@ -108,4 +53,45 @@ Installer `virtualenv` si besoin avec la commande :  `pip3 install virtualenv`
 Utiliser le point d'entrée du programme
 
 
-    python ./main.py
+    ./main.py -h
+
+
+## Installation Docker
+
+Docker permet d'utiliser PostgreSQL et SchemaCrawler pour générer un diagramme relationnel. 
+
+Il est également possible d'exécuter tout le code Python dans une image Docker, évitant d'éventuels problèmes sur Windows. 
+
+**Dépendances**
+
+- [Docker](https://docs.docker.com/engine/installation/) 
+simplifie l'installation de services, indépendamment du système d'exploitation. 
+
+- [Docker-Compose](https://docs.docker.com/compose/install/) 
+simplifie la configuration et la composition de services Docker.
+
+
+**Installer et démarrer les services**
+
+*Note: cette étape télécharge des images Docker volumineuses.*
+
+
+    docker-compose up -d
+    
+
+**Usage**
+
+Pour lancer un service en particulier, par exemple SchemaCrawler
+
+    docker-compose up schemacrawler
+
+Pour arrêter tous les services
+    
+    docker-compose stop
+
+Pour tester des modifications du code python, on peut rentrer dans l'image docker
+
+    docker-compose run --rm python bash
+
+
+Pour le reste, se référer à la documentation de Docker-Compose.

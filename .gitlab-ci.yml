@@ -10,12 +10,12 @@ test:
     - source venv/bin/activate
   script: pytest
 
-synchronize_byproducts:
+synchronize:
   stage: deploy
   image: python:3.6-stretch
   before_script:
     - ./create_virtualenv.sh
     - source venv/bin/activate
-  script: python main.py --synchronize_byproducts
+  script: python main.py --synchronize
   only:
     - master

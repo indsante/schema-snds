@@ -1,0 +1,68 @@
+{
+    "fields": [
+        {
+            "name": "ANN_TRT",
+            "description": "N° du trimestre PMSI transmis",
+            "type": "string",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default"
+        },
+        {
+            "name": "ETA_NUM",
+            "description": "N°FINESS",
+            "type": "string",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default"
+        },
+        {
+            "name": "ETB_EXE_FIN",
+            "description": "N°FINESS sans clef",
+            "type": "string",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default"
+        },
+        {
+            "name": "REG_ETA",
+            "description": "Région",
+            "type": "string",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default"
+        },
+        {
+            "name": "SOC_RAI",
+            "description": "Raison sociale",
+            "type": "string",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default"
+        },
+        {
+            "name": "STA_ETA",
+            "description": "Statut de l'établissement",
+            "type": "string",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default"
+        },
+        {
+            "name": "VAL_ETA",
+            "description": "Validation des données",
+            "type": "string",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default"
+        }
+    ],
+    "name": "T_HADaa_nnE",
+    "title": "Table des Etablissements",
+    "description": "Champ : Public et Privé",
+    "produit": "PMSI HAD",
+    "missingValues": [
+        ""
+    ],
+    "primaryKey": "ETA_NUM"
+}

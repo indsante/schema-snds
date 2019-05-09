@@ -1,0 +1,101 @@
+{
+    "fields": [
+        {
+            "name": "BEN_NIR_PSA",
+            "description": "Pseudo NIR du bénéficiaire anonymisé",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "17",
+            "format": "default"
+        },
+        {
+            "name": "BEN_RNG_GEM",
+            "description": "Code rang gémellaire du bénéficiaire",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default"
+        },
+        {
+            "name": "BEN_NIR_ANO",
+            "description": "NIR anonymisé du bénéficiaire",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "17",
+            "format": "default"
+        },
+        {
+            "name": "BEN_IDT_ANO",
+            "description": "Identifiant synthétique pseudonymisé du bénéficiaire",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "18",
+            "format": "default"
+        },
+        {
+            "name": "BEN_EXO_MTF",
+            "description": "Motif d’exonération du ticket modérateur",
+            "type": "number",
+            "nomenclature": NaN,
+            "length": "8",
+            "format": "default"
+        },
+        {
+            "name": "BEN_EXO_DTD",
+            "description": "Date de début d’exonération",
+            "type": "date",
+            "nomenclature": NaN,
+            "length": null,
+            "format": "default"
+        },
+        {
+            "name": "BEN_EXO_DTF",
+            "description": "Date de fin d’exonération",
+            "type": "date",
+            "nomenclature": NaN,
+            "length": null,
+            "format": "default"
+        },
+        {
+            "name": "IND_RNM_BEN",
+            "description": "Top RNIAM",
+            "type": "string",
+            "nomenclature": NaN,
+            "length": "1",
+            "format": "default"
+        }
+    ],
+    "name": "IR_ETM_R",
+    "title": "Exonérations du ticket modérateur liées à la personne ",
+    "description": "",
+    "produit": "DCIR_DCIRS",
+    "missingValues": [
+        ""
+    ],
+    "foreignKeys": [
+        {
+            "fields": [
+                "BEN_NIR_PSA",
+                "BEN_RNG_GEM"
+            ],
+            "reference": {
+                "resource": "IR_BEN_R",
+                "fields": [
+                    "BEN_NIR_PSA",
+                    "BEN_RNG_GEM"
+                ]
+            }
+        },
+        {
+            "fields": [
+                "BEN_IDT_ANO"
+            ],
+            "reference": {
+                "resource": "IR_IBA_R",
+                "fields": [
+                    "BEN_IDT_ANO"
+                ]
+            }
+        }
+    ]
+}

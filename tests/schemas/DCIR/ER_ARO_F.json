@@ -1,0 +1,248 @@
+{
+    "fields": [
+        {
+            "name": "ARO_ASU_NAT",
+            "description": "Nature d'assurance du régime non obligatoire",
+            "type": "number",
+            "nomenclature": "IR_ASU_V",
+            "length": "2",
+            "format": "default"
+        },
+        {
+            "name": "ARO_CPL_COD",
+            "description": "Code complément d'acte initial",
+            "type": "number",
+            "nomenclature": "IR_CPA_V",
+            "length": "1",
+            "format": "default"
+        },
+        {
+            "name": "ARO_ENV_TYP",
+            "description": "Type d'enveloppe",
+            "type": "number",
+            "nomenclature": "IR_ENV_V",
+            "length": "2",
+            "format": "default"
+        },
+        {
+            "name": "ARO_FJH_TYP",
+            "description": "Type de prise en charge du forfait Journalier",
+            "type": "number",
+            "nomenclature": "IR_FJH_V",
+            "length": "1",
+            "format": "default"
+        },
+        {
+            "name": "ARO_FTA_COD",
+            "description": "Code forçage du taux (hors parcours de soins)",
+            "type": "number",
+            "nomenclature": "IR_FOR_V",
+            "length": "1",
+            "format": "default"
+        },
+        {
+            "name": "ARO_MIN_TAU",
+            "description": "Taux modulé (hors parcours de Soins) du remboursement",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "5",
+            "format": "default"
+        },
+        {
+            "name": "ARO_MOD_MNT",
+            "description": "Montant de la majoration de la participation de l'assuré",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "9",
+            "format": "default"
+        },
+        {
+            "name": "ARO_ORD_NUM",
+            "description": "N° ordre remboursement",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "2",
+            "format": "default"
+        },
+        {
+            "name": "ARO_PRS_NAT",
+            "description": "Nature de prestation",
+            "type": "number",
+            "nomenclature": "IR_NAT_V",
+            "length": "4",
+            "format": "default"
+        },
+        {
+            "name": "ARO_REM_BSE",
+            "description": "Base de remboursement",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "9",
+            "format": "default"
+        },
+        {
+            "name": "ARO_REM_MNT",
+            "description": "Montant versé/remboursé",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "9",
+            "format": "default"
+        },
+        {
+            "name": "ARO_REM_PRU",
+            "description": "Prix unitaire de l'acte",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "12",
+            "format": "default"
+        },
+        {
+            "name": "ARO_REM_SGN",
+            "description": "Signe Remboursement",
+            "type": "number",
+            "nomenclature": "IR_SGN_V",
+            "length": "1",
+            "format": "default"
+        },
+        {
+            "name": "ARO_REM_TAU",
+            "description": "Taux réel de remboursement",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "5",
+            "format": "default"
+        },
+        {
+            "name": "ARO_REM_TYP",
+            "description": "Type de remboursement",
+            "type": "number",
+            "nomenclature": "IR_TYR_V",
+            "length": "2",
+            "format": "default"
+        },
+        {
+            "name": "ARO_THE_TAU",
+            "description": "Taux théorique de remboursement",
+            "type": "number",
+            "nomenclature": "IR_TAU_V",
+            "length": "5",
+            "format": "default"
+        },
+        {
+            "name": "ORG_CLE_NEW",
+            "description": "Organisme de liquidation (après fusion des caisses)",
+            "type": "string",
+            "nomenclature": "IR_ORG_V",
+            "length": "9",
+            "format": "default"
+        },
+        {
+            "name": "DCT_ORD_NUM",
+            "description": "N° ordre décompte dans caisse                      1",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "8",
+            "format": "default"
+        },
+        {
+            "name": "FLX_DIS_DTD",
+            "description": "Date de mise à disposition des données dans SI     2",
+            "type": "date",
+            "nomenclature": "IR_DTE_V",
+            "length": "8",
+            "format": "default"
+        },
+        {
+            "name": "FLX_EMT_NUM",
+            "description": "N° émetteur du flux                                                  3",
+            "type": "number",
+            "nomenclature": "IR_NEM_V",
+            "length": "8",
+            "format": "default"
+        },
+        {
+            "name": "FLX_EMT_ORD",
+            "description": "N° séquence du flux                                               4",
+            "type": "number",
+            "nomenclature": "IR_FLX_R",
+            "length": "8",
+            "format": "default"
+        },
+        {
+            "name": "FLX_EMT_TYP",
+            "description": "Type d'émetteur                                                      5",
+            "type": "number",
+            "nomenclature": "IR_FLP_R",
+            "length": "8",
+            "format": "default"
+        },
+        {
+            "name": "FLX_TRT_DTD",
+            "description": "Date de traitement des données dans SI                   6",
+            "type": "date",
+            "nomenclature": "IR_DTE_V",
+            "length": "8",
+            "format": "default"
+        },
+        {
+            "name": "ORG_CLE_NUM",
+            "description": "Ancien concept de l'organisme de liquidation (avant fusion, jusqu’au jour J de la fusion)          7",
+            "type": "string",
+            "nomenclature": "IR_ORG_V",
+            "length": "9",
+            "format": "default"
+        },
+        {
+            "name": "PRS_ORD_NUM",
+            "description": "N° ordre prestation dans décompte                 8",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "8",
+            "format": "default"
+        },
+        {
+            "name": "REM_TYP_AFF",
+            "description": "Type de remboursement affiné                                 9",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "8",
+            "format": "default"
+        }
+    ],
+    "name": "ER_ARO_F",
+    "title": "Autre remboursement que régime obligatoire (partie complémentaire CMU-C, Alsace moselle, FNASS,…)",
+    "description": "",
+    "produit": "DCIR",
+    "missingValues": [
+        ""
+    ],
+    "foreignKeys": [
+        {
+            "fields": [
+                "DCT_ORD_NUM",
+                "FLX_DIS_DTD",
+                "FLX_EMT_NUM",
+                "FLX_EMT_ORD",
+                "FLX_EMT_TYP",
+                "FLX_TRT_DTD",
+                "ORG_CLE_NUM",
+                "PRS_ORD_NUM",
+                "REM_TYP_AFF"
+            ],
+            "reference": {
+                "resource": "ER_PRS_F",
+                "fields": [
+                    "DCT_ORD_NUM",
+                    "FLX_DIS_DTD",
+                    "FLX_EMT_NUM",
+                    "FLX_EMT_ORD",
+                    "FLX_EMT_TYP",
+                    "FLX_TRT_DTD",
+                    "ORG_CLE_NUM",
+                    "PRS_ORD_NUM",
+                    "REM_TYP_AFF"
+                ]
+            }
+        }
+    ]
+}

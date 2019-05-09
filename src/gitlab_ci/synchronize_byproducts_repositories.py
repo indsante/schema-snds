@@ -7,9 +7,11 @@ from os.path import join as pjoin
 from typing import List, Tuple
 
 import requests
+from dotenv import load_dotenv
 
 from src.constants import BYPRODUCTS_DIR
 
+load_dotenv()
 GITLAB_TOKEN = os.environ.get('GITLAB_TOKEN', None)
 
 HDH_GITLAB_URL = 'https://gitlab.com/healthdatahub'
@@ -26,57 +28,64 @@ def synchronize_all_byproducts() -> None:
                       )
         return
 
-    current_commit = bash("git rev-parse --verify HEAD").strip()
+    last_commit_sha = bash("git rev-parse --verify HEAD").strip()
+    logging.debug("Le hash SHA du dernier commit est '{}'".format(last_commit_sha))
+
+    logging.info("Suppression du dossier temporaire '{}' contenant les dépôts de produits dérivés".format(TMP_DIR))
     shutil.rmtree(TMP_DIR, ignore_errors=True)
 
-    synchronize_byproduct_repository_with_local_changes(current_commit,
-                                                        byproduct_repository="documentation-snds",
-                                                        byproduct_project_id=11935953,
-                                                        local_to_byproduct_directories=[('markdown', 'docs/tables')],
-                                                        local_to_byproduct_files=[
-                                                            ('tables_sidebar.js', 'docs/.vuepress/tables_sidebar.js')],
-                                                        automatic_merge=True)
+    synchronize_byproduct_repository_with_current_schema(last_commit_sha,
+                                                         byproduct_repository="documentation-snds",
+                                                         byproduct_project_id=11935953,
+                                                         local_to_byproduct_directories=[('markdown', 'docs/tables')],
+                                                         local_to_byproduct_files=[
+                                                             ('tables_sidebar.js', 'docs/.vuepress/tables_sidebar.js')],
+                                                         automatic_merge=True)
 
-    synchronize_byproduct_repository_with_local_changes(current_commit,
-                                                        byproduct_repository="dico-snds",
-                                                        byproduct_project_id=11925754,
-                                                        local_to_byproduct_directories=[],
-                                                        local_to_byproduct_files=[
-                                                            ('snds_links.csv', 'app/app_data/snds_links.csv'),
-                                                            ('snds_nodes.csv', 'app/app_data/snds_nodes.csv'),
-                                                            ('snds_tables.csv', 'app/app_data/snds_tables.csv'),
-                                                            ('snds_vars.csv', 'app/app_data/snds_vars.csv')
-                                                        ],
-                                                        automatic_merge=True)
+    synchronize_byproduct_repository_with_current_schema(last_commit_sha,
+                                                         byproduct_repository="dico-snds",
+                                                         byproduct_project_id=11925754,
+                                                         local_to_byproduct_directories=[],
+                                                         local_to_byproduct_files=[
+                                                             ('snds_links.csv', 'app/app_data/snds_links.csv'),
+                                                             ('snds_nodes.csv', 'app/app_data/snds_nodes.csv'),
+                                                             ('snds_tables.csv', 'app/app_data/snds_tables.csv'),
+                                                             ('snds_vars.csv', 'app/app_data/snds_vars.csv')
+                                                         ],
+                                                         automatic_merge=True)
 
 
-def synchronize_byproduct_repository_with_local_changes(current_commit: str,
-                                                        byproduct_repository: str, byproduct_project_id: int,
-                                                        local_to_byproduct_directories: LIST_TUPLE_STR_STR,
-                                                        local_to_byproduct_files: LIST_TUPLE_STR_STR,
-                                                        automatic_merge: bool = False) -> None:
+def synchronize_byproduct_repository_with_current_schema(last_commit_sha: str,
+                                                         byproduct_repository: str, byproduct_project_id: int,
+                                                         local_to_byproduct_directories: LIST_TUPLE_STR_STR,
+                                                         local_to_byproduct_files: LIST_TUPLE_STR_STR,
+                                                         automatic_merge: bool = False) -> None:
     """
-    Synchronize byproduct repository with byproduct version in this repository current commit
+    Synchronize byproduct repository with current schema
 
-    :param current_commit: commit sha
+    :param last_commit_sha: last commit sha
     :param byproduct_repository: repository name
     :param byproduct_project_id: byproduct GitLab project id
     :param local_to_byproduct_directories: directories to erase and replace from this repository to byproduct repository
     :param local_to_byproduct_files: files to replace from this repository to byproduct repository
     :param automatic_merge: do we approve and merge Merge Request automatically when pipeline succeeds
     """
+    logging.info("Synchronisation du dépôt '{}' avec la version courante du schéma".format(byproduct_repository))
     clone_repository_to_tmp_directory(byproduct_repository)
     copy_local_to_byproduct_repository(byproduct_repository, local_to_byproduct_directories, local_to_byproduct_files)
 
     current_dir = os.getcwd()
     os.chdir(pjoin(TMP_DIR, byproduct_repository))
     if not bash("git status --porcelain"):
-        logging.info("No modifications in target repository. Exit.")
+        logging.info("Pas de différence entre le dépôt '{}' et le schéma courant.".format(byproduct_repository))
     else:
+        logging.info("Il existe des différence entre le dépôt '{}' et le schéma courant. "
+                     "Création d'un commit et d'une merge request pour le synchoniser.".format(byproduct_repository))
+
         bash("git config user.name 'schema-snds GitLab-CI robot'")
         bash('git config user.email "ld-lab-github@sante.gouv.fr"')
-        branch_name = "update-from-schema-snds-{}".format(current_commit)
-        commit_and_push_modifications(branch_name, current_commit)
+        branch_name = "update-from-schema-snds-{}".format(last_commit_sha)
+        commit_and_push_modifications(branch_name, last_commit_sha)
 
         merge_request_iid = create_merge_request(byproduct_project_id, branch_name, byproduct_repository)
         if automatic_merge:
@@ -87,8 +96,8 @@ def synchronize_byproduct_repository_with_local_changes(current_commit: str,
 
 def clone_repository_to_tmp_directory(repository_name: str):
     git_clone_cmd = \
-        "git clone https://oauth2:{gitlab_token}@gitlab.com/healthdatahub/{repository}.git/ tmp/{repository}" \
-            .format(gitlab_token=GITLAB_TOKEN, repository=repository_name)
+        "git clone https://oauth2:{gitlab_token}@gitlab.com/healthdatahub/{repository}.git/ tmp/{repository}".format(
+            gitlab_token=GITLAB_TOKEN, repository=repository_name)
     bash(git_clone_cmd)
 
 
@@ -120,12 +129,12 @@ def copy_directory_to_byproduct_repository(source_dir: str, byproduct_repository
     shutil.copytree(source_dir_path, target_dir_path)
 
 
-def commit_and_push_modifications(branch_name: str, current_commit: str):
+def commit_and_push_modifications(branch_name: str, last_commit_sha: str):
     bash("git checkout -b {}".format(branch_name))
     bash("git add -A")
 
     commit_message = "MAJ automatique depuis 'schema-snds', commit {}\n\n" \
-                     "Cf '{}/{}/commit/{}'".format(current_commit, HDH_GITLAB_URL, 'schema-snds', current_commit)
+                     "Cf '{}/{}/commit/{}'".format(last_commit_sha, HDH_GITLAB_URL, 'schema-snds', last_commit_sha)
 
     bash("git commit -m '{}'".format(commit_message))
     bash("git push --set-upstream origin {}".format(branch_name))
@@ -163,7 +172,7 @@ def merge_when_pipeline_succeeds(project_id: int, merge_request_iid: int) -> Non
 
 
 def bash(bash_command: str) -> str:
-    logging.info("Execute: {}".format(bash_command.replace(GITLAB_TOKEN, 'XXXXXXXX')))
+    logging.debug("Execute: {}".format(bash_command.replace(GITLAB_TOKEN, 'XXXXXXXX')))
     bash_command_list = shlex.split(bash_command)
     return subprocess.check_output(bash_command_list).decode()
 

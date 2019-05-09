@@ -111,7 +111,7 @@
                 "SEQ_NUM"
             ],
             "reference": {
-                "resource": "T_SSRaa_nnFBSTC",
+                "resource": "T_SSRaa_nnFASTC",
                 "fields": [
                     "ETA_NUM",
                     "SEQ_NUM"

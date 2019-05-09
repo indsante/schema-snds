@@ -1,10 +1,7 @@
-import os
 from collections import defaultdict
 from os.path import join
 
-
-RUNNING_TEST = os.getenv('RUNNING_TEST', '')
-TESTS_DIR = 'tests'
+from src.settings import RUNNING_TEST
 
 # Product groups
 PMSI = 'PMSI'
@@ -15,35 +12,26 @@ PRODUCT_TO_GROUP['PMSI HAD'] = PMSI
 PRODUCT_TO_GROUP['PMSI RIM-P'] = PMSI
 PRODUCT_TO_GROUP['PMSI SSR'] = PMSI
 
-# Data directories
-DATA_DIR = 'data'
+TESTS_DIR = 'tests'
 
-TABLESCHEMA = 'tableschema'
-TABLESCHEMA_DIR = join(DATA_DIR, TABLESCHEMA)
-DCIRS_SCHMEMA_DIR = join(TABLESCHEMA_DIR, 'DCIRS')
-DCIR_SCHMEMA_DIR = join(TABLESCHEMA_DIR, 'DCIR')
-DCIR_DCIRS_SCHEMA_DIR = join(TABLESCHEMA_DIR, 'DCIR_DCIRS')
-
-BENEFICIARY_SCHEMA_DIR = join(TABLESCHEMA_DIR, 'BENEFICIAIRE')
-DECES_SCHEMA_DIR = join(TABLESCHEMA_DIR, 'Causes de décès')
-CARTO_PATHO_SCHEMA_DIR = join(TABLESCHEMA_DIR, 'CARTOGRAPHIE_PATHOLOGIES')
-
-PMSI_SCHEMA_DIR = join(TABLESCHEMA_DIR, PMSI)
-PMSI_MCO_SCHEMA_DIR = join(PMSI_SCHEMA_DIR, 'PMSI MCO')
-PMSI_HAD_SCHEMA_DIR = join(PMSI_SCHEMA_DIR, 'PMSI HAD')
-PMSI_RIMP_SCHEMA_DIR = join(PMSI_SCHEMA_DIR, 'PMSI RIM-P')
-PMSI_SSR_SCHEMA_DIR = join(PMSI_SCHEMA_DIR, 'PMSI SSR')
-
-BYPRODUCTS_DIR = join(DATA_DIR, 'byproducts')
+# Root directory is used to read schemas and generate them in TESTS_DIR while running tests
+ROOT_DIR = '.'
 if RUNNING_TEST:
-    BYPRODUCTS_DIR = join(TESTS_DIR, BYPRODUCTS_DIR)
+    ROOT_DIR = TESTS_DIR
 
-DICO_SNDS_DIR = join(BYPRODUCTS_DIR, 'dico-snds')
-MARKDOWN_DIR = join(BYPRODUCTS_DIR, 'documentation-snds/markdown')
-TABLES_SIDEBAR_JS_PATH = join(BYPRODUCTS_DIR, 'documentation-snds/tables_sidebar.js')
+DATA = 'data'
+BYPRODUCT_REPOSITORIES_DIR = join(ROOT_DIR, DATA, 'byproducts_repositories')
+
+SCHEMAS = 'schemas'
+SCHEMAS_DIR = join(ROOT_DIR, SCHEMAS)
+
+BYPRODUCTS_DIR = join(DATA, 'byproducts')
+ROOTED_BYPRODUCTS_DIR = join(ROOT_DIR, BYPRODUCTS_DIR)
+DICO_SNDS_DIR = join(ROOTED_BYPRODUCTS_DIR, 'dico-snds')
+MARKDOWN_DIR = join(ROOTED_BYPRODUCTS_DIR, 'documentation-snds/markdown')
+TABLES_SIDEBAR_JS_PATH = join(ROOTED_BYPRODUCTS_DIR, 'documentation-snds/tables_sidebar.js')
 
 # https://frictionlessdata.io/specs/table-schema/#types-and-formats
-
 STRING = 'string'
 NUMBER = 'number'
 INTEGER = 'integer'

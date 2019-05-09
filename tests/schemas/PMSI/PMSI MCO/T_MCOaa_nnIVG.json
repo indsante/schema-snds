@@ -1,0 +1,114 @@
+{
+    "fields": [
+        {
+            "name": "ANN",
+            "description": "Année période",
+            "type": "string",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default"
+        },
+        {
+            "name": "ANN_IVG_PREC",
+            "description": "Année de la dernière IVG",
+            "type": "string",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default"
+        },
+        {
+            "name": "ETA_NUM",
+            "description": "N° FINESS e-PMSI",
+            "type": "string",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default"
+        },
+        {
+            "name": "ETA_NUM_ENT",
+            "description": "N° FINESS du fichier d'entrée",
+            "type": "string",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default"
+        },
+        {
+            "name": "MOI",
+            "description": "N° période (mois)",
+            "type": "string",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default"
+        },
+        {
+            "name": "NBR_IVG_ANT",
+            "description": "Nombre d'IVG antérieures",
+            "type": "number",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default"
+        },
+        {
+            "name": "NBR_NAIS_ANT",
+            "description": "Nombre de naissances vivantes antérieures",
+            "type": "number",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default"
+        },
+        {
+            "name": "PRS_TYP",
+            "description": "Type de prestation",
+            "type": "string",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default"
+        },
+        {
+            "name": "RSA_NUM",
+            "description": "N° d'index du RSA",
+            "type": "string",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default"
+        },
+        {
+            "name": "SOR_ANN",
+            "description": "Année du séjour",
+            "type": "string",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default"
+        },
+        {
+            "name": "SOR_MOI",
+            "description": "Mois du séjour",
+            "type": "string",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default"
+        }
+    ],
+    "name": "T_MCOaa_nnIVG",
+    "title": "Fich comp IVG",
+    "description": "Champ : Public",
+    "produit": "PMSI MCO",
+    "missingValues": [
+        ""
+    ],
+    "foreignKeys": [
+        {
+            "fields": [
+                "ETA_NUM",
+                "RSA_NUM"
+            ],
+            "reference": {
+                "resource": "T_MCOaa_nnB",
+                "fields": [
+                    "ETA_NUM",
+                    "RSA_NUM"
+                ]
+            }
+        }
+    ]
+}

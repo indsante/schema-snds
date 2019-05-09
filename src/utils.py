@@ -3,15 +3,15 @@ from typing import List, Union
 
 from tableschema import Schema
 
-from src.constants import TABLESCHEMA_DIR
+from src.constants import SCHEMAS_DIR
 
 
 def get_all_schema() -> List[Schema]:
     return [Schema(schema_path) for schema_path in get_all_schema_path()]
 
 
-def get_all_schema_path() -> List[str]:
-    for root, dirs, files in os.walk(TABLESCHEMA_DIR):
+def get_all_schema_path(schemas_dir=SCHEMAS_DIR) -> List[str]:
+    for root, dirs, files in os.walk(schemas_dir):
         dirs.sort()
         for file in sorted(files):
             schema_path = os.path.join(root, file)

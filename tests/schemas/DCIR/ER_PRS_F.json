@@ -1,0 +1,968 @@
+{
+    "fields": [
+        {
+            "name": "BEN_AMA_COD",
+            "description": "Age du beneficiaire en mois (< 2 ans) ou annees (>= 2 ans)",
+            "type": "number",
+            "nomenclature": "IR_AMA_V",
+            "length": "4",
+            "format": "default"
+        },
+        {
+            "name": "BEN_CDI_NIR",
+            "description": "Code identification du NIR",
+            "type": "string",
+            "nomenclature": "IR_NIR_V",
+            "length": "2",
+            "format": "default"
+        },
+        {
+            "name": "BEN_CMU_CAT",
+            "description": "Catégorie organisme complémentaire CMU",
+            "type": "string",
+            "nomenclature": "IR_COC_V",
+            "length": "1",
+            "format": "default"
+        },
+        {
+            "name": "BEN_CMU_ORG",
+            "description": "Organisme complémentaire CMU",
+            "type": "string",
+            "nomenclature": "IR_ORG_V",
+            "length": "9",
+            "format": "default"
+        },
+        {
+            "name": "BEN_CMU_TOP",
+            "description": "Top bénéficiaire CMU Complémentaire (0 = non, 1 = oui, 2 = sans objet)",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default"
+        },
+        {
+            "name": "BEN_DCD_AME",
+            "description": "Année et mois du décès du bénéficiaire (format AAAAMM)",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "6",
+            "format": "default"
+        },
+        {
+            "name": "BEN_DCD_DTE",
+            "description": "Date du décès du bénéficiaire (jour + mois + année)",
+            "type": "date",
+            "nomenclature": "IR_DTE_V",
+            "length": "8",
+            "format": "default"
+        },
+        {
+            "name": "BEN_EHP_TOP",
+            "description": "Top patient hébergé en EHPAD (0 = non, 1 = oui, 2 = sans objet)",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default"
+        },
+        {
+            "name": "BEN_IAT_CAT",
+            "description": "Catégorie du bénéficiaire (Invalidité / RAT)",
+            "type": "string",
+            "nomenclature": "IR_CBI_V",
+            "length": "2",
+            "format": "default"
+        },
+        {
+            "name": "BEN_NAI_ANN",
+            "description": "Année de naissance du bénéficiaire (format AAAA)",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "4",
+            "format": "default"
+        },
+        {
+            "name": "BEN_PAI_CMU",
+            "description": "Type de procédure de paiement CMU",
+            "type": "string",
+            "nomenclature": "IR_TCM_V",
+            "length": "1",
+            "format": "default"
+        },
+        {
+            "name": "BEN_NIR_PSA",
+            "description": "Identifiant anonyme du bénéficiaire",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "17",
+            "format": "default"
+        },
+        {
+            "name": "BEN_RNG_GEM",
+            "description": "Rang de naissance du bénéficiaire",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default"
+        },
+        {
+            "name": "BEN_QAF_COD",
+            "description": "Qualité affinée du bénéficiaire",
+            "type": "number",
+            "nomenclature": "IR_QBA_V",
+            "length": "8",
+            "format": "default"
+        },
+        {
+            "name": "BEN_RES_COM",
+            "description": "Commune de résidence du bénéficiaire",
+            "type": "string",
+            "nomenclature": "IR_GEO_V",
+            "length": "3",
+            "format": "default"
+        },
+        {
+            "name": "BEN_RES_DPT",
+            "description": "Département de résidence du bénéficiaire",
+            "type": "string",
+            "nomenclature": "IR_DPT_V",
+            "length": "3",
+            "format": "default"
+        },
+        {
+            "name": "BEN_SEX_COD",
+            "description": "Sexe du bénéficiaire",
+            "type": "number",
+            "nomenclature": "IR_SEX_V",
+            "length": "1",
+            "format": "default"
+        },
+        {
+            "name": "ORG_AFF_BEN",
+            "description": "Organisme d'affiliation du bénéficiaire",
+            "type": "string",
+            "nomenclature": "IR_ORG_V",
+            "length": "9",
+            "format": "default"
+        },
+        {
+            "name": "PRS_REJ_TOP",
+            "description": "Rejet ou signalement",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default"
+        },
+        {
+            "name": "EXE_SOI_AMD",
+            "description": "Année et mois de début soins/exécution  (format AAAAMM)",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "6",
+            "format": "default"
+        },
+        {
+            "name": "EXE_SOI_AMF",
+            "description": "Année et mois de fin soins/exécution  (format AAAAMM)",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "6",
+            "format": "default"
+        },
+        {
+            "name": "EXE_SOI_DTD",
+            "description": "Date de début soins/exécution  (jour + mois + année)",
+            "type": "date",
+            "nomenclature": "IR_DTE_V",
+            "length": "8",
+            "format": "default"
+        },
+        {
+            "name": "EXE_SOI_DTF",
+            "description": "Date de fin soins/exécution  (jour + mois + année)",
+            "type": "date",
+            "nomenclature": "IR_DTE_V",
+            "length": "8",
+            "format": "default"
+        },
+        {
+            "name": "PRE_PRE_AMD",
+            "description": "Année et mois de prescription (format AAAAMM)",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "6",
+            "format": "default"
+        },
+        {
+            "name": "PRE_PRE_DTD",
+            "description": "Date de prescription  (jour + mois + année)",
+            "type": "date",
+            "nomenclature": "IR_DTE_V",
+            "length": "8",
+            "format": "default"
+        },
+        {
+            "name": "PRS_GRS_DTD",
+            "description": "Date présumée de grossesse (jour + mois + année)",
+            "type": "date",
+            "nomenclature": "IR_DTE_V",
+            "length": "8",
+            "format": "default"
+        },
+        {
+            "name": "PRS_HOS_AMD",
+            "description": "Année et mois début hospitalisation  (format AAAAMM)",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "6",
+            "format": "default"
+        },
+        {
+            "name": "PRS_HOS_DTD",
+            "description": "Date de début d'hospitalisation  (jour + mois + année)",
+            "type": "date",
+            "nomenclature": "IR_DTE_V",
+            "length": "8",
+            "format": "default"
+        },
+        {
+            "name": "BSE_REM_BSE",
+            "description": "Base de remboursement (acte de base)",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "9",
+            "format": "default"
+        },
+        {
+            "name": "BSE_REM_MNT",
+            "description": "Montant remboursé (acte de base)",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "9",
+            "format": "default"
+        },
+        {
+            "name": "BSE_REM_PRU",
+            "description": "Prix unitaire (acte de base)",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "12",
+            "format": "default"
+        },
+        {
+            "name": "BSE_REM_SGN",
+            "description": "Signe (acte de base)",
+            "type": "number",
+            "nomenclature": "IR_SGN_V",
+            "length": "1",
+            "format": "default"
+        },
+        {
+            "name": "CPL_REM_BSE",
+            "description": "Base de remboursement (complément d'acte)",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "9",
+            "format": "default"
+        },
+        {
+            "name": "CPL_REM_MNT",
+            "description": "Montant remboursé (complément d'acte)",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "9",
+            "format": "default"
+        },
+        {
+            "name": "CPL_REM_PRU",
+            "description": "Prix unitaire (complément d'acte)",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "12",
+            "format": "default"
+        },
+        {
+            "name": "CPL_REM_SGN",
+            "description": "Signe (complément d'acte)",
+            "type": "number",
+            "nomenclature": "IR_SGN_V",
+            "length": "1",
+            "format": "default"
+        },
+        {
+            "name": "PRS_ACT_CFT",
+            "description": "Coefficient (non signé) de l'acte",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "7",
+            "format": "default"
+        },
+        {
+            "name": "PRS_ACT_COG",
+            "description": "Coefficient global (signé) de l'acte",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "9",
+            "format": "default"
+        },
+        {
+            "name": "PRS_ACT_NBR",
+            "description": "Dénombrement (signé) des actes",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "3",
+            "format": "default"
+        },
+        {
+            "name": "PRS_ACT_QTE",
+            "description": "Quantité (signée) de l'acte",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "3",
+            "format": "default"
+        },
+        {
+            "name": "PRS_DEP_MNT",
+            "description": "Montant (signé) du dépassement",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "9",
+            "format": "default"
+        },
+        {
+            "name": "PRS_ETA_RAC",
+            "description": "Reste à charge de l’établissement",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "9",
+            "format": "default"
+        },
+        {
+            "name": "PRS_PAI_MNT",
+            "description": "Montant (signé) de la dépense",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "9",
+            "format": "default"
+        },
+        {
+            "name": "RGO_MOD_MNT",
+            "description": "Montant de la majoration de la participation de l'assuré (R. O.)",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "9",
+            "format": "default"
+        },
+        {
+            "name": "ORB_BSE_NUM",
+            "description": "Organisme de base de l'affiliation du bénéficiaire",
+            "type": "string",
+            "nomenclature": "IR_CAI_V",
+            "length": "6",
+            "format": "default"
+        },
+        {
+            "name": "ORL_BSE_NUM",
+            "description": "Organisme de base de liquidation des prestations",
+            "type": "string",
+            "nomenclature": "IR_CAI_V",
+            "length": "6",
+            "format": "default"
+        },
+        {
+            "name": "RGM_COD",
+            "description": "Petit régime d'affiliation",
+            "type": "number",
+            "nomenclature": "IR_RGM_V",
+            "length": "3",
+            "format": "default"
+        },
+        {
+            "name": "RGM_GRG_COD",
+            "description": "Grand régime de liquidation",
+            "type": "number",
+            "nomenclature": "IR_GRG_V",
+            "length": "2",
+            "format": "default"
+        },
+        {
+            "name": "ACC_TIE_IND",
+            "description": "Indication de tiers sur feuille de soins en cas d'accident (0 = non, 1 = oui, 2 = sans objet)",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default"
+        },
+        {
+            "name": "BSE_FJH_TYP",
+            "description": "Type prise en charge du forfait journalier (acte de base)",
+            "type": "number",
+            "nomenclature": "IR_FJH_V",
+            "length": "1",
+            "format": "default"
+        },
+        {
+            "name": "BSE_PRS_NAT",
+            "description": "Nature de la prestation (acte de base)",
+            "type": "number",
+            "nomenclature": "IR_NAT_V",
+            "length": "4",
+            "format": "default"
+        },
+        {
+            "name": "CPL_AFF_COD",
+            "description": "Code complément d'acte affiné",
+            "type": "number",
+            "nomenclature": "IR_CCA_V",
+            "length": "2",
+            "format": "default"
+        },
+        {
+            "name": "CPL_ANO_COD",
+            "description": "Code anomalie du complément affiné",
+            "type": "number",
+            "nomenclature": "IR_ANC_V",
+            "length": "1",
+            "format": "default"
+        },
+        {
+            "name": "CPL_FJH_TYP",
+            "description": "Type prise en charge FJ (complément d'acte)",
+            "type": "number",
+            "nomenclature": "IR_FJH_V",
+            "length": "1",
+            "format": "default"
+        },
+        {
+            "name": "CPL_MAJ_TOP",
+            "description": "Top complément et majoration",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default"
+        },
+        {
+            "name": "CPL_PRS_NAT",
+            "description": "Nature de prestation (complément d'acte)",
+            "type": "number",
+            "nomenclature": "IR_NAT_V",
+            "length": "4",
+            "format": "default"
+        },
+        {
+            "name": "DPN_QLF",
+            "description": "Qualificatif de la dépense",
+            "type": "number",
+            "nomenclature": "IR_DEP_V",
+            "length": "2",
+            "format": "default"
+        },
+        {
+            "name": "DRG_MOD",
+            "description": "Mode de règlement",
+            "type": "number",
+            "nomenclature": "IR_MOD_V",
+            "length": "2",
+            "format": "default"
+        },
+        {
+            "name": "DRG_NAT",
+            "description": "Nature de destinataire du règlement",
+            "type": "number",
+            "nomenclature": "IR_DRG_V",
+            "length": "2",
+            "format": "default"
+        },
+        {
+            "name": "EXE_LIE_COD",
+            "description": "Code lieu d'exécution",
+            "type": "number",
+            "nomenclature": "IR_LIE_V",
+            "length": "1",
+            "format": "default"
+        },
+        {
+            "name": "EXO_MTF",
+            "description": "Motif exonération TM",
+            "type": "number",
+            "nomenclature": "IR_EXO_V",
+            "length": "2",
+            "format": "default"
+        },
+        {
+            "name": "IJR_EMP_NUM",
+            "description": "Numéro de l'employeur (IJ)",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "15",
+            "format": "default"
+        },
+        {
+            "name": "IJR_RVL_NAT",
+            "description": "Nature de la revalorisation (IJ)",
+            "type": "string",
+            "nomenclature": "IR_RVL_V",
+            "length": "2",
+            "format": "default"
+        },
+        {
+            "name": "MTM_NAT",
+            "description": "Modulation du ticket modérateur",
+            "type": "number",
+            "nomenclature": "IR_MTM_V",
+            "length": "8",
+            "format": "default"
+        },
+        {
+            "name": "ORG_CLE_NEW",
+            "description": "Organisme de liquidation des prestations (après fusion des caisses)",
+            "type": "string",
+            "nomenclature": "IR_ORG_V",
+            "length": "9",
+            "format": "default"
+        },
+        {
+            "name": "PRE_REN_COD",
+            "description": "Type de renouvellement de la prescription (opticien / pharmacien)",
+            "type": "string",
+            "nomenclature": "IR_REN_V",
+            "length": "1",
+            "format": "default"
+        },
+        {
+            "name": "PRS_CRD_OPT",
+            "description": "Top option de coordination",
+            "type": "number",
+            "nomenclature": "IR_TOC_V",
+            "length": "1",
+            "format": "default"
+        },
+        {
+            "name": "PRS_DPN_QLP",
+            "description": "Qualificatif de la dépense transmis",
+            "type": "number",
+            "nomenclature": "IR_DEP_V",
+            "length": "2",
+            "format": "default"
+        },
+        {
+            "name": "PRS_NAT_REF",
+            "description": "Nature de la prestation de référence",
+            "type": "number",
+            "nomenclature": "IR_NAT_V",
+            "length": "4",
+            "format": "default"
+        },
+        {
+            "name": "PRS_OPS_TRF",
+            "description": "Indicateur de tarif opposable",
+            "type": "number",
+            "nomenclature": "IR_TOP_V",
+            "length": "1",
+            "format": "default"
+        },
+        {
+            "name": "PRS_PDS_QCP",
+            "description": "Qualificatif du parcours de soins calculé",
+            "type": "number",
+            "nomenclature": "IR_QPS_V",
+            "length": "2",
+            "format": "default"
+        },
+        {
+            "name": "PRS_PDS_QTP",
+            "description": "Qualificatif du parcours de soins transmis",
+            "type": "number",
+            "nomenclature": "IR_QPE_V",
+            "length": "2",
+            "format": "default"
+        },
+        {
+            "name": "PRS_PPF_COD",
+            "description": "Code participation forfaitaire",
+            "type": "string",
+            "nomenclature": "IR_PAF_V",
+            "length": "1",
+            "format": "default"
+        },
+        {
+            "name": "PRS_PRE_MTT",
+            "description": "Origine de la prescription",
+            "type": "number",
+            "nomenclature": "IR_TMT_V",
+            "length": "1",
+            "format": "default"
+        },
+        {
+            "name": "PRS_REF_KIN",
+            "description": "Indicateur Référentiel Entente Préalable kinésithérapie",
+            "type": "string",
+            "nomenclature": "IR_REK_V",
+            "length": "2",
+            "format": "default"
+        },
+        {
+            "name": "PRS_TOP_ENP",
+            "description": "Indicateur Top Entente Préalable",
+            "type": "number",
+            "nomenclature": "IR_TEK_V",
+            "length": "1",
+            "format": "default"
+        },
+        {
+            "name": "PRS_TYP_KIN",
+            "description": "Type de prestation de kinésithérapie",
+            "type": "string",
+            "nomenclature": "IR_TPR_V",
+            "length": "1",
+            "format": "default"
+        },
+        {
+            "name": "RGO_ASU_NAT",
+            "description": "Nature de l'assurance (R. O.)",
+            "type": "number",
+            "nomenclature": "IR_ASU_V",
+            "length": "2",
+            "format": "default"
+        },
+        {
+            "name": "RGO_ENV_TYP",
+            "description": "Type d'enveloppe (R. O.)",
+            "type": "number",
+            "nomenclature": "IR_ENV_V",
+            "length": "2",
+            "format": "default"
+        },
+        {
+            "name": "RGO_FTA_COD",
+            "description": "Code forçage du taux (R. O.)",
+            "type": "number",
+            "nomenclature": "IR_FOR_V",
+            "length": "1",
+            "format": "default"
+        },
+        {
+            "name": "RGO_MIN_TAU",
+            "description": "Taux de remboursement modulé (R. O.)",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "5",
+            "format": "default"
+        },
+        {
+            "name": "RGO_REM_TAU",
+            "description": "Taux de remboursement (R. O.)",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "5",
+            "format": "default"
+        },
+        {
+            "name": "RGO_THE_TAU",
+            "description": "Taux de remboursement théorique (R. O.)",
+            "type": "number",
+            "nomenclature": "IR_TAU_V",
+            "length": "5",
+            "format": "default"
+        },
+        {
+            "name": "ETB_PRE_FIN",
+            "description": "N° FINESS géographique établissement prescripteur",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "8",
+            "format": "default"
+        },
+        {
+            "name": "PFS_EXE_NUM",
+            "description": "N° PS exécutant",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "8",
+            "format": "default"
+        },
+        {
+            "name": "PFS_EXE_NUMC",
+            "description": "N° PS exécutant (anonymisé)",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "32",
+            "format": "default"
+        },
+        {
+            "name": "PFS_PRE_NUM",
+            "description": "N° PS prescripteur",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "8",
+            "format": "default"
+        },
+        {
+            "name": "PFS_PRE_NUMC",
+            "description": "N° PS prescripteur (anonymisé)",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "32",
+            "format": "default"
+        },
+        {
+            "name": "PRS_MTT_NUM",
+            "description": "N° médecin traitant",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "8",
+            "format": "default"
+        },
+        {
+            "name": "PRS_MTT_NUMC",
+            "description": "N° médecin traitant (anonymisé)",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "32",
+            "format": "default"
+        },
+        {
+            "name": "PSE_ACT_NAT",
+            "description": "Nature d'activité du PS exécutant",
+            "type": "number",
+            "nomenclature": "IR_ACT_V",
+            "length": "8",
+            "format": "default"
+        },
+        {
+            "name": "PSE_CNV_COD",
+            "description": "Code convention du PS exécutant",
+            "type": "number",
+            "nomenclature": "IR_CNV_V",
+            "length": "8",
+            "format": "default"
+        },
+        {
+            "name": "PSE_REF_ADH",
+            "description": "Top PS exécutant référent",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default"
+        },
+        {
+            "name": "PSE_SPE_COD",
+            "description": "Spécialité médicale PS exécutant",
+            "type": "number",
+            "nomenclature": "IR_SPE_V",
+            "length": "8",
+            "format": "default"
+        },
+        {
+            "name": "PSE_STJ_COD",
+            "description": "Mode d'exercice du PS exécutant",
+            "type": "number",
+            "nomenclature": "IR_SJP_V",
+            "length": "8",
+            "format": "default"
+        },
+        {
+            "name": "PSP_ACT_NAT",
+            "description": "Nature d'activité du PS prescripteur",
+            "type": "number",
+            "nomenclature": "IR_ACT_V",
+            "length": "8",
+            "format": "default"
+        },
+        {
+            "name": "PSP_CNV_COD",
+            "description": "Code convention du PS prescripteur",
+            "type": "number",
+            "nomenclature": "IR_CNV_V",
+            "length": "8",
+            "format": "default"
+        },
+        {
+            "name": "PSP_PPS_NUM",
+            "description": "Numéro RPPS du prescripteur",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "10",
+            "format": "default"
+        },
+        {
+            "name": "PSP_PPS_NUMC",
+            "description": "Numéro RPPS du prescripteur (anonymisé)",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "32",
+            "format": "default"
+        },
+        {
+            "name": "PSP_REF_ADH",
+            "description": "Top prestation prescrite par un professionnel de santé adhérent à l'option référent (0 = non, 1 = oui, 2 = non disponible)",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default"
+        },
+        {
+            "name": "PSP_SPE_COD",
+            "description": "Spécialité médicale PS prescripteur",
+            "type": "number",
+            "nomenclature": "IR_SPE_V",
+            "length": "8",
+            "format": "default"
+        },
+        {
+            "name": "PSP_STJ_COD",
+            "description": "Mode d'exercice du PS prescripteur",
+            "type": "number",
+            "nomenclature": "IR_SJP_V",
+            "length": "8",
+            "format": "default"
+        },
+        {
+            "name": "PSP_SVI_PPS",
+            "description": "Indicateur fiabilite du numero RPPS",
+            "type": "number",
+            "nomenclature": "IR_SVI_V",
+            "length": "2",
+            "format": "default"
+        },
+        {
+            "name": "DCT_ORD_NUM",
+            "description": "N° ordre décompte dans caisse                      1",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "8",
+            "format": "default"
+        },
+        {
+            "name": "FLX_DIS_DTD",
+            "description": "Date de mise à disposition des données dans SI     2",
+            "type": "date",
+            "nomenclature": "IR_DTE_V",
+            "length": "8",
+            "format": "default"
+        },
+        {
+            "name": "FLX_EMT_NUM",
+            "description": "N° émetteur du flux                                                  3",
+            "type": "number",
+            "nomenclature": "IR_NEM_V",
+            "length": "8",
+            "format": "default"
+        },
+        {
+            "name": "FLX_EMT_ORD",
+            "description": "N° séquence du flux                                               4",
+            "type": "number",
+            "nomenclature": "IR_FLX_R",
+            "length": "8",
+            "format": "default"
+        },
+        {
+            "name": "FLX_EMT_TYP",
+            "description": "Type d'émetteur                                                      5",
+            "type": "number",
+            "nomenclature": "IR_FLP_R",
+            "length": "8",
+            "format": "default"
+        },
+        {
+            "name": "FLX_TRT_DTD",
+            "description": "Date de traitement des données dans SI                   6",
+            "type": "date",
+            "nomenclature": "IR_DTE_V",
+            "length": "8",
+            "format": "default"
+        },
+        {
+            "name": "ORG_CLE_NUM",
+            "description": "Ancien concept de l'organisme de liquidation (avant fusion, jusqu’au jour J de la fusion)          7",
+            "type": "string",
+            "nomenclature": "IR_ORG_V",
+            "length": "9",
+            "format": "default"
+        },
+        {
+            "name": "PRS_ORD_NUM",
+            "description": "N° ordre prestation dans décompte                 8",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "8",
+            "format": "default"
+        },
+        {
+            "name": "REM_TYP_AFF",
+            "description": "Type de remboursement affiné                                 9",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "8",
+            "format": "default"
+        }
+    ],
+    "name": "ER_PRS_F",
+    "title": "prestations",
+    "description": "",
+    "produit": "DCIR",
+    "missingValues": [
+        ""
+    ],
+    "primaryKey": [
+        "DCT_ORD_NUM",
+        "FLX_DIS_DTD",
+        "FLX_EMT_NUM",
+        "FLX_EMT_ORD",
+        "FLX_EMT_TYP",
+        "FLX_TRT_DTD",
+        "ORG_CLE_NUM",
+        "PRS_ORD_NUM",
+        "REM_TYP_AFF"
+    ],
+    "foreignKeys": [
+        {
+            "fields": [
+                "BEN_NIR_PSA",
+                "BEN_RNG_GEM"
+            ],
+            "reference": {
+                "resource": "CT_IDE_AAAA_GN",
+                "fields": [
+                    "ben_nir_psa",
+                    "ben_rng_gem"
+                ]
+            },
+            "description": "Bidirectionnel"
+        },
+        {
+            "fields": "PFS_EXE_NUM",
+            "reference": {
+                "resource": "DA_PRA_R",
+                "fields": "PFS_PFS_NUM"
+            }
+        },
+        {
+            "fields": "PFS_PRE_NUM",
+            "reference": {
+                "resource": "DA_PRA_R",
+                "fields": "PFS_PFS_NUM"
+            }
+        },
+        {
+            "fields": "PRS_MTT_NUM",
+            "reference": {
+                "resource": "DA_PRA_R",
+                "fields": "PFS_PFS_NUM"
+            }
+        },
+        {
+            "fields": [
+                "BEN_NIR_PSA",
+                "BEN_RNG_GEM"
+            ],
+            "reference": {
+                "resource": "IR_BEN_R",
+                "fields": [
+                    "BEN_NIR_PSA",
+                    "BEN_RNG_GEM"
+                ]
+            }
+        }
+    ]
+}

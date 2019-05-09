@@ -7,16 +7,12 @@ from os.path import join as pjoin
 from typing import List, Tuple
 
 import requests
-from dotenv import load_dotenv
 
-from src.constants import BYPRODUCTS_DIR
-
-load_dotenv()
-GITLAB_TOKEN = os.environ.get('GITLAB_TOKEN', None)
+from src.constants import ROOTED_BYPRODUCTS_DIR, BYPRODUCT_REPOSITORIES_DIR
+from src.settings import GITLAB_TOKEN
 
 HDH_GITLAB_URL = 'https://gitlab.com/healthdatahub'
 GITLAB_COM_API_V4 = 'https://gitlab.com/api/v4'
-TMP_DIR = 'tmp'
 LIST_TUPLE_STR_STR = List[Tuple[str, str]]
 
 
@@ -31,8 +27,9 @@ def synchronize_all_byproducts() -> None:
     last_commit_sha = bash("git rev-parse --verify HEAD").strip()
     logging.debug("Le hash SHA du dernier commit est '{}'".format(last_commit_sha))
 
-    logging.info("Suppression du dossier temporaire '{}' contenant les dépôts de produits dérivés".format(TMP_DIR))
-    shutil.rmtree(TMP_DIR, ignore_errors=True)
+    logging.info("Suppression du dossier temporaire '{}' contenant les dépôts de produits dérivés".format(
+        BYPRODUCT_REPOSITORIES_DIR))
+    shutil.rmtree(BYPRODUCT_REPOSITORIES_DIR, ignore_errors=True)
 
     synchronize_byproduct_repository(last_commit_sha,
                                      byproduct_repository='documentation-snds',
@@ -75,7 +72,7 @@ def synchronize_byproduct_repository(last_commit_sha: str,
     copy_local_to_byproduct_repository(byproduct_repository, local_to_byproduct_directories, local_to_byproduct_files)
 
     current_dir = os.getcwd()
-    os.chdir(pjoin(TMP_DIR, byproduct_repository))
+    os.chdir(pjoin(BYPRODUCT_REPOSITORIES_DIR, byproduct_repository))
     if not bash("git status --porcelain"):
         logging.info("Pas de différence entre le dépôt '{}' et le schéma courant.".format(byproduct_repository))
     else:
@@ -95,9 +92,8 @@ def synchronize_byproduct_repository(last_commit_sha: str,
 
 
 def clone_repository_to_tmp_directory(repository_name: str):
-    git_clone_cmd = \
-        "git clone https://oauth2:{gitlab_token}@gitlab.com/healthdatahub/{repository}.git/ tmp/{repository}".format(
-            gitlab_token=GITLAB_TOKEN, repository=repository_name)
+    git_clone_cmd = "git clone https://gitlab.com/healthdatahub/{repository}.git {repository_dir}/{repository}".format(
+        repository=repository_name, repository_dir=BYPRODUCT_REPOSITORIES_DIR)
     bash(git_clone_cmd)
 
 
@@ -114,8 +110,8 @@ def copy_file_to_byproduct_repository(source_file: str, byproduct_repository: st
     """
     Replace file in byproducts's repository local copy by source file.
     """
-    source_file_path = pjoin(BYPRODUCTS_DIR, byproduct_repository, source_file)
-    target_file_path = pjoin(TMP_DIR, byproduct_repository, target_file)
+    source_file_path = pjoin(ROOTED_BYPRODUCTS_DIR, byproduct_repository, source_file)
+    target_file_path = pjoin(BYPRODUCT_REPOSITORIES_DIR, byproduct_repository, target_file)
     shutil.copy(source_file_path, target_file_path)
 
 
@@ -123,8 +119,8 @@ def copy_directory_to_byproduct_repository(source_dir: str, byproduct_repository
     """
     Erase target directory in byproduct's repository local copy. Replace it with source directory.
     """
-    source_dir_path = pjoin(BYPRODUCTS_DIR, byproduct_repository, source_dir)
-    target_dir_path = pjoin(TMP_DIR, byproduct_repository, target_dir)
+    source_dir_path = pjoin(ROOTED_BYPRODUCTS_DIR, byproduct_repository, source_dir)
+    target_dir_path = pjoin(BYPRODUCT_REPOSITORIES_DIR, byproduct_repository, target_dir)
     shutil.rmtree(target_dir_path, ignore_errors=True)
     shutil.copytree(source_dir_path, target_dir_path)
 

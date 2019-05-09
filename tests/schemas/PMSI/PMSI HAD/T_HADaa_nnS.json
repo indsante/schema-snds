@@ -1,0 +1,146 @@
+{
+    "fields": [
+        {
+            "name": "ETA_NUM_EPMSI",
+            "description": "Numéro FINESS e-PMSI",
+            "type": "string",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default"
+        },
+        {
+            "name": "RAPSS_NUM",
+            "description": "Numéro de version du format de SRAPSS",
+            "type": "string",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default"
+        },
+        {
+            "name": "ETA_NUM_GEO",
+            "description": "Numéro FINESS géographique",
+            "type": "string",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default"
+        },
+        {
+            "name": "RHAD_NUM",
+            "description": "Numéro séquentiel d'entrée",
+            "type": "string",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default"
+        },
+        {
+            "name": "COD_SEX",
+            "description": "Sexe du patient",
+            "type": "string",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default"
+        },
+        {
+            "name": "SEJ_NBJ",
+            "description": "Nombre de journées dans le séjour = durée sur séjours terminés (date de sortie-date d'entrée)",
+            "type": "number",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default"
+        },
+        {
+            "name": "HAD_DUREE",
+            "description": "Durée couverte par les séquences (tous séjours)",
+            "type": "number",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default"
+        },
+        {
+            "name": "SEJ_FINI",
+            "description": "Indicateur de séjour terminé",
+            "type": "string",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default"
+        },
+        {
+            "name": "SEJ_ERR",
+            "description": "indicateur de séjour 100% en erreur",
+            "type": "string",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default"
+        },
+        {
+            "name": "SOR_MOI",
+            "description": "Mois de la date de sortie du séjour",
+            "type": "string",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default"
+        },
+        {
+            "name": "SOR_ANN",
+            "description": "Année de la date de sortie du séjour",
+            "type": "string",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default"
+        },
+        {
+            "name": "ENT_MOD",
+            "description": "Mode d’entrée",
+            "type": "string",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default"
+        },
+        {
+            "name": "ENT_PRV",
+            "description": "Provenance",
+            "type": "string",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default"
+        },
+        {
+            "name": "SOR_MOD",
+            "description": "Mode de sortie",
+            "type": "string",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default"
+        },
+        {
+            "name": "SOR_DES",
+            "description": "Destination",
+            "type": "string",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default"
+        }
+    ],
+    "name": "T_HADaa_nnS",
+    "title": "Synthèses des Résumés Anonyme Par Sous-Séquence",
+    "description": "Champ : Public et Privé",
+    "produit": "PMSI HAD",
+    "missingValues": [
+        ""
+    ],
+    "foreignKeys": [
+        {
+            "fields": [
+                "ETA_NUM_EPMSI",
+                "RHAD_NUM"
+            ],
+            "reference": {
+                "resource": "T_HADaa_nnB",
+                "fields": [
+                    "ETA_NUM_EPMSI",
+                    "RHAD_NUM"
+                ]
+            }
+        }
+    ]
+}

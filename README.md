@@ -8,7 +8,7 @@ Ce schéma du SNDS **centralise** une description du SNDS sous un format **stand
 ## Utilité
 
 Ce schéma permet de générer des documentations dans plusieurs formats, actuellement :
-- un [dictionnaire interacti](http://dico-snds.health-data-hub.fr/) des variables et des liens entre tables,
+- un [dictionnaire interactif](http://dico-snds.health-data-hub.fr/) des variables et des liens entre tables,
 - une [documentation textuelle](http://documentation-snds.health-data-hub.fr/) (section `tables`).
 
 Il est envisagé d'utiliser ce schéma pour générer d'autres supports de documentations, et pour configurer des codes qui manipulent les données.

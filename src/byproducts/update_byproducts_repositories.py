@@ -81,8 +81,8 @@ def clone_byproduct_repository(byproduct_repository, local):
 
     if not os.path.exists(byproduct_repository_dir):
         logging.info("Clone du dépôt '{}' en local".format(byproduct_repository))
-        bash("git clone https://oauth2:{gitlab_token}@gitlab.com/healthdatahub/{}.git {}".format(
-            byproduct_repository, byproduct_repository_dir))
+        bash("git clone https://oauth2:{}@gitlab.com/healthdatahub/{}.git {}".format(
+            GITLAB_TOKEN, byproduct_repository, byproduct_repository_dir))
     else:
         logging.info("Mise à jour du dépôt '{}' depuis le remote (git pull origin master)".format(byproduct_repository))
         bash("cd {} ; git pull origin master".format(byproduct_repository_dir))

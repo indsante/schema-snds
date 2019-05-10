@@ -2,7 +2,7 @@
 import argparse
 
 from src.byproducts.main import generate_byproducts
-from src.byproducts.synchronize_repositories import synchronize_all_byproducts
+from src.byproducts.update_byproducts_repositories import update_all_byproducts
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Création de produits dérivés depuis les schémas du SNDS')
@@ -10,14 +10,17 @@ if __name__ == '__main__':
                         action='store_const', const=True, default=False,
                         help="Générer un diagramme d'entité relationnelle (ERD), "
                              "en utilisant PostgreSQL et schema-crawler (nécessite Docker)")
-    parser.add_argument('-s', '--synchronize', dest='synchronize', action='store_const',
+    parser.add_argument('-u', '--update', dest='update', action='store_const',
                         const=True, default=False,
-                        help="Synchronizer les modifications dans les dépôts des produits dérivés. "
+                        help="Propagation des modifications du schéma dans les dépôts des produits dérivés. "
                              "Cette action n'est déclenchée que par GitLab-CI")
+    parser.add_argument('-l', '--local', dest='local', action='store_const',
+                        const=True, default=False,
+                        help="Tester un update des produits dérivés en local, sans mettre à jour le remote.")
 
     args = parser.parse_args()
 
     generate_byproducts(args.generate_erd)
 
-    if args.synchronize:
-        synchronize_all_byproducts()
+    if args.update:
+        update_all_byproducts(args.local)

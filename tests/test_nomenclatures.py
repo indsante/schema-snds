@@ -3,13 +3,8 @@ import os
 import numpy as np
 import re
 
-from src.constants import ROOTED_NOMENCLATURES_DIR
+from src.constants import ROOTED_BYPRODUCTS_DIR
 from src.utils import get_all_schema
-
-PATH2ORAVAL = os.path.join(ROOTED_NOMENCLATURES_DIR, "ORAVAL")
-PATH2ORAREF = os.path.join(ROOTED_NOMENCLATURES_DIR, "ORAREF")
-PATH2DREES = os.path.join(ROOTED_NOMENCLATURES_DIR, "DREES")
-
 
 def list_nomenclatures_usage():
     schemas = get_all_schema()
@@ -21,10 +16,7 @@ def list_nomenclatures_usage():
 
 
 def list_present_nomenclatures():
-    oraval_noms = os.listdir(PATH2ORAVAL)
-    oraref_noms = os.listdir(PATH2ORAREF)
-    drees_noms = os.listdir(PATH2DREES)
-    present_nomenclatures_files = oraval_noms + oraref_noms + drees_noms
+    present_nomenclatures_files = os.listdir(ROOTED_BYPRODUCTS_DIR)
     present_nomenclatures = [re.sub('.csv$', '', nom) for nom in present_nomenclatures_files]
     return present_nomenclatures
 
@@ -36,3 +28,5 @@ def test_nomenclature_presence():
         logging.info("Following nomenclatures are described in schema but not added in nomenclature folder; {}"
                      .format(nomenclatures_difference ))
     assert len(nomenclatures_difference) == 0
+
+test_nomenclature_presence()

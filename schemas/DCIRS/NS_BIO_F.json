@@ -164,7 +164,7 @@
             "name": "FLX_EMT_TYP",
             "description": "Type d'émetteur",
             "type": "number",
-            "nomenclature": "IR_FLP_R",
+            "nomenclature": "-",
             "length": "2",
             "format": "default"
         },

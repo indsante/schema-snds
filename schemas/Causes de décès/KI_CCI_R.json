@@ -132,7 +132,7 @@
             "name": "BEN_DCD_AME",
             "description": "Année et mois du décès",
             "type": "string",
-            "nomenclature": "AAAAMM",
+            "nomenclature": "-",
             "length": "6",
             "format": "default"
         },
@@ -180,7 +180,7 @@
             "name": "CAT_PCS_COD",
             "description": "Profession et caégorie socioprofessionnelle",
             "type": "string",
-            "nomenclature": "DS_PC1_V,DS_PC2_V,DS_PC3_V",
+            "nomenclature": "DS_PC_V",
             "length": "4",
             "format": "default"
         },

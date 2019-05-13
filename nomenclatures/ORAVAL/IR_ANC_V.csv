@@ -1,0 +1,11 @@
+"nom_table";"TEC_COL";"CPL_ANO_COD";"CPL_ANO_LIB";"CPT_COP_NUM"
+"IR_ANC_V";2;0;"Pas d'anomalie ou absence de complément d'acte";NA
+"IR_ANC_V";0;1;"Type de remboursement égal à 0 avec complément d'acte/prestation de remboursement<>Majoration/Nature de prestation de référence = Nature de prestation de remboursement";NA
+"IR_ANC_V";0;2;"Type de remboursement égal à 0 avec complément d'acte/prestation de remboursement=Majoration/Nature de prestation de référence=Nature de prestation de remboursement";NA
+"IR_ANC_V";0;3;"Type de remboursement égal à 0 avec complément d'acte/prestation de remboursement<>Majoration/Nature de prestation de référence<>Nature de prestation de remboursement";NA
+"IR_ANC_V";0;4;"Type de remboursement égal à 0 avec complément d'acte/prestation de remboursement=Majoration/Nature de prestation de référence<>Nature de prestation de remboursement";NA
+"IR_ANC_V";0;5;"Type de remboursement égal à 1 sans complément d'acte/prestation de remboursement<>Majoration/Nature de prestation de référence=Nature de prestation de remboursement";NA
+"IR_ANC_V";0;6;"Type de remboursement égal à 1 avec complément d'acte/prestation de remboursement=Majoration/Nature de prestation de référence=Nature de prestation de remboursement";NA
+"IR_ANC_V";0;7;"Type de remboursement égal à 1 sans complément d'acte/prestation de remboursement<>Majoration/Nature de prestation de référence<>Nature de prestation de remboursement";NA
+"IR_ANC_V";0;8;"Type de remboursement égal à 1 avec complément d'acte/prestation de remboursement=Majoration/Nature de prestation de référence<>Nature de prestation de remboursement";NA
+"IR_ANC_V";1;9;"Valeur Inconnue";NA

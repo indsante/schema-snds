@@ -36,5 +36,3 @@ def test_nomenclature_presence():
         logging.info("Following nomenclatures are described in schema but not added in nomenclature folder; {}"
                      .format(nomenclatures_difference ))
     assert len(nomenclatures_difference) == 0
-
-test_nomenclature_presence()

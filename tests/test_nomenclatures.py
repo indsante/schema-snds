@@ -3,8 +3,9 @@ import os
 import numpy as np
 import re
 
-from src.constants import ROOTED_BYPRODUCTS_DIR
+from src.constants import PRODUIT_NOMENCLATURES
 from src.utils import get_all_schema
+from src.byproducts.main import generate_byproducts
 
 def list_nomenclatures_usage():
     schemas = get_all_schema()
@@ -16,17 +17,17 @@ def list_nomenclatures_usage():
 
 
 def list_present_nomenclatures():
-    present_nomenclatures_files = os.listdir(ROOTED_BYPRODUCTS_DIR)
+    present_nomenclatures_files = os.listdir(PRODUIT_NOMENCLATURES)
     present_nomenclatures = [re.sub('.csv$', '', nom) for nom in present_nomenclatures_files]
     return present_nomenclatures
 
 def test_nomenclature_presence():
+    generate_byproducts()
     present_nomenclatures = list_present_nomenclatures()
+    print(present_nomenclatures)
     used_nomenclatures = list_nomenclatures_usage()
     nomenclatures_difference = list(set(used_nomenclatures) - set(present_nomenclatures))
     if len(nomenclatures_difference) != 0:
         logging.info("Following nomenclatures are described in schema but not added in nomenclature folder; {}"
                      .format(nomenclatures_difference ))
     assert len(nomenclatures_difference) == 0
-
-test_nomenclature_presence()

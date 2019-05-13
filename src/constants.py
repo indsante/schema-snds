@@ -31,6 +31,9 @@ DICO_SNDS_DIR = join(ROOTED_BYPRODUCTS_DIR, 'dico-snds')
 MARKDOWN_DIR = join(ROOTED_BYPRODUCTS_DIR, 'documentation-snds/markdown')
 TABLES_SIDEBAR_JS_PATH = join(ROOTED_BYPRODUCTS_DIR, 'documentation-snds/tables_sidebar.js')
 
+NOMENCLATURES_DIR = 'nomenclatures'
+ROOTED_NOMENCLATURES_DIR = join('../', NOMENCLATURES_DIR)
+
 # https://frictionlessdata.io/specs/table-schema/#types-and-formats
 STRING = 'string'
 NUMBER = 'number'

@@ -36,7 +36,7 @@
             "name": "BEN_EXO_MTF",
             "description": "Motif d’exonération du ticket modérateur",
             "type": "number",
-            "nomenclature": NaN,
+            "nomenclature": "-",
             "length": "8",
             "format": "default"
         },
@@ -44,7 +44,7 @@
             "name": "BEN_EXO_DTD",
             "description": "Date de début d’exonération",
             "type": "date",
-            "nomenclature": NaN,
+            "nomenclature": "-",
             "length": null,
             "format": "default"
         },
@@ -52,7 +52,7 @@
             "name": "BEN_EXO_DTF",
             "description": "Date de fin d’exonération",
             "type": "date",
-            "nomenclature": NaN,
+            "nomenclature": "-",
             "length": null,
             "format": "default"
         },
@@ -60,7 +60,7 @@
             "name": "IND_RNM_BEN",
             "description": "Top RNIAM",
             "type": "string",
-            "nomenclature": NaN,
+            "nomenclature": "-",
             "length": "1",
             "format": "default"
         }

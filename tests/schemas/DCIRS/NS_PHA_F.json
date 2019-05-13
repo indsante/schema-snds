@@ -244,7 +244,7 @@
             "name": "PHA_CPA_PCP ",
             "description": "Condition particulière de prise en charge",
             "type": "string",
-            "nomenclature": NaN,
+            "nomenclature": "-",
             "length": "3",
             "format": "default"
         },
@@ -252,7 +252,7 @@
             "name": "PHA_DEC_PRU ",
             "description": "Prix unitaire de l'unité délivrée",
             "type": "number",
-            "nomenclature": NaN,
+            "nomenclature": "-",
             "length": "7,2",
             "format": "default"
         },
@@ -308,7 +308,7 @@
             "name": "PHA_DEC_QSD ",
             "description": "Nombre d'unités délivrées (comprimés, etc.) si déconditionnement",
             "type": "number",
-            "nomenclature": NaN,
+            "nomenclature": "-",
             "length": "5",
             "format": "default"
         }

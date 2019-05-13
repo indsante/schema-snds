@@ -35,7 +35,7 @@ def update_all_byproducts(local) -> None:
                                 local=local)
 
     update_byproduct_repository(byproduct_repository='dico-snds',
-                                local_to_byproduct_directories=[('nomenclatures', 'app/app_data/nomenclatures')],
+                                local_to_byproduct_directories=[],
                                 local_to_byproduct_files=[
                                     ('snds_links.csv', 'app/app_data/snds_links.csv'),
                                     ('snds_nodes.csv', 'app/app_data/snds_nodes.csv'),

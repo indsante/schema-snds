@@ -1,25 +1,33 @@
 import logging
 import os
-import numpy as np
 import re
 
-from src.constants import PRODUIT_NOMENCLATURES
+from src.constants import SCHEMAS, NOMENCLATURES, NO_NOMENCLATURE
 from src.utils import get_all_schema
 from src.byproducts.main import generate_byproducts
 
+
 def list_nomenclatures_usage():
-    schemas = get_all_schema()
-    used_nomenclatures = [
-        [field.descriptor['nomenclature'] for field in schema.fields] for schema in schemas]
-    unique_nomenclatures = [
-        nom for nom in np.unique(np.concatenate(used_nomenclatures)) if nom != '-']
-    return unique_nomenclatures
+    used_nomenclatures = set()
+    for schema in get_all_schema(SCHEMAS):
+        for field in schema.fields:
+            nomenclature = field.descriptor['nomenclature']
+            if nomenclature != NO_NOMENCLATURE:
+                used_nomenclatures.add(nomenclature)
+    return used_nomenclatures
 
 
 def list_present_nomenclatures():
-    present_nomenclatures_files = os.listdir(PRODUIT_NOMENCLATURES)
+    present_nomenclatures_files = []
+    for root, dirs, files in os.walk(NOMENCLATURES):
+        present_nomenclatures_files += files
     present_nomenclatures = [re.sub('.csv$', '', nom) for nom in present_nomenclatures_files]
     return present_nomenclatures
+
+
+def test_number_nomenclatures_sup_1():
+    assert list_present_nomenclatures()
+
 
 def test_nomenclature_presence():
     generate_byproducts()
@@ -28,6 +36,7 @@ def test_nomenclature_presence():
     used_nomenclatures = list_nomenclatures_usage()
     nomenclatures_difference = list(set(used_nomenclatures) - set(present_nomenclatures))
     if len(nomenclatures_difference) != 0:
-        logging.info("Following nomenclatures are described in schema but not added in nomenclature folder; {}"
-                     .format(nomenclatures_difference ))
+        logging.error(
+            "Following nomenclatures are described in schema but not added in nomenclature folder; {}"
+            .format(nomenclatures_difference))
     assert len(nomenclatures_difference) == 0

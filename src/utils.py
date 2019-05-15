@@ -6,8 +6,8 @@ from tableschema import Schema
 from src.constants import SCHEMAS_DIR
 
 
-def get_all_schema() -> List[Schema]:
-    return [Schema(schema_path) for schema_path in get_all_schema_path()]
+def get_all_schema(schemas_dir=SCHEMAS_DIR) -> List[Schema]:
+    return [Schema(schema_path) for schema_path in get_all_schema_path(schemas_dir)]
 
 
 def get_all_schema_path(schemas_dir=SCHEMAS_DIR) -> List[str]:

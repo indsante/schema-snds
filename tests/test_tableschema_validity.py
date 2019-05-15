@@ -1,5 +1,5 @@
 """
-These tests are looking at current schemas, not tests ones. Hence we do not use
+These tests are looking at current schemas, not tests ones. Hence we do not use rooted schema dir
 """
 
 import logging

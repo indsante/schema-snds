@@ -10,7 +10,7 @@ from typing import Union, List
 
 import pandas as pd
 
-from src.constants import DICO_SNDS_DIR
+from src.constants import DICO_SNDS_DIR, NO_NOMENCLATURE
 from src.utils import get_all_schema
 
 EDGES_CSV = "snds_links.csv"
@@ -55,7 +55,7 @@ def table_schema_to_snds_variables():
             length = descriptor.get('length', '')
             length = ' ({})'.format(length) if length else ''
             nomenclature = str(descriptor.get('nomenclature', ''))
-            nomenclature = nomenclature if (nomenclature.strip() != 'nan') else '-'
+            nomenclature = nomenclature if (nomenclature.strip() != 'nan') else NO_NOMENCLATURE
             variables_list.append({
                 # dico_produit: schema.descriptor[SCHEMA_PRODUIT],
                 'table': schema.descriptor['name'],

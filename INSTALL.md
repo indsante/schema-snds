@@ -36,7 +36,10 @@ Installer `virtualenv` si besoin avec la commande :  `pip3 install virtualenv`
 
 
     virtualenv venv --python=python3
-    source venv/bin/activate
+    
+    Sur Linux : source venv/bin/activate
+    Sur Windows : venv/Scripts/activate
+    
 
 2- Installer les dépendances Python 
 

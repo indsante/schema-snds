@@ -21,13 +21,13 @@ def update_all_byproducts(local) -> None:
         raise Exception("GITLAB TOKEN is not set. This is expected, if we are not executing on GitLab-CI runners, "
                         "for protected branches. Exiting, as we cannot automatically update byproducts.")
 
-    last_commit_sha = bash("git rev-parse --verify HEAD").strip()
+    last_commit_sha = exec_terminal("git rev-parse --verify HEAD").strip()
     logging.debug("Le hash SHA du dernier commit est '{}'".format(last_commit_sha))
 
     update_byproduct_repository(byproduct_repository='documentation-snds',
                                 local_to_byproduct_directories=[('markdown', 'docs/tables')],
                                 local_to_byproduct_files=[
-                                    ('tables_sidebar.js', 'docs/.vuepress/tables_sidebar.js')
+                                    ('tables_sidebar.js', pjoin('docs', '.vuepress', 'tables_sidebar.js'))
                                 ],
                                 last_commit_sha=last_commit_sha,
                                 byproduct_project_id=11935953,
@@ -75,23 +75,30 @@ def update_byproduct_repository(byproduct_repository: str,
 
 def clone_byproduct_repository(byproduct_repository, local):
     byproduct_repository_dir = get_byproduct_repository_dir(byproduct_repository)
-    if not local:
+    if local:
+        gitlab_user_token = ''
+    else:
+        gitlab_user_token = 'oauth2:{}@'.format(GITLAB_TOKEN)
+
         logging.info("Suppression du dossier '{}'".format(byproduct_repository_dir))
         shutil.rmtree(byproduct_repository_dir, ignore_errors=True)
 
-    if not os.path.exists(byproduct_repository_dir):
-        logging.info("Clone du dépôt '{}' en local".format(byproduct_repository))
-        bash("git clone https://oauth2:{}@gitlab.com/healthdatahub/{}.git {}".format(
-            GITLAB_TOKEN, byproduct_repository, byproduct_repository_dir))
-    else:
+    if os.path.exists(byproduct_repository_dir):
         logging.info("Mise à jour du dépôt '{}' depuis le remote (git pull origin master)".format(byproduct_repository))
-        bash("cd {} ; git pull origin master".format(byproduct_repository_dir))
+        current_dir = os.getcwd()
+        os.chdir(byproduct_repository_dir)
+        exec_terminal("git pull origin master")
+        os.chdir(current_dir)
+    else:
+        logging.info("Clone du dépôt '{}' en local".format(byproduct_repository))
+        exec_terminal("git clone https://{}gitlab.com/healthdatahub/{}.git {}".format(
+            gitlab_user_token, byproduct_repository, byproduct_repository_dir.replace("\\", "/")))
 
 
 def update_local_byproduct_repository(byproduct_repository: str,
                                       local_to_byproduct_directories: LIST_TUPLE_STR_STR,
                                       local_to_byproduct_files: LIST_TUPLE_STR_STR) -> None:
-    logging.info("Copie des fichiers et dossiers générés vers la vesrsion locale du dépôt '{}'".format(
+    logging.info("Copie des fichiers et dossiers générés vers la version locale du dépôt '{}'".format(
         get_byproduct_repository_dir(byproduct_repository)))
     for source_dir, target_dir in local_to_byproduct_directories:
         copy_directory_to_byproduct_repository(source_dir, byproduct_repository, target_dir)
@@ -105,14 +112,14 @@ def update_remote_byproduct_repository(last_commit_sha: str,
                                        automatic_merge: bool):
     current_dir = os.getcwd()
     os.chdir(get_byproduct_repository_dir(byproduct_repository))
-    if not bash("git status --porcelain"):
+    if not exec_terminal("git status --porcelain"):
         logging.info("Pas de différence entre le dépôt '{}' et le schéma courant.".format(byproduct_repository))
     else:
         logging.info("Il existe des différence entre le dépôt '{}' et le schéma courant. "
                      "Création d'un commit et d'une merge request pour le synchoniser.".format(byproduct_repository))
 
-        bash("git config user.name 'schema-snds GitLab-CI robot'")
-        bash('git config user.email "ld-lab-github@sante.gouv.fr"')
+        exec_terminal("git config user.name 'schema-snds GitLab-CI robot'")
+        exec_terminal('git config user.email "ld-lab-github@sante.gouv.fr"')
         branch_name = "update-from-schema-snds-{}".format(last_commit_sha)
         commit_and_push_modifications(branch_name, last_commit_sha)
 
@@ -146,14 +153,14 @@ def copy_directory_to_byproduct_repository(source_dir: str, byproduct_repository
 
 
 def commit_and_push_modifications(branch_name: str, last_commit_sha: str):
-    bash("git checkout -b {}".format(branch_name))
-    bash("git add -A")
+    exec_terminal("git checkout -b {}".format(branch_name))
+    exec_terminal("git add -A")
 
     commit_message = "MAJ automatique depuis 'schema-snds', commit {}\n\n" \
                      "Cf '{}/{}/commit/{}'".format(last_commit_sha, HDH_GITLAB_URL, 'schema-snds', last_commit_sha)
 
-    bash("git commit -m '{}'".format(commit_message))
-    bash("git push --set-upstream origin {}".format(branch_name))
+    exec_terminal("git commit -m '{}'".format(commit_message))
+    exec_terminal("git push --set-upstream origin {}".format(branch_name))
 
 
 def create_merge_request(project_id: int, source_branch: str, repository_name: str) -> int:
@@ -187,19 +194,24 @@ def merge_when_pipeline_succeeds(project_id: int, merge_request_iid: int) -> Non
     check_response_code(r, 200)
 
 
-def bash(bash_command: str) -> str:
-    logging.debug("Execute: {}".format(bash_command.replace(GITLAB_TOKEN, 'XXXXXXXX')))
-    bash_command_list = shlex.split(bash_command)
+def exec_terminal(command: str) -> str:
+    logging.debug("Execute: {}".format(mask_gitlab_token(command)))
+    bash_command_list = shlex.split(command)
     return subprocess.check_output(bash_command_list).decode()
 
 
 def check_response_code(response: requests.Response, expected_status_code: int) -> None:
-    response_log_msg = ('{} {}\n{}'
-                        .format(response.status_code, response.reason, response.text)
-                        .replace(GITLAB_TOKEN, 'XXXXXXXX')
-                        )
+    response_log_msg = '{} {}\n{}'.format(response.status_code, response.reason, response.text)
+    response_log_msg = mask_gitlab_token(response_log_msg)
     if response.status_code != expected_status_code:
         logging.error(response_log_msg)
         raise Exception("wrong status_code")
     else:
         logging.debug(response_log_msg)
+
+
+def mask_gitlab_token(text):
+    if GITLAB_TOKEN is None:
+        return text
+    else:
+        return text.replace(GITLAB_TOKEN, 'XXXXXXXX')

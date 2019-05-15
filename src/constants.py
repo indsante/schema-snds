@@ -1,5 +1,6 @@
 from collections import defaultdict
 from os.path import join
+from os import getcwd
 
 from src.settings import RUNNING_TEST
 
@@ -15,7 +16,7 @@ PRODUCT_TO_GROUP['PMSI SSR'] = PMSI
 TESTS_DIR = 'tests'
 
 # Root directory is used to read schemas and generate them in TESTS_DIR while running tests
-ROOT_DIR = '.'
+ROOT_DIR = getcwd()
 if RUNNING_TEST:
     ROOT_DIR = TESTS_DIR
 

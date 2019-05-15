@@ -13,7 +13,7 @@ Ce schéma permet de générer des documentations dans plusieurs formats, actuel
 
 Il est envisagé d'utiliser ce schéma pour générer d'autres supports de documentations, et pour configurer des codes qui manipulent les données.
 
-Un diagramme relationnel du SNDS au format pdf est par exemple généré, en créant des tables vide dans une base PostgreSQL puis en analysant son contenu avec [SchemaCrawler](http://schemacrawler.com/).
+Un diagramme relationnel du SNDS au format pdf est par exemple généré, en créant des tables vides dans une base PostgreSQL puis en analysant son contenu avec [SchemaCrawler](http://schemacrawler.com/).
 
 Nous projetons également d'ajouter des valeurs exemples pour chaque variable, 
 afin de générer des jeux de données synthétiques respectant la structure formelle du SNDS.
@@ -23,7 +23,7 @@ afin de générer des jeux de données synthétiques respectant la structure for
 
 Le schéma est formalisé en suivant la spécification Table Schema, présentée dans ce [document](documentation/Table-Schema.md).
 
-Vos propositions de corrections et d'amélioration sont bienvenues.
+Vos propositions de corrections et d'améliorations sont bienvenues.
 
 Pour cela vous pouvez :
 - éditer directement les fichiers json dans le dossier [schemas](schemas) et ouvrir une `merge-request`,

@@ -27,7 +27,7 @@ def update_all_byproducts(local) -> None:
     update_byproduct_repository(byproduct_repository='documentation-snds',
                                 local_to_byproduct_directories=[('markdown', 'docs/tables')],
                                 local_to_byproduct_files=[
-                                    ('tables_sidebar.js', 'docs/.vuepress/tables_sidebar.js')
+                                    ('tables_sidebar.js', pjoin('docs', '.vuepress', 'tables_sidebar.js'))
                                 ],
                                 last_commit_sha=last_commit_sha,
                                 byproduct_project_id=11935953,
@@ -81,17 +81,20 @@ def clone_byproduct_repository(byproduct_repository, local):
 
     if not os.path.exists(byproduct_repository_dir):
         logging.info("Clone du dépôt '{}' en local".format(byproduct_repository))
-        bash("git clone https://oauth2:{}@gitlab.com/healthdatahub/{}.git {}".format(
-            GITLAB_TOKEN, byproduct_repository, byproduct_repository_dir))
+        #var = "oauth2:{}@".format(GITLAB_TOKEN)
+        var = ""
+        bash("git clone https://{}gitlab.com/healthdatahub/{}.git {}".format(
+            var, byproduct_repository, byproduct_repository_dir.replace("\\", "/")))
     else:
         logging.info("Mise à jour du dépôt '{}' depuis le remote (git pull origin master)".format(byproduct_repository))
-        bash("cd {} ; git pull origin master".format(byproduct_repository_dir))
+        os.chdir(byproduct_repository_dir)
+        bash("git pull origin master")
 
 
 def update_local_byproduct_repository(byproduct_repository: str,
                                       local_to_byproduct_directories: LIST_TUPLE_STR_STR,
                                       local_to_byproduct_files: LIST_TUPLE_STR_STR) -> None:
-    logging.info("Copie des fichiers et dossiers générés vers la vesrsion locale du dépôt '{}'".format(
+    logging.info("Copie des fichiers et dossiers générés vers la version locale du dépôt '{}'".format(
         get_byproduct_repository_dir(byproduct_repository)))
     for source_dir, target_dir in local_to_byproduct_directories:
         copy_directory_to_byproduct_repository(source_dir, byproduct_repository, target_dir)
@@ -188,18 +191,23 @@ def merge_when_pipeline_succeeds(project_id: int, merge_request_iid: int) -> Non
 
 
 def bash(bash_command: str) -> str:
-    logging.debug("Execute: {}".format(bash_command.replace(GITLAB_TOKEN, 'XXXXXXXX')))
+    logging.debug("Execute: {}".format(mask_gitlab_token(bash_command)))
     bash_command_list = shlex.split(bash_command)
     return subprocess.check_output(bash_command_list).decode()
 
 
 def check_response_code(response: requests.Response, expected_status_code: int) -> None:
-    response_log_msg = ('{} {}\n{}'
-                        .format(response.status_code, response.reason, response.text)
-                        .replace(GITLAB_TOKEN, 'XXXXXXXX')
-                        )
+    response_log_msg = '{} {}\n{}'.format(response.status_code, response.reason, response.text)
+    response_log_msg = mask_gitlab_token(response_log_msg)
     if response.status_code != expected_status_code:
         logging.error(response_log_msg)
         raise Exception("wrong status_code")
     else:
         logging.debug(response_log_msg)
+
+
+def mask_gitlab_token(text):
+    if GITLAB_TOKEN is None:
+        return text
+    else:
+        return text.replace(GITLAB_TOKEN, 'XXXXXXXX')

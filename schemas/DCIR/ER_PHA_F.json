@@ -28,7 +28,7 @@
             "name": "PHA_CPA_PCP ",
             "description": "Condition particulière de prise en charge ",
             "type": "string",
-            "nomenclature": NaN,
+            "nomenclature": "-",
             "length": "3",
             "format": "default"
         },
@@ -36,7 +36,7 @@
             "name": "PHA_DEC_PRU ",
             "description": "Prix unitaire de l'unité déconditionnée délivrée ",
             "type": "number",
-            "nomenclature": NaN,
+            "nomenclature": "-",
             "length": "7,2",
             "format": "default"
         },
@@ -44,7 +44,7 @@
             "name": "PHA_DEC_QSU ",
             "description": "Quantité complète de déconditionnement signée ",
             "type": "number",
-            "nomenclature": NaN,
+            "nomenclature": "-",
             "length": "3",
             "format": "default"
         },
@@ -52,7 +52,7 @@
             "name": "PHA_DEC_TOP ",
             "description": "Top déconditionnement ",
             "type": "string",
-            "nomenclature": NaN,
+            "nomenclature": "-",
             "length": "1",
             "format": "default"
         },
@@ -68,7 +68,7 @@
             "name": "PHA_MOD_PRN ",
             "description": "Mode de prescription",
             "type": "string",
-            "nomenclature": NaN,
+            "nomenclature": "-",
             "length": "1",
             "format": "default"
         },
@@ -140,7 +140,7 @@
             "name": "FLX_EMT_ORD",
             "description": "N° séquence du flux                                               4",
             "type": "number",
-            "nomenclature": "IR_FLX_R",
+            "nomenclature": "-",
             "length": "8",
             "format": "default"
         },
@@ -148,7 +148,7 @@
             "name": "FLX_EMT_TYP",
             "description": "Type d'émetteur                                                      5",
             "type": "number",
-            "nomenclature": "IR_FLP_R",
+            "nomenclature": "-",
             "length": "8",
             "format": "default"
         },

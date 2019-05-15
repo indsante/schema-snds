@@ -36,7 +36,7 @@
             "name": "BEN_GRS_DTE",
             "description": "Date présumée de grossesse",
             "type": "date",
-            "nomenclature": NaN,
+            "nomenclature": "-",
             "length": null,
             "format": "default"
         },
@@ -44,7 +44,7 @@
             "name": "BEN_DRA_AME",
             "description": "Année et mois de l’accouchement",
             "type": "string",
-            "nomenclature": NaN,
+            "nomenclature": "-",
             "length": "6",
             "format": "default"
         },
@@ -52,7 +52,7 @@
             "name": "IND_RNM_BEN",
             "description": "Top RNIAM",
             "type": "string",
-            "nomenclature": NaN,
+            "nomenclature": "-",
             "length": "1",
             "format": "default"
         }

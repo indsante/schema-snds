@@ -76,7 +76,7 @@
             "name": "FLX_EMT_ORD",
             "description": "N° séquence du flux                                               4",
             "type": "number",
-            "nomenclature": "IR_FLX_R",
+            "nomenclature": "-",
             "length": "8",
             "format": "default"
         },
@@ -84,7 +84,7 @@
             "name": "FLX_EMT_TYP",
             "description": "Type d'émetteur                                                      5",
             "type": "number",
-            "nomenclature": "IR_FLP_R",
+            "nomenclature": "-",
             "length": "8",
             "format": "default"
         },

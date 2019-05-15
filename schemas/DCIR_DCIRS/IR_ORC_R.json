@@ -52,7 +52,7 @@
             "name": "MLL_CTA_DSD",
             "description": "Date de début du contrat complémentaire",
             "type": "date",
-            "nomenclature": NaN,
+            "nomenclature": "-",
             "length": null,
             "format": "default"
         },
@@ -60,7 +60,7 @@
             "name": "MLL_CTA_DSF",
             "description": "Date de fin du contrat complémentaire",
             "type": "date",
-            "nomenclature": NaN,
+            "nomenclature": "-",
             "length": null,
             "format": "default"
         },
@@ -68,7 +68,7 @@
             "name": "IND_RNM_BEN",
             "description": "Top RNIAM",
             "type": "string",
-            "nomenclature": NaN,
+            "nomenclature": "-",
             "length": "1",
             "format": "default"
         }

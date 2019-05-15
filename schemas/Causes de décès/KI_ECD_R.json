@@ -92,7 +92,7 @@
             "name": "BEN_DCD_AME",
             "description": "Année et mois du décès",
             "type": "string",
-            "nomenclature": "AAAAMM",
+            "nomenclature": "-",
             "length": "6",
             "format": "default"
         }

@@ -214,10 +214,16 @@
     ],
     "foreignKeys": [
         {
-            "fields": "ETA_NUM",
+            "fields": [
+                "ETA_NUM",
+                "SEQ_NUM"
+            ],
             "reference": {
-                "resource": "T_MCOaa_nnE",
-                "fields": "ETA_NUM"
+                "resource": "T_MCOaa_nnFASTC",
+                "fields": [
+                    "ETA_NUM",
+                    "SEQ_NUM"
+                ]
             }
         }
     ]

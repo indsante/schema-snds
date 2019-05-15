@@ -36,7 +36,7 @@
             "name": "IND_RNM_BEN",
             "description": "Top RNIAM",
             "type": "string",
-            "nomenclature": NaN,
+            "nomenclature": "-",
             "length": "1",
             "format": "default"
         },
@@ -44,7 +44,7 @@
             "name": "MTT_DEP_DTE",
             "description": "date de début du contrat avec le médecin traitant",
             "type": "date",
-            "nomenclature": NaN,
+            "nomenclature": "-",
             "length": null,
             "format": "default"
         },
@@ -52,7 +52,7 @@
             "name": "MTT_FIN_DTE",
             "description": "date de fin du contrat avec le médecin traitant",
             "type": "date",
-            "nomenclature": NaN,
+            "nomenclature": "-",
             "length": null,
             "format": "default"
         },
@@ -60,7 +60,7 @@
             "name": "MTT_MTF_COD",
             "description": "Motif de résiliation du contrat avce le médecin traitant",
             "type": "string",
-            "nomenclature": NaN,
+            "nomenclature": "-",
             "length": "3",
             "format": "default"
         },
@@ -68,7 +68,7 @@
             "name": "MTT_ORI_COD",
             "description": "Origine de la saisie ou de la mise à jour de la déclaration de médecin traitant",
             "type": "string",
-            "nomenclature": NaN,
+            "nomenclature": "-",
             "length": "1",
             "format": "default"
         },
@@ -76,7 +76,7 @@
             "name": "MTT_PFS_NUM",
             "description": "Numéro du médecin traitant",
             "type": "string",
-            "nomenclature": NaN,
+            "nomenclature": "-",
             "length": "17",
             "format": "default"
         }

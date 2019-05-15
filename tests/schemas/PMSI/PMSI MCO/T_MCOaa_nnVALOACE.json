@@ -359,7 +359,7 @@
                 "SEQ_NUM"
             ],
             "reference": {
-                "resource": "T_MCOaa_nnFBSTC",
+                "resource": "T_MCOaa_nnFASTC",
                 "fields": [
                     "ETA_NUM",
                     "SEQ_NUM"

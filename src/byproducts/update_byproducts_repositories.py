@@ -35,12 +35,14 @@ def update_all_byproducts(local) -> None:
                                 local=local)
 
     update_byproduct_repository(byproduct_repository='dico-snds',
-                                local_to_byproduct_directories=[('nomenclatures', 'app/app_data/nomenclatures')],
+                                local_to_byproduct_directories=[
+                                    ('nomenclatures', pjoin('app', 'app_data', 'nomenclatures'))
+                                ],
                                 local_to_byproduct_files=[
-                                    ('snds_links.csv', 'app/app_data/snds_links.csv'),
-                                    ('snds_nodes.csv', 'app/app_data/snds_nodes.csv'),
-                                    ('snds_tables.csv', 'app/app_data/snds_tables.csv'),
-                                    ('snds_vars.csv', 'app/app_data/snds_vars.csv')
+                                    ('snds_links.csv', pjoin('app', 'app_data', 'snds_links.csv')),
+                                    ('snds_nodes.csv', pjoin('app', 'app_data', 'snds_nodes.csv')),
+                                    ('snds_tables.csv', pjoin('app', 'app_data', 'snds_tables.csv')),
+                                    ('snds_vars.csv', pjoin('app', 'app_data', 'snds_vars.csv'))
                                 ],
                                 last_commit_sha=last_commit_sha,
                                 byproduct_project_id=11925754,

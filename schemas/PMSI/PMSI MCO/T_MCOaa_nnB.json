@@ -124,7 +124,7 @@
             "name": "ENT_MOD",
             "description": "Mode d'entrée dans le champ du PMSI-MCO ",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "MS_SOR_V",
             "length": null,
             "format": "default"
         },
@@ -132,7 +132,7 @@
             "name": "ENT_PRV",
             "description": "Provenance ",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_DESTINATION_V",
             "length": null,
             "format": "default"
         },
@@ -436,7 +436,7 @@
             "name": "SOR_DES",
             "description": "Destination ",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_DESTINATION_V",
             "length": null,
             "format": "default"
         },
@@ -444,7 +444,7 @@
             "name": "SOR_MOD",
             "description": "Mode de sortie du champ PMSI-MCO ",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "MS_SOR_V",
             "length": null,
             "format": "default"
         },

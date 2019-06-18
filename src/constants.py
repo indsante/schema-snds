@@ -1,6 +1,6 @@
 from collections import defaultdict
-from os.path import join
 from os import getcwd
+from os.path import join
 
 from src.settings import RUNNING_TEST
 
@@ -34,7 +34,7 @@ TABLES_SIDEBAR_JS_PATH = join(ROOTED_BYPRODUCTS_DIR, 'documentation-snds/tables_
 
 NOMENCLATURES = 'nomenclatures'
 ROOTED_NOMENCLATURES_DIR = join(ROOT_DIR, NOMENCLATURES)
-PRODUIT_NOMENCLATURES = join(DICO_SNDS_DIR ,NOMENCLATURES)
+PRODUIT_NOMENCLATURES = join(DICO_SNDS_DIR, NOMENCLATURES)
 
 PATH2ORAVAL = join(ROOTED_NOMENCLATURES_DIR, "ORAVAL")
 PATH2ORAREF = join(ROOTED_NOMENCLATURES_DIR, "ORAREF")

@@ -25,7 +25,7 @@ def update_all_byproducts(local) -> None:
     logging.debug("Le hash SHA du dernier commit est '{}'".format(last_commit_sha))
 
     update_byproduct_repository(byproduct_repository='documentation-snds',
-                                local_to_byproduct_directories=[('markdown', 'docs/tables')],
+                                local_to_byproduct_directories=[('markdown', 'tables')],
                                 local_to_byproduct_files=[
                                     ('tables_sidebar.js', pjoin('docs', '.vuepress', 'tables_sidebar.js'))
                                 ],

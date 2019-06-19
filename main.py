@@ -22,5 +22,5 @@ if __name__ == '__main__':
 
     generate_byproducts(args.generate_erd)
 
-    if args.update:
+    if args.update or args.local:
         update_all_byproducts(args.local)

@@ -27,7 +27,7 @@ def update_all_byproducts(local) -> None:
     update_byproduct_repository(byproduct_repository='documentation-snds',
                                 local_to_byproduct_directories=[('markdown', 'tables')],
                                 local_to_byproduct_files=[
-                                    ('tables_sidebar.js', pjoin('docs', '.vuepress', 'tables_sidebar.js'))
+                                    ('tables_sidebar.js', pjoin('.vuepress', 'tables_sidebar.js'))
                                 ],
                                 last_commit_sha=last_commit_sha,
                                 byproduct_project_id=11935953,

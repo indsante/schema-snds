@@ -6,7 +6,10 @@
             "type": "string",
             "nomenclature": "IR_PCT_V",
             "length": "6",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "CPT_EXC_RTC",
@@ -14,7 +17,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "4",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "CPT_MIR_NUM",
@@ -22,7 +28,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "20",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "CPT_MVT_MNT",
@@ -30,7 +39,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "9",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "CPT_MVT_SGN",
@@ -38,7 +50,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "CPT_MVT_SNS",
@@ -46,7 +61,10 @@
             "type": "string",
             "nomenclature": "IR_SNS_V",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "CPT_ORD_NUM",
@@ -54,7 +72,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "CPT_TRM_RGM",
@@ -62,7 +83,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "20",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "CPT_VEN_TYP",
@@ -70,7 +94,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "GES_CPT_COD",
@@ -78,7 +105,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "5",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "GES_GRG_COD",
@@ -86,7 +116,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "ORG_CLE_NEW",
@@ -94,7 +127,10 @@
             "type": "string",
             "nomenclature": "IR_ORG_V",
             "length": "9",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "DCT_ORD_NUM",
@@ -102,7 +138,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "FLX_DIS_DTD",
@@ -110,7 +149,10 @@
             "type": "date",
             "nomenclature": "IR_DTE_V",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "FLX_EMT_NUM",
@@ -118,7 +160,10 @@
             "type": "number",
             "nomenclature": "IR_NEM_V",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "FLX_EMT_ORD",
@@ -126,7 +171,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "FLX_EMT_TYP",
@@ -134,7 +182,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "FLX_TRT_DTD",
@@ -142,7 +193,10 @@
             "type": "date",
             "nomenclature": "IR_DTE_V",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "ORG_CLE_NUM",
@@ -150,7 +204,10 @@
             "type": "string",
             "nomenclature": "IR_ORG_V",
             "length": "9",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "PRS_ORD_NUM",
@@ -158,7 +215,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "REM_TYP_AFF",
@@ -166,7 +226,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         }
     ],
     "name": "ER_CPT_F",
@@ -204,5 +267,10 @@
                 ]
             }
         }
-    ]
+    ],
+    "history": {
+        "dateCreated": "",
+        "dateDeleted": "",
+        "dateMissing": []
+    }
 }

@@ -6,7 +6,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "64",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "DCD_IDT_TOP",
@@ -14,7 +17,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "BEN_IDT_ANO",
@@ -22,7 +28,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "18",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "BEN_IDT_TOP",
@@ -30,7 +39,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "BEN_NIR_ANO",
@@ -38,7 +50,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "17",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "FLX_PER_ANN",
@@ -46,7 +61,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "4",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "CER_VER_NUM",
@@ -54,7 +72,10 @@
             "type": "any",
             "nomenclature": "DS_VER_V",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "TRT_STA_COD",
@@ -62,7 +83,10 @@
             "type": "any",
             "nomenclature": "DS_STA_V",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "TYP_CER_COD",
@@ -70,7 +94,10 @@
             "type": "any",
             "nomenclature": "DS_CER_V",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "CER_SUP_TYP",
@@ -78,7 +105,10 @@
             "type": "any",
             "nomenclature": "DS_VER_V",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "TYP_VOL_COD",
@@ -86,7 +116,10 @@
             "type": "number",
             "nomenclature": "DS_SUP_V",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "DCD_DPT_COD",
@@ -94,7 +127,10 @@
             "type": "string",
             "nomenclature": "IR_DPT_V",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "DCD_COM_CO",
@@ -102,7 +138,10 @@
             "type": "any",
             "nomenclature": "IR_GEO_V",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "BEN_RES_DPT",
@@ -110,7 +149,10 @@
             "type": "string",
             "nomenclature": "IR_DPT_V",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "BEN_RES_COM",
@@ -118,7 +160,10 @@
             "type": "string",
             "nomenclature": "IR_GEO_V",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "BEN_DCD_DTE",
@@ -126,7 +171,10 @@
             "type": "date",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "BEN_DCD_AME",
@@ -134,7 +182,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "6",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "DCD_LIE_COD",
@@ -142,7 +193,10 @@
             "type": "number",
             "nomenclature": "DS_LIE_V",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "BEN_NAI_ANN",
@@ -150,7 +204,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "4",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "BEN_NAI_MOI",
@@ -158,7 +215,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "BEN_SEX_COD",
@@ -166,7 +226,10 @@
             "type": "number",
             "nomenclature": "IR_SEX_V",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "PFV_ACP_COD",
@@ -174,7 +237,10 @@
             "type": "number",
             "nomenclature": "DS_ACP_V",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "CAT_PCS_COD",
@@ -182,7 +248,10 @@
             "type": "string",
             "nomenclature": "DS_PC_V",
             "length": "4",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "ETA_MAR_COD",
@@ -190,7 +259,10 @@
             "type": "number",
             "nomenclature": "DS_MAR_V",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "DCD_CIM_COD",
@@ -198,7 +270,10 @@
             "type": "string",
             "nomenclature": "IR_CIM_V",
             "length": "4",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "DCD_CAU_COD",
@@ -206,7 +281,10 @@
             "type": "number",
             "nomenclature": "DS_CAU_V",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "DCD_GRS_COD",
@@ -214,7 +292,10 @@
             "type": "number",
             "nomenclature": "DS_GRS_V",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "DCD_GRS_DEL",
@@ -222,7 +303,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "4",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "DCD_LIE_LIB",
@@ -230,7 +314,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "200",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "DCD_ATT_COD",
@@ -238,7 +325,10 @@
             "type": "number",
             "nomenclature": "DS_ATT_V",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "NEO_APG_SCO",
@@ -246,7 +336,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "NEO_GES_AGE",
@@ -254,7 +347,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "NEO_NAI_POI",
@@ -262,7 +358,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "4,0",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "RNG_NAI_TYP",
@@ -270,7 +369,10 @@
             "type": "number",
             "nomenclature": "DS_NAI_V",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "GRS_ORD_NU",
@@ -278,7 +380,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "ACC_LIA_COD",
@@ -286,7 +391,10 @@
             "type": "number",
             "nomenclature": "DS_LIA_V",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "ACC_PST_COD",
@@ -294,7 +402,10 @@
             "type": "number",
             "nomenclature": "DS_PST_V",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "ACC_DEB_COD",
@@ -302,7 +413,10 @@
             "type": "number",
             "nomenclature": "DS_DEB_V",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "MOD_ACC_COD",
@@ -310,7 +424,10 @@
             "type": "number",
             "nomenclature": "DS_ACC_V",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "HOS_TRF_TOP",
@@ -318,7 +435,10 @@
             "type": "number",
             "nomenclature": "DS_TRF_V",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "MER_NAI_ANN",
@@ -326,7 +446,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "4",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "MER_PFS_COD",
@@ -334,7 +457,10 @@
             "type": "number",
             "nomenclature": "DS_PFS_V",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "MER_PFG_LIB",
@@ -342,7 +468,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "50",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "MER_MAR_CO",
@@ -350,7 +479,10 @@
             "type": "number",
             "nomenclature": "DS_MAR_V",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MER_SIT_TOP",
@@ -358,7 +490,10 @@
             "type": "number",
             "nomenclature": "DS_SIT_V",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "TOT_GRS_NBR",
@@ -366,7 +501,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "TOT_ACC_NBR",
@@ -374,7 +512,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "PER_PFS_COD",
@@ -382,7 +523,10 @@
             "type": "number",
             "nomenclature": "DS_PFS_V",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "PER_PFG_LIB",
@@ -390,7 +534,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "50",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         }
     ],
     "name": "KI_CCI_R",
@@ -423,5 +570,10 @@
                 ]
             }
         }
-    ]
+    ],
+    "history": {
+        "dateCreated": "2013",
+        "dateDeleted": "2015",
+        "dateMissing": []
+    }
 }

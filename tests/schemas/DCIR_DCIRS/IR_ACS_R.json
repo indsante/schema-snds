@@ -6,7 +6,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "17",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "BEN_RNG_GEM",
@@ -14,7 +17,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "BEN_NIR_ANO",
@@ -22,7 +28,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "17",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "BEN_IDT_ANO",
@@ -30,7 +39,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "18",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "FAM_DRT_VRU",
@@ -38,7 +50,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "FAM_DRT_DSD",
@@ -46,7 +61,10 @@
             "type": "date",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "FAM_DRT_DSF",
@@ -54,7 +72,10 @@
             "type": "date",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         }
     ],
     "name": "IR_ACS_R",
@@ -89,5 +110,10 @@
                 ]
             }
         }
-    ]
+    ],
+    "history": {
+        "dateCreated": "",
+        "dateDeleted": "",
+        "dateMissing": []
+    }
 }

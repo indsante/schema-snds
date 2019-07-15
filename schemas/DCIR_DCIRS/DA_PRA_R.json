@@ -6,7 +6,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "DTE_ANN_TRT",
@@ -14,7 +17,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "4",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "PFS_PFS_NUM",
@@ -22,7 +28,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "TRT_SNI_COD",
@@ -30,7 +39,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "IPP_IDV_NUM",
@@ -38,7 +50,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "13",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "IPP_SEX_COD",
@@ -46,7 +61,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "IPP_ANN_NAI",
@@ -54,7 +72,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "4",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "CAI_NUM",
@@ -62,7 +83,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "ACT_CAB_COD",
@@ -70,7 +94,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "T733_CTR_NUM",
@@ -78,7 +105,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "PFS_PRA_SPE",
@@ -86,7 +116,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "CES_CES_COD",
@@ -94,7 +127,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "PRA_MEP_COD",
@@ -102,7 +138,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "CNV_CNV_COD",
@@ -110,7 +149,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "PRA_IDP_DDP",
@@ -118,7 +160,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "PRA_IDP_SAL",
@@ -126,7 +171,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "EXC_EXC_NAT",
@@ -134,7 +182,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "STA_PFS_NUM",
@@ -142,7 +193,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "STA_CAI_NUM",
@@ -150,7 +204,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "STA_CTR_NUM",
@@ -158,7 +215,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "T733_STA_URC",
@@ -166,7 +226,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "FIS_PFS_NUM",
@@ -174,7 +237,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "FIS_CAI_NUM",
@@ -182,7 +248,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "FIS_URC_COD",
@@ -190,7 +259,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "PFS_ACP_DSD",
@@ -198,7 +270,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "EXC_EFF_DSD",
@@ -206,7 +281,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "EXC_FIN_MTF",
@@ -214,7 +292,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "PFS_INS_DSD",
@@ -222,7 +303,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "PRA_SAL_SPE1",
@@ -230,7 +314,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "PRA_SAL_SPE2",
@@ -238,7 +325,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "PRA_SAL_SPE3",
@@ -246,7 +336,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "PRA_SAL_SPE4",
@@ -254,7 +347,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "PRA_SAL_SPE5",
@@ -262,7 +358,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "PRA_SAL_SPE6",
@@ -270,7 +369,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "PRA_DIP_NBR",
@@ -278,7 +380,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "PRA_SAL_NBR",
@@ -286,7 +391,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "PFS_SPE_ANT",
@@ -294,7 +402,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "PFS_AMB_NBR",
@@ -302,7 +413,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "PFS_VSL_NBR",
@@ -310,7 +424,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "PFS_TXI_NBR",
@@ -318,7 +435,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "PRA_TOP_REF",
@@ -326,7 +446,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "CAB_REF_DSD",
@@ -334,7 +457,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "CAB_REF_DSF",
@@ -342,7 +468,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "LAB_CAT_COD",
@@ -350,7 +479,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "PRA_CIV_COD",
@@ -358,7 +490,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "PFS_EXC_COM",
@@ -366,7 +501,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "PFS_COD_POS",
@@ -374,7 +512,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "5",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "PFS_LIB_COM",
@@ -382,7 +523,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "30",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "PFS_FIN_NUM",
@@ -390,7 +534,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "PFS_MAJ_DAT",
@@ -398,7 +545,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "PFS_SCN_COD",
@@ -406,7 +556,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "5",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         }
     ],
     "name": "DA_PRA_R",
@@ -416,5 +569,10 @@
     "missingValues": [
         ""
     ],
-    "primaryKey": "PFS_PFS_NUM"
+    "primaryKey": "PFS_PFS_NUM",
+    "history": {
+        "dateCreated": "",
+        "dateDeleted": "",
+        "dateMissing": []
+    }
 }

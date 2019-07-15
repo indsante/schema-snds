@@ -10,7 +10,10 @@
             "constraints": {
                 "unique": true,
                 "description": "Unicité fausse sans le rang gémellaire. Contrainte nécessaire pour les clés étrangère du PMSI, qui n'a pas le rang gémellaire"
-            }
+            },
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "BEN_RNG_GEM",
@@ -18,7 +21,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "BEN_NIR_ANO",
@@ -26,7 +32,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "18",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "BEN_IDT_ANO",
@@ -37,7 +46,10 @@
             "format": "default",
             "constraints": {
                 "unique": true
-            }
+            },
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "BEN_IDT_TOP",
@@ -45,7 +57,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "ASS_NIR_ANO",
@@ -53,7 +68,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "17",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "BEN_IDT_MAJ",
@@ -61,7 +79,10 @@
             "type": "date",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "BEN_CDI_NIR",
@@ -69,7 +90,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "BEN_NAI_ANN",
@@ -77,7 +101,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "4",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "BEN_NAI_MOI",
@@ -85,7 +112,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "BEN_SEX_COD",
@@ -93,7 +123,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "BEN_DCD_DTE",
@@ -101,7 +134,10 @@
             "type": "date",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "BEN_DCD_AME",
@@ -109,7 +145,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "6",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "ORG_AFF_BEN",
@@ -117,7 +156,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "9",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "BEN_RES_DPT",
@@ -125,7 +167,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "BEN_RES_COM",
@@ -133,7 +178,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "BEN_TOP_CNS",
@@ -141,7 +189,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MAX_TRT_DTD",
@@ -149,7 +200,10 @@
             "type": "date",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "ORG_CLE_NEW",
@@ -157,7 +211,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "9",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "BEN_DTE_INS",
@@ -165,7 +222,10 @@
             "type": "date",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "BEN_DTE_MAJ",
@@ -173,7 +233,10 @@
             "type": "date",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         }
     ],
     "name": "IR_BEN_R",
@@ -186,5 +249,10 @@
     "primaryKey": [
         "BEN_NIR_PSA",
         "BEN_RNG_GEM"
-    ]
+    ],
+    "history": {
+        "dateCreated": "",
+        "dateDeleted": "",
+        "dateMissing": []
+    }
 }

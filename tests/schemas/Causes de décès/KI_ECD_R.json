@@ -6,7 +6,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "64",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "DCD_IDT_TOP",
@@ -14,7 +17,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "BEN_IDT_ANO",
@@ -22,7 +28,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "18",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "BEN_IDT_TOP",
@@ -30,7 +39,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "BEN_NIR_ANO",
@@ -38,7 +50,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "17",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "FLX_PER_ANN",
@@ -46,7 +61,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "4",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "CER_LIG_NUM",
@@ -54,7 +72,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "ECD_CAU_RNG",
@@ -62,7 +83,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "ECD_CAU_LIB",
@@ -70,7 +94,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "100",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "ECD_CIM_COD",
@@ -78,7 +105,10 @@
             "type": "string",
             "nomenclature": "IR_CIM_V",
             "length": "4",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "BEN_DCD_DTE",
@@ -86,7 +116,10 @@
             "type": "date",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         },
         {
             "name": "BEN_DCD_AME",
@@ -94,7 +127,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "6",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2015",
+            "dateMissing": []
         }
     ],
     "name": "KI_ECD_R",
@@ -127,5 +163,10 @@
                 ]
             }
         }
-    ]
+    ],
+    "history": {
+        "dateCreated": "2013",
+        "dateDeleted": "2015",
+        "dateMissing": []
+    }
 }

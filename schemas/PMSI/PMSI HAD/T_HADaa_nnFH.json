@@ -6,7 +6,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "COD_UCD",
@@ -14,7 +17,10 @@
             "type": "string",
             "nomenclature": "NU_UCD_R",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "COE_TAU",
@@ -22,7 +28,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "DEL_DAT_ENT",
@@ -30,7 +39,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "ENT_ANN",
@@ -38,7 +50,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "ENT_MOI",
@@ -46,7 +61,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "ETA_NUM_EPMSI",
@@ -54,7 +72,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "ETA_NUM_GEO",
@@ -62,7 +83,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2017",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "FAC_NUM",
@@ -70,7 +94,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "FAC_TOT",
@@ -78,7 +105,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "MNT_UNI_ECA",
@@ -86,7 +116,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "QUA_COD",
@@ -94,7 +127,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "RHAD_NUM",
@@ -102,7 +138,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "TOT_MNT_ECA",
@@ -110,7 +149,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "TYP_ART",
@@ -118,7 +160,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "UCD_UCD_COD",
@@ -126,7 +171,10 @@
             "type": "string",
             "nomenclature": "NU_UCD_R",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "COD_LES",
@@ -134,7 +182,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         }
     ],
     "name": "T_HADaa_nnFH",
@@ -158,5 +209,10 @@
                 ]
             }
         }
-    ]
+    ],
+    "history": {
+        "dateCreated": "2010",
+        "dateDeleted": "2017",
+        "dateMissing": []
+    }
 }

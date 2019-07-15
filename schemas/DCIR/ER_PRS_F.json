@@ -6,7 +6,10 @@
             "type": "number",
             "nomenclature": "IR_AMA_V",
             "length": "4",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "BEN_CDI_NIR",
@@ -14,7 +17,10 @@
             "type": "string",
             "nomenclature": "IR_NIR_V",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "BEN_CMU_CAT",
@@ -22,7 +28,10 @@
             "type": "string",
             "nomenclature": "IR_COC_V",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "BEN_CMU_ORG",
@@ -30,7 +39,10 @@
             "type": "string",
             "nomenclature": "IR_ORG_V",
             "length": "9",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "BEN_CMU_TOP",
@@ -38,7 +50,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "BEN_DCD_AME",
@@ -46,7 +61,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "6",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "BEN_DCD_DTE",
@@ -54,7 +72,10 @@
             "type": "date",
             "nomenclature": "IR_DTE_V",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "BEN_EHP_TOP",
@@ -62,7 +83,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "BEN_IAT_CAT",
@@ -70,7 +94,10 @@
             "type": "string",
             "nomenclature": "IR_CBI_V",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "BEN_NAI_ANN",
@@ -78,7 +105,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "4",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "BEN_PAI_CMU",
@@ -86,7 +116,10 @@
             "type": "string",
             "nomenclature": "IR_TCM_V",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "BEN_NIR_PSA",
@@ -94,7 +127,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "17",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "BEN_RNG_GEM",
@@ -102,7 +138,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "BEN_QAF_COD",
@@ -110,7 +149,10 @@
             "type": "number",
             "nomenclature": "IR_QBA_V",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "BEN_RES_COM",
@@ -118,7 +160,10 @@
             "type": "string",
             "nomenclature": "IR_GEO_V",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "BEN_RES_DPT",
@@ -126,7 +171,10 @@
             "type": "string",
             "nomenclature": "IR_DPT_V",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "BEN_SEX_COD",
@@ -134,7 +182,10 @@
             "type": "number",
             "nomenclature": "IR_SEX_V",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "ORG_AFF_BEN",
@@ -142,7 +193,10 @@
             "type": "string",
             "nomenclature": "IR_ORG_V",
             "length": "9",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "PRS_REJ_TOP",
@@ -150,7 +204,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "EXE_SOI_AMD",
@@ -158,7 +215,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "6",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "EXE_SOI_AMF",
@@ -166,7 +226,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "6",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "EXE_SOI_DTD",
@@ -174,7 +237,10 @@
             "type": "date",
             "nomenclature": "IR_DTE_V",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "EXE_SOI_DTF",
@@ -182,7 +248,10 @@
             "type": "date",
             "nomenclature": "IR_DTE_V",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "PRE_PRE_AMD",
@@ -190,7 +259,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "6",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "PRE_PRE_DTD",
@@ -198,7 +270,10 @@
             "type": "date",
             "nomenclature": "IR_DTE_V",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "PRS_GRS_DTD",
@@ -206,7 +281,10 @@
             "type": "date",
             "nomenclature": "IR_DTE_V",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "PRS_HOS_AMD",
@@ -214,7 +292,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "6",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "PRS_HOS_DTD",
@@ -222,7 +303,10 @@
             "type": "date",
             "nomenclature": "IR_DTE_V",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "BSE_REM_BSE",
@@ -230,7 +314,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "9",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "BSE_REM_MNT",
@@ -238,7 +325,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "9",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "BSE_REM_PRU",
@@ -246,7 +336,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "12",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "BSE_REM_SGN",
@@ -254,7 +347,10 @@
             "type": "number",
             "nomenclature": "IR_SGN_V",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "CPL_REM_BSE",
@@ -262,7 +358,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "9",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "CPL_REM_MNT",
@@ -270,7 +369,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "9",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "CPL_REM_PRU",
@@ -278,7 +380,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "12",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "CPL_REM_SGN",
@@ -286,7 +391,10 @@
             "type": "number",
             "nomenclature": "IR_SGN_V",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "PRS_ACT_CFT",
@@ -294,7 +402,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "7",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "PRS_ACT_COG",
@@ -302,7 +413,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "9",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "PRS_ACT_NBR",
@@ -310,7 +424,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "PRS_ACT_QTE",
@@ -318,7 +435,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "PRS_DEP_MNT",
@@ -326,7 +446,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "9",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "PRS_ETA_RAC",
@@ -334,7 +457,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "9",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "PRS_PAI_MNT",
@@ -342,7 +468,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "9",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "RGO_MOD_MNT",
@@ -350,7 +479,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "9",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "ORB_BSE_NUM",
@@ -358,7 +490,10 @@
             "type": "string",
             "nomenclature": "IR_CAI_V",
             "length": "6",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "ORL_BSE_NUM",
@@ -366,7 +501,10 @@
             "type": "string",
             "nomenclature": "IR_CAI_V",
             "length": "6",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "RGM_COD",
@@ -374,7 +512,10 @@
             "type": "number",
             "nomenclature": "IR_RGM_V",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "RGM_GRG_COD",
@@ -382,7 +523,10 @@
             "type": "number",
             "nomenclature": "IR_GRG_V",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "ACC_TIE_IND",
@@ -390,7 +534,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "BSE_FJH_TYP",
@@ -398,7 +545,10 @@
             "type": "number",
             "nomenclature": "IR_FJH_V",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "BSE_PRS_NAT",
@@ -406,7 +556,10 @@
             "type": "number",
             "nomenclature": "IR_NAT_V",
             "length": "4",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "CPL_AFF_COD",
@@ -414,7 +567,10 @@
             "type": "number",
             "nomenclature": "IR_CCA_V",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "CPL_ANO_COD",
@@ -422,7 +578,10 @@
             "type": "number",
             "nomenclature": "IR_ANC_V",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "CPL_FJH_TYP",
@@ -430,7 +589,10 @@
             "type": "number",
             "nomenclature": "IR_FJH_V",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "CPL_MAJ_TOP",
@@ -438,7 +600,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "CPL_PRS_NAT",
@@ -446,7 +611,10 @@
             "type": "number",
             "nomenclature": "IR_NAT_V",
             "length": "4",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "DPN_QLF",
@@ -454,7 +622,10 @@
             "type": "number",
             "nomenclature": "IR_DEP_V",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "DRG_MOD",
@@ -462,7 +633,10 @@
             "type": "number",
             "nomenclature": "IR_MOD_V",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "DRG_NAT",
@@ -470,7 +644,10 @@
             "type": "number",
             "nomenclature": "IR_DRG_V",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "EXE_LIE_COD",
@@ -478,7 +655,10 @@
             "type": "number",
             "nomenclature": "IR_LIE_V",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "EXO_MTF",
@@ -486,7 +666,10 @@
             "type": "number",
             "nomenclature": "IR_EXO_V",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "IJR_EMP_NUM",
@@ -494,7 +677,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "15",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "IJR_RVL_NAT",
@@ -502,7 +688,10 @@
             "type": "string",
             "nomenclature": "IR_RVL_V",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "MTM_NAT",
@@ -510,7 +699,10 @@
             "type": "number",
             "nomenclature": "IR_MTM_V",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "ORG_CLE_NEW",
@@ -518,7 +710,10 @@
             "type": "string",
             "nomenclature": "IR_ORG_V",
             "length": "9",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "PRE_REN_COD",
@@ -526,7 +721,10 @@
             "type": "string",
             "nomenclature": "IR_REN_V",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "PRS_CRD_OPT",
@@ -534,7 +732,10 @@
             "type": "number",
             "nomenclature": "IR_TOC_V",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "PRS_DPN_QLP",
@@ -542,7 +743,10 @@
             "type": "number",
             "nomenclature": "IR_DEP_V",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "PRS_NAT_REF",
@@ -550,7 +754,10 @@
             "type": "number",
             "nomenclature": "IR_NAT_V",
             "length": "4",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "PRS_OPS_TRF",
@@ -558,7 +765,10 @@
             "type": "number",
             "nomenclature": "IR_TOP_V",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "PRS_PDS_QCP",
@@ -566,7 +776,10 @@
             "type": "number",
             "nomenclature": "IR_QPS_V",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "PRS_PDS_QTP",
@@ -574,7 +787,10 @@
             "type": "number",
             "nomenclature": "IR_QPE_V",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "PRS_PPF_COD",
@@ -582,7 +798,10 @@
             "type": "string",
             "nomenclature": "IR_PAF_V",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "PRS_PRE_MTT",
@@ -590,7 +809,10 @@
             "type": "number",
             "nomenclature": "IR_TMT_V",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "PRS_REF_KIN",
@@ -598,7 +820,10 @@
             "type": "string",
             "nomenclature": "IR_REK_V",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "PRS_TOP_ENP",
@@ -606,7 +831,10 @@
             "type": "number",
             "nomenclature": "IR_TEK_V",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "PRS_TYP_KIN",
@@ -614,7 +842,10 @@
             "type": "string",
             "nomenclature": "IR_TPR_V",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "RGO_ASU_NAT",
@@ -622,7 +853,10 @@
             "type": "number",
             "nomenclature": "IR_ASU_V",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "RGO_ENV_TYP",
@@ -630,7 +864,10 @@
             "type": "number",
             "nomenclature": "IR_ENV_V",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "RGO_FTA_COD",
@@ -638,7 +875,10 @@
             "type": "number",
             "nomenclature": "IR_FOR_V",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "RGO_MIN_TAU",
@@ -646,7 +886,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "5",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "RGO_REM_TAU",
@@ -654,7 +897,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "5",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "RGO_THE_TAU",
@@ -662,7 +908,10 @@
             "type": "number",
             "nomenclature": "IR_TAU_V",
             "length": "5",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "ETB_PRE_FIN",
@@ -670,7 +919,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "PFS_EXE_NUM",
@@ -678,7 +930,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "PFS_EXE_NUMC",
@@ -686,7 +941,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "32",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "PFS_PRE_NUM",
@@ -694,7 +952,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "PFS_PRE_NUMC",
@@ -702,7 +963,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "32",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "PRS_MTT_NUM",
@@ -710,7 +974,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "PRS_MTT_NUMC",
@@ -718,7 +985,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "32",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "PSE_ACT_NAT",
@@ -726,7 +996,10 @@
             "type": "number",
             "nomenclature": "IR_ACT_V",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "PSE_CNV_COD",
@@ -734,7 +1007,10 @@
             "type": "number",
             "nomenclature": "IR_CNV_V",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "PSE_REF_ADH",
@@ -742,7 +1018,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "PSE_SPE_COD",
@@ -750,7 +1029,10 @@
             "type": "number",
             "nomenclature": "IR_SPE_V",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "PSE_STJ_COD",
@@ -758,7 +1040,10 @@
             "type": "number",
             "nomenclature": "IR_SJP_V",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "PSP_ACT_NAT",
@@ -766,7 +1051,10 @@
             "type": "number",
             "nomenclature": "IR_ACT_V",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "PSP_CNV_COD",
@@ -774,7 +1062,10 @@
             "type": "number",
             "nomenclature": "IR_CNV_V",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "PSP_PPS_NUM",
@@ -782,7 +1073,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "10",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "PSP_PPS_NUMC",
@@ -790,7 +1084,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "32",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "PSP_REF_ADH",
@@ -798,7 +1095,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "PSP_SPE_COD",
@@ -806,7 +1106,10 @@
             "type": "number",
             "nomenclature": "IR_SPE_V",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "PSP_STJ_COD",
@@ -814,7 +1117,10 @@
             "type": "number",
             "nomenclature": "IR_SJP_V",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "PSP_SVI_PPS",
@@ -822,7 +1128,10 @@
             "type": "number",
             "nomenclature": "IR_SVI_V",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "DCT_ORD_NUM",
@@ -830,7 +1139,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "FLX_DIS_DTD",
@@ -838,7 +1150,10 @@
             "type": "date",
             "nomenclature": "IR_DTE_V",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "FLX_EMT_NUM",
@@ -846,7 +1161,10 @@
             "type": "number",
             "nomenclature": "IR_NEM_V",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "FLX_EMT_ORD",
@@ -854,7 +1172,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "FLX_EMT_TYP",
@@ -862,7 +1183,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "FLX_TRT_DTD",
@@ -870,7 +1194,10 @@
             "type": "date",
             "nomenclature": "IR_DTE_V",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "ORG_CLE_NUM",
@@ -878,7 +1205,10 @@
             "type": "string",
             "nomenclature": "IR_ORG_V",
             "length": "9",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "PRS_ORD_NUM",
@@ -886,7 +1216,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         },
         {
             "name": "REM_TYP_AFF",
@@ -894,7 +1227,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2019",
+            "dateMissing": []
         }
     ],
     "name": "ER_PRS_F",
@@ -964,5 +1300,10 @@
                 ]
             }
         }
-    ]
+    ],
+    "history": {
+        "dateCreated": "",
+        "dateDeleted": "",
+        "dateMissing": []
+    }
 }

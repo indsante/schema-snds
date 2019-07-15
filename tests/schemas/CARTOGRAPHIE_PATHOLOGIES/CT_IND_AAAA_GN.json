@@ -6,7 +6,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "18",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "ben_sex_cod",
@@ -14,7 +17,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "ben_nai_ann",
@@ -22,7 +28,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "4",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "age",
@@ -30,7 +39,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "cla_age_ct",
@@ -38,7 +50,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "5",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "cla_age_5",
@@ -46,7 +61,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "5",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "old_cod_reg",
@@ -54,7 +72,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "new_cod_reg",
@@ -62,7 +83,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "dpt",
@@ -70,7 +94,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "regime",
@@ -78,7 +105,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "6",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "source",
@@ -86,7 +116,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "cmu",
@@ -94,7 +127,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "ben_dcd_dte",
@@ -102,7 +138,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "dcd_3112",
@@ -110,7 +149,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "ben_acs_top",
@@ -118,7 +160,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "ben_aah_top",
@@ -126,7 +171,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_CvIDM_aig",
@@ -134,7 +182,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_CvCoron_chr",
@@ -142,7 +193,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_CvIDMCor_cat",
@@ -150,7 +204,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_CvAVC_aig",
@@ -158,7 +215,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_CvAVC_seq",
@@ -166,7 +226,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_CvAVC_cat",
@@ -174,7 +237,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_CvIC_aig",
@@ -182,7 +248,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_CvIC_chr",
@@ -190,7 +259,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_CvIC_cat",
@@ -198,7 +270,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_CvAOMI_ind",
@@ -206,7 +281,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_CvTrRyC_ind",
@@ -214,7 +292,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_CvValve_ind",
@@ -222,7 +303,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_CvEmbol_aig",
@@ -230,7 +314,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_CvAutre_ind",
@@ -238,7 +325,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_Cvaig_cat",
@@ -246,7 +336,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_Cvchr_cat",
@@ -254,7 +347,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_Cv_cat",
@@ -262,7 +358,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_FAntiHTA_med",
@@ -270,7 +369,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_FAntiHTA_med_nnexclu",
@@ -278,7 +380,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_FHypoLi_med",
@@ -286,7 +391,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_FHypoLi_med_nnexclu",
@@ -294,7 +402,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_FRV_cat",
@@ -302,7 +413,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_FRV_cat_nnexclu",
@@ -310,7 +424,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_FDiabet_ind",
@@ -318,7 +435,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_FInsul_ind",
@@ -326,7 +446,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_FInsulNO_ind",
@@ -334,7 +457,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_FRVDiab_cat",
@@ -342,7 +468,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_CanSeiF_act",
@@ -350,7 +479,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_CanSeiF_sur",
@@ -358,7 +490,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_CanSeiF_cat",
@@ -366,7 +501,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_CanColo_act",
@@ -374,7 +512,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_CanColo_sur",
@@ -382,7 +523,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_CanColo_cat",
@@ -390,7 +534,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_CanPoum_act",
@@ -398,7 +545,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_CanPoum_sur",
@@ -406,7 +556,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_CanPoum_cat",
@@ -414,7 +567,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_CanPros_act",
@@ -422,7 +578,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_CanPros_sur",
@@ -430,7 +589,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_CanPros_cat",
@@ -438,7 +600,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_CanAutr_act",
@@ -446,7 +611,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_CanAutr_sur",
@@ -454,7 +622,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_CanAutr_cat",
@@ -462,7 +633,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_CanAct_cat",
@@ -470,7 +644,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_CanSur_cat",
@@ -478,7 +655,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_Can_cat",
@@ -486,7 +666,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_Psychos_ind",
@@ -494,7 +677,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_PDepNev_ind",
@@ -502,7 +688,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_PTrBipo_ind",
@@ -510,7 +699,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_PTrDHum_ind",
@@ -518,7 +710,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_PTrNevr_ind",
@@ -526,7 +721,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_PRetard_ind",
@@ -534,7 +732,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_PAddict_ind",
@@ -542,7 +743,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_PAddAlc_ind",
@@ -550,7 +754,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_PAddTab_ind",
@@ -558,7 +765,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_PAddCan_ind",
@@ -566,7 +776,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_PAddAut_ind",
@@ -574,7 +787,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_PTrEnfa_ind",
@@ -582,7 +798,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_PsyAutr_ind",
@@ -590,7 +809,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_PsyPat_cat",
@@ -598,7 +820,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_PAntiDe_med",
@@ -606,7 +831,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_PAntiDe_med_nnexclu",
@@ -614,7 +842,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_PNeurol_med",
@@ -622,7 +853,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_PNeurol_med_nnexclu",
@@ -630,7 +864,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_PAnxiol_med",
@@ -638,7 +875,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_PAnxiol_med_nnexclu",
@@ -646,7 +886,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_PHypnot_med",
@@ -654,7 +897,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_PHypnot_med_nnexclu",
@@ -662,7 +908,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_PsyMed_cat",
@@ -670,7 +919,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_PsyMed_cat_nnexclu",
@@ -678,7 +930,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_Psy_cat",
@@ -686,7 +941,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_NDemenc_ind",
@@ -694,7 +952,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_NDemAlz_ind",
@@ -702,7 +963,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_NDemAut_ind",
@@ -710,7 +974,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_NParkin_ind",
@@ -718,7 +985,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_NDemPar_cat",
@@ -726,7 +996,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_NSePlaq_ind",
@@ -734,7 +1007,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_NParapl_ind",
@@ -742,7 +1018,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_NMyoMya_ind",
@@ -750,7 +1029,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_NEpilep_ind",
@@ -758,7 +1040,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_NAutres_ind",
@@ -766,7 +1051,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_Neuro_cat",
@@ -774,7 +1062,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_NeuDeg_cat",
@@ -782,7 +1073,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_ABPCOIr_ind",
@@ -790,7 +1084,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_ABPCOIr_ind_nnexclu",
@@ -798,7 +1095,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_IRCrRCH_ind",
@@ -806,7 +1106,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_IRPolyA_ind",
@@ -814,7 +1117,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_IRSponA_ind",
@@ -822,7 +1128,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_IRautre_ind",
@@ -830,7 +1139,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_Inflam_cat",
@@ -838,7 +1150,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_IRMMHer_ind",
@@ -846,7 +1161,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_IRMuco_ind",
@@ -854,7 +1172,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_IRHemop_ind",
@@ -862,7 +1183,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_IRHemop_ind_exclu",
@@ -870,7 +1194,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_IRTrHemoSev_ind",
@@ -878,7 +1205,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_Rares_cat",
@@ -886,7 +1216,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_IRVih_ind",
@@ -894,7 +1227,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_InfRarVIH_cat",
@@ -902,7 +1238,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_RDialyse_ind",
@@ -910,7 +1249,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_RHemDia_ind",
@@ -918,7 +1260,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_RDiaPer_ind",
@@ -926,7 +1271,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_Rtrans_aig",
@@ -934,7 +1282,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_Rtrans_chr",
@@ -942,7 +1293,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_RDiaCou_ind",
@@ -950,7 +1304,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_RIRCT_cat",
@@ -958,7 +1315,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_HFoiPan_ind",
@@ -966,7 +1326,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_HFoiPan_ind_nnexclu",
@@ -974,7 +1337,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_HFoi_ind",
@@ -982,7 +1348,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_HPan_ind",
@@ -990,7 +1359,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_ALDAutr_ind",
@@ -998,7 +1370,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_ALDAutr_0_ind",
@@ -1006,7 +1381,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_ALDAutr_2_ind",
@@ -1014,7 +1392,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_ALDAutr_4_ind",
@@ -1022,7 +1403,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_ALDAutr_10_ind",
@@ -1030,7 +1414,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_ALDAutr_19_ind",
@@ -1038,7 +1425,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_ALDAutr_23_ind",
@@ -1046,7 +1436,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_ALDAutr_26_ind",
@@ -1054,7 +1447,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_ALDAutr_29_ind",
@@ -1062,7 +1458,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_ALDAutr_30_ind",
@@ -1070,7 +1469,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_ALDAutr_31_ind",
@@ -1078,7 +1480,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_ALDAutr_32_ind",
@@ -1086,7 +1491,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_Patho_cat_exclu",
@@ -1094,7 +1502,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_Patho_cat_nnexclu",
@@ -1102,7 +1513,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "top_Materni_ind",
@@ -1110,7 +1524,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_Materni_ind_exclu",
@@ -1118,7 +1535,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_PatMat_cat",
@@ -1126,7 +1546,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_hospit_ponct",
@@ -1134,7 +1557,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_hospit_ponct_exclu",
@@ -1142,7 +1568,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_PatMatHos_cat",
@@ -1150,7 +1579,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_Petit_Conso",
@@ -1158,7 +1590,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_Arthros_med",
@@ -1166,7 +1601,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_AINS_med",
@@ -1174,7 +1612,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_Antalg_med",
@@ -1182,7 +1623,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_ACorti_med",
@@ -1190,7 +1634,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_Arthros_med_nnexclu",
@@ -1198,7 +1645,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_AINS_med_nnexclu",
@@ -1206,7 +1656,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_Antalg_med_nnexclu",
@@ -1214,7 +1667,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_ACorti_med_nnexclu",
@@ -1222,7 +1678,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_Petit_Conso_exclu",
@@ -1230,7 +1689,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "sup_PopTot_cat",
@@ -1238,7 +1700,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "3",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "version",
@@ -1246,7 +1711,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         }
     ],
     "name": "CT_IND_AAAA_GN",
@@ -1264,5 +1732,10 @@
                 "fields": "id_carto"
             }
         }
-    ]
+    ],
+    "history": {
+        "dateCreated": "",
+        "dateDeleted": "",
+        "dateMissing": []
+    }
 }

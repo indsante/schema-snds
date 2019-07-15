@@ -6,7 +6,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2011",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "COEFPRUD",
@@ -14,7 +17,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2014",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "COEFTRANS",
@@ -22,7 +28,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "ETA_NUM",
@@ -30,7 +39,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2011",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "ETE_GHS_NUM",
@@ -38,7 +50,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2011",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "FLAG_FIDES",
@@ -46,7 +61,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2014",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "GHS_NUM",
@@ -54,7 +72,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2011",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "GHS50",
@@ -62,7 +83,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_18",
@@ -70,7 +94,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_9610_AM",
@@ -78,7 +105,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2011",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "MNT_9615_AM",
@@ -86,7 +116,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_9619_AM",
@@ -94,7 +127,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2011",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "MNT_9620_AM",
@@ -102,7 +138,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2011",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "MNT_9621_AM",
@@ -110,7 +149,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_9622_AM",
@@ -118,7 +160,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_9623_AM",
@@ -126,7 +171,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_9625_AM",
@@ -134,7 +182,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_9631_AM",
@@ -142,7 +193,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_9632_AM",
@@ -150,7 +204,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_9633_AM",
@@ -158,7 +215,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_ANT_AM",
@@ -166,7 +226,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2012",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "MNT_CAISSON_AM",
@@ -174,7 +237,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_DIP_AM",
@@ -182,7 +248,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_DMI",
@@ -190,7 +259,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_EXH_AM",
@@ -198,7 +270,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_EXINF_AM",
@@ -206,7 +281,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_FJ2",
@@ -214,7 +292,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_GHS_AM",
@@ -222,7 +303,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_GHS50_AM",
@@ -230,7 +314,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_IVG_AM",
@@ -238,7 +325,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_MAJO",
@@ -246,7 +336,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_MED_ATU",
@@ -254,7 +347,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2017",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "MNT_MON",
@@ -262,7 +358,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_NN1_AM",
@@ -270,7 +369,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_NN2_AM",
@@ -278,7 +380,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_NN3_AM",
@@ -286,7 +391,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_PO1_AM",
@@ -294,7 +402,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_PO2_AM",
@@ -302,7 +413,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_PO3_AM",
@@ -310,7 +424,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_PO4_AM",
@@ -318,7 +435,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_PO5_AM",
@@ -326,7 +446,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_PO6_AM",
@@ -334,7 +457,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_PO7_AM",
@@ -342,7 +468,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_PO8_AM",
@@ -350,7 +479,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_PO9_AM",
@@ -358,7 +490,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_POA_AM",
@@ -366,7 +501,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_RAC",
@@ -374,7 +512,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2016",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "MNT_RAP_AM",
@@ -382,7 +523,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2012",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "MNT_REA_AM",
@@ -390,7 +534,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_REP_AM",
@@ -398,7 +545,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_SC_AM",
@@ -406,7 +556,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_SI_AM",
@@ -414,7 +567,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_SUPPENT1_AM",
@@ -422,7 +578,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_SUPPENT2_AM",
@@ -430,7 +589,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_SUPPENT3_AM",
@@ -438,7 +600,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_SUPPHD_AM",
@@ -446,7 +611,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_TOT_AM",
@@ -454,7 +622,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "NB_9610",
@@ -462,7 +633,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2011",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "NB_9615",
@@ -470,7 +644,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "NB_9619",
@@ -478,7 +655,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2011",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "NB_9620",
@@ -486,7 +666,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2011",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "NB_9621",
@@ -494,7 +677,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "NB_9622",
@@ -502,7 +688,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "NB_9623",
@@ -510,7 +699,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "NB_9625",
@@ -518,7 +710,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "NB_9631",
@@ -526,7 +721,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "NB_9632",
@@ -534,7 +732,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "NB_9633",
@@ -542,7 +743,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "NB_ANT",
@@ -550,7 +754,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2012",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "NB_DIP",
@@ -558,7 +765,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "NB_NN1",
@@ -566,7 +776,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "NB_NN2",
@@ -574,7 +787,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "NB_NN3",
@@ -582,7 +798,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "NB_RAP",
@@ -590,7 +809,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2012",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "NB_SRC2",
@@ -598,7 +820,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "NB_STF2",
@@ -606,7 +831,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "NBCAISSON",
@@ -614,7 +842,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "NBEXB",
@@ -622,7 +853,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "NBEXH",
@@ -630,7 +864,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "NBJREA",
@@ -638,7 +875,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "NBREP",
@@ -646,7 +886,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "PONDER",
@@ -654,7 +897,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "RSA_NUM",
@@ -662,7 +908,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2011",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "SEJXINF",
@@ -670,7 +919,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "SUPPENT1",
@@ -678,7 +930,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "SUPPENT2",
@@ -686,7 +941,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "SUPPENT3",
@@ -694,7 +952,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "SUPPHD",
@@ -702,7 +963,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "TAUX2",
@@ -710,7 +974,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "TYPORG",
@@ -718,7 +985,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "TYPORG5",
@@ -726,7 +996,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "TYPORG6",
@@ -734,7 +1007,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "TYPORG7",
@@ -742,7 +1018,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "TYPORG8",
@@ -750,7 +1029,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "TYPORG9",
@@ -758,7 +1040,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "TYPORGA",
@@ -766,7 +1051,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "VALO",
@@ -774,7 +1062,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_GHS_BR",
@@ -782,7 +1073,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_EXINF_BR",
@@ -790,7 +1084,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_GHS50_BR",
@@ -798,7 +1095,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_EXH_BR",
@@ -806,7 +1106,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_SUPPHD_BR",
@@ -814,7 +1117,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_SUPPENT1_BR",
@@ -822,7 +1128,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_SUPPENT2_BR",
@@ -830,7 +1139,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_SUPPENT3_BR",
@@ -838,7 +1150,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_DIP_BR",
@@ -846,7 +1161,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_PO1_BR",
@@ -854,7 +1172,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_PO2_BR",
@@ -862,7 +1183,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_PO3_BR",
@@ -870,7 +1194,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_PO4_BR",
@@ -878,7 +1205,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_PO5_BR",
@@ -886,7 +1216,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_PO6_BR",
@@ -894,7 +1227,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_PO7_BR",
@@ -902,7 +1238,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_PO8_BR",
@@ -910,7 +1249,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_PO9_BR",
@@ -918,7 +1260,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_POA_BR",
@@ -926,7 +1271,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_9610_BR",
@@ -934,7 +1282,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_9619_BR",
@@ -942,7 +1293,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_9620_BR",
@@ -950,7 +1304,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_9621_BR",
@@ -958,7 +1315,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_9622_BR",
@@ -966,7 +1326,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_9623_BR",
@@ -974,7 +1337,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_9625_BR",
@@ -982,7 +1348,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_9631_BR",
@@ -990,7 +1359,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_9632_BR",
@@ -998,7 +1370,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_9633_BR",
@@ -1006,7 +1381,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_9615_BR",
@@ -1014,7 +1392,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_REA_BR",
@@ -1022,7 +1403,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_REP_BR",
@@ -1030,7 +1414,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_SI_BR",
@@ -1038,7 +1425,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_SC_BR",
@@ -1046,7 +1436,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_NN1_BR",
@@ -1054,7 +1447,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_NN2_BR",
@@ -1062,7 +1458,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_NN3_BR",
@@ -1070,7 +1469,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_CAISSON_BR",
@@ -1078,7 +1480,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_RAP_BR",
@@ -1086,7 +1491,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_ANT_BR",
@@ -1094,7 +1502,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "NB_SDC",
@@ -1102,7 +1513,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_SDC_BR",
@@ -1110,7 +1524,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_SDC_AM",
@@ -1118,7 +1535,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_IVG_BR",
@@ -1126,7 +1546,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "MNT_TOT_BR",
@@ -1134,7 +1557,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "COEFREP",
@@ -1142,7 +1568,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         }
     ],
     "name": "T_MCOaa_nnVALO",
@@ -1166,5 +1595,10 @@
                 ]
             }
         }
-    ]
+    ],
+    "history": {
+        "dateCreated": "2011",
+        "dateDeleted": "2017",
+        "dateMissing": []
+    }
 }

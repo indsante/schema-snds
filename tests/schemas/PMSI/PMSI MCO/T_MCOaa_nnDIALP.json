@@ -6,7 +6,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2009",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "ETA_NUM",
@@ -14,7 +17,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2009",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "ETA_NUM_ENT",
@@ -22,7 +28,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2017",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "MOI",
@@ -30,7 +39,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2009",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "NBR_PRS",
@@ -38,7 +50,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2011",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "PRS_COD",
@@ -46,7 +61,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2009",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "PRS_TYP",
@@ -54,7 +72,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2009",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "RSA_NUM",
@@ -62,7 +83,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2009",
+            "dateDeleted": "2017",
+            "dateMissing": []
         }
     ],
     "name": "T_MCOaa_nnDIALP",
@@ -86,5 +110,10 @@
                 ]
             }
         }
-    ]
+    ],
+    "history": {
+        "dateCreated": "2009",
+        "dateDeleted": "2017",
+        "dateMissing": []
+    }
 }

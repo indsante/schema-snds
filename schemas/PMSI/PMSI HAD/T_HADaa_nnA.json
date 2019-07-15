@@ -6,7 +6,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "CCAM_COD",
@@ -14,7 +17,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "EXT_PMSI",
@@ -22,7 +28,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2015",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "DEL_DEB_SSEQ",
@@ -30,7 +39,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "ETA_NUM_EPMSI",
@@ -38,7 +50,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "ETA_NUM_GEO",
@@ -46,7 +61,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2017",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "EXT_DOC",
@@ -54,7 +72,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "PHA_COD",
@@ -62,7 +83,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "REAL_NBR",
@@ -70,7 +94,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "RHAD_NUM",
@@ -78,7 +105,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "SEQ_NUM",
@@ -86,7 +116,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "SSEQ_NUM",
@@ -94,7 +127,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "VAL_DAT_SSEQ",
@@ -102,7 +138,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": []
         }
     ],
     "name": "T_HADaa_nnA",
@@ -126,5 +165,10 @@
                 ]
             }
         }
-    ]
+    ],
+    "history": {
+        "dateCreated": "2012",
+        "dateDeleted": "2017",
+        "dateMissing": []
+    }
 }

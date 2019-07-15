@@ -6,7 +6,10 @@
             "type": "string",
             "nomenclature": "IR_CIM_V",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "DGN_ASS_NUM",
@@ -14,7 +17,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2014",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "ETA_NUM",
@@ -22,7 +28,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "RSA_NUM",
@@ -30,7 +39,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "RSS_NUM",
@@ -38,7 +50,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2017",
+            "dateMissing": []
         }
     ],
     "name": "T_MCOaa_nnD",
@@ -62,5 +77,10 @@
                 ]
             }
         }
-    ]
+    ],
+    "history": {
+        "dateCreated": "2006",
+        "dateDeleted": "2017",
+        "dateMissing": []
+    }
 }

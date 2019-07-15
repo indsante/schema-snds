@@ -6,7 +6,13 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": [
+                "2012",
+                "2013"
+            ]
         },
         {
             "name": "DAT_DEB_CON",
@@ -14,7 +20,13 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": [
+                "2012",
+                "2013"
+            ]
         },
         {
             "name": "DAT_FIN_CON",
@@ -22,7 +34,13 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": [
+                "2012",
+                "2013"
+            ]
         },
         {
             "name": "ETA_NUM_ESMS",
@@ -30,7 +48,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "ETA_NUM_EPMSI",
@@ -38,7 +59,13 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": [
+                "2012",
+                "2013"
+            ]
         },
         {
             "name": "FFT_COD",
@@ -46,7 +73,13 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": [
+                "2012",
+                "2013"
+            ]
         },
         {
             "name": "FIC_TYP",
@@ -54,7 +87,13 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": [
+                "2012",
+                "2013"
+            ]
         },
         {
             "name": "MOI",
@@ -62,7 +101,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2014",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "ETA_TYP_ESMS",
@@ -70,7 +112,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2015",
+            "dateDeleted": "2017",
+            "dateMissing": []
         }
     ],
     "name": "T_HADaa_nnEHPA",
@@ -80,5 +125,13 @@
     "missingValues": [
         ""
     ],
-    "primaryKey": "ETA_NUM_EPMSI"
+    "primaryKey": "ETA_NUM_EPMSI",
+    "history": {
+        "dateCreated": "2011",
+        "dateDeleted": "2017",
+        "dateMissing": [
+            "2013",
+            "2014"
+        ]
+    }
 }

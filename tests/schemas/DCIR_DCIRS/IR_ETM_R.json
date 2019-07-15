@@ -6,7 +6,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "17",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "BEN_RNG_GEM",
@@ -14,7 +17,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "BEN_NIR_ANO",
@@ -22,7 +28,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "17",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "BEN_IDT_ANO",
@@ -30,7 +39,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "18",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "BEN_EXO_MTF",
@@ -38,7 +50,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "BEN_EXO_DTD",
@@ -46,7 +61,10 @@
             "type": "date",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "BEN_EXO_DTF",
@@ -54,7 +72,10 @@
             "type": "date",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "IND_RNM_BEN",
@@ -62,7 +83,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "1",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         }
     ],
     "name": "IR_ETM_R",
@@ -97,5 +121,10 @@
                 ]
             }
         }
-    ]
+    ],
+    "history": {
+        "dateCreated": "",
+        "dateDeleted": "",
+        "dateMissing": []
+    }
 }

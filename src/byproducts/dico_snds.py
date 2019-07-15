@@ -56,6 +56,9 @@ def table_schema_to_snds_variables():
             length = ' ({})'.format(length) if length else ''
             nomenclature = str(descriptor.get('nomenclature', ''))
             nomenclature = nomenclature if (nomenclature.strip() != 'nan') else NO_NOMENCLATURE
+            creation = str(descriptor.get('dateCreated', ''))
+            suppression = str(descriptor.get('dateDeleted', ''))
+
             variables_list.append({
                 # dico_produit: schema.descriptor[SCHEMA_PRODUIT],
                 'table': schema.descriptor['name'],
@@ -63,11 +66,13 @@ def table_schema_to_snds_variables():
                 'format': descriptor['type'] + length,
                 'description': descriptor['description'],
                 'nomenclature': nomenclature,
+                'creation': creation,
+                'suppression': suppression
             })
     df = pd.DataFrame(variables_list,
                       columns=[
                           # dico_produit,
-                          'table', DICO_VARIABLE, 'format', 'description', 'nomenclature'])
+                          'table', DICO_VARIABLE, 'format', 'description', 'nomenclature', 'creation', 'suppression'])
     df = df.sort_values([
         # dico_produit,
         'table', DICO_VARIABLE])
@@ -80,15 +85,19 @@ def table_schema_to_snds_tables():
     dico_produit = "Produit"
     dico_table = "Table"
     dico_libelle = 'Libelle'
+    dico_creation = 'creation'
+    dico_suppression = 'suppression'
     table_list = []
     for schema in get_all_schema():
         table_list.append({
             dico_produit: schema.descriptor[SCHEMA_PRODUIT],
             dico_table: schema.descriptor['name'],
             dico_libelle: schema.descriptor['title'],
+            dico_creation: schema.descriptor['history']['dateCreated'],
+            dico_suppression: schema.descriptor['history']['dateDeleted']
 
         })
-    df = pd.DataFrame(table_list, columns=[dico_produit, dico_table, dico_libelle])
+    df = pd.DataFrame(table_list, columns=[dico_produit, dico_table, dico_libelle, dico_creation, dico_suppression])
     df = df.sort_values([dico_produit, dico_table, dico_libelle])
     snds_table_path = os.path.join(DICO_SNDS_DIR, TABLES_CSV)
     df.to_csv(snds_table_path, index=False)

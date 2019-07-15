@@ -6,7 +6,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2015",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "RAPSS_NUM",
@@ -14,7 +17,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2015",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "ETA_NUM_GEO",
@@ -22,7 +28,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2017",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "RHAD_NUM",
@@ -30,7 +39,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2015",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "COD_SEX",
@@ -38,7 +50,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2015",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "SEJ_NBJ",
@@ -46,7 +61,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2015",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "HAD_DUREE",
@@ -54,7 +72,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2015",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "SEJ_FINI",
@@ -62,7 +83,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2015",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "SEJ_ERR",
@@ -70,7 +94,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2015",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "SOR_MOI",
@@ -78,7 +105,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2015",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "SOR_ANN",
@@ -86,7 +116,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2015",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "ENT_MOD",
@@ -94,7 +127,10 @@
             "type": "string",
             "nomenclature": "MS_SOR_V",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2015",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "ENT_PRV",
@@ -102,7 +138,10 @@
             "type": "string",
             "nomenclature": "IR_DESTINATION_V",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2015",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "SOR_MOD",
@@ -110,7 +149,10 @@
             "type": "string",
             "nomenclature": "MS_SOR_V",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2015",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "SOR_DES",
@@ -118,7 +160,10 @@
             "type": "string",
             "nomenclature": "IR_DESTINATION_V",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2015",
+            "dateDeleted": "2017",
+            "dateMissing": []
         }
     ],
     "name": "T_HADaa_nnS",
@@ -142,5 +187,10 @@
                 ]
             }
         }
-    ]
+    ],
+    "history": {
+        "dateCreated": "2015",
+        "dateDeleted": "2017",
+        "dateMissing": []
+    }
 }

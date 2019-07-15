@@ -6,7 +6,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "ETA_NUM_EPMSI",
@@ -14,7 +17,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "ETA_NUM_TWO",
@@ -22,7 +28,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "RIP_NUM",
@@ -30,7 +39,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "FAC_NUM",
@@ -38,7 +50,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "DEL_DAT_ENT",
@@ -46,7 +61,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "ENT_MOI",
@@ -54,7 +72,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "ENT_ANN",
@@ -62,7 +83,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "SOR_MOI",
@@ -70,7 +94,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "SOR_ANN",
@@ -78,7 +105,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "SEJ_DUR",
@@ -86,7 +116,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "SEJ_FIN",
@@ -94,7 +127,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "ETB_NUM",
@@ -102,7 +138,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": []
         }
     ],
     "name": "T_RIPaa_nnFI",
@@ -126,5 +165,10 @@
                 ]
             }
         }
-    ]
+    ],
+    "history": {
+        "dateCreated": "2010",
+        "dateDeleted": "2017",
+        "dateMissing": []
+    }
 }

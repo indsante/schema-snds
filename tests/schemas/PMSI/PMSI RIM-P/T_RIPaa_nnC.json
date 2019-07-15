@@ -6,7 +6,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2007",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "ETA_NUM_TWO",
@@ -14,7 +17,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2007",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "FOR_NUM",
@@ -22,7 +28,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2009",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "FOR_NUM_HOSP",
@@ -30,7 +39,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2009",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "ENT_MOI",
@@ -38,7 +50,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "ENT_ANN",
@@ -46,7 +61,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "NIR_RET",
@@ -54,7 +72,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2007",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "NAI_RET",
@@ -62,7 +83,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2007",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "SEX_RET",
@@ -70,7 +94,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2007",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "SEJ_RET",
@@ -78,7 +105,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2007",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "FHO_RET",
@@ -86,7 +116,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2007",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "PMS_RET",
@@ -94,7 +127,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2007",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "DAT_RET",
@@ -102,7 +138,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2007",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "COH_NAI_RET",
@@ -110,7 +149,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "COH_SEX_RET",
@@ -118,7 +160,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "NIR_ANO_17",
@@ -126,7 +171,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2007",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "SEJ_NUM",
@@ -134,7 +182,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2007",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "RIP_NUM",
@@ -142,7 +193,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2007",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "ENT_DAT",
@@ -150,7 +204,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2009",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "SOR_DAT",
@@ -158,7 +215,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2009",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "EXE_SOI_DTD",
@@ -166,7 +226,10 @@
             "type": "datetime",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2009",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "EXE_SOI_DTF",
@@ -174,7 +237,10 @@
             "type": "datetime",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2009",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "EXE_SOI_AMD",
@@ -182,7 +248,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2009",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "EXE_SOI_AMF",
@@ -190,7 +259,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2009",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "NUM_DAT_AT_RET",
@@ -198,7 +270,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2015",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "ORG_CPL_NUM_RET",
@@ -206,7 +281,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2015",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "ETA_NUM_RET",
@@ -214,7 +292,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2017",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "NUM_DAT_AT",
@@ -222,7 +303,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2015",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "ORG_CPL_NUM",
@@ -230,7 +314,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2015",
+            "dateDeleted": "2017",
+            "dateMissing": []
         }
     ],
     "name": "T_RIPaa_nnC",
@@ -266,5 +353,10 @@
                 "fields": "BEN_NIR_PSA"
             }
         }
-    ]
+    ],
+    "history": {
+        "dateCreated": "2007",
+        "dateDeleted": "2017",
+        "dateMissing": []
+    }
 }

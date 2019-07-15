@@ -6,7 +6,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "AGE_GES",
@@ -14,7 +17,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2014",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "AUT_TYP1_UM",
@@ -22,7 +28,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "AUT_TYP2_UM",
@@ -30,7 +39,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "DGN_ASS_NBR",
@@ -38,7 +50,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "DGN_PAL",
@@ -46,7 +61,10 @@
             "type": "string",
             "nomenclature": "IR_CIM_V",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2008",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "DGN_REL",
@@ -54,7 +72,10 @@
             "type": "string",
             "nomenclature": "IR_CIM_V",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2008",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "ETA_NUM",
@@ -62,7 +83,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "ETA_NUM_GEO",
@@ -70,7 +94,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "IGS2_COD",
@@ -78,7 +105,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "PAR_DUR_SEJ",
@@ -86,7 +116,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "RSA_NUM",
@@ -94,7 +127,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "RSS_NUM",
@@ -102,7 +138,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "SUP_TYP1_NAT",
@@ -110,7 +149,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "SUP_TYP1_NBR",
@@ -118,7 +160,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "SUP_TYP2_NAT",
@@ -126,7 +171,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "SUP_TYP2_NBR",
@@ -134,7 +182,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "UM_ORD_NUM",
@@ -142,7 +193,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "dateMissing": []
         }
     ],
     "name": "T_MCOaa_nnUM",
@@ -166,5 +220,10 @@
                 ]
             }
         }
-    ]
+    ],
+    "history": {
+        "dateCreated": "2006",
+        "dateDeleted": "2017",
+        "dateMissing": []
+    }
 }

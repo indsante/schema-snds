@@ -6,7 +6,13 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2014",
+            "dateDeleted": "2017",
+            "dateMissing": [
+                "2015",
+                "2016"
+            ]
         },
         {
             "name": "ENT_ANN",
@@ -14,7 +20,13 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2014",
+            "dateDeleted": "2017",
+            "dateMissing": [
+                "2015",
+                "2016"
+            ]
         },
         {
             "name": "ENT_MOI",
@@ -22,7 +34,13 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2014",
+            "dateDeleted": "2017",
+            "dateMissing": [
+                "2015",
+                "2016"
+            ]
         },
         {
             "name": "ETA_NUM_EPMSI",
@@ -30,7 +48,13 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2014",
+            "dateDeleted": "2017",
+            "dateMissing": [
+                "2015",
+                "2016"
+            ]
         },
         {
             "name": "ETA_NUM_GEO",
@@ -38,7 +62,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2017",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "FAC_MNT",
@@ -46,7 +73,13 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2014",
+            "dateDeleted": "2017",
+            "dateMissing": [
+                "2015",
+                "2016"
+            ]
         },
         {
             "name": "FAC_NUM",
@@ -54,7 +87,13 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2014",
+            "dateDeleted": "2017",
+            "dateMissing": [
+                "2015",
+                "2016"
+            ]
         },
         {
             "name": "LPP_COD",
@@ -62,7 +101,13 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2014",
+            "dateDeleted": "2017",
+            "dateMissing": [
+                "2015",
+                "2016"
+            ]
         },
         {
             "name": "LPP_PRI_UNI",
@@ -70,7 +115,13 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2014",
+            "dateDeleted": "2017",
+            "dateMissing": [
+                "2015",
+                "2016"
+            ]
         },
         {
             "name": "LPP_PU_DEV",
@@ -78,7 +129,13 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2014",
+            "dateDeleted": "2017",
+            "dateMissing": [
+                "2015",
+                "2016"
+            ]
         },
         {
             "name": "LPP_QUA",
@@ -86,7 +143,13 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2014",
+            "dateDeleted": "2017",
+            "dateMissing": [
+                "2015",
+                "2016"
+            ]
         },
         {
             "name": "MNT_UNI_ECA",
@@ -94,7 +157,13 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2014",
+            "dateDeleted": "2017",
+            "dateMissing": [
+                "2015",
+                "2016"
+            ]
         },
         {
             "name": "RHAD_NUM",
@@ -102,7 +171,13 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2014",
+            "dateDeleted": "2017",
+            "dateMissing": [
+                "2015",
+                "2016"
+            ]
         },
         {
             "name": "TIP_PRS_IDE",
@@ -110,7 +185,13 @@
             "type": "number",
             "nomenclature": "NT_LPP",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2014",
+            "dateDeleted": "2017",
+            "dateMissing": [
+                "2015",
+                "2016"
+            ]
         },
         {
             "name": "TOT_MNT_ECA",
@@ -118,7 +199,13 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2014",
+            "dateDeleted": "2017",
+            "dateMissing": [
+                "2015",
+                "2016"
+            ]
         },
         {
             "name": "TYP_ART",
@@ -126,7 +213,13 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2014",
+            "dateDeleted": "2017",
+            "dateMissing": [
+                "2015",
+                "2016"
+            ]
         }
     ],
     "name": "T_HADaa_nnFP",
@@ -150,5 +243,10 @@
                 ]
             }
         }
-    ]
+    ],
+    "history": {
+        "dateCreated": "2017",
+        "dateDeleted": "2017",
+        "dateMissing": []
+    }
 }

@@ -6,7 +6,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2008",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "DAT_POS_ANN",
@@ -14,7 +17,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2009",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "DELAI",
@@ -22,7 +28,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2008",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "ETA_NUM",
@@ -30,7 +39,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2008",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "ETA_NUM_ENT",
@@ -38,7 +50,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2017",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "LPP_COD",
@@ -46,7 +61,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2008",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "MOI",
@@ -54,7 +72,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2008",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "MOI_POS",
@@ -62,7 +83,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2008",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "NBR_POS",
@@ -70,7 +94,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2008",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "NBR_POS_PRI",
@@ -78,7 +105,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2008",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "PRS_TYP",
@@ -86,7 +116,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2008",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "RSA_NUM",
@@ -94,7 +127,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2008",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "TIP_PRS_IDE",
@@ -102,7 +138,10 @@
             "type": "number",
             "nomenclature": "NT_LPP",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2008",
+            "dateDeleted": "2017",
+            "dateMissing": []
         }
     ],
     "name": "T_MCOaa_nnDMIP",
@@ -126,5 +165,10 @@
                 ]
             }
         }
-    ]
+    ],
+    "history": {
+        "dateCreated": "2008",
+        "dateDeleted": "2017",
+        "dateMissing": []
+    }
 }

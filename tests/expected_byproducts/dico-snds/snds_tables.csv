@@ -1,144 +1,144 @@
-Produit,Table,Libelle
-BENEFICIAIRE,IR_BEN_R,Référentiel des bénéficiaires (DCIR)
-BENEFICIAIRE,IR_IBA_R,Référentiel des bénéficiaires (DCIRS)
-CARTOGRAPHIE_PATHOLOGIES,CT_DEP_AAAA_GN,Table dépenses de la cartographie des pathologies pour l'année AAAA et l'algorithme N
-CARTOGRAPHIE_PATHOLOGIES,CT_IDE_AAAA_GN,Table individus de la cartographie des pathologies pour l'année AAAA et l'algorithme N
-CARTOGRAPHIE_PATHOLOGIES,CT_IND_AAAA_GN,Table pathologies de la cartographie des pathologies pour l'année AAAA et l'algorithme N
-Causes de décès,KI_CCI_R,Certificats de décès
-Causes de décès,KI_ECD_R,Causes de décès
-DCIR,ER_ANO_F,Miroir
-DCIR,ER_ARO_F,"Autre remboursement que régime obligatoire (partie complémentaire CMU-C, Alsace moselle, FNASS,…)"
-DCIR,ER_BIO_F,affinage des actes de biologie
-DCIR,ER_CAM_F,affinage des actes médicaux (codage CCAM)
-DCIR,ER_CPT_F,Données comptables
-DCIR,ER_DCT_F,Décomptes
-DCIR,ER_DTR_F,affinage des actes de transport 
-DCIR,ER_ETE_F,Informations liées à l'exécution dans un établissement
-DCIR,ER_INV_F,affinage des actes invalidité
-DCIR,ER_LOT_F,Lot et numéro de série des prestations affinnées pharmacie
-DCIR,ER_PHA_F,affinage des actes de pharmacie (officine de ville)
-DCIR,ER_PRS_F,prestations
-DCIR,ER_RAT_F,affinage des rentes et accidents du travail
-DCIR,ER_TIP_F,affinage Liste des Produits et Prestations (LPP)
-DCIR,ER_TRS_F,affinage des actes détaillés de transport 
-DCIR,ER_UCD_F,affinage UCD (pharmacie hospitalière)
-DCIRS,NS_BIO_F,affinage des actes de biologie
-DCIRS,NS_CAM_F,affinage des actes médicaux (codage CCAM)
-DCIRS,NS_DTR_F,affinage des actes de transport 
-DCIRS,NS_INV_F,affinage des actes invalidité
-DCIRS,NS_PHA_F,affinage des actes de pharmacie (officine de ville)
-DCIRS,NS_PRS_F,prestations
-DCIRS,NS_RAT_F,affinage des rentes et accidents du travail
-DCIRS,NS_TIP_F,affinage Liste des Produits et Prestations (LPP)
-DCIRS,NS_TRS_F,affinage des actes détaillés de transport 
-DCIRS,NS_UCD_F,affinage UCD (pharmacie hospitalière)
-DCIR_DCIRS,DA_PRA_R,Référentiel des professionnels de santé
-DCIR_DCIRS,IR_ACS_R,Affiliations à l’Aide à l’acquisition d’une Complémentaire Santé (ACS) 
-DCIR_DCIRS,IR_ETM_R,Exonérations du ticket modérateur liées à la personne 
-DCIR_DCIRS,IR_IMB_R,Référentiel médicalisé des bénéficiaires (ALD)
-DCIR_DCIRS,IR_MAT_R,Maternité
-DCIR_DCIRS,IR_MTT_R,Médecin traitant
-DCIR_DCIRS,IR_ORC_R,Affiliations à un organisme complémentaire
-PMSI HAD,T_HADaa_nnA,Table des actes
-PMSI HAD,T_HADaa_nnB,Table des Résumés Anonyme Par Sous-Séquence (RAPSS)
-PMSI HAD,T_HADaa_nnC,Table des NIR foinisé deux fois et date entrè/sortie complètes
-PMSI HAD,T_HADaa_nnD,Table des diagnostics associés
-PMSI HAD,T_HADaa_nnDMPA,Table des diagnostics liés au MPA (mode de prise en charge associé)
-PMSI HAD,T_HADaa_nnDMPP,Table des diagnostics liés au MPP (mode de prise en charge principal)
-PMSI HAD,T_HADaa_nnE,Table des Etablissements
-PMSI HAD,T_HADaa_nnEHPA,Table des conventions HAD-EHPA
-PMSI HAD,T_HADaa_nnFA,TableFA : Table des RSFA début de facture des établissements ex-OQN
-PMSI HAD,T_HADaa_nnFB,Table FB : Table des RSFA facture des établissements ex-OQN
-PMSI HAD,T_HADaa_nnFC,Table FC : Table des RSFA des honoraires des établissements ex-OQN
-PMSI HAD,T_HADaa_nnFH,Table FH : Table des RSFA des Médicaments en sus des établissements ex-OQN
-PMSI HAD,T_HADaa_nnFI,Table FI : Table des RSFA interruption de séjour des établissements ex-OQN
-PMSI HAD,T_HADaa_nnFL,Table FL : Table des actes de biologie (issus de la NABM) des établissements ex-OQN
-PMSI HAD,T_HADaa_nnFM,Table FM : Table des RSFA des actes CCAM des établissements ex-OQN
-PMSI HAD,T_HADaa_nnFP,Table FP : Table des RSFA des LPP/DMI en sus des établissements ex-OQN
-PMSI HAD,T_HADaa_nnGRE,Table des GHT (groupage établissement)
-PMSI HAD,T_HADaa_nnGRP,Table des GHT et des GHPC (groupage paprica)
-PMSI HAD,T_HADaa_nnMED,Table Molécules onéreuses (fichier COMP)
-PMSI HAD,T_HADaa_nnMEDATU,Fich comp médicament soumis à autorisation temporaire d'utilisation
-PMSI HAD,T_HADaa_nnMEDCHL,Fich comp Médicament coûteux hors liste en sus et hors ATU
-PMSI HAD,T_HADaa_nnS,Synthèses des Résumés Anonyme Par Sous-Séquence
-PMSI HAD,T_HADaa_nnSTC,"Prise en charge par l'AM de chaque séjour, pour les établissements valorisés STC "
-PMSI MCO,T_MCOaa_nnA,Acte CCAM
-PMSI MCO,T_MCOaa_nnB,Description du Séjour
-PMSI MCO,T_MCOaa_nnC,NIR patient et Dates de soin
-PMSI MCO,T_MCOaa_nnCSTC,ACE NIR/date
-PMSI MCO,T_MCOaa_nnD,Diagnostic associé
-PMSI MCO,T_MCOaa_nnDIALP,Fich comp dialyse péritonéale en sus
-PMSI MCO,T_MCOaa_nnDMIP,Fich comp dmi en sus
-PMSI MCO,T_MCOaa_nnE,Etablissement
-PMSI MCO,T_MCOaa_nnFA,OQN Entete facture
-PMSI MCO,T_MCOaa_nnFASTC,ACE Entete facture
-PMSI MCO,T_MCOaa_nnFB,OQN Prestation
-PMSI MCO,T_MCOaa_nnFBSTC,ACE Prestation
-PMSI MCO,T_MCOaa_nnFC,OQN Honoraire
-PMSI MCO,T_MCOaa_nnFCSTC,ACE Honoraire
-PMSI MCO,T_MCOaa_nnFH,OQN medicament en sus
-PMSI MCO,T_MCOaa_nnFHSTC,ACE medicament en sus
-PMSI MCO,T_MCOaa_nnFI,OQN Interruption séjour
-PMSI MCO,T_MCOaa_nnFL,OQN biologie NABM
-PMSI MCO,T_MCOaa_nnFLSTC,ACE biologie NABM
-PMSI MCO,T_MCOaa_nnFM,OQN actes CCAM
-PMSI MCO,T_MCOaa_nnFMSTC,ACE actes CCAM
-PMSI MCO,T_MCOaa_nnFP,OQN DMI en sus
-PMSI MCO,T_MCOaa_nnFPSTC,ACE DMI en sus
-PMSI MCO,T_MCOaa_nnGV2018,Table de passage en version de GHM à partir de mars de l'année suivante
-PMSI MCO,T_MCOaa_nnIVG,Fich comp IVG
-PMSI MCO,T_MCOaa_nnMED,Fich comp medicament en sus
-PMSI MCO,T_MCOaa_nnMEDATU,Fich comp médicament soumis à autorisation temporaire d'utilisation
-PMSI MCO,T_MCOaa_nnMEDTHROMBO,Fich comp Méd. thrombolytiques pour le traitement des AVC ischémiques 
-PMSI MCO,T_MCOaa_nnPIE,Fich comp prestation inter établissement
-PMSI MCO,T_MCOaa_nnPORG,Fich comp prélévement d'organe
-PMSI MCO,T_MCOaa_nnSTC,Prise en charge
-PMSI MCO,T_MCOaa_nnUM,Unité médicale
-PMSI MCO,T_MCOaa_nnUPGV,Types d'autorisations d'unités médicales à portée globale valides
-PMSI MCO,T_MCOaa_nnVALO,Valorisation des séjours
-PMSI MCO,T_MCOaa_nnVALOACE,Valorisation des actes et consultations externes
-PMSI MCO,T_MCOaa_nnZ,Fich comp radiothérapie
-PMSI RIM-P,T_RIPaa_nnC,chainage
-PMSI RIM-P,T_RIPaa_nnCCAM,Actes CCAM
-PMSI RIM-P,T_RIPaa_nnE,etablissement
-PMSI RIM-P,T_RIPaa_nnFA,debut facture
-PMSI RIM-P,T_RIPaa_nnFB,prestation hospitalière
-PMSI RIM-P,T_RIPaa_nnFC,honoraire
-PMSI RIM-P,T_RIPaa_nnFH,medicament
-PMSI RIM-P,T_RIPaa_nnFI,interruption de sejour
-PMSI RIM-P,T_RIPaa_nnFL,actes de Biologie
-PMSI RIM-P,T_RIPaa_nnFM,ccam
-PMSI RIM-P,T_RIPaa_nnFP,prothese
-PMSI RIM-P,T_RIPaa_nnISOCONT,Fich Comp : Isolement et contention
-PMSI RIM-P,T_RIPaa_nnR3A,Résumé par acte ambulatoire anonymisé
-PMSI RIM-P,T_RIPaa_nnR3AD,Diagnostic associé à l'acte
-PMSI RIM-P,T_RIPaa_nnRSA,Résumé par séquence
-PMSI RIM-P,T_RIPaa_nnRSAD,Diagnostic associé à la séquence
-PMSI RIM-P,T_RIPaa_nnS,Synthèse du Séjour de Résumé par séquence anonymisé
-PMSI RIM-P,T_RIPaa_nnSTC,Prise en charge patient pour etb DG
-PMSI SSR,T_SSRaa_nnB,Description du Séjour
-PMSI SSR,T_SSRaa_nnC,NIR patient et Dates de soin
-PMSI SSR,T_SSRaa_nnCCAM,Acte CCAM
-PMSI SSR,T_SSRaa_nnCSARR,actes du Catalogue spécifique des actes de rééducation et réadaptation
-PMSI SSR,T_SSRaa_nnCSTC,ACE NIR/date
-PMSI SSR,T_SSRaa_nnD,diagnostic associé
-PMSI SSR,T_SSRaa_nnE,Etablissement
-PMSI SSR,T_SSRaa_nnFA,OQN Entete facture
-PMSI SSR,T_SSRaa_nnFASTC,ACE Entete facture
-PMSI SSR,T_SSRaa_nnFB,OQN Prestation
-PMSI SSR,T_SSRaa_nnFBSTC,ACE Prestation
-PMSI SSR,T_SSRaa_nnFC,OQN Honoraire
-PMSI SSR,T_SSRaa_nnFCSTC,ACE Honoraire
-PMSI SSR,T_SSRaa_nnFH,OQN med en sus
-PMSI SSR,T_SSRaa_nnFI,OQN Interruption séjour
-PMSI SSR,T_SSRaa_nnFL,OQN actes de biologie (issus de la NABM)
-PMSI SSR,T_SSRaa_nnFLSTC,ACE actes de biologie (issus de la NABM)
-PMSI SSR,T_SSRaa_nnFM,OQN actes CCAM
-PMSI SSR,T_SSRaa_nnFMSTC,ACE actes CCAM
-PMSI SSR,T_SSRaa_nnFP,OQN DMI en sus
-PMSI SSR,T_SSRaa_nnGME,GME
-PMSI SSR,T_SSRaa_nnLEG,Erreurs détectées par la fonction groupage
-PMSI SSR,T_SSRaa_nnMED,Med en sus
-PMSI SSR,T_SSRaa_nnMEDATU,Med à autorisation temporaire d'utilisation
-PMSI SSR,T_SSRaa_nnS,synthese
-PMSI SSR,T_SSRaa_nnSTC,facturation patient DGF
+Produit,Table,Libelle,creation,suppression
+BENEFICIAIRE,IR_BEN_R,Référentiel des bénéficiaires (DCIR),,
+BENEFICIAIRE,IR_IBA_R,Référentiel des bénéficiaires (DCIRS),,
+CARTOGRAPHIE_PATHOLOGIES,CT_DEP_AAAA_GN,Table dépenses de la cartographie des pathologies pour l'année AAAA et l'algorithme N,,
+CARTOGRAPHIE_PATHOLOGIES,CT_IDE_AAAA_GN,Table individus de la cartographie des pathologies pour l'année AAAA et l'algorithme N,,
+CARTOGRAPHIE_PATHOLOGIES,CT_IND_AAAA_GN,Table pathologies de la cartographie des pathologies pour l'année AAAA et l'algorithme N,,
+Causes de décès,KI_CCI_R,Certificats de décès,2013,2015
+Causes de décès,KI_ECD_R,Causes de décès,2013,2015
+DCIR,ER_ANO_F,Miroir,,
+DCIR,ER_ARO_F,"Autre remboursement que régime obligatoire (partie complémentaire CMU-C, Alsace moselle, FNASS,…)",,
+DCIR,ER_BIO_F,affinage des actes de biologie,,
+DCIR,ER_CAM_F,affinage des actes médicaux (codage CCAM),,
+DCIR,ER_CPT_F,Données comptables,,
+DCIR,ER_DCT_F,Décomptes,,
+DCIR,ER_DTR_F,affinage des actes de transport ,,
+DCIR,ER_ETE_F,Informations liées à l'exécution dans un établissement,,
+DCIR,ER_INV_F,affinage des actes invalidité,,
+DCIR,ER_LOT_F,Lot et numéro de série des prestations affinnées pharmacie,,
+DCIR,ER_PHA_F,affinage des actes de pharmacie (officine de ville),,
+DCIR,ER_PRS_F,prestations,,
+DCIR,ER_RAT_F,affinage des rentes et accidents du travail,,
+DCIR,ER_TIP_F,affinage Liste des Produits et Prestations (LPP),,
+DCIR,ER_TRS_F,affinage des actes détaillés de transport ,,
+DCIR,ER_UCD_F,affinage UCD (pharmacie hospitalière),,
+DCIRS,NS_BIO_F,affinage des actes de biologie,,
+DCIRS,NS_CAM_F,affinage des actes médicaux (codage CCAM),,
+DCIRS,NS_DTR_F,affinage des actes de transport ,,
+DCIRS,NS_INV_F,affinage des actes invalidité,,
+DCIRS,NS_PHA_F,affinage des actes de pharmacie (officine de ville),,
+DCIRS,NS_PRS_F,prestations,,
+DCIRS,NS_RAT_F,affinage des rentes et accidents du travail,,
+DCIRS,NS_TIP_F,affinage Liste des Produits et Prestations (LPP),,
+DCIRS,NS_TRS_F,affinage des actes détaillés de transport ,,
+DCIRS,NS_UCD_F,affinage UCD (pharmacie hospitalière),,
+DCIR_DCIRS,DA_PRA_R,Référentiel des professionnels de santé,,
+DCIR_DCIRS,IR_ACS_R,Affiliations à l’Aide à l’acquisition d’une Complémentaire Santé (ACS) ,,
+DCIR_DCIRS,IR_ETM_R,Exonérations du ticket modérateur liées à la personne ,,
+DCIR_DCIRS,IR_IMB_R,Référentiel médicalisé des bénéficiaires (ALD),,
+DCIR_DCIRS,IR_MAT_R,Maternité,,
+DCIR_DCIRS,IR_MTT_R,Médecin traitant,,
+DCIR_DCIRS,IR_ORC_R,Affiliations à un organisme complémentaire,,
+PMSI HAD,T_HADaa_nnA,Table des actes,2012,2017
+PMSI HAD,T_HADaa_nnB,Table des Résumés Anonyme Par Sous-Séquence (RAPSS),2006,2017
+PMSI HAD,T_HADaa_nnC,Table des NIR foinisé deux fois et date entrè/sortie complètes,2006,2017
+PMSI HAD,T_HADaa_nnD,Table des diagnostics associés,2009,2017
+PMSI HAD,T_HADaa_nnDMPA,Table des diagnostics liés au MPA (mode de prise en charge associé),2012,2017
+PMSI HAD,T_HADaa_nnDMPP,Table des diagnostics liés au MPP (mode de prise en charge principal),2012,2017
+PMSI HAD,T_HADaa_nnE,Table des Etablissements,2015,2017
+PMSI HAD,T_HADaa_nnEHPA,Table des conventions HAD-EHPA,2011,2017
+PMSI HAD,T_HADaa_nnFA,TableFA : Table des RSFA début de facture des établissements ex-OQN,2010,2017
+PMSI HAD,T_HADaa_nnFB,Table FB : Table des RSFA facture des établissements ex-OQN,2010,2017
+PMSI HAD,T_HADaa_nnFC,Table FC : Table des RSFA des honoraires des établissements ex-OQN,2010,2017
+PMSI HAD,T_HADaa_nnFH,Table FH : Table des RSFA des Médicaments en sus des établissements ex-OQN,2010,2017
+PMSI HAD,T_HADaa_nnFI,Table FI : Table des RSFA interruption de séjour des établissements ex-OQN,2016,2017
+PMSI HAD,T_HADaa_nnFL,Table FL : Table des actes de biologie (issus de la NABM) des établissements ex-OQN,2012,2017
+PMSI HAD,T_HADaa_nnFM,Table FM : Table des RSFA des actes CCAM des établissements ex-OQN,2010,2017
+PMSI HAD,T_HADaa_nnFP,Table FP : Table des RSFA des LPP/DMI en sus des établissements ex-OQN,2017,2017
+PMSI HAD,T_HADaa_nnGRE,Table des GHT (groupage établissement),2006,2017
+PMSI HAD,T_HADaa_nnGRP,Table des GHT et des GHPC (groupage paprica),2006,2017
+PMSI HAD,T_HADaa_nnMED,Table Molécules onéreuses (fichier COMP),2009,2017
+PMSI HAD,T_HADaa_nnMEDATU,Fich comp médicament soumis à autorisation temporaire d'utilisation,2012,2017
+PMSI HAD,T_HADaa_nnMEDCHL,Fich comp Médicament coûteux hors liste en sus et hors ATU,2016,2017
+PMSI HAD,T_HADaa_nnS,Synthèses des Résumés Anonyme Par Sous-Séquence,2015,2017
+PMSI HAD,T_HADaa_nnSTC,"Prise en charge par l'AM de chaque séjour, pour les établissements valorisés STC ",2007,2017
+PMSI MCO,T_MCOaa_nnA,Acte CCAM,2006,2017
+PMSI MCO,T_MCOaa_nnB,Description du Séjour,2006,2017
+PMSI MCO,T_MCOaa_nnC,NIR patient et Dates de soin,2006,2017
+PMSI MCO,T_MCOaa_nnCSTC,ACE NIR/date,2007,2017
+PMSI MCO,T_MCOaa_nnD,Diagnostic associé,2006,2017
+PMSI MCO,T_MCOaa_nnDIALP,Fich comp dialyse péritonéale en sus,2009,2017
+PMSI MCO,T_MCOaa_nnDMIP,Fich comp dmi en sus,2008,2017
+PMSI MCO,T_MCOaa_nnE,Etablissement,2006,2017
+PMSI MCO,T_MCOaa_nnFA,OQN Entete facture,2006,2017
+PMSI MCO,T_MCOaa_nnFASTC,ACE Entete facture,2007,2017
+PMSI MCO,T_MCOaa_nnFB,OQN Prestation,2006,2017
+PMSI MCO,T_MCOaa_nnFBSTC,ACE Prestation,2008,2017
+PMSI MCO,T_MCOaa_nnFC,OQN Honoraire,2006,2017
+PMSI MCO,T_MCOaa_nnFCSTC,ACE Honoraire,2007,2017
+PMSI MCO,T_MCOaa_nnFH,OQN medicament en sus,2006,2017
+PMSI MCO,T_MCOaa_nnFHSTC,ACE medicament en sus,2009,2017
+PMSI MCO,T_MCOaa_nnFI,OQN Interruption séjour,2006,2017
+PMSI MCO,T_MCOaa_nnFL,OQN biologie NABM,2012,2017
+PMSI MCO,T_MCOaa_nnFLSTC,ACE biologie NABM,2012,2017
+PMSI MCO,T_MCOaa_nnFM,OQN actes CCAM,2006,2017
+PMSI MCO,T_MCOaa_nnFMSTC,ACE actes CCAM,2007,2017
+PMSI MCO,T_MCOaa_nnFP,OQN DMI en sus,2006,2017
+PMSI MCO,T_MCOaa_nnFPSTC,ACE DMI en sus,2011,2017
+PMSI MCO,T_MCOaa_nnGV2018,Table de passage en version de GHM à partir de mars de l'année suivante,2017,2017
+PMSI MCO,T_MCOaa_nnIVG,Fich comp IVG,2017,2017
+PMSI MCO,T_MCOaa_nnMED,Fich comp medicament en sus,2008,2017
+PMSI MCO,T_MCOaa_nnMEDATU,Fich comp médicament soumis à autorisation temporaire d'utilisation,2012,2017
+PMSI MCO,T_MCOaa_nnMEDTHROMBO,Fich comp Méd. thrombolytiques pour le traitement des AVC ischémiques ,2012,2017
+PMSI MCO,T_MCOaa_nnPIE,Fich comp prestation inter établissement,2008,2017
+PMSI MCO,T_MCOaa_nnPORG,Fich comp prélévement d'organe,2008,2017
+PMSI MCO,T_MCOaa_nnSTC,Prise en charge,2006,2017
+PMSI MCO,T_MCOaa_nnUM,Unité médicale,2006,2017
+PMSI MCO,T_MCOaa_nnUPGV,Types d'autorisations d'unités médicales à portée globale valides,2012,2017
+PMSI MCO,T_MCOaa_nnVALO,Valorisation des séjours,2011,2017
+PMSI MCO,T_MCOaa_nnVALOACE,Valorisation des actes et consultations externes,2013,2017
+PMSI MCO,T_MCOaa_nnZ,Fich comp radiothérapie,2011,2017
+PMSI RIM-P,T_RIPaa_nnC,chainage,2007,2017
+PMSI RIM-P,T_RIPaa_nnCCAM,Actes CCAM,2017,2017
+PMSI RIM-P,T_RIPaa_nnE,etablissement,2007,2017
+PMSI RIM-P,T_RIPaa_nnFA,debut facture,2010,2017
+PMSI RIM-P,T_RIPaa_nnFB,prestation hospitalière,2010,2017
+PMSI RIM-P,T_RIPaa_nnFC,honoraire,2010,2017
+PMSI RIM-P,T_RIPaa_nnFH,medicament,2010,2017
+PMSI RIM-P,T_RIPaa_nnFI,interruption de sejour,2010,2017
+PMSI RIM-P,T_RIPaa_nnFL,actes de Biologie,2012,2017
+PMSI RIM-P,T_RIPaa_nnFM,ccam,2010,2017
+PMSI RIM-P,T_RIPaa_nnFP,prothese,2010,2017
+PMSI RIM-P,T_RIPaa_nnISOCONT,Fich Comp : Isolement et contention,,
+PMSI RIM-P,T_RIPaa_nnR3A,Résumé par acte ambulatoire anonymisé,2007,2017
+PMSI RIM-P,T_RIPaa_nnR3AD,Diagnostic associé à l'acte,2007,2017
+PMSI RIM-P,T_RIPaa_nnRSA,Résumé par séquence,2007,2017
+PMSI RIM-P,T_RIPaa_nnRSAD,Diagnostic associé à la séquence,2007,2017
+PMSI RIM-P,T_RIPaa_nnS,Synthèse du Séjour de Résumé par séquence anonymisé,2015,2017
+PMSI RIM-P,T_RIPaa_nnSTC,Prise en charge patient pour etb DG,2012,2017
+PMSI SSR,T_SSRaa_nnB,Description du Séjour,2006,2017
+PMSI SSR,T_SSRaa_nnC,NIR patient et Dates de soin,2006,2017
+PMSI SSR,T_SSRaa_nnCCAM,Acte CCAM,2009,2017
+PMSI SSR,T_SSRaa_nnCSARR,actes du Catalogue spécifique des actes de rééducation et réadaptation,2014,2017
+PMSI SSR,T_SSRaa_nnCSTC,ACE NIR/date,2013,2017
+PMSI SSR,T_SSRaa_nnD,diagnostic associé,2009,2017
+PMSI SSR,T_SSRaa_nnE,Etablissement,2006,2017
+PMSI SSR,T_SSRaa_nnFA,OQN Entete facture,2007,2017
+PMSI SSR,T_SSRaa_nnFASTC,ACE Entete facture,2012,2017
+PMSI SSR,T_SSRaa_nnFB,OQN Prestation,2007,2017
+PMSI SSR,T_SSRaa_nnFBSTC,ACE Prestation,2012,2017
+PMSI SSR,T_SSRaa_nnFC,OQN Honoraire,2007,2017
+PMSI SSR,T_SSRaa_nnFCSTC,ACE Honoraire,2012,2017
+PMSI SSR,T_SSRaa_nnFH,OQN med en sus,2007,2017
+PMSI SSR,T_SSRaa_nnFI,OQN Interruption séjour,2007,2017
+PMSI SSR,T_SSRaa_nnFL,OQN actes de biologie (issus de la NABM),2012,2017
+PMSI SSR,T_SSRaa_nnFLSTC,ACE actes de biologie (issus de la NABM),2012,2017
+PMSI SSR,T_SSRaa_nnFM,OQN actes CCAM,2007,2017
+PMSI SSR,T_SSRaa_nnFMSTC,ACE actes CCAM,2012,2017
+PMSI SSR,T_SSRaa_nnFP,OQN DMI en sus,2007,2017
+PMSI SSR,T_SSRaa_nnGME,GME,2012,2017
+PMSI SSR,T_SSRaa_nnLEG,Erreurs détectées par la fonction groupage,2014,2017
+PMSI SSR,T_SSRaa_nnMED,Med en sus,2010,2017
+PMSI SSR,T_SSRaa_nnMEDATU,Med à autorisation temporaire d'utilisation,2012,2017
+PMSI SSR,T_SSRaa_nnS,synthese,2006,2017
+PMSI SSR,T_SSRaa_nnSTC,facturation patient DGF,2014,2017

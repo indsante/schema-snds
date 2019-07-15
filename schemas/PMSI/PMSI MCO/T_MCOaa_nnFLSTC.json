@@ -6,7 +6,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2012",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "ANN_MOI",
@@ -14,7 +17,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2012",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "DEL_DAT_ENT",
@@ -22,7 +28,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2012",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "ETA_NUM",
@@ -30,7 +39,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2012",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "ETA_NUM_GEO",
@@ -38,7 +50,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2016",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "NABM_COD",
@@ -46,7 +61,10 @@
             "type": "string",
             "nomenclature": "IR_BIO_R",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2012",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "NUM_FAC",
@@ -54,7 +72,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2012",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "PSH_DMT",
@@ -62,7 +83,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2012",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "PSH_MDT",
@@ -70,7 +94,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2012",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "RSF_TYP",
@@ -78,7 +105,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2012",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "SEQ_NUM",
@@ -86,7 +116,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2012",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "TYP_ART",
@@ -94,7 +127,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2012",
+            "dateDeleted": "2017",
+            "dateMissing": []
         }
     ],
     "name": "T_MCOaa_nnFLSTC",
@@ -118,5 +154,10 @@
                 ]
             }
         }
-    ]
+    ],
+    "history": {
+        "dateCreated": "2012",
+        "dateDeleted": "2017",
+        "dateMissing": []
+    }
 }

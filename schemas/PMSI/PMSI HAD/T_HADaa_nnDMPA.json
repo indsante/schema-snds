@@ -6,7 +6,10 @@
             "type": "string",
             "nomenclature": "IR_CIM_V",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2012",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "ETA_NUM_EPMSI",
@@ -14,7 +17,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "ETA_NUM_GEO",
@@ -22,7 +28,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2017",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "RHAD_NUM",
@@ -30,7 +39,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2012",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "SEQ_NUM",
@@ -38,7 +50,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2012",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "SSEQ_NUM",
@@ -46,7 +61,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2012",
+            "dateDeleted": "2017",
+            "dateMissing": []
         }
     ],
     "name": "T_HADaa_nnDMPA",
@@ -70,5 +88,10 @@
                 ]
             }
         }
-    ]
+    ],
+    "history": {
+        "dateCreated": "2012",
+        "dateDeleted": "2017",
+        "dateMissing": []
+    }
 }

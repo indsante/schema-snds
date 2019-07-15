@@ -6,7 +6,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2014",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "COD_CIV",
@@ -14,7 +17,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "COD_PEC",
@@ -22,7 +28,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "COD_SEX",
@@ -30,7 +39,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "CON_TYP",
@@ -38,7 +50,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2008",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "ETA_NUM",
@@ -46,7 +61,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "EXO_TM",
@@ -54,7 +72,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "FAC_ETL",
@@ -62,7 +83,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2008",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "GES_COD",
@@ -70,7 +94,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2017",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "HON_AM_MNR",
@@ -78,7 +105,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "HON_MNT",
@@ -86,7 +116,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "HON_OC_MNR",
@@ -94,7 +127,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "NAT_ASS",
@@ -102,7 +138,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "NIR_ANO_MAM",
@@ -110,7 +149,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2012",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "NOE_RGM",
@@ -118,7 +160,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "NUM_DAT_AT",
@@ -126,7 +171,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2015",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "NUM_FAC",
@@ -134,7 +182,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "OPE_NAT",
@@ -142,7 +193,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "ORG_CPL_NUM",
@@ -150,7 +204,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2015",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "PAS_OC_MNT",
@@ -158,7 +215,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "PAT_CMU",
@@ -166,7 +226,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2012",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "PH_AMO_MNR",
@@ -174,7 +237,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "PH_BRM",
@@ -182,7 +248,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "PH_MNT",
@@ -190,7 +259,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "PH_OC_MNR",
@@ -198,7 +270,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "RNG_BEN",
@@ -206,7 +281,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2016",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "RNG_NAI",
@@ -214,7 +292,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2016",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "RSA_NUM",
@@ -222,7 +303,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "RSF_TYP",
@@ -230,7 +314,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "SOR_ANN",
@@ -238,7 +325,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2008",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "SOR_MOI",
@@ -246,7 +336,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2008",
+            "dateDeleted": "2017",
+            "dateMissing": []
         },
         {
             "name": "TYP_ART",
@@ -254,7 +347,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": null,
-            "format": "default"
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "2017",
+            "dateMissing": []
         }
     ],
     "name": "T_MCOaa_nnFA",
@@ -278,5 +374,10 @@
                 ]
             }
         }
-    ]
+    ],
+    "history": {
+        "dateCreated": "2006",
+        "dateDeleted": "2017",
+        "dateMissing": []
+    }
 }

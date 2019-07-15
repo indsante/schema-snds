@@ -9,7 +9,10 @@
             "format": "default",
             "constraints": {
                 "unique": true
-            }
+            },
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "ben_nir_psa",
@@ -17,7 +20,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "17",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "ben_rng_gem",
@@ -25,7 +31,10 @@
             "type": "number",
             "nomenclature": "-",
             "length": "8",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         },
         {
             "name": "version",
@@ -33,7 +42,10 @@
             "type": "string",
             "nomenclature": "-",
             "length": "2",
-            "format": "default"
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
         }
     ],
     "name": "CT_IDE_AAAA_GN",
@@ -61,5 +73,10 @@
                 ]
             }
         }
-    ]
+    ],
+    "history": {
+        "dateCreated": "",
+        "dateDeleted": "",
+        "dateMissing": []
+    }
 }

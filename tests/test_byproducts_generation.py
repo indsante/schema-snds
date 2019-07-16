@@ -16,4 +16,5 @@ def test_generated_byproducts_equal_files():
                 actual = f.read().split("\n")
             with open(expected_file_path, encoding="utf-8") as f:
                 expected = f.read().split("\n")
-            assert expected == actual
+            for expected_line, actual_line in zip(expected, actual):
+                assert expected_line == actual_line

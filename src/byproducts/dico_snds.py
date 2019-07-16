@@ -58,6 +58,7 @@ def table_schema_to_snds_variables():
             nomenclature = nomenclature if (nomenclature.strip() != 'nan') else NO_NOMENCLATURE
             creation = str(descriptor.get('dateCreated', ''))
             suppression = str(descriptor.get('dateDeleted', ''))
+            missing_dates = ', '.join(descriptor.get('dateMissing', ''))
 
             variables_list.append({
                 # dico_produit: schema.descriptor[SCHEMA_PRODUIT],
@@ -67,12 +68,14 @@ def table_schema_to_snds_variables():
                 'description': descriptor['description'],
                 'nomenclature': nomenclature,
                 'creation': creation,
-                'suppression': suppression
+                'suppression': suppression,
+                'dates_manquantes': missing_dates
             })
     df = pd.DataFrame(variables_list,
                       columns=[
                           # dico_produit,
-                          'table', DICO_VARIABLE, 'format', 'description', 'nomenclature', 'creation', 'suppression'])
+                          'table', DICO_VARIABLE, 'format', 'description', 'nomenclature', 'creation', 'suppression',
+                          'dates_manquantes'])
     df = df.sort_values([
         # dico_produit,
         'table', DICO_VARIABLE])
@@ -94,10 +97,12 @@ def table_schema_to_snds_tables():
             dico_table: schema.descriptor['name'],
             dico_libelle: schema.descriptor['title'],
             dico_creation: schema.descriptor['history']['dateCreated'],
-            dico_suppression: schema.descriptor['history']['dateDeleted']
+            dico_suppression: schema.descriptor['history']['dateDeleted'],
+            'dates_manquantes': ', '.join(schema.descriptor['history']['dateMissing'])
 
         })
-    df = pd.DataFrame(table_list, columns=[dico_produit, dico_table, dico_libelle, dico_creation, dico_suppression])
+    df = pd.DataFrame(table_list, columns=[dico_produit, dico_table, dico_libelle, dico_creation, dico_suppression,
+                                           'dates_manquantes'])
     df = df.sort_values([dico_produit, dico_table, dico_libelle])
     snds_table_path = os.path.join(DICO_SNDS_DIR, TABLES_CSV)
     df.to_csv(snds_table_path, index=False)

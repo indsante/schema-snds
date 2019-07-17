@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "PRS_REM_TYP",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "REM_TYP_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_TYR_V",
+    "title": "Type de Remboursement",
+    "primaryKey": [
+        "PRS_REM_TYP"
+    ]
+}

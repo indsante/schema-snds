@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "TAA_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "TAA_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_TAA_V",
+    "title": "Impact T2A publique sur le référentiel tables",
+    "primaryKey": [
+        "TAA_COD"
+    ]
+}

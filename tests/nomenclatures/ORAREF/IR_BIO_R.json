@@ -1,0 +1,133 @@
+{
+    "fields": [
+        {
+            "name": "BIO_PRS_IDE",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "BIO_INF_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "BIO_CRE_DAT",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "BIO_SUP_DAT",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "BIO_ARB_CHA",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "BIO_ARB_SC1",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "BIO_ARB_SC2",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "BIO_ARB_SC3",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "BIO_ARB_SC4",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "BIO_ARB_BAS",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "BIO_PHY_GRP",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "BIO_GRP_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "BIO_HIS_DTD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "BIO_HIS_DTF",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "BIO_ENP_TOP",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "BIO_TUX_TOP",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "BIO_MAX_EXE",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "BIO_SPE_REG",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "BIO_MAX_REG",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "BIO_MED_REF",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "BIO_RES_TOP",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "BIO_BIO_INV",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "BIO_SNG_TOP",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "BIO_TAR_NAT",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "BIO_TAR_COF",
+            "type": "string",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_BIO_R"
+}

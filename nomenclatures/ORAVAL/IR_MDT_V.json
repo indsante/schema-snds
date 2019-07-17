@@ -1,0 +1,44 @@
+{
+    "fields": [
+        {
+            "name": "MDT_COD",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "MDT_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "MDT_HOS_COD",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "MDT_HOS_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "MDT_TYP_COD",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "MDT_TYP_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_MDT_V",
+    "title": "Mode de Traitement"
+}

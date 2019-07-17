@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "INV_PEN_ETA",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "INV_ETA_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_EIN_V",
+    "title": "Etat de pension d'invalidité",
+    "primaryKey": [
+        "INV_PEN_ETA"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "MTM_NAT",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "MTM_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_MTM_V",
+    "title": "Modulation du Ticket Modérateur",
+    "primaryKey": [
+        "MTM_NAT"
+    ]
+}

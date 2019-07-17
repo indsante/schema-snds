@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "CPT_MVT_SNS",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "MVT_SNS_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_SNS_V",
+    "title": "Sens du Mouvement",
+    "primaryKey": [
+        "CPT_MVT_SNS"
+    ]
+}

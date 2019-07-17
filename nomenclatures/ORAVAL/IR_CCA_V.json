@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "CCA_CPL_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "CCA_CPL_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_CCA_V",
+    "title": "Codes compléments associés",
+    "primaryKey": [
+        "CCA_CPL_COD"
+    ]
+}

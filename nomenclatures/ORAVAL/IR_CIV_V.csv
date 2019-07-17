@@ -1,9 +1,9 @@
-"nom_table";"TEC_COL";"INV_PEN_CAT";"INV_PEN_LIB";"CPT_COP_NUM"
-"IR_CIV_V";0;0;"Pensions liquidées par forçage";NA
-"IR_CIV_V";0;1;"Pensions de première catégorie";NA
-"IR_CIV_V";0;2;"Pensions de deuxième catégorie";NA
-"IR_CIV_V";0;3;"Pensions de troisième catégorie";NA
-"IR_CIV_V";0;5;"Pensions de conjoint survivant";NA
-"IR_CIV_V";0;8;"Pensions migrant";NA
-"IR_CIV_V";0;9;"Pensions (décret loi du 28.10.35)";NA
-"IR_CIV_V";1;99;"VALEUR INCONNUE";NA
+INV_PEN_CAT;INV_PEN_LIB;TEC_COL
+0;Pensions liquidées par forçage;0
+1;Pensions de première catégorie;0
+2;Pensions de deuxième catégorie;0
+3;Pensions de troisième catégorie;0
+5;Pensions de conjoint survivant;0
+8;Pensions migrant;0
+9;Pensions (décret loi du 28.10.35);0
+99;VALEUR INCONNUE;1

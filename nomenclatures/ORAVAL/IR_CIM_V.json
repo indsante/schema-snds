@@ -1,0 +1,54 @@
+{
+    "fields": [
+        {
+            "name": "CIM_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "CIM_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "ALD_030_COD",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "CAT_CIM_COD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "VER_CPT_COD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "VER_CPT_DTE",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "CAT_TUM_COD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_CIM_V",
+    "title": "Tables de codes CIM10 ( MAJ à contrôler )",
+    "primaryKey": [
+        "CIM_COD"
+    ]
+}

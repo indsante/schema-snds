@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "PRS_FJH_TYP",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "PRS_FJH_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_FJH_V",
+    "title": "Type de Prise en Charge Forfait Journalier",
+    "primaryKey": [
+        "PRS_FJH_TYP"
+    ]
+}

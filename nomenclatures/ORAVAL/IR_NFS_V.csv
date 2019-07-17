@@ -1,11 +1,11 @@
-"nom_table";"TEC_COL";"CPT_COP_NUM";"NFS_NAT_COD";"NFS_NAT_LIB"
-"IR_NFS_V";0;NA;"D";"DECES"
-"IR_NFS_V";0;NA;"E";"ECHANGE (plateau technique <48h)"
-"IR_NFS_V";0;NA;"P";"PRESENCE"
-"IR_NFS_V";0;NA;"R";"RETOUR"
-"IR_NFS_V";0;NA;"S";"SORTIE"
-"IR_NFS_V";0;NA;"T";"TRANSFERT"
-"IR_NFS_V";1;NA;"I";"VALEUR INCONNUE"
-"IR_NFS_V";0;NA;"H";"HAD DANS UN EHPAD (GHT minoré)"
-"IR_NFS_V";0;NA;"B";"SEUIL BAS"
-"IR_NFS_V";0;NA;"A";"abattement GHS en présence de PH8"
+NFS_NAT_COD;NFS_NAT_LIB;TEC_COL
+D;DECES;0
+E;ECHANGE (plateau technique <48h);0
+P;PRESENCE;0
+R;RETOUR;0
+S;SORTIE;0
+T;TRANSFERT;0
+I;VALEUR INCONNUE;1
+H;HAD DANS UN EHPAD (GHT minoré);0
+B;SEUIL BAS;0
+A;abattement GHS en présence de PH8;0

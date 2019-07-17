@@ -1,0 +1,39 @@
+{
+    "fields": [
+        {
+            "name": "PFS_STJ_COD",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "PFS_STJ_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "PFS_EXC_TYP",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "PFS_EXC_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "SJP_RGT",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_SJP_V",
+    "title": "Statut Juridique ou Mode d'exercice d'un PS"
+}

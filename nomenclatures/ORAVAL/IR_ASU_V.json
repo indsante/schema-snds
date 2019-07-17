@@ -1,0 +1,44 @@
+{
+    "fields": [
+        {
+            "name": "ASU_NAT",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "ASU_NAT_CB2",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "ASU_NAT_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "ASU_GES_TYP",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "ASU_GES_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_ASU_V",
+    "title": "Nature d'Assurance",
+    "primaryKey": [
+        "ASU_NAT"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "fields": [
+        {
+            "name": "DCD_CAU_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "DCD_CAU_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "DS_CAU_V",
+    "primaryKey": [
+        "DCD_CAU_COD"
+    ]
+}

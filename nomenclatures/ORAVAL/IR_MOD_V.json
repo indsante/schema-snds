@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "DRG_MOD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "DRG_MOD_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_MOD_V",
+    "title": "Mode de Règlement",
+    "primaryKey": [
+        "DRG_MOD"
+    ]
+}

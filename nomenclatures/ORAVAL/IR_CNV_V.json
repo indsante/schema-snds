@@ -1,0 +1,49 @@
+{
+    "fields": [
+        {
+            "name": "PFS_CNV_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "PFS_CNV_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "CNV_LIB_RH",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "CNV_LIB_RIA",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "PFS_CNV_SEC",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "PFS_SEC_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_CNV_V",
+    "title": "Conventions Médicales",
+    "primaryKey": [
+        "PFS_CNV_COD"
+    ]
+}

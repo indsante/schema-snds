@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "PRS_TOP_ENP",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "PRS_ENP_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_TEK_V",
+    "title": "Top Entente Préalable Kiné",
+    "primaryKey": [
+        "PRS_TOP_ENP"
+    ]
+}

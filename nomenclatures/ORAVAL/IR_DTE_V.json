@@ -1,0 +1,64 @@
+{
+    "fields": [
+        {
+            "name": "DTE_DTE",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "DTE_ANN_MOI",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "DTE_QTI",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "DTE_JOU",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "DTE_JOU_SEM",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "DTE_JOU_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "DTE_SEM_NUM",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "DTE_JOV_TOP",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "DTE_WKD_TOP",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "DTE_FER_TOP",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_DTE_V",
+    "title": "Période civile journalière"
+}

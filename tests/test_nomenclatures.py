@@ -1,10 +1,15 @@
 import logging
 import os
 import re
+from pprint import pprint
 
-from src.constants import SCHEMAS, NOMENCLATURES, NO_NOMENCLATURE
-from src.utils import get_all_schema
+import pytest
+from goodtables import validate
+
 from src.byproducts.main import generate_byproducts
+from src.constants import SCHEMAS, NOMENCLATURES, NO_NOMENCLATURE
+from src.utils import get_all_nomenclatures_csv_schema_path
+from src.utils import get_all_schema
 
 
 def list_nomenclatures_usage():
@@ -25,8 +30,10 @@ def list_present_nomenclatures():
     return present_nomenclatures
 
 
-def test_number_nomenclatures_sup_1():
-    assert list_present_nomenclatures()
+def test_nomenclatures_list():
+    nomenclature_list = list_present_nomenclatures()
+    assert nomenclature_list
+    assert len(nomenclature_list) == len(set(nomenclature_list))
 
 
 def test_nomenclature_presence():
@@ -38,5 +45,21 @@ def test_nomenclature_presence():
     if len(nomenclatures_difference) != 0:
         logging.error(
             "Following nomenclatures are described in schema but not added in nomenclature folder; {}"
-            .format(nomenclatures_difference))
+                .format(nomenclatures_difference))
     assert len(nomenclatures_difference) == 0
+
+
+def test_all_nomenclatures_have_schema():
+    for nomenclature_path, schema_path in get_all_nomenclatures_csv_schema_path(NOMENCLATURES):
+        print(schema_path)
+        assert os.path.exists(schema_path), "Missing schema for nomenclature '{}'.".format(nomenclature_path)
+
+
+@pytest.mark.parametrize('nomenclature_path,schema_path', get_all_nomenclatures_csv_schema_path(NOMENCLATURES))
+def test_validate_nomenclature_schema(nomenclature_path, schema_path):
+    """
+    Validate that nomenclature's schema is valid.
+    """
+    report = validate(nomenclature_path, schema=schema_path)
+    pprint(report)
+    assert report['error-count'] == 0

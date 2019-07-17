@@ -1,0 +1,39 @@
+{
+    "fields": [
+        {
+            "name": "QPS_QPS_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "QPS_MOD_COD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "QPS_COD_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "QPS_NPS_COD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_QPS_V",
+    "title": "Table des qualificatifs de parcours de soin (sortie)",
+    "primaryKey": [
+        "QPS_QPS_COD"
+    ]
+}

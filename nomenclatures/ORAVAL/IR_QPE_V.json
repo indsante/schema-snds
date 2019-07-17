@@ -1,0 +1,39 @@
+{
+    "fields": [
+        {
+            "name": "QPE_QPE_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "QPE_MOD_COD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "QPE_COD_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "QPE_NPS_COD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_QPE_V",
+    "title": "Table des qualificatifs de parcours de soin (entrée)",
+    "primaryKey": [
+        "QPE_QPE_COD"
+    ]
+}

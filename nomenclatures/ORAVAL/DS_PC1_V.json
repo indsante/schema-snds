@@ -1,0 +1,28 @@
+{
+    "fields": [
+        {
+            "name": "CAT_PC1_CH1",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "CH1_PC1_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "DS_PC1_V",
+    "primaryKey": [
+        "CAT_PC1_CH1"
+    ]
+}

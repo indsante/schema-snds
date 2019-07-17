@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "PRV_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "PRV_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "MS_PRV_V",
+    "title": "Provenance",
+    "primaryKey": [
+        "PRV_COD"
+    ]
+}

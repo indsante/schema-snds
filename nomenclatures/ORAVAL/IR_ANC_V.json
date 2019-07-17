@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "CPL_ANO_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "CPL_ANO_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_ANC_V",
+    "title": "Type de remboursement",
+    "primaryKey": [
+        "CPL_ANO_COD"
+    ]
+}

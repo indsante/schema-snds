@@ -1,0 +1,49 @@
+{
+    "fields": [
+        {
+            "name": "CIM_COD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "CIM_LIC",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "CIM_LIL",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "MVT_DTE",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "MVT_ORI",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "MVT_TYP",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "CIM_LIC_OLD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "MS_CIM_V",
+    "title": "Codes Diagnostics (CIM10) pour le PMSI (limite à 20 000 lignes) ( MAJ à contrôler )"
+}

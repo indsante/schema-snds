@@ -36,6 +36,14 @@ PRODUIT_TO_GROUP = {
 
 pd.options.display.max_columns = 100
 
+DATE_CREATED = 'dateCreated'
+DATE_DELETED = 'dateDeleted'
+DATE_MISSING = 'dateMissing'
+
+DATE_CREATION = 'creation'
+DATE_SUPRESSION = 'suppression'
+DATES_MANQUANTES = 'dates_manquantes'
+
 
 def generate_dico_snds():
     logging.info("Convert schemas to dico-snds app data")
@@ -56,8 +64,6 @@ def table_schema_to_snds_variables():
             length = ' ({})'.format(length) if length else ''
             nomenclature = str(descriptor.get('nomenclature', ''))
             nomenclature = nomenclature if (nomenclature.strip() != 'nan') else NO_NOMENCLATURE
-            creation = str(descriptor.get('dateCreated', ''))
-            suppression = str(descriptor.get('dateDeleted', ''))
 
             variables_list.append({
                 # dico_produit: schema.descriptor[SCHEMA_PRODUIT],
@@ -66,13 +72,15 @@ def table_schema_to_snds_variables():
                 'format': descriptor['type'] + length,
                 'description': descriptor['description'],
                 'nomenclature': nomenclature,
-                'creation': creation,
-                'suppression': suppression
+                DATE_CREATION: str(descriptor.get(DATE_CREATED, '')),
+                DATE_SUPRESSION: str(descriptor.get(DATE_DELETED, '')),
+                DATES_MANQUANTES: ', '.join(descriptor.get(DATE_MISSING, ''))
             })
     df = pd.DataFrame(variables_list,
                       columns=[
                           # dico_produit,
-                          'table', DICO_VARIABLE, 'format', 'description', 'nomenclature', 'creation', 'suppression'])
+                          'table', DICO_VARIABLE, 'format', 'description', 'nomenclature', DATE_CREATION,
+                          DATE_SUPRESSION, DATES_MANQUANTES])
     df = df.sort_values([
         # dico_produit,
         'table', DICO_VARIABLE])
@@ -85,19 +93,20 @@ def table_schema_to_snds_tables():
     dico_produit = "Produit"
     dico_table = "Table"
     dico_libelle = 'Libelle'
-    dico_creation = 'creation'
-    dico_suppression = 'suppression'
+
     table_list = []
     for schema in get_all_schema():
         table_list.append({
             dico_produit: schema.descriptor[SCHEMA_PRODUIT],
             dico_table: schema.descriptor['name'],
             dico_libelle: schema.descriptor['title'],
-            dico_creation: schema.descriptor['history']['dateCreated'],
-            dico_suppression: schema.descriptor['history']['dateDeleted']
+            DATE_CREATION: schema.descriptor['history'][DATE_CREATED],
+            DATE_SUPRESSION: schema.descriptor['history'][DATE_DELETED],
+            DATES_MANQUANTES: ', '.join(schema.descriptor['history'][DATE_MISSING])
 
         })
-    df = pd.DataFrame(table_list, columns=[dico_produit, dico_table, dico_libelle, dico_creation, dico_suppression])
+    df = pd.DataFrame(table_list, columns=[dico_produit, dico_table, dico_libelle, DATE_CREATION, DATE_SUPRESSION,
+                                           DATES_MANQUANTES])
     df = df.sort_values([dico_produit, dico_table, dico_libelle])
     snds_table_path = os.path.join(DICO_SNDS_DIR, TABLES_CSV)
     df.to_csv(snds_table_path, index=False)

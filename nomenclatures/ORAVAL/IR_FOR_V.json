@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "FOR_TAU_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "FOR_TAU_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_FOR_V",
+    "title": "Forçage du taux",
+    "primaryKey": [
+        "FOR_TAU_COD"
+    ]
+}

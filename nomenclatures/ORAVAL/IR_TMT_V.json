@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "TMT_TOP_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "TMT_TOP_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_TMT_V",
+    "title": "Origine de la prescription",
+    "primaryKey": [
+        "TMT_TOP_COD"
+    ]
+}

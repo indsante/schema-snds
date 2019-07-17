@@ -1,0 +1,39 @@
+{
+    "fields": [
+        {
+            "name": "GEO_DPT_COD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GEO_COM_COD",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "GEO_COM_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GEO_EMP_BAS",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "GEO_SAN_SEC",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_GEO_V",
+    "title": "Géographie Administrative et Sanitaire"
+}

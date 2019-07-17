@@ -1,0 +1,389 @@
+{
+    "fields": [
+        {
+            "name": "GHS_GRP_TYP",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_NUM",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "GHS_NUM_SEC",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "GHS_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_CRE_DTE",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_FER_DTE",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_NAT_ASS",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_AGE_MIN",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_AGE_MAX",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_SEX",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_CMD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_ARR_DTE",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_PJO_DTE",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_MAJ_DTE",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_DDP_MCO",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_EO1_DTE",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_DUR_SJ1",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_SEU_HT1",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_SEU_BA1",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_PRU_OC1",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_EXH_OC1",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_PRU_EX1",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_COE_OC1",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_COF_OC1",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_F01_OC1",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_F02_OC1",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_F03_OC1",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_F04_OC1",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_F05_OC1",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_F06_OC1",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_F07_OC1",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_F08_OC1",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_F09_OC1",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_F10_OC1",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_MAJ_OC1",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_EO2_DTE",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_DUR_SJ2",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_SEU_HT2",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_SEU_BA2",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_PRU_OC2",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_EXH_OC2",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_PRU_EX2",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_COE_OC2",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_COF_OC2",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_F01_OC2",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_F02_OC2",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_F03_OC2",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_F04_OC2",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_F05_OC2",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_F06_OC2",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_F07_OC2",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_F08_OC2",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_F09_OC2",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_F10_OC2",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_MAJ_OC2",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_EO3_DTE",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_DUR_SJ3",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_SEU_HT3",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_SEU_BA3",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_PRU_OC3",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_EXH_OC3",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_PRU_EX3",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_COE_OC3",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_COF_OC3",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_F01_OC3",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_F02_OC3",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_F03_OC3",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_F04_OC3",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_F05_OC3",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_F06_OC3",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_F07_OC3",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_F08_OC3",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_F09_OC3",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_F10_OC3",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GHS_MAJ_OC3",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_GHS_V",
+    "title": "Groupe homogène de séjour  GHS   code GHS_GRP_TYP = S  ( MAJ annuelle )"
+}

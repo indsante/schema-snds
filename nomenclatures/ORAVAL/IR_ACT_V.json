@@ -1,0 +1,39 @@
+{
+    "fields": [
+        {
+            "name": "PFS_ACT_NAT",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "PFS_ACT_CAT",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "ACT_POS",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "ACT_NAT_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "SPE_LIB_SNI",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_ACT_V",
+    "title": "Nature d'Activité (Non Médecins)"
+}

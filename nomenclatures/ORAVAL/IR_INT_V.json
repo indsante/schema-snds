@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "DCT_INT_VER",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "INT_VER_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_INT_V",
+    "title": "Type de version interface tiers",
+    "primaryKey": [
+        "DCT_INT_VER"
+    ]
+}

@@ -1,35 +1,35 @@
-"nom_table";"TEC_COL";"ALD_030_COD";"ALD_030_LIB";"ALD_DEC_DAT";"CPT_COP_NUM"
-"IR_ALD_V";2;0;"Sans Objet";"";NA
-"IR_ALD_V";0;1;"Accident vasculaire cérébral invalidant";"19 janvier 2011 (Decret no2011-77)";NA
-"IR_ALD_V";0;2;"Insuffisances médullaires et autres cytopénies chroniques";"19 janvier 2011 (Decret no2011-77)";NA
-"IR_ALD_V";0;3;"Artériopathies chroniques avec manifestations ischémiques";"19 janvier 2011 (Decret no2011-77)";NA
-"IR_ALD_V";0;4;"Bilharziose compliquée";"19 janvier 2011 (Decret no2011-77)";NA
-"IR_ALD_V";0;5;"Insuffisance cardiaque grave, troubles du rythme graves, cardiopathies valvulaires graves, cardiopathies congénitales graves";"19 janvier 2011 (Decret no2011-77)";NA
-"IR_ALD_V";0;6;"Maladies chroniques actives du foie et cirrhoses";"19 janvier 2011 (Decret no2011-77)";NA
-"IR_ALD_V";0;7;"Déficit immunitaire primitif grave nécessitant un traitement prolongé et infection par le VIH";"19 janvier 2011 (Decret no2011-77)";NA
-"IR_ALD_V";0;8;"Diabète de type 1 et diabète de type 2";"19 janvier 2011 (Decret no2011-77)";NA
-"IR_ALD_V";0;9;"Formes graves des affections neurologiques et musculaires (dont Myopathie), Epilepsie grave";"19 janvier 2011 (Decret no2011-77)";NA
-"IR_ALD_V";0;10;"Hémoglobinopathies, hémolyses, chroniques constitutionnelles, acquises sévères";"19 janvier 2011 (Decret no2011-77)";NA
-"IR_ALD_V";0;11;"Hémophilies et affections constitutionnelles de l'hémostase graves";"19 janvier 2011 (Decret no2011-77)";NA
-"IR_ALD_V";0;12;"Hypertension artérielle sévère";"19 janvier 2011 (Decret no2011-77)";NA
-"IR_ALD_V";0;13;"Maladie coronaire";"19 janvier 2011 (Decret no2011-77)";NA
-"IR_ALD_V";0;14;"Insuffisance respiratoire chronique grave";"19 janvier 2011 (Decret no2011-77)";NA
-"IR_ALD_V";0;15;"Maladie d'Alzheimer et autres démences";"19 janvier 2011 (Decret no2011-77)";NA
-"IR_ALD_V";0;16;"Maladie de Parkinson";"19 janvier 2011 (Decret no2011-77)";NA
-"IR_ALD_V";0;17;"Maladies métaboliques héréditaires (MMH) nécessitant un traitement prolongé spécialisé";"19 janvier 2011 (Decret no2011-77)";NA
-"IR_ALD_V";0;18;"Mucoviscidose";"19 janvier 2011 (Decret no2011-77)";NA
-"IR_ALD_V";0;19;"Néphropathie chronique grave et syndrôme néphrotique primitif";"19 janvier 2011 (Decret no2011-77)";NA
-"IR_ALD_V";0;20;"Paraplégie";"19 janvier 2011 (Decret no2011-77)";NA
-"IR_ALD_V";0;21;"Vascularites, Lupus érythémateux systémique, Sclérodermie systémique";"19 janvier 2011 (Decret no2011-77)";NA
-"IR_ALD_V";0;22;"Polyarthrite rhumatoïde évolutive";"19 janvier 2011 (Decret no2011-77)";NA
-"IR_ALD_V";0;23;"Affections psychiatriques de longue durée";"19 janvier 2011 (Decret no2011-77)";NA
-"IR_ALD_V";0;24;"Maladie de Crohn et Rectocolite hémorragique évolutives";"19 janvier 2011 (Decret no2011-77)";NA
-"IR_ALD_V";0;25;"Sclérose en plaques";"19 janvier 2011 (Decret no2011-77)";NA
-"IR_ALD_V";0;26;"Scoliose idiopathique structurale évolutive";"19 janvier 2011 (Decret no2011-77)";NA
-"IR_ALD_V";0;27;"Spondylarthrite grave";"19 janvier 2011 (Decret no2011-77)";NA
-"IR_ALD_V";0;28;"Suites de transplantation d'organe";"19 janvier 2011 (Decret no2011-77)";NA
-"IR_ALD_V";0;29;"Tuberculose active et lèpre";"19 janvier 2011 (Decret no2011-77)";NA
-"IR_ALD_V";0;30;"Tumeur maligne, affection maligne du tissu lymphatique ou hématopoïétique";"19 janvier 2011 (Decret no2011-77)";NA
-"IR_ALD_V";1;88;"Valeur Inconnue";"";NA
-"IR_ALD_V";0;98;"Transcodage";"";NA
-"IR_ALD_V";0;99;"Affections hors liste ou ald non ventilées";"19 janvier 2011 (Decret no2011-77)";NA
+ALD_030_COD;ALD_030_LIB;ALD_DEC_DAT;TEC_COL
+0;Sans Objet;;2
+1;Accident vasculaire cérébral invalidant;19 janvier 2011 (Decret no2011-77);0
+2;Insuffisances médullaires et autres cytopénies chroniques;19 janvier 2011 (Decret no2011-77);0
+3;Artériopathies chroniques avec manifestations ischémiques;19 janvier 2011 (Decret no2011-77);0
+4;Bilharziose compliquée;19 janvier 2011 (Decret no2011-77);0
+5;Insuffisance cardiaque grave, troubles du rythme graves, cardiopathies valvulaires graves, cardiopathies congénitales graves;19 janvier 2011 (Decret no2011-77);0
+6;Maladies chroniques actives du foie et cirrhoses;19 janvier 2011 (Decret no2011-77);0
+7;Déficit immunitaire primitif grave nécessitant un traitement prolongé et infection par le VIH;19 janvier 2011 (Decret no2011-77);0
+8;Diabète de type 1 et diabète de type 2;19 janvier 2011 (Decret no2011-77);0
+9;Formes graves des affections neurologiques et musculaires (dont Myopathie), Epilepsie grave;19 janvier 2011 (Decret no2011-77);0
+10;Hémoglobinopathies, hémolyses, chroniques constitutionnelles, acquises sévères;19 janvier 2011 (Decret no2011-77);0
+11;Hémophilies et affections constitutionnelles de l'hémostase graves;19 janvier 2011 (Decret no2011-77);0
+12;Hypertension artérielle sévère;19 janvier 2011 (Decret no2011-77);0
+13;Maladie coronaire;19 janvier 2011 (Decret no2011-77);0
+14;Insuffisance respiratoire chronique grave;19 janvier 2011 (Decret no2011-77);0
+15;Maladie d'Alzheimer et autres démences;19 janvier 2011 (Decret no2011-77);0
+16;Maladie de Parkinson;19 janvier 2011 (Decret no2011-77);0
+17;Maladies métaboliques héréditaires (MMH) nécessitant un traitement prolongé spécialisé;19 janvier 2011 (Decret no2011-77);0
+18;Mucoviscidose;19 janvier 2011 (Decret no2011-77);0
+19;Néphropathie chronique grave et syndrôme néphrotique primitif;19 janvier 2011 (Decret no2011-77);0
+20;Paraplégie;19 janvier 2011 (Decret no2011-77);0
+21;Vascularites, Lupus érythémateux systémique, Sclérodermie systémique;19 janvier 2011 (Decret no2011-77);0
+22;Polyarthrite rhumatoïde évolutive;19 janvier 2011 (Decret no2011-77);0
+23;Affections psychiatriques de longue durée;19 janvier 2011 (Decret no2011-77);0
+24;Maladie de Crohn et Rectocolite hémorragique évolutives;19 janvier 2011 (Decret no2011-77);0
+25;Sclérose en plaques;19 janvier 2011 (Decret no2011-77);0
+26;Scoliose idiopathique structurale évolutive;19 janvier 2011 (Decret no2011-77);0
+27;Spondylarthrite grave;19 janvier 2011 (Decret no2011-77);0
+28;Suites de transplantation d'organe;19 janvier 2011 (Decret no2011-77);0
+29;Tuberculose active et lèpre;19 janvier 2011 (Decret no2011-77);0
+30;Tumeur maligne, affection maligne du tissu lymphatique ou hématopoïétique;19 janvier 2011 (Decret no2011-77);0
+88;Valeur Inconnue;;1
+98;Transcodage;;0
+99;Affections hors liste ou ald non ventilées;19 janvier 2011 (Decret no2011-77);0

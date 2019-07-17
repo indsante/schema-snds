@@ -1,0 +1,98 @@
+{
+    "fields": [
+        {
+            "name": "LPP_PRS_IDE",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "LPP_RED_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "LPP_VAL_DTF",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "LPP_MAX_AGE",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "LPP_PRS_TYP",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "LPP_MED_IND",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "LPP_ARB_CHA",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "LPP_ARB_SC1",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "LPP_ARB_SC2",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "LPP_ARB_SC3",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "LPP_ARB_SC4",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "LPP_ARB_SC5",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "LPP_ARB_SC6",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "LPP_ARB_SC7",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "LPP_ARB_SC8",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "LPP_ARB_SC9",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "LPP_ARB_BAS",
+            "type": "number",
+            "format": "default"
+        },
+        {
+            "name": "LPP_PRO_COD",
+            "type": "string",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "NT_LPP"
+}

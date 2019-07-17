@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "PPU_SEC",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "PPU_SEC_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_PPU_V",
+    "title": "Secteur d'Activité (Prive / Public)",
+    "primaryKey": [
+        "PPU_SEC"
+    ]
+}

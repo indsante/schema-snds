@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "BEN_CTA_TYP",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "BEN_CTA_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_CTA_V",
+    "title": "type de contrat complémentaire",
+    "primaryKey": [
+        "BEN_CTA_TYP"
+    ]
+}

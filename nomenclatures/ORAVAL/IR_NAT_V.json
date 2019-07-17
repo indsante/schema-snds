@@ -1,0 +1,104 @@
+{
+    "fields": [
+        {
+            "name": "PRS_NAT",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "PRS_NAT_STA",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "PRS_NAT_CB2",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "PRS_NAT_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "NAT_SOI_TOP",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "TDM_NAT_AFF",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "PRS_NAT_TDM",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "NAT_CPL_ACT",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "CCA_CPL_COD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "PRN_AID_TOP",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "PRS_SPP_TOP",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "TOP_SNI",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "TYA_COD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "CEL_TYP",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "TOP_PRS_SOI",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "PRS_NAT_RGT",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "TOP_TRF_OPP",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "PRS_NAT_OBS",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_NAT_V",
+    "title": "Nature Prestation"
+}

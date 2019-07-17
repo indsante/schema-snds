@@ -1,0 +1,39 @@
+{
+    "fields": [
+        {
+            "name": "ETB_STJ_COD",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "ETB_PPU_SEC",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "ETB_STJ_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "ETB_ORG_TYP",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "ETB_ORG_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_SJE_V",
+    "title": "Statut juridique d'établissement"
+}

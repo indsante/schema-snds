@@ -1,10 +1,4 @@
-nom_table;TEC_COL;CPT_COP_NUM;PPU_SEC;PPU_SEC_LIB;PPU_SEC_COMMENTAIRE
-IR_PPU_V;0;NA;1;PUBLIC;"S’il ne s’agit pas d’un centre de santé (i.e. Regroupement Grande Catégorie Etb Exécutant ≠  22 et ≠ 34)
-ET
-Si le type d’établissement est public (i.e. ETE_TYP_COD= 1, 2 ou 3)
-ET
-Si le N° PS Exécutant est non renseigné (i.e. PFS_EXE_NUM à vide ou = ‘00000000’)
-Alors PRS_PPU_SEC = 1
-Cf. ETE_TYP_COD pour le détail du type d’établissement."
-IR_PPU_V;2;NA;2;PRIVE;SINON PRS_PPU_SEC = 2 
-IR_PPU_V;1;NA;9;INCONNUE;
+PPU_SEC;PPU_SEC_LIB;TEC_COL
+1;PUBLIC;0
+2;PRIVE;2
+9;INCONNUE;1

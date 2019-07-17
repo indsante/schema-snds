@@ -1,426 +1,426 @@
-"nom_table";"TEC_COL";"PRS_ANO_COD";"RAN_COD";"PRS_ANO_LIB";"CPT_COP_NUM"
-"IR_TAN_V";0;"I0405";"I";"acte incompati. avec ep transmis";NA
-"IR_TAN_V";0;"I0406";"I";"entente prealable possible";NA
-"IR_TAN_V";0;"I0407";"I";"ald non trouv en bdo mais rgm exo";NA
-"IR_TAN_V";0;"I0408";"I";"etm bdo non transmise /flux sesam";NA
-"IR_TAN_V";0;"I0409";"I";"mtm bdo differente sur flux sesam";NA
-"IR_TAN_V";0;"I0410";"I";"exoneration de type ps en bdo";NA
-"IR_TAN_V";0;"I0411";"I";"exoneration type ps en bdo et tp";NA
-"IR_TAN_V";0;"I0412";"I";"prescripteur etab. hors region";NA
-"IR_TAN_V";0;"I0413";"I";"org. compl. inconnu dans la bdo";NA
-"IR_TAN_V";0;"I0414";"I";"org. compl. absent  bdo assure";NA
-"IR_TAN_V";0;"I0415";"I";"absence org.compl.bdo assure";NA
-"IR_TAN_V";0;"I0416";"I";"absence contrat 89 et mut 9999997";NA
-"IR_TAN_V";0;"I0417";"I";"incompatibilite regime / mutuelle";NA
-"IR_TAN_V";0;"I0418";"I";"Situation d'exoneration inconnue pour le bénéficiaire";NA
-"IR_TAN_V";0;"I0501";"I";"numero d'adherent inconnu bdo";NA
-"IR_TAN_V";0;"I0502";"I";"contrat mutuelle incorrect";NA
-"IR_TAN_V";0;"I0503";"I";"type de contrat absent de la bdo";NA
-"IR_TAN_V";0;"I0504";"I";"incomp. nat. prest/agrement radio";NA
-"IR_TAN_V";0;"I0505";"I";"incomp. nat. prest./systeme hono.";NA
-"IR_TAN_V";0;"I0506";"I";"actes mult. au cours meme seance";NA
-"IR_TAN_V";0;"I0507";"I";"majoration anesthesie a verifier";NA
-"IR_TAN_V";0;"I0508";"I";"incomp.acte principal/anesthesie";NA
-"IR_TAN_V";0;"I0509";"I";"incomp. forf.chirurgie/acte chir";NA
-"IR_TAN_V";0;"I0510";"I";"absence acte associe";NA
-"IR_TAN_V";0;"I0511";"I";"limitation du prix de l'acte mpi";NA
-"IR_TAN_V";0;"I0512";"I";"cures proratisees";NA
-"IR_TAN_V";0;"I0513";"I";"prestation absente liste cavimac";NA
-"IR_TAN_V";0;"I0514";"I";"incomp. date prest. / nat. majo.";NA
-"IR_TAN_V";0;"I0515";"I";"date prest. = samedi non ferie";NA
-"IR_TAN_V";0;"I0601";"I";"date deb. prest. anter. a 2a + 3m";NA
-"IR_TAN_V";0;"I0602";"I";"double paiement sur une periode";NA
-"IR_TAN_V";0;"I0603";"I";"chevauch. periodes sur paiement";NA
-"IR_TAN_V";0;"I0604";"I";"date soins > date exam. +6 mois";NA
-"IR_TAN_V";0;"I0605";"I";"valeur denomb. > maxi. autorise";NA
-"IR_TAN_V";0;"I0606";"I";"prix unit. absent historique bdo";NA
-"IR_TAN_V";0;"I0607";"I";"pu demande # pu en cours";NA
-"IR_TAN_V";0;"I0608";"I";"etab. en dot. global, pu fourni";NA
-"IR_TAN_V";0;"I0609";"I";"etab. hors region, pu fourni";NA
-"IR_TAN_V";0;"I0610";"I";"majo prest. hospit. absente fic.";NA
-"IR_TAN_V";0;"I0611";"I";"caisse pivot paiement pu fourni";NA
-"IR_TAN_V";0;"I0701";"I";"tarification au taux transmis";NA
-"IR_TAN_V";0;"I0702";"I";"mt part obligatoire invalide";NA
-"IR_TAN_V";0;"I0703";"I";"ecart mt demande / mt calcule";NA
-"IR_TAN_V";0;"I0704";"I";"tp sans part comple / benef cmu";NA
-"IR_TAN_V";0;"I0705";"I";"type paiement incomp. / benef cmu";NA
-"IR_TAN_V";0;"I0706";"I";"etablissement d'exercice inconnu";NA
-"IR_TAN_V";0;"I0707";"I";"pas de contrat prof./benef. (ref)";NA
-"IR_TAN_V";0;"I0708";"I";"zone tarif salarie non disp bdo";NA
-"IR_TAN_V";0;"I0709";"I";"type comptabilite impossible";NA
-"IR_TAN_V";0;"I0710";"I";"limitation du remboursement au solde """"patch""""";NA
-"IR_TAN_V";0;"I0801";"I";"calcul effectue avec p.u fourni";NA
-"IR_TAN_V";0;"I0802";"I";"distance impossible a calculer";NA
-"IR_TAN_V";0;"I0901";"I";"informations dest regl non prises";NA
-"IR_TAN_V";0;"I1001";"I";"justif. qualite benef. absent";NA
-"IR_TAN_V";0;"I1002";"I";"droits non ouverts";NA
-"IR_TAN_V";0;"I1101";"I";"limitation au mt de la depense";NA
-"IR_TAN_V";0;"I1102";"I";"non conforme a option convent.";NA
-"IR_TAN_V";0;"I1103";"I";"non respect du tarif convent.";NA
-"IR_TAN_V";0;"I1104";"I";"montant depense eleve";NA
-"IR_TAN_V";0;"I1105";"I";"spec. prescripteur imposs a det.";NA
-"IR_TAN_V";0;"I1106";"I";"spec. presc. trans. inconnue bdo.";NA
-"IR_TAN_V";0;"I1107";"I";"specialite transmise inconnue bdo";NA
-"IR_TAN_V";0;"I1108";"I";"Non conforme a option convent.";NA
-"IR_TAN_V";0;"I1201";"I";"ecart forf. trans./forf. calcule";NA
-"IR_TAN_V";0;"I1202";"I";"sejour inferieur a 24 heures";NA
-"IR_TAN_V";0;"I1801";"I";"lot atypique";NA
-"IR_TAN_V";0;"I2201";"I";"chevauchement prix de journee";NA
-"IR_TAN_V";0;"I2202";"I";"chevauchement pj / forfait htp";NA
-"IR_TAN_V";0;"I2203";"I";"chevauchement pj / forf accueil";NA
-"IR_TAN_V";0;"I2204";"I";"chevauchement pj/fse";NA
-"IR_TAN_V";0;"I2205";"I";"chevauchement pj / sns";NA
-"IR_TAN_V";0;"I2206";"I";"chevauch pharm.medic.couteux";NA
-"IR_TAN_V";0;"I2207";"I";"destinataire reglt different";NA
-"IR_TAN_V";0;"I2208";"I";"chevauchement pj / anp";NA
-"IR_TAN_V";0;"I2209";"I";"chevauchement anp / anp";NA
-"IR_TAN_V";0;"I2210";"I";"chevauchement anp / ent";NA
-"IR_TAN_V";0;"I2501";"I";"changement d'infos sur periode";NA
-"IR_TAN_V";0;"I2502";"I";"limitation pu public / tarif tips";NA
-"IR_TAN_V";0;"I2503";"I";"pu transmis > seuil caisse";NA
-"IR_TAN_V";0;"I2504";"I";"numero fabricant absent";NA
-"IR_TAN_V";0;"I2505";"I";"numero de fabricant absent";NA
-"IR_TAN_V";0;"I2601";"I";"Contexte professionnel de santé non déterminé";NA
-"IR_TAN_V";0;"I2602";"I";"Contexte bénéficiaire non déterminé";NA
-"IR_TAN_V";0;"I3001";"I";"proc entente prea a surveiller";NA
-"IR_TAN_V";0;"I3002";"I";"exam sang.: minima trop eleve";NA
-"IR_TAN_V";0;"I3003";"I";"exam.sang : minima present a tort";NA
-"IR_TAN_V";0;"I3004";"I";"code affine supl.p/jour=samedi";NA
-"IR_TAN_V";0;"I3005";"I";"taux reg. gen. a 0 et code a 100";NA
-"IR_TAN_V";0;"I4001";"I";"cip supprime fichier date facture";NA
-"IR_TAN_V";0;"I4002";"I";"taux errone / fichier medicament";NA
-"IR_TAN_V";0;"I4003";"I";"pu saisi > pu fichier medicament";NA
-"IR_TAN_V";0;"I4004";"I";"pu saisi < pu fichier medicament";NA
-"IR_TAN_V";0;"I4005";"I";"qte delivree pour 1 cip > seuil";NA
-"IR_TAN_V";0;"I4006";"I";"medic. soumis a prescr. restreint";NA
-"IR_TAN_V";0;"I4007";"I";"medicament d exception";NA
-"IR_TAN_V";0;"I4008";"I";"risque interaction medicamenteuse";NA
-"IR_TAN_V";0;"I4009";"I";"incompatibilite medicament / age";NA
-"IR_TAN_V";0;"I4010";"I";"incompatibilite medicament / sexe";NA
-"IR_TAN_V";0;"I4011";"I";"nb boites delivrees>seuil facture";NA
-"IR_TAN_V";0;"I4012";"I";"pu saisi = ancien pu connu";NA
-"IR_TAN_V";0;"I4013";"I";"base facturee differente calculee";NA
-"IR_TAN_V";0;"I4014";"I";"tarif posterieur a date des soins";NA
-"IR_TAN_V";0;"I4015";"I";"vaccin ror sans exo prev";NA
-"IR_TAN_V";0;"I4016";"I";"incomp. taux prescrit / delivre";NA
-"IR_TAN_V";0;"I4017";"I";"Vaccin grippe incom. avec Bénéf";NA
-"IR_TAN_V";0;"I4018";"I";"P.U. transmis  > P.U. OPPOSABLE";NA
-"IR_TAN_V";0;"I4019";"I";"P.U.U transmis  > P.U.U OPPOSABLE";NA
-"IR_TAN_V";0;"I4020";"I";"non stupéfiant ou expérimentation antibiotique déconditionné";NA
-"IR_TAN_V";0;"I4021";"I";"Date d'opposabilité absente à tort";NA
-"IR_TAN_V";0;"I4022";"I";"PU TRANSMIS>PU OPPOSABLE 4000-090";NA
-"IR_TAN_V";0;"I9001";"I";"total part. assure errone";NA
-"IR_TAN_V";0;"I9002";"I";"tot. remb. org. compl. errone";NA
-"IR_TAN_V";0;"I9003";"I";"tot. remb. org. compl. errone";NA
-"IR_TAN_V";0;"I9004";"I";"carte vitale inutilisable";NA
-"IR_TAN_V";0;"I9005";"I";"carte abusive t. payant";NA
-"IR_TAN_V";0;"I9006";"I";"carte presumee abusive t. payant";NA
-"IR_TAN_V";0;"I9007";"I";"carte frauduleuse t. payant";NA
-"IR_TAN_V";0;"I9201";"I";"longueur borne debut non numeriq.";NA
-"IR_TAN_V";0;"I9202";"I";"centre different de zero";NA
-"IR_TAN_V";0;"I9203";"I";"nom du fichier absent";NA
-"IR_TAN_V";0;"P0201";"P";"Numéro FINESS géographique incorrect";NA
-"IR_TAN_V";0;"P0202";"P";"Code Pmsi incorrect";NA
-"IR_TAN_V";0;"P0203";"P";"CMD et GHM V7 obtenu par GENRSA incorrects";NA
-"IR_TAN_V";0;"P0204";"P";"Code retour obtenu par GENRSA Vs incorrects";NA
-"IR_TAN_V";0;"P0205";"P";"CMD et GHM V9 obtenu par GENRSA incorrects";NA
-"IR_TAN_V";0;"P0206";"P";"Code retour obtenu par GENRSA V9 incorrects";NA
-"IR_TAN_V";0;"P0207";"P";"CMD et GHM V7 lu sur le RSS incorrects";NA
-"IR_TAN_V";0;"P0208";"P";"Code retour lu sur le RSS V7 incorrects',0)";NA
-"IR_TAN_V";0;"P0209";"P";"CMD et GHM V9 lu sur le RSS incorrects',0)";NA
-"IR_TAN_V";0;"P0210";"P";"Code retour lu sur le RSS V9 incorrects";NA
-"IR_TAN_V";0;"P0211";"P";"Sexe du patient incorrect";NA
-"IR_TAN_V";0;"P0212";"P";"Mode d''entrée dans le champ PMSI_MCO incorrect";NA
-"IR_TAN_V";0;"P0213";"P";"Provenance incorrecte";NA
-"IR_TAN_V";0;"ABS01";"X";"professionnel de sante absent du fichier praticien";NA
-"IR_TAN_V";0;"I0101";"I";"habilitation envoi de messages";NA
-"IR_TAN_V";0;"I0102";"I";"incomp. emetteur/part. sante";NA
-"IR_TAN_V";0;"I0103";"I";"famille mutee ou epuree";NA
-"IR_TAN_V";0;"I0104";"I";"Assuré non géré par la caisse";NA
-"IR_TAN_V";0;"I0201";"I";"convention tp non disp dans bdo";NA
-"IR_TAN_V";0;"I0202";"I";"option conv. hors tiers payant";NA
-"IR_TAN_V";0;"I0203";"I";"bucco-dentaire hors tiers payant";NA
-"IR_TAN_V";0;"I0204";"I";"incomp. asu-nat / sexe / age";NA
-"IR_TAN_V";0;"I0205";"I";"r- hors archives hospicumu";NA
-"IR_TAN_V";0;"P0214";"P";"Mode de sortie dans le champ PMSI_MCO incorrect";NA
-"IR_TAN_V";0;"P0215";"P";"Destination incorrecte";NA
-"IR_TAN_V";0;"P0216";"P";"Type de séjour incorrect";NA
-"IR_TAN_V";0;"P0217";"P";"Code géographique de résidence incorrect";NA
-"IR_TAN_V";0;"P0218";"P";"Code de prise en charge incorrect";NA
-"IR_TAN_V";0;"P0219";"P";"Diagnostic principal (DP) incorrect";NA
-"IR_TAN_V";0;"P0220";"P";"Diagnostic relié (DR) incorrect";NA
-"IR_TAN_V";0;"P0506";"P";"Mode de traitement incorrect";NA
-"IR_TAN_V";0;"P0507";"P";"Discipline médico-tarifaire incorrecte";NA
-"IR_TAN_V";0;"P0508";"P";"Code acte incorrect";NA
-"IR_TAN_V";0;"P0509";"P";"Taux de participation de la caisse incorrect";NA
-"IR_TAN_V";0;"P0510";"P";"Nature opération de récupération Noémie retour incorrecte";NA
-"IR_TAN_V";0;"P0511";"P";"Justification Exonération TM incorrecte";NA
-"IR_TAN_V";0;"P0512";"P";"Code Diagnostic significatif (CIM10) incorrect";NA
-"IR_TAN_V";0;"P0513";"P";"Code de l''acte CDAM incorrect";NA
-"IR_TAN_V";0;"P0514";"P";"Code de l''acte CCAM incorrect";NA
-"IR_TAN_V";0;"P0515";"P";"Phase de l''acte CCAM incorrect";NA
-"IR_TAN_V";0;"P1010";"P";"Mode d''entrée dans le champ du PMSI_MCO/ Provenance incompatible";NA
-"IR_TAN_V";0;"R0611";"R";"Code postal du lieu de départ du transport erroné";NA
-"IR_TAN_V";0;"R0612";"R";"Numéro de véhicule erroné";NA
-"IR_TAN_V";0;"R0613";"R";"Nom du conducteur erroné";NA
-"IR_TAN_V";0;"R0614";"R";"Heure d'arrivée du transport erronée";NA
-"IR_TAN_V";0;"R0615";"R";"Code postal du lieu d'arrivée du transport erroné";NA
-"IR_TAN_V";0;"R0616";"R";"Code Utilisation du Distancier incorrect";NA
-"IR_TAN_V";0;"R0617";"R";"Niveau de Certification incorrect";NA
-"IR_TAN_V";0;"R0801";"R";"Gestions comptables incorrectes";NA
-"IR_TAN_V";0;"R0802";"R";"Sens du mouvement incorrect";NA
-"IR_TAN_V";0;"R0803";"R";"Signe du mouvement incorrect";NA
-"IR_TAN_V";0;"R0804";"R";"Numero de compte Mircoss";NA
-"IR_TAN_V";0;"R0805";"R";"Branche incorrecte";NA
-"IR_TAN_V";0;"R0806";"R";"Nature de la dette incorrecte";NA
-"IR_TAN_V";0;"R0807";"R";"Nature des operations de recuperation incorrecte";NA
-"IR_TAN_V";0;"R0808";"R";"Sens de la regularisation incorrect";NA
-"IR_TAN_V";0;"R0809";"R";"Type de ventilation";NA
-"IR_TAN_V";0;"R1010";"R";"Code nature prestation / code acte complementaire incompatibles";NA
-"IR_TAN_V";0;"R1030";"R";"Code nature prestation / assurance incompatibles";NA
-"IR_TAN_V";0;"R1040";"R";"Code nature prestation / beneficiaire incompatibles";NA
-"IR_TAN_V";0;"R1050";"R";"Code nature prestation / qualificatif de la depense incompatibles";NA
-"IR_TAN_V";0;"R1060";"R";"Code nature prestation / taux de remboursement 100% incompatibles";NA
-"IR_TAN_V";0;"R1070";"R";"Code nature prestation / quantite maxi / presence incompatibles";NA
-"IR_TAN_V";0;"R1080";"R";"Code nature prestation / coefficient maxi incompatibles";NA
-"IR_TAN_V";0;"R1090";"R";"Code nature prestation / specialite ou nature  activite executant incompatibles";NA
-"IR_TAN_V";0;"R1100";"R";"Code nature prestation / categorie executant incompatibles";NA
-"IR_TAN_V";0;"R1110";"R";"Code nature prestation / specialite ou nature  activite prescripteur incompatibles";NA
-"IR_TAN_V";0;"R1120";"R";"Code nature prestation / categorie prescripteur incompatibles";NA
-"IR_TAN_V";0;"R1130";"R";"Code nature prestation / presence prescripteur incompatibles";NA
-"IR_TAN_V";0;"R1140";"R";"Code nature prestation / categorie etablissement < centre de sante > incompatibles";NA
-"IR_TAN_V";0;"R1150";"R";"Code nature prestation / discipline de prestation incompatibles";NA
-"IR_TAN_V";0;"R1160";"R";"Code nature prestation / mode de traitement incompatibles";NA
-"IR_TAN_V";0;"R1170";"R";"Code nature prestation / prive-public / categorie incompatibles";NA
-"IR_TAN_V";0;"R1181";"R";"Code nature prestation transport / type de forfait ou supplement incompatibles";NA
-"IR_TAN_V";0;"R1190";"R";"Code nature prestation transport / type forfait / nbre de kilometres incompatibles";NA
-"IR_TAN_V";0;"R1210";"R";"Code nature prestation / soins de ville incompatibles";NA
-"IR_TAN_V";0;"R1220";"R";"Nature de prestation / Indicateur Référentiel Kiné incompatibles";NA
-"IR_TAN_V";0;"R1221";"R";"Nature de prestation / Top Entente Préalable Kiné incompatibles";NA
-"IR_TAN_V";0;"R1222";"R";"Nature de prestation / Type de Prestation Kiné incompatibles";NA
-"IR_TAN_V";0;"R2010";"R";"Statut juridique / mode de fixation des tarifs incompatibles";NA
-"IR_TAN_V";0;"R2020";"R";"Nbre de jours factures / date debut facturation / date fin facturation incompatibles";NA
-"IR_TAN_V";0;"R2030";"R";"Discipline de prestation / mode de traitement incompatibles";NA
-"IR_TAN_V";0;"R2040";"R";"Top medecin referent / specialite incompatibles";NA
-"IR_TAN_V";0;"R2050";"R";"Categorie executant / Qualificatif de la depense incompatibles";NA
-"IR_TAN_V";0;"R2060";"R";"Specialite ou nature activite executant / nature  assurance incompatibles";NA
-"IR_TAN_V";0;"R3010";"R";"Grand regime / regime / qualite beneficiaire /assurance incompatibles";NA
-"IR_TAN_V";0;"R3011";"R";"Grand régime / régime / qualité bénéficiaire incompatibles";NA
-"IR_TAN_V";0;"R3012";"R";"Grand régime / régime / assurance incompatibles";NA
-"IR_TAN_V";0;"R3020";"R";"Grand regime / qualite beneficiaire / assurance/ taux incompatibles";NA
-"IR_TAN_V";0;"R3030";"R";"Discipline de prestation / nature assurance incompatibles";NA
-"IR_TAN_V";0;"R4010";"R";"Montant paye / montant rembourse incompatibles";NA
-"IR_TAN_V";0;"R4031";"R";"Nature de prestation / base de remboursement incompatibles";NA
-"IR_TAN_V";0;"R4033";"R";"Nature de prestation IJ/ quantite / dates debut et fin de soins /carence incompatibles";NA
-"IR_TAN_V";0;"R5020";"R";"Nature de prestation / code affine incompatibles";NA
-"IR_TAN_V";0;"R5032";"R";"Date acte affine / date debut validite dans base medicament incompatibles";NA
-"IR_TAN_V";0;"R5033";"R";"Date acte affine / periode validite dans base biologie incompatibles";NA
-"IR_TAN_V";0;"R5035";"R";"Date acte affiné / date début validité incohérente avec base UCD";NA
-"IR_TAN_V";0;"R5036";"R";"Incohérence des CIP transmis et délivré";NA
-"IR_TAN_V";0;"R5037";"R";"CIP transmis ou CIP délivré obligatoire";NA
-"IR_TAN_V";0;"R5050";"R";"Acte affine / specialite ou nature activite executant incompatibles";NA
-"IR_TAN_V";0;"R5060";"R";"Coefficient acte affine / coefficient acte / quantite acte affine incompatibles";NA
-"IR_TAN_V";0;"R5080";"R";"Codes affines  une meme facture incompatibles";NA
-"IR_TAN_V";0;"R5090";"R";"Coefficient de fractionnement / Nbre unités délivrées (UCD) incohérents";NA
-"IR_TAN_V";0;"R5100";"R";"Montant total calculé / montant transmis (UCD) incohérents";NA
-"IR_TAN_V";0;"R5200";"R";"Nom de l'accompagnateur obligatoire pour transport en ambulance";NA
-"IR_TAN_V";0;"R6010";"R";"Ccam : Incompatibilité entre codes modificateurs";NA
-"IR_TAN_V";0;"R6030";"R";"Ccam : Obligation du codage";NA
-"IR_TAN_V";0;"R6060";"R";"Ccam : Incompatibilité code activité / code de l'acte";NA
-"IR_TAN_V";0;"R6070";"R";"Ccam : Incompatibilité code phase traitement / code de l'acte - activité";NA
-"IR_TAN_V";0;"R6080";"R";"Ccam : Incompatibilité code modificateur / code de l'acte - activité";NA
-"IR_TAN_V";0;"R6110";"R";"Ccam : Incompatibilité spécialité prescripteur / code de l'acte";NA
-"IR_TAN_V";0;"R6120";"R";"Ccam : Incompatibilité spécialité exécutant / code de l'acte - activité";NA
-"IR_TAN_V";0;"R6150";"R";"Ccam : Prix unitaire erroné";NA
-"IR_TAN_V";0;"R6160";"R";"Ccam : Incompatibilité code de l'acte / nature d'assurance";NA
-"IR_TAN_V";0;"R6170";"R";"Ccam : Incompatibilité code de l'acte / Discipline de prestation";NA
-"IR_TAN_V";0;"R6180";"R";"Ccam : Incompatibilité Nombre de dents";NA
-"IR_TAN_V";0;"R7020";"R";"Incompatibilité numéro de GHS  / assurance";NA
-"IR_TAN_V";0;"R7030";"R";"Incompatibilité prestation Ivg ou urgence / prestation GHS ou EXH";NA
-"IR_TAN_V";0;"R7040";"R";"Prestation TJC présente à tort en T2A publique";NA
-"IR_TAN_V";0;"R7050";"R";"Absence coefficient MCO en T2A publique";NA
-"IR_TAN_V";0;"R7060";"R";"Ecart montant du total GHS en T2A publique";NA
-"IR_TAN_V";0;"R7070";"R";"Incompatibilité type de remboursement/ acte TJC";NA
-"IR_TAN_V";0;"R7092";"R";"Incompatibilité numéro de GHS/ secteur privé";NA
-"IR_TAN_V";0;"R8010";"R";"Top Entente Préalable Kiné / Indicateur Référentiel Kiné incompatibles";NA
-"IR_TAN_V";0;"R8020";"R";"Type de Prestation / Top Entente Préalable Kiné incompatibles";NA
-"IR_TAN_V";0;"R8030";"R";"Incompatibilité Nature d'assurance / Dispositif de prévention";NA
-"IR_TAN_V";0;"R8040";"R";"Incompatibilité Nature de Prestation / Dispositif de Prévention";NA
-"IR_TAN_V";0;"R8050";"R";"Incompatibilité type de remboursement / type de contrat complémentaire";NA
-"IR_TAN_V";0;"R9010";"R";"Date non numerique";NA
-"IR_TAN_V";0;"R9020";"R";"Date erronee";NA
-"IR_TAN_V";0;"REM03";"R";"Date de mandatement 2003";NA
-"IR_TAN_V";0;"S0297";"S";"Numéro de dent imparfait (Signalement)";NA
-"IR_TAN_V";0;"S0901";"S";"Controles pour la duplication de lignes";NA
-"IR_TAN_V";0;"S5031";"S";"Date acte affine / date fin validite dans base medicament incompatibles";NA
-"IR_TAN_V";0;"S5034";"S";"Date acte affiné / date fin validité incohérente avec base UCD";NA
-"IR_TAN_V";1;"XXXXX";"X";"VALEUR INCONNUE";NA
-"IR_TAN_V";0;"R0217";"R";"Indicateur de forçage Sesam Vital incorrect";NA
-"IR_TAN_V";0;"I0206";"I";"r- hors archives paiement";NA
-"IR_TAN_V";0;"I0207";"I";"r- nature drg diff. aux archives";NA
-"IR_TAN_V";0;"I0208";"I";"non utilisation dernier matricule";NA
-"IR_TAN_V";0;"I0209";"I";"maj progres-situation anterieure-";NA
-"IR_TAN_V";0;"I0210";"I";"siecle de naissance genere";NA
-"IR_TAN_V";0;"I0211";"I";"utilisation ancienne date naiss.";NA
-"IR_TAN_V";0;"I0212";"I";"presence de jumeaux";NA
-"IR_TAN_V";0;"I0301";"I";"date soins < date sinistres";NA
-"IR_TAN_V";0;"I0302";"I";"date soins hors dates accords";NA
-"IR_TAN_V";0;"I0303";"I";"statut at = rejete";NA
-"IR_TAN_V";0;"I0304";"I";"en rechute statut at = rejete";NA
-"IR_TAN_V";0;"I0305";"I";"soins apres rechute sans accord";NA
-"IR_TAN_V";0;"I0306";"I";"soins hors dates accord soins";NA
-"IR_TAN_V";0;"I0307";"I";"at existant mais code cram diff.";NA
-"IR_TAN_V";0;"I0308";"I";"pas at connu en bdo a cette date";NA
-"IR_TAN_V";0;"I0309";"I";"AT inconnu en BDO à cette date";NA
-"IR_TAN_V";0;"I0310";"I";"AT approchant à N jours";NA
-"IR_TAN_V";0;"I0311";"I";"AT approchant à date rechute";NA
-"IR_TAN_V";0;"I0312";"I";"AT approchant à J/M/A";NA
-"IR_TAN_V";0;"I0401";"I";"reponse favorable a l'ent. preal.";NA
-"IR_TAN_V";0;"I0402";"I";"abs. demande ent. preal. dans bdo";NA
-"IR_TAN_V";0;"I0403";"I";"pas de reponse a l'ent. preal.";NA
-"IR_TAN_V";0;"I0404";"I";"absence ent. prealable / prest.";NA
-"IR_TAN_V";0;"P1020";"P";"Mode de sortie dans le champ du PMSI_MCO/ Destination incompatible";NA
-"IR_TAN_V";0;"P1030";"P";"Type d''entité / type d''enregistrement (Entité 400)";NA
-"IR_TAN_V";0;"P1040";"P";"Type d''entité / type d''enregistrement (Entité 502)";NA
-"IR_TAN_V";0;"P9010";"P";"Date non numérique";NA
-"IR_TAN_V";0;"P9020";"P";"Date invalide";NA
-"IR_TAN_V";0;"R0101";"R";"Grand regime incorrect";NA
-"IR_TAN_V";0;"R0102";"R";"Organisme affiliation  incorrect";NA
-"IR_TAN_V";0;"R0103";"R";"Categorie organismes complementaires Cmu incorrecte";NA
-"IR_TAN_V";0;"R0104";"R";"Type de procedure de paiement Cmu incorrecte";NA
-"IR_TAN_V";0;"R0105";"R";"Type acheminement des flux incorrect";NA
-"IR_TAN_V";0;"R0106";"R";"Type version interface tiers incorrect";NA
-"IR_TAN_V";0;"R0107";"R";"Type de controle incorrect";NA
-"IR_TAN_V";0;"R0108";"R";"Indicateur de controle incorrect";NA
-"IR_TAN_V";0;"R0109";"R";"Code libelle du controle incorrect";NA
-"IR_TAN_V";0;"R0110";"R";"Top certification du lot incorrect";NA
-"IR_TAN_V";0;"R0111";"R";"Nature  operation de liquidation incorrecte";NA
-"IR_TAN_V";0;"R0112";"R";"Mode de reglement incorrect";NA
-"IR_TAN_V";0;"R0114";"R";"Code Acoss incorrect";NA
-"IR_TAN_V";0;"R0115";"R";"Decompte avec part mutuelle complementaire";NA
-"IR_TAN_V";0;"R0116";"R";"Top Epas";NA
-"IR_TAN_V";0;"R0151";"R";"Type de saisie incorrecte";NA
-"IR_TAN_V";0;"R0152";"R";"Type de saisie affinee incorrecte";NA
-"IR_TAN_V";0;"R0153";"R";"Code devise incorrect";NA
-"IR_TAN_V";0;"R0201";"R";"Rang beneficiaire incorrect";NA
-"IR_TAN_V";0;"R0202";"R";"Qualite de beneficiaire incorrecte";NA
-"IR_TAN_V";0;"R0203";"R";"Sexe du beneficiaire incorrect";NA
-"IR_TAN_V";0;"R0204";"R";"Departement de residence incorrect";NA
-"IR_TAN_V";0;"R0205";"R";"Adherent a un contrat de referent incorrect";NA
-"IR_TAN_V";0;"R0206";"R";"Beneficiaire de la cmu complementaire incorrect";NA
-"IR_TAN_V";0;"R0207";"R";"Notion Patient heberge en EHPAD incorrecte";NA
-"IR_TAN_V";0;"R0209";"R";"Categorie de beneficiaire de la rente AT incorrecte";NA
-"IR_TAN_V";0;"R0210";"R";"Code postal beneficiaire incorrect";NA
-"IR_TAN_V";0;"R0211";"R";"Commune de residence du beneficiaire (6)";NA
-"IR_TAN_V";0;"R0212";"R";"Numero assure anonymise";NA
-"IR_TAN_V";0;"R0213";"R";"Numero de beneficiaire non renseigne";NA
-"IR_TAN_V";0;"R0214";"R";"Code indicateur NIR erroné";NA
-"IR_TAN_V";0;"R0215";"R";"Type de contrat complémentaire incorrect";NA
-"IR_TAN_V";0;"R0216";"R";"Droits Spécifiques (ACS) incorrect";NA
-"IR_TAN_V";0;"R0251";"R";"Nature de prestation incorrecte";NA
-"IR_TAN_V";0;"R0252";"R";"Complement actes incorrect";NA
-"IR_TAN_V";0;"R0253";"R";"Type de prise en charge incorrecte";NA
-"IR_TAN_V";0;"R0254";"R";"Prestation affinee prescrite ou motif du transport incorrect";NA
-"IR_TAN_V";0;"R0255";"R";"Motif de substitution incorrect";NA
-"IR_TAN_V";0;"R0256";"R";"Type de prestation fournie incorrecte";NA
-"IR_TAN_V";0;"R0257";"R";"Motif du transport incorrect";NA
-"IR_TAN_V";0;"R0258";"R";"Prestation executee dans le cadre d'un contrat de referent incorrecte";NA
-"IR_TAN_V";0;"R0259";"R";"Prestation prescrite dans le cadre d'un contrat de referent incorrecte";NA
-"IR_TAN_V";0;"R0260";"R";"Informations reseaux et filieres incorrectes";NA
-"IR_TAN_V";0;"R0261";"R";"Prestation consecutive a un accident incorrecte";NA
-"IR_TAN_V";0;"R0262";"R";"Identification nomenclature pathologie";NA
-"IR_TAN_V";0;"R0263";"R";"Mode de traitement incorrect";NA
-"IR_TAN_V";0;"R0264";"R";"Mode de fixation des tarifs incorrect";NA
-"IR_TAN_V";0;"R0265";"R";"Discipline de prestation incorrecte";NA
-"IR_TAN_V";0;"R0266";"R";"Type de remboursement incorrect";NA
-"IR_TAN_V";0;"R0267";"R";"Code Forcage du taux de remboursement incorrect";NA
-"IR_TAN_V";0;"R0268";"R";"Type enveloppe incorrect";NA
-"IR_TAN_V";0;"R0269";"R";"Nature de prestation de reference incorrecte";NA
-"IR_TAN_V";0;"P0221";"P";"Numéro de GHS incorrect";NA
-"IR_TAN_V";0;"P0301";"P";"Résultat contrôle « N° sécurité sociale » incorrect";NA
-"IR_TAN_V";0;"P0302";"P";"Résultat contrôle « date de naissance » incorrect";NA
-"IR_TAN_V";0;"P0303";"P";"Résultat contrôle « sexe » incorrect";NA
-"IR_TAN_V";0;"P0304";"P";"Résultat contrôle « N° ident admin de séjour » incorrect";NA
-"IR_TAN_V";0;"P0305";"P";"Résultat contrôle fusion ANO_HOSP/HOSP_PMSI incorrect";NA
-"IR_TAN_V";0;"P0306";"P";"Résultat contrôle fusion ANO_PMSI/Fichier PMSI incorrect";NA
-"IR_TAN_V";0;"P0312";"P";"Code Diagnostic significatif (CIM10) incorrect";NA
-"IR_TAN_V";0;"P0313";"P";"Code de l''acte CDAM incorrect";NA
-"IR_TAN_V";0;"P0314";"P";"Code de l''acte CCAM incorrect";NA
-"IR_TAN_V";0;"P0315";"P";"Phase de l''acte CCAM incorrecte";NA
-"IR_TAN_V";0;"P0401";"P";"Type d''enregistrement incorrect";NA
-"IR_TAN_V";0;"P0402";"P";"Code de prise en charge incorrect";NA
-"IR_TAN_V";0;"P0403";"P";"Justification Exonération TM incorrecte";NA
-"IR_TAN_V";0;"P0501";"P";"Type de séjour incorrect";NA
-"IR_TAN_V";0;"P0502";"P";"Code de prise en charge incorrect";NA
-"IR_TAN_V";0;"P0503";"P";"Code Grand Régime incorrect";NA
-"IR_TAN_V";0;"P0504";"P";"Code géographique de résidence incorrect";NA
-"IR_TAN_V";0;"P0505";"P";"Type d''enregistrement incorrect";NA
-"IR_TAN_V";0;"R0270";"R";"Nature de la revalorisation incorrecte";NA
-"IR_TAN_V";0;"R0271";"R";"Delai de carence";NA
-"IR_TAN_V";0;"R0272";"R";"Code pathologie";NA
-"IR_TAN_V";0;"R0273";"R";"Numero de dent";NA
-"IR_TAN_V";0;"R0274";"R";"Top prestation forfaitaire incorrect";NA
-"IR_TAN_V";0;"R0275";"R";"Mode de prescription incorrect";NA
-"IR_TAN_V";0;"R0276";"R";"Top déconditionnement incorrect";NA
-"IR_TAN_V";0;"R0277";"R";"Type de CIP délivré incorrect";NA
-"IR_TAN_V";0;"R0280";"R";"Numéro de GHS incorrect";NA
-"IR_TAN_V";0;"R0281";"R";"Nature de fin de séjour (transfert) incorrect";NA
-"IR_TAN_V";0;"R0282";"R";"Code discipline mco incorrect";NA
-"IR_TAN_V";0;"R0283";"R";"Indicateur TAA incorrect";NA
-"IR_TAN_V";0;"R0284";"R";"Type de Minoration GHS incorrect";NA
-"IR_TAN_V";0;"R0290";"R";"Prestation affinée CCAM incorrecte";NA
-"IR_TAN_V";0;"R0291";"R";"Code activité incorrect";NA
-"IR_TAN_V";0;"R0292";"R";"Phase de traitement incorrect";NA
-"IR_TAN_V";0;"R0293";"R";"Code modificateur incorrect";NA
-"IR_TAN_V";0;"R0294";"R";"Code association incorrect";NA
-"IR_TAN_V";0;"R0295";"R";"Code remboursement exceptionnel incorrect";NA
-"IR_TAN_V";0;"R0296";"R";"Indicateur de supplément de charge en cabinet incorrect";NA
-"IR_TAN_V";0;"R0297";"R";"Numéro de dent incorrect";NA
-"IR_TAN_V";0;"R0301";"R";"Numéro de médecin traitant incorrect";NA
-"IR_TAN_V";0;"R0302";"R";"Qualificatif du parcours de soins Entrée incorrect";NA
-"IR_TAN_V";0;"R0303";"R";"Qualificatif du parcours de soins Sortie incorrect";NA
-"IR_TAN_V";0;"R0304";"R";"Qualificatif de la dépense transmis incorrect";NA
-"IR_TAN_V";0;"R0305";"R";"Indicateur de tarif opposable incorrect";NA
-"IR_TAN_V";0;"R0306";"R";"Option de coordination incorrecte";NA
-"IR_TAN_V";0;"R0307";"R";"Indicateur Prescripteur Médecin Traitant incorrect";NA
-"IR_TAN_V";0;"R0308";"R";"Indicateur Référentiel EP Kiné incorrect";NA
-"IR_TAN_V";0;"R0309";"R";"Indicateur Top Entente Préalable Kiné incorrect";NA
-"IR_TAN_V";0;"R0310";"R";"Type de prestation Kiné incorrect";NA
-"IR_TAN_V";0;"R0311";"R";"Dispositif de prévention incorrect";NA
-"IR_TAN_V";0;"R0312";"R";"Contexte PS incorrect";NA
-"IR_TAN_V";0;"R0313";"R";"Contexte Bénéficiaire incorrect";NA
-"IR_TAN_V";0;"R0314";"R";"Type de Majoration incorrect";NA
-"IR_TAN_V";0;"R0401";"R";"Regime incorrect";NA
-"IR_TAN_V";0;"R0402";"R";"Exoneration du ticket moderateur incorrecte";NA
-"IR_TAN_V";0;"R0403";"R";"Modulation du ticket moderateur incorrecte";NA
-"IR_TAN_V";0;"R0404";"R";"Categorie de pension invalidite incorrecte";NA
-"IR_TAN_V";0;"R0405";"R";"Etat de la pension invalidite incorrect";NA
-"IR_TAN_V";0;"R0407";"R";"Motif de suppression de la rente AT incorrect";NA
-"IR_TAN_V";0;"R0501";"R";"Nature assurance incorrecte";NA
-"IR_TAN_V";0;"R0502";"R";"Nature accident du travail incorrecte";NA
-"IR_TAN_V";0;"R0503";"R";"Motif exoneration du ticket moderateur incorrect";NA
-"IR_TAN_V";0;"R0505";"R";"Taux de prise en charge incorrect";NA
-"IR_TAN_V";0;"R0506";"R";"Qualificatif de la depense incorrect";NA
-"IR_TAN_V";0;"R0507";"R";"Destinataire du reglement incorrect";NA
-"IR_TAN_V";0;"R0551";"R";"Numero de professionnel de sante executant";NA
-"IR_TAN_V";0;"R0552";"R";"Numero de professionnel de sante prescripteur";NA
-"IR_TAN_V";0;"R0553";"R";"Specialite medicale incorrecte";NA
-"IR_TAN_V";0;"R0554";"R";"Nature activite pour les non medecins incorrecte";NA
-"IR_TAN_V";0;"R0557";"R";"Informations reseaux et filieres incorrectes";NA
-"IR_TAN_V";0;"R0558";"R";"Statut juridique ou mode  exercice incorrect";NA
-"IR_TAN_V";0;"R0559";"R";"Secteur conventionnel incorrect";NA
-"IR_TAN_V";0;"R0560";"R";"Zone tarif executant ou prescripteur incorrecte";NA
-"IR_TAN_V";0;"R0561";"R";"Nature exercice incorrecte";NA
-"IR_TAN_V";0;"R0562";"R";"Code lieu d'exécution erroné";NA
-"IR_TAN_V";0;"R0563";"R";"Taux TAA erroné";NA
-"IR_TAN_V";0;"R0564";"R";"Type de renouvellement erroné";NA
-"IR_TAN_V";0;"R0565";"R";"Donnée non numérique";NA
-"IR_TAN_V";0;"R0566";"R";"Code UCD erroné";NA
-"IR_TAN_V";0;"R0567";"R";"Top UCD erroné";NA
-"IR_TAN_V";0;"R0568";"R";"Coefficient de fractionnement erroné";NA
-"IR_TAN_V";0;"R0569";"R";"Indicateur de suivi du Numéro RPPS incorrect";NA
-"IR_TAN_V";0;"R0570";"R";"Donnée non numérique";NA
-"IR_TAN_V";0;"R0571";"R";"Indicateur Prescription en Ligne incorrect";NA
-"IR_TAN_V";0;"R0601";"R";"Categorie etablissement incorrecte";NA
-"IR_TAN_V";0;"R0602";"R";"Statut juridique etablissement incorrect";NA
-"IR_TAN_V";0;"R0610";"R";"Heure de départ du transport erronée";NA
+PRS_ANO_COD;RAN_COD;PRS_ANO_LIB;TEC_COL
+R0611;R;Code postal du lieu de départ du transport erroné;0
+R0612;R;Numéro de véhicule erroné;0
+R0613;R;Nom du conducteur erroné;0
+R0614;R;Heure d'arrivée du transport erronée;0
+R0615;R;Code postal du lieu d'arrivée du transport erroné;0
+R0616;R;Code Utilisation du Distancier incorrect;0
+R0617;R;Niveau de Certification incorrect;0
+R0801;R;Gestions comptables incorrectes;0
+R0802;R;Sens du mouvement incorrect;0
+R0803;R;Signe du mouvement incorrect;0
+R0804;R;Numero de compte Mircoss;0
+R0805;R;Branche incorrecte;0
+R0806;R;Nature de la dette incorrecte;0
+R0807;R;Nature des operations de recuperation incorrecte;0
+R0808;R;Sens de la regularisation incorrect;0
+R0809;R;Type de ventilation;0
+R1010;R;Code nature prestation / code acte complementaire incompatibles;0
+R1030;R;Code nature prestation / assurance incompatibles;0
+R1040;R;Code nature prestation / beneficiaire incompatibles;0
+R1050;R;Code nature prestation / qualificatif de la depense incompatibles;0
+R1060;R;Code nature prestation / taux de remboursement 100% incompatibles;0
+R1070;R;Code nature prestation / quantite maxi / presence incompatibles;0
+R1080;R;Code nature prestation / coefficient maxi incompatibles;0
+R1090;R;Code nature prestation / specialite ou nature  activite executant incompatibles;0
+R1100;R;Code nature prestation / categorie executant incompatibles;0
+R1110;R;Code nature prestation / specialite ou nature  activite prescripteur incompatibles;0
+R1120;R;Code nature prestation / categorie prescripteur incompatibles;0
+R1130;R;Code nature prestation / presence prescripteur incompatibles;0
+R1140;R;Code nature prestation / categorie etablissement < centre de sante > incompatibles;0
+R1150;R;Code nature prestation / discipline de prestation incompatibles;0
+R1160;R;Code nature prestation / mode de traitement incompatibles;0
+R1170;R;Code nature prestation / prive-public / categorie incompatibles;0
+R1181;R;Code nature prestation transport / type de forfait ou supplement incompatibles;0
+R1190;R;Code nature prestation transport / type forfait / nbre de kilometres incompatibles;0
+R1210;R;Code nature prestation / soins de ville incompatibles;0
+R1220;R;Nature de prestation / Indicateur Référentiel Kiné incompatibles;0
+R1221;R;Nature de prestation / Top Entente Préalable Kiné incompatibles;0
+R1222;R;Nature de prestation / Type de Prestation Kiné incompatibles;0
+R2010;R;Statut juridique / mode de fixation des tarifs incompatibles;0
+R2020;R;Nbre de jours factures / date debut facturation / date fin facturation incompatibles;0
+R2030;R;Discipline de prestation / mode de traitement incompatibles;0
+R2040;R;Top medecin referent / specialite incompatibles;0
+R2050;R;Categorie executant / Qualificatif de la depense incompatibles;0
+R2060;R;Specialite ou nature activite executant / nature  assurance incompatibles;0
+R3010;R;Grand regime / regime / qualite beneficiaire /assurance incompatibles;0
+R3011;R;Grand régime / régime / qualité bénéficiaire incompatibles;0
+R3012;R;Grand régime / régime / assurance incompatibles;0
+R3020;R;Grand regime / qualite beneficiaire / assurance/ taux incompatibles;0
+R3030;R;Discipline de prestation / nature assurance incompatibles;0
+R4010;R;Montant paye / montant rembourse incompatibles;0
+R4031;R;Nature de prestation / base de remboursement incompatibles;0
+R4033;R;Nature de prestation IJ/ quantite / dates debut et fin de soins /carence incompatibles;0
+R5020;R;Nature de prestation / code affine incompatibles;0
+R5032;R;Date acte affine / date debut validite dans base medicament incompatibles;0
+R5033;R;Date acte affine / periode validite dans base biologie incompatibles;0
+R5035;R;Date acte affiné / date début validité incohérente avec base UCD;0
+R5036;R;Incohérence des CIP transmis et délivré;0
+R5037;R;CIP transmis ou CIP délivré obligatoire;0
+R5050;R;Acte affine / specialite ou nature activite executant incompatibles;0
+R5060;R;Coefficient acte affine / coefficient acte / quantite acte affine incompatibles;0
+R5080;R;Codes affines  une meme facture incompatibles;0
+R5090;R;Coefficient de fractionnement / Nbre unités délivrées (UCD) incohérents;0
+R5100;R;Montant total calculé / montant transmis (UCD) incohérents;0
+R5200;R;Nom de l'accompagnateur obligatoire pour transport en ambulance;0
+R6010;R;Ccam : Incompatibilité entre codes modificateurs;0
+R6030;R;Ccam : Obligation du codage;0
+R6060;R;Ccam : Incompatibilité code activité / code de l'acte;0
+R6070;R;Ccam : Incompatibilité code phase traitement / code de l'acte - activité;0
+R6080;R;Ccam : Incompatibilité code modificateur / code de l'acte - activité;0
+R6110;R;Ccam : Incompatibilité spécialité prescripteur / code de l'acte;0
+R6120;R;Ccam : Incompatibilité spécialité exécutant / code de l'acte - activité;0
+R6150;R;Ccam : Prix unitaire erroné;0
+R6160;R;Ccam : Incompatibilité code de l'acte / nature d'assurance;0
+R6170;R;Ccam : Incompatibilité code de l'acte / Discipline de prestation;0
+R6180;R;Ccam : Incompatibilité Nombre de dents;0
+R7020;R;Incompatibilité numéro de GHS  / assurance;0
+R7030;R;Incompatibilité prestation Ivg ou urgence / prestation GHS ou EXH;0
+R7040;R;Prestation TJC présente à tort en T2A publique;0
+R7050;R;Absence coefficient MCO en T2A publique;0
+R7060;R;Ecart montant du total GHS en T2A publique;0
+R7070;R;Incompatibilité type de remboursement/ acte TJC;0
+R7092;R;Incompatibilité numéro de GHS/ secteur privé;0
+R8010;R;Top Entente Préalable Kiné / Indicateur Référentiel Kiné incompatibles;0
+R8020;R;Type de Prestation / Top Entente Préalable Kiné incompatibles;0
+R8030;R;Incompatibilité Nature d'assurance / Dispositif de prévention;0
+R8040;R;Incompatibilité Nature de Prestation / Dispositif de Prévention;0
+R8050;R;Incompatibilité type de remboursement / type de contrat complémentaire;0
+R9010;R;Date non numerique;0
+R9020;R;Date erronee;0
+REM03;R;Date de mandatement 2003;0
+S0297;S;Numéro de dent imparfait (Signalement);0
+S0901;S;Controles pour la duplication de lignes;0
+S5031;S;Date acte affine / date fin validite dans base medicament incompatibles;0
+S5034;S;Date acte affiné / date fin validité incohérente avec base UCD;0
+XXXXX;X;VALEUR INCONNUE;1
+R0217;R;Indicateur de forçage Sesam Vital incorrect;0
+I0206;I;r- hors archives paiement;0
+I0207;I;r- nature drg diff. aux archives;0
+I0208;I;non utilisation dernier matricule;0
+I0209;I;maj progres-situation anterieure-;0
+I0210;I;siecle de naissance genere;0
+I0211;I;utilisation ancienne date naiss.;0
+I0212;I;presence de jumeaux;0
+I0301;I;date soins < date sinistres;0
+I0302;I;date soins hors dates accords;0
+I0303;I;statut at = rejete;0
+I0304;I;en rechute statut at = rejete;0
+I0305;I;soins apres rechute sans accord;0
+I0306;I;soins hors dates accord soins;0
+I0307;I;at existant mais code cram diff.;0
+I0308;I;pas at connu en bdo a cette date;0
+I0309;I;AT inconnu en BDO à cette date;0
+I0310;I;AT approchant à N jours;0
+I0311;I;AT approchant à date rechute;0
+I0312;I;AT approchant à J/M/A;0
+I0401;I;reponse favorable a l'ent. preal.;0
+I0402;I;abs. demande ent. preal. dans bdo;0
+I0403;I;pas de reponse a l'ent. preal.;0
+I0404;I;absence ent. prealable / prest.;0
+I0405;I;acte incompati. avec ep transmis;0
+I0406;I;entente prealable possible;0
+I0407;I;ald non trouv en bdo mais rgm exo;0
+I0408;I;etm bdo non transmise /flux sesam;0
+I0409;I;mtm bdo differente sur flux sesam;0
+I0410;I;exoneration de type ps en bdo;0
+I0411;I;exoneration type ps en bdo et tp;0
+I0412;I;prescripteur etab. hors region;0
+I0413;I;org. compl. inconnu dans la bdo;0
+I0414;I;org. compl. absent  bdo assure;0
+I0415;I;absence org.compl.bdo assure;0
+I0416;I;absence contrat 89 et mut 9999997;0
+I0417;I;incompatibilite regime / mutuelle;0
+I0418;I;Situation d'exoneration inconnue pour le bénéficiaire;0
+I0501;I;numero d'adherent inconnu bdo;0
+I0502;I;contrat mutuelle incorrect;0
+I0503;I;type de contrat absent de la bdo;0
+I0504;I;incomp. nat. prest/agrement radio;0
+I0505;I;incomp. nat. prest./systeme hono.;0
+I0506;I;actes mult. au cours meme seance;0
+I0507;I;majoration anesthesie a verifier;0
+I0508;I;incomp.acte principal/anesthesie;0
+I0509;I;incomp. forf.chirurgie/acte chir;0
+I0510;I;absence acte associe;0
+I0511;I;limitation du prix de l'acte mpi;0
+I0512;I;cures proratisees;0
+I0513;I;prestation absente liste cavimac;0
+I0514;I;incomp. date prest. / nat. majo.;0
+I0515;I;date prest. = samedi non ferie;0
+I0601;I;date deb. prest. anter. a 2a + 3m;0
+I0602;I;double paiement sur une periode;0
+I0603;I;chevauch. periodes sur paiement;0
+I0604;I;date soins > date exam. +6 mois;0
+I0605;I;valeur denomb. > maxi. autorise;0
+I0606;I;prix unit. absent historique bdo;0
+I0607;I;pu demande # pu en cours;0
+I0608;I;etab. en dot. global, pu fourni;0
+I0609;I;etab. hors region, pu fourni;0
+I0610;I;majo prest. hospit. absente fic.;0
+I0611;I;caisse pivot paiement pu fourni;0
+I0701;I;tarification au taux transmis;0
+I0702;I;mt part obligatoire invalide;0
+I0703;I;ecart mt demande / mt calcule;0
+I0704;I;tp sans part comple / benef cmu;0
+I0705;I;type paiement incomp. / benef cmu;0
+I0706;I;etablissement d'exercice inconnu;0
+I0707;I;pas de contrat prof./benef. (ref);0
+I0708;I;zone tarif salarie non disp bdo;0
+I0709;I;type comptabilite impossible;0
+I0710;I;"limitation du remboursement au solde ""patch""";0
+I0801;I;calcul effectue avec p.u fourni;0
+I0802;I;distance impossible a calculer;0
+I0901;I;informations dest regl non prises;0
+I1001;I;justif. qualite benef. absent;0
+I1002;I;droits non ouverts;0
+I1101;I;limitation au mt de la depense;0
+I1102;I;non conforme a option convent.;0
+I1103;I;non respect du tarif convent.;0
+I1104;I;montant depense eleve;0
+I1105;I;spec. prescripteur imposs a det.;0
+I1106;I;spec. presc. trans. inconnue bdo.;0
+I1107;I;specialite transmise inconnue bdo;0
+I1108;I;Non conforme a option convent.;0
+I1201;I;ecart forf. trans./forf. calcule;0
+I1202;I;sejour inferieur a 24 heures;0
+I1801;I;lot atypique;0
+I2201;I;chevauchement prix de journee;0
+I2202;I;chevauchement pj / forfait htp;0
+I2203;I;chevauchement pj / forf accueil;0
+I2204;I;chevauchement pj/fse;0
+I2205;I;chevauchement pj / sns;0
+I2206;I;chevauch pharm.medic.couteux;0
+I2207;I;destinataire reglt different;0
+I2208;I;chevauchement pj / anp;0
+I2209;I;chevauchement anp / anp;0
+I2210;I;chevauchement anp / ent;0
+I2501;I;changement d'infos sur periode;0
+I2502;I;limitation pu public / tarif tips;0
+I2503;I;pu transmis > seuil caisse;0
+I2504;I;numero fabricant absent;0
+I2505;I;numero de fabricant absent;0
+I2601;I;Contexte professionnel de santé non déterminé;0
+I2602;I;Contexte bénéficiaire non déterminé;0
+I3001;I;proc entente prea a surveiller;0
+I3002;I;exam sang.: minima trop eleve;0
+I3003;I;exam.sang : minima present a tort;0
+I3004;I;code affine supl.p/jour=samedi;0
+I3005;I;taux reg. gen. a 0 et code a 100;0
+I4001;I;cip supprime fichier date facture;0
+I4002;I;taux errone / fichier medicament;0
+I4003;I;pu saisi > pu fichier medicament;0
+I4004;I;pu saisi < pu fichier medicament;0
+I4005;I;qte delivree pour 1 cip > seuil;0
+I4006;I;medic. soumis a prescr. restreint;0
+I4007;I;medicament d exception;0
+I4008;I;risque interaction medicamenteuse;0
+I4009;I;incompatibilite medicament / age;0
+I4010;I;incompatibilite medicament / sexe;0
+I4011;I;nb boites delivrees>seuil facture;0
+I4012;I;pu saisi = ancien pu connu;0
+I4013;I;base facturee differente calculee;0
+I4014;I;tarif posterieur a date des soins;0
+I4015;I;vaccin ror sans exo prev;0
+I4016;I;incomp. taux prescrit / delivre;0
+I4017;I;Vaccin grippe incom. avec Bénéf;0
+I4018;I;P.U. transmis  > P.U. OPPOSABLE;0
+I4019;I;P.U.U transmis  > P.U.U OPPOSABLE;0
+I4020;I;non stupéfiant ou expérimentation antibiotique déconditionné;0
+I4021;I;Date d'opposabilité absente à tort;0
+I4022;I;PU TRANSMIS>PU OPPOSABLE 4000-090;0
+I9001;I;total part. assure errone;0
+I9002;I;tot. remb. org. compl. errone;0
+I9003;I;tot. remb. org. compl. errone;0
+I9004;I;carte vitale inutilisable;0
+I9005;I;carte abusive t. payant;0
+I9006;I;carte presumee abusive t. payant;0
+I9007;I;carte frauduleuse t. payant;0
+I9201;I;longueur borne debut non numeriq.;0
+I9202;I;centre different de zero;0
+I9203;I;nom du fichier absent;0
+P0201;P;Numéro FINESS géographique incorrect;0
+P0202;P;Code Pmsi incorrect;0
+P0203;P;CMD et GHM V7 obtenu par GENRSA incorrects;0
+P0204;P;Code retour obtenu par GENRSA Vs incorrects;0
+P0205;P;CMD et GHM V9 obtenu par GENRSA incorrects;0
+P0206;P;Code retour obtenu par GENRSA V9 incorrects;0
+P0207;P;CMD et GHM V7 lu sur le RSS incorrects;0
+P0208;P;Code retour lu sur le RSS V7 incorrects',0);0
+P0209;P;CMD et GHM V9 lu sur le RSS incorrects',0);0
+P0210;P;Code retour lu sur le RSS V9 incorrects;0
+P0211;P;Sexe du patient incorrect;0
+P0212;P;Mode d''entrée dans le champ PMSI_MCO incorrect;0
+P0213;P;Provenance incorrecte;0
+ABS01;X;professionnel de sante absent du fichier praticien;0
+I0101;I;habilitation envoi de messages;0
+I0102;I;incomp. emetteur/part. sante;0
+I0103;I;famille mutee ou epuree;0
+I0104;I;Assuré non géré par la caisse;0
+I0201;I;convention tp non disp dans bdo;0
+I0202;I;option conv. hors tiers payant;0
+I0203;I;bucco-dentaire hors tiers payant;0
+I0204;I;incomp. asu-nat / sexe / age;0
+I0205;I;r- hors archives hospicumu;0
+P0214;P;Mode de sortie dans le champ PMSI_MCO incorrect;0
+P0215;P;Destination incorrecte;0
+P0216;P;Type de séjour incorrect;0
+P0217;P;Code géographique de résidence incorrect;0
+P0218;P;Code de prise en charge incorrect;0
+P0219;P;Diagnostic principal (DP) incorrect;0
+P0220;P;Diagnostic relié (DR) incorrect;0
+P0506;P;Mode de traitement incorrect;0
+P0507;P;Discipline médico-tarifaire incorrecte;0
+P0508;P;Code acte incorrect;0
+P0509;P;Taux de participation de la caisse incorrect;0
+P0510;P;Nature opération de récupération Noémie retour incorrecte;0
+P0511;P;Justification Exonération TM incorrecte;0
+P0512;P;Code Diagnostic significatif (CIM10) incorrect;0
+P0513;P;Code de l''acte CDAM incorrect;0
+P0514;P;Code de l''acte CCAM incorrect;0
+P0515;P;Phase de l''acte CCAM incorrect;0
+P1010;P;Mode d''entrée dans le champ du PMSI_MCO/ Provenance incompatible;0
+P1020;P;Mode de sortie dans le champ du PMSI_MCO/ Destination incompatible;0
+P1030;P;Type d''entité / type d''enregistrement (Entité 400);0
+P1040;P;Type d''entité / type d''enregistrement (Entité 502);0
+P9010;P;Date non numérique;0
+P9020;P;Date invalide;0
+R0101;R;Grand regime incorrect;0
+R0102;R;Organisme affiliation  incorrect;0
+R0103;R;Categorie organismes complementaires Cmu incorrecte;0
+R0104;R;Type de procedure de paiement Cmu incorrecte;0
+R0105;R;Type acheminement des flux incorrect;0
+R0106;R;Type version interface tiers incorrect;0
+R0107;R;Type de controle incorrect;0
+R0108;R;Indicateur de controle incorrect;0
+R0109;R;Code libelle du controle incorrect;0
+R0110;R;Top certification du lot incorrect;0
+R0111;R;Nature  operation de liquidation incorrecte;0
+R0112;R;Mode de reglement incorrect;0
+R0114;R;Code Acoss incorrect;0
+R0115;R;Decompte avec part mutuelle complementaire;0
+R0116;R;Top Epas;0
+R0151;R;Type de saisie incorrecte;0
+R0152;R;Type de saisie affinee incorrecte;0
+R0153;R;Code devise incorrect;0
+R0201;R;Rang beneficiaire incorrect;0
+R0202;R;Qualite de beneficiaire incorrecte;0
+R0203;R;Sexe du beneficiaire incorrect;0
+R0204;R;Departement de residence incorrect;0
+R0205;R;Adherent a un contrat de referent incorrect;0
+R0206;R;Beneficiaire de la cmu complementaire incorrect;0
+R0207;R;Notion Patient heberge en EHPAD incorrecte;0
+R0209;R;Categorie de beneficiaire de la rente AT incorrecte;0
+R0210;R;Code postal beneficiaire incorrect;0
+R0211;R;Commune de residence du beneficiaire (6);0
+R0212;R;Numero assure anonymise;0
+R0213;R;Numero de beneficiaire non renseigne;0
+R0214;R;Code indicateur NIR erroné;0
+R0215;R;Type de contrat complémentaire incorrect;0
+R0216;R;Droits Spécifiques (ACS) incorrect;0
+R0251;R;Nature de prestation incorrecte;0
+R0252;R;Complement actes incorrect;0
+R0253;R;Type de prise en charge incorrecte;0
+R0254;R;Prestation affinee prescrite ou motif du transport incorrect;0
+R0255;R;Motif de substitution incorrect;0
+R0256;R;Type de prestation fournie incorrecte;0
+R0257;R;Motif du transport incorrect;0
+R0258;R;Prestation executee dans le cadre d'un contrat de referent incorrecte;0
+R0259;R;Prestation prescrite dans le cadre d'un contrat de referent incorrecte;0
+R0260;R;Informations reseaux et filieres incorrectes;0
+R0261;R;Prestation consecutive a un accident incorrecte;0
+R0262;R;Identification nomenclature pathologie;0
+R0263;R;Mode de traitement incorrect;0
+R0264;R;Mode de fixation des tarifs incorrect;0
+R0265;R;Discipline de prestation incorrecte;0
+R0266;R;Type de remboursement incorrect;0
+R0267;R;Code Forcage du taux de remboursement incorrect;0
+R0268;R;Type enveloppe incorrect;0
+R0269;R;Nature de prestation de reference incorrecte;0
+P0221;P;Numéro de GHS incorrect;0
+P0301;P;Résultat contrôle « N° sécurité sociale » incorrect;0
+P0302;P;Résultat contrôle « date de naissance » incorrect;0
+P0303;P;Résultat contrôle « sexe » incorrect;0
+P0304;P;Résultat contrôle « N° ident admin de séjour » incorrect;0
+P0305;P;Résultat contrôle fusion ANO_HOSP/HOSP_PMSI incorrect;0
+P0306;P;Résultat contrôle fusion ANO_PMSI/Fichier PMSI incorrect;0
+P0312;P;Code Diagnostic significatif (CIM10) incorrect;0
+P0313;P;Code de l''acte CDAM incorrect;0
+P0314;P;Code de l''acte CCAM incorrect;0
+P0315;P;Phase de l''acte CCAM incorrecte;0
+P0401;P;Type d''enregistrement incorrect;0
+P0402;P;Code de prise en charge incorrect;0
+P0403;P;Justification Exonération TM incorrecte;0
+P0501;P;Type de séjour incorrect;0
+P0502;P;Code de prise en charge incorrect;0
+P0503;P;Code Grand Régime incorrect;0
+P0504;P;Code géographique de résidence incorrect;0
+P0505;P;Type d''enregistrement incorrect;0
+R0270;R;Nature de la revalorisation incorrecte;0
+R0271;R;Delai de carence;0
+R0272;R;Code pathologie;0
+R0273;R;Numero de dent;0
+R0274;R;Top prestation forfaitaire incorrect;0
+R0275;R;Mode de prescription incorrect;0
+R0276;R;Top déconditionnement incorrect;0
+R0277;R;Type de CIP délivré incorrect;0
+R0280;R;Numéro de GHS incorrect;0
+R0281;R;Nature de fin de séjour (transfert) incorrect;0
+R0282;R;Code discipline mco incorrect;0
+R0283;R;Indicateur TAA incorrect;0
+R0284;R;Type de Minoration GHS incorrect;0
+R0290;R;Prestation affinée CCAM incorrecte;0
+R0291;R;Code activité incorrect;0
+R0292;R;Phase de traitement incorrect;0
+R0293;R;Code modificateur incorrect;0
+R0294;R;Code association incorrect;0
+R0295;R;Code remboursement exceptionnel incorrect;0
+R0296;R;Indicateur de supplément de charge en cabinet incorrect;0
+R0297;R;Numéro de dent incorrect;0
+R0301;R;Numéro de médecin traitant incorrect;0
+R0302;R;Qualificatif du parcours de soins Entrée incorrect;0
+R0303;R;Qualificatif du parcours de soins Sortie incorrect;0
+R0304;R;Qualificatif de la dépense transmis incorrect;0
+R0305;R;Indicateur de tarif opposable incorrect;0
+R0306;R;Option de coordination incorrecte;0
+R0307;R;Indicateur Prescripteur Médecin Traitant incorrect;0
+R0308;R;Indicateur Référentiel EP Kiné incorrect;0
+R0309;R;Indicateur Top Entente Préalable Kiné incorrect;0
+R0310;R;Type de prestation Kiné incorrect;0
+R0311;R;Dispositif de prévention incorrect;0
+R0312;R;Contexte PS incorrect;0
+R0313;R;Contexte Bénéficiaire incorrect;0
+R0314;R;Type de Majoration incorrect;0
+R0401;R;Regime incorrect;0
+R0402;R;Exoneration du ticket moderateur incorrecte;0
+R0403;R;Modulation du ticket moderateur incorrecte;0
+R0404;R;Categorie de pension invalidite incorrecte;0
+R0405;R;Etat de la pension invalidite incorrect;0
+R0407;R;Motif de suppression de la rente AT incorrect;0
+R0501;R;Nature assurance incorrecte;0
+R0502;R;Nature accident du travail incorrecte;0
+R0503;R;Motif exoneration du ticket moderateur incorrect;0
+R0505;R;Taux de prise en charge incorrect;0
+R0506;R;Qualificatif de la depense incorrect;0
+R0507;R;Destinataire du reglement incorrect;0
+R0551;R;Numero de professionnel de sante executant;0
+R0552;R;Numero de professionnel de sante prescripteur;0
+R0553;R;Specialite medicale incorrecte;0
+R0554;R;Nature activite pour les non medecins incorrecte;0
+R0557;R;Informations reseaux et filieres incorrectes;0
+R0558;R;Statut juridique ou mode  exercice incorrect;0
+R0559;R;Secteur conventionnel incorrect;0
+R0560;R;Zone tarif executant ou prescripteur incorrecte;0
+R0561;R;Nature exercice incorrecte;0
+R0562;R;Code lieu d'exécution erroné;0
+R0563;R;Taux TAA erroné;0
+R0564;R;Type de renouvellement erroné;0
+R0565;R;Donnée non numérique;0
+R0566;R;Code UCD erroné;0
+R0567;R;Top UCD erroné;0
+R0568;R;Coefficient de fractionnement erroné;0
+R0569;R;Indicateur de suivi du Numéro RPPS incorrect;0
+R0570;R;Donnée non numérique;0
+R0571;R;Indicateur Prescription en Ligne incorrect;0
+R0601;R;Categorie etablissement incorrecte;0
+R0602;R;Statut juridique etablissement incorrect;0
+R0610;R;Heure de départ du transport erronée;0

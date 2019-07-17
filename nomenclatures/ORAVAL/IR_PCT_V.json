@@ -1,0 +1,34 @@
+{
+    "fields": [
+        {
+            "name": "CPT_DEP_PER",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "CPT_DEP_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "CPT_DEP_EXC",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_PCT_V",
+    "title": "Périodes comptables",
+    "primaryKey": [
+        "CPT_DEP_PER"
+    ]
+}

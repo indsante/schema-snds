@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "TRS_PRS_IDE",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "TRS_IDE_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_DTR_V",
+    "title": "Codes Détail Transport",
+    "primaryKey": [
+        "TRS_PRS_IDE"
+    ]
+}

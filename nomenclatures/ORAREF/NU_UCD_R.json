@@ -1,0 +1,63 @@
+{
+    "fields": [
+        {
+            "name": "UCD_UCD_COD",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "UCD_PCD_COD",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "UCD_SVT_COD",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "UCD_INS_TOP",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "UCD_LAB_NOM",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "UCD_DOC_DTE",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "UCD_DOC_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "UCD_DER_MAJ",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "UCD_DSN_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "UCD_CND_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "UCD_OBS_LIB",
+            "type": "string",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "NU_UCD_R"
+}

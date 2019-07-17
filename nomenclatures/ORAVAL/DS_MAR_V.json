@@ -1,0 +1,28 @@
+{
+    "fields": [
+        {
+            "name": "ETA_MAR_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "ETA_MAR_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "DS_MAR_V",
+    "primaryKey": [
+        "ETA_MAR_COD"
+    ]
+}

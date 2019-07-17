@@ -1,5 +1,5 @@
-"nom_table";"TEC_COL";"CPT_COP_NUM";"TOP_OPS_COD";"TOP_OPS_LIB"
-"IR_TOP_V";2;NA;0;"Sans objet """"acte gratuit ou non remboursable"""""
-"IR_TOP_V";0;NA;1;"Tarif opposable """"sans dépassement"""""
-"IR_TOP_V";0;NA;2;"Tarif opposable """"avec dépassement"""""
-"IR_TOP_V";1;NA;9;"VALEUR INCONNUE"
+TOP_OPS_COD;TOP_OPS_LIB;TEC_COL
+0;"Sans objet ""acte gratuit ou non remboursable""";2
+1;"Tarif opposable ""sans dépassement""";0
+2;"Tarif opposable ""avec dépassement""";0
+9;VALEUR INCONNUE;1

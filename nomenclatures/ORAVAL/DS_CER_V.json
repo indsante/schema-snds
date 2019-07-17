@@ -1,0 +1,28 @@
+{
+    "fields": [
+        {
+            "name": "TYP_CER_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "TYP_CER_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "DS_CER_V",
+    "primaryKey": [
+        "TYP_CER_COD"
+    ]
+}

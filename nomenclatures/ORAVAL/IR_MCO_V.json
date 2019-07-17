@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "GHS_DDP_MCO",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "DDP_MCO_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_MCO_V",
+    "title": "Table MCO médecine/chirurgie/obstétrique",
+    "primaryKey": [
+        "GHS_DDP_MCO"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "EXE_LIE_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "EXE_LIE_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_LIE_V",
+    "title": "lieu d'exécution ( de l'acte médical )",
+    "primaryKey": [
+        "EXE_LIE_COD"
+    ]
+}

@@ -1,9 +1,9 @@
 import os
-from typing import List, Union
+from typing import List, Union, Tuple
 
 from tableschema import Schema
 
-from src.constants import SCHEMAS_DIR
+from src.constants import SCHEMAS_DIR, ROOTED_NOMENCLATURES_DIR
 
 
 def get_all_schema(schemas_dir=SCHEMAS_DIR) -> List[Schema]:
@@ -16,6 +16,20 @@ def get_all_schema_path(schemas_dir=SCHEMAS_DIR) -> List[str]:
         for file in sorted(files):
             schema_path = os.path.join(root, file)
             yield schema_path
+
+
+def get_all_nomenclatures_schema(nomenclatures_dir=ROOTED_NOMENCLATURES_DIR) -> List[Schema]:
+    return [Schema(schema_path) for _, schema_path in get_all_nomenclatures_csv_schema_path(nomenclatures_dir)]
+
+
+def get_all_nomenclatures_csv_schema_path(nomenclatures_dir=ROOTED_NOMENCLATURES_DIR) -> List[Tuple[str, str]]:
+    for root, dirs, files in os.walk(nomenclatures_dir):
+        dirs.sort()
+        for file in sorted(files):
+            if file.endswith('.csv'):
+                csv_path = os.path.join(root, file)
+                schema_path = csv_path[:-4] + '.json'
+                yield csv_path, schema_path
 
 
 def is_running_in_docker():

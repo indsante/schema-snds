@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "DCT_RGU_SNS",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "RGU_SNS_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_RGU_V",
+    "title": "Sens de la régularisation",
+    "primaryKey": [
+        "DCT_RGU_SNS"
+    ]
+}

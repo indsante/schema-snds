@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "TYT_COD",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "EMT_NUM",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "EMT_NUM_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_NEM_V",
+    "title": "Numéros d'émetteurs"
+}

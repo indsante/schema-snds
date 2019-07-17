@@ -1,0 +1,39 @@
+{
+    "fields": [
+        {
+            "name": "GRG_COD",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "RRG_COD",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "GRG_LIC",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GRG_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GRG_LIB_SNI",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_GRG_V",
+    "title": "Grand Régime"
+}

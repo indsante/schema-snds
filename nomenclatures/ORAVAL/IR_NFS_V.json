@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "NFS_NAT_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "NFS_NAT_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_NFS_V",
+    "title": "Nature fin de séjour",
+    "primaryKey": [
+        "NFS_NAT_COD"
+    ]
+}

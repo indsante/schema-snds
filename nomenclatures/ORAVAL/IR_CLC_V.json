@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "DCT_CTL_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "CTL_COD_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_CLC_V",
+    "title": "Code Libellé de Contrôle",
+    "primaryKey": [
+        "DCT_CTL_COD"
+    ]
+}

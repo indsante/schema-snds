@@ -1,0 +1,39 @@
+{
+    "fields": [
+        {
+            "name": "CPT_ENV_TYP",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "ENV_TYP_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "ENV_TYP_RGP",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "ENV_RGP_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_ENV_V",
+    "title": "Type d'enveloppe",
+    "primaryKey": [
+        "CPT_ENV_TYP"
+    ]
+}

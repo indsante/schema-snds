@@ -1,0 +1,28 @@
+{
+    "fields": [
+        {
+            "name": "ACC_PST_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "ACC_PST_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "DS_PST_V",
+    "primaryKey": [
+        "ACC_PST_COD"
+    ]
+}

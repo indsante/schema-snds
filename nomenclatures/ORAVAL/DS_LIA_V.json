@@ -1,0 +1,28 @@
+{
+    "fields": [
+        {
+            "name": "ACC_LIA_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "ACC_LIA_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "DS_LIA_V",
+    "primaryKey": [
+        "ACC_LIA_COD"
+    ]
+}

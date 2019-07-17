@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "BEN_CMU_CAT",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "CMU_CAT_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_COC_V",
+    "title": "Catégorie d'Organisme Complémentaire",
+    "primaryKey": [
+        "BEN_CMU_CAT"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "fields": [
+        {
+            "name": "RNG_NAI_TYP",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "RNG_NAI_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "DS_NAI_V",
+    "primaryKey": [
+        "RNG_NAI_TYP"
+    ]
+}

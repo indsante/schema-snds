@@ -1,0 +1,348 @@
+{
+  "fields": [
+    {
+      "name": "PHA_CIP_C13",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "PHA_PRS_IDE",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "PHA_CIP_UCD",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "PHA_MED_NAT",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_MED_NOM",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_PPC_IND",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_INS_DTD",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "PHA_INS_DTF",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "PHA_MTF_VAL",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_LIS_IND",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "PHA_FRM_COD",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "PHA_FRM_LIB",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_FRC_COD",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "PHA_FRC_LIB",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_SUB_DOS",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_DOS_UNI",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_UPC_NBR",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_ATC_CLA",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_ATC_LIB",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_EPH_CLA",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_EPH_LIB",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_LAB_NOM",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_PRD_LIB1",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_PRD_LIB2",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_DER_MAJ",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "PHA_MAX_QTS",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "PHA_MAX_QTR",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "PHA_PRE_IND",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_MEX_IND",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_MED_SPE",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_SEX_DTD",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_MED_SEX",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "PHA_AGE_DTD",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_AGE_MIN",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_AGE_MAX",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_MED_IMG",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "PHA_MED_GEN",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_PCP_DTD",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_MED_PCP",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_MED_PIH",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_DTD_ALM",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_DTF_ALM",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_IND_SUI",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_TAR_DAT",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_PRI_UNI",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_PRI_UND",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_TAU_COD",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_RGE_C07",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_RGE_C13",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_GRS_NUM",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_GRS_NOM",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_NOM_PA",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_MED_COM",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_NOM_COURT",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_EPH_COD",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_EPH_LIB_DSES",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_MED_GEN_DPROD",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_CNV_TOP_DSES",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_GRS_DSD",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_HTA_TOP",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_CND_TOP",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_DOS_PRA_DSES",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_DOS_UNT_DSES",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_UNT_NBR_DSES",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_ATC_C07",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_ATC_L07",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_ATC_C03",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_ATC_L03",
+      "type": "string",
+      "format": "default"
+    }
+  ],
+  "missingValues": [
+    "NA"
+  ],
+  "name": "IR_PHA_R"
+}

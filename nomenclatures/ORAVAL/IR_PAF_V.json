@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "PRS_PPF_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "PRS_PPF_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_PAF_V",
+    "title": "Participation forfaitaire",
+    "primaryKey": [
+        "PRS_PPF_COD"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "fields": [
+        {
+            "name": "DCD_GRS_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "DCD_GRS_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "DS_GRS_V",
+    "primaryKey": [
+        "DCD_GRS_COD"
+    ]
+}

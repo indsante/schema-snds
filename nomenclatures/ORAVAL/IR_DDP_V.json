@@ -1,0 +1,44 @@
+{
+    "fields": [
+        {
+            "name": "DDP_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "DDP_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "DDP_SPE_COD",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "DDP_GDE_COD",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "DDP_LHS",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_DDP_V",
+    "title": "Discipline de prestation établissement",
+    "primaryKey": [
+        "DDP_COD"
+    ]
+}

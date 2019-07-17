@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "TIP_PRS_TYP",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "TIP_PRS_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_PRF_V",
+    "title": "Type de Prestation Fournie (Dispositifs Médicaux)",
+    "primaryKey": [
+        "TIP_PRS_TYP"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "fields": [
+        {
+            "name": "MER_SIT_TOP",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "MER_SIT_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "DS_SIT_V",
+    "primaryKey": [
+        "MER_SIT_TOP"
+    ]
+}

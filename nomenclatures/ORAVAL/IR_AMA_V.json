@@ -1,0 +1,34 @@
+{
+    "fields": [
+        {
+            "name": "AMA_AGE_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "AMA_NRS_TOP",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "AMA_AGE_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_AMA_V",
+    "title": "Tranche d'âge",
+    "primaryKey": [
+        "AMA_AGE_COD"
+    ]
+}

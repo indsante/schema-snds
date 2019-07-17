@@ -1,0 +1,49 @@
+{
+    "fields": [
+        {
+            "name": "TRS_TRS_MTF",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "TRS_MTF_CH1",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "TRS_MTF_LB1",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "TRS_MTF_CH2",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "TRS_MTF_LB2",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "TRS_MTF_CH3",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "TRS_MTF_LB3",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_MTR_V",
+    "title": "Motif du Transport"
+}

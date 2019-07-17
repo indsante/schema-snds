@@ -1,0 +1,28 @@
+{
+    "fields": [
+        {
+            "name": "DCD_ATT_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "DCD_ATT_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "DS_ATT_V",
+    "primaryKey": [
+        "DCD_ATT_COD"
+    ]
+}

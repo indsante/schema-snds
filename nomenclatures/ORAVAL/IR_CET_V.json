@@ -1,0 +1,34 @@
+{
+    "fields": [
+        {
+            "name": "ETB_CAT_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "ETB_CAT_RG1",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "ETB_CAT_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_CET_V",
+    "title": "Catégorie d'établissement",
+    "primaryKey": [
+        "ETB_CAT_COD"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "DCT_MVT_SYS",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "DCT_MVT_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_SAI_V",
+    "title": "Type de Saisie ou Système a l'Origine du Mouvement",
+    "primaryKey": [
+        "DCT_MVT_SYS"
+    ]
+}

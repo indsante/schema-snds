@@ -3,7 +3,8 @@
     {
       "name": "PHA_CIP_C13",
       "type": "integer",
-      "format": "default"
+      "format": "default",
+      "role": "code"
     },
     {
       "name": "PHA_PRS_IDE",
@@ -23,7 +24,8 @@
     {
       "name": "PHA_MED_NOM",
       "type": "string",
-      "format": "default"
+      "format": "default",
+      "role": "label"
     },
     {
       "name": "PHA_PPC_IND",
@@ -344,5 +346,8 @@
   "missingValues": [
     "NA"
   ],
-  "name": "IR_PHA_R"
+  "name": "IR_PHA_R",
+  "primaryKey": [
+    "PHA_CIP_C13"
+  ]
 }

@@ -3,12 +3,14 @@
         {
             "name": "MDT_COD",
             "type": "integer",
-            "format": "default"
+            "format": "default",
+            "role": "code"
         },
         {
             "name": "MDT_LIB",
             "type": "string",
-            "format": "default"
+            "format": "default",
+            "role": "label"
         },
         {
             "name": "MDT_HOS_COD",
@@ -40,5 +42,8 @@
         ""
     ],
     "name": "IR_MDT_V",
-    "title": "Mode de Traitement"
+    "title": "Mode de Traitement",
+    "primaryKey":[
+        "MDT_COD"
+    ]
 }

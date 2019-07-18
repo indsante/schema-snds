@@ -3,12 +3,14 @@
         {
             "name": "DRG_NAT",
             "type": "integer",
-            "format": "default"
+            "format": "default",
+            "role": "code"
         },
         {
             "name": "DRG_NAT_LIB",
             "type": "string",
-            "format": "default"
+            "format": "default",
+            "role": "label"
         },
         {
             "name": "DRG_TIE_PAY",
@@ -25,5 +27,8 @@
         ""
     ],
     "name": "IR_DRG_V",
-    "title": "Nature de destinataire du règlement"
+    "title": "Nature de destinataire du règlement",
+    "primaryKey":[
+        "DRG_NAT"
+    ]
 }

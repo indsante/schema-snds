@@ -3,8 +3,10 @@ import os
 import re
 from pprint import pprint
 
+import pandas as pd
 import pytest
 from goodtables import validate
+from tableschema import Schema
 
 from src.byproducts.main import generate_byproducts
 from src.constants import SCHEMAS, NOMENCLATURES, NO_NOMENCLATURE
@@ -63,3 +65,14 @@ def test_validate_nomenclature_schema(nomenclature_path, schema_path):
     report = validate(nomenclature_path, schema=schema_path)
     pprint(report)
     assert report['error-count'] == 0
+
+
+@pytest.mark.parametrize('nomenclature_path,schema_path', get_all_nomenclatures_csv_schema_path(NOMENCLATURES))
+def test_nomenclature_primary_keys_is_unique(nomenclature_path, schema_path):
+    """
+    Validate that nomenclature's schema is valid.
+    """
+    schema = Schema(schema_path)
+    if schema.primary_key:
+        df = pd.read_csv(nomenclature_path, sep=';', usecols=schema.primary_key)
+        assert 0 == df.duplicated().sum()

@@ -3,7 +3,8 @@
         {
             "name": "CIM_COD",
             "type": "string",
-            "format": "default"
+            "format": "default",
+            "role": "code"
         },
         {
             "name": "CIM_LIC",
@@ -13,7 +14,8 @@
         {
             "name": "CIM_LIL",
             "type": "string",
-            "format": "default"
+            "format": "default",
+            "role": "label"
         },
         {
             "name": "MVT_DTE",
@@ -45,5 +47,8 @@
         ""
     ],
     "name": "MS_CIM_V",
-    "title": "Codes Diagnostics (CIM10) pour le PMSI (limite à 20 000 lignes) ( MAJ à contrôler )"
+    "title": "Codes Diagnostics (CIM10) pour le PMSI (limite à 20 000 lignes) ( MAJ à contrôler )",
+    "primaryKey": [
+        "CIM_COD"
+    ]
 }

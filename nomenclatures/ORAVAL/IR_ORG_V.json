@@ -1,114 +1,118 @@
 {
-    "fields": [
-        {
-            "name": "ORG_NUM",
-            "type": "string",
-            "format": "default"
-        },
-        {
-            "name": "ORG_GRG_COD",
-            "type": "integer",
-            "format": "default"
-        },
-        {
-            "name": "CTI_NUM",
-            "type": "integer",
-            "format": "default"
-        },
-        {
-            "name": "CTI_INF_NUM",
-            "type": "integer",
-            "format": "default"
-        },
-        {
-            "name": "CRA_COD",
-            "type": "integer",
-            "format": "default"
-        },
-        {
-            "name": "URC_ARH_COD",
-            "type": "integer",
-            "format": "default"
-        },
-        {
-            "name": "SLM_NUM",
-            "type": "string",
-            "format": "default"
-        },
-        {
-            "name": "ORG_BSE_NUM",
-            "type": "string",
-            "format": "default"
-        },
-        {
-            "name": "ORG_ORG_TYP",
-            "type": "string",
-            "format": "default"
-        },
-        {
-            "name": "GEO_DPT_COD",
-            "type": "string",
-            "format": "default"
-        },
-        {
-            "name": "GEO_COM_COD",
-            "type": "string",
-            "format": "default"
-        },
-        {
-            "name": "ORG_ACO_COD",
-            "type": "string",
-            "format": "default"
-        },
-        {
-            "name": "ORG_SLM_CLM",
-            "type": "string",
-            "format": "default"
-        },
-        {
-            "name": "ORG_UGE_COD",
-            "type": "string",
-            "format": "default"
-        },
-        {
-            "name": "ORG_SIR_NUM",
-            "type": "string",
-            "format": "default"
-        },
-        {
-            "name": "ORG_CAI_NUM",
-            "type": "string",
-            "format": "default"
-        },
-        {
-            "name": "GDP_NV0_COD",
-            "type": "string",
-            "format": "default"
-        },
-        {
-            "name": "GDP_NV1_COD",
-            "type": "string",
-            "format": "default"
-        },
-        {
-            "name": "GDP_NV2_COD",
-            "type": "string",
-            "format": "default"
-        },
-        {
-            "name": "ORG_TOP_INF",
-            "type": "integer",
-            "format": "default"
-        },
-        {
-            "name": "TEC_COL",
-            "type": "integer",
-            "format": "default"
-        }
-    ],
-    "missingValues": [
-        ""
-    ],
-    "name": "IR_ORG_V",
-    "title": "organismes"
+  "fields": [
+    {
+      "name": "ORG_NUM",
+      "type": "string",
+      "format": "default",
+      "role": "code"
+    },
+    {
+      "name": "ORG_GRG_COD",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "CTI_NUM",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "CTI_INF_NUM",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "CRA_COD",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "URC_ARH_COD",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "SLM_NUM",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "ORG_BSE_NUM",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "ORG_ORG_TYP",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "GEO_DPT_COD",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "GEO_COM_COD",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "ORG_ACO_COD",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "ORG_SLM_CLM",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "ORG_UGE_COD",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "ORG_SIR_NUM",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "ORG_CAI_NUM",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "GDP_NV0_COD",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "GDP_NV1_COD",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "GDP_NV2_COD",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "ORG_TOP_INF",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "TEC_COL",
+      "type": "integer",
+      "format": "default"
+    }
+  ],
+  "missingValues": [
+    ""
+  ],
+  "name": "IR_ORG_V",
+  "title": "organismes",
+  "primaryKey": [
+    "ORG_NUM"
+  ]
 }

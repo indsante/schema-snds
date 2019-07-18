@@ -3,12 +3,14 @@
         {
             "name": "LPP_PRS_IDE",
             "type": "integer",
-            "format": "default"
+            "format": "default",
+            "role": "code"
         },
         {
             "name": "LPP_RED_LIB",
             "type": "string",
-            "format": "default"
+            "format": "default",
+            "role": "label"
         },
         {
             "name": "LPP_VAL_DTF",
@@ -94,5 +96,8 @@
     "missingValues": [
         ""
     ],
-    "name": "NT_LPP"
+    "name": "NT_LPP",
+    "primaryKey": [
+        "LPP_PRS_IDE"
+    ]
 }

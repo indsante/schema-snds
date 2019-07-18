@@ -24,7 +24,7 @@
         },
         {
             "name": "IMB_ALD_DTD",
-            "description": "Date de début de la pathologie",
+            "description": "Date de début du cadre de prestation",
             "type": "date",
             "nomenclature": "-",
             "length": null,
@@ -35,7 +35,7 @@
         },
         {
             "name": "IMB_ALD_DTF",
-            "description": "Date de fin de la pathologie",
+            "description": "Date de fin du cadre de prestation",
             "type": "date",
             "nomenclature": "-",
             "length": null,

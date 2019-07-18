@@ -59,7 +59,7 @@
             "name": "ASS_DGN",
             "description": "Diagnostics et facteurs associés",
             "type": "string",
-            "nomenclature": "IR_CIM_V",
+            "nomenclature": "MS_CIM_V",
             "length": null,
             "format": "default",
             "dateCreated": "",
@@ -73,6 +73,28 @@
     "produit": "PMSI RIM-P",
     "missingValues": [
         ""
+    ],
+    "primaryKey": [
+        "ETA_NUM_EPMSI",
+        "ORD_NUM",
+        "SEJ_IDT"
+    ],
+    "foreignKeys": [
+        {
+            "fields": [
+                "ETA_NUM_EPMSI",
+                "ORD_NUM",
+                "SEJ_IDT"
+            ],
+            "reference": {
+                "resource": "T_RIPaa_nnR3A",
+                "fields": [
+                    "ETA_NUM_EPMSI",
+                    "ORD_NUM",
+                    "SEJ_IDT"
+                ]
+            }
+        }
     ],
     "history": {
         "dateCreated": "2007",

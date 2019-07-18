@@ -1,0 +1,406 @@
+{
+    "fields": [
+        {
+            "name": "ORG_CLE_NEW",
+            "description": "Organisme de liquidation (après fusion des caisses)",
+            "type": "string",
+            "nomenclature": "IR_ORG_V",
+            "length": "9",
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "PHA_ACT_PRU",
+            "description": "Prix unitaire de la prestation affinée pharmacie",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "10",
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "PHA_ACT_QSN",
+            "description": "Quantité affinée (signée) (nombre de boites facturées)",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "3",
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "PHA_CPA_PCP ",
+            "description": "Condition particulière de prise en charge ",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "3",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "PHA_DEC_PRU ",
+            "description": "Prix unitaire de l'unité déconditionnée délivrée ",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "7,2",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "PHA_DEC_QSU ",
+            "description": "Quantité complète de déconditionnement signée ",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "3",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "PHA_DEC_TOP ",
+            "description": "Top déconditionnement ",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "PHA_IDE_CPL",
+            "description": "Préfixe code affiné pharmacie",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "6",
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "PHA_MOD_PRN ",
+            "description": "Mode de prescription",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "PHA_ORD_NUM",
+            "description": "N° ordre de la prestation affinée pharmacie",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "3",
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "PHA_PRS_C13",
+            "description": "Code CIP sur 13 caractères",
+            "type": "number",
+            "nomenclature": "IR_PHA_R",
+            "length": "13",
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "PHA_PRS_IDE",
+            "description": "Code prestation affinée pharmacie (CIP 7 délivré)",
+            "type": "number",
+            "nomenclature": "IR_PHA_R",
+            "length": "7",
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "PHA_SEQ_RNV",
+            "description": "Séquence de renouvellement",
+            "type": "number",
+            "nomenclature": "IR_SEQ_V",
+            "length": "2",
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "PHA_SUB_MTF",
+            "description": "Motif de substitution du médicament",
+            "type": "number",
+            "nomenclature": "IR_SUB_V",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "DCT_ORD_NUM",
+            "description": "N° ordre décompte dans caisse                      1",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "8",
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "FLX_DIS_DTD",
+            "description": "Date de mise à disposition des données dans SI     2",
+            "type": "date",
+            "nomenclature": "IR_DTE_V",
+            "length": "8",
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "FLX_EMT_NUM",
+            "description": "N° émetteur du flux                                                  3",
+            "type": "number",
+            "nomenclature": "IR_NEM_V",
+            "length": "8",
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "FLX_EMT_ORD",
+            "description": "N° séquence du flux                                               4",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "8",
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "FLX_EMT_TYP",
+            "description": "Type d'émetteur                                                      5",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "8",
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "FLX_TRT_DTD",
+            "description": "Date de traitement des données dans SI                   6",
+            "type": "date",
+            "nomenclature": "IR_DTE_V",
+            "length": "8",
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "ORG_CLE_NUM",
+            "description": "Ancien concept de l'organisme de liquidation (avant fusion, jusqu’au jour J de la fusion)          7",
+            "type": "string",
+            "nomenclature": "IR_ORG_V",
+            "length": "9",
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "PRS_ORD_NUM",
+            "description": "N° ordre prestation dans décompte                 8",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "8",
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "REM_TYP_AFF",
+            "description": "Type de remboursement affiné                                 9",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "8",
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "",
+            "dateMissing": []
+        }
+    ],
+    "name": "ER_PHA_F",
+    "title": "affinage des actes de pharmacie (officine de ville)",
+    "description": "",
+    "produit": "DCIR",
+    "missingValues": [
+        ""
+    ],
+    "foreignKeys": [
+        {
+            "fields": [
+                "DCT_ORD_NUM",
+                "FLX_DIS_DTD",
+                "FLX_EMT_NUM",
+                "FLX_EMT_ORD",
+                "FLX_EMT_TYP",
+                "FLX_TRT_DTD",
+                "ORG_CLE_NUM",
+                "PRS_ORD_NUM",
+                "REM_TYP_AFF"
+            ],
+            "reference": {
+                "resource": "ER_PRS_F",
+                "fields": [
+                    "DCT_ORD_NUM",
+                    "FLX_DIS_DTD",
+                    "FLX_EMT_NUM",
+                    "FLX_EMT_ORD",
+                    "FLX_EMT_TYP",
+                    "FLX_TRT_DTD",
+                    "ORG_CLE_NUM",
+                    "PRS_ORD_NUM",
+                    "REM_TYP_AFF"
+                ]
+            }
+        },
+        {
+            "fields": [
+                "ORG_CLE_NEW"
+            ],
+            "reference": {
+                "resource": "IR_ORG_V",
+                "fields": [
+                    "ORG_NUM"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "PHA_PRS_C13"
+            ],
+            "reference": {
+                "resource": "IR_PHA_R",
+                "fields": [
+                    "PHA_CIP_C13"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "PHA_PRS_IDE"
+            ],
+            "reference": {
+                "resource": "IR_PHA_R",
+                "fields": [
+                    "PHA_CIP_C13"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "PHA_SEQ_RNV"
+            ],
+            "reference": {
+                "resource": "IR_SEQ_V",
+                "fields": [
+                    "PHA_SEQ_RNV"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "PHA_SUB_MTF"
+            ],
+            "reference": {
+                "resource": "IR_SUB_V",
+                "fields": [
+                    "PHA_SUB_MTF"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "FLX_DIS_DTD"
+            ],
+            "reference": {
+                "resource": "IR_DTE_V",
+                "fields": [
+                    "DTE_DTE"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "FLX_EMT_NUM"
+            ],
+            "reference": {
+                "resource": "IR_NEM_V",
+                "fields": [
+                    "EMT_NUM"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "FLX_TRT_DTD"
+            ],
+            "reference": {
+                "resource": "IR_DTE_V",
+                "fields": [
+                    "DTE_DTE"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "ORG_CLE_NUM"
+            ],
+            "reference": {
+                "resource": "IR_ORG_V",
+                "fields": [
+                    "ORG_NUM"
+                ]
+            },
+            "description": "Nomenclature"
+        }
+    ],
+    "history": {
+        "dateCreated": "",
+        "dateDeleted": "",
+        "dateMissing": []
+    }
+}

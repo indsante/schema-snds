@@ -4,15 +4,18 @@ L'objectif de ces fonctions est de créer des schémas dérivés, dans lesquels 
 
 """
 
+import logging
 from typing import Dict
 
 from tableschema import Schema
 
-from src.constants import NO_NOMENCLATURE
+from src.constants import NO_NOMENCLATURE, SCHEMAS_DIR, SCHEMAS_NOMENCLATURES_DIR
 from src.utils import get_all_schema_path, get_all_nomenclatures_schema
 
 
-def replace_nomenclature_by_foreign_key():
+def generate_schema_with_nomenclature_as_foreign_keys():
+    logging.info("Build schemas with nomenclatures as foreign keys, in directory '{}'"
+                 .format(SCHEMAS_NOMENCLATURES_DIR))
     nomenclature_to_fk_reference = build_nomenclature_foreign_keys_reference()
 
     for source_schema_path in get_all_schema_path():
@@ -21,6 +24,9 @@ def replace_nomenclature_by_foreign_key():
             nomenclature = field.descriptor.get('nomenclature')
             if nomenclature == NO_NOMENCLATURE:
                 continue
+            if nomenclature not in nomenclature_to_fk_reference:
+                raise ValueError("Nomenclature {} is referenced in schemas, but missing in nomenclatures' folder."
+                                 .format(nomenclature))
             foreign_key = {
                 "fields": [field.name],
                 "reference": nomenclature_to_fk_reference[nomenclature],
@@ -32,7 +38,7 @@ def replace_nomenclature_by_foreign_key():
                 schema.descriptor["foreignKeys"] = [foreign_key]
         schema.commit(strict=True)
 
-        target_schema_path = source_schema_path.replace("schemas", "data/byproducts/schemas_nomenclatures")
+        target_schema_path = source_schema_path.replace(SCHEMAS_DIR, SCHEMAS_NOMENCLATURES_DIR)
         schema.save(target_schema_path, ensure_ascii=False)
 
 
@@ -58,4 +64,4 @@ def build_nomenclature_foreign_keys_reference() -> Dict[str, dict]:
 
 
 if __name__ == '__main__':
-    replace_nomenclature_by_foreign_key()
+    generate_schema_with_nomenclature_as_foreign_keys()

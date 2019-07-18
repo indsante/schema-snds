@@ -29,8 +29,9 @@ SCHEMAS_DIR = join(ROOT_DIR, SCHEMAS)
 BYPRODUCTS_DIR = join(DATA, 'byproducts')
 ROOTED_BYPRODUCTS_DIR = join(ROOT_DIR, BYPRODUCTS_DIR)
 DICO_SNDS_DIR = join(ROOTED_BYPRODUCTS_DIR, 'dico-snds')
-MARKDOWN_DIR = join(ROOTED_BYPRODUCTS_DIR, 'documentation-snds/markdown')
-TABLES_SIDEBAR_JS_PATH = join(ROOTED_BYPRODUCTS_DIR, 'documentation-snds/tables_sidebar.js')
+MARKDOWN_DIR = join(ROOTED_BYPRODUCTS_DIR, 'documentation-snds', 'markdown')
+TABLES_SIDEBAR_JS_PATH = join(ROOTED_BYPRODUCTS_DIR, 'documentation-snds', 'tables_sidebar.js')
+SCHEMAS_NOMENCLATURES_DIR = join(ROOTED_BYPRODUCTS_DIR, "schemas_nomenclatures")
 
 NOMENCLATURES = 'nomenclatures'
 ROOTED_NOMENCLATURES_DIR = join(ROOT_DIR, NOMENCLATURES)

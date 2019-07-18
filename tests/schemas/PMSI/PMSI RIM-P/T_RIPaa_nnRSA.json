@@ -147,7 +147,7 @@
             "name": "ENT_MOD",
             "description": "Mode d'entrée de séjour",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "MS_SOR_V",
             "length": null,
             "format": "default",
             "dateCreated": "2007",
@@ -158,7 +158,7 @@
             "name": "ENT_PRV",
             "description": "Provenance",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "MS_PRV_V",
             "length": null,
             "format": "default",
             "dateCreated": "2007",
@@ -169,7 +169,7 @@
             "name": "SOR_MOD",
             "description": "Mode de sortie de séjour",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "MS_SOR_V",
             "length": null,
             "format": "default",
             "dateCreated": "2007",
@@ -180,7 +180,7 @@
             "name": "SOR_DES",
             "description": "Destination",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "MS_PRV_V",
             "length": null,
             "format": "default",
             "dateCreated": "2007",
@@ -444,7 +444,7 @@
             "name": "DGN_PAL",
             "description": "Diagnostic principal ou motif de prise en charge principale",
             "type": "string",
-            "nomenclature": "IR_CIM_V",
+            "nomenclature": "MS_CIM_V",
             "length": null,
             "format": "default",
             "dateCreated": "2007",
@@ -492,6 +492,17 @@
                 "fields": [
                     "ETA_NUM_EPMSI",
                     "RIP_NUM"
+                ]
+            }
+        },
+        {
+            "fields": [
+                "IPP_IRR_CRY"
+            ],
+            "reference": {
+                "resource": "T_RIPaa_nnR3A",
+                "fields": [
+                    "IPP_IRR_CRY"
                 ]
             }
         }

@@ -1,0 +1,589 @@
+{
+    "fields": [
+        {
+            "name": "CLE_DCI_JNT",
+            "description": "Clé technique de jointure",
+            "type": "string",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "BEN_IDT_ANO",
+            "description": "Identifiant bénéficiaire anonymisé",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "18",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "BEN_IDT_TOP",
+            "description": "Top identifiant bénéficiaire Anonymisé",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "EXE_SOI_DTD",
+            "description": "Date de début d'exécution des soins",
+            "type": "date",
+            "nomenclature": "IR_DTE_V",
+            "length": null,
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "EXE_SOI_DTF",
+            "description": "Date de fin d'exécution des soins",
+            "type": "date",
+            "nomenclature": "IR_DTE_V",
+            "length": null,
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "EXE_SOI_AMD",
+            "description": "Date (année et mois) de début d'exécution des soins",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "6",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "EXE_SOI_AMF",
+            "description": "Date (année et mois) de fin d'exécution des soins",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "6",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "PFS_EXE_NUM",
+            "description": "N° du professionnel de santé exécutant",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "8",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "PFS_PRE_NUM",
+            "description": "N° du professionnel de santé prescripteur",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "8",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "GRG_LIQ_COD",
+            "description": "Code du grand régime de liquidation",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "3",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "CAI_LIQ_COD",
+            "description": "Code de la caisse de liquidation",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "3",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "PRS_NAT_REF",
+            "description": "Code de la prestation de référence",
+            "type": "number",
+            "nomenclature": "IR_NAT_V",
+            "length": "4",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "ETB_PRE_FIN",
+            "description": "N° FINESS de l'établissement prescripteur",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "8",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "ETB_EXE_FIN",
+            "description": "N° FINESS de l'établissement exécutant",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "8",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "RGO_REM_TAU",
+            "description": "Taux de remboursement (part Régime Obligatoire)",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "5,2",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "GRG_AFF_COD",
+            "description": "Code du grand régime d'affiliation",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "3",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "CAI_AFF_COD",
+            "description": "Code de la caisse d'affiliation",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "3",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "SLM_AFF_COD",
+            "description": "Code de la SLM",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "3",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "FLX_TRT_DTD",
+            "description": "Date d'entrée des données dans le système d'information",
+            "type": "date",
+            "nomenclature": "IR_DTE_V",
+            "length": null,
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "FLX_DIS_DTD",
+            "description": "Date de mise à disposition des données",
+            "type": "date",
+            "nomenclature": "IR_DTE_V",
+            "length": null,
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "FLX_EMT_TYP",
+            "description": "Type d'émetteur",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "2",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "EXE_INS_DPT",
+            "description": "Département du professionnel de santé exécutant",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "3",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "PRE_INS_DPT",
+            "description": "Département du professionnel de santé prescripteur",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "3",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "ETE_DPT_COD",
+            "description": "Département de l'établissement exécutant",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "3",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "ETP_DPT_COD",
+            "description": "Departement de l'établissement prescripteur",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "3",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "BEN_RES_DPT",
+            "description": "Département de résidence du bénéficiaire",
+            "type": "string",
+            "nomenclature": "IR_DPT_V",
+            "length": "3",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "PHA_SEQ_NUM",
+            "description": "Numéro séquentiel",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "8",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "PHA_PRS_C13",
+            "description": "Code CIP de la pharmacie de ville (13 caractères)",
+            "type": "number",
+            "nomenclature": "IR_PHA_R",
+            "length": "13",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "PHA_PRS_IDE",
+            "description": "Code CIP de la pharmacie de ville (ancien code sur 7 caractères)",
+            "type": "number",
+            "nomenclature": "IR_PHA_R",
+            "length": "7",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "PHA_ACT_PRU",
+            "description": "Prix unitaire du médicament codé en CIP",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "10,5",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "PHA_CPA_PCP ",
+            "description": "Condition particulière de prise en charge",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "3",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "PHA_DEC_PRU ",
+            "description": "Prix unitaire de l'unité délivrée",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "7,2",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "PHA_DEC_TOP",
+            "description": "Top déconditionnement",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "PHA_IDE_CPL",
+            "description": "Préfixe du code CIP",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "6",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "PHA_MOD_PRN",
+            "description": "Mode de prescription",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "PHA_SEQ_RNV",
+            "description": "Séquence de renouvellement",
+            "type": "number",
+            "nomenclature": "IR_SEQ_V",
+            "length": "2",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "PHA_SUB_MTF",
+            "description": "Motif de substitution du médicament",
+            "type": "number",
+            "nomenclature": "IR_SUB_V",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "PHA_ACT_QSC",
+            "description": "Nombre de conditionnements (boite, etc.)",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "5",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "PHA_DEC_QSD ",
+            "description": "Nombre d'unités délivrées (comprimés, etc.) si déconditionnement",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "5",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        }
+    ],
+    "name": "NS_PHA_F",
+    "title": "affinage des actes de pharmacie (officine de ville)",
+    "description": "",
+    "produit": "DCIRS",
+    "missingValues": [
+        ""
+    ],
+    "foreignKeys": [
+        {
+            "fields": [
+                "CLE_DCI_JNT"
+            ],
+            "reference": {
+                "resource": "NS_PRS_F",
+                "fields": [
+                    "CLE_DCI_JNT"
+                ]
+            }
+        },
+        {
+            "fields": [
+                "BEN_IDT_ANO"
+            ],
+            "reference": {
+                "resource": "IR_IBA_R",
+                "fields": [
+                    "BEN_IDT_ANO"
+                ]
+            }
+        },
+        {
+            "fields": [
+                "EXE_SOI_DTD"
+            ],
+            "reference": {
+                "resource": "IR_DTE_V",
+                "fields": [
+                    "DTE_DTE"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "EXE_SOI_DTF"
+            ],
+            "reference": {
+                "resource": "IR_DTE_V",
+                "fields": [
+                    "DTE_DTE"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "PRS_NAT_REF"
+            ],
+            "reference": {
+                "resource": "IR_NAT_V",
+                "fields": [
+                    "PRS_NAT"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "FLX_TRT_DTD"
+            ],
+            "reference": {
+                "resource": "IR_DTE_V",
+                "fields": [
+                    "DTE_DTE"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "FLX_DIS_DTD"
+            ],
+            "reference": {
+                "resource": "IR_DTE_V",
+                "fields": [
+                    "DTE_DTE"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "BEN_RES_DPT"
+            ],
+            "reference": {
+                "resource": "IR_DPT_V",
+                "fields": [
+                    "GEO_DPT_COD"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "PHA_PRS_C13"
+            ],
+            "reference": {
+                "resource": "IR_PHA_R",
+                "fields": [
+                    "PHA_CIP_C13"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "PHA_PRS_IDE"
+            ],
+            "reference": {
+                "resource": "IR_PHA_R",
+                "fields": [
+                    "PHA_CIP_C13"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "PHA_SEQ_RNV"
+            ],
+            "reference": {
+                "resource": "IR_SEQ_V",
+                "fields": [
+                    "PHA_SEQ_RNV"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "PHA_SUB_MTF"
+            ],
+            "reference": {
+                "resource": "IR_SUB_V",
+                "fields": [
+                    "PHA_SUB_MTF"
+                ]
+            },
+            "description": "Nomenclature"
+        }
+    ],
+    "history": {
+        "dateCreated": "",
+        "dateDeleted": "",
+        "dateMissing": []
+    }
+}

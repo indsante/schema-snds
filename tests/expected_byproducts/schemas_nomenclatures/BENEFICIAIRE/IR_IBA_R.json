@@ -1,0 +1,220 @@
+{
+    "fields": [
+        {
+            "name": "BEN_IDT_ANO",
+            "description": "Identifiant bénéficiaire anonymisé",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "18",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "BEN_IDT_TOP",
+            "description": "Top identifiant bénéficiaire Anonymisé",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "ASS_NIR_ANO",
+            "description": "Matricule anonymisé de l'ouvreur de droits",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "17",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "BEN_CDI_NIR",
+            "description": "Qualité du matricule de l'ouvreur de droits",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "2",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "BEN_NAI_ANN",
+            "description": "Année de naissance du bénéficiaire",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "4",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "BEN_NAI_MOI",
+            "description": "Mois de naissance du bénéficiaire",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "2",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "BEN_SEX_COD",
+            "description": "Code sexe du bénéficiaire",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "BEN_DCD_DTE",
+            "description": "Date de décès du bénéficiaire",
+            "type": "date",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "BEN_DCD_AME",
+            "description": "Année et mois de décès du bénéficiaire",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "6",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "ORG_AFF_BEN",
+            "description": "Organisme d'affiliation",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "9",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "BEN_RES_DPT",
+            "description": "Département de résidence du destinataire du règlement",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "3",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "BEN_RES_COM",
+            "description": "commune de résidence du destinataire du règlement",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "3",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "BEN_TOP_CNS",
+            "description": "top consommant / non consommant",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "MAX_TRT_DTD",
+            "description": "date maximale de traitement d'une prestation",
+            "type": "date",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "ORG_CLE_NEW",
+            "description": "organisme de liquidation",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "9",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "BEN_DTE_INS",
+            "description": "date d'insertion dans le référentiel",
+            "type": "date",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        },
+        {
+            "name": "BEN_DTE_MAJ",
+            "description": "date de mise à jour",
+            "type": "date",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": []
+        }
+    ],
+    "name": "IR_IBA_R",
+    "title": "Référentiel des bénéficiaires (DCIRS)",
+    "description": "",
+    "produit": "BENEFICIAIRE",
+    "missingValues": [
+        ""
+    ],
+    "primaryKey": [
+        "BEN_IDT_ANO"
+    ],
+    "foreignKeys": [
+        {
+            "fields": [
+                "BEN_IDT_ANO"
+            ],
+            "reference": {
+                "resource": "IR_BEN_R",
+                "fields": [
+                    "BEN_IDT_ANO"
+                ]
+            },
+            "description": "Bidirectionnel"
+        }
+    ],
+    "history": {
+        "dateCreated": "",
+        "dateDeleted": "",
+        "dateMissing": []
+    }
+}

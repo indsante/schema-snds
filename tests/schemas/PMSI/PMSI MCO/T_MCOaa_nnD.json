@@ -4,7 +4,7 @@
             "name": "ASS_DGN",
             "description": "Diagnostic associé",
             "type": "string",
-            "nomenclature": "IR_CIM_V",
+            "nomenclature": "MS_CIM_V",
             "length": null,
             "format": "default",
             "dateCreated": "2006",

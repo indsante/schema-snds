@@ -3,7 +3,8 @@
         {
             "name": "ETB_STJ_COD",
             "type": "integer",
-            "format": "default"
+            "format": "default",
+            "role": "code"
         },
         {
             "name": "ETB_PPU_SEC",
@@ -13,7 +14,8 @@
         {
             "name": "ETB_STJ_LIB",
             "type": "string",
-            "format": "default"
+            "format": "default",
+            "role": "label"
         },
         {
             "name": "ETB_ORG_TYP",
@@ -35,5 +37,8 @@
         ""
     ],
     "name": "IR_SJE_V",
-    "title": "Statut juridique d'établissement"
+    "title": "Statut juridique d'établissement",
+    "primaryKey": [
+        "ETB_STJ_COD"
+    ]
 }

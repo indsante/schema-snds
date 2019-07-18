@@ -3,7 +3,8 @@
         {
             "name": "PRS_NAT",
             "type": "integer",
-            "format": "default"
+            "format": "default",
+            "role": "code"
         },
         {
             "name": "PRS_NAT_STA",
@@ -18,7 +19,8 @@
         {
             "name": "PRS_NAT_LIB",
             "type": "string",
-            "format": "default"
+            "format": "default",
+            "role": "label"
         },
         {
             "name": "NAT_SOI_TOP",
@@ -100,5 +102,6 @@
         ""
     ],
     "name": "IR_NAT_V",
-    "title": "Nature Prestation"
+    "title": "Nature Prestation",
+    "primaryKey":["PRS_NAT"]
 }

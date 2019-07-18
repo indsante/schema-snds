@@ -3,7 +3,8 @@
         {
             "name": "UCD_UCD_COD",
             "type": "integer",
-            "format": "default"
+            "format": "default",
+            "role": "code"
         },
         {
             "name": "UCD_PCD_COD",
@@ -59,5 +60,8 @@
     "missingValues": [
         ""
     ],
-    "name": "NU_UCD_R"
+    "name": "NU_UCD_R",
+    "primaryKey": [
+        "UCD_UCD_COD"
+    ]
 }

@@ -1,34 +1,39 @@
 {
     "fields": [
         {
-            "name": "MDT_COD",
-            "type": "integer",
+            "name": "CIM_COD",
+            "type": "string",
             "format": "default",
             "role": "code"
         },
         {
-            "name": "MDT_LIB",
+            "name": "CIM_LIC",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "CIM_LIL",
             "type": "string",
             "format": "default",
             "role": "label"
         },
         {
-            "name": "MDT_HOS_COD",
-            "type": "integer",
-            "format": "default"
-        },
-        {
-            "name": "MDT_HOS_LIB",
+            "name": "MVT_DTE",
             "type": "string",
             "format": "default"
         },
         {
-            "name": "MDT_TYP_COD",
-            "type": "integer",
+            "name": "MVT_ORI",
+            "type": "string",
             "format": "default"
         },
         {
-            "name": "MDT_TYP_LIB",
+            "name": "MVT_TYP",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "CIM_LIC_OLD",
             "type": "string",
             "format": "default"
         },
@@ -41,9 +46,9 @@
     "missingValues": [
         ""
     ],
-    "name": "IR_MDT_V",
-    "title": "Mode de Traitement",
-    "primaryKey":[
-        "MDT_COD"
+    "name": "MS_CIM_V",
+    "title": "Codes Diagnostics (CIM10) pour le PMSI (limite à 20 000 lignes) ( MAJ à contrôler )",
+    "primaryKey": [
+        "CIM_COD"
     ]
 }

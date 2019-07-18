@@ -3,12 +3,14 @@
         {
             "name": "PFS_STJ_COD",
             "type": "integer",
-            "format": "default"
+            "format": "default",
+            "role": "code"
         },
         {
             "name": "PFS_STJ_LIB",
             "type": "string",
-            "format": "default"
+            "format": "default",
+            "role": "label"
         },
         {
             "name": "PFS_EXC_TYP",
@@ -35,5 +37,8 @@
         ""
     ],
     "name": "IR_SJP_V",
-    "title": "Statut Juridique ou Mode d'exercice d'un PS"
+    "title": "Statut Juridique ou Mode d'exercice d'un PS",
+    "primaryKey": [
+        "PFS_STJ_COD"
+    ]
 }

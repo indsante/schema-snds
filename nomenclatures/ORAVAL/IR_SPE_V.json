@@ -3,7 +3,8 @@
         {
             "name": "PFS_SPE_COD",
             "type": "integer",
-            "format": "default"
+            "format": "default",
+            "role": "code"
         },
         {
             "name": "PFS_SPE_STA",
@@ -13,7 +14,8 @@
         {
             "name": "PFS_SPE_LIB",
             "type": "string",
-            "format": "default"
+            "format": "default",
+            "role": "label"
         },
         {
             "name": "SPE_LIB_SNI",
@@ -50,5 +52,8 @@
         ""
     ],
     "name": "IR_SPE_V",
-    "title": "Spécialités médicales"
+    "title": "Spécialités médicales",
+    "primaryKey":[
+        "PFS_SPE_COD"
+    ]
 }

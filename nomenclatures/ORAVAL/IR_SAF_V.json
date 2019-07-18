@@ -1,39 +1,45 @@
 {
-    "fields": [
-        {
-            "name": "SAF_GRG_COD",
-            "type": "integer",
-            "format": "default"
-        },
-        {
-            "name": "DCT_ENT_SUP",
-            "type": "integer",
-            "format": "default"
-        },
-        {
-            "name": "DCT_ENT_CB2",
-            "type": "string",
-            "format": "default"
-        },
-        {
-            "name": "DCT_ENT_LIB",
-            "type": "string",
-            "format": "default"
-        },
-        {
-            "name": "DCT_GRG_LIB",
-            "type": "string",
-            "format": "default"
-        },
-        {
-            "name": "TEC_COL",
-            "type": "integer",
-            "format": "default"
-        }
-    ],
-    "missingValues": [
-        ""
-    ],
-    "name": "IR_SAF_V",
-    "title": "Type de Saisie Affinée ou Support d'Entrée"
+  "fields": [
+    {
+      "name": "SAF_GRG_COD",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "DCT_ENT_SUP",
+      "type": "integer",
+      "format": "default",
+      "role": "code"
+    },
+    {
+      "name": "DCT_ENT_CB2",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "DCT_ENT_LIB",
+      "type": "string",
+      "format": "default",
+      "role": "label"
+    },
+    {
+      "name": "DCT_GRG_LIB",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "TEC_COL",
+      "type": "integer",
+      "format": "default"
+    }
+  ],
+  "missingValues": [
+    ""
+  ],
+  "name": "IR_SAF_V",
+  "title": "Type de Saisie Affinée ou Support d'Entrée",
+  "primaryKey": [
+    "SAF_GRG_COD",
+    "DCT_ENT_SUP"
+  ]
 }

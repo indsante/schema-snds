@@ -3,7 +3,8 @@
         {
             "name": "PFS_ACT_NAT",
             "type": "integer",
-            "format": "default"
+            "format": "default",
+            "role": "code"
         },
         {
             "name": "PFS_ACT_CAT",
@@ -18,7 +19,8 @@
         {
             "name": "ACT_NAT_LIB",
             "type": "string",
-            "format": "default"
+            "format": "default",
+            "role": "label"
         },
         {
             "name": "SPE_LIB_SNI",
@@ -35,5 +37,8 @@
         ""
     ],
     "name": "IR_ACT_V",
-    "title": "Nature d'Activité (Non Médecins)"
+    "title": "Nature d'Activité (Non Médecins)",
+    "primaryKey": [
+        "PFS_ACT_NAT"
+    ]
 }

@@ -3,12 +3,14 @@
         {
             "name": "GRG_COD",
             "type": "integer",
-            "format": "default"
+            "format": "default",
+            "role": "code"
         },
         {
             "name": "RRG_COD",
             "type": "integer",
-            "format": "default"
+            "format": "default",
+            "role": "label"
         },
         {
             "name": "GRG_LIC",
@@ -35,5 +37,8 @@
         ""
     ],
     "name": "IR_GRG_V",
-    "title": "Grand Régime"
+    "title": "Grand Régime",
+    "primaryKey": [
+        "GRG_COD"
+    ]
 }

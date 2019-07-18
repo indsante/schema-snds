@@ -3,12 +3,14 @@
         {
             "name": "BIO_PRS_IDE",
             "type": "integer",
-            "format": "default"
+            "format": "default",
+            "role": "code"
         },
         {
             "name": "BIO_INF_LIB",
             "type": "string",
-            "format": "default"
+            "format": "default",
+            "role": "label"
         },
         {
             "name": "BIO_CRE_DAT",
@@ -129,5 +131,8 @@
     "missingValues": [
         ""
     ],
-    "name": "IR_BIO_R"
+    "name": "IR_BIO_R",
+    "primaryKey": [
+        "BIO_PRS_IDE"
+    ]
 }

@@ -14,6 +14,8 @@ def get_all_schema_path(schemas_dir=SCHEMAS_DIR) -> List[str]:
     for root, dirs, files in os.walk(schemas_dir):
         dirs.sort()
         for file in sorted(files):
+            if not file.endswith('.json'):
+                continue
             schema_path = os.path.join(root, file)
             yield schema_path
 

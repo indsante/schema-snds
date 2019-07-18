@@ -186,6 +186,14 @@ def create_merge_request(project_id: int, source_branch: str, repository_name: s
 
 def merge_when_pipeline_succeeds(project_id: int, merge_request_iid: int) -> None:
     logging.info('Accept merge request with automatic merge when pipeline succeeds.')
+    r = requests.post(
+        GITLAB_COM_API_V4 + "/projects/{}/merge_requests/{}/approve".format(project_id, merge_request_iid),
+        params={
+            'private_token': GITLAB_TOKEN
+        }
+    )
+    check_response_code(r, 200)
+
     r = requests.put(
         GITLAB_COM_API_V4 + "/projects/{}/merge_requests/{}/merge".format(project_id, merge_request_iid),
         params={

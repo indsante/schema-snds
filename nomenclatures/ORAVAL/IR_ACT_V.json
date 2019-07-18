@@ -3,13 +3,13 @@
         {
             "name": "PFS_ACT_NAT",
             "type": "integer",
-            "format": "default"
+            "format": "default",
+            "role": "code"
         },
         {
             "name": "PFS_ACT_CAT",
             "type": "integer",
-            "format": "default",
-            "role": "code"
+            "format": "default"
         },
         {
             "name": "ACT_POS",
@@ -39,6 +39,6 @@
     "name": "IR_ACT_V",
     "title": "Nature d'Activité (Non Médecins)",
     "primaryKey": [
-        "PFS_ACT_CAT"
+        "PFS_ACT_NAT"
     ]
 }

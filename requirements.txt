@@ -7,6 +7,7 @@ pytest==4.1.1
 pytest-env
 requests
 SQLAlchemy==1.2.16
+tsfaker
 -e git+https://github.com/pajachiet/tableschema-py@master#egg=tableschema
 -e git+https://github.com/pajachiet/table-schema-to-markdown@change-format-for-documentation-snds#egg=table-schema-to-markdown
 -e git+https://github.com/pajachiet/tableschema-sql-py@feat-create-comment#egg=tableschema_sql

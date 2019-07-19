@@ -246,7 +246,7 @@
             "name": "CAT_PCS_COD",
             "description": "Profession et caégorie socioprofessionnelle",
             "type": "string",
-            "nomenclature": "DS_PC_V",
+            "nomenclature": "DS_PC1_V",
             "length": "4",
             "format": "default",
             "dateCreated": "2013",

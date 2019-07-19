@@ -268,7 +268,7 @@
             "name": "DGN_PAL",
             "description": "Diagnostic principal ou motif de prise en charge principale",
             "type": "string",
-            "nomenclature": "IR_CIM_V",
+            "nomenclature": "MS_CIM_V",
             "length": null,
             "format": "default",
             "dateCreated": "2007",
@@ -293,6 +293,11 @@
     "produit": "PMSI RIM-P",
     "missingValues": [
         ""
+    ],
+    "primaryKey": [
+        "ETA_NUM_EPMSI",
+        "ORD_NUM",
+        "SEJ_IDT"
     ],
     "history": {
         "dateCreated": "2007",

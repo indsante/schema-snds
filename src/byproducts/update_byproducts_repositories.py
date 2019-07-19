@@ -24,30 +24,40 @@ def update_all_byproducts(local) -> None:
     last_commit_sha = exec_terminal("git rev-parse --verify HEAD").strip()
     logging.debug("Le hash SHA du dernier commit est '{}'".format(last_commit_sha))
 
-    update_byproduct_repository(byproduct_repository='documentation-snds',
-                                local_to_byproduct_directories=[('markdown', 'tables')],
-                                local_to_byproduct_files=[
-                                    ('tables_sidebar.js', pjoin('.vuepress', 'tables_sidebar.js'))
-                                ],
-                                last_commit_sha=last_commit_sha,
-                                byproduct_project_id=11935953,
-                                automatic_merge=True,
-                                local=local)
+    update_errors = 0
+    update_errors += update_byproduct_repository(
+        byproduct_repository='documentation-snds',
+        local_to_byproduct_directories=[
+            ('markdown', 'tables')],
+        local_to_byproduct_files=[
+            ('tables_sidebar.js',
+             pjoin('.vuepress', 'tables_sidebar.js'))
+        ],
+        last_commit_sha=last_commit_sha,
+        byproduct_project_id=11935953,
+        automatic_merge=True,
+        local=local)
 
-    update_byproduct_repository(byproduct_repository='dico-snds',
-                                local_to_byproduct_directories=[
-                                    ('nomenclatures', pjoin('app', 'app_data', 'nomenclatures'))
-                                ],
-                                local_to_byproduct_files=[
-                                    ('snds_links.csv', pjoin('app', 'app_data', 'snds_links.csv')),
-                                    ('snds_nodes.csv', pjoin('app', 'app_data', 'snds_nodes.csv')),
-                                    ('snds_tables.csv', pjoin('app', 'app_data', 'snds_tables.csv')),
-                                    ('snds_vars.csv', pjoin('app', 'app_data', 'snds_vars.csv'))
-                                ],
-                                last_commit_sha=last_commit_sha,
-                                byproduct_project_id=11925754,
-                                automatic_merge=True,
-                                local=local)
+    update_errors += update_byproduct_repository(
+        byproduct_repository='dico-snds',
+        local_to_byproduct_directories=[
+            ('nomenclatures', pjoin('app', 'app_data', 'nomenclatures'))
+        ],
+        local_to_byproduct_files=[
+            ('snds_links.csv', pjoin('app', 'app_data', 'snds_links.csv')),
+            ('snds_nodes.csv', pjoin('app', 'app_data', 'snds_nodes.csv')),
+            (
+                'snds_tables.csv',
+                pjoin('app', 'app_data', 'snds_tables.csv')),
+            ('snds_vars.csv', pjoin('app', 'app_data', 'snds_vars.csv'))
+        ],
+        last_commit_sha=last_commit_sha,
+        byproduct_project_id=11925754,
+        automatic_merge=True,
+        local=local)
+
+    if update_errors:
+        raise Exception("Their were {} errors in byproduct update. Look for ERROR logs.".format(update_errors))
 
 
 def update_byproduct_repository(byproduct_repository: str,
@@ -56,7 +66,7 @@ def update_byproduct_repository(byproduct_repository: str,
                                 last_commit_sha: str,
                                 byproduct_project_id: int,
                                 automatic_merge: bool = False,
-                                local: bool = False) -> None:
+                                local: bool = False) -> int:
     """
     Update byproduct repository with byproducts generated with current schema
 
@@ -69,10 +79,17 @@ def update_byproduct_repository(byproduct_repository: str,
     :param local: Do we update remote repository
     """
     logging.info("Mise à jour du dépôt '{}' avec la version courante du schéma".format(byproduct_repository))
-    clone_byproduct_repository(byproduct_repository, local)
-    update_local_byproduct_repository(byproduct_repository, local_to_byproduct_directories, local_to_byproduct_files)
-    if not local:
-        update_remote_byproduct_repository(last_commit_sha, byproduct_repository, byproduct_project_id, automatic_merge)
+    try:
+        clone_byproduct_repository(byproduct_repository, local)
+        update_local_byproduct_repository(byproduct_repository, local_to_byproduct_directories,
+                                          local_to_byproduct_files)
+        if not local:
+            update_remote_byproduct_repository(last_commit_sha, byproduct_repository, byproduct_project_id,
+                                               automatic_merge)
+        return 0
+    except Exception as e:
+        logging.error(e)
+        return 1
 
 
 def clone_byproduct_repository(byproduct_repository, local):

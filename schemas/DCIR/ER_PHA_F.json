@@ -34,8 +34,8 @@
             "dateMissing": []
         },
         {
-            "name": "PHA_CPA_PCP ",
-            "description": "Condition particulière de prise en charge ",
+            "name": "PHA_CPA_PCP",
+            "description": "Condition particulière de prise en charge",
             "type": "string",
             "nomenclature": "-",
             "length": "3",
@@ -45,8 +45,8 @@
             "dateMissing": []
         },
         {
-            "name": "PHA_DEC_PRU ",
-            "description": "Prix unitaire de l'unité déconditionnée délivrée ",
+            "name": "PHA_DEC_PRU",
+            "description": "Prix unitaire de l'unité déconditionnée délivrée",
             "type": "number",
             "nomenclature": "-",
             "length": "7,2",
@@ -56,8 +56,8 @@
             "dateMissing": []
         },
         {
-            "name": "PHA_DEC_QSU ",
-            "description": "Quantité complète de déconditionnement signée ",
+            "name": "PHA_DEC_QSU",
+            "description": "Quantité complète de déconditionnement signée",
             "type": "number",
             "nomenclature": "-",
             "length": "3",
@@ -67,8 +67,8 @@
             "dateMissing": []
         },
         {
-            "name": "PHA_DEC_TOP ",
-            "description": "Top déconditionnement ",
+            "name": "PHA_DEC_TOP",
+            "description": "Top déconditionnement",
             "type": "string",
             "nomenclature": "-",
             "length": "1",
@@ -89,7 +89,7 @@
             "dateMissing": []
         },
         {
-            "name": "PHA_MOD_PRN ",
+            "name": "PHA_MOD_PRN",
             "description": "Mode de prescription",
             "type": "string",
             "nomenclature": "-",

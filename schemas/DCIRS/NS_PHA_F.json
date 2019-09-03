@@ -331,7 +331,7 @@
             "dateMissing": []
         },
         {
-            "name": "PHA_CPA_PCP ",
+            "name": "PHA_CPA_PCP",
             "description": "Condition particulière de prise en charge",
             "type": "string",
             "nomenclature": "-",
@@ -342,7 +342,7 @@
             "dateMissing": []
         },
         {
-            "name": "PHA_DEC_PRU ",
+            "name": "PHA_DEC_PRU",
             "description": "Prix unitaire de l'unité délivrée",
             "type": "number",
             "nomenclature": "-",
@@ -419,7 +419,7 @@
             "dateMissing": []
         },
         {
-            "name": "PHA_DEC_QSD ",
+            "name": "PHA_DEC_QSD",
             "description": "Nombre d'unités délivrées (comprimés, etc.) si déconditionnement",
             "type": "number",
             "nomenclature": "-",

@@ -46,7 +46,7 @@
         },
         {
             "name": "SUI_TYP",
-            "description": "Type de suite ",
+            "description": "Type de suite",
             "type": "string",
             "nomenclature": "-",
             "length": null,

@@ -1,5 +1,5 @@
 {
-    "fields": [
+    "fields":   [
         {
             "name": "BEN_NIR_PSA",
             "description": "Identifiant SNIIRAM anonymisé du bénéficiaire",

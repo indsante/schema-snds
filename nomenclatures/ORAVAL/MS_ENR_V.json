@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "ENR_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "ENR_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "MS_ENR_V",
+    "title": "Type d'enregistrement",
+    "primaryKey": [
+        "ENR_COD"
+    ]
+}

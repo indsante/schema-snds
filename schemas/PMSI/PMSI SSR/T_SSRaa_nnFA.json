@@ -15,7 +15,7 @@
             "name": "TYP_ART",
             "description": "Type d'enregistrement (A)",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "MS_ENR_V",
             "length": null,
             "format": "default",
             "dateCreated": "2007",

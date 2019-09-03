@@ -3,7 +3,7 @@ from typing import List, Union, Tuple
 
 from tableschema import Schema
 
-from src.constants import SCHEMAS_DIR, NOMENCLATURES
+from src.constants import SCHEMAS_DIR, NOMENCLATURES_DIR
 
 
 def get_all_schema(schemas_dir=SCHEMAS_DIR) -> List[Schema]:
@@ -20,11 +20,11 @@ def get_all_schema_path(schemas_dir=SCHEMAS_DIR) -> List[str]:
             yield schema_path
 
 
-def get_all_nomenclatures_schema(nomenclatures_dir=NOMENCLATURES) -> List[Schema]:
+def get_all_nomenclatures_schema(nomenclatures_dir=NOMENCLATURES_DIR) -> List[Schema]:
     return [Schema(schema_path) for _, schema_path in get_all_nomenclatures_csv_schema_path(nomenclatures_dir)]
 
 
-def get_all_nomenclatures_csv_schema_path(nomenclatures_dir=NOMENCLATURES) -> List[Tuple[str, str]]:
+def get_all_nomenclatures_csv_schema_path(nomenclatures_dir=NOMENCLATURES_DIR) -> List[Tuple[str, str]]:
     for root, dirs, files in os.walk(nomenclatures_dir):
         dirs.sort()
         for file in sorted(files):

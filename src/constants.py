@@ -4,6 +4,14 @@ from os.path import join
 
 from src.settings import RUNNING_TEST
 
+# Table schema extra keys
+NOMENCLATURE = 'nomenclature'
+
+HISTORY = "history"
+DATE_CREATED = 'dateCreated'
+DATE_DELETED = 'dateDeleted'
+DATE_MISSING = 'dateMissing'
+
 # Product groups
 PMSI = 'PMSI'
 
@@ -33,9 +41,9 @@ MARKDOWN_DIR = join(ROOTED_BYPRODUCTS_DIR, 'documentation-snds', 'markdown')
 TABLES_SIDEBAR_JS_PATH = join(ROOTED_BYPRODUCTS_DIR, 'documentation-snds', 'tables_sidebar.js')
 TSFAKER_DIR = join(ROOTED_BYPRODUCTS_DIR, "tsfaker")
 
-NOMENCLATURES = 'nomenclatures'
-ROOTED_NOMENCLATURES_DIR = join(ROOT_DIR, NOMENCLATURES)
-PRODUIT_NOMENCLATURES = join(DICO_SNDS_DIR, NOMENCLATURES)
+NOMENCLATURES_DIR = 'nomenclatures'
+ROOTED_NOMENCLATURES_DIR = join(ROOT_DIR, NOMENCLATURES_DIR)
+PRODUIT_NOMENCLATURES = join(DICO_SNDS_DIR, NOMENCLATURES_DIR)
 
 NO_NOMENCLATURE = '-'
 

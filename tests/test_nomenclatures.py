@@ -9,7 +9,7 @@ from goodtables import validate
 from tableschema import Schema
 
 from src.byproducts.main import generate_byproducts
-from src.constants import SCHEMAS, NOMENCLATURES, NO_NOMENCLATURE
+from src.constants import SCHEMAS, NOMENCLATURES_DIR, NO_NOMENCLATURE
 from src.utils import get_all_nomenclatures_csv_schema_path
 from src.utils import get_all_schema
 
@@ -26,7 +26,7 @@ def list_nomenclatures_usage():
 
 def list_present_nomenclatures():
     present_nomenclatures_files = []
-    for root, dirs, files in os.walk(NOMENCLATURES):
+    for root, dirs, files in os.walk(NOMENCLATURES_DIR):
         present_nomenclatures_files += files
     present_nomenclatures = [re.sub('.csv$', '', nom) for nom in present_nomenclatures_files]
     return present_nomenclatures
@@ -52,12 +52,12 @@ def test_nomenclature_presence():
 
 
 def test_all_nomenclatures_have_schema():
-    for nomenclature_path, schema_path in get_all_nomenclatures_csv_schema_path(NOMENCLATURES):
+    for nomenclature_path, schema_path in get_all_nomenclatures_csv_schema_path(NOMENCLATURES_DIR):
         print(schema_path)
         assert os.path.exists(schema_path), "Missing schema for nomenclature '{}'.".format(nomenclature_path)
 
 
-@pytest.mark.parametrize('nomenclature_path,schema_path', get_all_nomenclatures_csv_schema_path(NOMENCLATURES))
+@pytest.mark.parametrize('nomenclature_path,schema_path', get_all_nomenclatures_csv_schema_path(NOMENCLATURES_DIR))
 def test_validate_nomenclature_schema(nomenclature_path, schema_path):
     """
     Validate that nomenclature's schema is valid.
@@ -67,7 +67,7 @@ def test_validate_nomenclature_schema(nomenclature_path, schema_path):
     assert report['error-count'] == 0
 
 
-@pytest.mark.parametrize('nomenclature_path,schema_path', get_all_nomenclatures_csv_schema_path(NOMENCLATURES))
+@pytest.mark.parametrize('nomenclature_path,schema_path', get_all_nomenclatures_csv_schema_path(NOMENCLATURES_DIR))
 def test_nomenclature_primary_keys_is_unique(nomenclature_path, schema_path):
     """
     Validate that nomenclature's schema is valid.

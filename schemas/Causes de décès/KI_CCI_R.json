@@ -133,7 +133,7 @@
             "dateMissing": []
         },
         {
-            "name": "DCD_COM_CO",
+            "name": "DCD_COM_COD",
             "description": "Commune de décès",
             "type": "any",
             "nomenclature": "IR_GEO_V",
@@ -375,7 +375,7 @@
             "dateMissing": []
         },
         {
-            "name": "GRS_ORD_NU",
+            "name": "GRS_ORD_NUM",
             "description": "Numéro d'ordre de l'enfant si grossesse multiple",
             "type": "number",
             "nomenclature": "-",
@@ -474,7 +474,7 @@
             "dateMissing": []
         },
         {
-            "name": "MER_MAR_CO",
+            "name": "MER_MAR_COD",
             "description": "Etat matrimonial de la mère",
             "type": "number",
             "nomenclature": "DS_MAR_V",

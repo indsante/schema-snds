@@ -2,7 +2,7 @@
     "fields": [
         {
             "name": "ARO_ASU_NAT",
-            "description": "Nature d'assurance du régime non obligatoire",
+            "description": "Nature d'assurance (autre que régime obligatoire)",
             "type": "number",
             "nomenclature": "IR_ASU_V",
             "length": "2",
@@ -13,7 +13,7 @@
         },
         {
             "name": "ARO_CPL_COD",
-            "description": "Code complément d'acte initial",
+            "description": "Complément d'acte (autre que régime obligatoire)",
             "type": "number",
             "nomenclature": "IR_CPA_V",
             "length": "1",
@@ -24,7 +24,7 @@
         },
         {
             "name": "ARO_ENV_TYP",
-            "description": "Type d'enveloppe",
+            "description": "Type d'enveloppe (autre que régime obligatoire)",
             "type": "number",
             "nomenclature": "IR_ENV_V",
             "length": "2",
@@ -35,7 +35,7 @@
         },
         {
             "name": "ARO_FJH_TYP",
-            "description": "Type de prise en charge du forfait Journalier",
+            "description": "Type de prise en charge du forfait Journalier (autre que régime obligatoire)",
             "type": "number",
             "nomenclature": "IR_FJH_V",
             "length": "1",
@@ -46,7 +46,7 @@
         },
         {
             "name": "ARO_FTA_COD",
-            "description": "Code forçage du taux (hors parcours de soins)",
+            "description": "Code forçage du taux (hors parcours de soins) autre que régime obligatoire",
             "type": "number",
             "nomenclature": "IR_FOR_V",
             "length": "1",
@@ -57,7 +57,7 @@
         },
         {
             "name": "ARO_MIN_TAU",
-            "description": "Taux modulé (hors parcours de Soins) du remboursement",
+            "description": "Taux modulé (hors parcours de Soins) du remboursement (autre que régime obligatoire)",
             "type": "number",
             "nomenclature": "-",
             "length": "5",
@@ -68,7 +68,7 @@
         },
         {
             "name": "ARO_MOD_MNT",
-            "description": "Montant de la majoration de la participation de l'assuré",
+            "description": "Montant de la majoration de la participation de l'assuré (autre que régime obligatoire)",
             "type": "number",
             "nomenclature": "-",
             "length": "9",
@@ -79,7 +79,7 @@
         },
         {
             "name": "ARO_ORD_NUM",
-            "description": "N° ordre remboursement",
+            "description": "Numéro d'ordre du remboursement autre que régime obligatoire",
             "type": "number",
             "nomenclature": "-",
             "length": "2",
@@ -90,7 +90,7 @@
         },
         {
             "name": "ARO_PRS_NAT",
-            "description": "Nature de prestation",
+            "description": "Nature de la prestation (autre que régime obligatoire)",
             "type": "number",
             "nomenclature": "IR_NAT_V",
             "length": "4",
@@ -101,7 +101,7 @@
         },
         {
             "name": "ARO_REM_BSE",
-            "description": "Base de remboursement",
+            "description": "Base de remboursement (autre que régime obligatoire)",
             "type": "number",
             "nomenclature": "-",
             "length": "9",
@@ -112,7 +112,7 @@
         },
         {
             "name": "ARO_REM_MNT",
-            "description": "Montant versé/remboursé",
+            "description": "Montant versé-remboursé (autre que régime obligatoire)",
             "type": "number",
             "nomenclature": "-",
             "length": "9",
@@ -123,7 +123,7 @@
         },
         {
             "name": "ARO_REM_PRU",
-            "description": "Prix unitaire de l'acte",
+            "description": "Prix unitaire de l'acte (autre que régime obligatoire)",
             "type": "number",
             "nomenclature": "-",
             "length": "12",
@@ -134,7 +134,7 @@
         },
         {
             "name": "ARO_REM_SGN",
-            "description": "Signe Remboursement",
+            "description": "Signe du remboursement (autre que régime obligatoire)",
             "type": "number",
             "nomenclature": "IR_SGN_V",
             "length": "1",
@@ -145,7 +145,7 @@
         },
         {
             "name": "ARO_REM_TAU",
-            "description": "Taux réel de remboursement",
+            "description": "Taux réel de remboursement (autre que régime obligatoire)",
             "type": "number",
             "nomenclature": "-",
             "length": "5",
@@ -156,7 +156,7 @@
         },
         {
             "name": "ARO_REM_TYP",
-            "description": "Type de remboursement",
+            "description": "Type de remboursement (autre que régime obligatoire)",
             "type": "number",
             "nomenclature": "IR_TYR_V",
             "length": "2",
@@ -178,7 +178,7 @@
         },
         {
             "name": "ORG_CLE_NEW",
-            "description": "Organisme de liquidation (après fusion des caisses)",
+            "description": "Code de l'organisme de liquidation",
             "type": "string",
             "nomenclature": "IR_ORG_V",
             "length": "9",
@@ -200,7 +200,7 @@
         },
         {
             "name": "FLX_DIS_DTD",
-            "description": "Date de mise à disposition des données dans SI     2",
+            "description": "Date de mise à disposition des données",
             "type": "date",
             "nomenclature": "IR_DTE_V",
             "length": "8",
@@ -211,7 +211,7 @@
         },
         {
             "name": "FLX_EMT_NUM",
-            "description": "N° émetteur du flux                                                  3",
+            "description": "numéro d'émetteur du flux",
             "type": "number",
             "nomenclature": "IR_NEM_V",
             "length": "8",
@@ -222,7 +222,7 @@
         },
         {
             "name": "FLX_EMT_ORD",
-            "description": "N° séquence du flux                                               4",
+            "description": "numéro de séquence du flux",
             "type": "number",
             "nomenclature": "-",
             "length": "8",
@@ -233,7 +233,7 @@
         },
         {
             "name": "FLX_EMT_TYP",
-            "description": "Type d'émetteur                                                      5",
+            "description": "Type d'émetteur",
             "type": "number",
             "nomenclature": "-",
             "length": "8",
@@ -244,7 +244,7 @@
         },
         {
             "name": "FLX_TRT_DTD",
-            "description": "Date de traitement des données dans SI                   6",
+            "description": "Date d'entrée des données dans le système d'information",
             "type": "date",
             "nomenclature": "IR_DTE_V",
             "length": "8",
@@ -255,7 +255,7 @@
         },
         {
             "name": "ORG_CLE_NUM",
-            "description": "Ancien concept de l'organisme de liquidation (avant fusion, jusqu’au jour J de la fusion)          7",
+            "description": "organisme de liquidation des prestations (avant fusion des caisses)",
             "type": "string",
             "nomenclature": "IR_ORG_V",
             "length": "9",
@@ -266,7 +266,7 @@
         },
         {
             "name": "PRS_ORD_NUM",
-            "description": "N° ordre prestation dans décompte                 8",
+            "description": "Numéro d'ordre de la prestation dans le décompte",
             "type": "number",
             "nomenclature": "-",
             "length": "8",
@@ -277,7 +277,7 @@
         },
         {
             "name": "REM_TYP_AFF",
-            "description": "Type de remboursement affiné                                 9",
+            "description": "type de remboursement affiné",
             "type": "number",
             "nomenclature": "-",
             "length": "8",

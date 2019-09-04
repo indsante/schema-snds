@@ -2,7 +2,7 @@
     "fields": [
         {
             "name": "ORG_CLE_NEW",
-            "description": "Organisme de liquidation (après fusion des caisses)",
+            "description": "Code de l'organisme de liquidation",
             "type": "string",
             "nomenclature": "IR_ORG_V",
             "length": "9",
@@ -46,7 +46,7 @@
         },
         {
             "name": "UCD_ECT_MNT",
-            "description": "Montant total de l'écart indemnisable",
+            "description": "Montant UCD total de l'écart indemnisable",
             "type": "number",
             "nomenclature": "-",
             "length": "7",
@@ -57,7 +57,7 @@
         },
         {
             "name": "UCD_ECU_MNT",
-            "description": "Montant unitaire de l'écart indemnisable",
+            "description": "Montant UCD unitaire de l'écart indemnisable",
             "type": "number",
             "nomenclature": "-",
             "length": "7",
@@ -101,7 +101,7 @@
         },
         {
             "name": "UCD_MAR_MNT",
-            "description": "Montant TTC de la marge de rétrocession",
+            "description": "Montant UCD TTC de la marge de rétrocession",
             "type": "number",
             "nomenclature": "-",
             "length": "3",
@@ -112,7 +112,7 @@
         },
         {
             "name": "UCD_ORD_NUM",
-            "description": "N° ordre prestation affinée UCD",
+            "description": "Numéro d'Ordre de la Prestation Affinée UCD",
             "type": "number",
             "nomenclature": "-",
             "length": "3",
@@ -145,7 +145,7 @@
         },
         {
             "name": "UCD_TTF_MNT",
-            "description": "Montant total TTC délivré",
+            "description": "Montant total TTC facturé",
             "type": "number",
             "nomenclature": "-",
             "length": "7",
@@ -156,7 +156,7 @@
         },
         {
             "name": "UCD_UCD_COD",
-            "description": "Code prestation affinée UCD",
+            "description": "Code UCD de la pharmacie hospitalière",
             "type": "string",
             "nomenclature": "NU_UCD_R",
             "length": "13",
@@ -167,7 +167,7 @@
         },
         {
             "name": "DCT_ORD_NUM",
-            "description": "N° ordre décompte dans caisse                      1",
+            "description": "numéro d'ordre du décompte dans l'organisme",
             "type": "number",
             "nomenclature": "-",
             "length": "8",
@@ -178,7 +178,7 @@
         },
         {
             "name": "FLX_DIS_DTD",
-            "description": "Date de mise à disposition des données dans SI     2",
+            "description": "Date de mise à disposition des données",
             "type": "date",
             "nomenclature": "IR_DTE_V",
             "length": "8",
@@ -189,7 +189,7 @@
         },
         {
             "name": "FLX_EMT_NUM",
-            "description": "N° émetteur du flux                                                  3",
+            "description": "numéro d'émetteur du flux",
             "type": "number",
             "nomenclature": "IR_NEM_V",
             "length": "8",
@@ -200,7 +200,7 @@
         },
         {
             "name": "FLX_EMT_ORD",
-            "description": "N° séquence du flux                                               4",
+            "description": "numéro de séquence du flux",
             "type": "number",
             "nomenclature": "-",
             "length": "8",
@@ -211,7 +211,7 @@
         },
         {
             "name": "FLX_EMT_TYP",
-            "description": "Type d'émetteur                                                      5",
+            "description": "Type d'émetteur",
             "type": "number",
             "nomenclature": "-",
             "length": "8",
@@ -222,7 +222,7 @@
         },
         {
             "name": "FLX_TRT_DTD",
-            "description": "Date de traitement des données dans SI                   6",
+            "description": "Date d'entrée des données dans le système d'information",
             "type": "date",
             "nomenclature": "IR_DTE_V",
             "length": "8",
@@ -233,7 +233,7 @@
         },
         {
             "name": "ORG_CLE_NUM",
-            "description": "Ancien concept de l'organisme de liquidation (avant fusion, jusqu’au jour J de la fusion)          7",
+            "description": "organisme de liquidation des prestations (avant fusion des caisses)",
             "type": "string",
             "nomenclature": "IR_ORG_V",
             "length": "9",
@@ -244,7 +244,7 @@
         },
         {
             "name": "PRS_ORD_NUM",
-            "description": "N° ordre prestation dans décompte                 8",
+            "description": "Numéro d'ordre de la prestation dans le décompte",
             "type": "number",
             "nomenclature": "-",
             "length": "8",
@@ -255,7 +255,7 @@
         },
         {
             "name": "REM_TYP_AFF",
-            "description": "Type de remboursement affiné                                 9",
+            "description": "type de remboursement affiné",
             "type": "number",
             "nomenclature": "-",
             "length": "8",

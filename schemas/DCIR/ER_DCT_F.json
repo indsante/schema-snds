@@ -35,7 +35,7 @@
         },
         {
             "name": "DCT_LOT_TCR",
-            "description": "Type certification du lot",
+            "description": "Type Certification du Lot",
             "type": "string",
             "nomenclature": "IR_TCR_V",
             "length": "1",
@@ -46,7 +46,7 @@
         },
         {
             "name": "DCT_CTL_TYP",
-            "description": "Type de contrôle",
+            "description": "Type de Controle",
             "type": "string",
             "nomenclature": "IR_CTL_V",
             "length": "1",
@@ -79,7 +79,7 @@
         },
         {
             "name": "DCT_INT_VER",
-            "description": "Type de version interface tiers",
+            "description": "Type de Version interface Tiers",
             "type": "string",
             "nomenclature": "IR_INT_V",
             "length": "2",
@@ -101,7 +101,7 @@
         },
         {
             "name": "DCT_MUT_CMP",
-            "description": "Part mutuelle complémentaire décompte",
+            "description": "Part Mutuelle Complementaire décompte",
             "type": "string",
             "nomenclature": "-",
             "length": "1",
@@ -123,7 +123,7 @@
         },
         {
             "name": "DCT_REM_DTD",
-            "description": "Date de remboursement / recyclage",
+            "description": "Date de remboursement - recyclage",
             "type": "date",
             "nomenclature": "IR_DTE_V",
             "length": "8",
@@ -134,7 +134,7 @@
         },
         {
             "name": "DCT_RGU_SNS",
-            "description": "Sens de la régularisation",
+            "description": "Sens de la régulation",
             "type": "string",
             "nomenclature": "IR_RGU_V",
             "length": "1",
@@ -145,7 +145,7 @@
         },
         {
             "name": "ORG_CLE_NEW",
-            "description": "Organisme de liquidation (après fusion des caisses)",
+            "description": "Code de l'organisme de liquidation",
             "type": "string",
             "nomenclature": "IR_ORG_V",
             "length": "9",
@@ -167,7 +167,7 @@
         },
         {
             "name": "FLX_DIS_DTD",
-            "description": "Date de mise à disposition des données dans SI     2",
+            "description": "Date de mise à disposition des données",
             "type": "date",
             "nomenclature": "IR_DTE_V",
             "length": "8",
@@ -178,7 +178,7 @@
         },
         {
             "name": "FLX_EMT_NUM",
-            "description": "N° émetteur du flux                                                  3",
+            "description": "numéro d'émetteur du flux",
             "type": "number",
             "nomenclature": "IR_NEM_V",
             "length": "8",
@@ -189,7 +189,7 @@
         },
         {
             "name": "FLX_EMT_ORD",
-            "description": "N° séquence du flux                                               4",
+            "description": "numéro de séquence du flux",
             "type": "number",
             "nomenclature": "-",
             "length": "8",
@@ -200,7 +200,7 @@
         },
         {
             "name": "FLX_EMT_TYP",
-            "description": "Type d'émetteur                                                      5",
+            "description": "Type d'émetteur",
             "type": "number",
             "nomenclature": "-",
             "length": "8",
@@ -211,7 +211,7 @@
         },
         {
             "name": "FLX_TRT_DTD",
-            "description": "Date de traitement des données dans SI                   6",
+            "description": "Date d'entrée des données dans le système d'information",
             "type": "date",
             "nomenclature": "IR_DTE_V",
             "length": "8",
@@ -222,7 +222,7 @@
         },
         {
             "name": "ORG_CLE_NUM",
-            "description": "Ancien concept de l'organisme de liquidation (avant fusion, jusqu’au jour J de la fusion)          7",
+            "description": "organisme de liquidation des prestations (avant fusion des caisses)",
             "type": "string",
             "nomenclature": "IR_ORG_V",
             "length": "9",

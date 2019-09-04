@@ -156,7 +156,7 @@
         }
     ],
     "name": "ER_RAT_F",
-    "title": "affinage des rentes et accidents du travail",
+    "title": "Table des données des rentes d'accident du travail",
     "description": "",
     "produit": "DCIR",
     "missingValues": [

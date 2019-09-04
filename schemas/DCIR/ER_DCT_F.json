@@ -255,7 +255,7 @@
         }
     ],
     "name": "ER_DCT_F",
-    "title": "Décomptes",
+    "title": "Table des données de décompte",
     "description": "",
     "produit": "DCIR",
     "missingValues": [

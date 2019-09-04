@@ -409,7 +409,7 @@
         }
     ],
     "name": "NS_TIP_F",
-    "title": "affinage Liste des Produits et Prestations (LPP)",
+    "title": "Table simplifiée des données de codage de la Liste des Produits et Prestations",
     "description": "",
     "produit": "DCIRS",
     "missingValues": [

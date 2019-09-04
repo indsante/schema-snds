@@ -1234,7 +1234,7 @@
         }
     ],
     "name": "ER_PRS_F",
-    "title": "prestations",
+    "title": "Table des prestations",
     "description": "",
     "produit": "DCIR",
     "missingValues": [

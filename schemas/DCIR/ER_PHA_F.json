@@ -255,7 +255,7 @@
         }
     ],
     "name": "ER_PHA_F",
-    "title": "affinage des actes de pharmacie (officine de ville)",
+    "title": "Table des données de codage de pharmacie",
     "description": "",
     "produit": "DCIR",
     "missingValues": [

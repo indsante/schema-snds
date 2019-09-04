@@ -431,7 +431,7 @@
         }
     ],
     "name": "NS_CAM_F",
-    "title": "affinage des actes médicaux (codage CCAM)",
+    "title": "Table simplifiée des données de codage de la Classification Commune des Actes Médicaux",
     "description": "",
     "produit": "DCIRS",
     "missingValues": [

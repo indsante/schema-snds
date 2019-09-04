@@ -332,7 +332,7 @@
         }
     ],
     "name": "NS_INV_F",
-    "title": "affinage des actes invalidité",
+    "title": "Table simplifiée des données de codage des invalidités",
     "description": "",
     "produit": "DCIRS",
     "missingValues": [

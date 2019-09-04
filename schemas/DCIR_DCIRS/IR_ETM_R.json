@@ -90,7 +90,7 @@
         }
     ],
     "name": "IR_ETM_R",
-    "title": "Exonérations du ticket modérateur liées à la personne ",
+    "title": "Table historique des exonérations du ticket modérateur liées à la personne",
     "description": "",
     "produit": "DCIR_DCIRS",
     "missingValues": [

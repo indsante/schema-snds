@@ -288,7 +288,7 @@
         }
     ],
     "name": "ER_ARO_F",
-    "title": "Autre remboursement que régime obligatoire (partie complémentaire CMU-C, Alsace moselle, FNASS,…)",
+    "title": "Table des données de remboursements complémentaires",
     "description": "",
     "produit": "DCIR",
     "missingValues": [

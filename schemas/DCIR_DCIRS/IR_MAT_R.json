@@ -79,7 +79,7 @@
         }
     ],
     "name": "IR_MAT_R",
-    "title": "Maternité",
+    "title": "Table historique de la maternité",
     "description": "",
     "produit": "DCIR_DCIRS",
     "missingValues": [

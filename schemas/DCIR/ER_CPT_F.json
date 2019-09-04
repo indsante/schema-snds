@@ -233,7 +233,7 @@
         }
     ],
     "name": "ER_CPT_F",
-    "title": "Données comptables",
+    "title": "Table des données comptables",
     "description": "",
     "produit": "DCIR",
     "missingValues": [

@@ -266,7 +266,7 @@
         }
     ],
     "name": "ER_ETE_F",
-    "title": "Informations liées à l'exécution dans un établissement",
+    "title": "Table des données des établissements",
     "description": "",
     "produit": "DCIR",
     "missingValues": [

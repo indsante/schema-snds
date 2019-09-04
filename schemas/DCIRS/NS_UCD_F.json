@@ -431,7 +431,7 @@
         }
     ],
     "name": "NS_UCD_F",
-    "title": "affinage UCD (pharmacie hospitalière)",
+    "title": "Table simplifiée des données de codage des Unités Communes de Dispensation",
     "description": "",
     "produit": "DCIRS",
     "missingValues": [

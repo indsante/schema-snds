@@ -266,7 +266,7 @@
         }
     ],
     "name": "ER_UCD_F",
-    "title": "affinage UCD (pharmacie hospitalière)",
+    "title": "Table des données de codage des Unités Communes de Dispensation",
     "description": "",
     "produit": "DCIR",
     "missingValues": [

@@ -189,7 +189,7 @@
         }
     ],
     "name": "IR_IBA_R",
-    "title": "Référentiel des bénéficiaires (DCIRS)",
+    "title": "Référentiel des bénéficiaires de DCIRS",
     "description": "",
     "produit": "BENEFICIAIRE",
     "missingValues": [

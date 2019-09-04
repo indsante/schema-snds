@@ -321,7 +321,7 @@
         }
     ],
     "name": "NS_BIO_F",
-    "title": "affinage des actes de biologie",
+    "title": "Table simplifiée des données de codage de biologie",
     "description": "",
     "produit": "DCIRS",
     "missingValues": [

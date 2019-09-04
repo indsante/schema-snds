@@ -167,7 +167,7 @@
         }
     ],
     "name": "ER_LOT_F",
-    "title": "Lot et numéro de série des prestations affinnées pharmacie",
+    "title": "Table des données de lot",
     "description": "",
     "produit": "DCIR",
     "missingValues": [

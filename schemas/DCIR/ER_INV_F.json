@@ -145,7 +145,7 @@
         }
     ],
     "name": "ER_INV_F",
-    "title": "affinage des actes invalidité",
+    "title": "Table des données de codage des invalidités",
     "description": "",
     "produit": "DCIR",
     "missingValues": [

@@ -112,7 +112,7 @@
         }
     ],
     "name": "IR_MTT_R",
-    "title": "Médecin traitant",
+    "title": "Table historique des médecins traitants",
     "description": "",
     "produit": "DCIR_DCIRS",
     "missingValues": [

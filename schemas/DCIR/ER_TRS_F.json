@@ -233,7 +233,7 @@
         }
     ],
     "name": "ER_TRS_F",
-    "title": "affinage des actes détaillés de transport ",
+    "title": "Table des données détaillées de transport",
     "description": "",
     "produit": "DCIR",
     "missingValues": [

@@ -1113,7 +1113,7 @@
         }
     ],
     "name": "NS_PRS_F",
-    "title": "prestations",
+    "title": "Table des prestations",
     "description": "",
     "produit": "DCIRS",
     "missingValues": [

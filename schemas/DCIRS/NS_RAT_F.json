@@ -343,7 +343,7 @@
         }
     ],
     "name": "NS_RAT_F",
-    "title": "affinage des rentes et accidents du travail",
+    "title": "Table simplifiée des données des rentes d'accident du travail",
     "description": "",
     "produit": "DCIRS",
     "missingValues": [

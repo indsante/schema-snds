@@ -431,7 +431,7 @@
         }
     ],
     "name": "NS_PHA_F",
-    "title": "affinage des actes de pharmacie (officine de ville)",
+    "title": "Table simplifiée des données de codage de pharmacie",
     "description": "",
     "produit": "DCIRS",
     "missingValues": [

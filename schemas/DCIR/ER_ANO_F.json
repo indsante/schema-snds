@@ -189,7 +189,7 @@
         }
     ],
     "name": "ER_ANO_F",
-    "title": "Miroir",
+    "title": "Table des anomalies",
     "description": "",
     "produit": "DCIR",
     "missingValues": [

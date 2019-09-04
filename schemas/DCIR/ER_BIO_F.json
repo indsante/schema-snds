@@ -145,7 +145,7 @@
         }
     ],
     "name": "ER_BIO_F",
-    "title": "affinage des actes de biologie",
+    "title": "Table des données de codage de biologie",
     "description": "",
     "produit": "DCIR",
     "missingValues": [

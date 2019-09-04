@@ -233,7 +233,7 @@
         }
     ],
     "name": "ER_TIP_F",
-    "title": "affinage Liste des Produits et Prestations (LPP)",
+    "title": "Table des données de codage de la Liste des Produits et Prestations",
     "description": "",
     "produit": "DCIR",
     "missingValues": [

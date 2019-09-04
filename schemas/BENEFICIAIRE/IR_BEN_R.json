@@ -1,5 +1,5 @@
 {
-    "fields":   [
+    "fields": [
         {
             "name": "BEN_NIR_PSA",
             "description": "Identifiant SNIIRAM anonymisé du bénéficiaire",
@@ -240,7 +240,7 @@
         }
     ],
     "name": "IR_BEN_R",
-    "title": "Référentiel des bénéficiaires (DCIR)",
+    "title": "Référentiel des bénéficiaires du SNIIRAM-SNDS",
     "description": "",
     "produit": "BENEFICIAIRE",
     "missingValues": [

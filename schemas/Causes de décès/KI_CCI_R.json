@@ -69,7 +69,7 @@
         {
             "name": "CER_VER_NUM",
             "description": "Version du certificat",
-            "type": "any",
+            "type": "number",
             "nomenclature": "DS_VER_V",
             "length": null,
             "format": "default",
@@ -80,7 +80,7 @@
         {
             "name": "TRT_STA_COD",
             "description": "Statut du traitement",
-            "type": "any",
+            "type": "number",
             "nomenclature": "DS_STA_V",
             "length": null,
             "format": "default",
@@ -91,7 +91,7 @@
         {
             "name": "TYP_CER_COD",
             "description": "Type de certificat",
-            "type": "any",
+            "type": "number",
             "nomenclature": "DS_CER_V",
             "length": null,
             "format": "default",
@@ -102,7 +102,7 @@
         {
             "name": "CER_SUP_TYP",
             "description": "Type de support",
-            "type": "any",
+            "type": "number",
             "nomenclature": "DS_VER_V",
             "length": null,
             "format": "default",
@@ -135,7 +135,7 @@
         {
             "name": "DCD_COM_COD",
             "description": "Commune de décès",
-            "type": "any",
+            "type": "string",
             "nomenclature": "IR_GEO_V",
             "length": null,
             "format": "default",

@@ -674,7 +674,7 @@
         {
             "name": "IJR_EMP_NUM",
             "description": "Numéro de l'employeur (IJ)",
-            "type": "string",
+            "type": "number",
             "nomenclature": "-",
             "length": "15",
             "format": "default",
@@ -729,7 +729,7 @@
         {
             "name": "PRS_CRD_OPT",
             "description": "Top option de coordination",
-            "type": "number",
+            "type": "string",
             "nomenclature": "IR_TOC_V",
             "length": "1",
             "format": "default",

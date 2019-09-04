@@ -3,7 +3,7 @@
         {
             "name": "CLE_DCI_JNT",
             "description": "Clé technique de jointure",
-            "type": "string",
+            "type": "number",
             "nomenclature": "-",
             "length": null,
             "format": "default",

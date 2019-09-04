@@ -3,7 +3,7 @@
         {
             "name": "BIO_ACT_QSN",
             "description": "Quantité affinée (signée)",
-            "type": "string",
+            "type": "number",
             "nomenclature": "-",
             "length": "9",
             "format": "default",

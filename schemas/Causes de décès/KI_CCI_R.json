@@ -24,7 +24,7 @@
         },
         {
             "name": "BEN_IDT_ANO",
-            "description": "Identifiant synthétique SNDS",
+            "description": "Identifiant bénéficiaire anonymisé",
             "type": "string",
             "nomenclature": "-",
             "length": "18",
@@ -35,7 +35,7 @@
         },
         {
             "name": "BEN_IDT_TOP",
-            "description": "TOP Identifiant synthétique SNDS",
+            "description": "Top identifiant bénéficiaire Anonymisé",
             "type": "number",
             "nomenclature": "-",
             "length": "1",
@@ -46,7 +46,7 @@
         },
         {
             "name": "BEN_NIR_ANO",
-            "description": "NIR pseudonymisé du bénéficiaires",
+            "description": "NIR pseudonymisé du bénéficiaire",
             "type": "string",
             "nomenclature": "-",
             "length": "17",
@@ -79,7 +79,7 @@
         },
         {
             "name": "TRT_STA_COD",
-            "description": "Statut du traitement",
+            "description": "Statut de traitement",
             "type": "number",
             "nomenclature": "DS_STA_V",
             "length": null,
@@ -145,7 +145,7 @@
         },
         {
             "name": "BEN_RES_DPT",
-            "description": "Département de domicile",
+            "description": "Département de résidence du bénéficiaire",
             "type": "string",
             "nomenclature": "IR_DPT_V",
             "length": "3",
@@ -156,7 +156,7 @@
         },
         {
             "name": "BEN_RES_COM",
-            "description": "Commune de domicile",
+            "description": "commune de résidence du destinataire du règlement",
             "type": "string",
             "nomenclature": "IR_GEO_V",
             "length": "3",
@@ -167,7 +167,7 @@
         },
         {
             "name": "BEN_DCD_DTE",
-            "description": "Date du décès",
+            "description": "Date de décès du bénéficiaire",
             "type": "date",
             "nomenclature": "-",
             "length": null,
@@ -178,7 +178,7 @@
         },
         {
             "name": "BEN_DCD_AME",
-            "description": "Année et mois du décès",
+            "description": "Année et mois de décès du bénéficiaire",
             "type": "string",
             "nomenclature": "-",
             "length": "6",
@@ -200,7 +200,7 @@
         },
         {
             "name": "BEN_NAI_ANN",
-            "description": "Année de naissance",
+            "description": "Année de naissance du bénéficiaire",
             "type": "string",
             "nomenclature": "-",
             "length": "4",
@@ -211,7 +211,7 @@
         },
         {
             "name": "BEN_NAI_MOI",
-            "description": "Mois de naissance",
+            "description": "Mois de naissance du bénéficiaire",
             "type": "string",
             "nomenclature": "-",
             "length": "2",
@@ -222,7 +222,7 @@
         },
         {
             "name": "BEN_SEX_COD",
-            "description": "Sexe",
+            "description": "Code sexe du bénéficiaire",
             "type": "number",
             "nomenclature": "IR_SEX_V",
             "length": "1",
@@ -244,7 +244,7 @@
         },
         {
             "name": "CAT_PCS_COD",
-            "description": "Profession et caégorie socioprofessionnelle",
+            "description": "Profession et catégorie socioprofessionnelle",
             "type": "string",
             "nomenclature": "DS_PC1_V",
             "length": "4",
@@ -310,7 +310,7 @@
         },
         {
             "name": "DCD_LIE_LIB",
-            "description": "Lieu de lévénement si mort violente",
+            "description": "Lieu de lévènement si mort violente",
             "type": "string",
             "nomenclature": "-",
             "length": "200",
@@ -343,7 +343,7 @@
         },
         {
             "name": "NEO_GES_AGE",
-            "description": "Age gestationnel en semaines révoleus d'amenhorrées",
+            "description": "Âge gestationnel en semaines révolues daménorrhée",
             "type": "number",
             "nomenclature": "-",
             "length": "2",
@@ -376,7 +376,7 @@
         },
         {
             "name": "GRS_ORD_NUM",
-            "description": "Numéro d'ordre de l'enfant si grossesse multiple",
+            "description": "N° dordre de lenfant si grossesse multiple",
             "type": "number",
             "nomenclature": "-",
             "length": "1",
@@ -387,7 +387,7 @@
         },
         {
             "name": "ACC_LIA_COD",
-            "description": "Lieu d'accouchement",
+            "description": "Lieu daccouchement",
             "type": "number",
             "nomenclature": "DS_LIA_V",
             "length": "1",
@@ -398,7 +398,7 @@
         },
         {
             "name": "ACC_PST_COD",
-            "description": "Présentation de l'enfant",
+            "description": "Présentation de lenfant",
             "type": "number",
             "nomenclature": "DS_PST_V",
             "length": "1",
@@ -420,7 +420,7 @@
         },
         {
             "name": "MOD_ACC_COD",
-            "description": "Mode d'accouchement",
+            "description": "Mode daccouchement",
             "type": "number",
             "nomenclature": "DS_ACC_V",
             "length": "1",
@@ -431,7 +431,7 @@
         },
         {
             "name": "HOS_TRF_TOP",
-            "description": "Transfert de l'hospitalisation particulière de l'enfant",
+            "description": "Transfert ou hospitalisation particulière de lenfant",
             "type": "number",
             "nomenclature": "DS_TRF_V",
             "length": "1",
@@ -486,7 +486,7 @@
         },
         {
             "name": "MER_SIT_TOP",
-            "description": "La mère vit-elle en couple ?",
+            "description": "La mère vit elle en couple",
             "type": "number",
             "nomenclature": "DS_SIT_V",
             "length": "1",
@@ -508,7 +508,7 @@
         },
         {
             "name": "TOT_ACC_NBR",
-            "description": "Nombre total d'accouchements",
+            "description": "Nombre total daccouchements",
             "type": "number",
             "nomenclature": "-",
             "length": "2",

@@ -27,7 +27,7 @@
         },
         {
             "name": "ben_rng_gem",
-            "description": "Rang de naissance",
+            "description": "rang de naissance du bénéficiaire",
             "type": "number",
             "nomenclature": "-",
             "length": "8",

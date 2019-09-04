@@ -13,7 +13,7 @@
         },
         {
             "name": "ben_sex_cod",
-            "description": "Sexe du bénéficiaire",
+            "description": "Code sexe du bénéficiaire",
             "type": "number",
             "nomenclature": "-",
             "length": "3",
@@ -134,7 +134,7 @@
         },
         {
             "name": "ben_acs_top",
-            "description": "Bénéficiaire de l'aide à la complémentaire santé",
+            "description": "Top contrat ACS Tiers payant Intégral",
             "type": "number",
             "nomenclature": "-",
             "length": "3",
@@ -728,7 +728,7 @@
         },
         {
             "name": "DEP_IJMALATMP_MNT",
-            "description": "Indemnités journalières maladie et AT/MP remboursées",
+            "description": "Indemnités journalières maladie et AT-MP remboursées",
             "type": "number",
             "nomenclature": "-",
             "length": "8",
@@ -739,7 +739,7 @@
         },
         {
             "name": "DEP_IJMALATMP_BSE",
-            "description": "Indemnités journalières maladie et AT/MP remboursables",
+            "description": "Indemnités journalières maladie et AT-MP remboursables",
             "type": "number",
             "nomenclature": "-",
             "length": "8",

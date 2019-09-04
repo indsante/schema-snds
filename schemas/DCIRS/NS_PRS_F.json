@@ -354,7 +354,7 @@
         },
         {
             "name": "DDP_COD",
-            "description": "Code de la discipline de prestation (ou discipline médico tarifaire)",
+            "description": "Code de la discipline de Prestations (ou discipline médico tarifaire)",
             "type": "number",
             "nomenclature": "IR_DDP_V",
             "length": "3",
@@ -519,7 +519,7 @@
         },
         {
             "name": "EXE_CTX_PFS",
-            "description": "Contexte Professionnel de Santé",
+            "description": "Contexte Professionnels de santé",
             "type": "string",
             "nomenclature": "-",
             "length": "4",
@@ -860,7 +860,7 @@
         },
         {
             "name": "PRS_NAT_REF",
-            "description": "Code de la prestation de référence",
+            "description": "Code de la Prestations de référence",
             "type": "number",
             "nomenclature": "IR_NAT_V",
             "length": "4",
@@ -893,7 +893,7 @@
         },
         {
             "name": "PRS_PPU_SEC",
-            "description": "Code privé / public de la prestation",
+            "description": "Code privé - public de la Prestations",
             "type": "number",
             "nomenclature": "IR_PPU_V",
             "length": "1",
@@ -1091,7 +1091,7 @@
         },
         {
             "name": "TOT_REM_BSE",
-            "description": "Base totale de remboursement de l'acte (base et compléments/majo hors PAF)",
+            "description": "Base totale de remboursement de l'acte (base et compléments-majo hors PAF)",
             "type": "number",
             "nomenclature": "-",
             "length": "11,2",
@@ -1102,7 +1102,7 @@
         },
         {
             "name": "TOT_REM_MNT",
-            "description": "Montant total remboursé pour l'acte (base et compléments/majo et participations de l'assuré)",
+            "description": "Montant total remboursé pour l'acte (base et compléments-majo et participations de l'assuré)",
             "type": "number",
             "nomenclature": "-",
             "length": "11,2",

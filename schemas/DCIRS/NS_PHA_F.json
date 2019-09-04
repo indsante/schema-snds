@@ -101,7 +101,7 @@
         },
         {
             "name": "GRG_LIQ_COD",
-            "description": "Code du grand régime de liquidation",
+            "description": "Grand régime de liquidation",
             "type": "string",
             "nomenclature": "-",
             "length": "3",
@@ -123,7 +123,7 @@
         },
         {
             "name": "PRS_NAT_REF",
-            "description": "Code de la prestation de référence",
+            "description": "Code de la Prestations de référence",
             "type": "number",
             "nomenclature": "IR_NAT_V",
             "length": "4",
@@ -299,7 +299,7 @@
         },
         {
             "name": "PHA_PRS_C13",
-            "description": "Code CIP de la pharmacie de ville (13 caractères)",
+            "description": "Code CIP de la pharmacie de ville (13 Caractères)",
             "type": "number",
             "nomenclature": "IR_PHA_R",
             "length": "13",
@@ -310,7 +310,7 @@
         },
         {
             "name": "PHA_PRS_IDE",
-            "description": "Code CIP de la pharmacie de ville (ancien code sur 7 caractères)",
+            "description": "Code CIP de la pharmacie de ville (ancien code sur 7 Caractères)",
             "type": "number",
             "nomenclature": "IR_PHA_R",
             "length": "7",

@@ -2,7 +2,7 @@
     "fields": [
         {
             "name": "BEN_NIR_PSA",
-            "description": "Pseudonyme du bénéficiaire",
+            "description": "Identifiant anonyme du patient dans le SNIIRAM",
             "type": "string",
             "nomenclature": "-",
             "length": "17",
@@ -13,7 +13,7 @@
         },
         {
             "name": "BEN_RNG_GEM",
-            "description": "Rang gémellaire",
+            "description": "rang de naissance du bénéficiaire",
             "type": "number",
             "nomenclature": "-",
             "length": "8",
@@ -24,7 +24,7 @@
         },
         {
             "name": "IMB_ALD_DTD",
-            "description": "Date de début du cadre de prestation",
+            "description": "Date de début d'exonération du ticket modérateur attribuée par les services médicaux (ALD, AT, MP)",
             "type": "date",
             "nomenclature": "-",
             "length": null,
@@ -35,7 +35,7 @@
         },
         {
             "name": "IMB_ALD_DTF",
-            "description": "Date de fin du cadre de prestation",
+            "description": "Date de fin de l'exonération attribuée par les services médicaux (ALD, AT, MP)",
             "type": "date",
             "nomenclature": "-",
             "length": null,
@@ -46,7 +46,7 @@
         },
         {
             "name": "IMB_ALD_NUM",
-            "description": "Numéro d'ALD sur la liste",
+            "description": "Numéro d'ALD",
             "type": "number",
             "nomenclature": "IR_ALD_V",
             "length": "8",
@@ -68,7 +68,7 @@
         },
         {
             "name": "IMB_MLP_BTR",
-            "description": "Numéro de tableau maladies professionnelles",
+            "description": "Tableau des maladies professionnelles (bis, ter)",
             "type": "string",
             "nomenclature": "-",
             "length": "1",
@@ -79,7 +79,7 @@
         },
         {
             "name": "IMB_MLP_TAB",
-            "description": "Tableau MP (A, B=bis, T=ter)",
+            "description": "Numéro de tableau des maladies professionnelles (MP)",
             "type": "string",
             "nomenclature": "-",
             "length": "3",
@@ -101,7 +101,7 @@
         },
         {
             "name": "INS_DTE",
-            "description": "Date d'insertion dans le référentiel",
+            "description": "Date d'insertion",
             "type": "date",
             "nomenclature": "-",
             "length": null,
@@ -112,7 +112,7 @@
         },
         {
             "name": "MED_MTF_COD",
-            "description": "Motif médical ou pathologie (Code CIM10)",
+            "description": "Motif médical ou pathologie (code CIM10)",
             "type": "string",
             "nomenclature": "IR_CIM_V",
             "length": "6",
@@ -123,7 +123,7 @@
         },
         {
             "name": "MED_NCL_IDT",
-            "description": "Nomenclature médicale (CIM10)",
+            "description": "Nomenclature médicale",
             "type": "string",
             "nomenclature": "-",
             "length": "10",

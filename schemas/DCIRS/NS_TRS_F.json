@@ -101,7 +101,7 @@
         },
         {
             "name": "GRG_LIQ_COD",
-            "description": "Code du grand régime de liquidation",
+            "description": "Grand régime de liquidation",
             "type": "string",
             "nomenclature": "-",
             "length": "3",
@@ -123,7 +123,7 @@
         },
         {
             "name": "PRS_NAT_REF",
-            "description": "Code de la prestation de référence",
+            "description": "Code de la Prestations de référence",
             "type": "number",
             "nomenclature": "IR_NAT_V",
             "length": "4",

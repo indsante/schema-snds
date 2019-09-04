@@ -101,7 +101,7 @@
         },
         {
             "name": "GRG_LIQ_COD",
-            "description": "Code du grand régime de liquidation",
+            "description": "Grand régime de liquidation",
             "type": "string",
             "nomenclature": "-",
             "length": "3",
@@ -123,7 +123,7 @@
         },
         {
             "name": "PRS_NAT_REF",
-            "description": "Code de la prestation de référence",
+            "description": "Code de la Prestations de référence",
             "type": "number",
             "nomenclature": "IR_NAT_V",
             "length": "4",
@@ -299,7 +299,7 @@
         },
         {
             "name": "TIP_PRS_IDE",
-            "description": "Code LPP du produit ou de la prestation",
+            "description": "Code LPP du produit ou de la Prestations",
             "type": "number",
             "nomenclature": "NT_LPP",
             "length": "13",
@@ -354,7 +354,7 @@
         },
         {
             "name": "TIP_ACT_PRU",
-            "description": "Prix unitaire LPP du produit ou de la prestation",
+            "description": "Prix unitaire LPP du produit ou de la Prestations",
             "type": "number",
             "nomenclature": "-",
             "length": "10,5",
@@ -365,7 +365,7 @@
         },
         {
             "name": "TIP_PRS_TYP",
-            "description": "Type de prestation fournie",
+            "description": "Type de Prestations fournie",
             "type": "number",
             "nomenclature": "IR_PRF_V",
             "length": "1",
@@ -387,7 +387,7 @@
         },
         {
             "name": "TIP_SIR_NUM",
-            "description": "N° SIRET Fabriquant/Importateur",
+            "description": "N° SIRET Fabriquant-Importateur",
             "type": "string",
             "nomenclature": "-",
             "length": "14",

@@ -604,7 +604,8 @@
     ],
     "primaryKey": [
         "ETA_NUM",
-        "RHA_NUM"
+        "RHA_NUM",
+        "RHS_NUM"
     ],
     "foreignKeys": [
         {

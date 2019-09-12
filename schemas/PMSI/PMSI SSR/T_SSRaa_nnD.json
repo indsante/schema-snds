@@ -67,13 +67,15 @@
         {
             "fields": [
                 "ETA_NUM",
-                "RHA_NUM"
+                "RHA_NUM",
+                "RHS_NUM"
             ],
             "reference": {
                 "resource": "T_SSRaa_nnB",
                 "fields": [
                     "ETA_NUM",
-                    "RHA_NUM"
+                    "RHA_NUM",
+                    "RHS_NUM"
                 ]
             }
         }

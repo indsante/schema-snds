@@ -91,7 +91,7 @@
         {
             "name": "GRE_GRP_RET",
             "description": "Groupage Etablissement : code retour",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": null,
             "format": "default",

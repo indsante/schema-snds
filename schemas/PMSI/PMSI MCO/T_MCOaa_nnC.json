@@ -3,7 +3,7 @@
         {
             "name": "COH_NAI_RET",
             "description": "Code retour contrôle « Cohérence date naissance »",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -14,7 +14,7 @@
         {
             "name": "COH_SEX_RET",
             "description": "Code retour contrôle « Cohérence sexe »",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -25,7 +25,7 @@
         {
             "name": "DAT_RET",
             "description": "Code retour contrôle « date de référence» (date d'entrée)",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -58,7 +58,7 @@
         {
             "name": "ETA_NUM_RET",
             "description": "Code retour contrôle «N° FINESS d’inscription e-PMSI«",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -113,7 +113,7 @@
         {
             "name": "FHO_RET",
             "description": "Code retour « fusion ANO HOSP et HOSP PMSI »",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -146,7 +146,7 @@
         {
             "name": "HOS_NNE_RET",
             "description": "Code retour contrôle « Hospitalisation d'un nouveau-né auprès de la mère »",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -157,7 +157,7 @@
         {
             "name": "HOS_ORG_RET",
             "description": "Code retour contrôle « Hospitalisation pour prélèvement d'organe »",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -179,7 +179,7 @@
         {
             "name": "NAI_RET",
             "description": "Code retour contrôle « date de naissance »",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -212,7 +212,7 @@
         {
             "name": "NIR_RET",
             "description": "Code retour contrôle « n° sécurité sociale »",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -234,7 +234,7 @@
         {
             "name": "NUM_DAT_AT_RET",
             "description": "Code retour contrôle « Numéro accident du travail ou date d’accident de droit commun«",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -256,7 +256,7 @@
         {
             "name": "ORG_CPL_NUM_RET",
             "description": "Code retour contrôle « N° d’organisme complémentaire«",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -267,7 +267,7 @@
         {
             "name": "PMS_RET",
             "description": "Code retour « fusion ANO PMSI et fichier PMSI »",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -289,7 +289,7 @@
         {
             "name": "RNG_BEN_RET",
             "description": "Code retour contrôle « Rang du bénéficiaire »",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -311,7 +311,7 @@
         {
             "name": "RNG_NAI_RET",
             "description": "Code retour contrôle « Rang de naissance »",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -333,7 +333,7 @@
         {
             "name": "SEJ_MER_RET",
             "description": "Code retour contrôle « N° administratif de séjour de la mère »",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -355,7 +355,7 @@
         {
             "name": "SEJ_RET",
             "description": "Code retour contrôle « n° d’identification administratif de séjour »",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -366,7 +366,7 @@
         {
             "name": "SEX_RET",
             "description": "Code retour contrôle « sexe »",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": null,
             "format": "default",

@@ -816,7 +816,7 @@
         },
         {
             "name": "PRS_REF_KIN",
-            "description": "Indicateur Référentiel EPK",
+            "description": "Indicateur Référentiel Entente Préalable kinésithérapie",
             "type": "string",
             "nomenclature": "IR_REK_V",
             "length": "2",

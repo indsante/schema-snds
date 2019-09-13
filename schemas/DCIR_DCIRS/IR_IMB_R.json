@@ -57,7 +57,7 @@
         },
         {
             "name": "IMB_ETM_NAT",
-            "description": "Type de PEC (ALD, Invalidité ou ATMP)",
+            "description": "Motif d'exonération du bénéficiaire",
             "type": "number",
             "nomenclature": "-",
             "length": "8",
@@ -90,7 +90,7 @@
         },
         {
             "name": "IMB_SDR_LOP",
-            "description": "Localisation, paragraphe, syndrome",
+            "description": "Localisation - paragraphe syndrome",
             "type": "string",
             "nomenclature": "-",
             "length": "1",
@@ -134,7 +134,7 @@
         },
         {
             "name": "UPD_DTE",
-            "description": "Date de mise à jour",
+            "description": "Date de la dernière sélection des bénéficiaires de l'EGB",
             "type": "date",
             "nomenclature": "-",
             "length": null,

@@ -1,0 +1,23 @@
+{
+    "fields": [
+        {
+            "name": "TOP_TIER_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "TOP_TIER_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "TOP_TIER_ACC",
+    "primaryKey": [
+        "TOP_TIER_COD"
+    ]
+}

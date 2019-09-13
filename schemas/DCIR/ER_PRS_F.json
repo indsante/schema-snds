@@ -530,9 +530,9 @@
         },
         {
             "name": "ACC_TIE_IND",
-            "description": "Indication de tiers sur feuille de soins en cas d'accident (0 = non, 1 = oui, 2 = sans objet)",
+            "description": "Top tiers responsable accident",
             "type": "number",
-            "nomenclature": "-",
+            "nomenclature": "TOP_TIER_ACC",
             "length": "1",
             "format": "default",
             "dateCreated": "2006",

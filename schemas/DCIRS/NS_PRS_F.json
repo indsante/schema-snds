@@ -4,7 +4,7 @@
             "name": "ACC_TIE_IND",
             "description": "Top tiers responsable accident",
             "type": "number",
-            "nomenclature": "-",
+            "nomenclature": "TOP_TIER_ACC",
             "length": "1",
             "format": "default",
             "dateCreated": "",

@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "DCT_MUT_CMP",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "MUT_CMP_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "string",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_PMC_V",
+    "title": "Type de part mutuelle complémentaire",
+    "primaryKey": [
+        "DCT_MUT_CMP"
+    ]
+}

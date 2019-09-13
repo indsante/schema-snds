@@ -1,0 +1,47 @@
+{
+    "fields": [
+        {
+            "name": "SIN_MLP_TAB",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "SIN_MLP_BTR",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "SIN_SYN_LOP",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "SIN_SYN_PAT",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "SIN_MLP_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_MLP_V",
+    "title": "numéro de MP tableau - numéro de MP  bis ter -syndrome localisation - syndrome code pathologie",
+    "primaryKey": [
+        "SIN_MLP_TAB",
+        "SIN_MLP_BTR",
+        "SIN_SYN_LOP",
+        "SIN_SYN_PAT"
+    ]
+}

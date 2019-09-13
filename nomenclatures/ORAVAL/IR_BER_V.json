@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "BEN_RNG_GEM",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "BEN_RNG_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_BER_V",
+    "title": "Rang Gémellaire Bénéficiaire",
+    "primaryKey": [
+        "BEN_RNG_GEM"
+    ]
+}

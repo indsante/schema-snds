@@ -1,0 +1,39 @@
+{
+    "fields": [
+        {
+            "name": "ETM_NAT",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "ETM_NAT_CB2",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "ETM_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TOP_ETM",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_ETM_V",
+    "title": "Nature d'exonération du Ticket Modérateur",
+    "primaryKey": [
+        "ETM_NAT"
+    ]
+}

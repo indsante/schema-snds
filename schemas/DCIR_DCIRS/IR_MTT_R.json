@@ -15,7 +15,7 @@
             "name": "BEN_RNG_GEM",
             "description": "rang de naissance du bénéficiaire",
             "type": "number",
-            "nomenclature": "-",
+            "nomenclature": "IR_BER_V",
             "length": "2",
             "format": "default",
             "dateCreated": "",

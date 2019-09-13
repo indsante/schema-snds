@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "TYT_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "TYT_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_TYT_V",
+    "title": "Type de Transmetteur",
+    "primaryKey": [
+        "TYT_COD"
+    ]
+}

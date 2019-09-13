@@ -1,0 +1,852 @@
+SIN_MLP_TAB;SIN_MLP_BTR;SIN_SYN_LOP;SIN_SYN_PAT;SIN_MLP_LIB;TEC_COL
+020;A;C;G622;Polynévrites;0
+020;A;C;L818;Mélanodermie FIN CODE 20/06/2004;0
+020;A;C;L81X;Mélanodermie;0
+020;A;C;L851;Dyskératoses palmo-plantaires;0
+020;A;D;C223;Angiosarcome du foie;0
+020;A;D;C44X;Epithélioma cutané primitif;0
+020;A;D;D04X;Dyskératose lenticulaire en disque (maladie de Bowen);0
+020;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+020;B;A;C34X;Cancer bronchique primitif;0
+020;T;A;C34X;Cancer bronchique primitif;0
+021;A;A;D594;Hémoglobinurie ou ictère avec hémolyse;0
+021;A;A;D599;Ictère avec hémolyse FIN CODE 20/06/2004;0
+021;A;A;N144;Néphrite azotémique FIN CODE 20/06/2004;0
+021;A;A;N14X;Néphrite azotémique;0
+021;A;A;R40X;Accidents aigus (coma);0
+021;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+022;A;A;F028;Troubles psychiques aigus avec confusion mentale. délire onirique FIN CODE 20/06/2004;0
+022;A;A;F06X;Troubles psychiques aigus ou chroniques avec états dépressifs et impulsions...;0
+022;A;A;G622;Polynévrites et névrites;0
+022;A;A;H46X;Névrite optique;0
+022;A;A;R11X;Syndrome aigu neuro-digestif;0
+022;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+023;A;A;H55X;Nystagmus;0
+024;A;A;A418;Brucellose aiguë avec septicémie (fièvre ondulante sudoro-algique                                                                                                                        ,tableau ...;0
+024;A;A;A419;Tableau pseudo-grippal  FIN CODE 01/01/2000;0
+024;A;A;A420;Tableau pseudo-typhoïdique  FIN CODE 01/01/2000;0
+024;A;A;D63X;Anémie. purpura. hémorragie. adénopathie;0
+024;A;A;D642;Anémie. purpura. hémorragie. adénopathie FIN CODE 20/06/2004;0
+024;A;A;G01X;Réaction neuro-méningée aiguë ou réaction méningée. méningite. arachnoïdite...;0
+024;A;A;G050;Méningo-encéphalite. myélite FIN CODE 20/06/2004;0
+024;A;A;G05X;Méningo-encéphalite. myélite;0
+024;A;A;G548;Névrite radiculaire;0
+024;A;A;I398;Endocardite FIN CODE 20/06/2004;0
+024;A;A;I39X;Endocardite;0
+024;A;A;I80X;Phlébite;0
+024;A;A;J208;Bronchite. pneumopathie;0
+024;A;A;J42X;Bronchite. pneumopathie;0
+024;A;A;J91X;Pleurésie sérofibrineuse. pleurésie purulente;0
+024;A;A;K716;Formes hépato-spléniques subaiguës FIN CODE 20/06/2004;0
+024;A;A;K71X;Formes hépato-spléniques subaiguës;0
+024;A;A;K770;Hépatite;0
+024;A;A;M01X;Monoarthrite aiguë fébrile. Polyarthrite  ou arthrite séreuse. arthrite sup...;0
+024;A;A;N160;Néphrite;0
+024;A;A;N41X;Prostatite;0
+024;A;A;N45X;Orchite. épididymite;0
+024;A;A;N709;Salpingite;0
+024;A;A;R21X;Manifestations cutanées d'allergie;0
+024;A;A;R53X;Asthénie profonde. asthénie profonde associée à un syndrome dépressif;0
+024;A;B;G01X;Réaction méningée. méningite. arachnoïdite FIN CODE 20/06/2004;0
+024;A;B;M01X;Arthrite séreuse. arthrite suppurée. ostéo-arthrite. osteïte. spondylodisci. FIN CODE 20/06/2004;0
+024;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+025;A;A;B441;Aspergillose intracavitaire confirmée par la sérologie;0
+025;A;A;C34X;Cancer bronchopulmonaire primitif;0
+025;A;A;I500;Insuffisance ventriculaire droite caractérisée;0
+025;A;A;J628;Silicose aiguë ou chronique;0
+025;A;A;J62X;Silicose. pneumoconiose du houilleur. schistose. talcose. kaolinose. graphi. FIN CODE 20/06/2004;0
+025;A;A;J65X;Tuberculose ou autre myobactériose;0
+025;A;A;J851;Suppuration broncho-pulmonaire subaiguë ou chronique;0
+025;A;A;J93X;Pneumothorax spontané;0
+025;A;A;J960;Insuffisance respiratoire aiguë nécessitant des soins intensifs en milieu s.. FIN CODE 20/06/2004;0
+025;A;A;J984;Nécrose cavitaire aseptique;0
+025;A;A;J991;Ce code devient 025ABM340 FIN CODE 20/06/2004;0
+025;A;A;M051;Lésions pleuro-pneumoconiotiques à type rhumatoïde (syndrome de Caplan Coli..;0
+025;A;A;M340;Sclérodermie systémique progressive;0
+025;A;B;J620;Kaolinose et talcose;0
+025;A;B;J633;Graphitose;0
+025;A;B;M340;Sclérodermie systémique progressive FIN CODE 20/06/2004;0
+025;A;C;B441;Aspergillose intracavitaire confirmée par la sérologie;0
+025;A;C;I500;Insuffisance ventriculaire droite caractérisée;0
+025;A;C;J628;Pneumoconiose due à l'inhalation de poussières de houille;0
+025;A;C;J65X;Tuberculose ou autre myobactériose;0
+025;A;C;J841;Fibrose interstitielle pulmonaire diffuse non régressive d'apparence primit. FIN CODE 20/06/2004;0
+025;A;C;J851;Suppuration broncho-pulmonaire subaiguë ou chronique;0
+025;A;C;J93X;Pneumothorax spontané;0
+025;A;C;J961;Insuffisance respiratoire chronique caractérisée et c½ur pulmonaire chroniq. FIN CODE 20/06/2004;0
+025;A;C;J984;Nécrose cavitaire aseptique;0
+025;A;C;M051;Lésions pleuro-pneumoconiotiques à type rhumatoïde (syndrome de Caplan Coli...;0
+025;A;D;I500;Insuffisance ventriculaire droite caractérisée;0
+025;A;D;J65X;Tuberculose ou autre myobactériose;0
+025;A;D;J841;Fibrose interstitielle pulmonaire diffuse non régressive d'apparence primit...;0
+025;A;D;J93X;Pneumothorax spontané;0
+025;A;D;J961;Insuffisance respiratoire chronique caractérisée;0
+025;A;D;M051;Lésions pleuro-pneumoconiotiques à type rhumatoïde (syndrome de Caplan Coli. FIN CODE 20/06/2004;0
+025;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+025;B;A;M340;Ce code devient 025ABM340 FIN CODE 20/06/2004;0
+026;A;A;F322;Dépression mélancolique FIN CODE 20/06/2004;0
+026;A;A;F32X;Dépression mélancolique;0
+026;A;A;F408;Anxiété pantophobique;0
+026;A;A;G252;Tremblements intentionnels;0
+026;A;A;G253;Myoclonies;0
+026;A;A;G409;Crises épileptiques;0
+026;A;A;H532;Diplopie;0
+026;A;A;H538;Amblyopie;0
+026;A;A;H540;Amaurose FIN CODE 20/06/2004;0
+026;A;A;H54X;Amaurose;0
+026;A;A;H82X;Vertiges et troubles labyrinthiques;0
+026;A;A;H832;Vertiges et troubles labyrinthiques FIN CODE 20/06/2004;0
+026;A;A;H932;Hyperacousie;0
+026;A;A;R270;Ataxies FIN CODE 20/06/2004;0
+026;A;A;R27X;Ataxies;0
+026;A;A;R40X;Coma;0
+026;A;A;R410;Accès confusionnels;0
+026;A;A;R47X;Aphasie et dysarthrie;0
+026;A;A;R568;Crises épileptiformes;0
+026;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+027;A;A;H538;Amblyopie;0
+027;A;A;H82X;Vertiges;0
+027;A;A;H832;Vertiges FIN CODE 20/06/2004;0
+027;A;A;R270;Ataxie FIN CODE 20/06/2004;0
+027;A;A;R27X;Ataxie;0
+027;A;A;R40X;Accidents aigus (coma. délire);0
+027;A;A;R413;Amnésie;0
+027;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+028;A;A;D638;Anémie FIN CODE 20/06/2004;0
+028;A;A;D63X;Anémie;0
+029;A;A;H678;Otite moyenne FIN CODE 20/06/2004;0
+029;A;A;H82X;Syndrome vertigineux;0
+029;A;A;H832;Syndrome vertigineux FIN CODE 20/06/2004;0
+029;A;A;H918;Hypoacousie;0
+029;A;A;H919;Hypoacousie FIN CODE 20/06/2004;0
+029;A;A;M903;Ostéonécrose;0
+029;A;A;T700;Otite moyenne;0
+029;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+030;A;A;0000;Non précisé;0
+030;A;A;I500;Asbestose compliquée d'insuffisance ventriculaire droite;0
+030;A;A;J61X;Asbestose avec fibrose pulmonaire;0
+030;A;A;J960;Asbestose compliquée d'insuffisance respiratoire aiguë;0
+030;A;B;0000;Non précisé;0
+030;A;B;I318;Plaques péricardiques;0
+030;A;B;J90X;Pleurésie exsudative FIN CODE 20/06/2004;0
+030;A;B;J91X;Pleurésie exsudative;0
+030;A;B;J920;Plaques pleurales;0
+030;A;B;J929;Epaississement de la plèvre viscérale FIN CODE 20/06/2004;0
+030;A;B;J948;Epaississement de la plèvre viscérale;0
+030;A;C;C34X;Dégénérescence maligne bronchopulmonaire compliquant des lésions bénignes;0
+030;A;D;C450;Mésothéliome malin primitif de la plèvre;0
+030;A;D;C451;Mésothéliome malin primitif du péritoine;0
+030;A;D;C452;Mésothéliome malin primitif du péricarde;0
+030;A;E;C384;Autres tumeurs pleurales primitives;0
+030;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+030;B;A;C34X;Cancer broncho-pulmonaire primitif;0
+031;A;A;L23X;Lésions eczématiformes;0
+032;A;A;H10X;Conjonctivites;0
+032;A;A;J680;Bronchopneumopathies aiguës;0
+032;A;A;J681;Oedème aigu du poumon;0
+032;A;A;J682;Manifestations irritatives des voies aériennes supérieures;0
+032;A;A;L24X;Dermites;0
+032;A;A;L25X;Dermites FIN CODE 20/06/2004;0
+032;A;A;T30X;Brûlures chimiques;0
+032;A;B;M851;Manifestations chroniques. syndrome ostéoligamentaire;0
+032;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+033;A;A;H10X;Conjonctivites;0
+033;A;A;L24X;Dermite aiguë irritative;0
+033;A;B;J632;Fibrose pulmonaire diffuse;0
+033;A;B;J680;Bronchopneumopathie;0
+033;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+034;A;A;R11X;Troubles digestifs;0
+034;A;B;J683;Troubles respiratoires;0
+034;A;C;R41X;Troubles nerveux;0
+034;A;D;R53X;Troubles généraux et vasculaires;0
+034;A;E;R79X;Syndrome biologique;0
+034;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+036;A;A;0000;Non précisé;0
+036;A;A;J969;Insuffisance respiratoire FIN CODE 20/06/2004;0
+036;A;A;L23X;Lésions eczématiformes;0
+036;A;A;L24X;Dermite irritative;0
+036;A;A;L303;Papulo-pustules multiples;0
+036;A;A;L988;Granulome cutané avec réaction gigantofolliculaire FIN CODE 20/06/2004;0
+036;A;B;L988;Granulome cutané avec réaction gigantofolliculaire;0
+036;A;C;J969;Insuffisance respiratoire liée à un granulome pulmonaire;0
+036;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+036;B;A;C44X;Epithélioma primitif de la peau;0
+037;A;A;L23X;Dermites eczématiformes;0
+037;B;A;J30X;Rhinite;0
+037;B;A;J450;Asthme;0
+037;B;Z;R69X;Association de plusieurs syndromes du tableau;0
+037;T;A;C31X;Cancer primitif de l'ethmoïde et des sinus de la face;0
+037;T;A;C34X;Cancer bronchique primitif;0
+037;T;Z;R69X;Association de plusieurs syndromes du tableau;0
+038;A;A;H102;Conjonctivite aiguë;0
+038;A;A;H10X;Conjonctivite aiguë FIN CODE 20/06/2004;0
+038;A;A;L23X;Lésions eczématiformes;0
+038;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+039;A;A;G212;Syndrome neurologique du type parkinsonien;0
+040;A;A;A182;Tuberculose ganglionnaire;0
+040;A;A;A184;Tuberculose cutanée ou sous cutanée;0
+040;A;A;A188;Autres localisations;0
+040;A;A;M011;Ostéoarthrite;0
+040;A;A;M680;Synovite;0
+040;A;B;0000;Non précisé;0
+040;A;B;A150;Tuberculose plumonaire  FIN CODE 01/01/2000;0
+040;A;B;A152;Tuberculose pulmonaire;0
+040;A;B;A156;Tuberculose pleurale;0
+040;A;B;A157;Primo-infection;0
+040;A;B;A188;Tuberculose extrathoracique;0
+040;A;B;A18X;Tuberculose extrathoracique FIN CODE 20/06/2004;0
+040;A;C;A310;Pneumopathies chroniques;0
+040;A;D;A311;Infection cutanée ulcéreuse;0
+040;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+041;A;A;J30X;Rhinite;0
+041;A;A;J450;Asthme;0
+041;A;A;L23X;Lésions eczématiformes;0
+041;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+042;A;A;H833;Déficit audiométrique bilatéral par lésion cochléaire irréversible;0
+043;A;A;0000;Non précisé;0
+043;A;A;J30X;Rhinite;0
+043;A;A;J450;Asthme;0
+043;A;A;L23X;Lésions eczématiformes;0
+043;A;A;L24X;Ulcérations cutanées FIN CODE 20/06/2004;0
+043;A;A;L984;Dermites irritatives;0
+043;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+043;B;A;C11X;Carcinome du nasopharynx  FIN CODE 15/01/2009;0
+044;A;A;J43X;Manifestation pathologique associée : emphysème;0
+044;A;A;J634;Sidérose;0
+044;A;B;I500;Complication cardiaque FIN CODE 24/03/2005;0
+044;A;B;I50X;Complication cardiaque FIN CODE 20/06/2004;0
+044;A;B;J43X;Manifestation pathologique associée : emphysème;0
+044;B;A;C34X;Cancer broncho-pulmonaire primitif;0
+044;B;A;J43X;Emphysème;0
+045;A;A;0000;Non précisé;0
+045;A;A;B150;Hépatite fulminante à virus A;0
+045;A;A;B159;Hépatite aiguë ou subaiguë à virus A;0
+045;A;A;B15X;Hépatite à virus A  FIN CODE 01/01/2000;0
+045;A;A;B16X;Hépatite à virus B  FIN CODE 01/01/2000;0
+045;A;A;B172;Hépatite aiguë ou subaiguë ou fulminans à virus E;0
+045;A;A;B17X;Hépatite à virus non A. non B  FIN CODE 01/01/2000;0
+045;A;A;B188;Formes à rechutes d'une hépatite à virus A;0
+045;A;A;K746;Cirrhose post-hépatitique  FIN CODE 01/01/2000;0
+045;A;B;B160;Hépatite fulminante due à la co-infection d'une hépatite B par le virus D;0
+045;A;B;B161;Hépatite aiguë due à la co-infection d'une hépatite B par le virus D;0
+045;A;B;B162;Hépatite fulminante à virus B;0
+045;A;B;B169;Hépatite aiguë à virus B avec ou sans manifestations ictériques;0
+045;A;B;B171;Hépatite aiguë à virus C avec ou sans manifestations cliniques;0
+045;A;B;B172;Hépatite aigüe ou subaigüe à virus E  FIN CODE 01/01/2000;0
+045;A;B;B178;Hépatite fulminante à virus E FIN CODE 20/06/2004;0
+045;A;B;B180;Hépatite chronique active due à la co-infection d'une hépatite B par le vir...;0
+045;A;B;B181;Hépatite chronique à virus B active ou non;0
+045;A;B;B182;Hépatite chronique à virus C active ou non;0
+045;A;B;C220;Carcinome hépato-cellulaire post hépatite à virus B;0
+045;A;B;D891;Manifestations extra-hépatiques dues à l'infection chronique par le virus C...;0
+045;A;B;E801;Manifestations extra-hépatiques dues à l'infection chronique par le virus C...;0
+045;A;B;K746;Cirrhose post hépatite à virus B;0
+045;A;B;M30X;Manifestations extra-hépatiques dues à l'infection chronique par le virus B;0
+045;A;B;R688;Manifestations extra-hépatiques dues à l'infection aiguë ou chronique par l...;0
+045;A;C;B160;Hépatite fulminante à virus B FIN CODE 20/06/2004;0
+045;A;C;B169;Hépatite aiguë à virus B avec ou sans manifestations ictériques FIN CODE 20/06/2004;0
+045;A;C;B181;Hépatite chronique à virus B active ou non FIN CODE 20/06/2004;0
+045;A;C;C220;Carcinome hépato-cellulaire post hépatite à virus C;0
+045;A;C;K746;Cirrhose post hépatite à virus C;0
+045;A;C;L99X;Manifestations extra-hépatiques dues à l'infection aiguë ou chronique par l. FIN CODE 20/06/2004;0
+045;A;C;M30X;Manifestations extra-hépatiques dues à l'infection chronique par le virus B FIN CODE 20/06/2004;0
+045;A;D;B160;Hépatite fulminante due à la co-infection d'une hépatite B par le virus D FIN CODE 20/06/2004;0
+045;A;D;B161;Hépatite aiguë due à la co-infection d'une hépatite B par le virus D FIN CODE 20/06/2004;0
+045;A;D;B180;Hépatite chronique active due à la co-infection d'une hépatite B par le vir.. FIN CODE 20/06/2004;0
+045;A;E;B171;Hépatite aiguë à virus C avec ou sans manifestations cliniques FIN CODE 20/06/2004;0
+045;A;E;B182;Hépatite chronique à virus C active ou non FIN CODE 20/06/2004;0
+045;A;E;C220;Carcinome hépato-cellulaire post hépatite à virus C FIN CODE 20/06/2004;0
+045;A;E;D891;Manifestations extra-hépatiques dues à l'infection chronique par le virus C.. FIN CODE 20/06/2004;0
+045;A;E;E801;Manifestations extra-hépatiques dues à l'infection chronique par le virus C.. FIN CODE 20/06/2004;0
+045;A;E;K746;Cirrhose post hépatite à virus B FIN CODE 20/06/2004;0
+045;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+046;A;A;B354;Mycoses de la peau glabre;0
+046;A;A;B355;Mycoses de la peau glabre FIN CODE 20/06/2004;0
+046;A;B;B350;Mycoses du cuir chevelu;0
+046;A;C;B353;Mycoses des orteils;0
+046;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+047;A;A;H10X;Conjonctivite;0
+047;A;A;J30X;Rhinite;0
+047;A;A;J450;Asthme;0
+047;A;A;J67X;Syndrome respiratoire;0
+047;A;A;J841;Fibrose pulmonaire;0
+047;A;A;L23X;Lésions eczématiformes;0
+047;A;B;C300;Carcinome des fosses nasales;0
+047;A;B;C31X;Cancer primitif de l'ethmoïde et des sinus de la face;0
+047;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+049;A;A;J450;Asthme ou dyspnée asthmatiforme FIN CODE 20/06/2004;0
+049;A;A;L23X;Dermites eczématiformes;0
+049;A;A;R69X;Association de plusieurs syndromes du tableau FIN CODE 20/06/2004;0
+049;B;A;J30X;Rhinite;0
+049;B;A;J450;Asthme;0
+049;B;Z;R69X;Association de plusieurs syndromes du tableau;0
+050;A;A;D594;Anémie de type hémolytique;0
+050;A;A;J30X;Rhinite;0
+050;A;A;J450;Asthme;0
+050;A;A;L23X;Lésions eczématiformes;0
+050;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+051;A;A;L23X;Lésions eczématiformes;0
+052;A;A;C49X;Angiosarcome;0
+052;A;A;I738;Troubles angioneurotiques des doigts et des orteils;0
+063;A;A;L23X;Lésions eczématiformes;0
+063;A;A;L24X;Ulcérations cutanées FIN CODE 20/06/2004;0
+063;A;A;L984;Ulcérations cutanées;0
+063;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+064;A;A;T58X;Céphalées. asthénie. vertiges. nausées;0
+065;A;A;L23X;Lésions eczématiformes;0
+066;A;A;0000;Non précisé;0
+066;A;A;J30X;Rhinite;0
+066;A;A;J450;Asthme;0
+066;A;A;J961;Insuffisance respiratoire chronique;0
+066;A;B;J67X;Syndrome respiratoire fébrile FIN CODE 20/06/2004;0
+066;A;B;J841;Fibrose pulmonaire FIN CODE 20/06/2004;0
+066;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+066;B;A;I500;Insuffisance ventriculaire droite;0
+066;B;A;J67X;Bronchoalvéolite aiguë ou subaiguë;0
+066;B;A;J841;Fibrose pulmonaire;0
+066;B;Z;R69X;Association de plusieurs syndromes du tableau;0
+067;A;A;J340;Ulcérations nasales;0
+067;A;A;J348;Perforations nasales;0
+068;A;A;A21X;Grandes formes cliniques ou aspect atypique;0
+069;A;0;0000;Non précisé;0
+069;A;A;I730;Troubles angioneurotiques de la main  FIN CODE 08/08/2008;0
+069;A;A;I73A;Troubles angioneurotiques de la main droite;0
+069;A;A;I73B;Troubles angioneurotiques de la main gauche;0
+069;A;A;M192;Arthrose du coude  FIN CODE 08/08/2008;0
+069;A;A;M19A;Arthrose du coude droit;0
+069;A;A;M19B;Arthrose du coude gauche;0
+069;A;A;M931;Ostéonécrose du semi-lunaire (maladie de Kienböck)  FIN CODE 08/08/2008;0
+069;A;A;M938;Ostéonécrose du scaphoïde carpien (maladie de Kölher)  FIN CODE 08/08/2008;0
+069;A;A;M93A;Ostéonécrose du semi-lunaire (maladie de Kienböck) D;0
+069;A;A;M93B;Ostéonécrose du semi-lunaire (maladie de Kienböck) G;0
+069;A;A;M93C;Ostéonécrose du scaphoïde carpien (maladie de Kölher) D;0
+069;A;A;M93D;Ostéonécrose du scaphoïde carpien (maladie de Kölher) G;0
+069;A;B;M192;Arthrose du coude  FIN CODE 08/08/2008;0
+069;A;B;M19A;Arthrose du coude droite;0
+069;A;B;M19B;Arthrose du coude gauche;0
+069;A;B;M19C;Arthrose du coude droite;0
+069;A;B;M19D;Arthrose du coude gauche;0
+069;A;B;M931;Ostéonécrose du semi-lunaire (maladie de Kienböck)  FIN CODE 08/08/2008;0
+069;A;B;M938;Ostéonécrose du scaphoïde carpien (maladie de Kölher)  FIN CODE 08/08/2008;0
+069;A;B;M93A;Ostéonécrose du semi-lunaire (maladie de Kienböck) D;0
+069;A;B;M93B;Ostéonécrose du semi-lunaire (maladie de Kienböck) G;0
+069;A;B;M93C;Ostéonécrose du scaphoïde carpien (maladie de Kölher) D;0
+069;A;B;M93D;Ostéonécrose du scaphoïde carpien (maladie de Kölher) G;0
+069;A;C;I730;Atteinte vasculaire cubito-palmaire  FIN CODE 08/08/2008;0
+052;A;A;K766;Syndrome d'hypertension portale;0
+052;A;A;M895;Ostéolyse des phalanges unguéales des mains;0
+052;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+053;A;A;A799;Rickettsioses;0
+053;A;A;C220;Affections dues aux rickettsies : Rickettsioses;0
+053;A;B;A78X;Manifestations cliniques aiguës;0
+053;A;B;I330;Endocardite FIN CODE 20/06/2004;0
+053;A;B;I39X;Endocardite;0
+053;A;B;K770;Hépatite granulomateuse;0
+053;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+054;A;A;A80X;Poliomyélite;0
+055;A;A;A06X;Manifestations aiguës de l'amibiase (hépatite amibienne);0
+056;A;A;A82X;Toutes manifestations de la rage;0
+056;A;A;Y59X;Affections imputables à la séro ou vaccinothérapie antirabique;0
+057;A;0;0000;Non précisé;0
+057;A;A;M750;Epaule enraidie  FIN CODE 08/08/2008;0
+057;A;A;M751;Epaule douloureuse  FIN CODE 08/08/2008;0
+057;A;A;M755;Epaule douloureuse FIN CODE 20/06/2004;0
+057;A;A;M75A;Epaule enraidie droite;0
+057;A;A;M75B;Epaule enraidie gauche;0
+057;A;A;M75C;Epaule douloureuse droite;0
+057;A;A;M75D;Epaule douloureuse gauche;0
+057;A;A;M96A;Coiffe des rotateurs : tendinopathie aiguê non rompue                                                                                                                                    ,non calcifiante (avec/sans enthésopathies) G;0
+057;A;A;M96B;Coiffe des rotateurs : tendinopathie aiguê non rompue                                                                                                                                    ,non calcifiante (avec/sans enthésopathies) D;0
+057;A;A;M96C;Coiffe des rotateurs : tendinopathie chronique non rompue                                                                                                                                ,non calcifiante avec IRM - D;0
+057;A;A;M96D;Coiffe des rotateurs : tendinopathie chronique non rompue                                                                                                                                ,non calcifiante avec IRM - G;0
+057;A;A;M96E;Coiffe des rotateurs : rupture partielle ou transfixiante objectivée par IRM droite;0
+057;A;A;M96F;Coiffe des rotateurs : rupture partielle ou transfixiante objectivée par IRM gauche;0
+057;A;B;0000;Non précisé;0
+057;A;B;G562;Syndrome de la gouttière épitrochléo-olécranienne (compression du nerf cubi.  FIN CODE 08/08/2008;0
+057;A;B;G56A;Coude : synd de la gouttière épitrochléo-olécranienne (compression du nerf cubital) D;0
+057;A;B;G56B;Coude : synd de la gouttière épitrochléo-olécranienne (compression du nerf cubital) G;0
+057;A;B;M703;Hygroma aigu du coude  FIN CODE 08/08/2008;0
+057;A;B;M708;Hygroma chronique du coude  FIN CODE 08/08/2008;0
+057;A;B;M70A;Coude : hygroma aigu droit;0
+057;A;B;M70B;Coude : hygroma aigu gauche;0
+057;A;B;M70C;Coude : hygroma chronique droit;0
+057;A;B;M70D;Coude : hygroma chronique gauche;0
+057;A;B;M770;Epitrochléite  FIN CODE 08/08/2008;0
+057;A;B;M771;Epicondylite  FIN CODE 08/08/2008;0
+057;A;B;M77A;Coude : épitrochléite droite;0
+057;A;B;M77B;Coude : épitrochléite gauche;0
+057;A;B;M77C;Coude : épicondylite droite;0
+057;A;B;M77D;Coude : épicondylite gauche;0
+057;A;C;G560;Syndrome du canal carpien  FIN CODE 08/08/2008;0
+057;A;C;G562;Syndrome de la loge de Guyon  FIN CODE 08/08/2008;0
+057;A;C;G56C;Poignet main doigts : syndrome du canal carpien droit;0
+057;A;C;G56D;Poignet main doigts : syndrome du canal carpien gauche;0
+057;A;C;G56E;Poignet main doigts : syndrome de la loge de Guyon droite;0
+057;A;C;G56F;Poignet main doigts : syndrome de la loge de Guyon gauche;0
+057;A;C;M659;Ténosynovite  FIN CODE 08/08/2008;0
+057;A;C;M65A;Poignet main doigts : ténosynovite droite;0
+057;A;C;M65B;Poignet main doigts : ténosynovite gauche;0
+057;A;C;M778;Tendinite  FIN CODE 08/08/2008;0
+057;A;C;M77E;Poignet main doigts : tendinite droite;0
+057;A;C;M77F;Poignet main doigts : tendinite gauche;0
+057;A;D;0000;Non précisé;0
+057;A;D;G573;Syndrome de compression du nerf sciatique poplité externe  FIN CODE 08/08/2008;0
+057;A;D;G57A;Genou : synd de compression du nerf sciatique poplité externe D;0
+057;A;D;G57B;Genou : synd de compression du nerf sciatique poplité externe G;0
+057;A;D;G57C;Affections périarticulaires provoquées par certains gestes et postures de travail : Hygroma chronique du genou;0
+057;A;D;G57D;Affections périarticulaires provoquées par certains gestes et postures de travail : Hygroma aigu du genou droit;0
+057;A;D;M705;Hygroma aigu du genou  FIN CODE 08/08/2008;0
+057;A;D;M708;Hygroma chronique du genou  FIN CODE 08/08/2008;0
+057;A;D;M70E;Genou : hygroma aigu droit;0
+057;A;D;M70F;Genou : hygroma aigu gauche;0
+057;A;D;M70G;Genou : hygroma chronique droit;0
+057;A;D;M70H;Genou : hygroma chronique gauche;0
+057;A;D;M765;Tendinite sous-quadricipitale ou rotulienne  FIN CODE 08/08/2008;0
+057;A;D;M768;Tendinite de la patte d'oie  FIN CODE 08/08/2008;0
+057;A;D;M76A;Genou : tendinite sous-quadricipitale ou rotulienne droite;0
+057;A;D;M76B;Genou : tendinite sous-quadricipitale ou rotulienne gauche;0
+057;A;D;M76C;Genou : tendinite de la patte d'oie droite;0
+057;A;D;M76D;Genou : tendinite de la patte d'oie gauche;0
+057;A;D;M76G;Affections périarticulaires provoquées par certains gestes et postures de travail : Association de plusieurs syndromes du tableau;0
+057;A;D;M76H;Affections professionnelles provoquées par le travail à haute température : Crampes musculaires avec sueurs profuses;0
+057;A;D;M76I;Affections professionnelles provoquées par le travail à haute température : Oligurie;0
+057;A;D;M76J;Affections professionnelles provoquées par le travail à haute température : Association de plusieurs syndromes du tableau;0
+057;A;D;M76K;Intoxication professionnelle à l'hexane : Polynévrites;0
+057;A;D;M76L;Maladies professionnelles provoquées par le cadmium et ses composés : Bronchopneumopathie aiguë;0
+057;A;D;M76M;Maladies professionnelles provoquées par le cadmium et ses composés : Ostéomalacie;0
+057;A;D;M76N;Maladies professionnelles provoquées par le cadmium et ses composés : Néphropathie avec protéinurie;0
+057;A;E;M766;Tendinite achilléenne  FIN CODE 08/08/2008;0
+057;A;E;M76E;Cheville pied : tendinite achilléenne droite;0
+057;A;E;M76F;Cheville pied : tendinite achilléenne gauche;0
+057;A;E;M76O;Maladies professionnelles provoquées par les isocyanates organiques : Blépharo-conjonctivite récidivante;0
+057;A;E;M76P;Maladies professionnelles provoquées par les isocyanates organiques : Rhinite;0
+057;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+058;A;A;R252;Crampes musculaires avec sueurs profuses;0
+058;A;A;R34X;Oligurie;0
+058;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+059;A;A;G622;Polynévrites;0
+061;A;A;J680;Bronchopneumopathie aiguë;0
+061;A;A;M838;Ostéomalacie FIN CODE 20/06/2004;0
+061;A;A;M83X;Ostéomalacie;0
+061;A;A;N143;Néphropathie avec protéinurie FIN CODE 20/06/2004;0
+061;A;A;N14X;Néphropathie avec protéinurie;0
+061;A;A;R11X;Troubles gastro-intestinaux aigus;0
+061;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+061;B;A;C34X;Cancer broncho-pulmonaire primitif;0
+062;A;A;0000;Non précisé;0
+062;A;A;H105;Blépharo-conjonctivite récidivante;0
+062;A;A;J30X;Rhinite;0
+062;A;A;J311;Rhino-pharyngite récidivante FIN CODE 20/06/2004;0
+062;A;A;J40X;Syndrome bronchique récidivant;0
+062;A;A;J450;Asthme;0
+062;A;A;J68X;Pneumopathie interstitielle d'hypersensibilité aiguë ou subaiguë;0
+062;A;A;L23X;Lésions eczématiformes;0
+062;A;B;J68X;Pneumopathie d'hypersensibilité chronique;0
+062;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+063;A;A;H102;Conjonctivite aiguë bilatérale;0
+063;A;A;J30X;Rhinite;0
+063;A;A;J450;Asthme;0
+069;A;C;I73C;Atteinte vasculaire cubito-palmaire droite;0
+069;A;C;I73D;Atteinte vasculaire cubito-palmaire gauche;0
+069;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+070;A;A;I50X;Ce code devient 070BAI500 FIN CODE 20/06/2004;0
+070;A;A;J18X;Ce code devient 070BAJ18X FIN CODE 20/06/2004;0
+070;A;A;J30X;Rhinite;0
+070;A;A;J450;Asthme ou dyspnée asthmatiforme;0
+070;A;A;J688;Ce code devient 070BAR05X FIN CODE 20/06/2004;0
+070;A;A;J841;Ce code devient 070BAJ841 FIN CODE 20/06/2004;0
+070;A;A;J961;Insuffisance respiratoire chronique obstructive secondaire à la maladie ast...;0
+070;A;A;L23X;Lésions eczématiformes;0
+070;A;A;R05X;Ce code devient 070BAR05X FIN CODE 20/06/2004;0
+070;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+070;B;A;I500;Insuffisance ventriculaire droite;0
+070;B;A;I50X;Insuffisance ventriculaire droite;0
+070;B;A;J18X;Infection pulmonaire;0
+070;B;A;J20X;Syndrome respiratoire irritatif à type de toux et de dyspnée;0
+070;B;A;J638;Broncho-alvéolite aiguë ou subaiguë avec signes généraux FIN CODE 20/06/2004;0
+070;B;A;J683;Broncho-alvéolite aiguë ou subaiguë avec signes généraux;0
+070;B;A;J841;Fibrose pulmonaire diffuse;0
+070;B;A;R05X;Syndrome respiratoire irritatif à type de toux et de dyspnée FIN CODE 20/06/2004;0
+070;B;Z;R69X;Association de plusieurs syndromes du tableau;0
+070;T;A;C34X;Cancer broncho-pulmonaire primitif;0
+071;A;A;H268;Cataracte;0
+071;B;A;H110;Ptérygion;0
+072;A;A;I20X;Douleurs précordiales à type angine de poitrine. ischémie myocardique aiguë;0
+072;A;A;I21X;Infarctus du myocarde;0
+073;A;A;J68X;Stibiose;0
+073;A;A;L23X;Lésions eczématiformes;0
+073;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+074;A;A;H10X;Conjonctivite;0
+074;A;A;J30X;Rhinite;0
+074;A;A;J450;Asthme;0
+074;A;A;L23X;Dermite eczématiforme;0
+074;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+075;A;A;H10X;Conjonctivite;0
+075;A;A;J681;Oedème pulmonaire;0
+075;A;A;J682;Affections des voies aériennes;0
+075;A;A;T26X;Brûlures oculaires;0
+075;A;A;T30X;Brûlures et irritations cutanées;0
+075;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+076;A;A;A412;Septicémie;0
+076;A;A;A490;Atteinte viscérale;0
+076;A;A;L030;Panaris;0
+076;A;B;A418;Septicémie;0
+076;A;B;A498;Localisations viscérales. cutanéo-muqueuses et oculaires;0
+076;A;C;A418;Septicémie;0
+076;A;D;A403;Septicémie;0
+076;A;D;G001;Méningite purulente;0
+076;A;D;J13X;Pneumonie. broncho-pneumonie;0
+076;A;E;A46X;Erysipèle;0
+076;A;E;H66X;Otite compliquée FIN CODE 20/06/2004;0
+076;A;E;H670;Otite compliquée;0
+076;A;E;I091;Endocardite;0
+076;A;E;J154;Broncho-pneumonie;0
+076;A;E;N00X;Glomérulonéphrite aiguë;0
+076;A;F;A390;Méningite FIN CODE 20/06/2004;0
+076;A;F;A398;Conjonctivite;0
+076;A;F;G01X;Méningite;0
+076;A;G;A01X;Fièvres typhoïde et paratyphoïde A et B;0
+076;A;H;A039;Dysenterie bacillaire;0
+076;A;I;A00X;Choléra;0
+076;A;J;A99X;Fièvres hémorragiques;0
+076;A;K;A544;Complications articulaires;0
+076;A;K;A548;Gonococcie cutanée;0
+076;A;L;A512;Tréponématose primaire cutanée;0
+076;A;M;B01X;Varicelle et ses complications;0
+076;A;M;B02X;Zona et ses complications;0
+076;A;N;B86X;Gale;0
+077;A;0;0000;Non précisé;0
+077;A;A;L030;Atteinte des doigts;0
+077;A;B;L030;Atteinte des orteils;0
+077;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+078;A;A;J340;Lésions nasales : ulcérations;0
+078;A;A;J348;Lésions nasales :perforations;0
+078;A;A;J34X;Lésions nasales : ulcérations FIN CODE 20/06/2004;0
+078;A;A;L24X;Ulcérations cutanées FIN CODE 20/06/2004;0
+078;A;A;L984;Ulcérations cutanées;0
+078;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+079;A;A;M232;Lésions chroniques du ménisque  FIN CODE 08/08/2008;0
+079;A;A;M23A;Lésions chroniques du ménisque genou droit;0
+079;A;A;M23B;Lésions chroniques du ménisque genou gauche;0
+079;A;A;M23C;Lésions provoquées par les travaux effectués dans un milieu où la pression est inférieure à la pression atmosphérique et soumise à variations : Lésions de l'oreille interne;0
+079;A;A;M23D;Lésions provoquées par les travaux effectués dans un milieu où la pression est inférieure à la pression atmosphérique et soumise à variations : Otites moyennes subaiguës ou chroniques;0
+079;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+080;A;A;H161;Kératite nummulaire sous-épithéliale FIN CODE 20/06/2004;0
+080;A;A;H16X;Kératite nummulaire sous-épithéliale;0
+080;A;B;H162;Kératite superficielle ulcéreuse avec conjonctivite associée FIN CODE 20/06/2004;0
+080;A;B;H16X;Kératite superficielle ulcéreuse avec conjonctivite associée;0
+080;A;C;B303;Conjonctivite hémorragique;0
+080;A;D;H114;Conjonctivite oedémateuse avec chémosis;0
+080;A;E;H131;Conjonctivite folliculaire avec ou sans participation cornéenne;0
+080;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+081;A;A;C34X;Cancer bronchique primitif;0
+082;A;A;H10X;Conjonctivite;0
+082;A;A;J30X;Rhinite;0
+082;A;A;J44X;Manifestations respiratoires chroniques;0
+082;A;A;J450;Asthme;0
+082;A;A;L23X;Lésions eczématiformes;0
+082;A;A;R06X;Manifestations respiratoires chroniques FIN CODE 20/06/2004;0
+082;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+083;A;A;H650;Otites moyennes subaiguës FIN CODE 20/06/2004;0
+083;A;A;H652;Otites moyennes chroniques FIN CODE 20/06/2004;0
+083;A;A;H839;Lésions de l'oreille interne;0
+083;A;A;T700;Otites moyennes subaiguës  ou chroniques;0
+083;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+084;A;A;0000;Non précisé;0
+084;A;A;E40X;Kwashiorkor ( libellé récupéré de la table AT_OMS_V à valider par MOA );0
+084;A;A;H108;Conjonctivites irritatives;0
+084;A;A;L23X;Lésions eczématiformes;0
+084;A;A;L24X;Dermites irritatives;0
+084;A;A;R26X;Syndrome ébrieux FIN CODE 20/06/2004;0
+084;A;A;R40X;Syndrome narcotique pouvant aller jusqu'au coma;0
+084;A;A;R41X;Syndrome ébrieux;0
+084;A;B;G92X;Encéphalopathie toxique;0
+084;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+085;A;A;C71X;Glioblastome;0
+086;A;A;A280;Manifestations cliniques aiguës de pasteurellose;0
+086;A;B;A280;Manifestations loco-régionales tardives;0
+087;A;A;0000;Non précisé;0
+087;A;A;A048;Formes typhoïdes avec troubles digestifs et états stuporeux;0
+087;A;A;G028;Formes neuroméningées;0
+087;A;A;J178;Pneumopathie aiguë;0
+087;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+088;A;A;A260;Forme cutanée simple et chronique;0
+088;A;A;A267;Formes septicémiques;0
+088;A;A;M01X;Forme cutanée associée avec mono ou polyarthrite;0
+088;A;B;A260;Forme cutanée associée FIN CODE 20/06/2004;0
+088;A;C;A260;Formes cutanées chroniques FIN CODE 20/06/2004;0
+088;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+089;A;A;K71X;Hépatite récidivante;0
+090;A;A;J66X;Syndrome respiratoire obstructif aigu;0
+090;A;B;J44X;Bronchopneumopathie chronique obstructive;0
+091;A;A;J44X;Bronchopneumopathie chronique obstructive;0
+092;A;A;A408;Septicémie isolée;0
+092;A;A;G002;Méningite purulente avec bactériémie;0
+092;A;A;G518;Paralysie faciale;0
+092;A;A;H440;Endopthalmie. uvéite;0
+092;A;A;H839;Atteinte cochléo-vestibulaire aiguë;0
+092;A;A;I330;Endocardite FIN CODE 20/06/2004;0
+092;A;A;I39X;Endocardite;0
+092;A;A;I400;Myocardite;0
+092;A;A;J178;Pneumonie;0
+092;A;A;M002;Arthrites inflammatoires ou septiques;0
+093;A;A;H104;Conjonctivite chronique;0
+093;A;A;H105;Blépharoconjonctivite chronique;0
+097;A;A;M51B;Sciatique par hernie discale L5-S1;0
+097;A;B;M511;Radiculalgie crurale par hernie discale;0
+097;A;B;M51A;Radiculalgie crurale par hernie discale L2-L3;0
+097;A;B;M51B;Radiculalgie crurale par hernie discale L3-L4;0
+097;A;B;M51C;Radiculalgie crurale par hernie discale L4-L5;0
+097;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+098;A;A;C921;Affections chroniques du rachis lombaire provoquées par la manutentions manuelles de charges lourdes : Radiculalgie hernie discale L4L21;0
+098;A;A;M511;Sciatique par hernie discale;0
+098;A;A;M51A;Sciatique par hernie discale L4-L5;0
+098;A;A;M51B;Sciatique par hernie discale L5-S1;0
+098;A;B;M511;Radiculalgie crurale par hernie discale;0
+098;A;B;M51A;Radiculalgie crurale par hernie discale L2-L3;0
+098;A;B;M51B;Radiculalgie crurale par hernie discale L3-L4;0
+098;A;B;M51C;Radiculalgie crurale par hernie discale L4-L5;0
+098;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+777;I;X;IIII;VALEUR INCONNUE;1
+888;N;W;NNNN;Non précisé;0
+052;B;A;C220;Carcinome hépatocellulaire histologiquement confirmé et associé à au moins deux lésions du foie non tumoral;0
+099;A;A;C921;Leucémie myéloïde chronique;0
+094;A;A;J44X;Bronchopneumopathie chronique obstructive;0
+095;A;A;H102;Conjonctivite aiguë bilatérale;0
+095;A;A;J30X;Rhinite;0
+095;A;A;J450;Asthme;0
+095;A;A;L23X;Lésions eczématiformes;0
+095;A;A;L506;Urticaire de contact;0
+095;A;A;T782;Réactions allergiques systémiques telles que : choc anaphylactique;0
+095;A;A;T783;Réactions allergiques systémiques telles que : urticaire géante. oedème de ...;0
+095;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+096;A;A;A985;Infections aiguës à Hantavirus;0
+097;A;A;M511;Sciatique par hernie discale;0
+097;A;A;M51A;Sciatique par hernie discale L4-L5;0
+000;Y;Y;XXXX;Sans objet;2
+001;A;A;D642;Anémie;0
+001;A;A;G92X;Encéphalopathie aiguë FIN CODE 11/10/2008;0
+001;A;A;R100;Syndrome douloureux abdominal FIN CODE 20/06/2004;0
+001;A;A;R10X;Syndrome douloureux abdominal FIN CODE 11/10/2008;0
+001;A;B;G122;Syndrome de sclérose latérale amyotrophique FIN CODE 11/10/2008;0
+001;A;B;G138;Neuropathies périphériques et syndrome de sclérose latérale amyotrophique FIN CODE 20/06/2004;0
+001;A;B;G622;Neuropathies périphériques FIN CODE 11/10/2008;0
+001;A;B;N18X;Insuffisance rénale chronique FIN CODE 11/10/2008;0
+001;A;B;R10X;Syndrome douloureux abdominal;0
+001;A;B;R41X;Troubles neurologiques organiques FIN CODE 11/10/2008;0
+001;A;C;N143;Néphropathie tubulaire proximale subaiguë;0
+001;A;C;N144;Néphropathie glomérulaire et tubulo-interstitielle tardive;0
+001;A;C;R79X;Syndrome biologique FIN CODE 11/10/2008;0
+001;A;D;F069;Encéphalopathie chronique;0
+001;A;D;G622;Neuropathie périphérique;0
+001;A;D;G92X;Encéphalopathie aiguë;0
+001;A;E;R79X;Syndrome biologique;0
+001;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+002;A;A;G252;Tremblement intentionnel;0
+002;A;A;G92X;Encéphalopathie aiguë;0
+002;A;A;K12X;Stomatite;0
+002;A;A;L23X;Lésions eczématiformes;0
+002;A;A;N144;Néphrite azotémique FIN CODE 20/06/2004;0
+002;A;A;N14X;Néphrite azotémique;0
+002;A;A;R104;Coliques et diarrhées FIN CODE 20/06/2004;0
+002;A;A;R10X;Coliques et diarrhées;0
+002;A;A;R270;Ataxie cérébelleuse FIN CODE 20/06/2004;0
+002;A;A;R27X;Ataxie cérébelleuse;0
+002;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+003;A;A;G622;Névrite ou polynévrite;0
+003;A;A;K716;Ictère par hépatite FIN CODE 20/06/2004;0
+003;A;A;K71X;Ictère par hépatite;0
+003;A;A;K767;Hépatonéphrite;0
+003;A;A;L24X;Dermites;0
+003;A;A;L25X;Dermites FIN CODE 20/06/2004;0
+003;A;A;R40X;Accidents nerveux aigus;0
+003;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+004;A;A;C910;leucémie  aiguë lymphoblastique à l'exclusion des leucèmies aiguës avec des FIN CODE 15/01/2009;0
+004;A;A;C920;Leucémies aiguës myeloblastique à l'exclusion des leucèmies aiguës avec des FIN CODE 15/01/2009;0
+004;A;A;C959;Leucémies FIN CODE 20/06/2004;0
+004;A;A;C95X;Leucémies;0
+004;A;A;D467;Hypercytoses d'origine myélodysplasique FIN CODE 20/06/2004;0
+004;A;A;D46X;Syndromes myélodysplasiques acquis et non médicamenteux;0
+004;A;A;D471;Syndromes myéloproliféractifs;0
+004;A;A;D612;Hypoplasies et aplasies médullaires isolées ou associées (    ) acquises    FIN CODE 15/01/2009;0
+004;A;A;D642;Anémie;0
+004;A;A;D695;Thrombopénie;0
+004;A;A;D70X;Leuconeutropénie;0
+004;A;Z;R69X;Association de plusieurs syndromes du tableau FIN CODE 20/06/2004;0
+004;B;A;R11X;Troubles gastro-intestinaux apyrétiques et vomissements;0
+005;A;A;M838;Ostéomalacie FIN CODE 20/06/2004;0
+005;A;A;M83X;Ostéomalacie;0
+005;A;A;M878;Nécrose du maxillaire inférieur FIN CODE 20/06/2004;0
+005;A;A;M87X;Nécrose du maxillaire inférieur;0
+005;A;B;L24X;Dermite irritative aiguë;0
+005;A;C;L24X;Dermite irritative chronique;0
+005;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+006;A;A;C34X;Cancer broncho-pulmonaire primitif par inhalation;0
+006;A;A;C41X;Sarcome osseux;0
+006;A;A;C959;Leucémies FIN CODE 20/06/2004;0
+006;A;A;C95X;Leucémies;0
+006;A;A;D642;Anémie consécutive à une irradiation aiguë ou chronique;0
+006;A;A;D695;Thrombopénie consécutive à une irradiation aiguë ou chronique;0
+006;A;A;D698;Syndrome hémorragique consécutif à une irradiation aiguë ou chronique;0
+006;A;A;D70X;Leucopénie consécutive à une irradiation aiguë ou chronique;0
+006;A;A;H010;Blépharite;0
+006;A;A;H10X;Conjonctivite;0
+006;A;A;H168;Kératite FIN CODE 20/06/2004;0
+006;A;A;H16X;Kératite;0
+006;A;A;H268;Cataracte;0
+006;A;A;L580;Radiodermites aiguës;0
+006;A;A;L581;Radiodermites chroniques;0
+006;A;A;M873;Radionécrose osseuse FIN CODE 20/06/2004;0
+006;A;A;M87X;Radionécrose osseuse;0
+006;A;B;D642;Anémie consécutive à une irradiation chronique FIN CODE 20/06/2004;0
+006;A;B;D695;Thrombopénie consécutive à une irradiation chronique FIN CODE 20/06/2004;0
+006;A;B;D698;Syndrome hémorragique consécutif à une irradiation chronique FIN CODE 20/06/2004;0
+006;A;B;D70X;Leucopénie consécutive à une irradiation chronique FIN CODE 20/06/2004;0
+006;A;B;L580;Radio-épithélite aiguë des muqueuses;0
+006;A;B;L581;Radiolésions chroniques des muqueuses;0
+006;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+007;A;A;A35X;Tétanos;0
+008;A;A;0000;Non précisé;0
+008;A;A;H010;Blépharite;0
+008;A;A;H10X;Conjonctivite;0
+008;A;A;L080;Pyodermites;0
+008;A;A;L23X;Dermites eczématiformes;0
+008;A;A;L24X;Ulcérations. dermites primitives FIN CODE 20/06/2004;0
+008;A;A;L984;Ulcérations;0
+008;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+009;A;A;E801;Porphyrie cutanée tardive;0
+009;A;A;E802;Porphyrie cutanée tardive  FIN CODE 01/01/2000;0
+009;A;A;L708;Acné FIN CODE 20/06/2004;0
+009;A;A;L70X;Acné;0
+009;A;A;R40X;Accidents nerveux aigus;0
+009;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+010;A;A;J340;Ulcérations nasales;0
+010;A;A;J34X;Ulcérations nasales FIN CODE 20/06/2004;0
+010;A;A;L23X;Lésions eczématiformes;0
+010;A;A;L24X;Ulcérations FIN CODE 20/06/2004;0
+010;A;A;L984;Ulcérations;0
+010;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+010;B;A;J30X;Rhinite;0
+010;B;A;J310;Rhinite FIN CODE 20/06/2004;0
+010;B;A;J450;Asthme;0
+010;B;Z;R69X;Association de plusieurs syndromes du tableau;0
+010;T;A;C34X;Cancer broncho-pulmonaire primitif;0
+010;T;B;C300;Cancer des cavités nasales;0
+010;T;Z;R69X;Association de plusieurs syndromes du tableau;0
+011;A;A;K712;Ictère par hépatite FIN CODE 20/06/2004;0
+011;A;A;K71X;Ictère par hépatite;0
+011;A;A;K767;Hépatonéphrite;0
+011;A;A;L24X;Dermite;0
+011;A;A;L25X;Dermites FIN CODE 20/06/2004;0
+011;A;A;N144;Néphrite FIN CODE 20/06/2004;0
+011;A;A;N14X;Néphrite;0
+011;A;A;R40X;Accidents nerveux aigus;0
+011;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+012;A;A;G50X;Névrite trigéminale  FIN CODE 30/09/2007;0
+012;A;A;H46X;Névrite optique  FIN CODE 30/09/2007;0
+012;A;A;I49X;Troubles cardiaques aigus à type d'hyperexcitabilité ventriculaire ou supra...;0
+012;A;A;R260;Syndrome ébrieux FIN CODE 20/06/2004;0
+012;A;A;R40X;Syndrome narcotique  FIN CODE 30/09/2007;0
+012;A;A;R41X;Syndrome ébrieux  FIN CODE 30/09/2007;0
+012;A;B;G98X;Troubles neurologiques chroniques FIN CODE 20/06/2004;0
+012;A;B;K71X;Hépatites aiguës cytolytiques;0
+012;A;B;R41X;Troubles neurologiques chroniques  FIN CODE 30/09/2007;0
+012;A;C;H102;Conjonctivite aiguë  FIN CODE 30/09/2007;0
+012;A;C;L24X;Dermo-épidermite aiguë  FIN CODE 30/09/2007;0
+012;A;C;N170;Néphropathies tubulaires;0
+012;A;D;G50X;Neuropathies trigéminales;0
+012;A;D;G622;Polyneuropathies;0
+012;A;D;H104;Conjonctivite chronique  FIN CODE 30/09/2007;0
+012;A;D;L24X;Dermo-épidermite chronique  FIN CODE 30/09/2007;0
+012;A;E;H46X;Neuropathies optiques retrobulbaires bilatérales;0
+012;A;E;K716;Hépatite cytolytique FIN CODE 20/06/2004;0
+012;A;E;K71X;Hépatite cytolytique  FIN CODE 30/09/2007;0
+012;A;E;N17X;Insuffisance rénale aiguë  FIN CODE 30/09/2007;0
+012;A;F;D594;Anémies hémolytiques;0
+012;A;F;I49X;Troubles du rythme ventriculaire cardiaque  FIN CODE 30/09/2007;0
+012;A;F;J681;Oedème pulmonaire  FIN CODE 30/09/2007;0
+012;A;G;D612;Aplasies ou hypoplasies médullaires;0
+012;A;G;K591;Syndrome cholériforme apyrétique  FIN CODE 30/09/2007;0
+012;A;H;T58X;Manifestations d'intoxication oxycarbonée;0
+012;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+013;A;A;D642;Anémie consécutive à l'intoxication subaiguë ou chronique;0
+013;A;A;L23X;Dermites chroniques irritatives ou eczématiformes;0
+013;A;A;L25X;Dermites chroniques ou récidivantes FIN CODE 20/06/2004;0
+013;A;A;R17X;Subictère consécutif à l'intoxication subaiguë ou chronique;0
+013;A;A;R230;Cyanose consécutive à l'intoxication subaiguë ou chronique;0
+013;A;A;R402;Accidents aigus (coma) FIN CODE 20/06/2004;0
+013;A;A;R40X;Accidents aigus (coma);0
+013;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+014;A;A;R57X;Intoxication suraiguë;0
+014;A;B;R53X;Intoxication aiguë ou subaiguë;0
+014;A;C;R104;Manifestations digestives FIN CODE 20/06/2004;0
+014;A;C;R10X;Manifestations digestives;0
+014;A;D;J39X;Irritation des voies aériennes supérieures et conjonctivites;0
+014;A;E;L24X;Dermites irritatives;0
+014;A;F;D70X;Neutropénie;0
+014;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+015;A;A;0000;Non précisé;0
+015;A;A;D748;Hémoglobinurie avec hémolyse et méthémoglobinémie FIN CODE 20/06/2004;0
+015;A;A;D74X;Hémoglobinurie avec hémolyse et méthémoglobinémie;0
+015;A;A;L24X;Dermites irritatives;0
+015;A;A;R17X;Subictère;0
+015;A;A;R230;Cyanose;0
+015;A;A;R402;Troubles neurologiques à type de somnolence. narcose. coma FIN CODE 20/06/2004;0
+015;A;A;R40X;Troubles neurologiques à type de somnolence. narcose. coma;0
+015;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+015;B;A;J30X;Rhinite;0
+015;B;A;J450;Asthme;0
+015;B;A;L23X;Lésions eczématiformes;0
+015;B;A;L24X;Dermite irritative;0
+015;B;Z;R69X;Association de plusieurs syndromes du tableau;0
+015;T;A;C67X;Lésions malignes primitives de l'épithélium vésical dues aux substances de ...;0
+015;T;A;C67Y;Tumeur primitive de l'épithélium urinaire (vessie                                                                                                                                        ,voies excrétrices supérieures) confirmée par examen histopathologique ou cytopathologique;0
+015;T;A;D303;Tumeurs bénignes primitives de l'épithélium vésical dues aux substances de ...;0
+015;T;B;C67X;Lésions malignes primitives de l'épithélium vésical dues aux substances de ...;0
+015;T;B;D303;Tumeurs bénignes primitives de l'épithélium vésical dues aux substances de ...;0
+015;T;Z;R69X;Association de plusieurs syndromes du tableau FIN CODE 20/06/2004;0
+016;A;A;H108;Conjonctivites photo-toxiques FIN CODE 20/06/2004;0
+016;A;A;H10X;Conjonctivites photo-toxiques;0
+016;A;A;L23X;Dermites eczématiformes;0
+016;A;A;L568;Dermites photo-toxiques;0
+016;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+016;B;A;C44X;Epithélioma primitif de la peau;0
+016;B;B;C34X;Cancer broncho-pulmonaire primitif;0
+016;B;C;C67X;Tumeur primitive de l'épithélium urinaire (vessie                                                                                                                                        ,voies exrétrices supérieures) confirmée par;0
+016;B;C;D303;Tumeurs bénignes de la vessie;0
+016;B;Z;R69X;Association de plusieurs syndromes du tableau;0
+018;A;A;A220;Pustule maligne;0
+018;A;A;A221;Charbon pulmonaire;0
+018;A;A;A222;Charbon gastro-intestinal;0
+018;A;A;A228;Oedème malin;0
+018;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+019;A;A;A270;Leptospirose provoquée par Leptospira interrogans FIN CODE 20/06/2004;0
+019;A;A;A27X;Leptospirose provoquée par Leptospira interrogans;0
+019;A;B;A692;Manifestations primaires : erythème migrant de Lipschutz;0
+019;A;B;G01X;Méningite lymphocytaire;0
+019;A;B;G050;Encéphalomyélite progressive FIN CODE 20/06/2004;0
+019;A;B;G05X;Encéphalomyélite progressive;0
+019;A;B;I301;Péricardite;0
+019;A;B;I459;Troubles de la conduction;0
+019;A;B;L908;Dermatite chronique atrophiante FIN CODE 20/06/2004;0
+019;A;B;L90X;Dermatite chronique atrophiante;0
+019;A;B;M012;Oligoarthrites régressives ou arthrite chronique destructrice FIN CODE 20/06/2004;0
+019;A;B;M018;Arthrite chronique destructrice FIN CODE 20/06/2004;0
+019;A;B;M01X;Oligoarthrites régressives ou arthrite chronique destructrice;0
+019;A;Z;R69X;Association de plusieurs syndromes du tableau;0
+020;A;A;D68X;Troubles de l'hémostase;0
+020;A;A;G92X;Encéphalopathie;0
+020;A;A;J960;Dyspnée aiguë;0
+020;A;A;K71X;Vomissement. diarrhée. syndrome de cytolyse hépatique;0
+020;A;A;K720;Vomissement. diarrhée. syndrome de cytolyse hépatique FIN CODE 20/06/2004;0
+020;A;A;R060;Dyspnée aiguë FIN CODE 20/06/2004;0
+020;A;A;R57X;Insuffisance circulatoire. troubles du rythme. arrêt circulatoire;0
+020;A;B;H010;Blépharite;0
+020;A;B;H10X;Conjonctivite;0
+020;A;B;H168;Kératite FIN CODE 20/06/2004;0
+020;A;B;H16X;Kératite;0
+020;A;B;J310;Rhinite;0
+020;A;B;J340;Ulcération de la cloison nasale;0
+020;A;B;J348;Perforation de la cloison nasale;0
+020;A;B;K12X;Stomatite;0
+020;A;B;L24X;Dermite de contact orthoergique. plaies arsenicales;0

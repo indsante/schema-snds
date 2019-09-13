@@ -114,7 +114,7 @@
             "name": "BEN_DCD_DTE",
             "description": "Date de décès du bénéficiaire",
             "type": "date",
-            "nomenclature": "-",
+            "nomenclature": "IR_DTE_V",
             "length": null,
             "format": "default",
             "dateCreated": "2013",

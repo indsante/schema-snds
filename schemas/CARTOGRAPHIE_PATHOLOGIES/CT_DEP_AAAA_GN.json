@@ -15,7 +15,7 @@
             "name": "ben_sex_cod",
             "description": "Code sexe du bénéficiaire",
             "type": "number",
-            "nomenclature": "-",
+            "nomenclature": "IR_SEX_V",
             "length": "1",
             "format": "default",
             "dateCreated": "",

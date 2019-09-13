@@ -1,0 +1,23 @@
+{
+    "fields": [
+        {
+            "name": "ATE_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "ATE_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "XC_ATE_V",
+    "primaryKey": [
+        "ATE_COD"
+    ]
+}

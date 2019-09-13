@@ -312,7 +312,7 @@
             "name": "CAM_ACT_COD",
             "description": "Code activite",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "XC_ATE_V",
             "length": "1",
             "format": "default",
             "dateCreated": "",

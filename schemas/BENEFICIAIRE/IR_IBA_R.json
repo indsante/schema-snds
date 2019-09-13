@@ -159,7 +159,7 @@
             "description": "Code de l'organisme de liquidation",
             "type": "string",
             "nomenclature": "-",
-            "length": "9",
+            "length": "3",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",

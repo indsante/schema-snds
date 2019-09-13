@@ -30,7 +30,7 @@
             "description": "rang de naissance du bénéficiaire",
             "type": "number",
             "nomenclature": "-",
-            "length": "8",
+            "length": "2",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",

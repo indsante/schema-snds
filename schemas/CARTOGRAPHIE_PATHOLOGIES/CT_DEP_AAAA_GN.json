@@ -135,7 +135,7 @@
         {
             "name": "ben_acs_top",
             "description": "Top contrat ACS Tiers payant Intégral",
-            "type": "number",
+            "type": "string",
             "nomenclature": "-",
             "length": "1",
             "format": "default",

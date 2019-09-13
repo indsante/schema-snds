@@ -334,7 +334,7 @@
             "name": "CAM_ASS_COD",
             "description": "Code association",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_ASS_V",
             "length": "1",
             "format": "default",
             "dateCreated": "",

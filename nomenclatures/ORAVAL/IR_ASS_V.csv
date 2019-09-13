@@ -1,0 +1,7 @@
+ASS_ASS_COD;ASS_COD_LIB;TEC_COL
+1;Acte de tarif le plus elevé, geste complémentaire, supplement, toujours factures a taux plein;0
+2;Acte associé facture à 50 % de sa valeur;0
+3;Acte associé facture à 75 % de sa valeur;0
+4;Acte spécifique facture à 100 % de sa valeur;0
+5;Acte facture a 100 % de sa valeur - cas particulier actes à des moments non continus de même journée;0
+9;VALEUR INCONNUE;1

@@ -24,9 +24,9 @@
         },
         {
             "name": "CAM_ASS_COD",
-            "description": "Code association non prévue (1=acte de tarif le plus élevé, geste complémentaire, supplément, toujours facturés à taux plein, 2=acte associé facturé à 50 % de sa valeur, 3=acte associé facturé à 75 % de sa valeur, 4=acte spécifique facturé à 100 % de sa valeur, 5=acte facturé à 100 % de sa valeur - cas particulier actes à des moments non continus de même journée)",
+            "description": "Code association",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_ASS_V",
             "length": "1",
             "format": "default",
             "dateCreated": "2006",

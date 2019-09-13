@@ -123,9 +123,9 @@
         },
         {
             "name": "CAM_TRT_PHA",
-            "description": "Phase de traitement (0 = phase par défaut, 1 = phase 1, 2 = phase 2, 3 = phase 3)",
+            "description": "Phase de traitement",
             "type": "number",
-            "nomenclature": "-",
+            "nomenclature": "XC_PHA_V",
             "length": "1",
             "format": "default",
             "dateCreated": "2006",

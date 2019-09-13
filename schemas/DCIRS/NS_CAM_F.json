@@ -378,7 +378,7 @@
             "name": "CAM_TRT_PHA",
             "description": "Phase de traitement",
             "type": "number",
-            "nomenclature": "-",
+            "nomenclature": "XC_PHA_V",
             "length": "1",
             "format": "default",
             "dateCreated": "",

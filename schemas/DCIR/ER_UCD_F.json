@@ -134,9 +134,9 @@
         },
         {
             "name": "UCD_TOP_UCD",
-            "description": "Top UCD (0=pharmacie rétrocédée 1=pharmacie en sus du GHS)",
+            "description": "Top UCD",
             "type": "number",
-            "nomenclature": "-",
+            "nomenclature": "IR_TCU_V",
             "length": "1",
             "format": "default",
             "dateCreated": "2007",

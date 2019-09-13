@@ -400,7 +400,7 @@
             "name": "UCD_TOP_UCD",
             "description": "Top UCD",
             "type": "number",
-            "nomenclature": "-",
+            "nomenclature": "IR_TCU_V",
             "length": "1",
             "format": "default",
             "dateCreated": "",

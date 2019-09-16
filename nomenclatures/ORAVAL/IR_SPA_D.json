@@ -1,0 +1,24 @@
+{
+    "fields": [
+        {
+            "name": "PFS_SPA_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "PFS_SPA_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_SPA_D",
+    "title": "regroupement de spécialités médicales et nature d'activité",
+    "primaryKey": [
+        "PFS_SPA_COD"
+    ]
+}

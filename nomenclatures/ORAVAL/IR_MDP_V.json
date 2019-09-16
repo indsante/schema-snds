@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "PHA_MOD_PRN",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "PHA_MOD_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_MDP_V",
+    "title": "Mode de prescription",
+    "primaryKey": [
+        "PHA_MOD_PRN"
+    ]
+}

@@ -2,7 +2,7 @@
     "fields": [
         {
             "name": "BEN_NIR_PSA",
-            "description": "Pseudo NIR du bénéficiaire anonymisé",
+            "description": "Identifiant anonyme du patient dans le SNIIRAM",
             "type": "string",
             "nomenclature": "-",
             "length": "17",
@@ -13,10 +13,10 @@
         },
         {
             "name": "BEN_RNG_GEM",
-            "description": "Code rang gémellaire du bénéficiaire",
+            "description": "rang de naissance du bénéficiaire",
             "type": "number",
-            "nomenclature": "-",
-            "length": "1",
+            "nomenclature": "IR_BER_V",
+            "length": "2",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
@@ -24,7 +24,7 @@
         },
         {
             "name": "BEN_NIR_ANO",
-            "description": "NIR anonymisé du bénéficiaire",
+            "description": "NIR pseudonymisé du bénéficiaire",
             "type": "string",
             "nomenclature": "-",
             "length": "17",
@@ -35,7 +35,7 @@
         },
         {
             "name": "BEN_IDT_ANO",
-            "description": "Identifiant synthétique pseudonymisé du bénéficiaire",
+            "description": "Identifiant bénéficiaire anonymisé",
             "type": "string",
             "nomenclature": "-",
             "length": "18",
@@ -79,7 +79,7 @@
         }
     ],
     "name": "IR_ACS_R",
-    "title": "Affiliations à l’Aide à l’acquisition d’une Complémentaire Santé (ACS) ",
+    "title": "Table historique des affiliations à l'aide à la complémentaire santé",
     "description": "",
     "produit": "DCIR_DCIRS",
     "missingValues": [

@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "BEN_EHP_TOP",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "BEN_EHP_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_HAD_V",
+    "title": "HAD en médico-social",
+    "primaryKey": [
+        "BEN_EHP_TOP"
+    ]
+}

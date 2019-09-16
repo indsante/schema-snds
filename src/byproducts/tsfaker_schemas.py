@@ -13,7 +13,7 @@ from typing import Dict
 
 from tableschema import Schema
 
-from src.constants import NO_NOMENCLATURE, SCHEMAS_DIR, NOMENCLATURES, TSFAKER_DIR
+from src.constants import NO_NOMENCLATURE, SCHEMAS_DIR, NOMENCLATURES_DIR, TSFAKER_DIR
 from src.constants import STRING, NUMBER, INTEGER
 from src.utils import get_all_schema_path, get_all_nomenclatures_schema
 
@@ -26,7 +26,7 @@ def generate_fake_data():
 def run_tsfaker():
     TSFAKER_CMD = "tsfaker {schemas_dir} --resources {nomenclatures} -o {fake_dir} -n 10 --overwrite  --limit-fk 10" \
         .format(schemas_dir=TSFAKER_DIR,
-                nomenclatures=NOMENCLATURES,
+                nomenclatures=NOMENCLATURES_DIR,
                 fake_dir=TSFAKER_DIR)
     logging.info("Use tsfaker to generate fake data.")
     logging.info("command: '{}'".format(TSFAKER_CMD))

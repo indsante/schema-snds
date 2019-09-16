@@ -2,7 +2,7 @@
     "fields": [
         {
             "name": "DDP_COD",
-            "description": "Discipline médico-tarifaire",
+            "description": "Code de la discipline de Prestations (ou discipline médico tarifaire)",
             "type": "number",
             "nomenclature": "IR_DDP_V",
             "length": "3",
@@ -13,7 +13,7 @@
         },
         {
             "name": "ETB_EXE_FIN",
-            "description": "N° FINESS géographique établissement",
+            "description": "N° FINESS de l'établissement exécutant",
             "type": "string",
             "nomenclature": "-",
             "length": "8",
@@ -35,7 +35,7 @@
         },
         {
             "name": "ETE_ETA_TRF",
-            "description": "Numéro de l’établissement de transfert",
+            "description": "Numéro d'établissement de transfert",
             "type": "string",
             "nomenclature": "-",
             "length": "15",
@@ -46,7 +46,7 @@
         },
         {
             "name": "ETE_GHS_NUM",
-            "description": "N° Groupe Homogène Séjour (GHS)",
+            "description": "Numéro du GHS",
             "type": "number",
             "nomenclature": "IR_GHS_V",
             "length": "4",
@@ -57,7 +57,7 @@
         },
         {
             "name": "ETE_IND_TAA",
-            "description": "Indicateur T2A (0=hors T2A, 1=T2A public, 2=T2A privé)",
+            "description": "Indicateur TAA",
             "type": "number",
             "nomenclature": "IR_TAA_V",
             "length": "1",
@@ -68,10 +68,10 @@
         },
         {
             "name": "ETE_MCO_COE",
-            "description": "Coefficient (non signé) MCO",
+            "description": "Coefficient (Non Signé) MCO",
             "type": "number",
             "nomenclature": "-",
-            "length": "5",
+            "length": "7,4",
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
@@ -79,7 +79,7 @@
         },
         {
             "name": "ETE_MCO_DDP",
-            "description": "Code discipline MCO",
+            "description": "Code discipline MCO établissement exécutant",
             "type": "string",
             "nomenclature": "IR_MCO_V",
             "length": "1",
@@ -101,10 +101,10 @@
         },
         {
             "name": "ETE_STJ_COD",
-            "description": "Statut juridique de l'établissement exécutant",
+            "description": "Statut Juridique de l'établissement juridique",
             "type": "number",
             "nomenclature": "IR_SJE_V",
-            "length": "2",
+            "length": "3",
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
@@ -112,7 +112,7 @@
         },
         {
             "name": "ETE_TYP_COD",
-            "description": "Type d'établissement exécutant",
+            "description": "Code du type de l'établissement exécutant",
             "type": "number",
             "nomenclature": "IR_TYE_V",
             "length": "2",
@@ -123,7 +123,7 @@
         },
         {
             "name": "MDT_COD",
-            "description": "Mode de traitement",
+            "description": "Code du mode de traitement",
             "type": "number",
             "nomenclature": "IR_MDT_V",
             "length": "2",
@@ -134,7 +134,7 @@
         },
         {
             "name": "MFT_COD",
-            "description": "Mode de fixation des tarifs",
+            "description": "Code du mode de fixation des tarifs",
             "type": "number",
             "nomenclature": "IR_MFT_V",
             "length": "2",
@@ -145,10 +145,10 @@
         },
         {
             "name": "ORG_CLE_NEW",
-            "description": "Organisme de liquidation (après fusion des caisses)",
+            "description": "Code de l'organisme de liquidation",
             "type": "string",
             "nomenclature": "IR_ORG_V",
-            "length": "9",
+            "length": "3",
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
@@ -178,7 +178,7 @@
         },
         {
             "name": "FLX_DIS_DTD",
-            "description": "Date de mise à disposition des données dans SI     2",
+            "description": "Date de mise à disposition des données",
             "type": "date",
             "nomenclature": "IR_DTE_V",
             "length": "8",
@@ -189,10 +189,10 @@
         },
         {
             "name": "FLX_EMT_NUM",
-            "description": "N° émetteur du flux                                                  3",
+            "description": "numéro d'émetteur du flux",
             "type": "number",
-            "nomenclature": "IR_NEM_V",
-            "length": "8",
+            "nomenclature": "IR_NEM_T",
+            "length": "4",
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
@@ -200,10 +200,10 @@
         },
         {
             "name": "FLX_EMT_ORD",
-            "description": "N° séquence du flux                                               4",
+            "description": "numéro de séquence du flux",
             "type": "number",
             "nomenclature": "-",
-            "length": "8",
+            "length": "4",
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
@@ -211,10 +211,10 @@
         },
         {
             "name": "FLX_EMT_TYP",
-            "description": "Type d'émetteur                                                      5",
+            "description": "Type d'émetteur",
             "type": "number",
-            "nomenclature": "-",
-            "length": "8",
+            "nomenclature": "IR_TYT_V",
+            "length": "2",
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
@@ -222,7 +222,7 @@
         },
         {
             "name": "FLX_TRT_DTD",
-            "description": "Date de traitement des données dans SI                   6",
+            "description": "Date d'entrée des données dans le système d'information",
             "type": "date",
             "nomenclature": "IR_DTE_V",
             "length": "8",
@@ -233,7 +233,7 @@
         },
         {
             "name": "ORG_CLE_NUM",
-            "description": "Ancien concept de l'organisme de liquidation (avant fusion, jusqu’au jour J de la fusion)          7",
+            "description": "organisme de liquidation des prestations (avant fusion des caisses)",
             "type": "string",
             "nomenclature": "IR_ORG_V",
             "length": "9",
@@ -244,10 +244,10 @@
         },
         {
             "name": "PRS_ORD_NUM",
-            "description": "N° ordre prestation dans décompte                 8",
+            "description": "Numéro d'ordre de la prestation dans le décompte",
             "type": "number",
             "nomenclature": "-",
-            "length": "8",
+            "length": "5",
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
@@ -255,7 +255,7 @@
         },
         {
             "name": "REM_TYP_AFF",
-            "description": "Type de remboursement affiné                                 9",
+            "description": "type de remboursement affiné",
             "type": "number",
             "nomenclature": "-",
             "length": "8",
@@ -266,7 +266,7 @@
         }
     ],
     "name": "ER_ETE_F",
-    "title": "Informations liées à l'exécution dans un établissement",
+    "title": "Table des données des établissements",
     "description": "",
     "produit": "DCIR",
     "missingValues": [

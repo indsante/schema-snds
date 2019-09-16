@@ -35,7 +35,7 @@
         },
         {
             "name": "EXO_TM_CTL",
-            "description": "Code retour contrôle « code justification d’exonération du ticket modérateur » ",
+            "description": "Code retour contrôle « code justification d’exonération du ticket modérateur »",
             "type": "string",
             "nomenclature": "-",
             "length": null,
@@ -244,7 +244,7 @@
         },
         {
             "name": "FJ_COD_PEC",
-            "description": "Code de prise en charge du forfait journalier ",
+            "description": "Code de prise en charge du forfait journalier",
             "type": "string",
             "nomenclature": "-",
             "length": null,
@@ -332,7 +332,7 @@
         },
         {
             "name": "FAC_MNT_FJ",
-            "description": "Montant à facturer au titre du forfait journalier ",
+            "description": "Montant à facturer au titre du forfait journalier",
             "type": "number",
             "nomenclature": "-",
             "length": null,
@@ -475,7 +475,7 @@
         },
         {
             "name": "GES_COD",
-            "description": "code gestion ",
+            "description": "code gestion",
             "type": "string",
             "nomenclature": "-",
             "length": null,

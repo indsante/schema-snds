@@ -1,0 +1,35 @@
+{
+    "fields": [
+        {
+            "name": "TYT_COD",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "EMT_NUM_RES",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "EMT_LIB_RES",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_NEM_T",
+    "title": "Numéros d'émetteurs restitution",
+    "primaryKey": [
+        "TYT_COD",
+        "EMT_NUM_RES"
+    ]
+}

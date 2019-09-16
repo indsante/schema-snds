@@ -10,7 +10,7 @@ from typing import Union, List
 
 import pandas as pd
 
-from src.constants import DICO_SNDS_DIR, NO_NOMENCLATURE
+from src.constants import DICO_SNDS_DIR, NO_NOMENCLATURE, DATE_CREATED, DATE_DELETED, DATE_MISSING, NOMENCLATURE
 from src.utils import get_all_schema
 
 EDGES_CSV = "snds_links.csv"
@@ -36,10 +36,6 @@ PRODUIT_TO_GROUP = {
 
 pd.options.display.max_columns = 100
 
-DATE_CREATED = 'dateCreated'
-DATE_DELETED = 'dateDeleted'
-DATE_MISSING = 'dateMissing'
-
 DATE_CREATION = 'creation'
 DATE_SUPRESSION = 'suppression'
 DATES_MANQUANTES = 'dates_manquantes'
@@ -62,7 +58,7 @@ def table_schema_to_snds_variables():
             descriptor = field.descriptor
             length = descriptor.get('length', '')
             length = ' ({})'.format(length) if length else ''
-            nomenclature = str(descriptor.get('nomenclature', ''))
+            nomenclature = str(descriptor.get(NOMENCLATURE, ''))
             nomenclature = nomenclature if (nomenclature.strip() != 'nan') else NO_NOMENCLATURE
 
             variables_list.append({
@@ -71,7 +67,7 @@ def table_schema_to_snds_variables():
                 DICO_VARIABLE: descriptor['name'],
                 'format': descriptor['type'] + length,
                 'description': descriptor['description'],
-                'nomenclature': nomenclature,
+                NOMENCLATURE: nomenclature,
                 DATE_CREATION: str(descriptor.get(DATE_CREATED, '')),
                 DATE_SUPRESSION: str(descriptor.get(DATE_DELETED, '')),
                 DATES_MANQUANTES: ', '.join(descriptor.get(DATE_MISSING, ''))
@@ -79,7 +75,7 @@ def table_schema_to_snds_variables():
     df = pd.DataFrame(variables_list,
                       columns=[
                           # dico_produit,
-                          'table', DICO_VARIABLE, 'format', 'description', 'nomenclature', DATE_CREATION,
+                          'table', DICO_VARIABLE, 'format', 'description', NOMENCLATURE, DATE_CREATION,
                           DATE_SUPRESSION, DATES_MANQUANTES])
     df = df.sort_values([
         # dico_produit,

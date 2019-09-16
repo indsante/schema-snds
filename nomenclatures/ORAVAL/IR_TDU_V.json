@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "PHA_DEC_TOP",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "PHA_DEC_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_TDU_V",
+    "title": "Top déconditionnement",
+    "primaryKey": [
+        "PHA_DEC_TOP"
+    ]
+}

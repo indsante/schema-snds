@@ -24,7 +24,7 @@
         },
         {
             "name": "BEN_IDT_ANO",
-            "description": "Identifiant synthétique SNDS",
+            "description": "Identifiant bénéficiaire anonymisé",
             "type": "string",
             "nomenclature": "-",
             "length": "18",
@@ -35,7 +35,7 @@
         },
         {
             "name": "BEN_IDT_TOP",
-            "description": "TOP Identifiant synthétique SNDS",
+            "description": "Top identifiant bénéficiaire Anonymisé",
             "type": "number",
             "nomenclature": "-",
             "length": "1",
@@ -46,7 +46,7 @@
         },
         {
             "name": "BEN_NIR_ANO",
-            "description": "NIR pseudonymisé du bénéficiaires",
+            "description": "NIR pseudonymisé du bénéficiaire",
             "type": "string",
             "nomenclature": "-",
             "length": "17",
@@ -57,7 +57,7 @@
         },
         {
             "name": "FLX_PER_ANN",
-            "description": "Année du décès",
+            "description": "Année de décès",
             "type": "string",
             "nomenclature": "-",
             "length": "4",
@@ -68,7 +68,7 @@
         },
         {
             "name": "CER_LIG_NUM",
-            "description": "Numéro de ligne du certificat de décès",
+            "description": "N° de ligne du certificat de décès",
             "type": "number",
             "nomenclature": "-",
             "length": "1",
@@ -112,9 +112,9 @@
         },
         {
             "name": "BEN_DCD_DTE",
-            "description": "Date du décès",
+            "description": "Date de décès du bénéficiaire",
             "type": "date",
-            "nomenclature": "-",
+            "nomenclature": "IR_DTE_V",
             "length": null,
             "format": "default",
             "dateCreated": "2013",
@@ -123,7 +123,7 @@
         },
         {
             "name": "BEN_DCD_AME",
-            "description": "Année et mois du décès",
+            "description": "Année et mois de décès du bénéficiaire",
             "type": "string",
             "nomenclature": "-",
             "length": "6",
@@ -134,7 +134,7 @@
         }
     ],
     "name": "KI_ECD_R",
-    "title": "Causes de décès",
+    "title": "Table de lensemble des causes de décès",
     "description": "",
     "produit": "Causes de décès",
     "missingValues": [

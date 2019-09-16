@@ -1,0 +1,39 @@
+{
+    "fields": [
+        {
+            "name": "SLM_NUM",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "SLM_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "SLM_RGT",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "SLM_RGT2",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_SLM_V",
+    "title": "Section Locale Mutualiste (SLM)",
+    "primaryKey": [
+        "SLM_NUM"
+    ]
+}

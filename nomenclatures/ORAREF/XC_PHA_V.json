@@ -1,0 +1,23 @@
+{
+    "fields": [
+        {
+            "name": "PHA_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "PHA_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "XC_PHA_V",
+    "primaryKey": [
+        "PHA_COD"
+    ]
+}

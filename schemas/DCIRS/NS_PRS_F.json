@@ -324,7 +324,7 @@
             "description": "Clé technique de jointure",
             "type": "number",
             "nomenclature": "-",
-            "length": "38",
+            "length": "18",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",

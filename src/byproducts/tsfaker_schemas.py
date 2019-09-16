@@ -13,7 +13,7 @@ from typing import Dict
 
 from tableschema import Schema
 
-from src.constants import NO_NOMENCLATURE, SCHEMAS_DIR, NOMENCLATURES_DIR, TSFAKER_DIR
+from src.constants import NO_NOMENCLATURE, SCHEMAS_DIR, ROOTED_NOMENCLATURES_DIR, TSFAKER_DIR
 from src.constants import STRING, NUMBER, INTEGER
 from src.utils import get_all_schema_path, get_all_nomenclatures_schema
 
@@ -24,14 +24,20 @@ def generate_fake_data():
 
 
 def run_tsfaker():
-    TSFAKER_CMD = "tsfaker {schemas_dir} --resources {nomenclatures} -o {fake_dir} -n 10 --overwrite  --limit-fk 10" \
+    tsfaker_cmd = "tsfaker {schemas_dir} " \
+                  "--resources {nomenclatures} " \
+                  "--output {fake_dir} " \
+                  "--nrows 10 " \
+                  "--overwrite  " \
+                  "--limit-fk 10 " \
+                  "--logging-level WARNING" \
         .format(schemas_dir=TSFAKER_DIR,
-                nomenclatures=NOMENCLATURES_DIR,
+                nomenclatures=ROOTED_NOMENCLATURES_DIR,
                 fake_dir=TSFAKER_DIR)
     logging.info("Use tsfaker to generate fake data.")
-    logging.info("command: '{}'".format(TSFAKER_CMD))
+    logging.info("command: '{}'".format(tsfaker_cmd))
     os.makedirs(TSFAKER_DIR, exist_ok=True)
-    subprocess.run(TSFAKER_CMD.split(), capture_output=True)
+    subprocess.run(tsfaker_cmd.split(), capture_output=False)
 
 
 def generate_tsfaker_schemas():

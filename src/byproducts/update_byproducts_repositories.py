@@ -194,7 +194,7 @@ def create_merge_request(project_id: int, source_branch: str, repository_name: s
             'private_token': GITLAB_TOKEN
         }
     )
-    check_response_code(r, 201)
+    check_response_code(r)
     merge_request_iid = r.json()['iid']
     logging.info("Merge request '{}/{}/merge_requests/{}' was created.".format(
         HDH_GITLAB_URL, repository_name, merge_request_iid))
@@ -209,7 +209,7 @@ def merge_when_pipeline_succeeds(project_id: int, merge_request_iid: int) -> Non
             'private_token': GITLAB_TOKEN
         }
     )
-    check_response_code(r, 200)
+    check_response_code(r)
 
     r = requests.put(
         GITLAB_COM_API_V4 + "/projects/{}/merge_requests/{}/merge".format(project_id, merge_request_iid),
@@ -218,7 +218,7 @@ def merge_when_pipeline_succeeds(project_id: int, merge_request_iid: int) -> Non
             'private_token': GITLAB_TOKEN
         }
     )
-    check_response_code(r, 200)
+    check_response_code(r)
 
 
 def exec_terminal(command: str) -> str:
@@ -227,12 +227,13 @@ def exec_terminal(command: str) -> str:
     return subprocess.check_output(bash_command_list).decode()
 
 
-def check_response_code(response: requests.Response, expected_status_code: int) -> None:
+def check_response_code(response: requests.Response) -> None:
     response_log_msg = '{} {}\n{}'.format(response.status_code, response.reason, response.text)
     response_log_msg = mask_gitlab_token(response_log_msg)
-    if response.status_code != expected_status_code:
+    if response.status_code.startswith("20"):
         logging.error(response_log_msg)
-        raise Exception("wrong status_code")
+        raise Exception(
+            "wrong status_code, {} instead of expected {}".format(response.status_code, expected_status_code))
     else:
         logging.debug(response_log_msg)
 

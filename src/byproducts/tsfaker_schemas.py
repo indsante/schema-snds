@@ -37,7 +37,7 @@ def run_tsfaker():
     logging.info("Use tsfaker to generate fake data.")
     logging.info("command: '{}'".format(tsfaker_cmd))
     os.makedirs(TSFAKER_DIR, exist_ok=True)
-    subprocess.run(tsfaker_cmd.split(), capture_output=False)
+    subprocess.run(tsfaker_cmd.split())
 
 
 def generate_tsfaker_schemas():

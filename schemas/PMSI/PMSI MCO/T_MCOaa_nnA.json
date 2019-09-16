@@ -104,7 +104,7 @@
             "description": "Nombre de réalisations de l'acte n° 1 pendant le séjour",
             "type": "number",
             "nomenclature": "-",
-            "length": null,
+            "length": "5",
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "2017",

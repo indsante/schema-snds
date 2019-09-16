@@ -885,7 +885,7 @@
             "description": "Nb suppléments de réanimation pédiatrique",
             "type": "number",
             "nomenclature": "-",
-            "length": null,
+            "length": "5",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",

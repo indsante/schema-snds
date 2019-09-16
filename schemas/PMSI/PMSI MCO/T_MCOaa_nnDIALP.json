@@ -49,7 +49,7 @@
             "description": "Nombre de suppléments DIP",
             "type": "number",
             "nomenclature": "-",
-            "length": null,
+            "length": "5",
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "2017",

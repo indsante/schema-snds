@@ -104,7 +104,7 @@
             "description": "Quantité acte",
             "type": "number",
             "nomenclature": "-",
-            "length": null,
+            "length": "5",
             "format": "default",
             "dateCreated": "2012",
             "dateDeleted": "2017",

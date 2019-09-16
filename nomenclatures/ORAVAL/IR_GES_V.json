@@ -1,34 +1,40 @@
 {
-    "fields": [
-        {
-            "name": "GES_GRG_COD",
-            "type": "integer",
-            "format": "default"
-        },
-        {
-            "name": "GES_CPT_COD",
-            "type": "string",
-            "format": "default"
-        },
-        {
-            "name": "GES_CPT_LIB",
-            "type": "string",
-            "format": "default"
-        },
-        {
-            "name": "GES_CPT_CAS",
-            "type": "integer",
-            "format": "default"
-        },
-        {
-            "name": "TEC_COL",
-            "type": "integer",
-            "format": "default"
-        }
-    ],
-    "missingValues": [
-        ""
-    ],
-    "name": "IR_GES_V",
-    "title": "Gestion Comptable"
+  "fields": [
+    {
+      "name": "GES_GRG_COD",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "GES_CPT_COD",
+      "type": "string",
+      "format": "default",
+      "role": "code"
+    },
+    {
+      "name": "GES_CPT_LIB",
+      "type": "string",
+      "format": "default",
+      "role": "label"
+    },
+    {
+      "name": "GES_CPT_CAS",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "TEC_COL",
+      "type": "integer",
+      "format": "default"
+    }
+  ],
+  "missingValues": [
+    ""
+  ],
+  "name": "IR_GES_V",
+  "title": "Gestion Comptable",
+  "primaryKey": [
+    "GES_GRG_COD",
+    "GES_CPT_COD"
+  ]
 }

@@ -96,19 +96,22 @@ def build_nomenclature_to_foreign_keys_reference() -> Dict[str, dict]:
     for schema in get_all_nomenclatures_schema():
         name = schema.descriptor.get("name")
         codes = schema.primary_key
+        if len(codes) == 0:
+            raise ValueError("Nomenclature {} should have a primary Key".format(name))
+
         if len(codes) >= 1:
             codes = list()
             for field in schema.fields:
                 if field.descriptor.get("role") == "code":
                     codes.append(field.name)
-            assert len(codes) == 1
+            if len(codes) != 1:
+                raise ValueError("Nomenclature {} should have one and one variable with role 'code'".format(name))
 
-        if codes:
-            reference = {
-                "resource": name,
-                "fields": codes
-            }
-            nomenclature_to_fk_reference[name] = reference
+        reference = {
+            "resource": name,
+            "fields": codes
+        }
+        nomenclature_to_fk_reference[name] = reference
     return nomenclature_to_fk_reference
 
 

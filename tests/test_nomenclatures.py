@@ -73,6 +73,6 @@ def test_nomenclature_primary_keys_is_unique(nomenclature_path, schema_path):
     Validate that nomenclature's schema is valid.
     """
     schema = Schema(schema_path)
-    if schema.primary_key:
-        df = pd.read_csv(nomenclature_path, sep=';', usecols=schema.primary_key)
-        assert 0 == df.duplicated().sum()
+    assert schema.primary_key, "Schema of nomenclature {} should contain a primaryKey".format(schema.name)
+    df = pd.read_csv(nomenclature_path, sep=';', usecols=schema.primary_key)
+    assert 0 == df.duplicated().sum()

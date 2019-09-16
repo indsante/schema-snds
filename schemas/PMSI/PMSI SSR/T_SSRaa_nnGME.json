@@ -38,7 +38,7 @@
             "description": "Nombre de jours de présence valorisables",
             "type": "number",
             "nomenclature": "-",
-            "length": null,
+            "length": "5",
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2017",

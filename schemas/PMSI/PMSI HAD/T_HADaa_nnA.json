@@ -93,7 +93,7 @@
             "description": "Nombre de réalisations",
             "type": "number",
             "nomenclature": "-",
-            "length": null,
+            "length": "5",
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "2017",

@@ -38,7 +38,7 @@
             "description": "Nombre de suppléments (Nb actes menant dans le GHS)",
             "type": "number",
             "nomenclature": "-",
-            "length": null,
+            "length": "5",
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "2017",

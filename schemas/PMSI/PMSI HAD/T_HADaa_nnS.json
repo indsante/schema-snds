@@ -60,7 +60,7 @@
             "description": "Nombre de journées dans le séjour = durée sur séjours terminés (date de sortie-date d'entrée)",
             "type": "number",
             "nomenclature": "-",
-            "length": null,
+            "length": "5",
             "format": "default",
             "dateCreated": "2015",
             "dateDeleted": "2017",

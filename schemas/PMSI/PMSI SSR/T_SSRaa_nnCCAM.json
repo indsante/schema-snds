@@ -115,7 +115,7 @@
             "description": "Nombre de réalisation",
             "type": "number",
             "nomenclature": "-",
-            "length": null,
+            "length": "5",
             "format": "default",
             "dateCreated": "2009",
             "dateDeleted": "2017",

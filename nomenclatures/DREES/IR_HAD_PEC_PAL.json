@@ -11,6 +11,24 @@
       "type": "string",
       "format": "default",
       "role": "label"
+    },
+    {
+      "name": "MPP",
+      "type": "string",
+      "format": "default",
+      "role": "label"
+    },
+    {
+      "name": "MPA",
+      "type": "string",
+      "format": "default",
+      "role": "label"
+    },
+    {
+      "name": "MPD",
+      "type": "string",
+      "format": "default",
+      "role": "label"
     }
   ],
   "missingValues": [

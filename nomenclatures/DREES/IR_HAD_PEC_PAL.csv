@@ -1,28 +1,28 @@
 PEC_PAL_COD;PEC_PAL_LIB;MPP;MPA;MPD
-00;Pas de mode de prise en charge associé [Pas de protocole associé;0;1;0
+00;Pas de mode de prise en charge associé [Pas de protocole associé (Jusqu’en 2011)];0;1;0
 01;Assistance respiratoire;1;1;1
 02;Nutrition parentérale;1;1;1
 03;Traitement intraveineux;1;1;1
 04;Soins palliatifs;1;1;1
-05;Chimiothérapie anticancéreuse [Chimiothérapie]*;1;1;1
+05;Chimiothérapie anticancéreuse [Chimiothérapie (Jusqu’en 2009)];1;1;1
 06;Nutrition entérale;1;1;1
 07;Prise en charge de la douleur;1;1;1
 08;Autres traitements;1;1;1
-09;Pansements complexes et soins spécifiques (stomies compliquées) [Pansements complexes et soins spécifiques]*;1;1;1
+09;Pansements complexes et soins spécifiques (stomies compliquées) [Pansements complexes et soins spécifiques (Jusqu’en 2009)];1;1;1
 10;Post traitement chirurgical;1;1;1
 11;Rééducation orthopédique;1;1;1
 12;Rééducation neurologique;1;1;1
-13;Surveillance postchimiothérapie anticancéreuse [Surveillance post chimiothérapie]*;1;1;1
+13;Surveillance postchimiothérapie anticancéreuse [Surveillance post chimiothérapie (Jusqu’en 2009)];1;1;1
 14;Soins de nursing lourds;1;1;1
 15;Education du patient et de son entourage;1;1;1
-17;Surveillance de radiothérapie [Radiothérapie]*;1;1;1
+17;Surveillance de radiothérapie [Radiothérapie (Jusqu’en 2009)];1;1;1
 18;Transfusion sanguine;1;1;1
 19;Surveillance de grossesse à risque;1;1;1
 21;Post partumpathologique;1;1;1
-22;Prise en charge du nouveau-né à risque [Prise en charge du nouveau-né]*;1;0;0
+22;Prise en charge du nouveau-né à risque [Prise en charge du nouveau-né (Jusqu’en 2009)];1;0;0
 24;Surveillance d'aplasie;1;1;1
 25;Prise en charge psychologique et/ou sociale;0;1;1
 26;Traitement intraveineux, un seul passage quotidien;0;0;1
 27;Éducation du patient ou de son entourage chez un enfant ou un adolescent de moins 18 ans;0;0;1
 28;Prise en charge psychologique ou sociale chez les patients de moins de 18 ans;0;0;1
-29;Sortie précoce de chirurgie (à partir de mars 2016);1;0;0
+29;Sortie précoce de chirurgie (à partir du 1er mars 2016);1;0;0

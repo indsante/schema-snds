@@ -70,7 +70,7 @@
             "name": "CDC_ACT",
             "description": "Code CCAM",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_CCAM_V54",
             "length": null,
             "format": "default",
             "dateCreated": "2017",

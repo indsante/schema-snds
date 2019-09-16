@@ -14,7 +14,7 @@
         {
             "name": "ADM_NBR",
             "description": "Nombre administré éventuellement fractionnaire",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -25,7 +25,7 @@
         {
             "name": "ADM_NBR_PRI",
             "description": "Prix d'achat multiplié par le nombre administré",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -113,7 +113,7 @@
         {
             "name": "NBR_SEJ",
             "description": "Nombre de séjours impliqués",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",

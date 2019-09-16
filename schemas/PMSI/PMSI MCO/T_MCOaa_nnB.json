@@ -36,7 +36,7 @@
         {
             "name": "ANT_SUP_NBR",
             "description": "Nombre de suppléments antepartum",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -47,7 +47,7 @@
         {
             "name": "AUT_PGV_NBR",
             "description": "Nombre d'autorisations d'unités médicales à portée globale valides (Nb_AutPGV)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -91,7 +91,7 @@
         {
             "name": "BEH_NBJ",
             "description": "Nombre de journées au-delà de la borne extrême haute",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -102,7 +102,7 @@
         {
             "name": "CAI_SUP_NBR",
             "description": "Nombre de suppléments caisson hyperbare",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -212,7 +212,7 @@
         {
             "name": "EXB_NBJ",
             "description": "Nb journées EXB",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -344,7 +344,7 @@
         {
             "name": "NBR_ACT",
             "description": "Nombre de zones d'actes (nA) dans ce RSA ",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -355,7 +355,7 @@
         {
             "name": "NBR_DGN",
             "description": "Nombre de diagnostics associés significatifs (nDAS) dans ce RSA ",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -366,7 +366,7 @@
         {
             "name": "NBR_RUM",
             "description": "Nombre de RUM composant le RSS d'origine (NbRUM) ",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -377,7 +377,7 @@
         {
             "name": "NBR_SEA",
             "description": "Nombre de séances ",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -388,7 +388,7 @@
         {
             "name": "NBR_SUP_NN1",
             "description": "Nombre de suppléments NN1",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -399,7 +399,7 @@
         {
             "name": "NBR_SUP_NN2",
             "description": "Nombre de suppléments NN2",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -410,7 +410,7 @@
         {
             "name": "NBR_SUP_NN3",
             "description": "Nombre de suppléments NN3",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -421,7 +421,7 @@
         {
             "name": "NBR_SUP_REA",
             "description": "Nombre de suppléments pour REA (réanimation)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -432,7 +432,7 @@
         {
             "name": "NBR_SUP_REP",
             "description": "Nombre de suppléments REP (réanimation pédiatrique)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -443,7 +443,7 @@
         {
             "name": "NBR_SUP_SOI",
             "description": "Nombre de suppléments soins intensifs provenant de la réanimation",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -454,7 +454,7 @@
         {
             "name": "NBR_SUP_SRC",
             "description": "Nombre de suppléments pour SRC (surveillance continue) ",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -465,7 +465,7 @@
         {
             "name": "NBR_SUP_STF",
             "description": "Nombre de suppléments pour STF (soins intensifs)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -531,7 +531,7 @@
         {
             "name": "RTH_SUP_NBR",
             "description": "Nombre de zones de suppléments de radiothérapie (Nb_Rdth)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -553,7 +553,7 @@
         {
             "name": "SEJ_NBJ",
             "description": "Durée totale du séjour dans le champ du PMSI (vide si séances) ",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",

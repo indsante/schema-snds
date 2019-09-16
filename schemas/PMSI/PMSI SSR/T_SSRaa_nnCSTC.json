@@ -201,7 +201,7 @@
         {
             "name": "NBR_REJET_AMO_RET",
             "description": "Code retour contrôle « Rejet AMO «",
-            "type": "boolean",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -333,7 +333,7 @@
         {
             "name": "NBR_REJET_AMO",
             "description": "Rejet AMO",
-            "type": "string",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",

@@ -58,7 +58,7 @@
         {
             "name": "NBR_IVG_ANT",
             "description": "Nombre d'IVG antérieures",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -69,7 +69,7 @@
         {
             "name": "NBR_NAIS_ANT",
             "description": "Nombre de naissances vivantes antérieures",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",

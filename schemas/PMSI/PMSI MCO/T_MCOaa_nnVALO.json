@@ -883,7 +883,7 @@
         {
             "name": "NBREP",
             "description": "Nb suppléments de réanimation pédiatrique",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",

@@ -102,7 +102,7 @@
         {
             "name": "NBR_EXE_ACT",
             "description": "Nombre de réalisations de l'acte n° 1 pendant le séjour",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",

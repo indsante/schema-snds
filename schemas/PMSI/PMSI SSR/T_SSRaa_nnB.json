@@ -476,7 +476,7 @@
         {
             "name": "NBR_DGN",
             "description": "Nombre de diagnostics associés dans ce RHS (n1)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -487,7 +487,7 @@
         {
             "name": "NBR_CSARR",
             "description": "Nombre d'actes CSARR dans ce RHS (n2)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -498,7 +498,7 @@
         {
             "name": "NBR_CCAM",
             "description": "Nombre d'actes CCAM dans ce RHS (n3)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -542,7 +542,7 @@
         {
             "name": "EXB_NBJ",
             "description": "Nombre de journées du supplément zone basse",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -553,7 +553,7 @@
         {
             "name": "EXH_NBJ",
             "description": "Nombre de journées en zone haute",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",

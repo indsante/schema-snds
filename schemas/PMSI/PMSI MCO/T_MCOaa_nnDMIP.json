@@ -91,7 +91,7 @@
         {
             "name": "NBR_POS",
             "description": "Nombre posé",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -102,7 +102,7 @@
         {
             "name": "NBR_POS_PRI",
             "description": "Prix d'achat multiplié par le nombre posé",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",

@@ -113,7 +113,7 @@
         {
             "name": "NBR_VEN_CTL",
             "description": "Code retour contrôle « nombre de venues de la facture »",
-            "type": "string",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -311,7 +311,7 @@
         {
             "name": "FAC_NBR_VEN",
             "description": "Nombre de venues de la facture",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -762,7 +762,7 @@
         {
             "name": "NBR_REJET_AMO_CTL",
             "description": "Code retour contrôle « Rejet AMO «",
-            "type": "string",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -894,7 +894,7 @@
         {
             "name": "NBR_REJET_AMO",
             "description": "Rejet AMO",
-            "type": "string",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",

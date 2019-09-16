@@ -289,7 +289,7 @@
         {
             "name": "SEQ_COU_NBJ",
             "description": "Nombre de jours couverts par la séquence",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -300,7 +300,7 @@
         {
             "name": "PRE_JOU_NBJ",
             "description": "Nombre de jours de présence",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -311,7 +311,7 @@
         {
             "name": "PRE_DEM_JOU_NBJ",
             "description": "Nombre de demi-journées de présence",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -322,7 +322,7 @@
         {
             "name": "THE_ISO_NBJ",
             "description": "Nombre de jours d’isolement thérapeutique",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -454,7 +454,7 @@
         {
             "name": "NBR_DGN",
             "description": "Nombre de diagnostics et facteurs associés",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -465,7 +465,7 @@
         {
             "name": "NBR_CCAM",
             "description": "Nombre d'actes CCAM",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",

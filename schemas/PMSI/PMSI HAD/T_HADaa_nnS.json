@@ -58,7 +58,7 @@
         {
             "name": "SEJ_NBJ",
             "description": "Nombre de journées dans le séjour = durée sur séjours terminés (date de sortie-date d'entrée)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",

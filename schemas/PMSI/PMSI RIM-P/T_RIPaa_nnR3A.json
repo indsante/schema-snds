@@ -223,7 +223,7 @@
         {
             "name": "INT_NBR",
             "description": "Nombre d’intervenants",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -278,7 +278,7 @@
         {
             "name": "NBR_DGN",
             "description": "Nombre de diagnostics et facteurs associés",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",

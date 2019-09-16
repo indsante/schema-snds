@@ -91,7 +91,7 @@
         {
             "name": "PRS_JOU_NBR",
             "description": "Durée de la prestation",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -124,7 +124,7 @@
         {
             "name": "SUP_PAY_NBR",
             "description": "Nombre de suppléments payés",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",

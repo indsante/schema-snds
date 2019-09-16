@@ -113,7 +113,7 @@
         {
             "name": "CCAM_NBR_REA",
             "description": "Nombre de réalisation",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",

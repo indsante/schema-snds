@@ -36,7 +36,7 @@
         {
             "name": "NBR_JOU",
             "description": "Nombre de jours de présence valorisables",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",

@@ -47,7 +47,7 @@
         {
             "name": "GHT_NBJ",
             "description": "Groupage PAPRICA : nombre de jours",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",

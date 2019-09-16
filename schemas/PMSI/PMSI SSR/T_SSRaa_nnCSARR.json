@@ -113,7 +113,7 @@
         {
             "name": "CLAS_NBR_PAT_PS",
             "description": "Nombre de patients en acte individuel non dédié ou collectif (classe)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -124,7 +124,7 @@
         {
             "name": "NBR_CSARR",
             "description": "Nombre de réalisations",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -157,7 +157,7 @@
         {
             "name": "NBR_PAT_INTERV",
             "description": "Nombre réel de patients",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -168,7 +168,7 @@
         {
             "name": "NBR_INTERV",
             "description": "Nombre d'intervenants",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",

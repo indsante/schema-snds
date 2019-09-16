@@ -91,7 +91,7 @@
         {
             "name": "REAL_NBR",
             "description": "Nombre de réalisations",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",

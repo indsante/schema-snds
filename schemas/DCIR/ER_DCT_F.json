@@ -103,7 +103,7 @@
             "name": "DCT_MUT_CMP",
             "description": "Part Mutuelle Complementaire décompte",
             "type": "string",
-            "nomenclature": "IR_PMC_V",
+            "nomenclature": "-",
             "length": "1",
             "format": "default",
             "dateCreated": "2006",

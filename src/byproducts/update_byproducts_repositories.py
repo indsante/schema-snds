@@ -230,8 +230,7 @@ def exec_terminal(command: str) -> str:
 def check_response_code(response: requests.Response) -> None:
     response_log_msg = '{} {}\n{}'.format(response.status_code, response.reason, response.text)
     response_log_msg = mask_gitlab_token(response_log_msg)
-    if str(response.status_code).startswith("20"):
-        logging.error(response_log_msg)
+    if not str(response.status_code).startswith("20"):
         raise Exception("wrong status_code : {}".format(response.status_code))
     else:
         logging.debug(response_log_msg)

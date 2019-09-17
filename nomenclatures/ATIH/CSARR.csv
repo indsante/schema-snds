@@ -1,0 +1,1186 @@
+csarr_code;libelle;gestes_complementaires;modulateurs
+ALQ+183;"Évaluation analytique initiale de fonction cognitive
+
+À l'exclusion de : 
+•  évaluation psychologique d'une fonction cognitive (ALQ+111)
+•  évaluation psychologique de plusieurs fonctions cognitives (ALQ+176)
+";;ZV
+ALQ+065;"Évaluation analytique intermédiaire ou ciblée de fonction cognitive
+
+À l'exclusion de : 
+•  évaluation psychologique d'une fonction cognitive (ALQ+111)
+•  évaluation psychologique de plusieurs fonctions cognitives (ALQ+176)
+";;
+ALQ+110;"Évaluation analytique finale de fonction cognitive
+
+À l'exclusion de : 
+•  évaluation psychologique d'une fonction cognitive (ALQ+111)
+•  évaluation psychologique de plusieurs fonctions cognitives (ALQ+176)
+";;HW
+ALQ+247;"Évaluation globale initiale de plusieurs fonctions cognitives
+
+À l'exclusion de : 
+•  évaluation psychologique de plusieurs fonctions cognitives (ALQ+176)
+";;ZV
+ALQ+137;"Évaluation globale intermédiaire de plusieurs fonctions cognitives
+
+À l'exclusion de : 
+•  évaluation psychologique de plusieurs fonctions cognitives (ALQ+176)
+";;HW
+ALQ+250;"Évaluation globale finale de plusieurs fonctions cognitives
+
+À l'exclusion de : 
+•  évaluation psychologique de plusieurs fonctions cognitives (ALQ+176)
+";;HW
+ALQ+111;"Évaluation psychologique d'1 fonction cognitive
+
+À l'exclusion de : 
+•  évaluation psychologique de fonction cognitive avec mise en situation (ALQ+001)
+•  évaluation psychologique de fonction cognitive avec simulateur (ALQ+285)
+•  évaluation psychologique de la personnalité (ALQ+011)
+";;ZV
+ALQ+176;"Évaluation psychologique de plusieurs fonctions cognitives
+
+À l'exclusion de : 
+•  évaluation psychologique de fonction cognitive avec mise en situation (ALQ+001)
+•  évaluation psychologique de fonction cognitive avec simulateur (ALQ+285)
+•  évaluation psychologique de la personnalité (ALQ+011)
+•  utilisation d'outils de dépistage tels que : test mini mental score [MMS], test de l'horloge, test des 5 mots de Dubois
+";;ZV
+ALQ+001;Évaluation psychologique de fonction cognitive avec mise en situation;;
+ALQ+285;Évaluation psychologique de fonction cognitive avec simulateur;;
+ANQ+067;Évaluation initiale des fonctions psychomotrices;;
+ANQ+105;Évaluation intermédiaire des fonctions psychomotrices;;
+ANQ+095;Évaluation finale des fonctions psychomotrices;;
+GKQ+190;"Évaluation initiale du langage oral
+
+Avec ou sans : enregistrement du son et/ou de l'image
+";;
+GKQ+162;"Évaluation intermédiaire du langage oral
+
+Avec ou sans : enregistrement du son et/ou de l'image
+";;
+GKQ+053;"Évaluation finale du langage oral
+
+Avec ou sans : enregistrement du son et/ou de l'image
+";;
+GKQ+139;Évaluation initiale du langage écrit;;
+GKQ+102;Évaluation intermédiaire du langage écrit;;
+GKQ+063;Évaluation finale du langage écrit;;
+AKQ+124;Évaluation initiale des troubles du raisonnement logique et mathématique;;
+AKQ+172;Évaluation intermédiaire des troubles du raisonnement logique et mathématique;;
+AKQ+219;Évaluation finale des troubles du raisonnement logique et mathématique;;
+ALQ+011;"Évaluation psychologique de la personnalité
+
+Avec ou sans : évaluation de fonction cognitive
+";;ZV
+ALQ+114;Évaluation comportementale structurée;;
+ZGQ+287;Évaluation structurée de la relation parent-enfant;;
+ALT+145;"Séance individuelle d'entretien psychologique à visée de réadaptation cognitive
+
+À l'exclusion de : 
+•  séance individuelle d'entretien psychologique à visée de réadaptation cognitive avec mise en situation (ALT+236)
+•  séance d'entretien psychologique à visée de réadaptation cognitive avec simulateur (ALT+097)
+";;ZV
+ALT+263;Séance collective d'entretien psychologique à visée de réadaptation cognitive;;
+ALT+236;Séance individuelle d'entretien psychologique à visée de réadaptation cognitive avec mise en situation;;
+ALT+151;Séance collective d'entretien psychologique à visée de réadaptation cognitive avec mise en situation;;
+ALT+097;Séance d'entretien psychologique à visée de réadaptation cognitive avec simulateur;;
+ALM+024;Séance de restauration, développement et compensation de fonction mnésique par réalisation d'1 tâche élémentaire;;"EZ;ZV"
+ALM+139;Séance de restauration, développement et compensation de fonction mnésique par réalisation de plusieurs tâches élémentaires combinées et coordonnées;;"EZ;ZV"
+ALM+050;Séance de restauration, développement et compensation de fonction mnésique par planification et réalisation de plusieurs tâches élémentaires combinées et coordonnées;;"EZ;HW"
+ALM+172;Séance de restauration, développement et compensation de fonction exécutive par réalisation d'1 tâche élémentaire;;EZ
+ALM+167;Séance de restauration, développement et compensation des fonctions exécutives par réalisation de plusieurs tâches élémentaires combinées et coordonnées;;EZ
+ALM+126;"Séance de restauration, développement et compensation des fonctions cognitives globales et spécifiques
+Séance de restauration et/ou développement des fonctions cognitives et exécutives en addictologie
+";;"EZ;ZV"
+ALR+298;Séance de stimulation cognitive, sensorielle, sensitive et motrice;;"EZ;ZV;QM;TF;LJ;RW;HW"
+ANR+259;Séance de rééducation psychomotrice des troubles de latéralité;;"EZ;QM"
+ALR+201;"Séance de rééducation et/ou compensation de la négligence spatiale unilatérale par exécution d'1 tâche élémentaire
+
+Avec ou sans : aide au déplacement
+";;EZ
+ALR+073;"Séance de rééducation et/ou compensation de la négligence spatiale unilatérale par exécution de plusieurs tâches élémentaires combinées et coordonnées
+
+Avec ou sans : aide au déplacement
+";;EZ
+ANR+237;Séance de rééducation psychomotrice des troubles temporospatiaux;;"EZ;QM"
+ALR+004;Séance de rééducation de l'orientation temporospatiale et de l'apraxie constructive;;"EZ;QM"
+ANR+089;Séance de rééducation psychomotrice des dyspraxies visuospatiale et visuomotrice;;EZ
+ANR+219;"Séance de rééducation psychomotrice des dyspraxies gestuelles
+
+À l'exclusion de : 
+•  séance de restauration, développement et compensation des apraxies gestuelles par réalisation d'1 tâche élémentaire (ANM+048)
+•  séance de restauration, développement et compensation des apraxies gestuelles par réalisation de plusieurs tâches élémentaires combinées et coordonnées (ANM+201)
+•  séance de restauration, développement et compensation des apraxies gestuelles par planification et réalisation de plusieurs tâches élémentaires combinées et coordonnées (ANM+069)
+";;EZ
+ANM+048;Séance de restauration, développement et compensation des apraxies gestuelles par réalisation d'1 tâche élémentaire;;EZ
+ANM+201;Séance de restauration, développement et compensation des apraxies gestuelles par réalisation de plusieurs tâches élémentaires combinées et coordonnées;;EZ
+ANM+069;Séance de restauration, développement et compensation des apraxies gestuelles par planification et réalisation de plusieurs tâches élémentaires combinées et coordonnées;;EZ
+ANR+128;Séance de rééducation des troubles de la graphomotricité;;EZ
+ANR+032;Séance de rééducation psychomotrice des troubles de la coordination motrice;;"EZ;QM"
+ANR+216;Séance de rééducation psychomotrice du schéma corporel;;"EZ;QM"
+ANR+270;Séance individuelle de réadaptation et/ou conservation de la coordination par les activités physiques et/ou sportives;;"EZ;QM;TF;RW;HW;LJ"
+ANR+094;Séance collective de réadaptation et/ou conservation de la coordination par les activités physiques et/ou sportives;;"QM;TF;RW;HW;LJ"
+GKR+181;Séance individuelle de rééducation du langage oral;;EZ
+GKR+213;Séance collective de rééducation du langage oral;;
+GKR+091;Séance de rééducation du langage écrit;;EZ
+AKR+229;Séance individuelle de rééducation des troubles du raisonnement logique et mathématique;;EZ
+AKR+074;Séance collective de rééducation des troubles du raisonnement logique et mathématique;;
+ALT+074;"Entretien psychologique individuel
+Accompagnement de fin de vie
+
+Accompagnement d'annonce de diagnostic ou de pronostic
+
+Entretien d'orientation
+
+Aide aux aidants de patient atteint d'affection chronique
+
+
+À l'exclusion de : 
+•  séance individuelle d'entretien psychologique à visée de réadaptation cognitive (ALT+145)
+•  séance individuelle d'entretien psychologique à visée thérapeutique (ALT+220)
+";;ZV
+ALT+044;"Entretien psychologique collectif
+Aide aux aidants de patient atteint d'affection chronique
+
+
+À l'exclusion de : 
+•  séance collective d'entretien psychologique à visée de réadaptation cognitive (ALT+263)
+•  séance collective d'entretien psychologique à visée thérapeutique (ALT+085)
+";;
+ALT+220;Séance individuelle d'entretien psychologique à visée thérapeutique;;ZV
+ALT+085;Séance collective d'entretien psychologique à visée thérapeutique;;
+ZGT+251;"Entretien d'aide à la prise de conscience des limites des capacités liées au handicap
+
+Codage : cet acte ne peut être codé que s'il est réalisé isolément
+";;"XH;ZV"
+ZGR+054;"Séance d'apprentissage des soins de développement de l'enfant de moins de 3 ans
+Newborn Individual Development Care and Assessment Program [NIDCAP]
+";;
+ZGT+069;Accompagnement de la relation parent-enfant;;
+ZGT+162;Accompagnement à la parentalité;;
+ZGT+100;Accompagnement de la séparation parent-enfant;;
+ZZR+145;"Séance individuelle de relaxation
+
+Codage : cet acte ne peut être codé que s'il est réalisé isolément
+";;QM
+ZZR+028;"Séance collective de relaxation
+
+Codage : cet acte ne peut être codé que s'il est réalisé isolément
+";;"QM;TF;LJ"
+BLQ+273;Évaluation initiale de la capacité visuelle, oculomotrice, sensorielle, sensitive et/ou motrice d'un patient déficient visuel;;
+BLQ+037;Évaluation intermédiaire de la capacité visuelle, oculomotrice sensorielle, sensitive et/ou motrice d'un patient déficient visuel;;
+BLQ+012;Évaluation finale de la capacité visuelle, oculomotrice sensorielle, sensitive et/ou motrice d'un patient déficient visuel;;
+BLQ+155;Évaluation de la tolérance à la lumière;;
+BLQ+028;Évaluation pour recherche de filtres protecteurs de la vision;;
+BLQ+018;Évaluation initiale de la capacité de déplacement d'un patient déficient visuel;;
+BLQ+137;Évaluation intermédiaire de la capacité de déplacement d'un patient déficient visuel;;
+BLQ+272;Évaluation finale de la capacité de déplacement d'un patient déficient visuel;;
+CDQ+147;"Évaluation initiale de l'audition
+
+Avec ou sans : enregistrement du son et/ou de l'image
+";;
+CDQ+139;"Évaluation intermédiaire de l'audition
+
+Avec ou sans : enregistrement du son et/ou de l'image
+";;
+CDQ+111;"Évaluation finale de l'audition
+
+Avec ou sans : enregistrement du son et/ou de l'image
+";;
+CDQ+279;"Évaluation initiale des compétences en discrimination auditive
+
+Avec ou sans : enregistrement du son et/ou de l'image
+";;
+CDQ+273;"Évaluation intermédiaire des compétences en discrimination auditive
+
+Avec ou sans : enregistrement du son et/ou de l'image
+";;
+CDQ+136;"Évaluation finale des compétences en discrimination auditive
+
+Avec ou sans : enregistrement du son et/ou de l'image
+";;
+GKQ+054;"Évaluation initiale des compétences en lecture labiale
+
+Avec ou sans : enregistrement du son et/ou de l'image
+";;
+GKQ+177;"Évaluation intermédiaire des compétences en lecture labiale
+
+Avec ou sans : enregistrement du son et/ou de l'image
+";;
+GKQ+186;"Évaluation finale des compétences en lecture labiale
+
+Avec ou sans : enregistrement du son et/ou de l'image
+";;
+CEQ+009;Évaluation initiale pour rééducation des troubles vestibulaires;;
+CEQ+219;Évaluation intermédiaire pour rééducation des troubles vestibulaires;;
+CEQ+151;Évaluation finale pour rééducation des troubles vestibulaires;;
+ANQ+179;Hétéro-évaluation de la douleur d'un patient sans communication verbale fiable [patient dyscommunicant];;ZV
+ANQ+173;Évaluation de la sensibilité de la peau et des articulations d'un patient indolore;;
+ANQ+126;Évaluation de la sensibilité de la peau et des articulations d'un patient douloureux;;ZV
+BLR+131;Séance de rééducation des troubles de la reconnaissance des formes et du repérage d'objet dans l'espace, dans l'agnosie visuelle;;EZ
+BLR+257;Séance de rééducation des troubles du déplacement, dans l'agnosie visuelle;;EZ
+BLR+077;Séance de rééducation oculomotrice;;EZ
+BLR+107;Séance d'apprentissage de l'autonomie de déplacement d'un patient déficient visuel;;"EZ;TF;RW;HW;LJ;XH"
+BLR+152;"Séance d'apprentissage de la réalisation des activités de la vie quotidienne par un patient déficient visuel
+Séance de rééducation du patient déficient visuel pour l'habillage
+";;"EZ;TF;RW;HW;LJ;XH"
+BLR+156;Séance de rééducation en basse vision;;EZ
+CDR+018;Séance de rééducation des troubles de l'audition;;EZ
+CDR+063;Séance de rééducation des compétences en discrimination auditive;;EZ
+GKR+156;Séance d'apprentissage de la lecture labiale;;EZ
+CER+030;Séance de rééducation des troubles vestibulaires;;EZ
+ANR+265;Séance d'apprentissage de la gestion de la douleur;;"EZ;ZV;QM"
+ANR+283;Séance de rééducation d'un trouble de la sensibilité superficielle et/ou profonde;;"EZ;QM"
+ANR+200;Séance individuelle de réadaptation et/ou conservation de la proprioception par les activités physiques et/ou sportives;;"EZ;TF;RW;HW;LJ"
+ANR+153;Séance collective de réadaptation et/ou conservation de la proprioception par les activités physiques et/ou sportives;;"EZ;TF;RW;HW;LJ"
+GKQ+042;"Évaluation initiale des troubles de la voix
+
+Avec ou sans : enregistrement du son et/ou de l'image
+";;
+GKQ+197;"Évaluation intermédiaire des troubles de la voix
+
+Avec ou sans : enregistrement du son et/ou de l'image
+";;
+GKQ+274;"Évaluation finale des troubles de la voix
+
+Avec ou sans : enregistrement du son et/ou de l'image
+";;
+GKQ+282;"Évaluation initiale des troubles de l'articulation des sons et/ou de la parole
+
+Avec ou sans : enregistrement du son et/ou de l'image
+";;
+GKQ+207;"Évaluation intermédiaire des troubles de l'articulation des sons et/ou de la parole
+
+Avec ou sans : enregistrement du son et/ou de l'image
+";;
+GKQ+248;"Évaluation finale des troubles de l'articulation des sons et/ou de la parole
+
+Avec ou sans : enregistrement du son et/ou de l'image
+";;
+GKQ+136;"Évaluation initiale des troubles de la parole, du langage et de la communication
+
+Avec ou sans : enregistrement du son et/ou de l'image
+";;
+GKQ+273;"Évaluation intermédiaire des troubles de la parole, du langage et de la communication
+
+Avec ou sans : enregistrement du son et/ou de l'image
+";;
+GKQ+262;"Évaluation finale des troubles de la parole, du langage et de la communication
+
+Avec ou sans : enregistrement du son et/ou de l'image
+";;
+GKR+096;Séance de rééducation des troubles de la voix;;EZ
+GKR+256;Séance de rééducation de l'articulation des sons et/ou de la parole;;EZ
+GKR+255;Séance individuelle de rééducation des troubles de la parole, du langage et de la communication;;EZ
+GKR+200;Séance collective de rééducation des troubles de la parole, du langage et de la communication;;
+DKQ+008;Quantification des capacités fonctionnelles cardiovasculaires et/ou respiratoires pour la réalisation des gestes quotidiens;"GLQ+043;GLQ+175";
+EQQ+206;Mesure transcutanée de la pression partielle en oxygène [TcPO2] au cours d'un exercice à puissance croissante;"GLQ+043;GLQ+175";
+EQR+175;"Épreuve de marche en terrain plat en 6 minutes [Test de marche 6 minutes] ou réalisation d'un test navette
+
+Avec ou sans : réalisation d'un parcours d'essai
+";;TF
+EQR+275;Épreuve de montée d'escalier [Test de montée d'escalier];;
+FCJ+089;"Séance de drainage lymphatique par massage d'un membre
+
+Codage : cet acte ne peut être codé que s'il est réalisé isolément
+";;"ZV;ME"
+FCJ+164;"Séance de drainage lymphatique par pressothérapie d'un membre
+
+Avec ou sans : drainage lymphatique par massage
+
+
+Codage : cet acte ne peut être codé que s'il est réalisé isolément
+";;ZV
+GLR+226;Séance de ventilation dirigée abdominodiaphragmatique;"GLQ+043;GLQ+175;GLR+206";
+GLR+074;Séance d'entrainement des muscles inspiratoires avec dispositif résistif ou relaxateur de pression;"GLQ+043;GLQ+175;GLR+206";EZ
+GLR+167;Séance de ventilation dirigée abdominodiaphragmatique et d'entrainement des muscles inspiratoires avec dispositif résistif;"GLQ+043;GLQ+175;GLR+206";EZ
+GLR+131;Séance individuelle d'entrainement des muscles expiratoires et/ou phonatoires;;QM
+GLR+169;Séance collective d'entrainement des muscles expiratoires et/ou phonatoires;;QM
+GLR+093;Séance de rééducation respiratoire préparatoire à un acte de chirurgie thoracique et/ou abdominale;"GLQ+043;GLQ+175;GLR+206";EZ
+GLR+170;Séance de rééducation respiratoire après chirurgie thoracique et/ou abdominale;"GLQ+043;GLQ+175";EZ
+ANR+036;Séance de rééducation à visée antalgique après thoracotomie par massage et/ou agents physiques;"GLQ+043;GLQ+175";"EZ;ZV"
+GLR+224;"Séance de rééducation respiratoire pour épanchement pleural
+
+À l'exclusion de : 
+•  séance de rééducation respiratoire pour séquelle d'épanchement pleural (GLR+186)
+";"GLQ+043;GLQ+175;GLR+206";"EZ;ZV"
+GLR+186;Séance de rééducation respiratoire pour séquelle d'épanchement pleural;"GLQ+043;GLQ+175;GLR+206";EZ
+GLJ+255;"Séance de désencombrement non instrumental des bronches d'un patient stable
+
+Avec ou sans : 
+•  aspiration trachéale
+•  nébulisation
+";;EZ
+GLJ+199;"Séance de désencombrement non instrumental des bronches d'un patient avec exacerbation des symptômes
+
+Avec ou sans : 
+•  aspiration trachéale
+•  nébulisation
+";;EZ
+GLJ+050;"Séance de désencombrement instrumental des bronches
+
+Avec ou sans : 
+•  aspiration trachéale
+•  nébulisation
+•  éducation du patient et de son entourage
+";;EZ
+GLR+285;Séance individuelle de réadaptation respiratoire par entrainement des membres supérieurs;"GLQ+043;GLQ+175;GLR+206";EZ
+GLR+236;Séance collective de réadaptation respiratoire par entrainement des membres supérieurs;"GLQ+043;GLQ+175;GLR+206";EZ
+GLR+077;Séance individuelle de gymnastique pour réadaptation respiratoire;"GLQ+043;GLQ+175";EZ
+GLR+139;Séance collective de gymnastique pour réadaptation respiratoire;"GLQ+043;GLQ+175";
+HQQ+136;"Évaluation initiale des troubles de la déglutition
+
+Avec ou sans : enregistrement du son et/ou de l'image
+";;
+HQQ+106;"Évaluation intermédiaire des troubles de la déglutition
+
+Avec ou sans : enregistrement du son et/ou de l'image
+";;
+HQQ+257;"Évaluation finale des troubles de la déglutition
+
+Avec ou sans : enregistrement du son et/ou de l'image
+";;
+HSQ+208;Quantification d'un trouble des fonctions de la sphère buccale et péribuccale;;
+HTQ+058;Évaluation initiale pour rééducation des fonctions périnéales;;
+HTQ+046;Évaluation intermédiaire pour rééducation des fonctions périnéales;;
+HTQ+151;Évaluation finale pour rééducation de fonctions périnéales;;
+HSQ+289;"Évaluation diététique initiale qualitative sans élaboration de stratégie diététique
+
+Avec ou sans : prescription de régime standard
+";;ZV
+HSQ+014;"Évaluation diététique initiale qualitative et quantitative sans élaboration de stratégie diététique
+
+Avec ou sans : prescription de régime standard
+";;ZV
+HSQ+197;Évaluation diététique initiale avec prescription de régime adapté;;ZV
+HSQ+043;Évaluation diététique initiale avec prescription diététique personnalisée;;ZV
+HSQ+145;"Évaluation diététique initiale pour prescription diététique avec alimentation artificielle
+
+Avec ou sans : mise en place d'alimentation orale
+";;ZV
+HSQ+107;Évaluation intermédiaire qualitative des objectifs nutritionnels;;
+HSQ+237;Évaluation intermédiaire qualitative et quantitative des objectifs nutritionnels;;
+HSQ+222;"Évaluation diététique finale avec conseils nutritionnels
+
+Avec ou sans : fourniture de documents d'information nutritionnelle
+";;
+HSQ+158;Évaluation diététique finale avec prescription de régime standard;;
+HSQ+010;Évaluation diététique finale avec prescription de régime adapté;;
+HSQ+002;Évaluation diététique finale avec prescription diététique personnalisée;;
+HQR+293;"Séance de rééducation des troubles la déglutition
+
+À l'exclusion de : 
+•  Séance de rééducation des troubles de la déglutition par rétrocontrôle [biofeedback] (HQR+062)
+";;EZ
+HQR+062;Séance de rééducation des troubles de la déglutition par rétrocontrôle [biofeedback];;EZ
+HSR+155;"Séance individuelle de rééducation d'un trouble des fonctions de la sphère buccale et péribuccale
+
+Avec ou sans : participation de l'entourage
+";;EZ
+HSR+122;"Séance collective de rééducation d'un trouble des fonctions de la sphère buccale et péribuccale
+
+Avec ou sans : participation de l'entourage
+";;EZ
+HTR+233;"Séance de rééducation périnéale
+
+À l'exclusion de : 
+•  rééducation périnéale du besoin exonérateur (HTR+037)
+";;EZ
+HTR+037;Séance de rééducation périnéale du besoin exonérateur;;EZ
+HSM+297;"Composition diététique de repas avec le patient et/ou l'entourage
+
+Codage : 
+•  cet acte ne peut être codé qu'une seule fois par jour de réalisation
+•  cet acte ne peut pas être codé pour la validation du repas choisi par le patient dans le restaurant de l'établissement
+";;
+LBQ+211;"Évaluation initiale pour rééducation des fonctions des articulations temporomandibulaires [ATM]
+
+Avec ou sans : évaluation des fonctions rachidienne cervicale, ventilatoire et/ou phonatoire
+";;
+LBQ+079;Évaluation intermédiaire pour rééducation des fonctions des articulations temporomandibulaires [ATM];;
+LBQ+257;"Évaluation finale pour rééducation des fonctions des articulations temporomandibulaires [ATM]
+
+Avec ou sans : évaluation des fonctions rachidienne cervicale, ventilatoire et/ou phonatoire
+";;
+LHQ+048;Évaluation initiale pour rééducation des fonctions ostéoarticulaires de la colonne vertébrale;;ZV
+LHQ+063;Évaluation intermédiaire pour rééducation des fonctions ostéoarticulaires de la colonne vertébrale;;
+LHQ+244;Évaluation finale pour rééducation des fonctions ostéoarticulaires de la colonne vertébrale;;
+MKQ+001;Évaluation initiale pour rééducation des fonctions ostéoarticulaires du membre supérieur;;ZV
+MKQ+152;Évaluation intermédiaire pour rééducation des fonctions ostéoarticulaires du membre supérieur;;
+MKQ+272;Évaluation finale pour rééducation des fonctions ostéoarticulaires du membre supérieur;;
+NKQ+284;Évaluation initiale pour rééducation des fonctions ostéoarticulaires du membre inférieur;;ZV
+NKQ+295;Évaluation intermédiaire pour rééducation des fonctions ostéoarticulaires du membre inférieur;;
+NKQ+222;Évaluation finale pour rééducation des fonctions ostéoarticulaires du membre inférieur;;
+AZQ+131;"Évaluation initiale pour rééducation des fonctions neuromusculaires
+
+Avec ou sans : utilisation du dossier relaté, observé, mesuré, planifié [ROMP] [subjective, objective, assessment, and plan] [SOAP note]
+";;ZV
+AZQ+144;Évaluation intermédiaire pour rééducation des fonctions neuromusculaires;;
+AZQ+164;Évaluation finale pour rééducation des fonctions neuromusculaires;;
+PEQ+266;"Mesure de l'aptitude physique anaérobie
+
+Avec ou sans : ergomètre
+";;
+PCR+025;Épreuve d'endurance à l'effort sur ergomètre [Test d'effort sur ergomètre];;
+PCQ+163;Quantification de la force musculaire périphérique sans appareil;;
+PCQ+179;Quantification de la force et de l'endurance musculaire périphérique avec appareil;;
+ANQ+183;Évaluation initiale des fonctions sensitives et/ou motrices de la tête et/ou du tronc;;
+ANQ+217;Évaluation intermédiaire ou évaluation ciblée sur une fonction, des fonctions sensitives et/ou motrices de la tête et/ou du tronc;;
+ANQ+282;Évaluation finale des fonctions sensitives et/ou motrices de la tête et/ou du tronc;;
+ANQ+171;Évaluation initiale des fonctions sensitives et/ou motrices des membres supérieurs;;
+ANQ+234;Évaluation intermédiaire ou évaluation ciblée sur une fonction, des fonctions sensitives et/ou motrices des membres supérieurs;;
+ANQ+218;Évaluation finale des fonctions sensitives et/ou motrices des membres supérieurs;;
+ANQ+111;Évaluation initiale des fonctions sensitives et/ou motrices des membres inférieurs;;
+ANQ+134;Évaluation intermédiaire ou évaluation ciblée sur une fonction, des fonctions sensitives et/ou motrices des membres inférieurs;;
+ANQ+012;Évaluation finale des fonctions sensitives et/ou motrices des membres inférieurs;;
+NKQ+021;Évaluation de la marche en terrain plat;;
+NKQ+069;Évaluation de la marche sur parcours aménagé avec obstacles;;
+PEQ+185;"Quantification des activités physiques quotidiennes
+
+Codage : cet acte ne peut être codé que s'il est réalisé isolément
+";;
+CEQ+275;Évaluation initiale pour rééducation des troubles de l'équilibre;;
+CEQ+239;Évaluation intermédiaire pour rééducation des troubles de l'équilibre;;
+CEQ+180;Évaluation finale pour rééducation des troubles de l'équilibre;;
+PEQ+017;Évaluation initiale du risque de chute;;
+PEQ+038;Évaluation intermédiaire du risque de chute;;
+PEQ+238;Évaluation finale du risque de chute;;
+LBR+138;Séance de rééducation des fonctions des articulations temporomandibulaires [ATM];;EZ
+LHR+146;"Séance de rééducation des fonctions ostéoarticulaires de la colonne vertébrale
+
+À l'exclusion de : 
+•  séance de rééducation postopératoire des fonctions ostéoarticulaires de la colonne vertébrale après réparation de lésion traumatique ou correction de déformation (LHR+050)
+•  séance de rééducation des fonctions ostéoarticulaires de la colonne vertébrale pour lésion dégénérative (LHR+113)
+•  séance de rééducation postopératoire des fonctions ostéoarticulaires de la colonne vertébrale après correction de lésion dégénérative (LHR+189)
+";;"EZ;QM;
+ZV"
+LHR+050;Séance de rééducation postopératoire des fonctions ostéoarticulaires de la colonne vertébrale après réparation de lésion traumatique ou correction de déformation;;"EZ;QM;
+ZV"
+LHR+113;"Séance de rééducation des fonctions ostéoarticulaires de la colonne vertébrale pour lésion dégénérative
+
+À l'exclusion de : séance de rééducation postopératoire des fonctions ostéoarticulaires de la colonne vertébrale après correction de lésion dégénérative (LHR+189)
+
+
+Avec ou sans : 
+•  rééducation de la fonction ventilatoire
+";;"EZ;QM;
+ZV"
+LHR+189;"Séance de rééducation postopératoire des fonctions ostéoarticulaires de la colonne vertébrale après correction de lésion dégénérative
+
+Avec ou sans : 
+•  rééducation de la fonction ventilatoire
+";;"EZ;QM;
+ZV"
+MKR+126;"Séance de rééducation des fonctions ostéoarticulaires du membre supérieur
+
+À l'exclusion de : 
+•  séance de rééducation postopératoire des fonctions ostéoarticulaires du membre supérieur après réparation de lésion traumatique ou correction de vice architectural (MKR+248)
+•  séance de rééducation des fonctions ostéoarticulaires du membre supérieur pour lésion ostéoarticulaire dégénérative (MKR+023)
+•  séance de rééducation postopératoire des fonctions ostéoarticulaires du membre supérieur après correction de lésion ostéoarticulaire dégénérative (MKR+287)
+";;"EZ;QM;
+ZV"
+MKR+248;Séance de rééducation postopératoire des fonctions ostéoarticulaires du membre supérieur après réparation de lésion traumatique ou correction de vice architectural;;"EZ;QM;
+ZV"
+MKR+023;"Séance de rééducation des fonctions ostéoarticulaires du membre supérieur pour lésion dégénérative
+
+À l'exclusion de : séance de rééducation postopératoire des fonctions ostéoarticulaires du membre supérieur après correction de lésion dégénérative (MKR+287)
+";;"EZ;QM;
+ZV"
+MKR+287;Séance de rééducation postopératoire des fonctions ostéoarticulaires du membre supérieur après correction de lésion dégénérative;;"EZ;QM;
+ZV"
+NKR+177;"Séance de rééducation des fonctions ostéoarticulaires du membre inférieur
+
+À l'exclusion de : 
+•  séance de rééducation postopératoire des fonctions ostéoarticulaires du membre inférieur après réparation de lésion traumatique ou correction de vice architectural (NKR+204)
+•  séance de rééducation des fonctions ostéoarticulaires du membre inférieur pour lésion dégénérative (NKR+280)
+•  séance de rééducation postopératoire des fonctions ostéoarticulaires du membre inférieur après correction de lésion dégénérative (NKR+130)
+";;"EZ;QM;
+ZV"
+NKR+204;Séance de rééducation postopératoire des fonctions ostéoarticulaires du membre inférieur après réparation de lésion traumatique ou correction de vice architectural;;"EZ;QM;
+ZV"
+NKR+280;"Séance de rééducation des fonctions ostéoarticulaires du membre inférieur pour lésion dégénérative
+
+À l'exclusion de : 
+•  séance de rééducation postopératoire des fonctions ostéoarticulaires du membre inférieur après correction de lésion dégénérative (NKR+130)
+";;"EZ;QM;
+ZV"
+NKR+130;Séance de rééducation postopératoire des fonctions ostéoarticulaires du membre inférieur après correction de lésion dégénérative;;"EZ;QM;
+ZV"
+AGR+298;"Séance de rééducation des fonctions neuromusculaires pour affection neurologique centrale, en phase précoce
+
+À l'exclusion de : 
+•  séance de rééducation des fonctions neuromusculaires pour affection neurologique centrale dégénérative (AGR+047)
+";;"EZ;ZV;QM"
+AGR+102;"Séance de rééducation des fonctions neuromusculaires pour affection neurologique centrale, en phase de récupération
+
+À l'exclusion de : 
+•  séance de rééducation des fonctions neuromusculaires pour affection neurologique centrale dégénérative (AGR+047)
+";;"EZ;QM;ZV"
+AGR+047;Séance de rééducation des fonctions neuromusculaires pour affection neurologique centrale dégénérative;;"EZ;ZV;QM"
+APR+036;"Séance de rééducation des fonctions neuromusculaires pour affection neurologique périphérique, en phase précoce
+Séance de rééducation des fonctions neuromusculaires pour paralysie faciale isolée, en phase précoce
+
+
+À l'exclusion de : 
+•  séance de rééducation des fonctions neuromusculaires pour affection neurologique périphérique dégénérative (APR+014)
+
+
+Avec ou sans : électrostimulation, mise en place d'attelles de posture, mise en place de bandes compressives
+";;"EZ;ZV;QM"
+APR+187;"Séance de rééducation des fonctions neuromusculaires pour affection neurologique périphérique, en phase de récupération
+Séance de rééducation des fonctions neuromusculaires pour paralysie faciale isolée, en phase de récupération
+
+
+À l'exclusion de : 
+•  séance de rééducation des fonctions neuromusculaires pour affection neurologique périphérique dégénérative (APR+014)
+
+
+Avec ou sans : électrostimulation, apprentissage de la mise en place d'orthèses
+";;"EZ;QM;ZV"
+APR+014;"Séance de rééducation des fonctions neuromusculaires pour affection neurologique périphérique dégénérative
+
+Avec ou sans : électrostimulation, apprentissage de la mise en place d'orthèses
+";;"EZ;QM;ZV"
+PCR+088;Séance de rééducation des fonctions musculaires pour affection musculaire dégénérative;;"EZ;ZV;QM"
+AZR+199;Séance de rééducation des fonctions neuromusculaires pour mouvements anormaux;;"EZ;QM"
+PEE+041;"Séance de verticalisation sans appareil dynamique
+
+Avec ou sans : électrostimulation
+";;ZV
+PEE+175;"Séance de verticalisation avec appareil dynamique
+
+Avec ou sans : électrostimulation
+";;ZV
+PER+223;Séance de rééducation des troubles de la posture axiale;;"EZ;QM"
+CER+223;Séance de rééducation des fonctions de l'équilibre;;EZ
+PER+250;Séance individuelle de prévention des chutes;;EZ
+PER+154;Séance collective de prévention des chutes;;
+ANM+093;Séance de restauration ou éducation analytique d'une fonction sensitive et/ou motrice du membre supérieur par réalisation d'1 tâche élémentaire;;EZ
+ANM+009;Séance de développement d'une fonction sensitive et/ou motrice du membre supérieur par réalisation de plusieurs tâches élémentaires combinées et coordonnées;;EZ
+MKM+166;Séance de développement des capacités du membre supérieur non dominant ou le plus apte;;EZ
+MKR+003;"Séance de réentrainement de la fonction de préhension avec compensation de la pesanteur et rétro-information en environnement virtuel
+
+À l'exclusion de : réentrainement sur console virtuelle de jeu
+";;EZ
+NKR+179;Séance de réentrainement sensitif et/ou moteur de la marche sur tapis roulant asservi avec orthèses robotisées d'assistance, rétro-information et allègement corporel;;EZ
+NKR+074;"Séance de réentrainement à la marche avec dispositif d'allègement corporel
+
+Avec ou sans : tapis roulant
+";;EZ
+NKR+103;Séance de réentrainement moteur de la marche sur plates-formes d'entrainement elliptiques avec allègement corporel;;EZ
+NKR+117;"Séance individuelle de rééducation à la marche
+
+Avec ou sans : utilisation et/ou adaptation des dispositifs de marche
+";;"EZ;QM;TF;RW;HW;LJ"
+NKR+085;"Séance collective de rééducation à la marche
+
+Avec ou sans : utilisation et/ou adaptation des dispositifs de marche
+";;"TF;RW;HW;LJ;QM"
+NKR+006;"Séance individuelle de réadaptation à la marche
+
+À l'exclusion de : 
+•  séance individuelle de réadaptation à la marche sur parcours aménagé avec obstacles (NKR+174)
+";;"EZ;QM;TF;RW;HW;LJ"
+NKR+059;"Séance collective de réadaptation à la marche
+
+À l'exclusion de : 
+•  séance collective de réadaptation à la marche sur parcours aménagé avec obstacles (NKR+278)
+";;"QM;TF;RW;HW;LJ"
+NKR+174;Séance individuelle de réadaptation à la marche sur parcours aménagé avec obstacles;;"EZ;TF;RW;HW;LJ"
+NKR+278;Séance collective de réadaptation à la marche sur parcours aménagé avec obstacles;;RW
+NKR+012;Séance individuelle de réadaptation à la course;;"TF;RW;HW;LJ"
+NKR+260;Séance collective de réadaptation à la course;;"TF;RW;HW;LJ"
+PER+285;"Séance collective de gymnastique
+
+À l'exclusion de : 
+•  séance collective de gymnastique pour réadaptation respiratoire (GLR+139)
+";;"TF;RW;HW;LJ"
+PEQ+059;Séance de familiarisation en piscine pour contrôle de l'appréhension du milieu aquatique;;EZ
+PER+118;Séance collective de gymnastique aquatique [aquagym];;"HW;LJ"
+PER+112;Séance individuelle de réadaptation à la natation;;"EZ;HW;LJ"
+PER+056;Séance collective de réadaptation à la natation;;"HW;LJ"
+PCR+285;Séance de réadaptation à l'effort musculaire après rééducation de l'appareil locomoteur;;EZ
+DKR+195;Séance individuelle de réentrainement à l'effort aérobie sans ergomètre;;"TF;RW;HW;LJ"
+DKR+181;Séance collective de réentrainement à l'effort aérobie sans ergomètre;;"TF;RW;HW;LJ"
+DKR+061;Séance individuelle de réentrainement à l'effort aérobie avec 1 ergomètre;;RW
+DKR+200;Séance collective de réentrainement à l'effort aérobie avec 1 ergomètre;;RW
+DKR+247;Séance individuelle de réentrainement à l'effort aérobie avec plusieurs ergomètres [Circuit training aérobie individuel];;RW
+DKR+291;Séance collective de réentrainement à l'effort aérobie avec plusieurs ergomètres [Circuit training aérobie collectif];;RW
+DKR+254;Séance individuelle de réentrainement à l'effort aérobie en piscine sans ergomètre;;"HW;LJ"
+DKR+182;Séance collective de réentrainement à l'effort aérobie en piscine sans ergomètre;;"HW;LJ"
+DKR+016;Séance individuelle de réentrainement à l'effort aérobie en piscine avec ergomètre [Circuit training aérobie individuel en piscine];;
+DKR+194;Séance collective de réentrainement à l'effort aérobie en piscine avec ergomètre [Circuit training aérobie collectif en piscine];;
+PCM+283;Séance individuelle de renforcement musculaire contre résistance sans matériel;;"QM;ZV"
+PCM+262;Séance collective de renforcement musculaire contre résistance sans matériel;;QM
+PCM+064;Séance individuelle de renforcement musculaire contre résistance avec matériel [Circuit training musculaire individuel];;"QM;ZV"
+PCM+253;Séance collective de renforcement musculaire contre résistance avec matériel [Circuit training musculaire collectif];;QM
+DKR+118;Séance individuelle de réentrainement à l'effort aérobie et de renforcement musculaire contre résistance [entrainement mixte individuel];;
+DKR+013;Séance collective de réentrainement à l'effort aérobie et de renforcement musculaire contre résistance [entrainement mixte collectif];;
+PCR+004;Séance individuelle de réentrainement à l'effort avec matériel de sport;;"TF;RW;HW;LJ"
+PCR+272;Séance collective de réentrainement à l'effort avec matériel de sport;;"TF;RW;HW;LJ"
+PZL+212;"Mise en place de dispositif générateur d'agent physique à visée thérapeutique
+
+Codage : cet acte ne peut être codé que s'il est réalisé isolément
+";;
+PZL+208;"Séance d'application d'agent physique à visée thérapeutique
+
+Codage : cet acte ne peut être codé que s'il est réalisé isolément
+";;ZV
+PZE+057;"Séance de massage
+
+Codage : cet acte ne peut être codé que s'il est réalisé isolément
+";;"ZV;QM"
+PBR+256;"Séance de mobilisation articulaire passive
+
+Codage : cet acte ne peut être codé que s'il est réalisé isolément
+
+
+Avec ou sans : pose de contention souple
+";;"ZV;QM"
+PEB+196;"Séance de posture articulaire
+Codage : cet acte ne peut être codé que s'il est réalisé isolément
+";;
+ZFR+111;"Séance de rééducation pour état séquellaire ou stabilisé
+Séance de rééducation à visée palliative
+";;"EZ;ZV;QM"
+PER+163;"Séance d'apprentissage individuel de l'optimisation énergétique des gestes quotidiens
+
+Codage : cet acte ne peut être codé que s'il est réalisé isolément
+";;"EZ;TF;RW;HW;LJ"
+PER+233;"Séance d'apprentissage collectif de l'optimisation énergétique des gestes quotidiens
+
+Codage : cet acte ne peut être codé que s'il est réalisé isolément
+";;"EZ;TF;RW;HW;LJ"
+PER+096;"Séance d'apprentissage des transferts
+
+Codage : cet acte ne peut être codé que s'il est réalisé isolément
+
+
+À l'exclusion de : 
+•  séance d'apprentissage des transferts en situation d'activité physique et/ou sportive (PER+253)
+•  Apprentissage du patient et/ou de son entourage à la réalisation d'un autosoin en dehors d'un programme d'éducation thérapeutique (ZZR+063)
+";;
+PER+253;"Séance d'apprentissage des transferts en situation d'activité physique et/ou sportive
+
+Codage : cet acte ne peut être codé que s'il est réalisé isolément
+";;
+QZQ+255;Évaluation initiale qualitative et quantitative de l'état cutané et trophique en dehors de la tête et des mains;;"ZV;ME"
+QZQ+104;Évaluation intermédiaire qualitative et quantitative de l'état cutané et trophique en dehors de la tête et des mains;;"ZV;ME"
+QZQ+186;Évaluation finale qualitative et quantitative de l'état cutané et trophique en dehors de la tête et des mains;;
+QAQ+198;Évaluation initiale qualitative et quantitative de l'état cutané et trophique de la tête et/ou de main;;"ZV;ME"
+QAQ+093;Évaluation intermédiaire qualitative et quantitative de l'état cutané et trophique de la tête et/ou de main;;"ZV;ME"
+QAQ+067;Évaluation finale qualitative et quantitative de l'état cutané et trophique de la tête et/ou de main;;
+QAE+213;Séance de posture d'étirement et/ou de compression cutané de la tête ou du cou;;"EZ;ZV;ME;QM"
+ZBE+110;Séance de posture d'étirement et/ou de compression cutané du tronc;;"EZ;ZV;ME;QM"
+QCE+001;Séance de posture d'étirement et/ou de compression cutané du membre supérieur en dehors de la main ;;"EZ;ZV;ME;QM"
+QCE+268;Séance de posture d'étirement et/ou de compression cutané de la main;;"EZ;ZV;ME;QM"
+QDE+038;Séance de posture d'étirement et/ou de compression cutané d'un membre inférieur en dehors du pied;;"EZ;ZV;ME;QM"
+QDE+094;Séance de posture d'étirement et/ou de compression cutané du pied;;"EZ;ZV;ME;QM"
+QAR+001;Séance d'apprentissage à la réalisation de soins cosmétiques pour cicatrice du visage et/ou du cou;;
+QZR+281;Séance d'apprentissage à la réalisation de soins cosmétiques pour cicatrice en dehors du visage et du cou;;
+QZL+088;"Séance d'application de douche filiforme
+
+Codage : cet acte ne peut être codé que s'il est réalisé isolément
+";;
+ZZQ+106;Évaluation pour fabrication ou fourniture de dispositif technique de compensation;;"ZV;XH"
+ZZQ+062;Évaluation secondaire de l'utilisation de dispositif technique de compensation;;
+ZZQ+044;"Évaluation pour fabrication ou fourniture d'orthèse
+
+À l'exclusion de : 
+•  évaluation pour fabrication ou fourniture d'orthèse de membre pour activité professionnelle ou sportive (ZDQ+041)
+";;
+ZDQ+041;Évaluation pour fabrication ou fourniture d'orthèse de membre pour activité professionnelle ou sportive;;
+ZZQ+242;Évaluation secondaire de l'utilisation d'orthèse;;
+ZEQ+203;"Évaluation secondaire de l'adaptation d'orthèse de posture, de comblement ou de protection d'orteil [orthoplastie]
+
+Avec ou sans : ajustage, adaptation, finition
+";;
+ZEQ+120;"Évaluation secondaire de l'adaptation d'orthèse de plante du pied [orthèse plantaire]
+
+Avec ou sans : ajustage, adaptation, finition
+";;
+ZDQ+016;Évaluation pour fabrication ou fourniture de prothèse du membre supérieur;;
+ZDQ+159;Évaluation pour fabrication ou fourniture de prothèse du membre supérieur pour activité professionnelle ou sportive;;
+ZDQ+262;Évaluation préalable à la prescription de prothèse myoélectrique de membre supérieur;;
+ZEQ+198;Évaluation pour fabrication ou fourniture de prothèse du membre inférieur;;
+ZEQ+046;Évaluation pour fabrication de prothèse du membre inférieur pour activités professionnelles ou sportives;;
+ZEQ+055;Évaluation préalable à la prescription de prothèse bionique de membre inférieur;;
+PEQ+004;"Évaluation pour fourniture de fauteuil roulant ou de véhicule de substitution à la locomotion
+
+À l'exclusion de : 
+•  évaluation pour fourniture de fauteuil roulant pour activité professionnelle et/ou sportive (PEQ+223)
+•  évaluation pour fourniture de fauteuil roulant électrique (PEQ+086)
+";;"TF;XH"
+PEQ+223;Évaluation pour fourniture de fauteuil roulant pour activité professionnelle et/ou sportive;;XH
+PEQ+086;Évaluation pour fourniture de fauteuil roulant électrique;;"TF;XH"
+PEQ+064;Évaluation de la capacité de maniement du fauteuil roulant;;"TF;RW;HW;LJ;XH"
+PEM+132;"Essai et adaptation initiale de bloc commande pour fauteuil roulant à propulsion électrique
+Adaptation du joy stick
+";;
+PEM+058;"Essai et adaptation initiale de bloc commande avec option de commande personnalisée pour fauteuil roulant à propulsion électrique
+
+À l'exclusion de : 
+•  essai et adaptation initiale de bloc commande déporté pour fauteuil roulant à propulsion électrique (PEM+286)
+";;
+PEM+286;Essai et adaptation initiale de bloc commande déporté pour fauteuil roulant à propulsion électrique;;
+ZZQ+085;Évaluation des capacités sensitives et motrices pour la conduite d'un véhicule automobile sans adaptation personnalisée ;;
+ZZQ+291;Évaluation des capacités sensitives et motrices pour la conduite d'un véhicule automobile avec adaptation personnalisée;;
+ALQ+105;Évaluation des capacités cognitives pour la conduite d'un véhicule automobile;;
+ZZM+291;Fabrication de dispositif technique de compensation;ZZM+117;
+ZZM+216;"Fabrication de dispositif d'aide au maintien de la posture axiale en position assise ou allongée
+Fabrication de dispositif d'aide au maintien de la posture axiale pour protection cutanée et/ou ostéoarticulaire
+";;
+ZDM+099;"Fabrication de dispositif d'aide au maintien de la posture des membres
+Fabrication de dispositif d'aide au maintien de la posture des membres pour protection cutanée et/ou ostéoarticulaire
+";;
+PEM+226;Fabrication ou adaptation et mise en place d'accessoire personnalisé ou sur mesure pour fauteuil roulant ou véhicule de substitution à la locomotion;ZZM+117;
+ZAM+045;Fabrication sur mesure d'une minerve monovalve;;
+ZAM+081;Fabrication sur mesure d'une minerve plurivalves;;
+ZBM+068;Fabrication sur mesure d'un corset monovalve de correction de déformation du tronc;;
+ZBM+181;Fabrication sur mesure d'un corset plurivalves de correction de déformation du tronc;;
+ZAM+290;Fabrication sur moulage de casque ou de protège tête;;
+ZAM+209;Fabrication sur moulage en position assise ou allongée d'une minerve monovalve;;
+ZAM+108;Fabrication sur moulage en position assise ou allongée d'une minerve plurivalves;;
+ZAM+132;Fabrication sur moulage en position debout d'une minerve monovalve;;
+ZAM+240;Fabrication sur moulage en position debout d'une minerve plurivalves;;
+ZBM+146;Fabrication sur moulage d'un corset monovalve d'immobilisation du tronc;;
+ZBM+096;Fabrication sur moulage d'un corset plurivalves d'immobilisation du tronc;;
+ZBM+009;Fabrication sur moulage sur cadre de Cotrel d'un corset plurivalves d'immobilisation du tronc;;
+ZBM+166;Réalisation sur moulage en position assise ou allongée d'un corset monovalve de correction de déformation du tronc;;
+ZBM+129;Fabrication sur moulage en position assise ou allongée d'un corset plurivalves de correction de déformation du tronc;;
+ZBM+183;Fabrication sur moulage en position debout d'un corset monovalve de correction de déformation du tronc;;
+ZBM+153;Fabrication sur moulage en position debout d'un corset plurivalves de correction de déformation du tronc;;
+ZBM+011;Fabrication sur moulage sur cadre de Cotrel d'un corset plurivalves de correction de déformation du tronc;;
+ZDM+137;Fabrication sur mesure d'une orthèse statique d'1 segment de membre supérieur;ZZM+117;
+ZDM+117;Fabrication sur mesure d'une orthèse statique de 2 segments de membre supérieur;ZZM+117;
+ZDM+281;Fabrication sur mesure d'une orthèse statique de 3 segments de membre supérieur;ZZM+117;
+ZDM+165;Fabrication sur mesure d'une orthèse statique d'un doigt;ZZM+117;
+ZDM+286;Fabrication sur mesure d'une orthèse dynamique de 2 segments de membre supérieur avec un élément moteur;ZZM+117;
+ZDM+119;Fabrication sur mesure d'une orthèse dynamique de 2 segments de membre supérieur avec plusieurs éléments moteurs;ZZM+117;
+ZDM+062;Fabrication sur mesure d'une orthèse dynamique de 3 segments de membre supérieur avec un élément moteur;ZZM+117;
+ZDM+087;Fabrication sur mesure d'une orthèse dynamique de 3 segments de membre supérieur avec plusieurs éléments moteurs;ZZM+117;
+ZDM+078;Fabrication sur mesure d'une orthèse dynamique d'un doigt avec un élément moteur;ZZM+117;
+ZDM+202;Fabrication sur mesure d'une orthèse dynamique d'un doigt avec 2 éléments moteurs;ZZM+117;
+ZDM+166;Fabrication sur moulage d'une orthèse statique d'1 segment de membre supérieur;ZZM+117;
+ZDM+290;Fabrication sur moulage d'une orthèse statique non articulée de 2 segments de membre supérieur;ZZM+117;
+ZDM+144;Fabrication sur moulage d'une orthèse statique articulée de 2 segments de membre supérieur;ZZM+117;
+ZDM+035;Fabrication sur moulage d'une orthèse statique non articulée de 3 segments de membre supérieur;ZZM+117;
+ZDM+005;Fabrication sur moulage d'une orthèse statique articulée de 3 segments de membre supérieur;ZZM+117;
+ZDM+134;Fabrication sur moulage d'une orthèse statique d'un doigt;ZZM+117;
+ZDM+074;Fabrication sur moulage d'une orthèse dynamique non articulée de 2 segments de membre supérieur avec un élément moteur;ZZM+117;
+ZDM+215;Fabrication sur moulage d'une orthèse dynamique non articulée de 2 segments de membre supérieur avec plusieurs éléments moteurs;ZZM+117;
+ZDM+079;Fabrication sur moulage d'une orthèse dynamique articulée de 2 segments de membre supérieur avec un élément moteur;ZZM+117;
+ZDM+225;Fabrication sur moulage d'une orthèse dynamique articulée de 2 segments de membre supérieur avec plusieurs éléments moteurs;ZZM+117;
+ZDM+278;Fabrication sur moulage d'une orthèse dynamique non articulée de 3 segments de membre supérieur avec un élément moteur;ZZM+117;
+ZDM+228;Fabrication sur moulage d'une orthèse dynamique non articulée de 3 segments de membre supérieur avec plusieurs éléments moteurs;ZZM+117;
+ZDM+131;Fabrication sur moulage d'une orthèse dynamique articulée de 3 segments de membre supérieur avec un élément moteur;ZZM+117;
+ZDM+049;Fabrication sur moulage d'une orthèse dynamique articulée de 3 segments de membre supérieur avec plusieurs éléments moteurs;ZZM+117;
+ZDM+068;Fabrication sur moulage d'une orthèse dynamique d'un doigt avec 1 élément moteur;ZZM+117;
+ZDM+020;Fabrication sur moulage d'une orthèse dynamique d'un doigt avec 2 éléments moteurs;ZZM+117;
+ZEM+173;Fabrication sur mesure d'une orthèse d'1 segment de membre inférieur;ZZM+117;
+ZEM+158;Fabrication sur mesure d'une orthèse de 2 segments de membre inférieur;ZZM+117;
+ZEM+188;Fabrication sur mesure d'une orthèse de 3 segments de membre inférieur;ZZM+117;
+ZEM+150;Fabrication sur moulage d'une orthèse d'1 segment de membre inférieur;ZZM+117;
+ZEM+116;Fabrication sur moulage d'une orthèse non articulée de 2 segments de membre inférieur;ZZM+117;
+ZEM+217;Fabrication sur moulage d'une orthèse articulée de 2 segments de membre inférieur;ZZM+117;
+ZEM+098;Fabrication sur moulage d'une orthèse non articulée de 3 segments de membre inférieur;ZZM+117;
+ZEM+079;Fabrication sur moulage d'une orthèse articulée de 3 segments de membre inférieur;ZZM+117;
+ZEM+258;"Fabrication d'orthèse de la plante du pied [orthèse plantaire]
+
+À l'exclusion de : 
+•  fabrication d'orthèse thermoformée de la plante du pied (ZEM+089)
+•  fabrication d'orthèse thermosoudée de la plante du pied (ZEM+129)
+•  fabrication d'orthèse thermosoudée et thermoformée de la plante du pied (ZEM+047)
+•  fabrication d'orthèse de comblement de la plante du pied (ZEM+008)
+";ZZM+117;
+ZEM+089;Fabrication d'orthèse thermoformée de la plante du pied [orthèse plantaire thermoformée];ZZM+117;
+ZEM+129;Fabrication d'orthèse thermosoudée de la plante du pied [orthèse plantaire thermosoudée];ZZM+117;
+ZEM+047;Fabrication d'orthèse thermosoudée et thermoformée de la plante du pied [orthèse plantaire thermoformée et thermosoudée];ZZM+117;
+ZEM+008;Fabrication d'orthèse de comblement de la plante du pied [orthèse plantaire de comblement];ZZM+117;
+ZEM+133;Fabrication d'une orthèse de posture, de comblement ou de protection d'orteil [Orthoplastie];ZZM+117;
+ZAM+064;Fabrication sur mesure d'une orthèse de compression élastique de la tête;"ZZB+066;
+ZZM+058;
+ZZM+133;
+ZZM+142";ME
+ZBM+249;Fabrication sur mesure d'une orthèse de compression élastique [vêtement compressif] du tronc;"ZZB+066;
+ZZM+058;
+ZZM+133;
+ZZM+142";ME
+ZDM+178;Fabrication sur mesure d'une orthèse de compression élastique [vêtement compressif] du membre supérieur en dehors de la main;"ZZB+066;
+ZZM+058;
+ZZM+133;
+ZZM+142";ME
+ZDM+233;Fabrication sur mesure d'une orthèse de compression élastique [vêtement compressif] de la main;"ZZB+066;
+ZZM+058;
+ZZM+133;
+ZZM+142";ME
+ZEM+287;Fabrication sur mesure d'une orthèse de compression élastique [vêtement compressif] du membre inférieur en dehors du pied;"ZZB+066;
+ZZM+058;
+ZZM+133;
+ZZM+142";ME
+ZEM+211;Fabrication sur mesure d'une orthèse de compression élastique [vêtement compressif] du pied;"ZZB+066;
+ZZM+058;
+ZZM+133;
+ZZM+142";ME
+ZBM+212;Fabrication sur mesure d'une orthèse de compression élastique [vêtement compressif] du tronc et des membres;"ZZB+066;
+ZZM+058;
+ZZM+133;
+ZZM+142";ME
+ZAM+146;Fabrication sur prise d'empreinte d'une orthèse de compression rigide de la face;"ZZM+058;
+ZZM+133;
+ZZM+142";ME
+ZAM+153;Fabrication sur prise d'empreinte d'une orthèse de compression rigide du cou;"ZZM+058;
+ZZM+133;
+ZZM+142";ME
+ZAM+256;Fabrication sur prise d'empreinte d'une orthèse de compression rigide de la face et du cou;"ZZM+058;
+ZZM+133;
+ZZM+142";ME
+ZBM+045;Fabrication sur prise d'empreinte d'une orthèse de compression rigide du tronc;"ZZM+058;
+ZZM+133;
+ZZM+142";ME
+ZDM+033;Fabrication sur prise d'empreinte d'une orthèse de compression rigide du membre supérieur en dehors de la main;"ZZM+058;
+ZZM+133;
+ZZM+142";ME
+ZDM+179;Fabrication sur prise d'empreinte d'une orthèse de compression rigide de la main;"ZZM+058;
+ZZM+133;
+ZZM+142";ME
+ZEM+059;Fabrication sur prise d'empreinte d'une orthèse de compression rigide du membre inférieur en dehors du pied;"ZZM+058;
+ZZM+133;
+ZZM+142";ME
+ZEM+111;Fabrication sur prise d'empreinte d'une orthèse de compression rigide du pied;"ZZM+058;
+ZZM+133;
+ZZM+142";ME
+ZAM+221;Fabrication sur moulage d'une orthèse rigide de posture cutanée de la face [conformateur facial];"ZZM+058;
+ZZM+133;
+ZZM+142";ME
+ZAM+071;Fabrication sur moulage d'une orthèse rigide de posture cutanée du cou [conformateur cervical];"ZZM+058;
+ZZM+133;
+ZZM+142";ME
+ZAM+152;Fabrication sur moulage d'une orthèse rigide de posture cutanée de la face et du cou [conformateur cervicofacial];"ZZM+058;
+ZZM+133;
+ZZM+142";ME
+ZAM+129;Fabrication d'une orthèse rigide de posture cutanée péribuccale [conformateur buccal];"ZZM+058;
+ZZM+133;
+ZZM+142";ME
+ZBM+055;Fabrication d'une orthèse rigide de posture cutanée thoracique [conformateur thoracique];"ZZM+058;
+ZZM+133;
+ZZM+142";ME
+PEM+049;Fabrication d'un appareil de maintien en position assise pour fauteuil roulant;;
+PEM+155;Fabrication d'une coquille de verticalisation;;
+PEM+040;Fabrication d'une coquille de maintien assis;;
+ZDM+288;"Séance de préparation du moignon pour fabrication de l'emboîture de prothèse
+
+À l'exclusion de : 
+•  séance de préparation préalable à la rééducation, du moignon en phase de cicatrisation (ZDM+003)
+•  séance de préparation préalable à la rééducation, du moignon cicatrisé (ZDM+013)
+";;
+ZDM+073;Fabrication d'une prothèse inerte ou d'une prothèse passive après désarticulation d'épaule;"ZDM+022;ZZM+117";
+ZDM+011;Fabrication d'une prothèse active mécanique après désarticulation d'épaule;"ZDM+022;ZZM+117";
+ZDM+231;Fabrication d'une prothèse active électrique après désarticulation d'épaule;"ZDM+022;ZZM+117";
+ZDM+063;Fabrication d'une prothèse inerte ou d'une prothèse passive après amputation transhumérale ou désarticulation de coude;"ZDM+022;ZZM+117";
+ZDM+164;Fabrication d'une prothèse active mécanique après amputation transhumérale ou désarticulation de coude;"ZDM+022;ZZM+117";
+ZDM+230;Fabrication d'une prothèse active électrique après amputation transhumérale ou désarticulation de coude;"ZDM+022;ZZM+117";
+ZDM+023;Fabrication d'une prothèse inerte ou d'une prothèse passive après amputation transradio-ulnaire ou désarticulation de poignet;"ZDM+022;ZZM+117";
+ZDM+046;Fabrication d'une prothèse active mécanique après amputation transradio-ulnaire ou désarticulation de poignet;"ZDM+022;ZZM+117";
+ZDM+066;Fabrication d'une prothèse active électrique après amputation transradio-ulnaire ou désarticulation de poignet;"ZDM+022;ZZM+117";
+ZDM+096;Fabrication d'une prothèse active électrique après amputation partielle de main [main partielle];"ZDM+022;ZZM+117";
+ZEM+241;Fabrication d'une prothèse pour désarticulation de hanche;"ZDM+022;ZZM+117";
+ZEM+269;Fabrication d'une prothèse après amputation transfémorale ou désarticulation de genou;"ZDM+022;ZZM+117";
+ZEM+143;Fabrication d'une prothèse après amputation transtibiale ou désarticulation de cheville;"ZDM+022;ZZM+117";
+ZEM+012;Fabrication d'une prothèse après amputation partielle du pied;"ZDM+022;ZZM+117";
+ZEM+218;Fabrication d'une prothèse bionique de membre inférieur;"ZDM+022;ZZM+117";
+ZDM+139;"Fabrication d'un appareil d'immobilisation ou de posture du membre supérieur en plâtre ou en résine
+
+À l'exclusion de : 
+•  fabrication d'un appareil d'immobilisation ou de posture thoracobrachial en plâtre ou résine (ZBM+131)
+";;
+ZBM+131;Fabrication d'un appareil d'immobilisation ou de posture thoracobrachial en plâtre ou en résine;;
+ZBM+209;"Fabrication d'un appareil d'immobilisation ou de posture du tronc en plâtre ou en résine
+
+À l'exclusion de : 
+•  fabrication d'un appareil d'immobilisation ou de posture thoracobrachial en plâtre ou résine (ZBM+131)
+";;
+ZEM+040;Fabrication d'un appareil d'immobilisation ou de posture du membre inférieur en plâtre ou en résine;;
+ZZG+250;Ablation d'un appareil d'immobilisation ou de posture en plâtre ou en résine;;
+ZZM+264;Transformation d'un appareil d'immobilisation ou de posture en plâtre ou en résine en appareil bivalve;;
+ZZM+140;Fourniture sans adaptation de dispositif technique de compensation ou d'orthèse, de série;;
+ZZM+013;Fourniture avec adaptation initiale de dispositif technique de compensation ou d'orthèse, de série;ZZM+117;
+ZCM+158;Fourniture de corset coutil;;
+PEM+143;"Fourniture de fauteuil roulant ou véhicule de substitution à la locomotion
+
+Avec ou sans : 
+•  fourniture d'accessoire de série pour fauteuil roulant ou véhicule de substitution à la locomotion
+•  adaptation
+";ZZM+117;
+PEM+241;Fourniture d'accessoire de série pour fauteuil roulant ou véhicule de substitution à la locomotion;ZZM+117;
+ZZM+051;"Adaptation secondaire de dispositif technique de compensation ou d'orthèse
+
+Avec ou sans : réparation et/ou révision
+";;
+ZZM+193;"Adaptation secondaire de dispositif technique électronique de compensation
+
+Avec ou sans : réparation et/ou révision
+";;
+ZZM+175;"Modification secondaire de dispositif technique de compensation ou d'orthèse
+
+Avec ou sans : réparation et/ou révision
+";;
+ZZM+096;"Modification secondaire de dispositif technique électronique de compensation
+
+Avec ou sans : réparation et/ou révision
+";;
+ZZM+080;Réparation et/ou révision de dispositif technique de compensation ou d'orthèse;;
+ZDM+075;Adaptation secondaire de l'emboîture pour évolution morphologique du moignon de membre supérieur;;
+ZDM+108;Fabrication secondaire d'emboîture pour prothèse externe de membre supérieur;"ZDM+022;ZZM+117";
+ZDK+032;"Changement de pièce de prothèse de membre supérieur
+
+À l'exclusion de : 
+•  fabrication secondaire d'emboîture pour prothèse externe de membre supérieur (ZDM+108)
+";;
+ZDM+232;Adaptation secondaire de prothèse de membre supérieur au cours de la réadaptation;;
+ZEM+168;Adaptation secondaire de l'emboîture pour évolution morphologique du moignon de membre inférieur;;
+ZEM+013;Fabrication secondaire d'emboîture pour prothèse externe de membre inférieur;"ZDM+022;ZZM+117";
+ZEK+221;"Changement de pièce de prothèse de membre inférieur
+
+À l'exclusion de : 
+•  fabrication secondaire d'emboîture pour prothèse externe de membre inférieur (ZEM+013)
+";;
+ZEM+128;Adaptation secondaire des alignements de prothèse de membre inférieur au cours de la réadaptation;;
+PEM+264;Adaptation secondaire de fauteuil roulant ou de véhicule de substitution à la locomotion;;
+PEM+112;Réglage secondaire de fauteuil roulant ou de véhicule de substitution à la locomotion;;
+PEM+025;Réparation mécanique de fauteuil roulant ou de véhicule de substitution à la locomotion;;
+PEM+114;Réparation électronique de fauteuil roulant ou de véhicule de substitution à la locomotion;;
+ZZR+053;"Séance d'apprentissage et entrainement à l'utilisation de dispositif technique de compensation
+
+À l'exclusion de : 
+•  apprentissage et entrainement à l'utilisation de dispositif technique de compensation informatique ou électronique (ZZR+038)
+";;
+ZZR+038;Séance d'apprentissage et entrainement à l'utilisation de dispositif technique de compensation informatique ou électronique;;
+MKR+226;Séance de réapprentissage de la préhension avec orthèse;;
+NKR+189;Séance de réapprentissage de la marche avec orthèse;;
+ZDM+003;Séance de préparation préalable à la rééducation, du moignon en phase de cicatrisation;;EZ
+ZDM+013;Séance de préparation préalable à la rééducation, du moignon cicatrisé;;EZ
+ZDR+067;"Séance d'apprentissage du chaussage d'une prothèse de membre
+
+Codage : cet acte ne peut être codé que s'il est réalisé isolément et pour un seul patient
+";;
+MKR+074;Séance d'apprentissage de la préhension avec prothèse;;EZ
+NKR+266;Séance de réapprentissage de la marche avec prothèse;;"EZ;TF;RW;HW;LJ"
+PCR+143;Séance de rééducation musculaire individuelle pour utilisation de fauteuil roulant manuel;;EZ
+PCR+125;Séance de rééducation musculaire collective pour utilisation de fauteuil roulant manuel;;
+PER+132;Séance d'apprentissage à l'utilisation d'un fauteuil roulant ou d'un véhicule de substitution à la locomotion sur parcours aménagé prédéfini [parcours fauteuil roulant];;"EZ;TF;RW;HW;LJ"
+PER+103;Séance d'apprentissage de l'utilisation d'un fauteuil roulant ou d'un véhicule de substitution à la locomotion en établissement;;
+PER+043;Séance d'apprentissage à l'utilisation d'un fauteuil roulant électrique;;"EZ;TF;RW;HW;LJ"
+PER+113;Séance individuelle de perfectionnement et/ou d'entrainement à l'utilisation d'un fauteuil roulant ou d'un véhicule de substitution à la locomotion sur parcours aménagé [parcours fauteuil roulant];;"TF;RW;HW;LJ"
+PER+207;Séance collective de perfectionnement et/ou d'entrainement à l'utilisation d'un fauteuil roulant ou d'un véhicule de substitution à la locomotion sur parcours aménagé [parcours fauteuil roulant];;"TF;RW;HW;LJ"
+ZZC+255;"Diagnostic éducatif initial sans établissement de programme personnalisé d'éducation thérapeutique
+
+Avec ou sans : entretien avec l'entourage du patient
+";;
+ZZC+028;"Diagnostic éducatif initial avec établissement d'un programme personnalisé d'éducation thérapeutique
+
+Avec ou sans : entretien avec l'entourage du patient
+";;
+ZZQ+027;"Évaluation intermédiaire des compétences acquises au cours d'un programme personnalisé d'éducation thérapeutique
+
+Avec ou sans : entretien avec l'entourage du patient
+";;
+ZZQ+261;"Évaluation finale des compétences acquises au cours d'un programme personnalisé d'éducation thérapeutique
+
+Avec ou sans : entretien avec l'entourage du patient
+";;
+ZZR+227;"Séance individuelle d'éducation thérapeutique
+
+Avec ou sans : participation de l'entourage du patient
+";;
+ZZR+238;"Séance collective d'éducation thérapeutique en atelier
+
+Avec ou sans : participation de l'entourage du patient
+";;
+ZZQ+192;"Évaluation initiale pour éducation, en dehors d'un programme d'éducation thérapeutique
+
+Avec ou sans : entretien avec l'entourage du patient
+";;
+ZZQ+243;"Évaluation intermédiaire pour éducation, en dehors d'un programme d'éducation thérapeutique
+
+Avec ou sans : entretien avec l'entourage du patient
+";;
+ZZQ+112;"Évaluation finale pour éducation, en dehors d'un programme d'éducation thérapeutique
+
+Avec ou sans : entretien avec l'entourage du patient
+";;
+ZZR+018;Information et initiation individuelle préalable à l'apprentissage d'un autosoin, en dehors d'un programme d'éducation thérapeutique;;
+ZZR+287;Information et initiation collective préalable à l'apprentissage d'un autosoin, en dehors d'un programme d'éducation thérapeutique;;
+ZZR+020;"Séance individuelle d'éducation, en dehors d'un programme d'éducation thérapeutique
+
+Avec ou sans : participation de l'entourage du patient
+";;
+ZZR+293;"Séance collective d'éducation, en dehors d'un programme d'éducation thérapeutique
+
+Avec ou sans : participation de l'entourage du patient
+";;
+ZZR+079;Séance individuelle d'information du patient et/ou de son entourage, en dehors d'un programme d'éducation thérapeutique;;ZV
+ZZR+026;Séance collective d'information du patient et/ou de son entourage, en dehors d'un programme d'éducation thérapeutique;;
+ZZR+063;"Séance d'apprentissage du patient et/ou de son entourage à la réalisation d'un autosoin, en dehors d'un programme d'éducation thérapeutique 
+
+Apprentissage du patient et/ou de son entourage aux soins de trachéotomie ou trachéostomie
+Apprentissage du patient et/ou de son entourage à l'utilisation d'un appareil de ventilation
+Apprentissage du patient et/ou de son entourage à la pose de sonde nasogastrique
+Apprentissage du patient et/ou de son entourage à l'alimentation entérale par sonde
+Apprentissage du patient et/ou de son entourage à l'évacuation des selles
+Apprentissage du patient et/ou de son entourage à l'irrigation transanale
+Apprentissage du patient et/ou de son entourage aux soins de stomie digestive
+Apprentissage du patient et/ou de son entourage à la réalisation d'un calendrier mictionnel
+Apprentissage du patient et/ou de son entourage à la pose d'un étui pénien
+Apprentissage patient et/ou de son entourage au sondage
+Apprentissage du patient et/ou de son entourage au sondage par cystostomie
+Apprentissage du patient et/ou de son entourage aux soins de stomie urinaire
+Apprentissage du patient et/ou de son entourage à la prévention des escarres et des attitudes vicieuses
+Apprentissage du patient et/ou de son entourage à la réalisation de posture d'étirement et/ou de compression cutané
+";;
+QAR+274;"Séance d'apprentissage individuel du maquillage et/ou de la coiffure en dehors d'un programme d'éducation thérapeutique 
+
+À l'exclusion de : 
+•  Séance d'apprentissage à la réalisation de soins cosmétiques pour cicatrice du visage et/ou du cou (QAR+001)
+";;
+QAR+018;Séance d'apprentissage collectif du maquillage et/ou de la coiffure en dehors d'un programme d'éducation thérapeutique ;;
+ZGQ+137;Évaluation initiale des capacités du patient pour les activités de base de la vie quotidienne [ABVQ] avec mise en situation;;ZV
+ZGQ+046;Évaluation intermédiaire ou évaluation ponctuelle ciblée sur une activité, des capacités du patient pour les activités de base de la vie quotidienne [ABVQ] avec mise en situation;;XH
+ZGQ+279;Évaluation finale des capacités du patient pour les activités de base de la vie quotidienne [ABVQ] avec mise en situation;;XH
+ZGQ+248;Évaluation initiale des capacités du patient pour les activités instrumentales de la vie quotidienne [AIVQ] avec mise en situation;;HW
+ZGQ+294;Évaluation intermédiaire des capacités du patient pour les activités instrumentales de la vie quotidienne [AIVQ] avec mise en situation;;"XH;HW"
+ZGQ+180;Évaluation finale des capacités du patient pour les activités instrumentales de la vie quotidienne [AIVQ] avec mise en situation;;"XH;HW"
+ZGQ+099;"Évaluation initiale des capacités du patient pour les activités sociales de la vie quotidienne [ASVQ] avec mise en situation
+
+À l'exclusion de : 
+•  Évaluation des centres d'intérêt et des souhaits de la personne pour les activités socioculturelles et sportives (ZGQ+249)
+•  Évaluation de la situation sociale, professionnelle et/ou scolaire (ZZQ+184)
+•  Évaluation pour adaptation du poste de travail ou de l'environnement scolaire (ZZQ+042)
+";;"TF;RW;HW"
+ZGQ+286;Évaluation intermédiaire des capacités du patient pour les activités sociales de la vie quotidienne [ASVQ] avec mise en situation;;XH
+ZGQ+015;Évaluation finale des capacités du patient pour les activités sociales de la vie quotidienne [ASVQ] avec mise en situation;;XH
+ZFQ+112;Évaluation de la qualité de vie du patient;;ZV
+ZGQ+185;Évaluation du fardeau de l'aidant;;
+ZGQ+249;Évaluation des centres d'intérêt et des souhaits de la personne pour les activités socioculturelles et sportives;;XH
+ZZQ+140;"Évaluation du projet de vie du patient
+
+À l'exclusion de : 
+•  Évaluation du projet de vie du patient avec préparation de dossier pour maison départementale des personnes handicapées [MDPH] (ZZQ+200)
+
+
+Avec ou sans : préparation de dossier
+";;"ZV;XH"
+ZZQ+200;Évaluation du projet de vie du patient avec préparation de dossier pour maison départementale des personnes handicapées [MDPH];;ZV
+ZZQ+286;Évaluation sur plan du lieu de vie avec analyse des habitudes de vie du patient;;
+ZZQ+186;Évaluation et élaboration du projet d'aménagement personnalisé du lieu de vie;;XH
+ZFQ+129;Évaluation sur le lieu d'activité avec mise en situation et analyse du comportement du patient;;
+ZZC+207;Synthèse des évaluations pour diagnostic et élaboration d'un plan d'intervention en ergothérapie;;
+ZZQ+032;Évaluation intermédiaire du déroulement d'un plan d'intervention en ergothérapie;;
+ZZQ+090;Évaluation finale du déroulement d'un plan d'intervention en ergothérapie;;
+ZZQ+184;Évaluation de la situation sociale, professionnelle et/ou scolaire;;ZV
+ZZQ+042;Évaluation pour adaptation du poste de travail ou de l'environnement scolaire;;
+ZZC+221;"Synthèse interdisciplinaire de rééducation et/ou de réadaptation
+
+À l'exclusion de : 
+•  Présentation habituelle hebdomadaire du dossier [staff hebdomadaire] [réunion interdisciplinaire hebdomadaire]
+
+
+Avec ou sans : présence du patient et/ou de son entourage
+";;
+ZFR+002;Séance de réadaptation aux activités de base de la vie quotidienne [ABVQ];;"EZ;TF;RW;HW;LJ;XH;ZV"
+ZFR+199;"Séance de réadaptation aux activités instrumentales de la vie quotidienne [AIVQ] 
+
+À l'exclusion de : 
+•  Séance de réadaptation aux activités instrumentales de la vie quotidienne [AIVQ] avec mise en situation dans un environnement reproduisant le lieu de vie (ZFR+213)
+";;"EZ;TF;RW;HW;LJ;XH;ZV"
+ZFR+213;Séance de réadaptation aux activités instrumentales de la vie quotidienne [AIVQ] avec mise en situation dans un environnement reproduisant le lieu de vie;;EZ
+ZFR+031;Séance de réadaptation aux activités sociales de la vie quotidienne [ASVQ] ;;"EZ;TF;RW;HW;LJ;XH;ZV"
+ZFR+237;Séance de réadaptation aux activités sociales de la vie quotidienne [ASVQ] avec mise en situation dans un environnement reproduisant le lieu de vie;;EZ
+ZFT+114;Entretien programmé d'information et/ou ajustement du contrat de soins ou de vie;;
+ZGT+136;Assistance éducative individuelle;;
+ZGT+145;Assistance éducative collective;;
+ZFM+298;Séance individuelle de restauration et/ou développement des activités sociales de la vie quotidienne;;"EZ;TF;RW;HW;LJ;XH"
+ZFM+242;Séance collective de restauration et/ou développement des activités sociales de la vie quotidienne;;"EZ;TF;RW;HW;LJ"
+ZGR+044;Réadaptation à la vie sociale par la participation à une manifestation sportive, culturelle et/ou de loisirs;;"TF;RW;HW"
+ZGR+255;Séance d'atelier d'activités artistiques, culturelles et/ou de loisirs;;"TF;RW;HW;LJ"
+ALR+245;Séance individuelle de réadaptation et/ou conservation des fonctions psychosociales par les activités physiques et/ou sportives;;"TF;RW;HW;LJ"
+ALR+146;Séance collective de réadaptation et/ou conservation des fonctions psychosociales par les activités physiques et/ou sportives;;"TF;RW;HW;LJ"
+ZFR+137;Séance collective de réadaptation physique et psychosociale par des activités physiques et/ou sportives de précision et d'adresse ;;"TF;RW;HW;LJ"
+ZFR+073;Séance collective de réadaptation physique et psychosociale par des activités physiques de pleine nature et/ou en environnement diversifié;;"TF;RW;HW;LJ"
+ZFR+175;Séance collective de réadaptation physique et psychosociale par des activités physiques d'expression corporelle, artistique et/ou esthétique;;"TF;RW;HW;LJ"
+ZFR+014;Séance collective de réadaptation physique et psychosociale par des activités physiques de coopération et d'opposition;;"TF;RW;HW;LJ"
+ZGT+259;Assistance spécialisée pour accompagnement de la scolarité;;
+ZGT+017;"Présentation d'atelier de travail
+
+Codage : cet acte ne peut être codé que s'il est réalisé isolément et pour un seul patient
+";;
+ZGR+068;Séance d'atelier de travail;;
+ZGT+044;"Restitution après atelier de travail
+
+Codage : cet acte ne peut être codé que s'il est réalisé isolément et pour un seul patient
+";;
+ZGM+105;Préparation et suivi de l'avancement de dossier pour réinsertion scolaire;;
+ZGR+043;Séance de réentrainement professionnel sur poste de travail;;
+ZGM+247;Préparation et suivi de l'avancement de dossier pour réinsertion professionnelle;;
+ZGT+094;Entretien individuel de relation d'aide dans le domaine social;;
+ZGT+295;Entretien collectif de relation d'aide dans le domaine social;;
+ZGT+031;Entretien avec l'entourage pour implication dans la réalisation du projet de vie du patient;;
+ZZM+143;"Préparation et/ou suivi de l'avancement de dossier pour relogement ou placement en établissement ou en substitut de logement
+
+Avec ou sans : 
+•  organisation du transfert vers le lieu de vie
+•  aménagement du domicile
+";;
+ZZM+066;"Préparation et/ou suivi de l'avancement d'1 dossier de demande de prestation sociale ou d'indemnisation avec démarche unique
+Attribution d'assurance maladie complémentaire
+
+Attribution d'indemnités journalières
+
+Attribution d'aide financière
+
+Attribution d'aide personnalisée à l'autonomie
+
+Attribution d'auxiliaire de vie
+
+Indemnisation du préjudice
+
+Reconnaissance d'incapacité ou d'invalidité
+
+Attribution de carte d'invalidité, de priorité ou de stationnement européen
+
+Attribution d'allocation pour adulte handicapé [AAH] ou d'allocation d'éducation de l'enfant handicapé [AEEH]
+
+Attribution de revenu de solidarité active
+
+Reconnaissance de la qualité de travailleur handicapé [RQTH]
+
+Démarche auprès des services fiscaux
+
+Démarche administrative
+
+
+Avec ou sans : information sur les relais et les démarches à poursuivre
+";;
+ZZM+161;"Préparation et suivi de l'avancement d'1 dossier de demande de prestation sociale avec démarches multiples
+Préparation et suivi de dossier pour Maison départementale des personnes handicapées [MDPH]
+";;
+ZZM+159;Préparation et suivi de l'avancement d'un dossier pour mesure de protection et/ou mesure éducative;;
+ZZM+092;"Préparation au retour à domicile ou à la première sortie thérapeutique
+
+Avec ou sans : contact avec les intervenants à domicile
+";;
+ZZE+026;"Déplacement hors de l'établissement pour accomplissement de démarche socio-administrative, juridique, éducative et/ou de réinsertion scolaire ou professionnelle
+
+Avec ou sans : accompagnement du patient et/ou son entourage
+";;
+GLQ+043;Mesures des pressions inspiratoires et expiratoires maximales;;
+GLQ+175;Mesure des volumes pulmonaires et des débits par spirométrie;;
+GLR+206;Rééducation respiratoire par méthode instrumentale [spirométrie incitative];;
+ZZB+066;Doublement de la compression d'une orthèse de compression élastique;;
+ZZM+058;Fabrication d'une adjonction à la compression sans prise de mesure, sans moulage et sans prise d'empreinte ;;
+ZZM+133;Fabrication sur mesure par moulage, prise d'empreinte ou numérisation d'une adjonction à la compression avec interface lisse;;
+ZZM+142;Fabrication sur mesure par moulage, prise d'empreinte ou numérisation d'une adjonction à la compression avec interface en relief;;
+ZDM+022;Fabrication d'une interface pour emboîture de prothèse de membre;;
+ZZM+117;Adaptation d'appareillage pour activité professionnelle ou de loisir;;

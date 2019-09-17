@@ -10,3 +10,5 @@ data/
 .DS_Store
 __pycache__/
 
+/tests/data/byproducts_repositories/dico-snds/
+/tests/data/byproducts_repositories/documentation-snds/

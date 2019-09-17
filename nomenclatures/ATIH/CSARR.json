@@ -1,0 +1,34 @@
+{
+  "fields": [
+    {
+      "name": "csarr_code",
+      "type": "string",
+      "format": "default",
+      "role": "code"
+    },
+    {
+      "name": "libelle",
+      "type": "string",
+      "format": "default",
+      "role": "label"
+    },
+    {
+      "name": "gestes_complementaires",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "modulateurs",
+      "type": "string",
+      "format": "default"
+    }
+  ],
+  "missingValues": [
+    ""
+  ],
+  "name": "CSARR",
+  "title": "Nomenclature Csarr pour les motifs de prise en charge SSR",
+  "primaryKey": [
+    "csarr_code"
+  ]
+}

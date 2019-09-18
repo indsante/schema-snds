@@ -28,6 +28,7 @@ def run_tsfaker():
                   "--resources {nomenclatures} " \
                   "--output {fake_dir} " \
                   "--nrows 10 " \
+                  "--separator ';' " \
                   "--overwrite  " \
                   "--limit-fk 10 " \
                   "--logging-level WARNING" \

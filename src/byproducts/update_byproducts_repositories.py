@@ -8,6 +8,7 @@ from typing import List, Tuple
 
 import requests
 
+from src.byproducts.dico_snds import DICO_CSV_FILES
 from src.constants import ROOTED_BYPRODUCTS_DIR, BYPRODUCT_REPOSITORIES_DIR
 from src.settings import GITLAB_TOKEN
 
@@ -43,14 +44,7 @@ def update_all_byproducts(local) -> None:
         local_to_byproduct_directories=[
             ('nomenclatures', pjoin('app', 'app_data', 'nomenclatures'))
         ],
-        local_to_byproduct_files=[
-            ('snds_links.csv', pjoin('app', 'app_data', 'snds_links.csv')),
-            ('snds_nodes.csv', pjoin('app', 'app_data', 'snds_nodes.csv')),
-            (
-                'snds_tables.csv',
-                pjoin('app', 'app_data', 'snds_tables.csv')),
-            ('snds_vars.csv', pjoin('app', 'app_data', 'snds_vars.csv'))
-        ],
+        local_to_byproduct_files=[(csv_file, pjoin('app', 'app_data', csv_file)) for csv_file in DICO_CSV_FILES],
         last_commit_sha=last_commit_sha,
         byproduct_project_id=11925754,
         automatic_merge=True,

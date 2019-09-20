@@ -10,7 +10,8 @@ def test_generated_byproducts_equal_files():
     generate_byproducts()
     for root, dirs, files in os.walk(ROOTED_BYPRODUCTS_DIR):
         for file in files:
-            if file.endswith('.csv'):
+            if 'tsfaker' in root and file.endswith('.csv'):
+                print(root, file)
                 # We do not test random data generation
                 continue
             actual_file_path = os.path.join(root, file)

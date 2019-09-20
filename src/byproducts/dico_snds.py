@@ -14,11 +14,12 @@ from src.constants import DICO_SNDS_DIR, NO_NOMENCLATURE, DATE_CREATED, DATE_DEL
     NOMENCLATURES_DIR
 from src.utils import get_all_schema, get_all_nomenclatures_schema
 
-EDGES_CSV = "snds_links.csv"
-NODES_CSV = "snds_nodes.csv"
-TABLES_CSV = "snds_tables.csv"
-SNDS_VARIABLES_CSV = "snds_vars.csv"
-SNDS_NOMENCLATURES_CSV = "snds_nomenclatures.csv"
+DICO_EDGES_CSV = "snds_links.csv"
+DICO_NODES_CSV = "snds_nodes.csv"
+DICO_TABLES_CSV = "snds_tables.csv"
+DICO_VARIABLES_CSV = "snds_vars.csv"
+DICO_NOMENCLATURES_CSV = "snds_nomenclatures.csv"
+DICO_CSV_FILES = [DICO_TABLES_CSV, DICO_VARIABLES_CSV, DICO_NOMENCLATURES_CSV, DICO_EDGES_CSV, DICO_NODES_CSV]
 
 DICO_VARIABLE = 'var'
 SCHEMA_PRODUIT = 'produit'
@@ -54,7 +55,7 @@ def generate_dico_snds():
 
 
 def table_schema_to_snds_nomenclatures():
-    logging.info("Create a table with all nomenclatures 'title's : {}".format(SNDS_NOMENCLATURES_CSV))
+    logging.info("Create a table with all nomenclatures 'title's : {}".format(DICO_NOMENCLATURES_CSV))
     nomenclature_dict = defaultdict(set)
     for schema in get_all_schema():
         # table_name = schema.descriptor.get('name')
@@ -79,13 +80,13 @@ def table_schema_to_snds_nomenclatures():
         })
     df = pd.DataFrame(nomenclature_list, columns=[NOMENCLATURE, TITRE, 'variables_liees'])
     df = df.sort_values([NOMENCLATURE])
-    snds_nomenclature_path = os.path.join(DICO_SNDS_DIR, SNDS_NOMENCLATURES_CSV)
+    snds_nomenclature_path = os.path.join(DICO_SNDS_DIR, DICO_NOMENCLATURES_CSV)
     df.to_csv(snds_nomenclature_path, index=False)
 
 
 def table_schema_to_snds_variables():
     # dico_produit = "produit"
-    logging.info("Convert schemas to {}".format(SNDS_VARIABLES_CSV))
+    logging.info("Convert schemas to {}".format(DICO_VARIABLES_CSV))
     variables_list = []
     for schema in get_all_schema():
         for field in schema.fields:
@@ -114,12 +115,12 @@ def table_schema_to_snds_variables():
     df = df.sort_values([
         # dico_produit,
         'table', DICO_VARIABLE])
-    snds_variable_path = os.path.join(DICO_SNDS_DIR, SNDS_VARIABLES_CSV)
+    snds_variable_path = os.path.join(DICO_SNDS_DIR, DICO_VARIABLES_CSV)
     df.to_csv(snds_variable_path, index=False)
 
 
 def table_schema_to_snds_tables():
-    logging.info("Convert schemas to {}".format(TABLES_CSV))
+    logging.info("Convert schemas to {}".format(DICO_TABLES_CSV))
     dico_produit = "Produit"
     dico_table = "Table"
     dico_libelle = 'Libelle'
@@ -138,12 +139,12 @@ def table_schema_to_snds_tables():
     df = pd.DataFrame(table_list, columns=[dico_produit, dico_table, dico_libelle, DATE_CREATION, DATE_SUPRESSION,
                                            DATES_MANQUANTES])
     df = df.sort_values([dico_produit, dico_table, dico_libelle])
-    snds_table_path = os.path.join(DICO_SNDS_DIR, TABLES_CSV)
+    snds_table_path = os.path.join(DICO_SNDS_DIR, DICO_TABLES_CSV)
     df.to_csv(snds_table_path, index=False)
 
 
 def table_schema_to_snds_graph():
-    logging.info("Convert schemas to {} and {}".format(NODES_CSV, EDGES_CSV))
+    logging.info("Convert schemas to {} and {}".format(DICO_NODES_CSV, DICO_EDGES_CSV))
     node_dict = dict()
     edge_list = []
     for i, schema in enumerate(get_all_schema()):
@@ -168,7 +169,7 @@ def table_schema_to_snds_graph():
             })
     df_nodes = pd.DataFrame(list(node_dict.values()), columns=['name', 'description', 'group', 'index', 'nb_vars'])
     df_nodes = df_nodes.sort_values(['index'])
-    snds_nodes_path = os.path.join(DICO_SNDS_DIR, NODES_CSV)
+    snds_nodes_path = os.path.join(DICO_SNDS_DIR, DICO_NODES_CSV)
     df_nodes.to_csv(snds_nodes_path, index=False)
 
     df_edges = pd.DataFrame(edge_list, columns=['source', 'target', 'joint_var'])
@@ -178,7 +179,7 @@ def table_schema_to_snds_graph():
                 .reset_index()
                 .sort_values(['source', 'target'])
                 )
-    snds_edges_path = os.path.join(DICO_SNDS_DIR, EDGES_CSV)
+    snds_edges_path = os.path.join(DICO_SNDS_DIR, DICO_EDGES_CSV)
     df_edges.to_csv(snds_edges_path, index=False)
 
 

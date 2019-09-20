@@ -60,7 +60,7 @@ def test_all_nomenclatures_have_schema():
 @pytest.mark.parametrize('nomenclature_path,schema_path', get_all_nomenclatures_csv_schema_path(NOMENCLATURES_DIR))
 def test_validate_nomenclature_schema(nomenclature_path, schema_path):
     """
-    Validate that nomenclature's schema is valid.
+    Validate that nomenclature csv is valid when compared to its's schema
     """
     report = validate(nomenclature_path, schema=schema_path)
     pprint(report)
@@ -70,9 +70,21 @@ def test_validate_nomenclature_schema(nomenclature_path, schema_path):
 @pytest.mark.parametrize('nomenclature_path,schema_path', get_all_nomenclatures_csv_schema_path(NOMENCLATURES_DIR))
 def test_nomenclature_primary_keys_is_unique(nomenclature_path, schema_path):
     """
-    Validate that nomenclature's schema is valid.
+    Validate that nomenclature have a primary key, and that it is unique.
     """
     schema = Schema(schema_path)
-    assert schema.primary_key, "Schema of nomenclature {} should contain a primaryKey".format(schema.name)
+    assert schema.primary_key, "Schema of nomenclature {} should contain a primaryKey".format(schema.descriptor['name'])
     df = pd.read_csv(nomenclature_path, sep=';', usecols=schema.primary_key)
     assert 0 == df.duplicated().sum()
+
+
+# TODO
+@pytest.mark.xfail(reason="To be done")
+@pytest.mark.parametrize('nomenclature_path,schema_path', get_all_nomenclatures_csv_schema_path(NOMENCLATURES_DIR))
+def test_nomenclature_have_title(nomenclature_path, schema_path):
+    """
+    Validate that nomenclature's schema have a title.
+    """
+    schema = Schema(schema_path)
+    name = schema.descriptor['name']
+    assert schema.descriptor["title"], "Nomenclature's schema for {} should have a title".format(name)

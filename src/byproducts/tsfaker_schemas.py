@@ -13,7 +13,7 @@ from typing import Dict
 
 from tableschema import Schema
 
-from src.constants import NO_NOMENCLATURE, SCHEMAS_DIR, ROOTED_NOMENCLATURES_DIR, TSFAKER_DIR
+from src.constants import NO_NOMENCLATURE, SCHEMAS_DIR, ROOTED_TSFAKER_DIR, NOMENCLATURES_DIR
 from src.constants import STRING, NUMBER, INTEGER
 from src.utils import get_all_schema_path, get_all_nomenclatures_schema
 
@@ -28,22 +28,23 @@ def run_tsfaker():
                   "--resources {nomenclatures} " \
                   "--output {fake_dir} " \
                   "--nrows 10 " \
-                  "--separator ';' " \
+                  "--separator ; " \
                   "--overwrite  " \
                   "--limit-fk 10 " \
                   "--logging-level WARNING" \
-        .format(schemas_dir=TSFAKER_DIR,
-                nomenclatures=ROOTED_NOMENCLATURES_DIR,
-                fake_dir=TSFAKER_DIR)
+        .format(schemas_dir=ROOTED_TSFAKER_DIR,
+                nomenclatures=NOMENCLATURES_DIR,
+                fake_dir=ROOTED_TSFAKER_DIR)
     logging.info("Use tsfaker to generate fake data.")
     logging.info("command: '{}'".format(tsfaker_cmd))
-    os.makedirs(TSFAKER_DIR, exist_ok=True)
+    os.makedirs(ROOTED_TSFAKER_DIR, exist_ok=True)
+    print(tsfaker_cmd.split())
     subprocess.run(tsfaker_cmd.split())
 
 
 def generate_tsfaker_schemas():
     logging.info("Build schemas with nomenclatures as foreign keys, in directory '{}'"
-                 .format(TSFAKER_DIR))
+                 .format(ROOTED_TSFAKER_DIR))
     nomenclature_to_fk_reference = build_nomenclature_to_foreign_keys_reference()
 
     for source_schema_path in get_all_schema_path():
@@ -52,7 +53,7 @@ def generate_tsfaker_schemas():
         replace_nomenclatures_by_foreign_key_reference(schema, nomenclature_to_fk_reference)
         schema.commit(strict=True)
 
-        target_schema_path = source_schema_path.replace(SCHEMAS_DIR, TSFAKER_DIR)
+        target_schema_path = source_schema_path.replace(SCHEMAS_DIR, ROOTED_TSFAKER_DIR)
         schema.save(target_schema_path, ensure_ascii=False)
 
 
@@ -123,4 +124,5 @@ def build_nomenclature_to_foreign_keys_reference() -> Dict[str, dict]:
 
 
 if __name__ == '__main__':
-    generate_fake_data()
+    run_tsfaker()
+    #generate_fake_data()

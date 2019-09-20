@@ -7,19 +7,22 @@ L'objectif de ces fonctions est de recréer les données nécessaire à l'applic
 import logging
 import os
 from typing import Union, List
-
+from collections import defaultdict
 import pandas as pd
 
-from src.constants import DICO_SNDS_DIR, NO_NOMENCLATURE, DATE_CREATED, DATE_DELETED, DATE_MISSING, NOMENCLATURE
-from src.utils import get_all_schema
+from src.constants import DICO_SNDS_DIR, NO_NOMENCLATURE, DATE_CREATED, DATE_DELETED, DATE_MISSING, NOMENCLATURE, \
+    NOMENCLATURES_DIR
+from src.utils import get_all_schema, get_all_nomenclatures_schema
 
 EDGES_CSV = "snds_links.csv"
 NODES_CSV = "snds_nodes.csv"
 TABLES_CSV = "snds_tables.csv"
 SNDS_VARIABLES_CSV = "snds_vars.csv"
+SNDS_NOMENCLATURES_CSV = "snds_nomenclatures.csv"
 
 DICO_VARIABLE = 'var'
 SCHEMA_PRODUIT = 'produit'
+TITRE = "titre"
 
 PRODUIT_TO_GROUP = {
     "BENEFICIAIRE": 1,
@@ -47,6 +50,37 @@ def generate_dico_snds():
     table_schema_to_snds_variables()
     table_schema_to_snds_tables()
     table_schema_to_snds_graph()
+    table_schema_to_snds_nomenclatures()
+
+
+def table_schema_to_snds_nomenclatures():
+    logging.info("Create a table with all nomenclatures 'title's : {}".format(SNDS_NOMENCLATURES_CSV))
+    nomenclature_dict = defaultdict(set)
+    for schema in get_all_schema():
+        # table_name = schema.descriptor.get('name')
+        for field in schema.fields:
+            descriptor = field.descriptor
+            variable_name = descriptor.get('name')
+            nomenclature = str(descriptor.get(NOMENCLATURE, ''))
+            if nomenclature:
+                nomenclature_dict[nomenclature].add(variable_name)
+
+    nomenclature_list = []
+    for schema in get_all_nomenclatures_schema(NOMENCLATURES_DIR):
+        nomenclature = schema.descriptor['name']
+        variables_liees = ', '.join(sorted(list(nomenclature_dict[nomenclature])))
+        if not variables_liees:
+            variables_liees = 'Aucune variable liée'
+        nomenclature_list.append({
+            NOMENCLATURE: nomenclature,
+            TITRE: schema.descriptor.get('title', 'Titre manquant'),
+            # 'description': schema.descriptor.get('description', ''),
+            'variables_liees': variables_liees
+        })
+    df = pd.DataFrame(nomenclature_list, columns=[NOMENCLATURE, TITRE, 'variables_liees'])
+    df = df.sort_values([NOMENCLATURE])
+    snds_nomenclature_path = os.path.join(DICO_SNDS_DIR, SNDS_NOMENCLATURES_CSV)
+    df.to_csv(snds_nomenclature_path, index=False)
 
 
 def table_schema_to_snds_variables():

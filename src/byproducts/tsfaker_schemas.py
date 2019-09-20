@@ -38,7 +38,6 @@ def run_tsfaker():
     logging.info("Use tsfaker to generate fake data.")
     logging.info("command: '{}'".format(tsfaker_cmd))
     os.makedirs(ROOTED_TSFAKER_DIR, exist_ok=True)
-    print(tsfaker_cmd.split())
     subprocess.run(tsfaker_cmd.split())
 
 
@@ -124,5 +123,4 @@ def build_nomenclature_to_foreign_keys_reference() -> Dict[str, dict]:
 
 
 if __name__ == '__main__':
-    run_tsfaker()
-    #generate_fake_data()
+    generate_fake_data()

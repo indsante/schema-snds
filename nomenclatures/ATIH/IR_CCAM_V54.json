@@ -17,6 +17,7 @@
     ""
   ],
   "name": "IR_CCAM_V54",
+  "title": "Classification commune des actes médicaux (ATIH)",
   "primaryKey": [
     "CAM_PRS_IDE_COD"
   ]

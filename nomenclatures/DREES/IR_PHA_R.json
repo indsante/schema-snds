@@ -347,6 +347,7 @@
     "NA"
   ],
   "name": "IR_PHA_R",
+  "title": "Référentiel des médicaments (correspondance CIP13, ATC et libellés)",
   "primaryKey": [
     "PHA_CIP_C13"
   ]

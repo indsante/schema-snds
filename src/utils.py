@@ -3,14 +3,14 @@ from typing import List, Union, Tuple
 
 from tableschema import Schema
 
-from src.constants import SCHEMAS_DIR, NOMENCLATURES_DIR
+from src.constants import ROOTED_SCHEMAS_DIR, NOMENCLATURES_DIR
 
 
-def get_all_schema(schemas_dir=SCHEMAS_DIR) -> List[Schema]:
+def get_all_schema(schemas_dir=ROOTED_SCHEMAS_DIR) -> List[Schema]:
     return [Schema(schema_path) for schema_path in get_all_schema_path(schemas_dir)]
 
 
-def get_all_schema_path(schemas_dir=SCHEMAS_DIR) -> List[str]:
+def get_all_schema_path(schemas_dir=ROOTED_SCHEMAS_DIR) -> List[str]:
     for root, dirs, files in os.walk(schemas_dir):
         dirs.sort()
         for file in sorted(files):

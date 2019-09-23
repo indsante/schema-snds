@@ -11,7 +11,7 @@ from collections import defaultdict
 import pandas as pd
 
 from src.constants import DICO_SNDS_DIR, NO_NOMENCLATURE, DATE_CREATED, DATE_DELETED, DATE_MISSING, NOMENCLATURE, \
-    NOMENCLATURES_DIR
+    ROOTED_NOMENCLATURES_DIR, ROOTED_SCHEMAS_DIR
 from src.utils import get_all_schema, get_all_nomenclatures_schema
 
 DICO_EDGES_CSV = "snds_links.csv"
@@ -57,7 +57,7 @@ def generate_dico_snds():
 def table_schema_to_snds_nomenclatures():
     logging.info("Create a table with all nomenclatures 'title's : {}".format(DICO_NOMENCLATURES_CSV))
     nomenclature_dict = defaultdict(set)
-    for schema in get_all_schema():
+    for schema in get_all_schema(ROOTED_SCHEMAS_DIR):
         # table_name = schema.descriptor.get('name')
         for field in schema.fields:
             descriptor = field.descriptor
@@ -67,7 +67,7 @@ def table_schema_to_snds_nomenclatures():
                 nomenclature_dict[nomenclature].add(variable_name)
 
     nomenclature_list = []
-    for schema in get_all_nomenclatures_schema(NOMENCLATURES_DIR):
+    for schema in get_all_nomenclatures_schema(ROOTED_NOMENCLATURES_DIR):
         nomenclature = schema.descriptor['name']
         variables_liees = ', '.join(sorted(list(nomenclature_dict[nomenclature])))
         if not variables_liees:

@@ -1,4 +1,4 @@
-# Schéma du SNDS
+sc# Schéma du SNDS
 
 Le SNDS est une collection de base de données, difficile à documenter et à manipuler.
 

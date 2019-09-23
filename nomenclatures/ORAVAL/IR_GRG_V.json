@@ -9,8 +9,7 @@
         {
             "name": "RRG_COD",
             "type": "integer",
-            "format": "default",
-            "role": "label"
+            "format": "default"
         },
         {
             "name": "GRG_LIC",
@@ -20,7 +19,8 @@
         {
             "name": "GRG_LIB",
             "type": "string",
-            "format": "default"
+            "format": "default",
+            "role": "label"
         },
         {
             "name": "GRG_LIB_SNI",

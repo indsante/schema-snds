@@ -13,7 +13,7 @@ from typing import Dict
 
 from tableschema import Schema
 
-from src.constants import NO_NOMENCLATURE, SCHEMAS_DIR, ROOTED_TSFAKER_DIR, NOMENCLATURES_DIR
+from src.constants import NO_NOMENCLATURE, ROOTED_SCHEMAS_DIR, ROOTED_TSFAKER_DIR, NOMENCLATURES_DIR
 from src.constants import STRING, NUMBER, INTEGER
 from src.utils import get_all_schema_path, get_all_nomenclatures_schema
 
@@ -52,7 +52,7 @@ def generate_tsfaker_schemas():
         replace_nomenclatures_by_foreign_key_reference(schema, nomenclature_to_fk_reference)
         schema.commit(strict=True)
 
-        target_schema_path = source_schema_path.replace(SCHEMAS_DIR, ROOTED_TSFAKER_DIR)
+        target_schema_path = source_schema_path.replace(ROOTED_SCHEMAS_DIR, ROOTED_TSFAKER_DIR)
         schema.save(target_schema_path, ensure_ascii=False)
 
 

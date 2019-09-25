@@ -34,7 +34,7 @@ def generate_postgresql_tables_within_docker():
 
 def generate_postgresql_tables(engine: Engine) -> None:
     logging.info("Creation des tables correspondant au schéma relationnel du SNDS, "
-                 "dans la base PostgreSQL exposée depuis un containeur Docekr.")
+                 "dans la base PostgreSQL exposée depuis un containeur Docker.")
     schemas = get_all_schema()
     storage = Storage(engine=engine)
     storage.create([schema.descriptor['name'] for schema in schemas],
@@ -92,3 +92,7 @@ def does_postgres_accept_connection(engine: Engine) -> bool:
         return False
     else:
         return True
+
+
+if __name__ == '__main__':
+    generate_relational_diagram()

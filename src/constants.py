@@ -38,7 +38,6 @@ BYPRODUCTS_DIR = join(DATA, 'byproducts')
 ROOTED_BYPRODUCTS_DIR = join(ROOT_DIR, BYPRODUCTS_DIR)
 DICO_SNDS_DIR = join(ROOTED_BYPRODUCTS_DIR, 'dico-snds')
 MARKDOWN_DIR = join(ROOTED_BYPRODUCTS_DIR, 'documentation-snds', 'markdown')
-TABLES_SIDEBAR_JS_PATH = join(ROOTED_BYPRODUCTS_DIR, 'documentation-snds', 'tables_sidebar.js')
 ROOTED_TSFAKER_DIR = join(ROOTED_BYPRODUCTS_DIR, "tsfaker")
 TSFAKER_DIR = join(DATA, 'byproducts', "tsfaker")
 

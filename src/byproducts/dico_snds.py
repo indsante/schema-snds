@@ -55,7 +55,7 @@ def generate_dico_snds():
 
 
 def table_schema_to_snds_nomenclatures():
-    logging.info("Create a table with all nomenclatures 'title's : {}".format(DICO_NOMENCLATURES_CSV))
+    logging.info(" - create a table with all nomenclatures title's : {}".format(DICO_NOMENCLATURES_CSV))
     nomenclature_dict = defaultdict(set)
     for schema in get_all_schema(ROOTED_SCHEMAS_DIR):
         # table_name = schema.descriptor.get('name')
@@ -86,7 +86,7 @@ def table_schema_to_snds_nomenclatures():
 
 def table_schema_to_snds_variables():
     # dico_produit = "produit"
-    logging.info("Convert schemas to {}".format(DICO_VARIABLES_CSV))
+    logging.info(" - convert schemas to {}".format(DICO_VARIABLES_CSV))
     variables_list = []
     for schema in get_all_schema():
         for field in schema.fields:
@@ -120,7 +120,7 @@ def table_schema_to_snds_variables():
 
 
 def table_schema_to_snds_tables():
-    logging.info("Convert schemas to {}".format(DICO_TABLES_CSV))
+    logging.info(" - convert schemas to {}".format(DICO_TABLES_CSV))
     dico_produit = "Produit"
     dico_table = "Table"
     dico_libelle = 'Libelle'
@@ -144,7 +144,7 @@ def table_schema_to_snds_tables():
 
 
 def table_schema_to_snds_graph():
-    logging.info("Convert schemas to {} and {}".format(DICO_NODES_CSV, DICO_EDGES_CSV))
+    logging.info(" - convert schemas to {} and {}".format(DICO_NODES_CSV, DICO_EDGES_CSV))
     node_dict = dict()
     edge_list = []
     for i, schema in enumerate(get_all_schema()):

@@ -36,13 +36,13 @@ def run_tsfaker():
                 nomenclatures=NOMENCLATURES_DIR,
                 fake_dir=ROOTED_TSFAKER_DIR)
     logging.info("Use tsfaker to generate fake data.")
-    logging.info("command: '{}'".format(tsfaker_cmd))
+    logging.info("Command used: '{}'".format(tsfaker_cmd))
     os.makedirs(ROOTED_TSFAKER_DIR, exist_ok=True)
     subprocess.run(tsfaker_cmd.split())
 
 
 def generate_tsfaker_schemas():
-    logging.info("Build schemas with nomenclatures as foreign keys, in directory '{}'"
+    logging.info("Build standard tables schemas for tsfaker in directory '{}'"
                  .format(ROOTED_TSFAKER_DIR))
     nomenclature_to_fk_reference = build_nomenclature_to_foreign_keys_reference()
 

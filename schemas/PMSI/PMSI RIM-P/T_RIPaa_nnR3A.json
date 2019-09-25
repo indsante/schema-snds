@@ -53,7 +53,10 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "constraints": {
+                "unique": true
+            }
         },
         {
             "name": "SEJ_IDT",

@@ -35,6 +35,7 @@
     ""
   ],
   "name": "IR_HAD_PEC_PAL",
+  "title": "Motif de prise en charge principal, HAD",
   "description": "La source est à cette adresse  https://www.atih.sante.fr/sites/default/files/public/content/3525/guide-methodo-had-2019-7_bis.pdf#page=121",
   "primaryKey": [
     "PEC_PAL_COD"

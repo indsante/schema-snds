@@ -97,6 +97,8 @@
         ""
     ],
     "name": "NT_LPP",
+    "title": "Liste des produits et prestations",
+    "description": "Source http://www.codage.ext.cnamts.fr/codif/tips//telecharge/index_tele.php?p_site=AMELI",
     "primaryKey": [
         "LPP_PRS_IDE"
     ]

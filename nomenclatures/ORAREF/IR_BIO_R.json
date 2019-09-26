@@ -132,6 +132,8 @@
         ""
     ],
     "name": "IR_BIO_R",
+    "title": "Nomenclature des actes médicales de biologie",
+    "description": "Source http://www.codage.ext.cnamts.fr/f_mediam/fo/nabm/DOC.pdf",
     "primaryKey": [
         "BIO_PRS_IDE"
     ]

@@ -61,6 +61,7 @@
         ""
     ],
     "name": "NU_UCD_R",
+    "title": "Unité Commune de Dispensation, médicaments rares en hospitalier, (codes cip7)",
     "primaryKey": [
         "UCD_UCD_COD"
     ]

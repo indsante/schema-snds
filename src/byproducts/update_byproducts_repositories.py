@@ -4,6 +4,7 @@ import shlex
 import shutil
 import subprocess
 from os.path import join as pjoin
+from time import sleep
 from typing import List, Tuple
 
 import requests
@@ -194,6 +195,7 @@ def create_merge_request(project_id: int, source_branch: str, repository_name: s
 
 def merge_when_pipeline_succeeds(project_id: int, merge_request_iid: int) -> None:
     logging.info('Accept merge request with automatic merge when pipeline succeeds.')
+    sleep(1)
     r = requests.post(
         GITLAB_COM_API_V4 + "/projects/{}/merge_requests/{}/approve".format(project_id, merge_request_iid),
         params={
@@ -202,6 +204,7 @@ def merge_when_pipeline_succeeds(project_id: int, merge_request_iid: int) -> Non
     )
     check_response_code(r)
 
+    sleep(1)
     r = requests.put(
         GITLAB_COM_API_V4 + "/projects/{}/merge_requests/{}/merge".format(project_id, merge_request_iid),
         params={

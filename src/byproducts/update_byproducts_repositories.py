@@ -48,6 +48,18 @@ def update_all_byproducts(local) -> None:
         automatic_merge=True,
         local=local)
 
+    update_errors += update_byproduct_repository(
+        byproduct_repository='synthetic-snds',
+        local_to_byproduct_directories=[
+            ('nomenclatures', 'nomenclatures'),
+            ('schemas', 'schemas')
+        ],
+        local_to_byproduct_files=[],
+        last_commit_sha=last_commit_sha,
+        byproduct_project_id=14595304,
+        automatic_merge=True,
+        local=local)
+
     if update_errors:
         raise Exception("Their were {} errors in byproduct update. Look for ERROR logs.".format(update_errors))
 

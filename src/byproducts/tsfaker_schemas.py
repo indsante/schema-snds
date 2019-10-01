@@ -8,18 +8,21 @@ On commence par transformer les schémas pour transformer les informations en co
 
 import logging
 import os
+import shutil
 import subprocess
 from typing import Dict
 
 from tableschema import Schema
 
-from src.constants import NO_NOMENCLATURE, ROOTED_SCHEMAS_DIR, ROOTED_TSFAKER_DIR, NOMENCLATURES_DIR
+from src.constants import NO_NOMENCLATURE, ROOTED_SCHEMAS_DIR, ROOTED_NOMENCLATURES_DIR, NOMENCLATURES_DIR, \
+    SCHEMAS_SYNTHETIC_SNDS_DIR, NOMENCLATURES_SYNTHETIC_SNDS_DIR
 from src.constants import STRING, NUMBER, INTEGER
 from src.utils import get_all_schema_path, get_all_nomenclatures_schema
 
 
-def generate_fake_data():
+def generate_synthetic_snds():
     generate_tsfaker_schemas()
+    copy_nomenclatures_for_tsfaker()
     run_tsfaker()
 
 
@@ -28,22 +31,29 @@ def run_tsfaker():
                   "--resources {nomenclatures} " \
                   "--output {fake_dir} " \
                   "--nrows 10 " \
-                  "--separator ; " \
                   "--overwrite  " \
                   "--limit-fk 10 " \
                   "--logging-level WARNING" \
-        .format(schemas_dir=ROOTED_TSFAKER_DIR,
+        .format(schemas_dir=SCHEMAS_SYNTHETIC_SNDS_DIR,
                 nomenclatures=NOMENCLATURES_DIR,
-                fake_dir=ROOTED_TSFAKER_DIR)
-    logging.info("Use tsfaker to generate fake data.")
+                fake_dir=SCHEMAS_SYNTHETIC_SNDS_DIR)
+    logging.info("Use synthetic-snds to generate fake data.")
     logging.info("Command used: '{}'".format(tsfaker_cmd))
-    os.makedirs(ROOTED_TSFAKER_DIR, exist_ok=True)
+    os.makedirs(SCHEMAS_SYNTHETIC_SNDS_DIR, exist_ok=True)
     subprocess.run(tsfaker_cmd.split())
 
 
+def copy_nomenclatures_for_tsfaker():
+    logging.info("Copy nomenclatures for synthetic-snds in directory '{}'"
+                 .format(NOMENCLATURES_SYNTHETIC_SNDS_DIR))
+    if os.path.exists(NOMENCLATURES_SYNTHETIC_SNDS_DIR):
+        shutil.rmtree(NOMENCLATURES_SYNTHETIC_SNDS_DIR)
+    shutil.copytree(ROOTED_NOMENCLATURES_DIR, NOMENCLATURES_SYNTHETIC_SNDS_DIR)
+
+
 def generate_tsfaker_schemas():
-    logging.info("Build standard tables schemas for tsfaker in directory '{}'"
-                 .format(ROOTED_TSFAKER_DIR))
+    logging.info("Build standard tables schemas for synthetic-snds in directory '{}'"
+                 .format(SCHEMAS_SYNTHETIC_SNDS_DIR))
     nomenclature_to_fk_reference = build_nomenclature_to_foreign_keys_reference()
 
     for source_schema_path in get_all_schema_path():
@@ -52,7 +62,7 @@ def generate_tsfaker_schemas():
         replace_nomenclatures_by_foreign_key_reference(schema, nomenclature_to_fk_reference)
         schema.commit(strict=True)
 
-        target_schema_path = source_schema_path.replace(ROOTED_SCHEMAS_DIR, ROOTED_TSFAKER_DIR)
+        target_schema_path = source_schema_path.replace(ROOTED_SCHEMAS_DIR, SCHEMAS_SYNTHETIC_SNDS_DIR)
         schema.save(target_schema_path, ensure_ascii=False)
 
 
@@ -123,4 +133,4 @@ def build_nomenclature_to_foreign_keys_reference() -> Dict[str, dict]:
 
 
 if __name__ == '__main__':
-    generate_fake_data()
+    generate_synthetic_snds()

@@ -9,10 +9,10 @@ import os
 from typing import Union, List
 from collections import defaultdict
 import pandas as pd
-
+from tableschema import Schema, Table
 from src.constants import DICO_SNDS_DIR, NO_NOMENCLATURE, DATE_CREATED, DATE_DELETED, DATE_MISSING, NOMENCLATURE, \
     ROOTED_NOMENCLATURES_DIR, ROOTED_SCHEMAS_DIR
-from src.utils import get_all_schema, get_all_nomenclatures_schema
+from src.utils import get_all_schema, get_all_nomenclatures_csv_schema_path
 
 DICO_EDGES_CSV = "snds_links.csv"
 DICO_NODES_CSV = "snds_nodes.csv"
@@ -67,7 +67,13 @@ def table_schema_to_snds_nomenclatures():
                 nomenclature_dict[nomenclature].add(variable_name)
 
     nomenclature_list = []
-    for schema in get_all_nomenclatures_schema(ROOTED_NOMENCLATURES_DIR):
+    for csv_path, schema_path in get_all_nomenclatures_csv_schema_path(ROOTED_NOMENCLATURES_DIR):
+        schema = Schema(schema_path)
+        table = Table(csv_path, schema=schema_path)
+        n_rows = 0
+        for row in table.iter():
+            n_rows += 1
+
         nomenclature = schema.descriptor['name']
         variables_liees = ', '.join(sorted(list(nomenclature_dict[nomenclature])))
         if not variables_liees:
@@ -76,9 +82,10 @@ def table_schema_to_snds_nomenclatures():
             NOMENCLATURE: nomenclature,
             TITRE: schema.descriptor.get('title', 'Titre manquant'),
             # 'description': schema.descriptor.get('description', ''),
-            'variables_liees': variables_liees
+            'variables_liees': variables_liees,
+            'nombre_lignes': n_rows
         })
-    df = pd.DataFrame(nomenclature_list, columns=[NOMENCLATURE, TITRE, 'variables_liees'])
+    df = pd.DataFrame(nomenclature_list, columns=[NOMENCLATURE, TITRE, 'variables_liees', 'nombre_lignes'])
     df = df.sort_values([NOMENCLATURE])
     snds_nomenclature_path = os.path.join(DICO_SNDS_DIR, DICO_NOMENCLATURES_CSV)
     df.to_csv(snds_nomenclature_path, index=False)

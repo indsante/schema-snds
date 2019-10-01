@@ -1,4 +1,4 @@
-nomenclature,titre,variables_liees
-IR_BIO_R,Titre manquant,"BIO_PRS_IDE, NABM_COD"
-IR_DEP_V,Qualificatif Dépense de Prestation,"DPN_QLF, PRS_DPN_QLP"
-IR_PHA_R,Titre manquant,"PHA_PRS_C13, PHA_PRS_IDE"
+nomenclature,titre,variables_liees,nombre_lignes
+IR_BIO_R,Titre manquant,"BIO_PRS_IDE, NABM_COD",1076
+IR_DEP_V,Qualificatif Dépense de Prestation,"DPN_QLF, PRS_DPN_QLP",20
+IR_PHA_R,Titre manquant,"PHA_PRS_C13, PHA_PRS_IDE",19517

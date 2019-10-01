@@ -27,7 +27,7 @@
     ""
   ],
   "name": "CSARR",
-  "title": "Nomenclature Csarr pour les motifs de prise en charge SSR",
+  "title": "Catalogue spécifique des actes de rééducation et réadaptaion (prise en charge SSR)",
   "primaryKey": [
     "csarr_code"
   ]

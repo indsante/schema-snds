@@ -23,12 +23,7 @@ def update_all_byproducts(local) -> None:
         raise Exception("GITLAB TOKEN is not set. This is expected, if we are not executing on GitLab-CI runners, "
                         "for protected branches. Exiting, as we cannot automatically update byproducts.")
 
-    last_commit_sha = exec_terminal("git rev-parse --verify HEAD").strip()
-    logging.debug("Le hash SHA du dernier commit est '{}'".format(last_commit_sha))
-
-    last_commit_message = exec_terminal("git log -1 --pretty=%B | head -n 1").strip()
-    last_commit_message = '-'.join(last_commit_message.split())
-    last_commit_id = last_commit_sha[:10] + ' ' + last_commit_message[:30]
+    last_commit_id = get_last_commit_id()
 
     update_errors = 0
     update_errors += update_byproduct_repository(
@@ -66,6 +61,15 @@ def update_all_byproducts(local) -> None:
 
     if update_errors:
         raise Exception("Their were {} errors in byproduct update. Look for ERROR logs.".format(update_errors))
+
+
+def get_last_commit_id():
+    last_commit_sha = exec_terminal("git rev-parse --verify HEAD").strip()
+    logging.debug("Le hash SHA du dernier commit est '{}'".format(last_commit_sha))
+    last_commit_message = exec_terminal("git log -1 --pretty=%B").strip()
+    last_commit_message = '-'.join(last_commit_message.split())
+    last_commit_id = last_commit_sha[:10] + '_' + last_commit_message[:50]
+    return last_commit_id
 
 
 def update_byproduct_repository(byproduct_repository: str,

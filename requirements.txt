@@ -12,3 +12,4 @@ tsfaker
 tableschema
 -e git+https://github.com/pajachiet/table-schema-to-markdown@change-format-for-documentation-snds#egg=table-schema-to-markdown
 tableschema-sql
+unidecode

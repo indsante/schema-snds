@@ -14,7 +14,8 @@
         {
             "name": "TRS_MTF_LB1",
             "type": "string",
-            "format": "default"
+            "format": "default",
+            "role": "label"
         },
         {
             "name": "TRS_MTF_CH2",
@@ -24,7 +25,8 @@
         {
             "name": "TRS_MTF_LB2",
             "type": "string",
-            "format": "default"
+            "format": "default",
+            "role": "label"
         },
         {
             "name": "TRS_MTF_CH3",
@@ -34,7 +36,8 @@
         {
             "name": "TRS_MTF_LB3",
             "type": "string",
-            "format": "default"
+            "format": "default",
+            "role": "label"
         },
         {
             "name": "TEC_COL",

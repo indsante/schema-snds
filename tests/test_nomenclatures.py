@@ -10,7 +10,7 @@ from tableschema import Schema
 
 from src.byproducts.main import generate_byproducts
 from src.constants import SCHEMAS, NOMENCLATURES_DIR, NO_NOMENCLATURE
-from src.utils import get_all_nomenclatures_csv_schema_path
+from src.utils import get_all_nomenclatures_csv_schema_path, get_all_nomenclatures_schema
 from src.utils import get_all_schema
 
 
@@ -80,11 +80,36 @@ def test_nomenclature_primary_keys_is_unique(nomenclature_path, schema_path):
 
 # TODO
 @pytest.mark.xfail(reason="To be done")
-@pytest.mark.parametrize('nomenclature_path,schema_path', get_all_nomenclatures_csv_schema_path(NOMENCLATURES_DIR))
-def test_nomenclature_have_title(nomenclature_path, schema_path):
+@pytest.mark.parametrize('schema', get_all_nomenclatures_schema(NOMENCLATURES_DIR))
+def test_nomenclature_have_title(schema):
     """
     Validate that nomenclature's schema have a title.
     """
-    schema = Schema(schema_path)
     name = schema.descriptor['name']
     assert schema.descriptor["title"], "Nomenclature's schema for {} should have a title".format(name)
+
+
+@pytest.mark.parametrize('schema', get_all_nomenclatures_schema(NOMENCLATURES_DIR))
+def test_nomenclatures_have_one_field_with_role_label(schema):
+    name = schema.descriptor['name']
+    if name in ['IR_DTE_V', 'IR_MTR_V', 'IR_ORG_V']:
+        return
+
+    label_fields = []
+    for field in schema.fields:
+        if 'role' in field.descriptor and field.descriptor['role'] == 'label':
+            label_fields.append(field.name)
+    assert len(label_fields) == 1, \
+        "Nomenclature's schema for {} should have one and only one field with role 'label'".format(name)
+
+
+@pytest.mark.parametrize('schema', get_all_nomenclatures_schema(NOMENCLATURES_DIR))
+def test_nomenclatures_have_one_field__with_role_code(schema):
+    name = schema.descriptor['name']
+
+    code_fields = []
+    for field in schema.fields:
+        if 'role' in field.descriptor and field.descriptor['role'] == 'code':
+            code_fields.append(field.name)
+    assert len(code_fields) == 1, \
+        "Nomenclature's schema for {} should have one and only one field with role 'code'".format(name)

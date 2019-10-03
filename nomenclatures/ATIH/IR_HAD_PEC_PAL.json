@@ -15,20 +15,17 @@
     {
       "name": "MPP",
       "type": "string",
-      "format": "default",
-      "role": "label"
+      "format": "default"
     },
     {
       "name": "MPA",
       "type": "string",
-      "format": "default",
-      "role": "label"
+      "format": "default"
     },
     {
       "name": "MPD",
       "type": "string",
-      "format": "default",
-      "role": "label"
+      "format": "default"
     }
   ],
   "missingValues": [

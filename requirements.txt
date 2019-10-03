@@ -1,14 +1,14 @@
 jupyter
 goodtables
-matplotlib==3.0.2
-pandas==0.23.4
-psycopg2-binary==2.7.6.1
-python-dotenv==0.10.1
-pytest==4.1.1
+matplotlib
+pandas
+psycopg2-binary
+python-dotenv
+pytest
 pytest-env
 requests
-SQLAlchemy==1.2.16
+SQLAlchemy
 tsfaker
 tableschema
 -e git+https://github.com/pajachiet/table-schema-to-markdown@change-format-for-documentation-snds#egg=table-schema-to-markdown
--e git+https://github.com/pajachiet/tableschema-sql-py@feat-create-comment#egg=tableschema_sql
+tableschema-sql

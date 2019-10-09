@@ -1,0 +1,82 @@
+{
+    "name": "T_MCOaa_nnPIP",
+    "title": "Fich comp prothèse PIP",
+    "produit": "PMSI MCO",
+    "history": {
+        "dateCreated": "2012",
+        "dateDeleted": "2016",
+        "dateMissing": []
+    },
+    "description": "",
+    "missingValues": [
+        ""
+    ],
+    "fields": [
+        {
+            "name": "ETA_NUM",
+            "description": "N° FINESS e-PMSI",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2012",
+            "dateDeleted": "2016",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "ANN",
+            "description": "Année période",
+            "type": "string",
+            "length": "4",
+            "dateCreated": "2012",
+            "dateDeleted": "2016",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "PRS_TYP",
+            "description": "Type de prestation",
+            "type": "string",
+            "length": "2",
+            "dateCreated": "2012",
+            "dateDeleted": "2016",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "MOI",
+            "description": "N° période (mois)",
+            "type": "string",
+            "length": "2",
+            "dateCreated": "2012",
+            "dateDeleted": "2016",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "PIP_COD",
+            "description": "Code PIP",
+            "type": "string",
+            "length": "3",
+            "dateCreated": "2012",
+            "dateDeleted": "2016",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "RSA_NUM",
+            "description": "N° d'index du RSA",
+            "type": "string",
+            "length": "10",
+            "dateCreated": "2012",
+            "dateDeleted": "2016",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        }
+    ]
+}

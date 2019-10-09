@@ -1,0 +1,82 @@
+{
+    "name": "T_MCOaa_nnGV2016",
+    "title": "Table de passage en version de GHM à partir de mars de l'année",
+    "produit": "PMSI MCO",
+    "history": {
+        "dateCreated": "2015",
+        "dateDeleted": "2017",
+        "dateMissing": []
+    },
+    "description": "",
+    "missingValues": [
+        ""
+    ],
+    "fields": [
+        {
+            "name": "ETA_NUM",
+            "description": "Numéro FINESS e-PMSI",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2015",
+            "dateDeleted": "2017",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "GHS_NUM",
+            "description": "Regroupage en GHS (utilisé pour la valorisation)",
+            "type": "string",
+            "length": "4",
+            "dateCreated": "2015",
+            "dateDeleted": "2017",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "GHS_THEO",
+            "description": "Regroupage en GHS (GHS correspond au GHM)",
+            "type": "string",
+            "length": "4",
+            "dateCreated": "2015",
+            "dateDeleted": "2017",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "ETE_GHS_NUM",
+            "description": "Regroupage en GHS (format numérique de GHS_NUM)",
+            "type": "number",
+            "length": "4",
+            "dateCreated": "2015",
+            "dateDeleted": "2017",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "GHM_NUM",
+            "description": "Regroupage en GHM",
+            "type": "string",
+            "length": "6",
+            "dateCreated": "2015",
+            "dateDeleted": "2017",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "RSA_NUM",
+            "description": "N° d'index du RSA",
+            "type": "string",
+            "length": "10",
+            "dateCreated": "2015",
+            "dateDeleted": "2017",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        }
+    ]
+}

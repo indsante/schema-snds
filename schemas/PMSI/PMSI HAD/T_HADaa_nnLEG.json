@@ -1,0 +1,104 @@
+{
+    "name": "T_HADaa_nnLEG",
+    "title": "Fichier donnant toutes les erreurs détectées par la fonction groupage (LEG)",
+    "produit": "PMSI HAD",
+    "history": {
+        "dateCreated": "2014",
+        "dateDeleted": "",
+        "dateMissing": []
+    },
+    "description": "",
+    "missingValues": [
+        ""
+    ],
+    "fields": [
+        {
+            "name": "SSEQ_NUM",
+            "description": "Numéro de sous-séquence",
+            "type": "string",
+            "length": "4",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "FAC_NUM",
+            "description": "N° séquentiel de facture",
+            "type": "string",
+            "length": "5",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "COD_ERR",
+            "description": "Code retour",
+            "type": "string",
+            "length": "4",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "RHAD_NUM",
+            "description": "N° séquentiel de séjour d'HAD/ N° séquentiel d'entrée",
+            "type": "string",
+            "length": "5",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "ANN",
+            "description": "Année période",
+            "type": "string",
+            "length": "4",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "ETA_NUM_ePMSI",
+            "description": "N° FINESS e-PMSI",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "SEQ_NUM",
+            "description": "Numéro de la séquence dans le séjour",
+            "type": "string",
+            "length": "4",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "MOI",
+            "description": "Mois période",
+            "type": "string",
+            "length": "2",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        }
+    ]
+}

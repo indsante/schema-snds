@@ -1,0 +1,49 @@
+{
+    "name": "T_MCOaa_nnGV10",
+    "title": "Table de passage en version de GHM V10",
+    "produit": "PMSI MCO",
+    "history": {
+        "dateCreated": "2005",
+        "dateDeleted": "2007",
+        "dateMissing": []
+    },
+    "description": "",
+    "missingValues": [
+        ""
+    ],
+    "fields": [
+        {
+            "name": "ETA_NUM",
+            "description": "Numéro FINESS e-PMSI",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2005",
+            "dateDeleted": "2007",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "GV10_GHM",
+            "description": "GHM en V10",
+            "type": "string",
+            "length": "6",
+            "dateCreated": "2005",
+            "dateDeleted": "2007",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "RSA_NUM",
+            "description": "N° d'index du RSA",
+            "type": "string",
+            "length": "10",
+            "dateCreated": "2005",
+            "dateDeleted": "2007",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "name": "T_SUPaa_nnIVG",
+    "title": "IVG (extension de fichier .ivg)",
+    "produit": "PMSI MCO",
+    "history": {
+        "dateCreated": "2007",
+        "dateDeleted": "2009",
+        "dateMissing": []
+    },
+    "description": "",
+    "missingValues": [
+        ""
+    ],
+    "fields": [
+        {
+            "name": "ETA_NUM",
+            "description": "Numéro FINESS e-PMSI",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2007",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "FIC_TYP",
+            "description": "Type de fichier",
+            "type": "number",
+            "length": "3",
+            "dateCreated": "2007",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "ANN_MOI",
+            "description": "Mois et année",
+            "type": "date",
+            "length": null,
+            "dateCreated": "2007",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "NBR_IVG",
+            "description": "Nombre total réalisé",
+            "type": "number",
+            "length": "8",
+            "dateCreated": "2007",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "PRS_IVG",
+            "description": "Code prestation IVG",
+            "type": "string",
+            "length": "5",
+            "dateCreated": "2007",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        }
+    ]
+}

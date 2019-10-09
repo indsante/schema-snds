@@ -1,0 +1,60 @@
+{
+    "name": "T_MCOaa_nnSUP_FFM",
+    "title": "Fich sup ACE Consultations externes Spécifiques",
+    "produit": "PMSI MCO",
+    "history": {
+        "dateCreated": "2015",
+        "dateDeleted": "2016",
+        "dateMissing": []
+    },
+    "description": "",
+    "missingValues": [
+        ""
+    ],
+    "fields": [
+        {
+            "name": "ETA_NUM",
+            "description": "Numéro FINESS d’inscription ePMSI",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2015",
+            "dateDeleted": "2016",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "NBR_FFM",
+            "description": "Nombre total réalisé",
+            "type": "number",
+            "length": "10",
+            "dateCreated": "2015",
+            "dateDeleted": "2016",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "ANN_MOI",
+            "description": "Année+Mois",
+            "type": "string",
+            "length": "6",
+            "dateCreated": "2015",
+            "dateDeleted": "2016",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "FIC_TYP",
+            "description": "Type de fichier",
+            "type": "string",
+            "length": "3",
+            "dateCreated": "2015",
+            "dateDeleted": "2016",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        }
+    ]
+}

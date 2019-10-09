@@ -142,6 +142,17 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": []
+        },
+        {
+            "name": "ARO_THE_TAU",
+            "description": "Taux théorique de remboursement (autre que régime obligatoire)",
+            "type": "number",
+            "length": "5",
+            "nomenclature": "IR_TAU_V",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "format": "default"
         }
     ],
     "name": "ER_BIO_F",

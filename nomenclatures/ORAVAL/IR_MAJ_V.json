@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "PRS_TYP_MAJ",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "TYP_MAJ_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_MAJ_V",
+    "title": "Type de Majoration",
+    "primaryKey": [
+        "PRS_TYP_MAJ"
+    ]
+}

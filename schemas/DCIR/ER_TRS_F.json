@@ -230,6 +230,50 @@
             "dateCreated": "2007",
             "dateDeleted": "",
             "dateMissing": []
+        },
+        {
+            "name": "TRS_DTF_DTE",
+            "description": "Date d'arrivée du transport",
+            "type": "date",
+            "length": "6",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "TRS_DTD_AME",
+            "description": "Année et mois de départ du transport (format AAAAMM)",
+            "type": "string",
+            "length": "6",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "TRS_DTD_DTE",
+            "description": "Date de départ du transport",
+            "type": "date",
+            "length": "6",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "TRS_DTF_AME",
+            "description": "Année et mois d'arrivée du transport (format AAAAMM)",
+            "type": "string",
+            "length": "6",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "format": "default"
         }
     ],
     "name": "ER_TRS_F",

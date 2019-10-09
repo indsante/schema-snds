@@ -846,6 +846,17 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": []
+        },
+        {
+            "name": "BEN_DCD_AME",
+            "description": "Année et mois de décès du bénéficiaire",
+            "type": "string",
+            "length": "6",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "format": "default"
         }
     ],
     "name": "CT_DEP_AAAA_GN",

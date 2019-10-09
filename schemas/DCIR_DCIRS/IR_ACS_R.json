@@ -76,6 +76,17 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": []
+        },
+        {
+            "name": "IND_RNM_BEN",
+            "description": "Top RNIAM",
+            "type": "string",
+            "length": "1",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "format": "default"
         }
     ],
     "name": "IR_ACS_R",

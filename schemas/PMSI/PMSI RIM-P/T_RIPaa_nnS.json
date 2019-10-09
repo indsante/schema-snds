@@ -60,7 +60,7 @@
             "description": "Durée couverte par les séquences",
             "type": "number",
             "nomenclature": "-",
-            "length": "0",
+            "length": null,
             "format": "default",
             "dateCreated": "2015",
             "dateDeleted": "",

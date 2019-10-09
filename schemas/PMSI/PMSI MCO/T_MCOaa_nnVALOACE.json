@@ -412,7 +412,7 @@
             "description": "Nb lignes de la facture",
             "type": "number",
             "nomenclature": "-",
-            "length": "20",
+            "length": "10",
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "",

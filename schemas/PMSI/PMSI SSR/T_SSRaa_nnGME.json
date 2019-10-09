@@ -38,7 +38,7 @@
             "description": "Nombre de jours",
             "type": "number",
             "nomenclature": "-",
-            "length": "0",
+            "length": null,
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "",

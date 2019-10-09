@@ -23,7 +23,7 @@ def test_tableschema_is_valid(schema_path):
 
 def test_get_all_schema_path_return_all_schemas():
     number_of_schemas = len(list(get_all_schema_path(SCHEMAS)))
-    assert number_of_schemas == 143
+    assert number_of_schemas >= 143
 
 
 @pytest.mark.parametrize('schema_path', get_all_schema_path(SCHEMAS))

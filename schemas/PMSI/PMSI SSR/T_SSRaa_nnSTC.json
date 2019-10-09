@@ -486,7 +486,7 @@
         },
         {
             "name": "PA_COD",
-            "description": "Code participation assuré ",
+            "description": "Code participation assuré",
             "type": "string",
             "nomenclature": "-",
             "length": "1",
@@ -519,7 +519,7 @@
         },
         {
             "name": "CENT_GES",
-            "description": "N° centre gestionnaire ",
+            "description": "N° centre gestionnaire",
             "type": "string",
             "nomenclature": "-",
             "length": "4",
@@ -552,7 +552,7 @@
         },
         {
             "name": "RNG_NAI",
-            "description": "Rang de naissance ",
+            "description": "Rang de naissance",
             "type": "string",
             "nomenclature": "-",
             "length": "1",
@@ -563,7 +563,7 @@
         },
         {
             "name": "RNG_BEN",
-            "description": "Rang du bénéficiaire ",
+            "description": "Rang du bénéficiaire",
             "type": "string",
             "nomenclature": "-",
             "length": "3",
@@ -574,7 +574,7 @@
         },
         {
             "name": "PEC_SOI_URG_CTL",
-            "description": "Code retour contrôle «Confirmation de la prise en charge dans le cadre du dispositif des soins urgents« ",
+            "description": "Code retour contrôle \"Confirmation de la prise en charge dans le cadre du dispositif des soins urgents\"",
             "type": "string",
             "nomenclature": "-",
             "length": "1",
@@ -585,7 +585,7 @@
         },
         {
             "name": "PEC_SOI_URG",
-            "description": "Confirmation de la prise en charge dans le cadre du dispositif des soins urgents ",
+            "description": "Confirmation de la prise en charge dans le cadre du dispositif des soins urgents",
             "type": "string",
             "nomenclature": "-",
             "length": "1",

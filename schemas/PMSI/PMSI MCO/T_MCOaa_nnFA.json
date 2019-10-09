@@ -13,7 +13,7 @@
         },
         {
             "name": "COD_CIV",
-            "description": "Code civilité ",
+            "description": "Code civilité",
             "type": "string",
             "nomenclature": "-",
             "length": "1",
@@ -299,7 +299,7 @@
         },
         {
             "name": "RSA_NUM",
-            "description": " N° séquentiel (le même que pour les RSA)",
+            "description": "N° séquentiel (le même que pour les RSA)",
             "type": "string",
             "nomenclature": "-",
             "length": "10",

@@ -288,7 +288,7 @@
         },
         {
             "name": "SOR_DES",
-            "description": "Destination ",
+            "description": "Destination",
             "type": "string",
             "nomenclature": "MS_PRV_V",
             "length": "1",
@@ -409,7 +409,7 @@
         },
         {
             "name": "HAB_DEP",
-            "description": "Dépendance à l’habillage ou à la toilette",
+            "description": "Dépendance à l’habillage",
             "type": "string",
             "nomenclature": "-",
             "length": "1",

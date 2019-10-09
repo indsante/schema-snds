@@ -46,7 +46,7 @@
         },
         {
             "name": "RSA_NUM",
-            "description": "N° d'index du RSA ",
+            "description": "N° d'index du RSA",
             "type": "string",
             "nomenclature": "-",
             "length": "10",

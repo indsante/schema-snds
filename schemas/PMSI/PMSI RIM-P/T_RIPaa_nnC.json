@@ -200,7 +200,7 @@
         },
         {
             "name": "ENT_DAT",
-            "description": "Date d'entrée du séjour PMSI",
+            "description": "Date d'entrée",
             "type": "string",
             "nomenclature": "-",
             "length": "8",
@@ -211,7 +211,7 @@
         },
         {
             "name": "SOR_DAT",
-            "description": "Date de sortie du séjour PMSI",
+            "description": "Date de sortie",
             "type": "string",
             "nomenclature": "-",
             "length": "8",
@@ -266,7 +266,7 @@
         },
         {
             "name": "NUM_DAT_AT_RET",
-            "description": "Code retour contrôle « Numéro accident du travail ou date d’accident de droit commun«",
+            "description": "Code retour contrôle \" Numéro accident du travail ou date d’accident de droit commun\"",
             "type": "string",
             "nomenclature": "-",
             "length": "1",
@@ -277,7 +277,7 @@
         },
         {
             "name": "ORG_CPL_NUM_RET",
-            "description": "Code retour contrôle « N° d’organisme complémentaire«",
+            "description": "Code retour contrôle \" N° d’organisme complémentaire\"",
             "type": "string",
             "nomenclature": "-",
             "length": "1",

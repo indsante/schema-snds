@@ -2,7 +2,7 @@
     "fields": [
         {
             "name": "ETA_NUM",
-            "description": "N° FINESS ",
+            "description": "N° FINESS",
             "type": "string",
             "nomenclature": "-",
             "length": "9",
@@ -13,7 +13,7 @@
         },
         {
             "name": "MOI_LUN_1S",
-            "description": "Mois du lundi de la première semaine du séjour dans l'année (SSR) ",
+            "description": "Mois du lundi de la première semaine du séjour dans l'année (SSR)",
             "type": "string",
             "nomenclature": "-",
             "length": "2",
@@ -35,7 +35,7 @@
         },
         {
             "name": "NIR_RET",
-            "description": "Code retour contrôle « n° sécurité sociale « ",
+            "description": "Code retour contrôle \" n° sécurité sociale \"",
             "type": "string",
             "nomenclature": "-",
             "length": "1",
@@ -46,7 +46,7 @@
         },
         {
             "name": "NAI_RET",
-            "description": "Code retour contrôle « date de naissance « ",
+            "description": "Code retour contrôle \" date de naissance \"",
             "type": "string",
             "nomenclature": "-",
             "length": "1",
@@ -57,7 +57,7 @@
         },
         {
             "name": "SEX_RET",
-            "description": "Code retour contrôle « sexe « ",
+            "description": "Code retour contrôle \" sexe \"",
             "type": "string",
             "nomenclature": "-",
             "length": "1",
@@ -68,7 +68,7 @@
         },
         {
             "name": "SEJ_RET",
-            "description": "Code retour contrôle « n° d’identification administratif de séjour « ",
+            "description": "Code retour contrôle \" n° d’identification administratif de séjour \"",
             "type": "string",
             "nomenclature": "-",
             "length": "1",
@@ -79,7 +79,7 @@
         },
         {
             "name": "FHO_RET",
-            "description": "Code retour «fusion ANO_HOSP et HOSP-PMSI«",
+            "description": "Code retour \"fusion ANO_HOSP et HOSP-PMSI\"",
             "type": "string",
             "nomenclature": "-",
             "length": "1",
@@ -90,7 +90,7 @@
         },
         {
             "name": "PMS_RET",
-            "description": "Code retour «fusion ANO-PMSI et fichier PMSI «",
+            "description": "Code retour \"fusion ANO-PMSI et fichier PMSI \"",
             "type": "string",
             "nomenclature": "-",
             "length": "1",
@@ -134,7 +134,7 @@
         },
         {
             "name": "NIR_ANO_17",
-            "description": "N° anonyme ",
+            "description": "N° anonyme",
             "type": "string",
             "nomenclature": "-",
             "length": "17",
@@ -145,7 +145,7 @@
         },
         {
             "name": "SEJ_NUM",
-            "description": "N° de séjour ",
+            "description": "N° de séjour",
             "type": "string",
             "nomenclature": "-",
             "length": "5",
@@ -233,7 +233,7 @@
         },
         {
             "name": "NUM_DAT_AT_RET",
-            "description": "Code retour contrôle « Numéro accident du travail ou date d’accident de droit commun«",
+            "description": "Code retour contrôle \" Numéro accident du travail ou date d’accident de droit commun\"",
             "type": "string",
             "nomenclature": "-",
             "length": "1",
@@ -244,7 +244,7 @@
         },
         {
             "name": "ORG_CPL_NUM_RET",
-            "description": "Code retour contrôle « N° d’organisme complémentaire«",
+            "description": "Code retour contrôle \" N° d’organisme complémentaire\"",
             "type": "string",
             "nomenclature": "-",
             "length": "1",

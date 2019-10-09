@@ -24,7 +24,7 @@
         },
         {
             "name": "ETA_NUM_GEO",
-            "description": "Numéro FINESS géographique",
+            "description": "Numéro FINESS de l’établissement (code géographique)",
             "type": "string",
             "nomenclature": "-",
             "length": "9",

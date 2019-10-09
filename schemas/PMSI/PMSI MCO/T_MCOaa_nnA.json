@@ -57,7 +57,7 @@
         },
         {
             "name": "ENT_DAT_DEL",
-            "description": "Délai depuis la date d'entrée",
+            "description": "Délai depuis la date d'entrée\nVariable de type Caractère de 2005 à 2013, puis de type numérique à partir de 2014",
             "type": "number",
             "nomenclature": "-",
             "length": "3",
@@ -134,7 +134,7 @@
         },
         {
             "name": "RSA_NUM",
-            "description": "N° d'index du RSA ",
+            "description": "N° d'index du RSA",
             "type": "string",
             "nomenclature": "-",
             "length": "10",

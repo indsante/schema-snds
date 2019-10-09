@@ -90,7 +90,7 @@
         },
         {
             "name": "QUA_COD",
-            "description": "Quantité ",
+            "description": "Quantité",
             "type": "number",
             "nomenclature": "-",
             "length": "0",

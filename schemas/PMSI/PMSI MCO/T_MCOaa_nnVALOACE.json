@@ -13,7 +13,7 @@
         },
         {
             "name": "fides",
-            "description": "Variable «valorisé par fides« du RAFAEL-A",
+            "description": "Variable \"valorisé par fides\" du RAFAEL-A",
             "type": "string",
             "nomenclature": "-",
             "length": "1",
@@ -35,7 +35,7 @@
         },
         {
             "name": "mnt_br",
-            "description": "Montant Base de remboursement total ",
+            "description": "Montant Base de remboursement total",
             "type": "number",
             "nomenclature": "-",
             "length": "10,2",
@@ -420,7 +420,7 @@
         },
         {
             "name": "NON_SEJ_FAC_AM",
-            "description": "Variable «Motif de non facturation à l'assurance maladie« du RAFAEL-A",
+            "description": "Variable \"Motif de non facturation à l'assurance maladie\" du RAFAEL-A",
             "type": "string",
             "nomenclature": "-",
             "length": "1",
@@ -442,7 +442,7 @@
         },
         {
             "name": "SEJ_FAC_AM",
-            "description": "Variable «Séjour facturable à l'assurance maladie« du RAFAEL-A",
+            "description": "Variable \"Séjour facturable à l'assurance maladie\" du RAFAEL-A",
             "type": "string",
             "nomenclature": "-",
             "length": "1",

@@ -2,7 +2,7 @@
     "fields": [
         {
             "name": "AGE_ANN",
-            "description": "Age en années ",
+            "description": "Age en années",
             "type": "number",
             "nomenclature": "-",
             "length": "3",
@@ -24,7 +24,7 @@
         },
         {
             "name": "AGE_JOU",
-            "description": "Age en jours  ",
+            "description": "Age en jours",
             "type": "number",
             "nomenclature": "-",
             "length": "3",
@@ -57,7 +57,7 @@
         },
         {
             "name": "BDI_COD",
-            "description": "Code géographique de résidence ",
+            "description": "Code géographique de résidence",
             "type": "string",
             "nomenclature": "-",
             "length": "5",
@@ -112,7 +112,7 @@
         },
         {
             "name": "COD_SEX",
-            "description": "Sexe ",
+            "description": "Sexe",
             "type": "string",
             "nomenclature": "-",
             "length": "1",
@@ -134,7 +134,7 @@
         },
         {
             "name": "DGN_PAL",
-            "description": "Diagnostic principal (DP) ",
+            "description": "Diagnostic principal (DP)",
             "type": "string",
             "nomenclature": "MS_CIM_V",
             "length": "6",
@@ -145,7 +145,7 @@
         },
         {
             "name": "DGN_REL",
-            "description": "Diagnostic relié (DR) ",
+            "description": "Diagnostic relié (DR)",
             "type": "string",
             "nomenclature": "MS_CIM_V",
             "length": "6",
@@ -167,7 +167,7 @@
         },
         {
             "name": "ENT_MOD",
-            "description": "Mode d'entrée dans le champ du PMSI-MCO ",
+            "description": "Mode d'entrée dans le champ du PMSI-MCO",
             "type": "string",
             "nomenclature": "MS_SOR_V",
             "length": "1",
@@ -178,7 +178,7 @@
         },
         {
             "name": "ENT_PRV",
-            "description": "Provenance ",
+            "description": "Provenance",
             "type": "string",
             "nomenclature": "MS_PRV_V",
             "length": "1",
@@ -343,7 +343,7 @@
         },
         {
             "name": "NBR_ACT",
-            "description": "Nombre de zones d'actes (nA) dans ce RSA ",
+            "description": "Nombre de zones d'actes (nA) dans ce RSA",
             "type": "number",
             "nomenclature": "-",
             "length": "5",
@@ -354,7 +354,7 @@
         },
         {
             "name": "NBR_DGN",
-            "description": "Nombre de diagnostics associés significatifs (nDAS) dans ce RSA ",
+            "description": "Nombre de diagnostics associés significatifs (nDAS) dans ce RSA",
             "type": "number",
             "nomenclature": "-",
             "length": "4",
@@ -365,7 +365,7 @@
         },
         {
             "name": "NBR_RUM",
-            "description": "Nombre de RUM composant le RSS d'origine (NbRUM) ",
+            "description": "Nombre de RUM composant le RSS d'origine (NbRUM)",
             "type": "number",
             "nomenclature": "-",
             "length": "2",
@@ -376,7 +376,7 @@
         },
         {
             "name": "NBR_SEA",
-            "description": "Nombre de séances ",
+            "description": "Nombre de séances",
             "type": "number",
             "nomenclature": "-",
             "length": "2",
@@ -453,7 +453,7 @@
         },
         {
             "name": "NBR_SUP_SRC",
-            "description": "Nombre de suppléments pour SRC (surveillance continue) ",
+            "description": "Nombre de suppléments pour SRC (surveillance continue)",
             "type": "number",
             "nomenclature": "-",
             "length": "3",
@@ -497,7 +497,7 @@
         },
         {
             "name": "POI_NAI",
-            "description": "Poids d'entrée (en grammes) ",
+            "description": "Poids d'entrée (en grammes)",
             "type": "number",
             "nomenclature": "-",
             "length": "4",
@@ -508,7 +508,7 @@
         },
         {
             "name": "RSA_NUM",
-            "description": "N° d'index du RSA ",
+            "description": "N° d'index du RSA",
             "type": "string",
             "nomenclature": "-",
             "length": "10",
@@ -552,7 +552,7 @@
         },
         {
             "name": "SEJ_NBJ",
-            "description": "Durée totale du séjour dans le champ du PMSI (vide si séances) ",
+            "description": "Durée totale du séjour dans le champ du PMSI (vide si séances)",
             "type": "number",
             "nomenclature": "-",
             "length": "4",
@@ -563,7 +563,7 @@
         },
         {
             "name": "SEJ_TYP",
-            "description": "Type de séjour ",
+            "description": "Type de séjour",
             "type": "string",
             "nomenclature": "-",
             "length": "1",
@@ -585,7 +585,7 @@
         },
         {
             "name": "SOR_ANN",
-            "description": "Année de sortie ",
+            "description": "Année de sortie",
             "type": "string",
             "nomenclature": "-",
             "length": "4",
@@ -596,7 +596,7 @@
         },
         {
             "name": "SOR_DES",
-            "description": "Destination ",
+            "description": "Destination",
             "type": "string",
             "nomenclature": "MS_PRV_V",
             "length": "1",
@@ -607,7 +607,7 @@
         },
         {
             "name": "SOR_MOD",
-            "description": "Mode de sortie du champ PMSI-MCO ",
+            "description": "Mode de sortie du champ PMSI-MCO",
             "type": "string",
             "nomenclature": "MS_SOR_V",
             "length": "1",
@@ -618,7 +618,7 @@
         },
         {
             "name": "SOR_MOI",
-            "description": "Mois de sortie ",
+            "description": "Mois de sortie",
             "type": "string",
             "nomenclature": "-",
             "length": "2",
@@ -695,7 +695,7 @@
         },
         {
             "name": "TOP_AVASTIN",
-            "description": "Top Radiation partielle Avastin ",
+            "description": "Top Radiation partielle Avastin",
             "type": "string",
             "nomenclature": "-",
             "length": "1",

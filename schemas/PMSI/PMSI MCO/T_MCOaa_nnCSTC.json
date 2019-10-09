@@ -68,7 +68,7 @@
         },
         {
             "name": "EXE_SOI_DTF",
-            "description": "Date de sortie ",
+            "description": "Date de sortie",
             "type": "date",
             "nomenclature": "-",
             "length": null,

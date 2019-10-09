@@ -68,7 +68,7 @@
         },
         {
             "name": "COEF_MCO",
-            "description": "Coefficient MCO ",
+            "description": "Coefficient MCO",
             "type": "number",
             "nomenclature": "-",
             "length": "5,4",

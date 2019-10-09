@@ -46,7 +46,7 @@
         },
         {
             "name": "DGN_COD",
-            "description": "DAS ",
+            "description": "DAS",
             "type": "string",
             "nomenclature": "-",
             "length": "6",

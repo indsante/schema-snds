@@ -90,7 +90,7 @@
         },
         {
             "name": "COD_SEX",
-            "description": "Sexe ",
+            "description": "Sexe",
             "type": "string",
             "nomenclature": "-",
             "length": "1",
@@ -123,7 +123,7 @@
         },
         {
             "name": "COD_CIV",
-            "description": "Code civilité ",
+            "description": "Code civilité",
             "type": "string",
             "nomenclature": "-",
             "length": "1",
@@ -156,7 +156,7 @@
         },
         {
             "name": "OPE_NAT",
-            "description": "Nature opération ",
+            "description": "Nature opération",
             "type": "string",
             "nomenclature": "-",
             "length": "1",
@@ -167,7 +167,7 @@
         },
         {
             "name": "NAT_ASS",
-            "description": "Nature assurance ",
+            "description": "Nature assurance",
             "type": "string",
             "nomenclature": "-",
             "length": "1",
@@ -178,7 +178,7 @@
         },
         {
             "name": "EXO_TM",
-            "description": "Justification d'exonération du TM ",
+            "description": "Justification d'exonération du TM",
             "type": "string",
             "nomenclature": "-",
             "length": "1",
@@ -211,7 +211,7 @@
         },
         {
             "name": "NOE_RGM",
-            "description": "Code Gd régime ",
+            "description": "Code Gd régime",
             "type": "string",
             "nomenclature": "-",
             "length": "1",
@@ -233,7 +233,7 @@
         },
         {
             "name": "PH_BRM",
-            "description": "Total Base Remboursement Prestation hospitalière ",
+            "description": "Total Base Remboursement Prestation hospitalière",
             "type": "number",
             "nomenclature": "-",
             "length": "0",
@@ -244,7 +244,7 @@
         },
         {
             "name": "PH_AMO_MNR",
-            "description": "Total remboursable AMO Prestation hospitalières ",
+            "description": "Total remboursable AMO Prestation hospitalières",
             "type": "number",
             "nomenclature": "-",
             "length": "0",
@@ -255,7 +255,7 @@
         },
         {
             "name": "HON_MNT",
-            "description": "Total honoraire Facturé ",
+            "description": "Total honoraire Facturé",
             "type": "number",
             "nomenclature": "-",
             "length": "0",
@@ -266,7 +266,7 @@
         },
         {
             "name": "HON_AM_MNR",
-            "description": "Total honoraire remboursable AM ",
+            "description": "Total honoraire remboursable AM",
             "type": "number",
             "nomenclature": "-",
             "length": "0",
@@ -277,7 +277,7 @@
         },
         {
             "name": "PAS_OC_MNT",
-            "description": "Total participation assuré avant OC ",
+            "description": "Total participation assuré avant OC",
             "type": "number",
             "nomenclature": "-",
             "length": "0",
@@ -288,7 +288,7 @@
         },
         {
             "name": "PH_OC_MNR",
-            "description": "Total remboursable OC pour les PH ",
+            "description": "Total remboursable OC pour les PH",
             "type": "number",
             "nomenclature": "-",
             "length": "0",
@@ -299,7 +299,7 @@
         },
         {
             "name": "HON_OC_MNR",
-            "description": "Total remboursable OC pour les honoraires ",
+            "description": "Total remboursable OC pour les honoraires",
             "type": "number",
             "nomenclature": "-",
             "length": "0",
@@ -310,7 +310,7 @@
         },
         {
             "name": "PH_MNT",
-            "description": "Montant total facturé pour PH ",
+            "description": "Montant total facturé pour PH",
             "type": "number",
             "nomenclature": "-",
             "length": "0",

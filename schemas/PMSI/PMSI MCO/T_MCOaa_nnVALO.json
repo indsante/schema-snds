@@ -13,7 +13,7 @@
         },
         {
             "name": "COEFPRUD",
-            "description": "coefficient prudentiel ",
+            "description": "coefficient prudentiel",
             "type": "number",
             "nomenclature": "-",
             "length": "5,4",
@@ -332,7 +332,7 @@
         },
         {
             "name": "MNT_MAJO",
-            "description": "Montant majoration du parcours de soin ",
+            "description": "Montant majoration du parcours de soin",
             "type": "number",
             "nomenclature": "-",
             "length": "10,2",
@@ -849,7 +849,7 @@
         },
         {
             "name": "NBEXB",
-            "description": "Nb journées EXB ",
+            "description": "Nb journées EXB",
             "type": "number",
             "nomenclature": "-",
             "length": "5",
@@ -860,7 +860,7 @@
         },
         {
             "name": "NBEXH",
-            "description": "Nombre de journées EXH ",
+            "description": "Nombre de journées EXH",
             "type": "number",
             "nomenclature": "-",
             "length": "5",
@@ -915,7 +915,7 @@
         },
         {
             "name": "SEJXINF",
-            "description": "Type de séjour inférieur à la borne extrême basse ",
+            "description": "Type de séjour inférieur à la borne extrême basse",
             "type": "string",
             "nomenclature": "-",
             "length": "1",
@@ -970,7 +970,7 @@
         },
         {
             "name": "TAUX2",
-            "description": "Taux de remboursement ",
+            "description": "Taux de remboursement",
             "type": "number",
             "nomenclature": "-",
             "length": "5,2",

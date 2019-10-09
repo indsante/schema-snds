@@ -2,7 +2,7 @@
     "fields": [
         {
             "name": "AUT_TYP_PGV",
-            "description": "Type d'autorisation à portée globale valide ",
+            "description": "Type d'autorisation à portée globale valide",
             "type": "string",
             "nomenclature": "-",
             "length": "2",
@@ -24,7 +24,7 @@
         },
         {
             "name": "RSA_NUM",
-            "description": "N° d'index du RSA ",
+            "description": "N° d'index du RSA",
             "type": "string",
             "nomenclature": "-",
             "length": "10",

@@ -164,6 +164,61 @@
             "dateCreated": "2013",
             "dateDeleted": "",
             "dateMissing": []
+        },
+        {
+            "name": "NBR_CM",
+            "description": "Nombre de CM (nc)",
+            "type": "number",
+            "length": null,
+            "dateCreated": "2013",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "NBR_UM",
+            "description": "Nombre d’unité médicale",
+            "type": "number",
+            "length": null,
+            "dateCreated": "2005",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "DUMMY",
+            "description": "DUMMY",
+            "type": "string",
+            "length": "1024",
+            "dateCreated": "2011",
+            "dateDeleted": "2012",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "NBR_CMC",
+            "description": "Nombre de CMC (nc)",
+            "type": "number",
+            "length": null,
+            "dateCreated": "2005",
+            "dateDeleted": "2013",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "NBR_GHJ",
+            "description": "Nombre de GHJ (ng)",
+            "type": "number",
+            "length": null,
+            "dateCreated": "2005",
+            "dateDeleted": "2013",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
         }
     ],
     "name": "T_SSRaa_nnS",

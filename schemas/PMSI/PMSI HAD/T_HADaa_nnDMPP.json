@@ -65,6 +65,17 @@
             "dateCreated": "2012",
             "dateDeleted": "",
             "dateMissing": []
+        },
+        {
+            "name": "ETA_NUM_TWO",
+            "description": "Numéro FINESS de l’établissement (code géographique)",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2012",
+            "dateDeleted": "2017",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
         }
     ],
     "name": "T_HADaa_nnDMPP",

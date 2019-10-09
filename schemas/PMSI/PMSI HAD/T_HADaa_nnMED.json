@@ -186,6 +186,17 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": []
+        },
+        {
+            "name": "UCD_COD",
+            "description": "Code UCD",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2009",
+            "dateDeleted": "2015",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
         }
     ],
     "name": "T_HADaa_nnMED",

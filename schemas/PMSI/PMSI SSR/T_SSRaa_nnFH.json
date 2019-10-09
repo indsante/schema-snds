@@ -175,6 +175,50 @@
             "dateCreated": "2017",
             "dateDeleted": "2017",
             "dateMissing": []
+        },
+        {
+            "name": "COD_TAU",
+            "description": "Code Taux",
+            "type": "string",
+            "length": "1",
+            "dateCreated": "2007",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "MNT_IND",
+            "description": "Montant écart indemnisable",
+            "type": "number",
+            "length": null,
+            "dateCreated": "2007",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "PRI_UNI_FAC",
+            "description": "Prix unitaire facturé",
+            "type": "number",
+            "length": null,
+            "dateCreated": "2007",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "ACT_DEL",
+            "description": "Délai de l'acte",
+            "type": "number",
+            "length": null,
+            "dateCreated": "2007",
+            "dateDeleted": "2012",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
         }
     ],
     "name": "T_SSRaa_nnFH",

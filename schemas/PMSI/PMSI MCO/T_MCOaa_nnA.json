@@ -153,6 +153,17 @@
             "dateCreated": "2005",
             "dateDeleted": "",
             "dateMissing": []
+        },
+        {
+            "name": "RUM_SEQ",
+            "description": "N° séquentiel du RUM ayant fourni le DP",
+            "type": "string",
+            "length": "2",
+            "dateCreated": "2008",
+            "dateDeleted": "2010",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
         }
     ],
     "name": "T_MCOaa_nnA",

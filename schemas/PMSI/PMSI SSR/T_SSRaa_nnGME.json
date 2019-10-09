@@ -65,6 +65,39 @@
             "dateCreated": "2017",
             "dateDeleted": "2017",
             "dateMissing": []
+        },
+        {
+            "name": "RHS_NUM",
+            "description": "N° séquentiel du RHS",
+            "type": "string",
+            "length": "3",
+            "dateCreated": "2012",
+            "dateDeleted": "2013",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "RET_COD",
+            "description": "code retour *",
+            "type": "string",
+            "length": "3",
+            "dateCreated": "2012",
+            "dateDeleted": "2013",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "GME",
+            "description": "GME",
+            "type": "string",
+            "length": "6",
+            "dateCreated": "2012",
+            "dateDeleted": "2013",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
         }
     ],
     "name": "T_SSRaa_nnGME",

@@ -373,6 +373,94 @@
             "dateCreated": "2015",
             "dateDeleted": "",
             "dateMissing": []
+        },
+        {
+            "name": "SEJ_LUN_ANN",
+            "description": "Année de la date d'entrée de séjour",
+            "type": "string",
+            "length": "4",
+            "dateCreated": "2005",
+            "dateDeleted": "2015",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "SEJ_LUN_MOI",
+            "description": "Mois de la date d'entrée de séjour",
+            "type": "string",
+            "length": "2",
+            "dateCreated": "2005",
+            "dateDeleted": "2015",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "SOR_AM",
+            "description": "Date de sortie",
+            "type": "date",
+            "length": null,
+            "dateCreated": "2009",
+            "dateDeleted": "2011",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "ETA_NUM_JUR",
+            "description": "N° FINESS de l’établissement (code géographique)",
+            "type": "string",
+            "length": null,
+            "dateCreated": "2005",
+            "dateDeleted": "2007",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "SOR_ANN",
+            "description": "Année de sortie",
+            "type": "string",
+            "length": "4",
+            "dateCreated": "2015",
+            "dateDeleted": "2017",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "SOR_MOI",
+            "description": "Mois de sortie",
+            "type": "string",
+            "length": "2",
+            "dateCreated": "2015",
+            "dateDeleted": "2017",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "ENT_AM",
+            "description": "Date d'entrée",
+            "type": "date",
+            "length": null,
+            "dateCreated": "2009",
+            "dateDeleted": "2011",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "ETA_NUM_TWO",
+            "description": "Numéro FINESS de l’établissement (code géographique)",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2007",
+            "dateDeleted": "2017",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
         }
     ],
     "name": "T_HADaa_nnC",

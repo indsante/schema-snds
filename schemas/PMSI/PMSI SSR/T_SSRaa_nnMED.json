@@ -142,6 +142,17 @@
             "dateCreated": "2015",
             "dateDeleted": "",
             "dateMissing": []
+        },
+        {
+            "name": "UCD_COD",
+            "description": "Code UCD",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2010",
+            "dateDeleted": "2015",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
         }
     ],
     "name": "T_SSRaa_nnMED",

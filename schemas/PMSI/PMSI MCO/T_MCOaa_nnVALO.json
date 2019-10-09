@@ -1572,6 +1572,127 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": []
+        },
+        {
+            "name": "MNT_TJP20_AME",
+            "description": "Valorisation 20% TJP (uniquement pour les séjours AME)",
+            "type": "number",
+            "length": "10",
+            "dateCreated": "2012",
+            "dateDeleted": "2013",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "MNT_IVGFJS_AM",
+            "description": "Valorisation Forfait Journalier de Sortie (uniquement pour les séjours AME)",
+            "type": "number",
+            "length": "10",
+            "dateCreated": "2011",
+            "dateDeleted": "2014",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "NB_9611",
+            "description": "Nombre d’actes menant dans le GHS 9611",
+            "type": "number",
+            "length": "5",
+            "dateCreated": "2011",
+            "dateDeleted": "2012",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "GHSMIN",
+            "description": "Nb séjours avec minoration forfaitaire liste en sus",
+            "type": "number",
+            "length": "5",
+            "dateCreated": "2015",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "MNT_9624_AM",
+            "description": "Valorisation AM actes menant dans le GHS 9624",
+            "type": "number",
+            "length": "10",
+            "dateCreated": "2011",
+            "dateDeleted": "2013",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "NB_9624",
+            "description": "Nombre d’actes menant dans le GHS 9624",
+            "type": "number",
+            "length": "5",
+            "dateCreated": "2011",
+            "dateDeleted": "2013",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "MNT_FJS_AME",
+            "description": "Valorisation Forfait Journalier de Sortie (uniquement pour les séjours AME)",
+            "type": "number",
+            "length": "10",
+            "dateCreated": "2012",
+            "dateDeleted": "2013",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "MNT_9612_AM",
+            "description": "Valorisation AM actes menant dans le GHS 9612",
+            "type": "number",
+            "length": "10",
+            "dateCreated": "2011",
+            "dateDeleted": "2012",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "MNT_9611_AM",
+            "description": "Valorisation AM actes menant dans le GHS 9611",
+            "type": "number",
+            "length": "10",
+            "dateCreated": "2011",
+            "dateDeleted": "2012",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "NB_9612",
+            "description": "Nombre d’actes menant dans le GHS 9612",
+            "type": "number",
+            "length": "5",
+            "dateCreated": "2011",
+            "dateDeleted": "2012",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "MNT_GHSMIN_AM",
+            "description": "Valorisation AM des séjours avec minoration forfaitaire liste en sus",
+            "type": "number",
+            "length": "10,2",
+            "dateCreated": "2015",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
         }
     ],
     "name": "T_MCOaa_nnVALO",

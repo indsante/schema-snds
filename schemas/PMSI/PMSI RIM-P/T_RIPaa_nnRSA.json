@@ -472,6 +472,39 @@
             "dateCreated": "2017",
             "dateDeleted": "2017",
             "dateMissing": []
+        },
+        {
+            "name": "SEJ_LEG",
+            "description": "Mode légal de séjour",
+            "type": "string",
+            "length": "1",
+            "dateCreated": "2007",
+            "dateDeleted": "2012",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "SCO_DEP_REL",
+            "description": "Score pour la dépendance pour la relation (AVQ)",
+            "type": "string",
+            "length": "1",
+            "dateCreated": "2007",
+            "dateDeleted": "2012",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "NAT_PEC",
+            "description": "Nature de prise en charge",
+            "type": "string",
+            "length": "2",
+            "dateCreated": "2007",
+            "dateDeleted": "2012",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
         }
     ],
     "name": "T_RIPaa_nnRSA",

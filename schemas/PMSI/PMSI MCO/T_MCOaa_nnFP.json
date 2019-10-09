@@ -175,6 +175,94 @@
             "dateCreated": "2005",
             "dateDeleted": "",
             "dateMissing": []
+        },
+        {
+            "name": "LPP_QUA1",
+            "description": "Quantité 1",
+            "type": "number",
+            "length": "3",
+            "dateCreated": "2005",
+            "dateDeleted": "2008",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "FAC_MNT1",
+            "description": "Montant facturé 1",
+            "type": "number",
+            "length": "9,2",
+            "dateCreated": "2005",
+            "dateDeleted": "2008",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "LPP_COD1",
+            "description": "Code LPP 1",
+            "type": "string",
+            "length": "13",
+            "dateCreated": "2005",
+            "dateDeleted": "2008",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "LPP_QUA2",
+            "description": "Quantité 2",
+            "type": "number",
+            "length": "3",
+            "dateCreated": "2005",
+            "dateDeleted": "2008",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "FAC_MNT2",
+            "description": "Montant facturé 2",
+            "type": "number",
+            "length": "9,2",
+            "dateCreated": "2005",
+            "dateDeleted": "2008",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "LPP_PRI_UNI1",
+            "description": "Tarif référence LPP/Prix unitaire 1",
+            "type": "number",
+            "length": "9,2",
+            "dateCreated": "2005",
+            "dateDeleted": "2008",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "LPP_COD2",
+            "description": "Code LPP 2",
+            "type": "string",
+            "length": "13",
+            "dateCreated": "2005",
+            "dateDeleted": "2008",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "LPP_PRI_UNI2",
+            "description": "Tarif référence LPP/Prix unitaire 2",
+            "type": "number",
+            "length": "9,2",
+            "dateCreated": "2005",
+            "dateDeleted": "2008",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
         }
     ],
     "name": "T_MCOaa_nnFP",

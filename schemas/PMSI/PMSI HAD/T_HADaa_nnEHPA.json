@@ -116,6 +116,28 @@
             "dateCreated": "2015",
             "dateDeleted": "",
             "dateMissing": []
+        },
+        {
+            "name": "MOIS",
+            "description": "N° période (mois)",
+            "type": "string",
+            "length": "2",
+            "dateCreated": "2010",
+            "dateDeleted": "2012",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "ETA_NUM_EHPA",
+            "description": "N° FINESS ESMS",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2010",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
         }
     ],
     "name": "T_HADaa_nnEHPA",

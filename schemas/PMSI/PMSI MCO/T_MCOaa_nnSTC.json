@@ -978,6 +978,116 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": []
+        },
+        {
+            "name": "NIR_ANO_MAM",
+            "description": "N° anonyme mère-enfant",
+            "type": "string",
+            "length": "32",
+            "dateCreated": "2011",
+            "dateDeleted": "2015",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "SEJ_MAM_CTL",
+            "description": "Code retour contrôle « N° administratif de séjour de la mère »",
+            "type": "string",
+            "length": "1",
+            "dateCreated": "2011",
+            "dateDeleted": "2015",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "HOS_PLO",
+            "description": "Hospitalisation pour prélèvement d'organe",
+            "type": "string",
+            "length": "1",
+            "dateCreated": "2011",
+            "dateDeleted": "2015",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "HOS_NN_MAM_CTL",
+            "description": "Nombre de litres de lait collecté",
+            "type": "string",
+            "length": "1",
+            "dateCreated": "2011",
+            "dateDeleted": "2015",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "RNG_NAI",
+            "description": "Rang de naissance",
+            "type": "string",
+            "length": "1",
+            "dateCreated": "2014",
+            "dateDeleted": "2015",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "RNG_BEN",
+            "description": "Rang du bénéficiaire",
+            "type": "string",
+            "length": "3",
+            "dateCreated": "2014",
+            "dateDeleted": "2015",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "HOS_PLO_CTL",
+            "description": "Code retour contrôle « Hospitalisation pour prélèvement d'organe »",
+            "type": "string",
+            "length": "1",
+            "dateCreated": "2011",
+            "dateDeleted": "2015",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "RNG_NAI_CTL",
+            "description": "Code retour contrôle « Rang de naissance »",
+            "type": "string",
+            "length": "1",
+            "dateCreated": "2014",
+            "dateDeleted": "2015",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "HOS_NN_MAM",
+            "description": "Hospitalisation d'un nouveau-né auprès de la mère",
+            "type": "string",
+            "length": "1",
+            "dateCreated": "2011",
+            "dateDeleted": "2015",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "RNG_BEN_CTL",
+            "description": "Code retour contrôle « Rang du bénéficiaire »",
+            "type": "string",
+            "length": "1",
+            "dateCreated": "2014",
+            "dateDeleted": "2015",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
         }
     ],
     "name": "T_MCOaa_nnSTC",

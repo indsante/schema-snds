@@ -186,6 +186,50 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": []
+        },
+        {
+            "name": "COD_TAU",
+            "description": "Code taux",
+            "type": "string",
+            "length": "1",
+            "dateCreated": "2005",
+            "dateDeleted": "2008",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "MNT_IND",
+            "description": "Montant écart indemnisable",
+            "type": "number",
+            "length": "9,2",
+            "dateCreated": "2005",
+            "dateDeleted": "2008",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "PRI_UNI_FAC",
+            "description": "Prix unitaire facturé",
+            "type": "number",
+            "length": "9,2",
+            "dateCreated": "2005",
+            "dateDeleted": "2008",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "COD_UCP_CIP",
+            "description": "Code UCD ou CIP",
+            "type": "string",
+            "length": "7",
+            "dateCreated": "2005",
+            "dateDeleted": "2008",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
         }
     ],
     "name": "T_MCOaa_nnFH",

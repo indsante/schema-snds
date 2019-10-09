@@ -384,6 +384,17 @@
             "dateCreated": "2017",
             "dateDeleted": "2017",
             "dateMissing": []
+        },
+        {
+            "name": "FIDES_TOP",
+            "description": "Valorisé par FIDES",
+            "type": "string",
+            "length": "1",
+            "dateCreated": "2012",
+            "dateDeleted": "2014",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
         }
     ],
     "name": "T_SSRaa_nnFASTC",

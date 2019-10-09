@@ -87,6 +87,17 @@
             "dateCreated": "2009",
             "dateDeleted": "",
             "dateMissing": []
+        },
+        {
+            "name": "FAC_SEM_NBR",
+            "description": "Nombre de semaine facturées",
+            "type": "string",
+            "length": "3",
+            "dateCreated": "2009",
+            "dateDeleted": "2011",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
         }
     ],
     "name": "T_MCOaa_nnDIALP",

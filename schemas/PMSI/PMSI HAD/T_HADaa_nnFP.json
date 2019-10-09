@@ -220,6 +220,17 @@
                 "2015",
                 "2016"
             ]
+        },
+        {
+            "name": "ETA_NUM_TWO",
+            "description": "Numéro FINESS de l’établissement (site géographique)",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2014",
+            "dateDeleted": "2017",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
         }
     ],
     "name": "T_HADaa_nnFP",

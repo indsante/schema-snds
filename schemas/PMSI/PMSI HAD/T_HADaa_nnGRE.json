@@ -142,6 +142,39 @@
             "dateCreated": "2005",
             "dateDeleted": "",
             "dateMissing": []
+        },
+        {
+            "name": "SEQ_SEJ",
+            "description": "Numéro de la séquence dans le séjour",
+            "type": "string",
+            "length": "2",
+            "dateCreated": "2005",
+            "dateDeleted": "2010",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "ETA_NUM_JUR",
+            "description": "N° FINESS de l’établissement (code géographique)",
+            "type": "string",
+            "length": null,
+            "dateCreated": "2005",
+            "dateDeleted": "2007",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "ETA_NUM_TWO",
+            "description": "Numéro FINESS de l’établissement (code géographique)",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2007",
+            "dateDeleted": "2017",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
         }
     ],
     "name": "T_HADaa_nnGRE",

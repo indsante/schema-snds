@@ -197,6 +197,94 @@
             "dateCreated": "2010",
             "dateDeleted": "",
             "dateMissing": []
+        },
+        {
+            "name": "UM_TYP",
+            "description": "Type d'UM",
+            "type": "string",
+            "length": "2",
+            "dateCreated": "2006",
+            "dateDeleted": "2010",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "DP_POS",
+            "description": "Position du DP",
+            "type": "string",
+            "length": "10",
+            "dateCreated": "2006",
+            "dateDeleted": "2008",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "VAL_PAR",
+            "description": "Valorisation partielle",
+            "type": "string",
+            "length": "1",
+            "dateCreated": "2006",
+            "dateDeleted": "2010",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "ETA_NUM_GEO2",
+            "description": "Deuxième numéro FINESS géographique",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2012",
+            "dateDeleted": "2013",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "VAL_REA",
+            "description": "Valorisation réa",
+            "type": "string",
+            "length": "1",
+            "dateCreated": "2006",
+            "dateDeleted": "2010",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "IND_SRC",
+            "description": "Indicateur de SRC",
+            "type": "string",
+            "length": "1",
+            "dateCreated": "2009",
+            "dateDeleted": "2010",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "ETA_NUM_GEO1",
+            "description": "Premier numéro FINESS géographique",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2012",
+            "dateDeleted": "2013",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "PAR_NBR_SEJ",
+            "description": "Durée séjour partielle",
+            "type": "number",
+            "length": null,
+            "dateCreated": "2006",
+            "dateDeleted": "2010",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
         }
     ],
     "name": "T_MCOaa_nnUM",

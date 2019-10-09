@@ -98,6 +98,17 @@
             "dateCreated": "2007",
             "dateDeleted": "",
             "dateMissing": []
+        },
+        {
+            "name": "ACT_DEL",
+            "description": "Délai de l'acte",
+            "type": "number",
+            "length": null,
+            "dateCreated": "2007",
+            "dateDeleted": "2012",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
         }
     ],
     "name": "T_SSRaa_nnFI",

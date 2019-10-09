@@ -978,6 +978,61 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": []
+        },
+        {
+            "name": "RNG_NAI",
+            "description": "Rang de naissance",
+            "type": "string",
+            "length": "1",
+            "dateCreated": "2014",
+            "dateDeleted": "2015",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "RNG_BEN",
+            "description": "Rang du bénéficiaire",
+            "type": "string",
+            "length": "3",
+            "dateCreated": "2014",
+            "dateDeleted": "2015",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "ETA_NUM_TWO",
+            "description": "Numéro FINESS de l’établissement (code géographique)",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2007",
+            "dateDeleted": "2017",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "RNG_NAI_CTL",
+            "description": "Code retour contrôle « Rang de naissance »",
+            "type": "string",
+            "length": "1",
+            "dateCreated": "2014",
+            "dateDeleted": "2015",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "RNG_BEN_CTL",
+            "description": "Code retour contrôle « Rang du bénéficiaire »",
+            "type": "string",
+            "length": "1",
+            "dateCreated": "2014",
+            "dateDeleted": "2015",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
         }
     ],
     "name": "T_HADaa_nnSTC",

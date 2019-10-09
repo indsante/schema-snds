@@ -263,6 +263,17 @@
             "dateCreated": "2017",
             "dateDeleted": "2017",
             "dateMissing": []
+        },
+        {
+            "name": "ACT_DEL",
+            "description": "Délai de l'acte",
+            "type": "number",
+            "length": null,
+            "dateCreated": "2007",
+            "dateDeleted": "2012",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
         }
     ],
     "name": "T_SSRaa_nnFC",

@@ -450,6 +450,28 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": []
+        },
+        {
+            "name": "ENT_AM",
+            "description": "Date d'entrée au format année + mois",
+            "type": "date",
+            "length": null,
+            "dateCreated": "2009",
+            "dateDeleted": "2011",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "SOR_AM",
+            "description": "Date de sortie au format année + mois",
+            "type": "date",
+            "length": null,
+            "dateCreated": "2009",
+            "dateDeleted": "2011",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
         }
     ],
     "name": "T_MCOaa_nnCSTC",

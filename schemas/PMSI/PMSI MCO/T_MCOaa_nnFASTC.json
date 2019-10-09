@@ -395,6 +395,72 @@
             "dateCreated": "2007",
             "dateDeleted": "",
             "dateMissing": []
+        },
+        {
+            "name": "DAT_RET",
+            "description": "Code retour contrôle « date de référence» (date d'entrée)",
+            "type": "string",
+            "length": "1",
+            "dateCreated": "2007",
+            "dateDeleted": "2008",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "NIR_ANO_17",
+            "description": "N° anonyme",
+            "type": "string",
+            "length": "17",
+            "dateCreated": "2007",
+            "dateDeleted": "2008",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "NIAS_RET",
+            "description": "Code retour contrôle « n° d’identification administratif de séjour »",
+            "type": "string",
+            "length": "1",
+            "dateCreated": "2007",
+            "dateDeleted": "2008",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "SEX_RET",
+            "description": "Code retour contrôle « sexe »",
+            "type": "string",
+            "length": "1",
+            "dateCreated": "2007",
+            "dateDeleted": "2008",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "NIR_RET",
+            "description": "Code retour contrôle « n° sécurité sociale »",
+            "type": "string",
+            "length": "1",
+            "dateCreated": "2007",
+            "dateDeleted": "2008",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "COD_PEC",
+            "description": "Code de prise en charge",
+            "type": "string",
+            "length": "1",
+            "dateCreated": "2007",
+            "dateDeleted": "2008",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
         }
     ],
     "name": "T_MCOaa_nnFASTC",

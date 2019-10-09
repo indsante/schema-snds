@@ -175,6 +175,28 @@
             "dateCreated": "2015",
             "dateDeleted": "",
             "dateMissing": []
+        },
+        {
+            "name": "SEJ_NBJ_PARTL",
+            "description": "Nombre de journées et demies journées en hospitalisation partielle",
+            "type": "number",
+            "length": null,
+            "dateCreated": "2015",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "SEJ_NBJ_CPLT",
+            "description": "Nombre de journées de présence en hospitalisation complète",
+            "type": "number",
+            "length": null,
+            "dateCreated": "2015",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
         }
     ],
     "name": "T_RIPaa_nnS",

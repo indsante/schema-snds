@@ -288,6 +288,17 @@
             "dateCreated": "2007",
             "dateDeleted": "",
             "dateMissing": []
+        },
+        {
+            "name": "NAT_PEC",
+            "description": "Nature de prise en charge",
+            "type": "string",
+            "length": "2",
+            "dateCreated": "2007",
+            "dateDeleted": "2012",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
         }
     ],
     "name": "T_RIPaa_nnR3A",

@@ -128,7 +128,7 @@
     "primaryKey": "ETA_NUM_EPMSI",
     "history": {
         "dateCreated": "2011",
-        "dateDeleted": "2017",
+        "dateDeleted": "",
         "dateMissing": [
             "2013",
             "2014"

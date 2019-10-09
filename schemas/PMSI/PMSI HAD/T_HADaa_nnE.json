@@ -88,7 +88,7 @@
     "primaryKey": "ETA_NUM",
     "history": {
         "dateCreated": "2015",
-        "dateDeleted": "2017",
+        "dateDeleted": "",
         "dateMissing": []
     }
 }

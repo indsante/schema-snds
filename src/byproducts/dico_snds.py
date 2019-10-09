@@ -134,6 +134,7 @@ def table_schema_to_snds_tables():
 
     table_list = []
     for schema in get_all_schema():
+        logging.debug("   - convert schema {}".format(schema.descriptor['name']))
         table_list.append({
             dico_produit: schema.descriptor[SCHEMA_PRODUIT],
             dico_table: schema.descriptor['name'],

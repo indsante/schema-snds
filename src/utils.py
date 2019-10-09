@@ -1,3 +1,4 @@
+import logging
 import os
 from typing import List, Union, Tuple
 
@@ -48,6 +49,14 @@ def is_running_in_docker():
                 return True
 
     return False
+
+
+def get_logging_level_value(logging_level):
+    logging_level_value = logging._nameToLevel.get(logging_level.upper(), None)
+    if logging_level_value is None:
+        raise ValueError('Logging level {} is not valid. It should take one of the following values {}'
+                         .format(logging_level, list(logging._nameToLevel.keys())))
+    return logging_level_value
 
 
 # Not used currently

@@ -1,8 +1,10 @@
 #!/usr/bin/env python
 import argparse
+import logging
 
 from src.byproducts.main import generate_byproducts
 from src.byproducts.update_byproducts_repositories import update_all_byproducts
+from src.utils import get_logging_level_value
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Création de produits dérivés depuis les schémas du SNDS')
@@ -17,8 +19,14 @@ if __name__ == '__main__':
     parser.add_argument('-l', '--local', dest='local', action='store_const',
                         const=True, default=False,
                         help="Tester un update des produits dérivés en local, sans mettre à jour le remote.")
+    parser.add_argument('--log', dest='logging_level', action='store', default="INFO",
+                        help="Choisir le niveau de log.")
 
     args = parser.parse_args()
+    logging.basicConfig(level=get_logging_level_value(args.logging_level),
+                        format='%(asctime)s :: %(levelname)s :: %(message)s',
+                        datefmt='%Y-%m-%d %H:%M:%S',
+                        )
 
     generate_byproducts(args.generate_erd)
 

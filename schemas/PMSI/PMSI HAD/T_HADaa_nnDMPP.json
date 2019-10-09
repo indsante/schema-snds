@@ -8,7 +8,7 @@
             "length": "6",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": []
         },
         {
@@ -30,7 +30,7 @@
             "length": "9",
             "format": "default",
             "dateCreated": "2017",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": []
         },
         {
@@ -41,7 +41,7 @@
             "length": "5",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": []
         },
         {
@@ -52,7 +52,7 @@
             "length": "4",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": []
         },
         {
@@ -63,7 +63,7 @@
             "length": "4",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": []
         }
     ],

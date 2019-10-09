@@ -8,7 +8,7 @@
             "length": "4",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [
                 "2012",
                 "2013"
@@ -22,7 +22,7 @@
             "length": "8",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [
                 "2012",
                 "2013"
@@ -36,7 +36,7 @@
             "length": "8",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [
                 "2012",
                 "2013"
@@ -61,7 +61,7 @@
             "length": "9",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [
                 "2012",
                 "2013"
@@ -75,7 +75,7 @@
             "length": "1",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [
                 "2012",
                 "2013"
@@ -89,7 +89,7 @@
             "length": "3",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [
                 "2012",
                 "2013"
@@ -103,7 +103,7 @@
             "length": "2",
             "format": "default",
             "dateCreated": "2014",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": []
         },
         {
@@ -114,7 +114,7 @@
             "length": "2",
             "format": "default",
             "dateCreated": "2015",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": []
         }
     ],

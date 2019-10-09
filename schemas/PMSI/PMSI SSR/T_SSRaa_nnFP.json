@@ -8,7 +8,7 @@
             "length": "7",
             "format": "default",
             "dateCreated": "2007",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": []
         },
         {
@@ -19,7 +19,7 @@
             "length": "1",
             "format": "default",
             "dateCreated": "2007",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": []
         },
         {
@@ -30,7 +30,7 @@
             "length": "1",
             "format": "default",
             "dateCreated": "2007",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": []
         },
         {
@@ -41,7 +41,7 @@
             "length": "3",
             "format": "default",
             "dateCreated": "2007",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": []
         },
         {
@@ -52,7 +52,7 @@
             "length": "0",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": []
         },
         {
@@ -63,7 +63,7 @@
             "length": "9",
             "format": "default",
             "dateCreated": "2007",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": []
         },
         {
@@ -173,7 +173,7 @@
             "length": "0",
             "format": "default",
             "dateCreated": "2007",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": []
         }
     ],

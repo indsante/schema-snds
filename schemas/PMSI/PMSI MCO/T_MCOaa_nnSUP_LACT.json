@@ -143,6 +143,61 @@
             "nomenclature": "-",
             "dateMissing": [],
             "format": "default"
+        },
+        {
+            "name": "NBR_LLA_COL",
+            "description": "Nombre de litres de lait collecté",
+            "type": "number",
+            "length": "7",
+            "dateCreated": "2011",
+            "dateDeleted": "2015",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "QTE_LFC_CON_LIT",
+            "description": "Quantité de lait frais ou congelé consommé (en litres)",
+            "type": "number",
+            "length": "7",
+            "dateCreated": "2010",
+            "dateDeleted": "2015",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "QTE_LLY_PRD_GR",
+            "description": "Quantité de lait lyophilisé produit (en grammes)",
+            "type": "number",
+            "length": "7",
+            "dateCreated": "2010",
+            "dateDeleted": "2015",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "QTE_LLY_CON_GR",
+            "description": "Quantité de lait lyophilisé consommé (en grammes)",
+            "type": "number",
+            "length": "7",
+            "dateCreated": "2010",
+            "dateDeleted": "2015",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
+        },
+        {
+            "name": "QTE_LFC_PRD_LIT",
+            "description": "Quantité de lait frais ou congelé produit (en litres)",
+            "type": "number",
+            "length": "7",
+            "dateCreated": "2010",
+            "dateDeleted": "2015",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default"
         }
     ]
 }

@@ -26,12 +26,47 @@ from pprint import pprint
 import pandas as pd
 
 pd.options.display.max_columns = 100
+pd.options.display.max_colwidth = 200
 # -
 
 from src.utils import get_all_schema_path
 from tableschema import Schema
 
 # ## Lecture et mise en forme
+
+csv_files = [
+    "Tables_PMSI_HAD_181214170821.csv",
+"Tables_PMSI_MCO_181214170820.csv",
+"Tables_PMSI_PSY_181214170823.csv",
+"Tables_PMSI_SSR_181214170822.csv"
+]
+
+# +
+df_list = []
+for csv_name in csv_files:
+    df = pd.read_csv("notebooks/Envoi_Dico Alimentation/" + csv_name, 
+                 encoding="latin1", sep=';', dtype='str')
+    columns = list(df.columns)
+    df["produit"] = csv_name[7:15]
+    
+    df = df[["produit"] + columns]
+    df_list.append(df)
+
+df_table = pd.concat(df_list)
+# -
+
+df_table.columns = ['produit', 
+              'name_table', 
+                    'type_table',
+              'title_table', 
+              "dateCreated",
+              "dateDeleted",
+                    "variable_jointure",
+                    "champ",
+                    "observation",
+                    "regle_gestion",
+                    "concept"
+             ]
 
 csv_files = [
     "Variables_PMSI_HAD_181214170822.csv",
@@ -78,12 +113,6 @@ df.duplicated().sum()
 
 df = df.drop_duplicates()
 
-df[df.name == "GHS_THEO"]
-
-df[df.name_table.str.contains("aaGV")].name.value_counts()
-
-df[df.name_table.str.contains("aaGV")].name_table.value_counts()
-
 # ## Standardize values
 
 def map_with_mapping(s):
@@ -102,6 +131,12 @@ for column in df.columns:
 # ### name_table
 
 df.name_table = df.name_table.str.upper()
+
+df.name_table = df.name_table.str[:5] + 'aa_nn' + df.name_table.str[7:]
+
+df_table.name_table = df_table.name_table.str[:5] + 'aa_nn' + df_table.name_table.str[7:]
+
+df.loc[df.name_table == "T_MCOaa_nnLACT", "name_table"] = "T_MCOaa_nnSUP_LACT"
 
 # ### description
 
@@ -166,9 +201,6 @@ df.type = df.type.map(lambda s: mapping[s] if s in mapping else s)
 
 df.type.value_counts()
 # -
-
-
-
 # ### lenght
 
 mask = (df.length.str.contains('\.') | df.length.str.contains('\,'))
@@ -184,17 +216,41 @@ df.length = df.length.str.replace('.', ',').str.strip(',')
 
 df.loc[df.length.str.contains(",") & (df.type == "string"), "type"] = "number"
 
+# ### TODO (?) : Empilement des tables MCOaa_nnGV
+
+mask = df.name_table.str.contains("nnGV")
+df[mask].name_table.value_counts()
+
+for name_table in df[mask].name_table.unique():
+    print(name_table)
+    print(df[df.name_table == name_table].dateDeleted.nunique())
+
+df[mask].name.value_counts()
+
+list(df.columns)
+
+df.loc[mask & (df.name == "ETA_NUM")]
+
+var_columns = ['name', 'type', 'length', 'description', 'variable_jointure', 'observation_variable', 
+           'regle_gestion', 'famille_concept', 'sensible_ou_medicale']
+
+for name in df[mask].name.unique():
+    print("\n# ", name)
+    print(df.loc[mask & (df.name == name), var_columns].replace("", pd.np.nan).nunique())
+
 # ## Create descriptor
-
-df[df.name_table.str.startswith("T_SUP")]
-
-df.name_table.str[:7].value_counts()
-
-df.name_table = df.name_table.str[:5] + 'aa_nn' + df.name_table.str[7:]
 
 def get_field_descriptor(df, name, columns):
     return (df[df.name.str.upper() == name.upper()][columns]
             .to_dict(orient="records")[0])
+
+df_table.head(2)
+
+list(df_table.observation.unique())
+
+list(df_table.champ.unique())
+
+list(df_table.regle_gestion.unique())
 
 for i, (produit, name_table) in df[["produit", 'name_table']].drop_duplicates().iterrows():
     # Restriction table
@@ -208,7 +264,16 @@ for i, (produit, name_table) in df[["produit", 'name_table']].drop_duplicates().
 
     assert sdf.date_deleted_table.nunique() == 1
     date_deleted_table = sdf.date_deleted_table.unique()[0]
-   
+
+    sdf_table = df_table[df_table.name_table == name_table]
+    print(name_table)
+    assert len(sdf_table) == 1
+    observation = sdf_table.observation.unique()[0]
+    champ = sdf_table.champ.unique()[0]
+    regle_gestion = sdf_table.regle_gestion.unique()[0]
+    continue
+    
+    
     table_descriptor = {
         "name": name_table, 
         "title": title, 
@@ -255,7 +320,7 @@ for i, (produit, name_table) in df[["produit", 'name_table']].drop_duplicates().
     for field in schema.descriptor['fields']:
         name = field['name']
         if not name.upper() in dico_names:
-            print(";".join([produit, name_table, name])) #, field["description"]]))
+            #print(";".join([produit, name_table, name])) #, field["description"]]))
             #print('- Variable absente dans le dico cnam', name)
             continue
 
@@ -276,5 +341,11 @@ for i, (produit, name_table) in df[["produit", 'name_table']].drop_duplicates().
     schema.save(schema_path, ensure_ascii=False)
 
 1
+
+
+
+df_table[df_table.name_table.str.contains("LACT")]
+
+df[df.name_table.str.contains("LACT")].name_table.value_counts()
 
 

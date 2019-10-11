@@ -59,8 +59,8 @@ df_table.columns = ['produit',
               'name_table', 
                     'type_table',
               'title_table', 
-              "dateCreated",
-              "dateDeleted",
+              "date_created_table",
+              "date_deleted_table",
                     "variable_jointure",
                     "champ",
                     "observation",
@@ -125,8 +125,13 @@ def map_with_mapping(s):
 
 df = df.fillna("")
 
+df_table = df_table.fillna("")
+
 for column in df.columns:
     df[column] = df[column].str.strip()
+
+for column in df_table.columns:
+    df_table[column] = df_table[column].str.strip()
 
 # ### name_table
 
@@ -266,12 +271,16 @@ for i, (produit, name_table) in df[["produit", 'name_table']].drop_duplicates().
     date_deleted_table = sdf.date_deleted_table.unique()[0]
 
     sdf_table = df_table[df_table.name_table == name_table]
-    print(name_table)
+    # print(name_table)
     assert len(sdf_table) == 1
+    
+    title = sdf_table.title_table.unique()[0]
+    date_created_table = sdf_table.date_created_table.unique()[0]
+    date_deleted_table = sdf_table.date_deleted_table.unique()[0]
+
     observation = sdf_table.observation.unique()[0]
     champ = sdf_table.champ.unique()[0]
     regle_gestion = sdf_table.regle_gestion.unique()[0]
-    continue
     
     
     table_descriptor = {

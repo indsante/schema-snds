@@ -5,6 +5,9 @@ from os.path import join
 from src.settings import RUNNING_TEST
 
 # Table schema extra keys
+OBSERVATION = "observation"
+CHAMP = "champ"
+
 NOMENCLATURE = 'nomenclature'
 
 HISTORY = "history"

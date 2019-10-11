@@ -104,5 +104,6 @@
         "dateDeleted": "",
         "dateMissing": []
     },
-    "champ": "Public et Privé"
+    "champ": "Public et Privé",
+    "observation": ""
 }

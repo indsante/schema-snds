@@ -879,5 +879,6 @@
         "dateDeleted": "",
         "dateMissing": []
     },
-    "champ": "Regime general"
+    "champ": "Regime general",
+    "observation": ""
 }

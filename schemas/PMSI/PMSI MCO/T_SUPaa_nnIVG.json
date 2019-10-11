@@ -67,5 +67,6 @@
             "format": "default"
         }
     ],
-    "champ": "Public"
+    "champ": "Public",
+    "observation": ""
 }

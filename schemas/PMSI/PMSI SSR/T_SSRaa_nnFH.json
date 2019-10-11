@@ -247,5 +247,6 @@
         "dateDeleted": "",
         "dateMissing": []
     },
-    "champ": "Privé"
+    "champ": "Privé",
+    "observation": ""
 }

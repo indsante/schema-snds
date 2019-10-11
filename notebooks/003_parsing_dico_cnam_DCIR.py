@@ -31,6 +31,23 @@ from tableschema import Schema
 
 # ## Lecture et mise en forme
 
+df_table = pd.read_csv("notebooks/Envoi_Dico Alimentation/Table_Modele_181214170700.csv", encoding="latin1", sep=';')
+
+df_table = df_table.drop(columns=["Unnamed: 8"])
+
+df_table.columns = [
+              'name_table', 
+              'title_table',
+              'description_table',
+    'produit', 
+              'mode_acces',
+              'univers', 
+              'renvoi_libelle', 
+              'renvoi_description', 
+]
+
+df_table.sample(10)
+
 df = pd.read_csv("notebooks/Envoi_Dico Alimentation/Table_Variable_Modele_181214170701.csv", 
                  encoding="latin1", sep=';')
 df = df.drop(columns=['Chemin', 'Unnamed: 21', 'Unnamed: 22'])
@@ -293,7 +310,7 @@ produit_a_garder = [
 df = df[df.produit.isin(produit_a_garder)]
 # -
 
-xdf = df[df.name_table == 'CT_IND_AAAA_GN']
+df.regle_gestion.nunique()
 
 df.head()
 
@@ -323,13 +340,7 @@ for i, (produit, name_table) in df[["produit", 'name_table']].drop_duplicates().
         "title": title, 
         "produit": produit
     })
-    
-    description = schema.descriptor.pop("description", "")
-    if len(description):
-        assert description.startswith("Champ")
-
-    schema.descriptor["champ"] = description[8:] if len(description) else ""    
-    
+        
     # Différences d'ensembles de variables
     schema_names = set([name.upper() for name in schema.field_names]) 
     dico_names = set(sdf.name)

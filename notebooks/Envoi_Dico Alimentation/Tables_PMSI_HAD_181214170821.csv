@@ -1,0 +1,27 @@
+Nom_Table;TYPE_TABLE;Libellé_Table;Année_Présence;Année_Suppression;Variables de  jointure;champ;Contenu et observations;Règles_Gestion;Concept
+T_HADaaA;;Table des actes;2010;;;;;;
+T_HADaaB;;Table des Résumés Anonyme Par Sous-Séquence (RAPSS);2005;;;;;;
+T_HADaaC;;Table des NIR foinisé deux fois et date entrè/sortie complètes;2005;;;;;;
+T_HADaaE;;Table des Etablissements;2005;;;;;;
+T_HADaaDMPP;;Table des diagnostics liés au MPP (mode de prise en charge principal);2012;;;;;;
+T_HADaaDMPA;;Table des diagnostics liés au MPA (mode de prise en charge associé);2012;;;;;;
+T_HADaaD;;Table des diagnostics associés;2010;;;;;;
+T_HADaaGRE;;Table des GHT (groupage établissement);2005;;;;;;
+T_HADaaGRP;;Table des GHT et des GHPC (groupage paprica);2005;;;;;;
+T_HADaaMED;;Table Molécules onéreuses (fichier COMP);2009;;;;;;
+T_HADaaSTC;;Prise en charge par l'AM de chaque séjour, pour les établissements valorisés STC ;2007;;;;;;
+T_HADaaS;;Synthèses des Résumés Anonyme Par Sous-Séquence;2015;;;;;;
+T_HADaaFA;;TableFA : Table des RSFA début de facture des établissements ex-OQN;2010;;;;;;
+T_HADaaFB;;Table FB : Table des RSFA facture des établissements ex-OQN;2010;;;;;;
+T_HADaaFC;;Table FC : Table des RSFA des honoraires des établissements ex-OQN;2010;;;;;;
+T_HADaaFH;;Table FH : Table des RSFA des Médicaments en sus des établissements ex-OQN;2010;;;;;;
+T_HADaaFM;;Table FM : Table des RSFA des actes CCAM des établissements ex-OQN;2010;;;;;;
+T_HADaaFL;;Table FL : Table des actes de biologie (issus de la NABM) des établissements ex-OQN;2012;;;;;;
+T_HADaaFI;;Table FI : Table des RSFA interruption de séjour des établissements ex-OQN;2014;;;;;;
+T_HADaaFP;;Table FP : Table des RSFA des LPP/DMI en sus des établissements ex-OQN;2014;;;;;;
+T_HADaaMEDATU;;Fich comp médicament soumis à autorisation temporaire d'utilisation;2012;;;;;;
+T_HADaaMEDCHL;;Fich comp Médicament coûteux hors liste en sus et hors ATU;2016;;;;renseignée à partir de mars 2016;;
+T_HADaaEHPA;;Table des conventions HAD-EHPA;2010;;;;table non transmise en 2012 et 2013;;
+T_HADaaLEG;;Fichier donnant toutes les erreurs détectées par la fonction groupage (LEG);2014;;;;;;
+T_HADaaGJ;;Table de passage de Finess;2006;2007;;;;;
+T_HADaaMON;;Fichier de déclaration agrégée d'activité (FICHSUP) sur les Molécules onéreuses;2008;2009;;;;;

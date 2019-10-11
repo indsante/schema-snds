@@ -313,5 +313,6 @@
         "dateDeleted": "",
         "dateMissing": []
     },
-    "champ": "Public et Privé"
+    "champ": "Public et Privé",
+    "observation": "Cette table contient tous les RUM (Résumé d'Unité Médical) d'un séjour; Il y a une ligne par RUM ms l'UM n'est toujours renseigné. Attention il y a de RSA fictifs qu'ils faut filtrer =>voir règles de gestion pour les supprimer (pas de possibilté de filtrer sans croiser avec la table MCOB)."
 }

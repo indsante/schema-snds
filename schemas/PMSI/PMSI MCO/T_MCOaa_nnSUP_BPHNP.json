@@ -177,5 +177,6 @@
             "format": "default"
         }
     ],
-    "champ": "Public"
+    "champ": "Public",
+    "observation": "Chgt de nom en 2015 ajout du préfixe SUP_"
 }

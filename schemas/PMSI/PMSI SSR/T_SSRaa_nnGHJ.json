@@ -67,5 +67,6 @@
             "format": "default"
         }
     ],
-    "champ": "Public et Privé"
+    "champ": "Public et Privé",
+    "observation": "remplacée par la table T_SSRaaGME"
 }

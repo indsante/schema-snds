@@ -249,13 +249,19 @@ def get_field_descriptor(df, name, columns):
     return (df[df.name.str.upper() == name.upper()][columns]
             .to_dict(orient="records")[0])
 
+df.observation_variable.value_counts()
+
+df[df.observation_variable == "Observations 2017 : Chgt nom variable en 2014 (depuis 2006)"]
+
 df_table.head(2)
+
+df_table.regle_gestion.value_counts()
 
 list(df_table.observation.unique())
 
 list(df_table.champ.unique())
 
-list(df_table.regle_gestion.unique())
+list(df_table.observation.unique())
 
 for i, (produit, name_table) in df[["produit", 'name_table']].drop_duplicates().iterrows():
     # Restriction table
@@ -306,17 +312,10 @@ for i, (produit, name_table) in df[["produit", 'name_table']].drop_duplicates().
 #    else :
     schema = Schema(schema_path)
     table_descriptor["history"]["dateMissing"] = schema.descriptor["history"]["dateMissing"]
-    
-    description = schema.descriptor.pop("description", "")
-    if len(description):
-        assert description.startswith("Champ")
-        
-        old_champ = description[8:]
-    
-    champ = old_champ if not len(champ) else champ
-    
-    schema.descriptor["champ"] = champ
-    
+    if champ:    
+        schema.descriptor["champ"] = champ
+    if observation:
+        schema.descriptor["observation"] = observation
     schema.descriptor.update(table_descriptor)
 
     
@@ -362,5 +361,16 @@ for i, (produit, name_table) in df[["produit", 'name_table']].drop_duplicates().
     schema.save(schema_path, ensure_ascii=False)
 
 1
+
+for schema_path in get_all_schema_path():
+    schema = Schema(schema_path)
+    schema.descriptor["observation"] = schema.descriptor.get("observation", "")
+    try:
+        schema.commit(strict=True)
+    except Exception as e:
+        print(e.errors)
+        raise e
+    
+    schema.save(schema_path, ensure_ascii=False)
 
 

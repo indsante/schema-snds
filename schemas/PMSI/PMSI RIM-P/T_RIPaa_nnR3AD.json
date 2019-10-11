@@ -100,5 +100,6 @@
         "dateDeleted": "",
         "dateMissing": []
     },
-    "champ": "Public (et qq privé)"
+    "champ": "Public (et qq privé)",
+    "observation": "Certaines lignes concernent des établissements privés"
 }

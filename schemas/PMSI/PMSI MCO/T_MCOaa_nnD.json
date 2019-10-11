@@ -82,5 +82,6 @@
         "dateDeleted": "",
         "dateMissing": []
     },
-    "champ": "Public et Privé"
+    "champ": "Public et Privé",
+    "observation": "Cette table fournit les diagnostiques associés significatifs. Pour 1 RSA ( table MCOB), il peut y avoir plusieurs DAS (ou aucun). Souvent plusieurs fois le même DAS pour le même séjour (doublons de DAS). Attention il y a de RSA fictifs qu'ils faut filtrer =>voir règles de gestion pour les supprimer (pas de possibilté de filtrer sans croiser avec la table MCOB)."
 }

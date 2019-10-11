@@ -1059,5 +1059,6 @@
         "dateDeleted": "",
         "dateMissing": []
     },
-    "champ": "Public et Privé"
+    "champ": "Public et Privé",
+    "observation": "cette table fournit le GHM, la durée globale du séjourensemble des variables servant au calcul tarifaire pour la T2A. Pour avoir le détail des règles de calcul des séjours, il faut se référer à l'onglet \"GHM-GHS\". Attention des RSA fictifs qu'ils faut filtrer =>voir règle de gestion pour les supprimer."
 }

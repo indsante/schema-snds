@@ -1,0 +1,17 @@
+Nom_Table;TYPE_TABLE;Libellé_Table;Année_Présence;Année_Suppression;Variables de  jointure;champ;Contenu et observations;Règles_Gestion;Concept
+T_RIPaaR3A;Externe;Résumé par acte ambulatoire anonymisé;2007;;;Public (et qq privé);Certaines lignes concernent des établissements privés;;
+T_RIPaaR3AD;Externe;Diagnostic associé à l'acte;2007;;;Public (et qq privé);Certaines lignes concernent des établissements privés;;
+T_RIPaaRSA;Séjour;Résumé par séquence;2007;;;Public et Privé;;;
+T_RIPaaRSAD;Séjour;Diagnostic associé à la séquence;2007;  ;;Public et Privé;;;
+T_RIPaaC;Séjour;chainage;2007;;;Public et Privé;;;
+T_RIPaaE;Séjour;etablissement;2007;;;Public et Privé;;;
+T_RIPaaS;Séjour;Synthèse du Séjour de Résumé par séquence anonymisé;2015;;;Public et Privé;;;
+T_RIPaaSTC;Séjour;Prise en charge patient pour etb DG;2011;;;Public;;;
+T_RIPaaFA;Séjour;debut facture;2010;;;Privé;;;
+T_RIPaaFB;Séjour;prestation hospitalière;2010;;;Privé;;;
+T_RIPaaFC;Séjour;honoraire;2010;;;Privé;;;
+T_RIPaaFH;Séjour;medicament;2010;;;Privé;;;
+T_RIPaaFI;Séjour;interruption de sejour;2010;;;Privé;;;
+T_RIPaaFL;Séjour;actes de Biologie;2012;;;Privé;Mise en colonnes des actes en 2015 (pr toutes les années);;
+T_RIPaaFM;Séjour;ccam;2010;;;Privé;;;
+T_RIPaaFP;Séjour;prothese;2010;;;Privé;;;

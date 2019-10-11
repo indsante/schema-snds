@@ -479,5 +479,6 @@
         "dateDeleted": "",
         "dateMissing": []
     },
-    "champ": "Public et Privé"
+    "champ": "Public et Privé",
+    "observation": "Cette table fournit les informations d'identification du patient (permet de chaîner avec DCIR), elle contient 1 ligne par RSA (table MCOB). Les codes retour nous informent sur la qualité dev NIR_ANO_17 et non pas sur le séjour; Pour les codes retour qui ne valent pas 0, cela signifie donc que le NIR_ANO_17 n'est pas bon (env. 2% des lignes; cf onglet \"Filtres\") mais le séjour est quant à lui correct. Attention il y a de RSA fictifs qu'ils faut filtrer, voir règles de gestion pour les supprimer (pas de possibilté de filtrer sans croiser avec la table MCOB)."
 }

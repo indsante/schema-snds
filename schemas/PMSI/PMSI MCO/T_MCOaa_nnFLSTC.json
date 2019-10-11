@@ -159,5 +159,6 @@
         "dateDeleted": "",
         "dateMissing": []
     },
-    "champ": "Public"
+    "champ": "Public",
+    "observation": "Mise en colonnes des actes en 2015 (pr toutes les années); les HCL ne pas transmettent plus d'ACE au niveau finess géo à partir de 2015"
 }

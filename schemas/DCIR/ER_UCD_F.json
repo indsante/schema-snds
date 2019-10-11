@@ -267,7 +267,6 @@
     ],
     "name": "ER_UCD_F",
     "title": "Table des données de codage des Unités Communes de Dispensation",
-    "description": "",
     "produit": "DCIR",
     "missingValues": [
         ""
@@ -305,5 +304,6 @@
         "dateCreated": "",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": ""
 }

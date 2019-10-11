@@ -146,7 +146,6 @@
     ],
     "name": "T_RIPaa_nnFI",
     "title": "interruption de sejour",
-    "description": "Champ : Privé",
     "produit": "PMSI RIM-P",
     "missingValues": [
         ""
@@ -170,5 +169,6 @@
         "dateCreated": "2010",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Privé"
 }

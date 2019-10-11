@@ -311,7 +311,6 @@
     ],
     "name": "T_SSRaa_nnFB",
     "title": "OQN Prestation",
-    "description": "Champ : Privé",
     "produit": "PMSI SSR",
     "missingValues": [
         ""
@@ -335,5 +334,6 @@
         "dateCreated": "2007",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Privé"
 }

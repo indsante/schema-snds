@@ -303,7 +303,6 @@
     ],
     "name": "T_RIPaa_nnR3A",
     "title": "Résumé par acte ambulatoire anonymisé",
-    "description": "Champ : Public (et qq privé)",
     "produit": "PMSI RIM-P",
     "missingValues": [
         ""
@@ -317,5 +316,6 @@
         "dateCreated": "2007",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public (et qq privé)"
 }

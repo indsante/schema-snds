@@ -7,7 +7,6 @@
         "dateDeleted": "2014",
         "dateMissing": []
     },
-    "description": "",
     "missingValues": [
         ""
     ],
@@ -177,5 +176,6 @@
             "dateMissing": [],
             "format": "default"
         }
-    ]
+    ],
+    "champ": "Public et Privé"
 }

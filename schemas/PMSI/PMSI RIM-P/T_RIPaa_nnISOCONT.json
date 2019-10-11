@@ -168,7 +168,7 @@
     ],
     "name": "T_RIPaa_nnISOCONT",
     "title": "Fich Comp : Isolement et contention",
-    "description": "Champ : Public",
+    "champ": "Public",
     "produit": "PMSI RIM-P",
     "missingValues": [
         ""

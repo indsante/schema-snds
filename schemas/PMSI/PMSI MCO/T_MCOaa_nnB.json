@@ -1037,7 +1037,6 @@
     ],
     "name": "T_MCOaa_nnB",
     "title": "Description du Séjour",
-    "description": "Champ : Public et Privé",
     "produit": "PMSI MCO",
     "missingValues": [
         ""
@@ -1059,5 +1058,6 @@
         "dateCreated": "2005",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public et Privé"
 }

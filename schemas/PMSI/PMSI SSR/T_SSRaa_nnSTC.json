@@ -1015,7 +1015,6 @@
     ],
     "name": "T_SSRaa_nnSTC",
     "title": "facturation patient DGF",
-    "description": "Champ : Public",
     "produit": "PMSI SSR",
     "missingValues": [
         ""
@@ -1039,5 +1038,6 @@
         "dateCreated": "2011",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public"
 }

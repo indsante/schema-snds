@@ -190,7 +190,6 @@
     ],
     "name": "T_HADaa_nnMEDCHL",
     "title": "Fich comp Médicament coûteux hors liste en sus et hors ATU",
-    "description": "Champ : Public et Privé",
     "produit": "PMSI HAD",
     "missingValues": [
         ""
@@ -214,5 +213,6 @@
         "dateCreated": "2016",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public et Privé"
 }

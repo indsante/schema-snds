@@ -542,7 +542,6 @@
     ],
     "name": "KI_CCI_R",
     "title": "Table des circonstances et de la cause initiale de décès",
-    "description": "",
     "produit": "Causes de décès",
     "missingValues": [
         ""
@@ -575,5 +574,6 @@
         "dateCreated": "2013",
         "dateDeleted": "2015",
         "dateMissing": []
-    }
+    },
+    "champ": ""
 }

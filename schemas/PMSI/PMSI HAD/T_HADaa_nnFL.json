@@ -135,7 +135,6 @@
     ],
     "name": "T_HADaa_nnFL",
     "title": "Table FL : Table des actes de biologie (issus de la NABM) des établissements ex-OQN",
-    "description": "Champ : Privé",
     "produit": "PMSI HAD",
     "missingValues": [
         ""
@@ -159,5 +158,6 @@
         "dateCreated": "2012",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Privé"
 }

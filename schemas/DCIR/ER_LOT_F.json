@@ -168,7 +168,6 @@
     ],
     "name": "ER_LOT_F",
     "title": "Table des données de lot",
-    "description": "",
     "produit": "DCIR",
     "missingValues": [
         ""
@@ -206,5 +205,6 @@
         "dateCreated": "",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": ""
 }

@@ -223,7 +223,6 @@
     ],
     "name": "T_SSRaa_nnFH",
     "title": "OQN med en sus",
-    "description": "Champ : Privé",
     "produit": "PMSI SSR",
     "missingValues": [
         ""
@@ -247,5 +246,6 @@
         "dateCreated": "2007",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Privé"
 }

@@ -91,7 +91,6 @@
     ],
     "name": "IR_ACS_R",
     "title": "Table historique des affiliations à l'aide à la complémentaire santé",
-    "description": "",
     "produit": "DCIR_DCIRS",
     "missingValues": [
         ""
@@ -126,5 +125,6 @@
         "dateCreated": "",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": ""
 }

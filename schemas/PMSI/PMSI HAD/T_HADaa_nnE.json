@@ -80,7 +80,6 @@
     ],
     "name": "T_HADaa_nnE",
     "title": "Table des Etablissements",
-    "description": "Champ : Public et Privé",
     "produit": "PMSI HAD",
     "missingValues": [
         ""
@@ -90,5 +89,6 @@
         "dateCreated": "2005",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public et Privé"
 }

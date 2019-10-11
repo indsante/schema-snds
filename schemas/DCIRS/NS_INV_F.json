@@ -333,7 +333,6 @@
     ],
     "name": "NS_INV_F",
     "title": "Table simplifiée des données de codage des invalidités",
-    "description": "",
     "produit": "DCIRS",
     "missingValues": [
         ""
@@ -366,5 +365,6 @@
         "dateCreated": "",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": ""
 }

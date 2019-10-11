@@ -344,7 +344,6 @@
     ],
     "name": "T_SSRaa_nnFA",
     "title": "OQN Entete facture",
-    "description": "Champ : Privé",
     "produit": "PMSI SSR",
     "missingValues": [
         ""
@@ -368,5 +367,6 @@
         "dateCreated": "2007",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Privé"
 }

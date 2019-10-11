@@ -465,7 +465,6 @@
     ],
     "name": "T_MCOaa_nnFMSTC",
     "title": "ACE actes CCAM",
-    "description": "Champ : Public",
     "produit": "PMSI MCO",
     "missingValues": [
         ""
@@ -489,5 +488,6 @@
         "dateCreated": "2007",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public"
 }

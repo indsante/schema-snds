@@ -190,7 +190,6 @@
     ],
     "name": "T_MCOaa_nnMED",
     "title": "Fich comp medicament en sus",
-    "description": "Champ : Public",
     "produit": "PMSI MCO",
     "missingValues": [
         ""
@@ -214,5 +213,6 @@
         "dateCreated": "2008",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public"
 }

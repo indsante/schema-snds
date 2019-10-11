@@ -234,7 +234,6 @@
     ],
     "name": "ER_TIP_F",
     "title": "Table des données de codage de la Liste des Produits et Prestations",
-    "description": "",
     "produit": "DCIR",
     "missingValues": [
         ""
@@ -272,5 +271,6 @@
         "dateCreated": "",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": ""
 }

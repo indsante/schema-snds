@@ -31,7 +31,7 @@ def test_tableschema_contains_all_fields(schema_path):
     descriptor = Schema(schema_path).descriptor
 
     assert sorted(list(set(descriptor.keys()) - set(["foreignKeys", "primaryKey"]))) == \
-           sorted(["fields", "name", "title", "description", "produit", "missingValues", HISTORY])
+           sorted(["fields", "name", "title", "champ", "produit", "missingValues", HISTORY])
 
     assert set(descriptor[HISTORY].keys()) == set([DATE_CREATED, DATE_DELETED, DATE_MISSING])
 

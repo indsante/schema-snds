@@ -157,7 +157,6 @@
     ],
     "name": "T_SSRaa_nnMEDATU",
     "title": "Med à autorisation temporaire d'utilisation",
-    "description": "Champ : Public et Privé",
     "produit": "PMSI SSR",
     "missingValues": [
         ""
@@ -183,5 +182,6 @@
         "dateCreated": "2012",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public et Privé"
 }

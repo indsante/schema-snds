@@ -289,7 +289,6 @@
     ],
     "name": "ER_ARO_F",
     "title": "Table des données de remboursements complémentaires",
-    "description": "",
     "produit": "DCIR",
     "missingValues": [
         ""
@@ -327,5 +326,6 @@
         "dateCreated": "",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": ""
 }

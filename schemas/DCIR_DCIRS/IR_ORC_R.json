@@ -102,7 +102,6 @@
     ],
     "name": "IR_ORC_R",
     "title": "Table historique des affiliations à un organisme complémentaire",
-    "description": "",
     "produit": "DCIR_DCIRS",
     "missingValues": [
         ""
@@ -137,5 +136,6 @@
         "dateCreated": "",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": ""
 }

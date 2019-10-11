@@ -124,7 +124,6 @@
     ],
     "name": "T_RIPaa_nnFL",
     "title": "actes de Biologie",
-    "description": "Champ : Privé",
     "produit": "PMSI RIM-P",
     "missingValues": [
         ""
@@ -148,5 +147,6 @@
         "dateCreated": "2012",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Privé"
 }

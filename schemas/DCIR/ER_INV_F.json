@@ -146,7 +146,6 @@
     ],
     "name": "ER_INV_F",
     "title": "Table des données de codage des invalidités",
-    "description": "",
     "produit": "DCIR",
     "missingValues": [
         ""
@@ -184,5 +183,6 @@
         "dateCreated": "",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": ""
 }

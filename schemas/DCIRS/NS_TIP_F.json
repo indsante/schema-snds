@@ -410,7 +410,6 @@
     ],
     "name": "NS_TIP_F",
     "title": "Table simplifiée des données de codage de la Liste des Produits et Prestations",
-    "description": "",
     "produit": "DCIRS",
     "missingValues": [
         ""
@@ -443,5 +442,6 @@
         "dateCreated": "",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": ""
 }

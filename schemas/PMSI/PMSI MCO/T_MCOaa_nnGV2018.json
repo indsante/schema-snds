@@ -69,7 +69,6 @@
     ],
     "name": "T_MCOaa_nnGV2018",
     "title": "Table de passage en version de GHM à partir de mars de l'année suivante",
-    "description": "Champ : Public et Privé",
     "produit": "PMSI MCO",
     "missingValues": [
         ""
@@ -93,5 +92,6 @@
         "dateCreated": "2017",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public et Privé"
 }

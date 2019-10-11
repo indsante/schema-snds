@@ -410,7 +410,6 @@
     ],
     "name": "T_RIPaa_nnFM",
     "title": "ccam",
-    "description": "Champ : Privé",
     "produit": "PMSI RIM-P",
     "missingValues": [
         ""
@@ -434,5 +433,6 @@
         "dateCreated": "2010",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Privé"
 }

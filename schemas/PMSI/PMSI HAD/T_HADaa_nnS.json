@@ -179,7 +179,6 @@
     ],
     "name": "T_HADaa_nnS",
     "title": "Synthèses des Résumés Anonyme Par Sous-Séquence",
-    "description": "Champ : Public et Privé",
     "produit": "PMSI HAD",
     "missingValues": [
         ""
@@ -203,5 +202,6 @@
         "dateCreated": "2015",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public et Privé"
 }

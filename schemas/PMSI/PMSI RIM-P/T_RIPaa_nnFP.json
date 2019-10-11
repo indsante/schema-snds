@@ -179,7 +179,6 @@
     ],
     "name": "T_RIPaa_nnFP",
     "title": "prothese",
-    "description": "Champ : Privé",
     "produit": "PMSI RIM-P",
     "missingValues": [
         ""
@@ -203,5 +202,6 @@
         "dateCreated": "2010",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Privé"
 }

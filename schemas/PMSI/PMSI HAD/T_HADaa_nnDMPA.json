@@ -80,7 +80,6 @@
     ],
     "name": "T_HADaa_nnDMPA",
     "title": "Table des diagnostics liés au MPA (mode de prise en charge associé)",
-    "description": "Champ : Public et Privé",
     "produit": "PMSI HAD",
     "missingValues": [
         ""
@@ -104,5 +103,6 @@
         "dateCreated": "2012",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public et Privé"
 }

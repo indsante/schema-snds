@@ -399,7 +399,6 @@
     ],
     "name": "T_SSRaa_nnFASTC",
     "title": "ACE Entete facture",
-    "description": "Champ : Public",
     "produit": "PMSI SSR",
     "missingValues": [
         ""
@@ -417,5 +416,6 @@
         "dateCreated": "2012",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public"
 }

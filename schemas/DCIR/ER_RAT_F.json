@@ -157,7 +157,6 @@
     ],
     "name": "ER_RAT_F",
     "title": "Table des données des rentes d'accident du travail",
-    "description": "",
     "produit": "DCIR",
     "missingValues": [
         ""
@@ -195,5 +194,6 @@
         "dateCreated": "",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": ""
 }

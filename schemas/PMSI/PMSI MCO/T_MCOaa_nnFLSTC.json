@@ -135,7 +135,6 @@
     ],
     "name": "T_MCOaa_nnFLSTC",
     "title": "ACE biologie NABM",
-    "description": "Champ : Public",
     "produit": "PMSI MCO",
     "missingValues": [
         ""
@@ -159,5 +158,6 @@
         "dateCreated": "2012",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public"
 }

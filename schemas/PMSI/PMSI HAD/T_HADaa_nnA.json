@@ -157,7 +157,6 @@
     ],
     "name": "T_HADaa_nnA",
     "title": "Table des actes",
-    "description": "Champ : Public et Privé",
     "produit": "PMSI HAD",
     "missingValues": [
         ""
@@ -181,5 +180,6 @@
         "dateCreated": "2010",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public et Privé"
 }

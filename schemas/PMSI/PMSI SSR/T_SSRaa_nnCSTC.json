@@ -454,7 +454,6 @@
     ],
     "name": "T_SSRaa_nnCSTC",
     "title": "ACE NIR/date",
-    "description": "Champ : Public",
     "produit": "PMSI SSR",
     "missingValues": [
         ""
@@ -490,5 +489,6 @@
         "dateCreated": "2013",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public"
 }

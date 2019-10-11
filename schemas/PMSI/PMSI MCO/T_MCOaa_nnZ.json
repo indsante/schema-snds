@@ -69,7 +69,6 @@
     ],
     "name": "T_MCOaa_nnZ",
     "title": "Fich comp radiothérapie",
-    "description": "Champ : Public",
     "produit": "PMSI MCO",
     "missingValues": [
         ""
@@ -93,5 +92,6 @@
         "dateCreated": "2011",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public"
 }

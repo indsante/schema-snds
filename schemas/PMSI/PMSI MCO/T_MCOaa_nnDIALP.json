@@ -102,7 +102,6 @@
     ],
     "name": "T_MCOaa_nnDIALP",
     "title": "Fich comp dialyse péritonéale en sus",
-    "description": "Champ : Public",
     "produit": "PMSI MCO",
     "missingValues": [
         ""
@@ -126,5 +125,6 @@
         "dateCreated": "2009",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public"
 }

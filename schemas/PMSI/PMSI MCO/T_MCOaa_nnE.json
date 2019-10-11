@@ -80,7 +80,6 @@
     ],
     "name": "T_MCOaa_nnE",
     "title": "Etablissement",
-    "description": "Champ : Public et Privé",
     "produit": "PMSI MCO",
     "missingValues": [
         ""
@@ -90,5 +89,6 @@
         "dateCreated": "2005",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public et Privé"
 }

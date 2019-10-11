@@ -146,7 +146,6 @@
     ],
     "name": "T_MCOaa_nnDMIP",
     "title": "Fich comp dmi en sus",
-    "description": "Champ : Public",
     "produit": "PMSI MCO",
     "missingValues": [
         ""
@@ -170,5 +169,6 @@
         "dateCreated": "2008",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public"
 }

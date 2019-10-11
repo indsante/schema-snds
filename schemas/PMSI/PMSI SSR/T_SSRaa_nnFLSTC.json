@@ -135,7 +135,6 @@
     ],
     "name": "T_SSRaa_nnFLSTC",
     "title": "ACE actes de biologie (issus de la NABM)",
-    "description": "Champ : Public",
     "produit": "PMSI SSR",
     "missingValues": [
         ""
@@ -159,5 +158,6 @@
         "dateCreated": "2012",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public"
 }

@@ -388,7 +388,6 @@
     ],
     "name": "ER_CAM_F",
     "title": "Table des données de codage de la Classification Commune des Actes Médicaux",
-    "description": "",
     "produit": "DCIR",
     "missingValues": [
         ""
@@ -426,5 +425,6 @@
         "dateCreated": "",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": ""
 }

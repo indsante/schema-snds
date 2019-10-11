@@ -410,7 +410,6 @@
     ],
     "name": "T_MCOaa_nnFM",
     "title": "OQN actes CCAM",
-    "description": "Champ : Privé",
     "produit": "PMSI MCO",
     "missingValues": [
         ""
@@ -434,5 +433,6 @@
         "dateCreated": "2005",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Privé"
 }

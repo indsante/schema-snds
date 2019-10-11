@@ -113,7 +113,6 @@
     ],
     "name": "T_MCOaa_nnPORG",
     "title": "Fich comp prélévement d'organe",
-    "description": "Champ : Public",
     "produit": "PMSI MCO",
     "missingValues": [
         ""
@@ -137,5 +136,6 @@
         "dateCreated": "2008",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public"
 }

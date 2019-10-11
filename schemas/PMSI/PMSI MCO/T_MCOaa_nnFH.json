@@ -234,7 +234,6 @@
     ],
     "name": "T_MCOaa_nnFH",
     "title": "OQN medicament en sus",
-    "description": "Champ : Privé",
     "produit": "PMSI MCO",
     "missingValues": [
         ""
@@ -258,5 +257,6 @@
         "dateCreated": "2005",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Privé"
 }

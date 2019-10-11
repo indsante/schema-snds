@@ -102,7 +102,6 @@
     ],
     "name": "T_SSRaa_nnGME",
     "title": "GME",
-    "description": "Champ : Public et Privé",
     "produit": "PMSI SSR",
     "missingValues": [
         ""
@@ -126,5 +125,6 @@
         "dateCreated": "2012",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public et Privé"
 }

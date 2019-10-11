@@ -124,7 +124,6 @@
     ],
     "name": "T_SSRaa_nnFL",
     "title": "OQN actes de biologie (issus de la NABM)",
-    "description": "Champ : Privé",
     "produit": "PMSI SSR",
     "missingValues": [
         ""
@@ -148,5 +147,6 @@
         "dateCreated": "2012",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Privé"
 }

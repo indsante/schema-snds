@@ -201,7 +201,6 @@
     ],
     "name": "T_HADaa_nnFH",
     "title": "Table FH : Table des RSFA des Médicaments en sus des établissements ex-OQN",
-    "description": "Champ : Privé",
     "produit": "PMSI HAD",
     "missingValues": [
         ""
@@ -225,5 +224,6 @@
         "dateCreated": "2010",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Privé"
 }

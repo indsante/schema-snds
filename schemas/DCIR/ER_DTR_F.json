@@ -168,7 +168,7 @@
     ],
     "name": "ER_DTR_F",
     "title": "affinage des actes de transport ",
-    "description": "",
+    "champ": "",
     "produit": "DCIR",
     "missingValues": [
         ""

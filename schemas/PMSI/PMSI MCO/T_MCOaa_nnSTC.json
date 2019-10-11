@@ -1092,7 +1092,6 @@
     ],
     "name": "T_MCOaa_nnSTC",
     "title": "Prise en charge",
-    "description": "Champ : Public",
     "produit": "PMSI MCO",
     "missingValues": [
         ""
@@ -1116,5 +1115,6 @@
         "dateCreated": "2006",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public"
 }

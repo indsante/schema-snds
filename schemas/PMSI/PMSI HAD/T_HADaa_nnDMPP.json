@@ -80,7 +80,6 @@
     ],
     "name": "T_HADaa_nnDMPP",
     "title": "Table des diagnostics liés au MPP (mode de prise en charge principal)",
-    "description": "Champ : Public et Privé",
     "produit": "PMSI HAD",
     "missingValues": [
         ""
@@ -104,5 +103,6 @@
         "dateCreated": "2012",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public et Privé"
 }

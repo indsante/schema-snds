@@ -564,7 +564,7 @@
     ],
     "name": "DA_PRA_R",
     "title": "Référentiel des professionnels de santé",
-    "description": "",
+    "champ": "",
     "produit": "DCIR_DCIRS",
     "missingValues": [
         ""

@@ -113,7 +113,6 @@
     ],
     "name": "T_SSRaa_nnFI",
     "title": "OQN Interruption séjour",
-    "description": "Champ : Privé",
     "produit": "PMSI SSR",
     "missingValues": [
         ""
@@ -137,5 +136,6 @@
         "dateCreated": "2007",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Privé"
 }

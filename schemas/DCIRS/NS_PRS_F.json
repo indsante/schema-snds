@@ -1114,7 +1114,6 @@
     ],
     "name": "NS_PRS_F",
     "title": "Table des prestations",
-    "description": "",
     "produit": "DCIRS",
     "missingValues": [
         ""
@@ -1171,5 +1170,6 @@
         "dateCreated": "",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": ""
 }

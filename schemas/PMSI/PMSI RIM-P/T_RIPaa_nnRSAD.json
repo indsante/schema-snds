@@ -80,7 +80,6 @@
     ],
     "name": "T_RIPaa_nnRSAD",
     "title": "Diagnostic associé à la séquence",
-    "description": "Champ : Public et Privé",
     "produit": "PMSI RIM-P",
     "missingValues": [
         ""
@@ -104,5 +103,6 @@
         "dateCreated": "2007",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public et Privé"
 }

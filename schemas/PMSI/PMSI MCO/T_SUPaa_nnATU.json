@@ -7,7 +7,6 @@
         "dateDeleted": "2009",
         "dateMissing": []
     },
-    "description": "",
     "missingValues": [
         ""
     ],
@@ -89,5 +88,6 @@
             "dateMissing": [],
             "format": "default"
         }
-    ]
+    ],
+    "champ": "Public"
 }

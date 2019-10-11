@@ -135,7 +135,6 @@
     ],
     "name": "T_SSRaa_nnCCAM",
     "title": "Acte CCAM",
-    "description": "Champ : Public et Privé",
     "produit": "PMSI SSR",
     "missingValues": [
         ""
@@ -161,5 +160,6 @@
         "dateCreated": "2009",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public et Privé"
 }

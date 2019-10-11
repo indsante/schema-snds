@@ -142,7 +142,6 @@
     ],
     "name": "T_HADaa_nnEHPA",
     "title": "Table des conventions HAD-EHPA",
-    "description": "Champ : Public et Privé",
     "produit": "PMSI HAD",
     "missingValues": [
         ""
@@ -155,5 +154,6 @@
             "2013",
             "2014"
         ]
-    }
+    },
+    "champ": "Public et Privé"
 }

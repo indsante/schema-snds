@@ -135,7 +135,7 @@
     ],
     "name": "T_RIPaa_nnCCAM",
     "title": "Actes CCAM",
-    "description": "Champ : Public et Privé",
+    "champ": "Public et Privé",
     "produit": "PMSI RIM-P",
     "missingValues": [
         ""

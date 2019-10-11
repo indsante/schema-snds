@@ -146,7 +146,6 @@
     ],
     "name": "IR_IMB_R",
     "title": "Référentiel médicalisé des bénéficiaires (ALD)",
-    "description": "",
     "produit": "DCIR_DCIRS",
     "missingValues": [
         ""
@@ -170,5 +169,6 @@
         "dateCreated": "",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": ""
 }

@@ -190,7 +190,6 @@
     ],
     "name": "T_SSRaa_nnCSARR",
     "title": "actes du Catalogue spécifique des actes de rééducation et réadaptation",
-    "description": "Champ : Public et Privé",
     "produit": "PMSI SSR",
     "missingValues": [
         ""
@@ -216,5 +215,6 @@
         "dateCreated": "2014",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public et Privé"
 }

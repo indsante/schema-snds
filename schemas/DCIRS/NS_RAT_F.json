@@ -344,7 +344,6 @@
     ],
     "name": "NS_RAT_F",
     "title": "Table simplifiée des données des rentes d'accident du travail",
-    "description": "",
     "produit": "DCIRS",
     "missingValues": [
         ""
@@ -377,5 +376,6 @@
         "dateCreated": "",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": ""
 }

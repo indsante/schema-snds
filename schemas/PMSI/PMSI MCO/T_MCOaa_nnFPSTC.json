@@ -190,7 +190,6 @@
     ],
     "name": "T_MCOaa_nnFPSTC",
     "title": "ACE DMI en sus",
-    "description": "Champ : Public",
     "produit": "PMSI MCO",
     "missingValues": [
         ""
@@ -214,5 +213,6 @@
         "dateCreated": "2011",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public"
 }

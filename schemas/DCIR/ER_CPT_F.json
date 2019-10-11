@@ -234,7 +234,6 @@
     ],
     "name": "ER_CPT_F",
     "title": "Table des données comptables",
-    "description": "",
     "produit": "DCIR",
     "missingValues": [
         ""
@@ -272,5 +271,6 @@
         "dateCreated": "",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": ""
 }

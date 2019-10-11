@@ -410,7 +410,6 @@
     ],
     "name": "T_SSRaa_nnFMSTC",
     "title": "ACE actes CCAM",
-    "description": "Champ : Public",
     "produit": "PMSI SSR",
     "missingValues": [
         ""
@@ -434,5 +433,6 @@
         "dateCreated": "2012",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public"
 }

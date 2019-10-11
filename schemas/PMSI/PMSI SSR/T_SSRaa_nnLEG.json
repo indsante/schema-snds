@@ -69,7 +69,6 @@
     ],
     "name": "T_SSRaa_nnLEG",
     "title": "Erreurs détectées par la fonction groupage",
-    "description": "Champ : Public et Privé",
     "produit": "PMSI SSR",
     "missingValues": [
         ""
@@ -95,5 +94,6 @@
         "dateCreated": "2014",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public et Privé"
 }

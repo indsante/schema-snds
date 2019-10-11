@@ -179,7 +179,6 @@
     ],
     "name": "T_MCOaa_nnMEDATU",
     "title": "Fich comp médicament soumis à autorisation temporaire d'utilisation",
-    "description": "Champ : Public et Privé",
     "produit": "PMSI MCO",
     "missingValues": [
         ""
@@ -203,5 +202,6 @@
         "dateCreated": "2012",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public et Privé"
 }

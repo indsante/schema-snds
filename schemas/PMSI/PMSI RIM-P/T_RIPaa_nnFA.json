@@ -366,7 +366,6 @@
     ],
     "name": "T_RIPaa_nnFA",
     "title": "debut facture",
-    "description": "Champ : Privé",
     "produit": "PMSI RIM-P",
     "missingValues": [
         ""
@@ -390,5 +389,6 @@
         "dateCreated": "2010",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Privé"
 }

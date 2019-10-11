@@ -201,7 +201,6 @@
     ],
     "name": "T_HADaa_nnMED",
     "title": "Table Molécules onéreuses (fichier COMP)",
-    "description": "Champ : Public",
     "produit": "PMSI HAD",
     "missingValues": [
         ""
@@ -225,5 +224,6 @@
         "dateCreated": "2009",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public"
 }

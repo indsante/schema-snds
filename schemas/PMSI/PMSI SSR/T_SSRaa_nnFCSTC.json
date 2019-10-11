@@ -278,7 +278,6 @@
     ],
     "name": "T_SSRaa_nnFCSTC",
     "title": "ACE Honoraire",
-    "description": "Champ : Public",
     "produit": "PMSI SSR",
     "missingValues": [
         ""
@@ -302,5 +301,6 @@
         "dateCreated": "2012",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public"
 }

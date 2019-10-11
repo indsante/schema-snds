@@ -168,7 +168,6 @@
     ],
     "name": "T_MCOaa_nnA",
     "title": "Acte CCAM",
-    "description": "Champ : Public et Privé",
     "produit": "PMSI MCO",
     "missingValues": [
         ""
@@ -192,5 +191,6 @@
         "dateCreated": "2005",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public et Privé"
 }

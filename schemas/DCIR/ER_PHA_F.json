@@ -256,7 +256,6 @@
     ],
     "name": "ER_PHA_F",
     "title": "Table des données de codage de pharmacie",
-    "description": "",
     "produit": "DCIR",
     "missingValues": [
         ""
@@ -294,5 +293,6 @@
         "dateCreated": "",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": ""
 }

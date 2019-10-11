@@ -98,6 +98,8 @@ for column in df.columns:
 
 df.name_table = df.name_table.str.upper()
 
+df[df.name_table == "DA_PRA_R"]
+
 # ### produit
 
 mapping = {
@@ -322,6 +324,11 @@ for i, (produit, name_table) in df[["produit", 'name_table']].drop_duplicates().
         "produit": produit
     })
     
+    description = schema.descriptor.pop("description", "")
+    if len(description):
+        assert description.startswith("Champ")
+
+    schema.descriptor["champ"] = description[8:] if len(description) else ""    
     
     # Différences d'ensembles de variables
     schema_names = set([name.upper() for name in schema.field_names]) 

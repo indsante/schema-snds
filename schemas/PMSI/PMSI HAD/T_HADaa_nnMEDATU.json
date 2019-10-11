@@ -201,7 +201,6 @@
     ],
     "name": "T_HADaa_nnMEDATU",
     "title": "Fich comp médicament soumis à autorisation temporaire d'utilisation",
-    "description": "Champ : Public et Privé",
     "produit": "PMSI HAD",
     "missingValues": [
         ""
@@ -225,5 +224,6 @@
         "dateCreated": "2012",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public et Privé"
 }

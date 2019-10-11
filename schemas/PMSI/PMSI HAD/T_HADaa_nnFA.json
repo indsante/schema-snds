@@ -377,7 +377,6 @@
     ],
     "name": "T_HADaa_nnFA",
     "title": "TableFA : Table des RSFA début de facture des établissements ex-OQN",
-    "description": "Champ : Privé",
     "produit": "PMSI HAD",
     "missingValues": [
         ""
@@ -401,5 +400,6 @@
         "dateCreated": "2010",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Privé"
 }

@@ -69,7 +69,6 @@
     ],
     "name": "T_RIPaa_nnR3AD",
     "title": "Diagnostic associé à l'acte",
-    "description": "Champ : Public (et qq privé)",
     "produit": "PMSI RIM-P",
     "missingValues": [
         ""
@@ -100,5 +99,6 @@
         "dateCreated": "2007",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public (et qq privé)"
 }

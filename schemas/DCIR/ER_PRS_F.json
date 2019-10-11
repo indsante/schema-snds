@@ -1400,7 +1400,6 @@
     ],
     "name": "ER_PRS_F",
     "title": "Table des prestations",
-    "description": "",
     "produit": "DCIR",
     "missingValues": [
         ""
@@ -1470,5 +1469,6 @@
         "dateCreated": "",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": ""
 }

@@ -278,7 +278,6 @@
     ],
     "name": "T_SSRaa_nnFBSTC",
     "title": "ACE Prestation",
-    "description": "Champ : Public",
     "produit": "PMSI SSR",
     "missingValues": [
         ""
@@ -306,5 +305,6 @@
         "dateCreated": "2012",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public"
 }

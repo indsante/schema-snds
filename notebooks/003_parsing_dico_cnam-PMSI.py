@@ -297,15 +297,27 @@ for i, (produit, name_table) in df[["produit", 'name_table']].drop_duplicates().
     schema_path = "schemas/PMSI/{}/{}.json".format(produit, name_table)
     #print()
     #print(produit, name_table, title) 
-    if not os.path.exists(schema_path):
-        print("- Creating schema")
-        table_descriptor["history"]["dateMissing"] = []
-        table_descriptor["description"] = ""
-        schema = Schema(table_descriptor)
-    else :
-        schema = Schema(schema_path)
-        table_descriptor["history"]["dateMissing"] = schema.descriptor["history"]["dateMissing"]
-        schema.descriptor.update(table_descriptor)
+    assert os.path.exists(schema_path)
+#    if not os.path.exists(schema_path):
+#        print("- Creating schema")
+#        table_descriptor["history"]["dateMissing"] = []
+#        table_descriptor["description"] = ""
+#        schema = Schema(table_descriptor)
+#    else :
+    schema = Schema(schema_path)
+    table_descriptor["history"]["dateMissing"] = schema.descriptor["history"]["dateMissing"]
+    
+    description = schema.descriptor.pop("description", "")
+    if len(description):
+        assert description.startswith("Champ")
+        
+        old_champ = description[8:]
+    
+    champ = old_champ if not len(champ) else champ
+    
+    schema.descriptor["champ"] = champ
+    
+    schema.descriptor.update(table_descriptor)
 
     
     
@@ -350,11 +362,5 @@ for i, (produit, name_table) in df[["produit", 'name_table']].drop_duplicates().
     schema.save(schema_path, ensure_ascii=False)
 
 1
-
-
-
-df_table[df_table.name_table.str.contains("LACT")]
-
-df[df.name_table.str.contains("LACT")].name_table.value_counts()
 
 

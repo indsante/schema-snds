@@ -201,7 +201,6 @@
     ],
     "name": "T_RIPaa_nnS",
     "title": "Synthèse du Séjour de Résumé par séquence anonymisé",
-    "description": "Champ : Public et Privé",
     "produit": "PMSI RIM-P",
     "missingValues": [
         ""
@@ -225,5 +224,6 @@
         "dateCreated": "2015",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public et Privé"
 }

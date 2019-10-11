@@ -80,7 +80,6 @@
     ],
     "name": "T_RIPaa_nnE",
     "title": "etablissement",
-    "description": "Champ : Public et Privé",
     "produit": "PMSI RIM-P",
     "missingValues": [
         ""
@@ -90,5 +89,6 @@
         "dateCreated": "2007",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public et Privé"
 }

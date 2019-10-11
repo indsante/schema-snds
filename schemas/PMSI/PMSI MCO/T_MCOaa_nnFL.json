@@ -124,7 +124,6 @@
     ],
     "name": "T_MCOaa_nnFL",
     "title": "OQN biologie NABM",
-    "description": "Champ : Privé",
     "produit": "PMSI MCO",
     "missingValues": [
         ""
@@ -148,5 +147,6 @@
         "dateCreated": "2012",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Privé"
 }

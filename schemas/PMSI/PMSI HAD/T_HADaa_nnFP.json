@@ -235,7 +235,6 @@
     ],
     "name": "T_HADaa_nnFP",
     "title": "Table FP : Table des RSFA des LPP/DMI en sus des établissements ex-OQN",
-    "description": "Champ : Privé",
     "produit": "PMSI HAD",
     "missingValues": [
         ""
@@ -259,5 +258,6 @@
         "dateCreated": "2014",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Privé"
 }

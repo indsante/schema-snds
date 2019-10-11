@@ -1048,7 +1048,6 @@
     ],
     "name": "T_SSRaa_nnB",
     "title": "Description du Séjour",
-    "description": "Champ : Public et Privé",
     "produit": "PMSI SSR",
     "missingValues": [
         ""
@@ -1071,5 +1070,6 @@
         "dateCreated": "2005",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public et Privé"
 }

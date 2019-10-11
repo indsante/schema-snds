@@ -146,7 +146,6 @@
     ],
     "name": "T_HADaa_nnFI",
     "title": "Table FI : Table des RSFA interruption de séjour des établissements ex-OQN",
-    "description": "Champ : Privé",
     "produit": "PMSI HAD",
     "missingValues": [
         ""
@@ -170,5 +169,6 @@
         "dateCreated": "2014",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Privé"
 }

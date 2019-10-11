@@ -267,7 +267,6 @@
     ],
     "name": "ER_ETE_F",
     "title": "Table des données des établissements",
-    "description": "",
     "produit": "DCIR",
     "missingValues": [
         ""
@@ -305,5 +304,6 @@
         "dateCreated": "",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": ""
 }

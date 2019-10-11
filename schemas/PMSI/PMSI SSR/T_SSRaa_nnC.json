@@ -333,7 +333,6 @@
     ],
     "name": "T_SSRaa_nnC",
     "title": "NIR patient et Dates de soin",
-    "description": "Champ : Public et Privé",
     "produit": "PMSI SSR",
     "missingValues": [
         ""
@@ -369,5 +368,6 @@
         "dateCreated": "2005",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public et Privé"
 }

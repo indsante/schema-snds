@@ -50,7 +50,6 @@
     ],
     "name": "CT_IDE_AAAA_GN",
     "title": "Table individus de la cartographie des pathologies pour l'année AAAA et l'algorithme N",
-    "description": "Champ : Regime general",
     "produit": "CARTOGRAPHIE_PATHOLOGIES",
     "missingValues": [
         ""
@@ -78,5 +77,6 @@
         "dateCreated": "",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Regime general"
 }

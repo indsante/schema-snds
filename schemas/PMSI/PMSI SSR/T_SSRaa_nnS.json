@@ -223,7 +223,6 @@
     ],
     "name": "T_SSRaa_nnS",
     "title": "synthese",
-    "description": "Champ : Public et Privé",
     "produit": "PMSI SSR",
     "missingValues": [
         ""
@@ -247,5 +246,6 @@
         "dateCreated": "2005",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public et Privé"
 }

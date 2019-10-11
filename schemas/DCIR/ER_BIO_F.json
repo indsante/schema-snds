@@ -157,7 +157,6 @@
     ],
     "name": "ER_BIO_F",
     "title": "Table des données de codage de biologie",
-    "description": "",
     "produit": "DCIR",
     "missingValues": [
         ""
@@ -195,5 +194,6 @@
         "dateCreated": "",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": ""
 }

@@ -432,7 +432,6 @@
     ],
     "name": "NS_PHA_F",
     "title": "Table simplifiée des données de codage de pharmacie",
-    "description": "",
     "produit": "DCIRS",
     "missingValues": [
         ""
@@ -465,5 +464,6 @@
         "dateCreated": "",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": ""
 }

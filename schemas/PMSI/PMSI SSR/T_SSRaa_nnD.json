@@ -58,7 +58,6 @@
     ],
     "name": "T_SSRaa_nnD",
     "title": "diagnostic associé",
-    "description": "Champ : Public et Privé",
     "produit": "PMSI SSR",
     "missingValues": [
         ""
@@ -84,5 +83,6 @@
         "dateCreated": "2009",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public et Privé"
 }

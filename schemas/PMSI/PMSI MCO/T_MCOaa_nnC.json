@@ -443,7 +443,6 @@
     ],
     "name": "T_MCOaa_nnC",
     "title": "NIR patient et Dates de soin",
-    "description": "Champ : Public et Privé",
     "produit": "PMSI MCO",
     "missingValues": [
         ""
@@ -479,5 +478,6 @@
         "dateCreated": "2005",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public et Privé"
 }

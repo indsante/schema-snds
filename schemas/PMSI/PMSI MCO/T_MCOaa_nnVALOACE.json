@@ -476,7 +476,6 @@
     ],
     "name": "T_MCOaa_nnVALOACE",
     "title": "Valorisation des actes et consultations externes",
-    "description": "Champ : Public",
     "produit": "PMSI MCO",
     "missingValues": [
         ""
@@ -500,5 +499,6 @@
         "dateCreated": "2013",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public"
 }

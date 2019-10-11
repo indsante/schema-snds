@@ -256,7 +256,6 @@
     ],
     "name": "T_RIPaa_nnFC",
     "title": "honoraire",
-    "description": "Champ : Privé",
     "produit": "PMSI RIM-P",
     "missingValues": [
         ""
@@ -280,5 +279,6 @@
         "dateCreated": "2010",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Privé"
 }

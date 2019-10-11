@@ -241,7 +241,6 @@
     ],
     "name": "IR_BEN_R",
     "title": "Référentiel des bénéficiaires du SNIIRAM-SNDS",
-    "description": "",
     "produit": "BENEFICIAIRE",
     "missingValues": [
         ""
@@ -254,5 +253,6 @@
         "dateCreated": "",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": ""
 }

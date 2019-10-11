@@ -190,7 +190,6 @@
     ],
     "name": "ER_ANO_F",
     "title": "Table des anomalies",
-    "description": "",
     "produit": "DCIR",
     "missingValues": [
         ""
@@ -228,5 +227,6 @@
         "dateCreated": "",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": ""
 }

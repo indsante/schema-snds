@@ -267,7 +267,6 @@
     ],
     "name": "T_MCOaa_nnFC",
     "title": "OQN Honoraire",
-    "description": "Champ : Privé",
     "produit": "PMSI MCO",
     "missingValues": [
         ""
@@ -291,5 +290,6 @@
         "dateCreated": "2005",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Privé"
 }

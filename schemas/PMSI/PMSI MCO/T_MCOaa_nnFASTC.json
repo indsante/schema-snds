@@ -465,7 +465,6 @@
     ],
     "name": "T_MCOaa_nnFASTC",
     "title": "ACE Entete facture",
-    "description": "Champ : Public",
     "produit": "PMSI MCO",
     "missingValues": [
         ""
@@ -483,5 +482,6 @@
         "dateCreated": "2007",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public"
 }

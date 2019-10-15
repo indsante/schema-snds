@@ -202,7 +202,7 @@
             "name": "BEN_CTA_TYP",
             "description": "Type de contrat complémentaire",
             "type": "number",
-            "nomenclature": "-",
+            "nomenclature": "IR_CTA_V",
             "length": "3",
             "format": "default",
             "dateCreated": "",

@@ -218,10 +218,6 @@ df[df.type == ""]
 
 # ### lenght
 
-df.loc[df.name == "ARO_THE_TAU"]
-
-df.loc[df.name == "ARO_THE_TAU", "length"] = "5"
-
 mask = (df.length.str.contains('\.') | df.length.str.contains('\,'))
 df[mask].head(2)
 

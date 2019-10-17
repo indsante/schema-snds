@@ -223,25 +223,92 @@ df.loc[df.length.str.contains(",") & (df.type == "string"), "type"] = "number"
 
 # ### TODO (?) : Empilement des tables MCOaa_nnGV
 
+mask = df.name.str.startswith("GV")
+df.loc[mask, "name"] = "GHM_NUM"
+df.loc[mask, "description"] = "Regroupage en GHM"
+
+# +
 mask = df.name_table.str.contains("nnGV")
+
+# "Observations 2017 : version de mars de l'année suivante"
+# "Observations 2017 : version de mars de l'année" ''
+df.loc[mask, "observation_variable"] = ""
+
+# une ligne par séjour (ETA_NUM||RSA_NUM)
+df.loc[mask, "regle_gestion"] = ""
+
+df.loc[mask & (df.name == "ETE_GHS_NUM"), 'length'] = "4"
+df.loc[mask & (df.name == "ETE_GHS_NUM"), 'description'] = 'Regroupage en GHS (format numérique de GHS_NUM)'
+df.loc[mask & (df.name == "GHS_NUM"), 'description'] = 'Regroupage en GHS (utilisé pour la valorisation)'
+# -
+
 df[mask].name_table.value_counts()
 
-for name_table in df[mask].name_table.unique():
-    print(name_table)
-    print(df[df.name_table == name_table].dateDeleted.nunique())
+mask = df.name_table.str.contains("nnGV")
+sdf = (df
+       .loc[mask, ['name_table', "date_created_table", 'date_deleted_table']]
+       .drop_duplicates()
+       .copy()
+      )
+sdf.name_table = sdf.name_table.str[10:]
+observation_table = []
+for row in sdf.sort_values(["date_created_table", 'date_deleted_table']).itertuples():
+    observation = "Version {} : création {}".format(row.name_table, row.date_created_table)
+    if row.date_deleted_table != '':
+        observation += ", suppression {}".format(row.date_deleted_table)
+    observation_table.append(observation)
+observation_table = "\n".join(observation_table)
+print(observation_table)
 
-df[mask].name.value_counts()
+df_table[df_table.name_table == "T_MCOaa_nnGV2018"]
 
-list(df.columns)
+df_table.append({
+      'produit': "PMSI MCO",
+    'name_table': "T_MCOaa_nnGVxx",
+    'type_table': "Séjour"
+        'title_table': "Table de passage en version de GHM",
+        "date_created_table": "2005",
+        "date_deleted_table": "",
+        "variable_jointure": "",
+    "champ": "Public et Privé",
+    "observation": observation_table,
+    "regle_gestion": "",
+    "concept": ""
+}, ignore_index=True)
 
-df.loc[mask & (df.name == "ETA_NUM")]
+# +
+sdf = df[df.name_table.str.contains("nnGV")]
+var_columns = ['name', 'type', 'length', 'description', 'observation_variable', 'regle_gestion', 'famille_concept',
+               'sensible_ou_medicale', 'variable_jointure'
+              ]
 
-var_columns = ['name', 'type', 'length', 'description', 'variable_jointure', 'observation_variable', 
-           'regle_gestion', 'famille_concept', 'sensible_ou_medicale']
+new_fields = []
+for field in sdf.name.drop_duplicates():
+    new_field = {
+        'produit': "PMSI MCO",
+        'name_table': "T_MCOaa_nnGVxx",
+        'title_table': "Table de passage en version de GHM",
+        "date_created_table": "2005",
+        "date_deleted_table": "",
+        "dateDeleted": "",
+        "dateCreated": str(min(sdf.loc[sdf.name == field, "dateCreated"].map(int)))
+    }
+        
+    for column in var_columns:
+        values = sdf.loc[(sdf.name == field), column].unique()
+        if len(values) != 1:
+            values = sdf.loc[(sdf.name == field) & (sdf[column] != ''), column].unique()
+            if len(values) != 1:
+                print('   ', field, column, values)
+        new_field[column] = values[0]
+    new_fields.append(new_field)
 
-for name in df[mask].name.unique():
-    print("\n# ", name)
-    print(df.loc[mask & (df.name == name), var_columns].replace("", pd.np.nan).nunique())
+df = df.drop(df[df.name_table.str.contains("nnGV")].index)
+df = df.append(new_fields, ignore_index=True)
+
+# -
+
+
 
 # ## Create descriptor
 
@@ -265,7 +332,7 @@ for i, (produit, name_table) in df[["produit", 'name_table']].drop_duplicates().
     date_deleted_table = sdf.date_deleted_table.unique()[0]
 
     sdf_table = df_table[df_table.name_table == name_table]
-    # print(name_table)
+    print(name_table)
     assert len(sdf_table) == 1
     
     title = sdf_table.title_table.unique()[0]
@@ -333,7 +400,7 @@ for i, (produit, name_table) in df[["produit", 'name_table']].drop_duplicates().
             continue
 
         columns_to_update = ['description', 'type', 'length', "dateCreated", 'dateDeleted']
-        #columns_to_update = ['dateCreated']
+        #columns_to_update = ['length']
         field_descriptor = get_field_descriptor(sdf, name, columns_to_update)
         for key in columns_to_update:
             if field_descriptor[key] == "" or field_descriptor[key] is None:
@@ -377,5 +444,7 @@ for schema_path in get_all_schema_path():
     schema.save(schema_path, ensure_ascii=False)
 
 1
+
+
 
 

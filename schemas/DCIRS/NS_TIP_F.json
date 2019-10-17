@@ -5,7 +5,7 @@
             "description": "Clé technique de jointure",
             "type": "number",
             "nomenclature": "-",
-            "length": "18",
+            "length": "8",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",

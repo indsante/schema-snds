@@ -218,12 +218,24 @@ df[df.type == ""]
 
 # ### lenght
 
+df.loc[df.name == "ARO_THE_TAU"]
+
 df.loc[df.name == "ARO_THE_TAU", "length"] = "5"
 
 mask = (df.length.str.contains('\.') | df.length.str.contains('\,'))
 df[mask].head(2)
 
+df.loc[df.length == "38"]
+
 df.loc[df.length == "38", "length"] = "18"
+
+df.loc[df.length == "145"]
+
+df.loc[df.length == "145", "length"] = "14,5"
+
+df.loc[df.length == "72"]
+
+df.loc[df.length == "72", "length"] = "12"
 
 df.length = df.length.str.replace('.', ',').str.strip(',')
 
@@ -396,7 +408,7 @@ for i, (produit, name_table) in df[["produit", 'name_table']].drop_duplicates().
             continue
         
         columns_to_update = ['description', 'type', 'nomenclature', 'length', "regle_gestion", "observation"]
-        columns_to_update = ['observation']
+        #columns_to_update = ['observation']
         field_descriptor = get_field_descriptor(sdf, name, columns_to_update)
         for key in columns_to_update:
             if field_descriptor[key] == "" or field_descriptor[key] is None:
@@ -413,7 +425,5 @@ for i, (produit, name_table) in df[["produit", 'name_table']].drop_duplicates().
     schema.save(schema_path, ensure_ascii=False)
 
 1
-
-df[df.name == "CAT_PCS_COD"]
 
 

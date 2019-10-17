@@ -249,21 +249,7 @@ def get_field_descriptor(df, name, columns):
     return (df[df.name.str.upper() == name.upper()][columns]
             .to_dict(orient="records")[0])
 
-df.observation_variable.value_counts()
-
-df[df.observation_variable == "Observations 2017 : Chgt nom variable en 2014 (depuis 2006)"]
-
-df_table.head(2)
-
-df_table.regle_gestion.value_counts()
-
-list(df_table.observation.unique())
-
-list(df_table.champ.unique())
-
-list(df_table.observation.unique())
-
-df.regle_gestion.value_counts()
+df_table.observation.value_counts()
 
 for i, (produit, name_table) in df[["produit", 'name_table']].drop_duplicates().iterrows():
     # Restriction table

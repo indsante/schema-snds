@@ -9,7 +9,9 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FOR_NUM",
@@ -20,7 +22,9 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FOR_NUM_ORI",
@@ -31,7 +35,9 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETA_NUM_TWO",
@@ -42,7 +48,9 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "IPP_IRR_CRY",
@@ -56,7 +64,9 @@
             "dateMissing": [],
             "constraints": {
                 "unique": true
-            }
+            },
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "SEJ_IDT",
@@ -67,7 +77,9 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "AGE_ANN",
@@ -78,7 +90,9 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "AGE_JOU",
@@ -89,7 +103,9 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "COD_SEX",
@@ -100,7 +116,9 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "BDI_COD",
@@ -111,7 +129,9 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "BDI_DEP",
@@ -122,7 +142,9 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FOR_ACT",
@@ -133,7 +155,9 @@
             "format": "default",
             "dateCreated": "2012",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "SEC_NUM",
@@ -144,7 +168,9 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "MOD_SOI",
@@ -155,7 +181,9 @@
             "format": "default",
             "dateCreated": "2012",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ORD_NUM",
@@ -166,7 +194,9 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "RAL_ACT_MOI",
@@ -177,7 +207,9 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "RAL_ACT_ANN",
@@ -188,7 +220,9 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ACT_NAT",
@@ -199,7 +233,9 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ACT_LIEU",
@@ -210,7 +246,9 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "PRO_CAT",
@@ -221,7 +259,9 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "INT_NBR",
@@ -232,7 +272,9 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ANO_IND",
@@ -243,7 +285,9 @@
             "format": "default",
             "dateCreated": "2012",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ACT_LIB_IND",
@@ -254,7 +298,9 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETB_SAN_AUTOR",
@@ -265,7 +311,9 @@
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "DGN_PAL",
@@ -276,7 +324,9 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NBR_DGN",
@@ -287,7 +337,9 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NAT_PEC",
@@ -298,7 +350,9 @@
             "dateDeleted": "2012",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         }
     ],
     "name": "T_RIPaa_nnR3A",

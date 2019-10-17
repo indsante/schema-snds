@@ -9,7 +9,9 @@
             "format": "default",
             "dateCreated": "2009",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETA_NUM",
@@ -20,7 +22,9 @@
             "format": "default",
             "dateCreated": "2009",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETA_NUM_ENT",
@@ -31,7 +35,9 @@
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "MOI",
@@ -42,7 +48,9 @@
             "format": "default",
             "dateCreated": "2009",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NBR_PRS",
@@ -53,7 +61,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "PRS_COD",
@@ -64,7 +74,9 @@
             "format": "default",
             "dateCreated": "2009",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "PRS_TYP",
@@ -75,7 +87,9 @@
             "format": "default",
             "dateCreated": "2009",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "RSA_NUM",
@@ -86,7 +100,9 @@
             "format": "default",
             "dateCreated": "2009",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FAC_SEM_NBR",
@@ -97,7 +113,9 @@
             "dateDeleted": "2011",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         }
     ],
     "name": "T_MCOaa_nnDIALP",

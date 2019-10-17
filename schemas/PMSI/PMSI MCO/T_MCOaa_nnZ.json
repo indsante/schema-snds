@@ -9,7 +9,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETE_GHS_NUM",
@@ -20,7 +22,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "GHS_SUP_COD",
@@ -31,7 +35,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NBR_SUP",
@@ -42,7 +48,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "RSA_NUM",
@@ -53,7 +61,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "RSS_NUM",
@@ -64,7 +74,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         }
     ],
     "name": "T_MCOaa_nnZ",

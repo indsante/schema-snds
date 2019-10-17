@@ -7,7 +7,8 @@ import logging
 import pytest
 from tableschema import Schema
 
-from src.constants import SCHEMAS, HISTORY, DATE_CREATED, DATE_MISSING, DATE_DELETED, NOMENCLATURE, OBSERVATION, CHAMP
+from src.constants import SCHEMAS, HISTORY, DATE_CREATED, DATE_MISSING, DATE_DELETED, NOMENCLATURE, OBSERVATION, \
+    CHAMP, REGLE_GESTION
 from src.utils import get_all_schema_path
 
 
@@ -37,5 +38,5 @@ def test_tableschema_contains_all_fields(schema_path):
 
     for field in descriptor['fields']:
         assert sorted(list(set(field.keys()) - set(["constraints"]))) == \
-               sorted(["name", "description", "type", NOMENCLATURE, "length", "format", DATE_CREATED, DATE_DELETED,
-                       DATE_MISSING])
+               sorted(["name", "description", "type", NOMENCLATURE, "length", "format", OBSERVATION, REGLE_GESTION,
+                       DATE_CREATED, DATE_DELETED, DATE_MISSING])

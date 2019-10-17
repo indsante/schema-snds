@@ -9,7 +9,9 @@
             "format": "default",
             "dateCreated": "2008",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ANN_PO",
@@ -20,7 +22,9 @@
             "format": "default",
             "dateCreated": "2009",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "DELAI",
@@ -31,7 +35,9 @@
             "format": "default",
             "dateCreated": "2008",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETA_NUM",
@@ -42,7 +48,9 @@
             "format": "default",
             "dateCreated": "2008",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETA_NUM_ENT",
@@ -53,7 +61,9 @@
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "MOI",
@@ -64,7 +74,9 @@
             "format": "default",
             "dateCreated": "2008",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "MOI_PO",
@@ -75,7 +87,9 @@
             "format": "default",
             "dateCreated": "2008",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "PO_COD",
@@ -86,7 +100,9 @@
             "format": "default",
             "dateCreated": "2008",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "PRS_TYP",
@@ -97,7 +113,9 @@
             "format": "default",
             "dateCreated": "2008",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "RSA_NUM",
@@ -108,7 +126,9 @@
             "format": "default",
             "dateCreated": "2008",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         }
     ],
     "name": "T_MCOaa_nnPORG",

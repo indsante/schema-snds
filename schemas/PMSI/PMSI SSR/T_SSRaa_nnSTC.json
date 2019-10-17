@@ -9,7 +9,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "RHA_NUM",
@@ -20,7 +22,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NOE_RGM_CTL",
@@ -31,7 +35,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "EXO_TM_CTL",
@@ -42,7 +48,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "COD_PEC_CTL",
@@ -53,7 +61,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NAT_ASS_CTL",
@@ -64,7 +74,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "CTR_TYP_CTL",
@@ -75,7 +87,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "SEJ_FAC_CTL",
@@ -86,7 +100,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NON_FAC_AM_CTL",
@@ -97,7 +113,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FAC_18E_CTL",
@@ -108,7 +126,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NBR_VEN_CTL",
@@ -119,7 +139,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FAC_MNT_TM_CTL",
@@ -130,7 +152,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FAC_MNT_FJ_CTL",
@@ -141,7 +165,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "TOT_MNT_AM_CTL",
@@ -152,7 +178,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "MAJ_MNT_CTL",
@@ -163,7 +191,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "REM_BAS_CTL",
@@ -174,7 +204,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "REM_TAU_CTL",
@@ -185,7 +217,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "BEN_CMU_CTL",
@@ -196,7 +230,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "DAT_HOS_CTL",
@@ -207,7 +243,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "TOT_MNT_AMC_CTL",
@@ -218,7 +256,9 @@
             "format": "default",
             "dateCreated": "2012",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NOE_RGM",
@@ -229,7 +269,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "EXO_TM",
@@ -240,7 +282,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FJ_COD_PEC",
@@ -251,7 +295,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NAT_ASS",
@@ -262,7 +308,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "CTR_TYP",
@@ -273,7 +321,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "SEJ_FAC_AM",
@@ -284,7 +334,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NON_FAC_AM",
@@ -295,7 +347,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FAC_18E",
@@ -306,7 +360,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FAC_NBR_VEN",
@@ -317,7 +373,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FAC_MNT_TM",
@@ -328,7 +386,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FAC_MNT_FJ",
@@ -339,7 +399,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "TOT_MNT_AM",
@@ -350,7 +412,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "MAJ_MNT_PS",
@@ -361,7 +425,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "REM_BAS_MNT",
@@ -372,7 +438,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "REM_TAU",
@@ -383,7 +451,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "BEN_CMU",
@@ -394,7 +464,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "DAT_HOS",
@@ -405,7 +477,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "TOT_MNT_AMC",
@@ -416,7 +490,9 @@
             "format": "default",
             "dateCreated": "2012",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "PA_COD_CTL",
@@ -427,7 +503,9 @@
             "format": "default",
             "dateCreated": "2014",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ENT_NUM_CTL",
@@ -438,7 +516,9 @@
             "format": "default",
             "dateCreated": "2014",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "CAI_GES_CTL",
@@ -449,7 +529,9 @@
             "format": "default",
             "dateCreated": "2014",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "CENT_GES_CTL",
@@ -460,7 +542,9 @@
             "format": "default",
             "dateCreated": "2014",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "GES_COD_CTL",
@@ -471,7 +555,9 @@
             "format": "default",
             "dateCreated": "2014",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "GES_COD",
@@ -482,7 +568,9 @@
             "format": "default",
             "dateCreated": "2014",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "PA_COD",
@@ -493,7 +581,9 @@
             "format": "default",
             "dateCreated": "2014",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ENT_NUM",
@@ -504,7 +594,9 @@
             "format": "default",
             "dateCreated": "2014",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "CAI_GES",
@@ -515,7 +607,9 @@
             "format": "default",
             "dateCreated": "2014",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "CENT_GES",
@@ -526,7 +620,9 @@
             "format": "default",
             "dateCreated": "2014",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "RNG_NAI_CTL",
@@ -537,7 +633,9 @@
             "format": "default",
             "dateCreated": "2014",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "RNG_BEN_CTL",
@@ -548,7 +646,9 @@
             "format": "default",
             "dateCreated": "2014",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "RNG_NAI",
@@ -559,7 +659,9 @@
             "format": "default",
             "dateCreated": "2014",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "RNG_BEN",
@@ -570,7 +672,9 @@
             "format": "default",
             "dateCreated": "2014",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "PEC_SOI_URG_CTL",
@@ -581,7 +685,9 @@
             "format": "default",
             "dateCreated": "2015",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "PEC_SOI_URG",
@@ -592,7 +698,9 @@
             "format": "default",
             "dateCreated": "2015",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NAT_PJ_DT_CTL",
@@ -603,7 +711,9 @@
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "DAT_PEC_CTL",
@@ -614,7 +724,9 @@
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "CAI_NUM_CTL",
@@ -625,7 +737,9 @@
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "REG_PEC_ASS_CTL",
@@ -636,7 +750,9 @@
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "TOP_ECL_FLX_CTL",
@@ -647,7 +763,9 @@
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "DAT_DEB_FAC_CTL",
@@ -658,7 +776,9 @@
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "DAT_FIN_FAC_CTL",
@@ -669,7 +789,9 @@
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NAT_PJ_DT",
@@ -680,7 +802,9 @@
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "DAT_PEC",
@@ -691,7 +815,9 @@
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "CAI_NUM",
@@ -702,7 +828,9 @@
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "REG_PEC_ASS",
@@ -713,7 +841,9 @@
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "TOP_ECL_FLX",
@@ -724,7 +854,9 @@
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "DAT_DEB_FAC",
@@ -735,7 +867,9 @@
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "DAT_FIN_FAC",
@@ -746,7 +880,9 @@
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "RAC_MNT_PAT_CTL",
@@ -757,7 +893,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NBR_REJET_AMO_CTL",
@@ -768,7 +906,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FAC_AMO_DT_CTL",
@@ -779,7 +919,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FAC_AMC_DT_CTL",
@@ -790,7 +932,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FAC_RAC_DT_CTL",
@@ -801,7 +945,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "PAI_AMO_DT_CTL",
@@ -812,7 +958,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "PAI_AMC_DT_CTL",
@@ -823,7 +971,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "PAI_RAC_DT_CTL",
@@ -834,7 +984,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "VALID_FAC_AMO_CTL",
@@ -845,7 +997,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "VALID_FAC_AMC_CTL",
@@ -856,7 +1010,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "VALID_FAC_RAC_CTL",
@@ -867,7 +1023,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "PAYS_ASS_PAT_CTL",
@@ -878,7 +1036,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "RAC_MNT_PAT",
@@ -889,7 +1049,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NBR_REJET_AMO",
@@ -900,7 +1062,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FAC_AMO_DT",
@@ -911,7 +1075,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FAC_AMC_DT",
@@ -922,7 +1088,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FAC_RAC_DT",
@@ -933,7 +1101,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "PAI_AMO_DT",
@@ -944,7 +1114,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "PAI_AMC_DT",
@@ -955,7 +1127,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "PAI_RAC_DT",
@@ -966,7 +1140,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "VALID_FAC_AMO",
@@ -977,7 +1153,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "VALID_FAC_AMC",
@@ -988,7 +1166,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "VALID_FAC_RAC",
@@ -999,7 +1179,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "PAYS_ASS_PAT",
@@ -1010,7 +1192,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         }
     ],
     "name": "T_SSRaa_nnSTC",

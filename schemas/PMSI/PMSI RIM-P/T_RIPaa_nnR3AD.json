@@ -9,7 +9,9 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETA_NUM_TWO",
@@ -20,7 +22,9 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "SEJ_IDT",
@@ -31,7 +35,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "IPP_IRR_CRY",
@@ -42,7 +48,9 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ORD_NUM",
@@ -53,7 +61,9 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ASS_DGN",
@@ -64,7 +74,9 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         }
     ],
     "name": "T_RIPaa_nnR3AD",

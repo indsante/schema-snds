@@ -9,7 +9,9 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ARO_CPL_COD",
@@ -20,7 +22,9 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ARO_ENV_TYP",
@@ -31,7 +35,9 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ARO_FJH_TYP",
@@ -42,7 +48,9 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ARO_FTA_COD",
@@ -53,7 +61,9 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ARO_MIN_TAU",
@@ -64,7 +74,9 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ARO_MOD_MNT",
@@ -75,7 +87,9 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ARO_ORD_NUM",
@@ -86,7 +100,9 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ARO_PRS_NAT",
@@ -97,7 +113,9 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ARO_REM_BSE",
@@ -108,7 +126,9 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ARO_REM_MNT",
@@ -119,7 +139,9 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ARO_REM_PRU",
@@ -130,7 +152,9 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ARO_REM_SGN",
@@ -141,7 +165,9 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ARO_REM_TAU",
@@ -152,7 +178,9 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ARO_REM_TYP",
@@ -163,7 +191,9 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ARO_THE_TAU",
@@ -174,7 +204,9 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ORG_CLE_NEW",
@@ -185,7 +217,9 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "DCT_ORD_NUM",
@@ -196,7 +230,9 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FLX_DIS_DTD",
@@ -207,7 +243,9 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FLX_EMT_NUM",
@@ -218,7 +256,9 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FLX_EMT_ORD",
@@ -229,7 +269,9 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FLX_EMT_TYP",
@@ -240,7 +282,9 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FLX_TRT_DTD",
@@ -251,7 +295,9 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ORG_CLE_NUM",
@@ -262,7 +308,9 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "PRS_ORD_NUM",
@@ -273,7 +321,9 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "REM_TYP_AFF",
@@ -284,7 +334,9 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         }
     ],
     "name": "ER_ARO_F",

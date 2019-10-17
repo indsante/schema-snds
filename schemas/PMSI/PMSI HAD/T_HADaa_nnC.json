@@ -9,7 +9,9 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETA_NUM_GEO",
@@ -31,7 +33,9 @@
                 "2014",
                 "2015",
                 "2016"
-            ]
+            ],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "format",
@@ -42,7 +46,9 @@
             "format": "default",
             "dateCreated": "2008",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "vid_hosp_for",
@@ -53,7 +59,9 @@
             "format": "default",
             "dateCreated": "2008",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ENT_MOI",
@@ -64,7 +72,9 @@
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ENT_ANN",
@@ -75,7 +85,9 @@
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NIR_RET",
@@ -86,7 +98,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NAI_RET",
@@ -97,7 +111,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "SEX_RET",
@@ -108,7 +124,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "SEJ_RET",
@@ -119,7 +137,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FHO_RET",
@@ -130,7 +150,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "PMS_RET",
@@ -141,7 +163,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "DAT_RET",
@@ -152,7 +176,9 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "COH_NAI_RET",
@@ -163,7 +189,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "COH_SEX_RET",
@@ -174,7 +202,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NIR_ANO_17",
@@ -185,7 +215,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "SEJ_NUM",
@@ -196,7 +228,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "RHAD_NUM",
@@ -207,7 +241,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ENT_DAT",
@@ -218,7 +254,9 @@
             "format": "default",
             "dateCreated": "2009",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "SOR_DAT",
@@ -229,7 +267,9 @@
             "format": "default",
             "dateCreated": "2009",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "EXE_SOI_DTD",
@@ -240,7 +280,9 @@
             "format": "default",
             "dateCreated": "2009",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "EXE_SOI_DTF",
@@ -251,7 +293,9 @@
             "format": "default",
             "dateCreated": "2009",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "EXE_SOI_AMD",
@@ -262,7 +306,9 @@
             "format": "default",
             "dateCreated": "2009",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "EXE_SOI_AMF",
@@ -273,7 +319,9 @@
             "format": "default",
             "dateCreated": "2009",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "RNG_NAI_RET",
@@ -284,7 +332,9 @@
             "format": "default",
             "dateCreated": "2015",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "RNG_BEN_RET",
@@ -295,7 +345,9 @@
             "format": "default",
             "dateCreated": "2015",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "RNG_NAI",
@@ -306,7 +358,9 @@
             "format": "default",
             "dateCreated": "2015",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "RNG_BEN",
@@ -317,7 +371,9 @@
             "format": "default",
             "dateCreated": "2015",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NUM_DAT_AT_RET",
@@ -328,7 +384,9 @@
             "format": "default",
             "dateCreated": "2015",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ORG_CPL_NUM_RET",
@@ -339,7 +397,9 @@
             "format": "default",
             "dateCreated": "2015",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETA_NUM_RET",
@@ -350,7 +410,9 @@
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NUM_DAT_AT",
@@ -361,7 +423,9 @@
             "format": "default",
             "dateCreated": "2015",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ORG_CPL_NUM",
@@ -372,7 +436,9 @@
             "format": "default",
             "dateCreated": "2015",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "SEJ_LUN_ANN",
@@ -383,7 +449,9 @@
             "dateDeleted": "2015",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "SEJ_LUN_MOI",
@@ -394,7 +462,9 @@
             "dateDeleted": "2015",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "SOR_AM",
@@ -405,7 +475,9 @@
             "dateDeleted": "2011",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETA_NUM_JUR",
@@ -416,7 +488,9 @@
             "dateDeleted": "2007",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "SOR_ANN",
@@ -427,7 +501,9 @@
             "dateDeleted": "2017",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "SOR_MOI",
@@ -438,7 +514,9 @@
             "dateDeleted": "2017",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ENT_AM",
@@ -449,7 +527,9 @@
             "dateDeleted": "2011",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETA_NUM_TWO",
@@ -460,7 +540,9 @@
             "dateDeleted": "2017",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         }
     ],
     "name": "T_HADaa_nnC",

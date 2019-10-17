@@ -9,7 +9,9 @@
             "format": "default",
             "dateCreated": "2009",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "RHA_VER",
@@ -20,7 +22,9 @@
             "format": "default",
             "dateCreated": "2009",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "RHA_NUM",
@@ -31,7 +35,9 @@
             "format": "default",
             "dateCreated": "2009",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "RHS_NUM",
@@ -42,7 +48,9 @@
             "format": "default",
             "dateCreated": "2009",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "DGN_COD",
@@ -53,7 +61,9 @@
             "format": "default",
             "dateCreated": "2009",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         }
     ],
     "name": "T_SSRaa_nnD",

@@ -9,7 +9,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "BEN_RNG_GEM",
@@ -20,7 +22,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "BEN_NIR_ANO",
@@ -31,7 +35,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "BEN_IDT_ANO",
@@ -42,7 +48,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FAM_DRT_VRU",
@@ -53,7 +61,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FAM_DRT_DSD",
@@ -64,7 +74,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FAM_DRT_DSF",
@@ -75,7 +87,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "IND_RNM_BEN",
@@ -86,7 +100,9 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         }
     ],
     "name": "IR_ACS_R",

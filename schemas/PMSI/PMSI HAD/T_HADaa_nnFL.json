@@ -9,7 +9,9 @@
             "format": "default",
             "dateCreated": "2012",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ANN_MOI",
@@ -20,7 +22,9 @@
             "format": "default",
             "dateCreated": "2012",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "DEL_DAT_ENT",
@@ -31,7 +35,9 @@
             "format": "default",
             "dateCreated": "2012",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETA_NUM_EPMSI",
@@ -42,7 +48,9 @@
             "format": "default",
             "dateCreated": "2012",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETA_NUM_GEO",
@@ -53,7 +61,9 @@
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FAC_NUM",
@@ -64,7 +74,9 @@
             "format": "default",
             "dateCreated": "2012",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NABM_COD",
@@ -75,7 +87,9 @@
             "format": "default",
             "dateCreated": "2012",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "PSH_DMT",
@@ -86,7 +100,9 @@
             "format": "default",
             "dateCreated": "2012",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "PSH_MDT",
@@ -97,7 +113,9 @@
             "format": "default",
             "dateCreated": "2012",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "RHAD_NUM",
@@ -108,7 +126,9 @@
             "format": "default",
             "dateCreated": "2012",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "TYP_ART",
@@ -119,7 +139,9 @@
             "format": "default",
             "dateCreated": "2012",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETA_NUM_TWO",
@@ -130,7 +152,9 @@
             "dateDeleted": "2017",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         }
     ],
     "name": "T_HADaa_nnFL",

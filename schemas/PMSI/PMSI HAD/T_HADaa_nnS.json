@@ -9,7 +9,9 @@
             "format": "default",
             "dateCreated": "2015",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "RAPSS_NUM",
@@ -20,7 +22,9 @@
             "format": "default",
             "dateCreated": "2015",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETA_NUM_GEO",
@@ -31,7 +35,9 @@
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "RHAD_NUM",
@@ -42,7 +48,9 @@
             "format": "default",
             "dateCreated": "2015",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "COD_SEX",
@@ -53,7 +61,9 @@
             "format": "default",
             "dateCreated": "2015",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "SEJ_NBJ",
@@ -64,7 +74,9 @@
             "format": "default",
             "dateCreated": "2015",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "HAD_DUREE",
@@ -75,7 +87,9 @@
             "format": "default",
             "dateCreated": "2015",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "SEJ_FINI",
@@ -86,7 +100,9 @@
             "format": "default",
             "dateCreated": "2015",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "SEJ_ERR",
@@ -97,7 +113,9 @@
             "format": "default",
             "dateCreated": "2015",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "SOR_MOI",
@@ -108,7 +126,9 @@
             "format": "default",
             "dateCreated": "2015",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "SOR_ANN",
@@ -119,7 +139,9 @@
             "format": "default",
             "dateCreated": "2015",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ENT_MOD",
@@ -130,7 +152,9 @@
             "format": "default",
             "dateCreated": "2015",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ENT_PRV",
@@ -141,7 +165,9 @@
             "format": "default",
             "dateCreated": "2015",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "SOR_MOD",
@@ -152,7 +178,9 @@
             "format": "default",
             "dateCreated": "2015",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "SOR_DES",
@@ -163,7 +191,9 @@
             "format": "default",
             "dateCreated": "2015",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETA_NUM_TWO",
@@ -174,7 +204,9 @@
             "dateDeleted": "2017",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         }
     ],
     "name": "T_HADaa_nnS",

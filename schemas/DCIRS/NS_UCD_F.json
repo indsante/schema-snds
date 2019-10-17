@@ -9,7 +9,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "BEN_IDT_ANO",
@@ -20,7 +22,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "BEN_IDT_TOP",
@@ -31,7 +35,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "EXE_SOI_DTD",
@@ -42,7 +48,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "EXE_SOI_DTF",
@@ -53,7 +61,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "EXE_SOI_AMD",
@@ -64,7 +74,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "EXE_SOI_AMF",
@@ -75,7 +87,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "PFS_EXE_NUM",
@@ -86,7 +100,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "PFS_PRE_NUM",
@@ -97,7 +113,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "GRG_LIQ_COD",
@@ -108,7 +126,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "CAI_LIQ_COD",
@@ -119,7 +139,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "PRS_NAT_REF",
@@ -130,7 +152,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETB_PRE_FIN",
@@ -141,7 +165,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETB_EXE_FIN",
@@ -152,7 +178,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "RGO_REM_TAU",
@@ -163,7 +191,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "GRG_AFF_COD",
@@ -174,7 +204,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "CAI_AFF_COD",
@@ -185,7 +217,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "SLM_AFF_COD",
@@ -196,7 +230,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FLX_TRT_DTD",
@@ -207,7 +243,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FLX_DIS_DTD",
@@ -218,7 +256,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FLX_EMT_TYP",
@@ -229,7 +269,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "EXE_INS_DPT",
@@ -240,7 +282,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "PRE_INS_DPT",
@@ -251,7 +295,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETE_DPT_COD",
@@ -262,7 +308,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETP_DPT_COD",
@@ -273,7 +321,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "BEN_RES_DPT",
@@ -284,7 +334,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "UCD_SEQ_NUM",
@@ -295,7 +347,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "UCD_UCD_COD",
@@ -306,7 +360,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "UCD_ACH_PRU",
@@ -317,7 +373,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "UCD_CAL_PRU",
@@ -328,7 +386,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "UCD_ECT_MNT",
@@ -339,7 +399,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "UCD_ECU_MNT",
@@ -350,7 +412,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "UCD_FAC_PRU",
@@ -361,7 +425,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "UCD_FRC_COE",
@@ -372,7 +438,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "UCD_MAR_MNT",
@@ -383,7 +451,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "UCD_RCT_COU",
@@ -394,7 +464,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "UCD_TOP_UCD",
@@ -405,7 +477,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "UCD_TTF_MNT",
@@ -416,7 +490,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "UCD_DLV_NBR",
@@ -427,7 +503,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         }
     ],
     "name": "NS_UCD_F",

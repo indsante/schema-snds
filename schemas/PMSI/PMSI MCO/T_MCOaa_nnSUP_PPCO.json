@@ -20,7 +20,9 @@
             "dateDeleted": "",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NBR_CONS_120_SUP",
@@ -31,7 +33,9 @@
             "dateDeleted": "",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NBR_CONS_030_060",
@@ -42,7 +46,9 @@
             "dateDeleted": "",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NBR_CONS_AUT_PRO",
@@ -53,7 +59,9 @@
             "dateDeleted": "",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NBR_CONS_PLURI_PRO",
@@ -64,7 +72,9 @@
             "dateDeleted": "",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NBR_CONS_PPCO_SC",
@@ -75,7 +85,9 @@
             "dateDeleted": "",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NBR_CONS_060_120",
@@ -86,7 +98,9 @@
             "dateDeleted": "",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NBR_PAT_PPCO_1ER_TRAIT",
@@ -97,7 +111,9 @@
             "dateDeleted": "",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FIC_TYP",
@@ -108,7 +124,9 @@
             "dateDeleted": "",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NBR_CONS_ASS_SOC",
@@ -119,7 +137,9 @@
             "dateDeleted": "",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NBR_CONS_AUT_MED",
@@ -130,7 +150,9 @@
             "dateDeleted": "",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NBR_PAT_PPCO_SUP_5AN",
@@ -141,7 +163,9 @@
             "dateDeleted": "",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NBR_CONS_INFIRM",
@@ -152,7 +176,9 @@
             "dateDeleted": "",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NBR_PAT_PPCO",
@@ -163,7 +189,9 @@
             "dateDeleted": "",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NBR_CONS_PPCO",
@@ -174,7 +202,9 @@
             "dateDeleted": "",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NBR_CONS_PPCO_IV",
@@ -185,7 +215,9 @@
             "dateDeleted": "",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NBR_PAT_PPCO_INF_1AN",
@@ -196,7 +228,9 @@
             "dateDeleted": "",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NBR_TOT_PAT",
@@ -207,7 +241,9 @@
             "dateDeleted": "",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETA_NUM",
@@ -218,7 +254,9 @@
             "dateDeleted": "",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NBR_PAT_PPCO_SUP_1AN",
@@ -229,7 +267,9 @@
             "dateDeleted": "",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NBR_CONS_PHARMA",
@@ -240,7 +280,9 @@
             "dateDeleted": "",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NBR_CONS_000_030",
@@ -251,7 +293,9 @@
             "dateDeleted": "",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ANN_MOI",
@@ -262,7 +306,9 @@
             "dateDeleted": "",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         }
     ],
     "champ": "Public",

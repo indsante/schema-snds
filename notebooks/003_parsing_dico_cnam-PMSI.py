@@ -263,6 +263,8 @@ list(df_table.champ.unique())
 
 list(df_table.observation.unique())
 
+df.regle_gestion.value_counts()
+
 for i, (produit, name_table) in df[["produit", 'name_table']].drop_duplicates().iterrows():
     # Restriction table
     sdf = df[(df.produit == produit) & (df.name_table == name_table)]
@@ -364,6 +366,7 @@ for i, (produit, name_table) in df[["produit", 'name_table']].drop_duplicates().
 
 for schema_path in get_all_schema_path():
     schema = Schema(schema_path)
+    #print(schema.descriptor['name'])
     schema.descriptor["observation"] = schema.descriptor.get("observation", "")
     try:
         schema.commit(strict=True)
@@ -372,5 +375,21 @@ for schema_path in get_all_schema_path():
         raise e
     
     schema.save(schema_path, ensure_ascii=False)
+
+for schema_path in get_all_schema_path():
+    schema = Schema(schema_path)
+    #print(schema.descriptor['name'])
+    for field in schema.descriptor['fields']:
+        field.update({"regle_gestion": field.get("regle_gestion", "")})
+
+    try:
+        schema.commit(strict=True)
+    except Exception as e:
+        print(e.errors)
+        raise e
+    
+    schema.save(schema_path, ensure_ascii=False)
+
+1
 
 

@@ -9,7 +9,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "SOC_RAI",
@@ -20,7 +22,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "REG_ETA",
@@ -31,7 +35,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ANN_TRT",
@@ -42,7 +48,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "STA_ETA",
@@ -53,7 +61,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "VAL_ETA",
@@ -64,7 +74,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETB_EXE_FIN",
@@ -75,7 +87,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         }
     ],
     "name": "T_SSRaa_nnE",

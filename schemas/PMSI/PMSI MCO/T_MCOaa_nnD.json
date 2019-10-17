@@ -9,7 +9,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "DGN_ASS_NUM",
@@ -20,7 +22,9 @@
             "format": "default",
             "dateCreated": "2014",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETA_NUM",
@@ -31,7 +35,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "RSA_NUM",
@@ -42,7 +48,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "RSS_NUM",
@@ -53,7 +61,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         }
     ],
     "name": "T_MCOaa_nnD",

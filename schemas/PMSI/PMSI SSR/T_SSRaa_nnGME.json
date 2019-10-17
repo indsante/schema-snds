@@ -9,7 +9,9 @@
             "format": "default",
             "dateCreated": "2012",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "RHA_VER",
@@ -20,7 +22,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "RHA_NUM",
@@ -31,7 +35,9 @@
             "format": "default",
             "dateCreated": "2012",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NBR_JOU",
@@ -42,7 +48,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "GME_COD",
@@ -53,7 +61,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "GMT_NUM",
@@ -64,7 +74,9 @@
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "RHS_NUM",
@@ -75,7 +87,9 @@
             "dateDeleted": "2013",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "RET_COD",
@@ -86,7 +100,9 @@
             "dateDeleted": "2013",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "GME",
@@ -97,7 +113,9 @@
             "dateDeleted": "2013",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         }
     ],
     "name": "T_SSRaa_nnGME",

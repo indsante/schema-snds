@@ -20,7 +20,9 @@
             "dateDeleted": "2009",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "UCD_COD",
@@ -31,7 +33,9 @@
             "dateDeleted": "2009",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ANN",
@@ -42,7 +46,9 @@
             "dateDeleted": "2009",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "UCD_NBR_TOT",
@@ -53,7 +59,9 @@
             "dateDeleted": "2009",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETA_NUM_EPMSI",
@@ -64,7 +72,9 @@
             "dateDeleted": "2009",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "MOY_PRI",
@@ -75,7 +85,9 @@
             "dateDeleted": "2009",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FIC_TYP",
@@ -86,7 +98,9 @@
             "dateDeleted": "2009",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "UCD_NBR_ETH",
@@ -97,7 +111,9 @@
             "dateDeleted": "2009",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "UCD_UCD_COD",
@@ -108,7 +124,9 @@
             "dateDeleted": "2009",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ACH_PRI_DER",
@@ -119,7 +137,9 @@
             "dateDeleted": "2009",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         }
     ],
     "champ": "Public et Privé",

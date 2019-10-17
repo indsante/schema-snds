@@ -9,7 +9,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "DCD_IDT_TOP",
@@ -20,7 +22,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "BEN_IDT_ANO",
@@ -31,7 +35,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "BEN_IDT_TOP",
@@ -42,7 +48,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "BEN_NIR_ANO",
@@ -53,7 +61,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FLX_PER_ANN",
@@ -64,7 +74,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "CER_VER_NUM",
@@ -75,7 +87,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "TRT_STA_COD",
@@ -86,7 +100,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "TYP_CER_COD",
@@ -97,7 +113,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "CER_SUP_TYP",
@@ -108,7 +126,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "TYP_VOL_COD",
@@ -119,7 +139,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "DCD_DPT_COD",
@@ -130,7 +152,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "DCD_COM_COD",
@@ -141,7 +165,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "BEN_RES_DPT",
@@ -152,7 +178,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "BEN_RES_COM",
@@ -163,7 +191,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "BEN_DCD_DTE",
@@ -174,7 +204,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "BEN_DCD_AME",
@@ -185,7 +217,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "DCD_LIE_COD",
@@ -196,7 +230,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "BEN_NAI_ANN",
@@ -207,7 +243,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "BEN_NAI_MOI",
@@ -218,7 +256,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "BEN_SEX_COD",
@@ -229,7 +269,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "PFV_ACP_COD",
@@ -240,7 +282,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "CAT_PCS_COD",
@@ -251,7 +295,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETA_MAR_COD",
@@ -262,7 +308,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "DCD_CIM_COD",
@@ -273,7 +321,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "DCD_CAU_COD",
@@ -284,7 +334,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "DCD_GRS_COD",
@@ -295,7 +347,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "DCD_GRS_DEL",
@@ -306,7 +360,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "DCD_LIE_LIB",
@@ -317,7 +373,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "DCD_ATT_COD",
@@ -328,7 +386,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NEO_APG_SCO",
@@ -339,7 +399,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NEO_GES_AGE",
@@ -350,7 +412,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NEO_NAI_POI",
@@ -361,7 +425,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "RNG_NAI_TYP",
@@ -372,7 +438,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "GRS_ORD_NUM",
@@ -383,7 +451,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ACC_LIA_COD",
@@ -394,7 +464,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ACC_PST_COD",
@@ -405,7 +477,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ACC_DEB_COD",
@@ -416,7 +490,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "MOD_ACC_COD",
@@ -427,7 +503,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "HOS_TRF_TOP",
@@ -438,7 +516,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "MER_NAI_ANN",
@@ -449,7 +529,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "MER_PFS_COD",
@@ -460,7 +542,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "MER_PFG_LIB",
@@ -471,7 +555,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "MER_MAR_COD",
@@ -482,7 +568,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "MER_SIT_TOP",
@@ -493,7 +581,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "TOT_GRS_NBR",
@@ -504,7 +594,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "TOT_ACC_NBR",
@@ -515,7 +607,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "PER_PFS_COD",
@@ -526,7 +620,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "PER_PFG_LIB",
@@ -537,7 +633,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         }
     ],
     "name": "KI_CCI_R",

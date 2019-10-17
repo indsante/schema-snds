@@ -20,7 +20,9 @@
             "dateDeleted": "2013",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "GHJ_COD",
@@ -31,7 +33,9 @@
             "dateDeleted": "2013",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "RHA_VER",
@@ -42,7 +46,9 @@
             "dateDeleted": "2013",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NBR_JOU",
@@ -53,7 +59,9 @@
             "dateDeleted": "2013",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "RHA_NUM",
@@ -64,7 +72,9 @@
             "dateDeleted": "2013",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         }
     ],
     "champ": "Public et Privé",

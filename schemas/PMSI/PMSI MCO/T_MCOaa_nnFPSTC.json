@@ -9,7 +9,9 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ENT_ANN",
@@ -20,7 +22,9 @@
             "format": "default",
             "dateCreated": "2008",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ENT_MOI",
@@ -31,7 +35,9 @@
             "format": "default",
             "dateCreated": "2008",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETA_NUM",
@@ -42,7 +48,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETA_NUM_GEO",
@@ -53,7 +61,9 @@
             "format": "default",
             "dateCreated": "2016",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FAC_MNT",
@@ -64,7 +74,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "LPP_COD",
@@ -75,7 +87,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "LPP_PRI_UNI",
@@ -86,7 +100,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "LPP_PU_DEV",
@@ -97,7 +113,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "LPP_QUA",
@@ -108,7 +126,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "MNT_UNI_ECA",
@@ -119,7 +139,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NUM_FAC",
@@ -130,7 +152,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "RSF_TYP",
@@ -141,7 +165,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "SEQ_NUM",
@@ -152,7 +178,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "TIP_PRS_IDE",
@@ -163,7 +191,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "TOT_MNT_ECA",
@@ -174,7 +204,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "TYP_ART",
@@ -185,7 +217,9 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         }
     ],
     "name": "T_MCOaa_nnFPSTC",

@@ -20,7 +20,9 @@
             "dateDeleted": "2009",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "LPP_NBR",
@@ -31,7 +33,9 @@
             "dateDeleted": "2009",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "MOY_PRI",
@@ -42,7 +46,9 @@
             "dateDeleted": "2009",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FIC_TYP",
@@ -53,7 +59,9 @@
             "dateDeleted": "2009",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "LPP_COD",
@@ -64,7 +72,9 @@
             "dateDeleted": "2009",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ANN_MOI",
@@ -75,7 +85,9 @@
             "dateDeleted": "2009",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         }
     ],
     "champ": "Public",

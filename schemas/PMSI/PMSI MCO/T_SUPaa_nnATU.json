@@ -20,7 +20,9 @@
             "dateDeleted": "2009",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETA_NUM_GEO",
@@ -31,7 +33,9 @@
             "dateDeleted": "2009",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NBR_PAS",
@@ -42,7 +46,9 @@
             "dateDeleted": "2009",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FIC_TYP",
@@ -53,7 +59,9 @@
             "dateDeleted": "2009",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NBR_HOS",
@@ -64,7 +72,9 @@
             "dateDeleted": "2009",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ANN_MOI",
@@ -75,7 +85,9 @@
             "dateDeleted": "2009",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "AUT_TYP",
@@ -86,7 +98,9 @@
             "dateDeleted": "2009",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         }
     ],
     "champ": "Public",

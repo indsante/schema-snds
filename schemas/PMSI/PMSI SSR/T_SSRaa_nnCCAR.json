@@ -20,7 +20,9 @@
             "dateDeleted": "2014",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NBR_PAT",
@@ -31,7 +33,9 @@
             "dateDeleted": "2014",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "APP_SUP_COD",
@@ -42,7 +46,9 @@
             "dateDeleted": "2014",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "CCAR_ACT",
@@ -53,7 +59,9 @@
             "dateDeleted": "2012",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "INT_COD",
@@ -64,7 +72,9 @@
             "dateDeleted": "2014",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "RHS_NUM",
@@ -75,7 +85,9 @@
             "dateDeleted": "2014",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETA_NUM",
@@ -86,7 +98,9 @@
             "dateDeleted": "2014",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "DELAI_ENT_UM",
@@ -97,7 +111,9 @@
             "dateDeleted": "2014",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "MODUL_PAT1_COD",
@@ -108,7 +124,9 @@
             "dateDeleted": "2014",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "MODUL_PAT2_COD",
@@ -119,7 +137,9 @@
             "dateDeleted": "2014",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "CCAR_ACT_COMP_WEEK",
@@ -130,7 +150,9 @@
             "dateDeleted": "2014",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "CCAR_COD",
@@ -141,7 +163,9 @@
             "dateDeleted": "2014",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "MODUL_LIEU_COD",
@@ -152,7 +176,9 @@
             "dateDeleted": "2014",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "RHA_VER",
@@ -163,7 +189,9 @@
             "dateDeleted": "2014",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "RHA_NUM",
@@ -174,7 +202,9 @@
             "dateDeleted": "2014",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         }
     ],
     "champ": "Public et Privé",

@@ -35,6 +35,8 @@ df_table = pd.read_csv("notebooks/Envoi_Dico Alimentation/Table_Modele_181214170
 
 df_table = df_table.drop(columns=["Unnamed: 8"])
 
+df_table.head()
+
 df_table.columns = [
               'name_table', 
               'title_table',
@@ -221,6 +223,8 @@ df.loc[df.name == "ARO_THE_TAU", "length"] = "5"
 mask = (df.length.str.contains('\.') | df.length.str.contains('\,'))
 df[mask].head(2)
 
+df.loc[df.length == "38", "length"] = "18"
+
 df.length = df.length.str.replace('.', ',').str.strip(',')
 
 # ### nomenclatures
@@ -294,6 +298,23 @@ mapping = {
     "anomalie": "",
 }
 df.description = df.description.map(lambda s: mapping[s] if s in mapping else s)
+
+# ### Regle gestion
+
+pd.options.display.max_colwidth = 200
+
+df.regle_gestion.str[:15].value_counts()
+
+mask = df.regle_gestion.str.startswith("variable de joi")
+df.loc[mask, "regle_gestion"] = ""
+
+mask = df.regle_gestion.str.startswith("Regroupement de") | df.regle_gestion.str.startswith("Personnes ayant")
+assert (df[mask].observation_variable == "").all()
+df.loc[mask, "observation_variable"] = df[mask].regle_gestion
+df.loc[mask, "regle_gestion"] = ""
+
+mask = df.regle_gestion.str.startswith("La ligne de pre")
+df[mask].regle_gestion.value_counts()
 
 # ## Préparation produits
 
@@ -374,8 +395,8 @@ for i, (produit, name_table) in df[["produit", 'name_table']].drop_duplicates().
 
             continue
         
-        columns_to_update = ['description', 'type', 'nomenclature', 'length']
-        columns_to_update = ['nomenclature']
+        columns_to_update = ['description', 'type', 'nomenclature', 'length', "regle_gestion"]
+        columns_to_update = ['regle_gestion']
         field_descriptor = get_field_descriptor(sdf, name, columns_to_update)
         for key in columns_to_update:
             if field_descriptor[key] == "" or field_descriptor[key] is None:

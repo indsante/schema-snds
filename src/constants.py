@@ -8,6 +8,7 @@ from src.settings import RUNNING_TEST
 OBSERVATION = "observation"
 CHAMP = "champ"
 
+REGLE_GESTION = "regle_gestion"
 NOMENCLATURE = 'nomenclature'
 
 HISTORY = "history"

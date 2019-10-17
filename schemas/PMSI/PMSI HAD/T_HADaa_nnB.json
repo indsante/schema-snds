@@ -9,7 +9,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "AGE_JOU",
@@ -20,7 +22,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "AVQ_ALI",
@@ -31,7 +35,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "AVQ_CON",
@@ -42,7 +48,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "AVQ_CPT",
@@ -53,7 +61,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "AVQ_HAB",
@@ -64,7 +74,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "AVQ_LOC",
@@ -75,7 +87,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "AVQ_REL",
@@ -86,7 +100,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "BDI_COD",
@@ -97,7 +113,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "BDI_DEP",
@@ -108,7 +126,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "COD_CONF",
@@ -119,7 +139,9 @@
             "format": "default",
             "dateCreated": "2012",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "COD_SEX",
@@ -130,7 +152,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "DEP_COT",
@@ -141,7 +165,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "DGN_PAL",
@@ -155,7 +181,9 @@
             "dateMissing": [
                 "2012",
                 "2013"
-            ]
+            ],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ENT_MOD",
@@ -166,7 +194,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ENT_PRV",
@@ -177,7 +207,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETA_NUM_ESMS",
@@ -188,7 +220,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETA_NUM_EPMSI",
@@ -199,7 +233,9 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETA_NUM_GEO",
@@ -221,7 +257,9 @@
                 "2014",
                 "2015",
                 "2016"
-            ]
+            ],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FAC_NUM",
@@ -232,7 +270,9 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FIN_ANN_SEQ",
@@ -243,7 +283,9 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FIN_MOI_SEQ",
@@ -254,7 +296,9 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "MOT_NFACT_AM",
@@ -265,7 +309,9 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NBR_ACT",
@@ -276,7 +322,9 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NBR_DGN",
@@ -287,7 +335,9 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NBR_DGN_MPA",
@@ -298,7 +348,9 @@
             "format": "default",
             "dateCreated": "2012",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NBR_DGN_MPP",
@@ -309,7 +361,9 @@
             "format": "default",
             "dateCreated": "2012",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "PAT_TYP_DOM",
@@ -320,7 +374,9 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "PEC_ASS",
@@ -331,7 +387,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "PEC_MOD_ASSO1",
@@ -342,7 +400,9 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "PEC_MOD_ASSO2",
@@ -353,7 +413,9 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "PEC_MOD_ASSO3",
@@ -364,7 +426,9 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "PEC_MOD_ASSO4",
@@ -375,7 +439,9 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "PEC_MOD_ASSO5",
@@ -386,7 +452,9 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "PEC_PAL",
@@ -397,7 +465,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "RAPSS_NUM",
@@ -408,7 +478,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "RHAD_NUM",
@@ -419,7 +491,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "SEJ_FACT_AM",
@@ -430,7 +504,9 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "SEJ_NBJ",
@@ -441,7 +517,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "SEQ_DER",
@@ -452,7 +530,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "SEQ_NBJ",
@@ -463,7 +543,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "SEQ_NUM",
@@ -474,7 +556,9 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "SEQ_SEJ_NBJ",
@@ -485,7 +569,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "SOR_ANN",
@@ -496,7 +582,9 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "SOR_ANN_SSEQ",
@@ -507,7 +595,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "SOR_DES",
@@ -518,7 +608,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "SOR_MOD",
@@ -529,7 +621,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "SOR_MOI",
@@ -540,7 +634,9 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "SOR_MOI_SSEQ",
@@ -551,7 +647,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "SSEQ_NBJ",
@@ -562,7 +660,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "SSEQ_NUM",
@@ -573,7 +673,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "SSEQ_SEJ_DER",
@@ -584,7 +686,9 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "SSEQ_SEQ_DER",
@@ -595,7 +699,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "SSEQ_SEQ_NBJ",
@@ -606,7 +712,9 @@
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "RPSS_VER",
@@ -617,7 +725,9 @@
             "dateDeleted": "2010",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "DGN_PAL3",
@@ -628,7 +738,9 @@
             "dateDeleted": "2010",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "DGN_PAL5",
@@ -639,7 +751,9 @@
             "dateDeleted": "2010",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "DGN_PAL4",
@@ -650,7 +764,9 @@
             "dateDeleted": "2010",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETA_GRP_VER",
@@ -661,7 +777,9 @@
             "dateDeleted": "2010",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "SEQ_SEJ",
@@ -672,7 +790,9 @@
             "dateDeleted": "2010",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "DGN_PAL1",
@@ -683,7 +803,9 @@
             "dateDeleted": "2010",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETA_GRP_RET",
@@ -694,7 +816,9 @@
             "dateDeleted": "2010",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETA_GRP_GHPC",
@@ -705,7 +829,9 @@
             "dateDeleted": "2010",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETA_NUM_EHPA",
@@ -716,7 +842,9 @@
             "dateDeleted": "",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "DGN_PAL6",
@@ -727,7 +855,9 @@
             "dateDeleted": "2010",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETA_NUM_JUR",
@@ -738,7 +868,9 @@
             "dateDeleted": "2007",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETB_TAR_NBR",
@@ -749,7 +881,9 @@
             "dateDeleted": "2010",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "DGN_PAL7",
@@ -760,7 +894,9 @@
             "dateDeleted": "2010",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "DGN_PAL2",
@@ -771,7 +907,9 @@
             "dateDeleted": "2010",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETA_NUM_TWO",
@@ -782,7 +920,9 @@
             "dateDeleted": "2017",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         }
     ],
     "name": "T_HADaa_nnB",

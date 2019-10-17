@@ -20,7 +20,9 @@
             "dateDeleted": "2016",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "MNT_PHN_LAB_PRI",
@@ -31,7 +33,9 @@
             "dateDeleted": "2016",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETA_NUM",
@@ -42,7 +46,9 @@
             "dateDeleted": "",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "MNT_LC_ETB_EXDG",
@@ -53,7 +59,9 @@
             "dateDeleted": "",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "MNT_LC_LAB_PRI",
@@ -64,7 +72,9 @@
             "dateDeleted": "",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "MNT_RIHN_ETB_EXDG",
@@ -75,7 +85,9 @@
             "dateDeleted": "",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "MNT_BHN_LAB_PRI",
@@ -86,7 +98,9 @@
             "dateDeleted": "2016",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "MNT_RIHN_LAB_PRI",
@@ -97,7 +111,9 @@
             "dateDeleted": "",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FIC_TYP",
@@ -108,7 +124,9 @@
             "dateDeleted": "",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "MNT_BHN_ETB_EXDG",
@@ -119,7 +137,9 @@
             "dateDeleted": "2016",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ANN_MOI",
@@ -130,7 +150,9 @@
             "dateDeleted": "",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default"
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         }
     ],
     "champ": "Public",

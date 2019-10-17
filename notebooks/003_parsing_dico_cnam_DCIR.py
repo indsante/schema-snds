@@ -227,7 +227,7 @@ df[mask].head(2)
 
 df.loc[df.length == "38"]
 
-df.loc[df.length == "38", "length"] = "18"
+df.loc[df.length == "38", "length"] = "8"
 
 df.loc[df.length == "145"]
 
@@ -235,7 +235,7 @@ df.loc[df.length == "145", "length"] = "14,5"
 
 df.loc[df.length == "72"]
 
-df.loc[df.length == "72", "length"] = "12"
+df.loc[df.length == "72", "length"] = "7,2"
 
 df.length = df.length.str.replace('.', ',').str.strip(',')
 

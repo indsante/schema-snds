@@ -173,7 +173,7 @@
             "name": "ARO_THE_TAU",
             "description": "Taux théorique de remboursement (autre que régime obligatoire)",
             "type": "number",
-            "length": "5",
+            "length": "7,2",
             "nomenclature": "IR_TAU_V",
             "dateCreated": "",
             "dateDeleted": "",

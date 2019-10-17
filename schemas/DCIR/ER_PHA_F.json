@@ -63,7 +63,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "Cette variable contient le prix unitaire de l'unité délivrée dans le cadre du déconditionnement (PHA_DEC_TOP = D). Ce prix unitaire correspond au prix du conditionnement divisé par le nombre d'unités de ce conditionnement. Cette zone doit obligatoirement être renseignée si le top déconditionnement est égal à la valeur D (PHA_DEC_TOP = D).  Exemple fictif :  Un pharmacien délivre 20 comprimés d'un produit SUBUTEX 0,4MG CPR (CIP 13 = 3400933944421). Le produit est conditionné par boîte de 7 comprimés. Le prix unitaire du comprimé = 2,89 euros (prix de la boite) - 7 = 0,41 euro (règle darrondi)."
         },
         {
             "name": "PHA_DEC_QSU",
@@ -76,7 +76,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "Cette variable correspond au nombre d'unités fractionnées de médicament délivrées (exemple : le nombre de comprimés) dans le cadre du déconditionnement (PHA_DEC_TOP = D)."
         },
         {
             "name": "PHA_DEC_TOP",

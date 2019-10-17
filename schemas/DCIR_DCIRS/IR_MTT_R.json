@@ -24,7 +24,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "La règle de calcul du rang du bénéficiaire dans le SNIIRAM est la suivante :\n- le rang de louvreur de droits est toujours égal à 1,\n- si un ayant droit a la même date de naissance que louvreur de droits, son rang est égal à 2,\n- un enfant né dune naissance unique a un rang égal à 1,\n- lorsquil y a des naissances multiples, chaque enfant est différencié par son rang (1 pour le 1er, 2 pour le second, )."
         },
         {
             "name": "BEN_NIR_ANO",

@@ -167,7 +167,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "La règle de calcul du rang du bénéficiaire dans le SNIIRAM est la suivante :\n- le rang de louvreur de droits est toujours égal à 1,\n- si un ayant droit a la même date de naissance que louvreur de droits, son rang est égal à 2,\n- un enfant né dune naissance unique a un rang égal à 1,\n- lorsquil y a des naissances multiples, chaque enfant est différencié par son rang (1 pour le 1er, 2 pour le second, )."
         },
         {
             "name": "BEN_QAF_COD",
@@ -401,7 +401,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "La ligne de prestation contient des informations concernant un acte de base (une consultation par exemple)"
         },
         {
             "name": "BSE_REM_SGN",
@@ -414,7 +414,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "La ligne de prestation contient des informations concernant un acte de base (une consultation par exemple)"
         },
         {
             "name": "CPL_REM_BSE",
@@ -427,7 +427,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "La ligne de prestation contient des informations concernant un complément dacte ou une majoration (majoration de coordination par exemple)"
         },
         {
             "name": "CPL_REM_MNT",
@@ -440,7 +440,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "La ligne de prestation contient des informations concernant un complément dacte ou une majoration (majoration de coordination par exemple)"
         },
         {
             "name": "CPL_REM_PRU",
@@ -453,7 +453,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "La ligne de prestation contient des informations concernant un complément dacte ou une majoration (majoration de coordination par exemple)"
         },
         {
             "name": "CPL_REM_SGN",
@@ -466,7 +466,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "La ligne de prestation contient des informations concernant un complément dacte ou une majoration (majoration de coordination par exemple)"
         },
         {
             "name": "PRS_ACT_CFT",
@@ -648,7 +648,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "La ligne de prestation contient des informations concernant un acte de base (une consultation par exemple)"
         },
         {
             "name": "BSE_PRS_NAT",
@@ -661,7 +661,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "La ligne de prestation contient des informations concernant un acte de base (une consultation par exemple)"
         },
         {
             "name": "CPL_AFF_COD",
@@ -674,7 +674,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "La ligne de prestation contient des informations concernant un complément dacte ou une majoration (majoration de coordination par exemple)"
         },
         {
             "name": "CPL_ANO_COD",
@@ -687,7 +687,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "La ligne de prestation contient des informations concernant un complément dacte ou une majoration (majoration de coordination par exemple)"
         },
         {
             "name": "CPL_FJH_TYP",
@@ -700,7 +700,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "La ligne de prestation contient des informations concernant un complément dacte ou une majoration (majoration de coordination par exemple)"
         },
         {
             "name": "CPL_MAJ_TOP",
@@ -713,7 +713,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "La ligne de prestation contient des informations concernant un complément dacte ou une majoration (majoration de coordination par exemple)"
         },
         {
             "name": "CPL_PRS_NAT",
@@ -726,7 +726,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "La ligne de prestation contient des informations concernant un complément dacte ou une majoration (majoration de coordination par exemple)"
         },
         {
             "name": "DPN_QLF",
@@ -1077,7 +1077,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "Si le code forçage du taux est égal à 1 ou 2 (taux minoré et taux minoré plafonné) alors : le taux théorique de la part de base = taux de remboursement du flux (taux minoré) + la valeur de la modulation, le taux théorique pour le supplément Alsace-Moselle =  9% - le taux de remboursement théorique de la part de base, et le taux théorique pour le TM CMU-C et lAide Médicale dEtat = 1% - le taux de remboursement théorique de la part de base - le taux de remboursement théorique du supplément Alsace-moselle. Et sinon, le taux théorique = le taux de remboursement du flux (dit \"taux réel\")."
         },
         {
             "name": "ETB_PRE_FIN",

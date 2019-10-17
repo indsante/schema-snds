@@ -11,7 +11,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "Construction de l'identifiant : Si identifiant bénéficiaire (ben_nir_ano) renseigné, id_carto = ben_nir_ano||\"U\" ; sinon, si qualité d'affiliation du bénéficiaire (ben_qaf_cod) = 10 alors id_carto = ass_nir_ano||\"U\" ; sinon id_carto = ben_nir_psa||ben_rng_gem"
         },
         {
             "name": "ben_sex_cod",
@@ -50,7 +50,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "Age du bénéficiaire au 31 décembre de l'année compris entre 0 et 110 ans, calculé sur l'année de naissance du bénéficiaire à la dernière date de soins de l'année"
         },
         {
             "name": "cla_age_ct",
@@ -63,7 +63,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "Regroupement en classes d'âge du bénéficiaire : de 0 à 14 ans ; de 15 à 34 ans ; de 35 à 54 ans ; de 55 à 64 ans ; de 65 à 74 ans ; 75 ans et plus"
         },
         {
             "name": "cla_age_5",
@@ -76,7 +76,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "Regroupement en classes d'âge quinquennales du bénéficiaire : de 0 à 4 ans ; de 5 à 9 ans ; de 10 à 14 ans ; de 15 à 19 ans ; de 20 à 24 ans ; de 25 à 29 ans ; de 30 à 34 ans ; de 35 à 39 ans ; de 40 à 44 ans ; de 45 à 49 ans ; de 50 à 54 ans ; de 55 à 59 ans ; de 60 à 64 ans ; de 65 à 69 ans ; de 70 à 74 ans ; de 75 à 79 ans ; de 80 à 84 ans ; de 85 à 89 ans ; de 90 à 94 ans ; de 95 à 99 ans ; de 100 à 104 ans ; de 105 à 110 ans"
         },
         {
             "name": "old_cod_reg",
@@ -89,7 +89,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "Région du résidence du bénéficiaire lors de la dernière date de soins de l'année (régions en vigueur jusqu'au 31 décembre 2015)"
         },
         {
             "name": "new_cod_reg",
@@ -102,7 +102,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "Région du résidence du bénéficiaire lors de la dernière date de soins de l'année (régions en vigueur à partir du 1 janvier 2016)"
         },
         {
             "name": "dpt",
@@ -115,7 +115,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "Département du résidence du bénéficiaire lors de la dernière date de soins de l'année"
         },
         {
             "name": "regime",
@@ -128,7 +128,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "Régime social obligatoire du bénéficiaire lors de la dernière date de soins de l'année : RG (Régime Général) ; SLM (Société Locale Mutualiste) ; BDF (Banque de France) ; CAMIEG (Caisse d'Assurance Maladie des Industries Electriques et Gazières) ; RG-SLM (non déterminé car n'ayant des soins qu'en hospitalisation dans l'année)"
         },
         {
             "name": "source",
@@ -141,7 +141,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "Source de provenance du bénéficiaire dans le SNIIRAM : PRS (bénéficiaire ayant eu au moins une prestation dans DCIR dans l'année) ; MCO (bénéficiaire n'ayant pas eu de prestation dans DCIR mais ayant été hospitalisé en médecine-chirurgie-obstétrique dans l'année) ; PSY (bénéficiaire n'ayant pas eu de prestation dans DCIR ni en MCO mais ayant été hospitalisé en établissement psychiatrique dans l'année) ; SSR (bénéficiaire n'ayant pas eu de prestation dans DCIR ni en MCO ni en PSY mais ayant été en service de soins de suite et réadaptation) ; HAD (bénéficiaire n'ayant pas eu de prestation dans DCIR ni en MCO ni en PSY ni en SSR mais ayant été hospitalisé à domicile)"
         },
         {
             "name": "cmu",
@@ -154,7 +154,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "Bénéficiaire au moins une fois dans l'année de la CMUC (Couverture Maladie Universelle complémentaire)"
         },
         {
             "name": "ben_dcd_dte",
@@ -180,7 +180,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "Bénéficiaire décédé au 31 décembre de l'année au RG. Si le bénéficiaire n'est pas au RG, cette donnée est forcée à manquante"
         },
         {
             "name": "ben_acs_top",
@@ -219,7 +219,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "Personnes hospitalisées au cours de l'année n pour cardiopathie ischémique aigüe (diagnostic principal (DP) d'un des RUM (Résumé d'Unité Médicale))"
         },
         {
             "name": "top_CvCoron_chr",
@@ -258,7 +258,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "Personnes hospitalisées au cours de l'année n pour maladies cérébrovasculaires aigües (diagnostic principal (DP) d'un des RUM (Résumé d'Unité Médicale)), à l'exclusion des occlusions et sténoses des artères cérébrales et précérébrales n'ayant pas entrainé d'infarctus cérébral. L'épisode aigu d'AVC prime sur la séquelle d'accident vasculaire cérébral"
         },
         {
             "name": "top_CvAVC_seq",
@@ -297,7 +297,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "Personnes hospitalisées au cours de l'année n pour insuffisance cardiaque (diagnostic principal (DP) d'un des RUM (Résumé d'Unité Médicale)), ou pour complication aigue, c'est-à-dire pour cardiopathie hypertensive avec IC, cardionéphropathie hypertensive avec IC ou sans précision, foie cardiaque ou dème aigu pulmonaire (DP d'un des RUM) avec un diagnostic associé (DA) ou diagnostic relié (DR) d'insuffisance cardiaque. L'épisode aigu d'IC prime sur l'IC chronique"
         },
         {
             "name": "top_CvIC_chr",
@@ -375,7 +375,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "Personnes hospitalisées au cours de l'année n pour une embolie pulmonaire (diagnostic principal (DP) d'un des RUM (Résumé d'Unité Médicale))"
         },
         {
             "name": "top_CvAutre_ind",
@@ -544,7 +544,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "Personnes n'ayant pas reçu au moins 3 délivrances (à différentes dates) d'antidiabétiques oraux ou d'insuline (ou au moins 2 en cas d'au moins 1 grand conditionnement) au cours de l'année n, mais personnes ayant reçu au moins 3 délivrances (à différentes dates) d'antidiabétiques oraux ou d'insuline (ou au moins 2 en cas d'au moins 1 grand conditionnement) au cours de l'année n-1, et-ou personnes ayant une ALD (Affection de Longue Durée) au cours de l'année n avec codes CIM-10 de diabète et-ou personnes hospitalisées au cours des années n à n-1 avec codes CIM10 de diabète (diagnostic principal (DP) ou diagnostic relié (DR)), et-ou personnes hospitalisées au cours des années n à n-1 pour une complication du diabète (DP ou DR) avec un code CIM10 de diabète en diagnostic associé (DA), ou en DP ou DR de RUM (Résumé d'Unité Médicale)"
         },
         {
             "name": "sup_FRVDiab_cat",
@@ -570,7 +570,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "Femmes ayant une ALD (Affection de Longue Durée) avec codes CIM-10 de cancer du sein (y compris les formes in situ) avec une date de début au cours des années n à n-1, et-ou femmes hospitalisées pour cancer du sein au cours des années n à n-1 (diagnostic principal (DP) ou diagnostic relié (DR)). Le cancer actif prime sur le cancer sous surveillance (voir la fiche correspondante). Toutefois, les femmes identifiées comme ayant un cancer du sein dans le PMSI-MCO au cours des années n à n-1, et repérées uniquement par une hospitalisation pour « examen de contrôle après traitement d'une tumeur maligne » (Z08 en DP ou DR), ont été reclassées dans le groupe surveillance si elles n'ont pas eu au cours des années n à n-1 de séance de radiothérapie (Z51.0) et-ou de chimiothérapie (Z51.1). Un traitement par thérapie ciblée (spécifique des cellules cancéreuses) ou un séjour pour métastase au cours des années n à n-1 conduit à reclasser la patiente dans le groupe de cancer actif. Les inhibiteurs de l'aromatase et les anti-oestrogènes donnés au long cours en prévention des récidives n'ont pas été pris en compte"
         },
         {
             "name": "top_CanSeiF_sur",
@@ -583,7 +583,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "Femmes ayant une ALD (Affection de Longue Durée) avec codes CIM-10 de cancer du sein (y compris les formes in situ) avec date de début antérieure à l'année n-1, et-ou femmes hospitalisées pour cancer du sein au cours des années n à n-4 (diagnostic principal (DP) ou diagnostic relié (DR), ou diagnostic associé (DA) au cours des années n à n-1). Le cancer actif prime sur le cancer sous surveillance (voir la fiche correspondante)"
         },
         {
             "name": "sup_CanSeiF_cat",
@@ -687,7 +687,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "Hommes ayant une ALD (Affection de Longue Durée) avec codes CIM-10 de cancer de la prostate (y compris les formes in situ) avec date de début au cours des années n à n-1, et-ou hommes hospitalisés pour cancer de la prostate au cours des années n à n-1 (diagnostic principal (DP) ou diagnostic relié (DR)), et-ou hommes âgés de 40 ans et plus, ayant reçu au moins 3 délivrances au cours des années n à n-1 de traitement anti-androgénique. Le cancer actif prime sur le cancer sous surveillance (voir la fiche correspondante). Toutefois, les hommes identifiés comme ayant un cancer de la prostate dans le PMSI-MCO au cours des années n à n-1, et repérés uniquement par une hospitalisation pour « examen de contrôle après traitement d'une tumeur maligne » (Z08 en DP ou DR), ont été reclassés dans le groupe surveillance s'ils n'ont pas eu au cours des années n à n-1 de séance de radiothérapie (Z51.0) et-ou de chimiothérapie (Z51.1). Un traitement par thérapie ciblée (spécifique des cellules cancéreuses) ou un séjour pour métastase au cours des années n à n-1 conduit à reclasser le patient dans le groupe de cancer actif"
         },
         {
             "name": "top_CanPros_sur",
@@ -700,7 +700,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "Hommes ayant une ALD (Affection de Longue Durée) avec codes CIM-10 de cancer de la prostate avec date de début antérieure à l'année n-1, et-ou hommes hospitalisés pour cancer de la prostate au cours des années n à n-4 (diagnostic principal (DP) ou diagnostic relié (DR), ou diagnostic associé (DA) au cours des années n à n-1). Le cancer actif prime sur le cancer sous surveillance (voir la fiche correspondante)"
         },
         {
             "name": "sup_CanPros_cat",
@@ -1493,7 +1493,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "Personnes en dialyse chronique ayant eu de façon prépondérant une hémodialyse (plus de 50% de son temps de dialyse)"
         },
         {
             "name": "sup_RDiaPer_ind",
@@ -1506,7 +1506,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "Personnes en dialyse chronique ayant eu de façon prépondérant une dialyse péritonéale (plus de 50% de son temps de dialyse)"
         },
         {
             "name": "top_Rtrans_aig",
@@ -1519,7 +1519,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "Personnes identifiées par un GHM (Groupe Homogène de Malades) de transplantation rénale (quel que soit le niveau de sévérité), et-ou personnes identifiées par un acte CCAM (Classification Commune des Actes Médicaux) de transplantation du rein, ou du pancréas et du rein, par laparotomie. La transplantation rénale au cours de l'année n prime sur le suivi de transplantation rénale, qui prime sur la dialyse chronique : une personne en suivi de transplantation rénale (avec rejet du greffon), chez qui on redémarre une dialyse puis qui bénéficie d'une transplantation rénale, est considérée comme transplantée au cours de l'année n (et non en suivi de transplantation rénale ni dialysée chronique), du fait des dépenses importantes afférentes à la transplantation rénale"
         },
         {
             "name": "top_Rtrans_chr",
@@ -1805,7 +1805,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "Femmes âgées entre 15 et 49 ans, prises en charge pour le risque maternité à partir du 1er jour du 6ème mois de grossesse jusqu'au 12ème jour après l'accouchement (à l'exclusion des congés d'adoption et sans prise en compte des congés paternité), et-ou femmes ayant une hospitalisation au cours de l'année n avec une racine de GHM (Groupe Homogène de Malades) d'accouchement ou césarienne."
         },
         {
             "name": "sup_Materni_ind_exclu",
@@ -1818,7 +1818,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "Femmes âgées entre 15 et 49 ans, prises en charge pour le risque maternité à partir du 1er jour du 6ème mois de grossesse jusqu'au 12ème jour après l'accouchement (à l'exclusion des congés d'adoption et sans prise en compte des congés paternité), et-ou femmes ayant une hospitalisation au cours de l'année n avec une racine de GHM (Groupe Homogène de Malades) d'accouchement ou césarienne, et n'ayant aucune des 55 pathologies et traitements identifiés dans la cartographie (variables commençant par \"top\" à l'exclusion de la maternité)"
         },
         {
             "name": "sup_PatMat_cat",
@@ -1857,7 +1857,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "Personnes n'ayant pas de pathologie chronique repérée, mais hospitalisés au cours de l'année n"
         },
         {
             "name": "sup_PatMatHos_cat",
@@ -1883,7 +1883,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "Personnes n'ayant pas été repérée comme ayant une des 56 pathologies, traitements et événement de santé identifiés dans la cartographie (variables commençant par \"top\") et n'ayant pas eu d'hospitalisation ponctuelle (avec ou sans pathologies, traitements ou maternité)"
         },
         {
             "name": "sup_Arthros_med",
@@ -2000,7 +2000,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "Personnes n'ayant aucune des 56 pathologies, traitements et événement de santé identifiés dans la cartographie (variables commençant par \"top\"), ni hospitalisations ponctuelles, ni traitement antalgique ou anti-inflammatoire"
         },
         {
             "name": "sup_PopTot_cat",
@@ -2013,7 +2013,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "Personnes identifiées comme ayant eu une consommation de soins dans l'année au régime général ou au sections locales mutualistes (dénominateur)"
         },
         {
             "name": "version",

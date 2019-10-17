@@ -180,7 +180,7 @@
             "dateMissing": [],
             "format": "default",
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "La ligne de prestation contient des informations concernant le remboursement de la part complémentaire (autre que le régime obligatoire)"
         }
     ],
     "name": "ER_BIO_F",

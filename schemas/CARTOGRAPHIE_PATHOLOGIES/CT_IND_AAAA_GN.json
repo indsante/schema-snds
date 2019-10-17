@@ -231,7 +231,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) au cours de l'année n avec codes CIM-10 de cardiopathie ischémique, et-ou personnes hospitalisées au cours des années n à n-4 pour ces mêmes motifs (diagnostic principal (DP) d'un des RUM (Résumé d'Unité Médicale) ou diagnostic relié (DR)), et-ou personnes hospitalisées au cours de l'année n pour tout autre motif avec une cardiopathie ischémique comme complication ou morbidité associée (diagnostic associé (DA)), (et sans hospitalisation pour syndrome coronaire aigu au cours de l'année n)",
             "regle_gestion": ""
         },
         {
@@ -244,7 +244,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Regroupement des pathologies syndrome coronaire aigu et maladie coronaire chronique",
             "regle_gestion": ""
         },
         {
@@ -270,7 +270,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) au cours de l'année n avec codes CIM-10 de maladies cérébrovasculaires (hémiplégie inclues), et-ou personnes hospitalisées au cours des années n à n-4 pour maladies cérébrovasculaires, à l'exclusion des occlusions et sténoses des artères cérébrales et précérébrales n'ayant pas entrainé d'infarctus cérébral (diagnostic principal (DP) d'un des RUM (Résume d'Unité Médicale) ou diagnostic relié (DR)), et-ou personnes hospitalisées au cours de l'année n pour tout autre motif avec une maladie cérébrovasculaire comme complication ou morbidité associée (diagnostic associé (DA)), à l'exclusion des occlusions et sténoses des artères cérébrales et précérébrales n'ayant pas entrainé d'infarctus cérébral (et sans hospitalisation pour accident vasculaire cérébral aigu au cours de l'année n)",
             "regle_gestion": ""
         },
         {
@@ -283,7 +283,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Regroupement des pathologies accident vasculaire cérébral aigu et séquelle d'accident vasculaire cérébral",
             "regle_gestion": ""
         },
         {
@@ -309,7 +309,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) au cours de l'année n avec codes CIM-10 d'insuffisance cardiaque, cardiopathie hypertensive, ou cardionéphropathie hypertensive, et-ou personnes hospitalisées au cours des années n à n-4 pour insuffisance cardiaque (diagnostic principal (DP) d'un des RUM (Résumé d'Unité Médicale) ou diagnostic relié (DR)), et-ou personnes hospitalisées au cours des années n à n-4 pour cardiopathie hypertensive avec IC, cardionéphropathie hypertensive avec IC ou sans précision, foie cardiaque ou dème aigu pulmonaire (DP ou DP d'un des RUM) avec un diagnostic associé (DA) ou DR d'insuffisance cardiaque, et-ou personnes hospitalisées au cours de l'année n pour tout autre motif avec une IC comme complication ou morbidité associée (DA) (et sans hospitalisation pour insuffisance cardiaque aigue au cours de l'année n)",
             "regle_gestion": ""
         },
         {
@@ -322,7 +322,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Regroupement des pathologies insuffisance cardiaque aiguë et insuffisance cardiaque chronique",
             "regle_gestion": ""
         },
         {
@@ -335,7 +335,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affections de Longue Durée) au cours de l'année n avec codes CIM-10 d'athérosclérose des artères distales ou autres maladies vasculaires périphériques, et-ou personnes hospitalisées au cours des années n à n-4 pour athérosclérose des artères distales, ou claudication intermittente et spasme artériel, ou embolie et thrombose de l'aorte abdominale, ou embolie et thrombose des artères des membres inférieurs, ou embolie et thrombose des artères distales sans précision, ou embolie et thrombose de l'artère iliaque (diagnostic principal (DP) d'un des RUM (Résumé d'Unité Médicale) ou diagnostic relié (DR)), et-ou personnes hospitalisées au cours de l'année n pour tout autre motif avec une athérosclérose des artères distales, ou claudication intermittente et spasme artériel, ou embolie et thrombose de l'aorte abdominale, ou embolie et thrombose des artères des membres inférieurs, ou embolie et thrombose des artères distales sans précision, ou embolie et thrombose de l'artère iliaque comme complication ou morbidité associée (diagnostic associé (DA))",
             "regle_gestion": ""
         },
         {
@@ -348,7 +348,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) au cours de l'année n avec codes CIM-10 de troubles du rythme ou de la conduction cardiaque, et-ou personnes hospitalisées au cours des années n à n-4 pour les mêmes motifs (diagnostic principal (DP) d'un des RUM (Résumé d'Unité Médicale) ou diagnostic relié (DR)), et-ou personnes hospitalisées au cours de l'année n pour tout autre motif avec un trouble du rythme ou de la conduction cardiaque comme complication ou morbidité associée (diagnostic associé (DA))",
             "regle_gestion": ""
         },
         {
@@ -361,7 +361,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) avec codes CIM-10 de maladie valvulaire (à l'exclusion des affections congénitales) au cours de l'année n, et-ou personnes hospitalisées au cours des années n à n-4 pour les mêmes motifs (diagnostic principal (DP) d'un des RUM (Résumé d'Unité Médicale) ou diagnostic relié (DR)), et-ou personnes hospitalisées au cours de l'année n pour tout autre motif avec une maladie valvulaire comme complication ou morbidité associée (diagnostic associé (DA))",
             "regle_gestion": ""
         },
         {
@@ -387,7 +387,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) non prises en compte dans les 10 autres groupes de pathologies cardioneurovasculaires de la cartographie au cours de l'année n",
             "regle_gestion": ""
         },
         {
@@ -400,7 +400,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Regroupement des pathologies syndrome coronaire aigu, accident vasculaire cérébral aigu, insuffisance cardiaque aiguë et embolie pulmonaire aiguë",
             "regle_gestion": ""
         },
         {
@@ -413,7 +413,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Regroupement des pathologies maladie coronaire chronique, séquelle d'accident vasculaire cérébral, insuffisance cardiaque chronique, artériopathie oblitérante du membre inférieur, troubles du rythme ou de la conduction cardiaque, maladie valvulaire et autres affections cardiovasculaires",
             "regle_gestion": ""
         },
         {
@@ -426,7 +426,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Regroupement des pathologies syndrome coronaire aigu, maladie coronaire chronique, accident vasculaire cérébral aigu, séquelle d'accident vasculaire cérébral, insuffisance cardiaque aiguë, insuffisance cardiaque chronique, artériopathie oblitérante du membre inférieur, troubles du rythme ou de la conduction cardiaque, maladie valvulaire, embolie pulmonaire aiguë et autres affections cardiovasculaires",
             "regle_gestion": ""
         },
         {
@@ -439,7 +439,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant reçu au moins 3 délivrances de médicaments spécifiques au cours de l'année n (à différentes dates), et en cas de grands conditionnements au moins 1 grand et 1 petit, ou 2 grands, mais n'étant pas identifiées comme ayant une maladie coronaire ou accident vasculaire cérébral ou insuffisance cardiaque - ni aigus ni chroniques -, ou artériopathie oblitérante des membres inférieurs, ou insuffisance rénale chronique terminale traitée, ou diabète. La liste comprend l'ensemble des médicaments ayant une indication thérapeutique remboursable dans le traitement de l'hypertension artérielle (et l'historique depuis le 1er janvier 2000). Sont exclus les médicaments à action antihypertensive des codes ATC (classification Anatomique, Thérapeutique et Chimique) commençant par C02, C07, C08, C09 n'ayant pas d'indication selon l'autorisation de mise sur le marché (AMM) dans le traitement de l'hypertension artérielle",
             "regle_gestion": ""
         },
         {
@@ -452,7 +452,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant reçu au moins 3 délivrances de médicaments spécifiques au cours de l'année n (à différentes dates), et en cas de grands conditionnements au moins 1 grand et 1 petit, ou 2 grands. La liste comprend l'ensemble des médicaments ayant une indication thérapeutique remboursable dans le traitement de l'hypertension artérielle (et l'historique depuis le 1er janvier 2000). Sont exclus les médicaments à action antihypertensive des codes ATC (classification Anatomique, Thérapeutique et Chimique) commençant par C02, C07, C08, C09 n'ayant pas d'indication selon l'autorisation de mise sur le marché (AMM) dans le traitement de l'hypertension artérielle",
             "regle_gestion": ""
         },
         {
@@ -465,7 +465,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant reçu au moins 3 délivrances de médicaments spécifiques au cours de l'année n (à différentes dates), et en cas de grands conditionnements au moins 1 grand et 1 petit, ou 2 grands, mais n'étant pas identifiées comme ayant une maladie coronaire ou accident vasculaire cérébral ou insuffisance cardiaque - ni aigus ni chroniques -, ou artériopathie oblitérante des membres inférieurs, ou insuffisance rénale chronique terminale traitée, ou diabète",
             "regle_gestion": ""
         },
         {
@@ -478,7 +478,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant reçu au moins 3 délivrances de médicaments spécifiques au cours de l'année n (à différentes dates), et en cas de grands conditionnements au moins 1 grand et 1 petit, ou 2 grands",
             "regle_gestion": ""
         },
         {
@@ -491,7 +491,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Regroupement des traitements antihypertenseurs (hors pathologies) et traitements hypolipémiants (hors pathologies)",
             "regle_gestion": ""
         },
         {
@@ -504,7 +504,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Regroupement des traitements antihypertenseurs (avec ou sans pathologies) et traitements hypolipémiants (avec ou sans pathologies)",
             "regle_gestion": ""
         },
         {
@@ -517,7 +517,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant reçu au moins 3 délivrances (à différentes dates) d'antidiabétiques oraux ou d'insuline (ou au moins 2 en cas d'au moins 1 grand conditionnement) au cours de l'année n, et-ou personnes ayant reçu au moins 3 délivrances (à différentes dates) d'antidiabétiques oraux ou d'insuline (ou au moins 2 en cas d'au moins 1 grand conditionnement) au cours de l'année n-1, et-ou personnes ayant une ALD (Affection de Longue Durée) au cours de l'année n avec codes CIM-10 de diabète et-ou personnes hospitalisées au cours des années n à n-1 avec codes CIM10 de diabète (diagnostic principal (DP) ou diagnostic relié (DR)), et-ou personnes hospitalisées au cours des années n à n-1 pour une complication du diabète (DP ou DR) avec un code CIM10 de diabète en diagnostic associé (DA), ou en DP ou DR de RUM (Résumé d'Unité Médicale)",
             "regle_gestion": ""
         },
         {
@@ -530,7 +530,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant obligatoirement reçu au moins 3 délivrances (à différentes dates) d'antidiabétiques oraux ou d'insuline (ou au moins 2 en cas d'au moins 1 grand conditionnement) au cours de l'année n, et ayant pu recevoir au moins 3 délivrances (à différentes dates) d'antidiabétiques oraux ou d'insuline (ou au moins 2 en cas d'au moins 1 grand conditionnement) au cours de l'année n-1, et-ou personnes ayant une ALD (Affection de Longue Durée) au cours de l'année n avec codes CIM-10 de diabète et-ou personnes hospitalisées au cours des années n à n-1 avec codes CIM10 de diabète (diagnostic principal (DP) ou diagnostic relié (DR)), et-ou personnes hospitalisées au cours des années n à n-1 pour une complication du diabète (DP ou DR) avec un code CIM10 de diabète en diagnostic associé (DA), ou en DP ou DR de RUM (Résumé d'Unité Médicale)",
             "regle_gestion": ""
         },
         {
@@ -556,7 +556,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Regroupement des traitements antihypertenseurs (hors pathologies) et traitements hypolipémiants (hors pathologies) et de la pathologie diabète",
             "regle_gestion": ""
         },
         {
@@ -595,7 +595,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Regroupement des pathologies cancer du sein de la femme actif et cancer du sein de la femme sous surveillance",
             "regle_gestion": ""
         },
         {
@@ -608,7 +608,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) avec codes CIM-10 de cancer du côlon, de la jonction recto-sigmoïdienne ou du rectum (y compris les formes in situ) avec date de début au cours des années n à n-1, et-ou personnes hospitalisées pour ces mêmes motifs au cours des années n à n-1 (diagnostic principal (DP) ou diagnostic relié (DR)). Le cancer actif prime sur le cancer sous surveillance (voir la fiche correspondante). Toutefois, les personnes identifiées comme ayant un cancer du côlon dans le PMSI-MCO au cours des années n à n-1, et repérées uniquement par une hospitalisation pour « examen de contrôle après traitement d'une tumeur maligne » (Z08 en DP ou DR), ont été reclassées dans le groupe surveillance si elles n'ont pas eu au cours des années n à n-1 de séance de radiothérapie (Z51.0) et-ou de chimiothérapie (Z51.1). Un traitement par thérapie ciblée (spécifique des cellules cancéreuses) ou un séjour pour métastase au cours des années n à n-1 conduit à reclasser la personne dans le groupe de cancer actif",
             "regle_gestion": ""
         },
         {
@@ -621,7 +621,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) avec codes CIM-10 de cancer du côlon, de la jonction recto-sigmoïdienne ou du rectum (y compris les formes in situ) avec date de début antérieure à l'année n-1, et-ou personnes hospitalisées pour ces mêmes motifs au cours des années n à n-4 (diagnostic principal (DP) ou diagnostic relié (DR), ou diagnostic associé (DA) au cours des années n à n-1). Le cancer actif prime sur le cancer sous surveillance (voir la fiche correspondante)",
             "regle_gestion": ""
         },
         {
@@ -634,7 +634,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Regroupement des pathologies cancer du côlon actif et cancer du côlon sous surveillance",
             "regle_gestion": ""
         },
         {
@@ -647,7 +647,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) avec codes CIM-10 de cancer du poumon ou des bronches (y compris les formes in situ) avec date de début au cours des années n à n-1 et-ou personnes hospitalisées pour cancer du poumon ou des bronches au cours des années n à n-1 (diagnostic principal (DP) ou diagnostic relié (DR)). Le cancer actif prime sur le cancer sous surveillance (voir la fiche correspondante). Toutefois, les personnes identifiées comme ayant un cancer du poumon dans le PMSI-MCO au cours des années n à n-1, et repérées uniquement par une hospitalisation pour « examen de contrôle après traitement d'une tumeur maligne » (Z08 en DP ou DR), ont été reclassées dans le groupe surveillance si elles n'ont pas eu au cours des années n à n-1 de séance de radiothérapie (Z51.0) et-ou de chimiothérapie (Z51.1). Un traitement par thérapie ciblée (spécifique des cellules cancéreuses) ou un séjour pour métastase au cours des années n à n-1 conduit à reclasser le patient dans le groupe de cancer actif. En présence d'un autre cancer (autre que de l'encéphale), les séjours pour cancer du poumon sont tous considérés comme liés à une métastase pulmonaire de l'autre cancer",
             "regle_gestion": ""
         },
         {
@@ -660,7 +660,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) avec codes CIM-10 de cancer du poumon ou des bronches avec date de début antérieure à l'année n-1, et-ou personnes hospitalisées pour cancer du poumon ou des bronches au cours des années n à n-4 (diagnostic principal (DP) ou diagnostic relié (DR), ou diagnostic associé (DA) au cours des années n à n-1). En présence d'un autre cancer (autre que de l'encéphale), les séjours pour cancer du poumon sont tous considérés comme liés à une métastase pulmonaire de l'autre cancer. Le cancer actif prime sur le cancer sous surveillance (voir la fiche correspondante)",
             "regle_gestion": ""
         },
         {
@@ -673,7 +673,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Regroupement des pathologies cancer du poumon actif et cancer du poumon sous surveillance",
             "regle_gestion": ""
         },
         {
@@ -712,7 +712,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Regroupement des pathologies cancer de la prostate actif et cancer de la prostate sous surveillance",
             "regle_gestion": ""
         },
         {
@@ -725,7 +725,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) avec codes CIM-10 d'autres cancers (à l'exclusion des cancers du sein chez la femme, du côlon, de la jonction recto-sigmoïdienne, du rectum, du poumon, des bronches, de la prostate et des tumeurs à évolution imprévisible ou inconnue) avec date de début au cours des années n à n-1, et-ou personnes hospitalisées pour autres cancers au cours des années n à n-1 (diagnostic principal (DP) ou diagnostic relié (DR)), et hommes atteints de cancers du sein. Le cancer actif prime sur le cancer sous surveillance (voir la fiche correspondante). Toutefois, les personnes identifiées comme ayant un autre cancer dans le PMSI-MCO au cours des années n à n-1, et repérées uniquement par une hospitalisation pour « examen de contrôle après traitement d'une tumeur maligne » (Z08 en DP ou DR), ont été reclassées dans le groupe surveillance si elles n'ont pas eu au cours des années n à n-1 de séance de radiothérapie (Z51.0) et-ou de chimiothérapie (Z51.1). Un traitement par thérapie ciblée (spécifique des cellules cancéreuses) ou un séjour pour métastase au cours des années n à n-1 conduit à reclasser le patient dans le groupe de cancer actif. En présence d'un autre cancer et de séjours pour métastases, certains séjours dont le codage indique un cancer primitif du foie, de l'os et du cerveau ont été considérés comme liés à une métastase hépatique, osseuse ou cérébrale de l'autre cancer",
             "regle_gestion": ""
         },
         {
@@ -738,7 +738,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) avec codes CIM-10 d'autres cancers (à l'exclusion des cancers du sein chez la femme, du côlon, de la jonction recto-sigmoïdienne, du rectum, du poumon, des bronches, de la prostate et des tumeurs à évolution imprévisible ou inconnue) avec date de début antérieure à l'année n-1, et-ou personnes hospitalisées pour autres cancers au cours des années n à n-4 (diagnostic principal (DP) ou diagnostic relié (DR), ou diagnostic associé (DA) au cours des années n à n-1). Les patients de sexe masculin atteints de cancers du sein sont inclus dans ce groupe. Le cancer actif prime sur le cancer sous surveillance (voir la fiche correspondante)",
             "regle_gestion": ""
         },
         {
@@ -751,7 +751,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Regroupement des pathologies autres cancers actifs et autres cancers sous surveillance",
             "regle_gestion": ""
         },
         {
@@ -764,7 +764,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Regroupement des pathologies cancer du sein de la femme actif, cancer du côlon actif, cancer du poumon actif, cancer de la prostate actif et autres cancers actifs",
             "regle_gestion": ""
         },
         {
@@ -777,7 +777,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Regroupement des pathologies cancer du sein de la femme sous surveillance, cancer du côlon sous surveillance, cancer du poumon sous surveillance, cancer de la prostate sous surveillance et autres cancers sous surveillance",
             "regle_gestion": ""
         },
         {
@@ -790,7 +790,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Regroupement des pathologies cancer du sein de la femme actif, cancer du sein de la femme sous surveillance, cancer du côlon actif, cancer du côlon sous surveillance, cancer du poumon actif, cancer du poumon sous surveillance, cancer de la prostate actif, cancer de la prostate sous surveillance, autres cancers actifs et autres cancers sous surveillance",
             "regle_gestion": ""
         },
         {
@@ -803,7 +803,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) au cours de l'année n avec codes CIM-10 de schizophrénie, trouble schizotypique, troubles délirants persistants, troubles psychotiques aigus et transitoires, trouble délirant induit, troubles schizo-affectifs, autres troubles psychotiques non organiques, psychose non organique sans précision, et-ou personnes hospitalisées pour ces mêmes motifs - dans un établissement de santé MCO (diagnostic principal (DP) ou diagnostic relié (DR)) et-ou psychiatrique (DP ou diagnostic associé (DA)) - au cours des années n à n-1, et-ou personnes hospitalisées pour ces mêmes motifs - dans un établissement de santé MCO (DP ou DR ou DA) et-ou psychiatrique (DP ou DA) - au cours des années n à n-4 et ayant reçu au moins 3 délivrances de neuroleptiques au cours de l'année n (à différentes dates) c'est à dire d'un médicament dont le code ATC (classification Anatomique, Thérapeutique et Chimique) débute par N05A à l'exception : des spécialités à base de Lithium (utilisé comme thymorégulateur) et de Neuriplège® (myorelaxant)",
             "regle_gestion": ""
         },
         {
@@ -816,7 +816,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) au cours de l'année n avec codes CIM-10 de troubles névrotiques ou de l'humeur, et-ou personnes hospitalisées pour ces mêmes motifs - dans un établissement de santé MCO (diagnostic principal (DP) ou diagnostic relié (DR)) et-ou psychiatrique (DP ou diagnostic associé (DA)) - au cours des années n à n-1, et-ou personnes hospitalisées pour ces mêmes motifs - dans un établissement de santé MCO (DP ou DR) et-ou psychiatrique (DP ou DA) - au cours des années n à n-4 et ayant reçu au moins 3 délivrances d'antidépresseurs de la classe ATC (classification Anatomique, Thérapeutique et Chimique) N06A (à l'exception de la Lévotonine), ou de Lithium, Dépakote® ou Depamide® au cours de l'année n (à différentes dates)",
             "regle_gestion": ""
         },
         {
@@ -829,7 +829,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) au cours de l'année n avec codes CIM-10 de troubles maniaques ou bipolaires, et-ou personnes hospitalisées pour ces mêmes motifs - dans un établissement de santé MCO (diagnostic principal (DP) ou diagnostic relié (DR)) et-ou psychiatrique (DP ou diagnostic associé (DA)) - au cours des années n à n-1, et-ou personnes hospitalisées pour ces mêmes motifs - dans un établissement de santé MCO (DP ou DR) et-ou psychiatrique (DP ou DA) - au cours des années n à n-4 et ayant reçu au moins 3 délivrances de Lithium, Dépakote® ou Depamide® au cours de l'année n (à différentes dates) lorsqu'ils sont combinés à une hospitalisation pour motif correspondant.",
             "regle_gestion": ""
         },
         {
@@ -842,7 +842,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) au cours de l'année n avec codes CIM-10 de dépression et autres troubles de l'humeur, et-ou personnes hospitalisées pour ces mêmes motifs - dans un établissement de santé MCO (diagnostic principal (DP) ou diagnostic relié (DR)) et-ou psychiatrique (DP ou diagnostic associé (DA)) - au cours des années n à n-1, et-ou personnes hospitalisées pour ces mêmes motifs - dans un établissement de santé MCO (DP ou DR) et-ou psychiatrique (DP ou DA) - au cours des années n à n-4 et ayant reçu au moins 3 délivrances d'antidépresseurs au cours de l'année n (à différentes dates) lorsqu'ils sont combinés à une hospitalisation pour motif correspondant.",
             "regle_gestion": ""
         },
         {
@@ -855,7 +855,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) au cours de l'année n avec codes CIM-10 de troubles maniaques ou bipolaires, et-ou personnes hospitalisées pour ces mêmes motifs - dans un établissement de santé MCO (diagnostic principal (DP) ou diagnostic relié (DR)) et-ou psychiatrique (DP ou diagnostic associé (DA)) - au cours des années n à n-1, et-ou personnes hospitalisées pour ces mêmes motifs - dans un établissement de santé MCO (DP ou DR) et-ou psychiatrique (DP ou DA) - au cours des années n à n-4 et ayant reçu au moins 3 délivrances d'autres traitements antidépresseurs au cours de l'année n (à différentes dates) lorsqu'ils sont combinés à une hospitalisation pour motif correspondant.",
             "regle_gestion": ""
         },
         {
@@ -868,7 +868,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) au cours de l'année n avec codes CIM-10 de déficience mentale, et-ou personnes hospitalisées pour ce même motif - dans un établissement de santé MCO (diagnostic principal (DP) ou diagnostic relié (DR)) et-ou psychiatrique (DP ou diagnostic associé (DA)) - au cours des années n à n-1",
             "regle_gestion": ""
         },
         {
@@ -881,7 +881,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) au cours de l'année n avec codes CIM-10 de troubles mentaux ou du comportement liés à l'utilisation de substances psycho-actives, et-ou personnes hospitalisées pour ces mêmes motifs - dans un établissement de santé MCO (diagnostic principal (DP) ou diagnostic relié (DR)) et-ou psychiatrique (DP ou diagnostic associé (DA)) - au cours des années n à n-1",
             "regle_gestion": ""
         },
         {
@@ -894,7 +894,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD au cours de l'année n avec codes CIM-10 de troubles mentaux ou du comportement liés à l'utilisation d'alcool, et-ou personnes hospitalisées pour ces mêmes motifs - dans un établissement de santé MCO (diagnostic principal (DP) ou diagnostic relié (DR)) et-ou psychiatrique (DP ou diagnostic associé (DA)) - au cours des années n à n-1",
             "regle_gestion": ""
         },
         {
@@ -907,7 +907,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD au cours de l'année n avec codes CIM-10 de troubles mentaux ou du comportement liés à l'utilisation du tabac, et-ou personnes hospitalisées pour ces mêmes motifs - dans un établissement de santé MCO (diagnostic principal (DP) ou diagnostic relié (DR)) et-ou psychiatrique (DP ou diagnostic associé (DA)) - au cours des années n à n-1",
             "regle_gestion": ""
         },
         {
@@ -920,7 +920,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD au cours de l'année n avec codes CIM-10 de troubles mentaux ou du comportement liés à l'utilisation du cannabis, et-ou personnes hospitalisées pour ces mêmes motifs - dans un établissement de santé MCO (diagnostic principal (DP) ou diagnostic relié (DR)) et-ou psychiatrique (DP ou diagnostic associé (DA)) - au cours des années n à n-1",
             "regle_gestion": ""
         },
         {
@@ -933,7 +933,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD au cours de l'année n avec codes CIM-10 de troubles mentaux ou du comportement liés à l'utilisation de substances psycho-actives (hormis ceux liés à l'utilisation d'alcool, du tabac et du cannabis), et-ou personnes hospitalisées pour ces mêmes motifs - dans un établissement de santé MCO (diagnostic principal (DP) ou diagnostic relié (DR)) et-ou psychiatrique (DP ou diagnostic associé (DA)) - au cours des années n à n-1",
             "regle_gestion": ""
         },
         {
@@ -946,7 +946,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) au cours de l'année n avec codes CIM-10 de troubles du développement psychologique, troubles du comportement ou troubles émotionnels apparaissant habituellement durant l'enfance et l'adolescence, et-ou personnes hospitalisées pour ces mêmes motifs - dans un établissement de santé MCO (diagnostic principal (DP) ou diagnostic relié (DR)) et-ou psychiatrique (DP ou diagnostic associé (DA)) - au cours des années n à n-1",
             "regle_gestion": ""
         },
         {
@@ -959,7 +959,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) au cours de l'année n avec codes CIM-10 de syndrome amnésique, délirium, autres troubles liés à une lésion cérébrale ou un dysfonctionnement cérébral, et à une maladie somatique, troubles de la personnalité et du comportement dus à une affection, une lésion et un dysfonctionnement cérébraux, trouble mental organique ou symptomatique sans précision ; syndromes comportementaux associés à des perturbations physiologiques et à des facteurs physiques ; troubles de la personnalité et du comportement chez l'adulte ou trouble mental sans précision, et-ou personnes hospitalisées pour ces mêmes motifs dans un établissement de santé MCO (diagnostic principal (DP) ou diagnostic relié (DR)) et-ou psychiatrique (DP ou diagnostic associé (DA)) - au cours des années n à n-1 et-ou personnes hospitalisées l'année n dans un établissement psychiatrique (RIM-P) sans diagnostic mentionné de trouble psychiatrique (quel que soit le groupe de pathologie psychiatrique), si le séjour ne comporte pas un diagnostic (DP ou DA) de démence F00 (Démence de la maladie d'Alzheimer), F01 (Démence vasculaire), F02 (Démence au cours d'autres maladies classées ailleurs), B22.0 (Démence par VIH), F03 (Démence, sans précision) G20 (Maladie de Parkinson)",
             "regle_gestion": ""
         },
         {
@@ -972,7 +972,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Regroupement des pathologies troubles psychotiques, troubles névrotiques et de l'humeur, déficience mentale, troubles addictifs, troubles psychiatriques débutant dans l'enfance et autres troubles psychiatriques",
             "regle_gestion": ""
         },
         {
@@ -985,7 +985,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant reçu au moins 3 délivrances d'antidépresseurs de la classe ATC (classification Anatomique, Thérapeutique et Chimique) N06A (à l'exception de la lévotonine), de lithium, Depakote® ou Depamide® au cours de l'année n (à différentes dates), et qui n'ont pas de pathologie psychiatrique retrouvée",
             "regle_gestion": ""
         },
         {
@@ -998,7 +998,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant reçu au moins 3 délivrances d'antidépresseurs de la classe ATC (classification Anatomique, Thérapeutique et Chimique) N06A (à l'exception de la lévotonine), de lithium, Depakote® ou Depamide® au cours de l'année n (à différentes dates).",
             "regle_gestion": ""
         },
         {
@@ -1011,7 +1011,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant reçu au moins 3 délivrances de neuroleptiques au cours de l'année n (à différentes dates) c'est-à-dire d'un médicament dont le code ATC (classification Anatomique, Thérapeutique et Chimique) débute par N05A, à l'exception des spécialités à base de lithium (utilisé comme thymorégulateur) et de Neuriplège® (myorelaxant), et qui n'ont pas de pathologie psychiatrique retrouvée",
             "regle_gestion": ""
         },
         {
@@ -1024,7 +1024,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant reçu au moins 3 délivrances de neuroleptiques au cours de l'année n (à différentes dates) c'est-à-dire d'un médicament dont le code ATC (classification Anatomique, Thérapeutique et Chimique) débute par N05A, à l'exception des spécialités à base de lithium (utilisé comme thymorégulateur) et de Neuriplège® (myorelaxant)",
             "regle_gestion": ""
         },
         {
@@ -1037,7 +1037,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant reçu au moins 3 délivrances d'anxiolytiques au cours de l'année n (à différentes dates) c'est-à-dire d'un médicament dont le code ATC (classification Anatomique, Thérapeutique et Chimique) est dans la liste suivante : N05BA01, N05BA02, N05BA03, N05BA04, N05BA05, N05BA06, N05BA07, N05BA08, N05BA09, N05BA10, N05BA11, N05BA12, N05BA13, N05BA14, N05BA15, N05BA16, N05BA17, N05BA18, N05BA19, N05BA20, N05BA21, N05BA22, N05BA23, N05BB01, N05BB02,N05BC01,N05BE01,N05BX03, et qui n'ont pas de pathologie psychiatrique retrouvée",
             "regle_gestion": ""
         },
         {
@@ -1050,7 +1050,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant reçu au moins 3 délivrances d'anxiolytiques au cours de l'année n (à différentes dates) c'est-à-dire d'un médicament dont le code ATC (classification Anatomique, Thérapeutique et Chimique) est dans la liste suivante : N05BA01, N05BA02, N05BA03, N05BA04, N05BA05, N05BA06, N05BA07, N05BA08, N05BA09, N05BA10, N05BA11, N05BA12, N05BA13, N05BA14, N05BA15, N05BA16, N05BA17, N05BA18, N05BA19, N05BA20, N05BA21, N05BA22, N05BA23, N05BB01, N05BB02,N05BC01,N05BE01,N05BX03",
             "regle_gestion": ""
         },
         {
@@ -1063,7 +1063,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant reçu au moins 3 délivrances d'hypnotiques au cours de l'année n (à différentes dates) c'est-à-dire d'un médicament dont le code ATC (classification Anatomique, Thérapeutique et Chimique) est dans la liste suivante : N05CD02, N05CD03, N05CD04, N05CD05, N05CD06, N05CD07, N05CD08, N05CD09, N05CD10, N05CD11, N05CF01, N05CF02, N05BC51 , N05CM11, N05CM16 ou qui commence par N05CX, et qui n'ont pas de pathologie psychiatrique retrouvée",
             "regle_gestion": ""
         },
         {
@@ -1076,7 +1076,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant reçu au moins 3 délivrances d'hypnotiques au cours de l'année n (à différentes dates) c'est-à-dire d'un médicament dont le code ATC (classification Anatomique, Thérapeutique et Chimique) est dans la liste suivante : N05CD02, N05CD03, N05CD04, N05CD05, N05CD06, N05CD07, N05CD08, N05CD09, N05CD10, N05CD11, N05CF01, N05CF02, N05BC51 , N05CM11, N05CM16 ou qui commence par N05CX",
             "regle_gestion": ""
         },
         {
@@ -1089,7 +1089,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Regroupement des traitements antidépresseurs ou régulateurs de l'humeur (hors pathologies), traitements neuroleptiques (hors pathologies), traitements anxiolytiques (hors pathologies) et traitements hypnotiques (hors pathologies)",
             "regle_gestion": ""
         },
         {
@@ -1102,7 +1102,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Regroupement des traitements antidépresseurs ou régulateurs de l'humeur (avec ou sans pathologies), traitements neuroleptiques (avec ou sans pathologies), traitements anxiolytiques (avec ou sans pathologies) et traitements hypnotiques (avec ou sans pathologies)",
             "regle_gestion": ""
         },
         {
@@ -1115,7 +1115,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Regroupement des pathologies troubles psychotiques, troubles névrotiques et de l'humeur, déficience mentale, troubles addictifs, troubles psychiatriques débutant dans l'enfance, autres troubles psychiatriques et des traitements antidépresseurs ou régulateurs de l'humeur (hors pathologies), traitements neuroleptiques (hors pathologies), traitements anxiolytiques (hors pathologies) et traitements hypnotiques (hors pathologies)",
             "regle_gestion": ""
         },
         {
@@ -1128,7 +1128,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) au cours de l'année n avec codes CIM-10 de démences, et-ou personnes ayant reçu au moins 3 délivrances de médicaments de la maladie d'Alzheimer au cours de l'année n (à différentes dates), et-ou personnes ayant reçu au moins 3 délivrances de médicaments de la maladie d'Alzheimer au cours de l'année n-1 (à différentes dates), et-ou personnes hospitalisées pour maladie d'Alzheimer ou autres démences au cours des années n à n-4 (diagnostic principal (DP) ou diagnostic relié (DR) du PMSI-MCO), et-ou personnes hospitalisées au cours de l'année n pour tout autre motif avec une démence comme complication ou morbidité associée (DP ou DR d'un des RUM (Résumé d'Unité Médicale) ou diagnostic associé (DA) du PMSI-MCO), et-ou personnes hospitalisées pour maladie d'Alzheimer ou autres démences au cours des années n à n-4 (DP ou DA du RIM-P) (à l'exclusion de la démence en lien avec l'infection par le VIH et la maladie de Parkinson)",
             "regle_gestion": ""
         },
         {
@@ -1141,7 +1141,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) au cours de l'année n avec codes CIM-10 de maladie d'Alzheimer, et-ou personnes ayant reçu au moins 3 délivrances de médicaments de la maladie d'Alzheimer au cours de l'année n (à différentes dates), et-ou personnes ayant reçu au moins 3 délivrances de médicaments de la maladie d'Alzheimer au cours de l'année n-1 (à différentes dates), et-ou personnes hospitalisées pour maladie d'Alzheimer au cours des années n à n-4 (diagnostic principal (DP) ou diagnostic relié (DR) du PMSI-MCO), et-ou personnes hospitalisées au cours de l'année n pour tout autre motif avec une maladie d'Alzheimer comme complication ou morbidité associée (DP ou DR d'un des RUM (Résumé d'Unité Médicale) ou diagnostic associé (DA) du PMSI-MCO), et-ou personnes hospitalisées pour maladie d'Alzheimer au cours des années n à n-4 (DP ou DA du RIM-P)",
             "regle_gestion": ""
         },
         {
@@ -1154,7 +1154,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) au cours de l'année n avec codes CIM-10 de démences, et-ou personnes hospitalisées pour démences (hormis la maladie d'Alzheimer) au cours des années n à n-4 (diagnostic principal (DP) ou diagnostic relié (DR) du PMSI-MCO), et-ou personnes hospitalisées au cours de l'année n pour tout autre motif avec une démence comme complication ou morbidité associée (DP ou DR d'un des RUM (Résumé d'Unité Médicale) ou diagnostic associé (DA) du PMSI-MCO), et-ou personnes hospitalisées pour démences (hormis la maladie d'Alzheimer) au cours des années n à n-4 (DP du RIM-P) (à l'exclusion de la démence en lien avec l'infection par le VIH et la maladie de Parkinson)",
             "regle_gestion": ""
         },
         {
@@ -1167,7 +1167,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) au cours de l'année n avec code CIM-10 de maladie de Parkinson, et-ou personnes ayant reçu au moins trois délivrances d'un médicament spécifique au cours de l'année n (à différentes dates), et-ou personnes hospitalisées MCO (diagnostic principal (DP) ou diagnostic relié (DR)) ou RIM-P (DP ou diagnostic associé (DA)) pour maladie de Parkinson ou démence de la maladie de Parkinson au cours des années n à n-4 (DP ou DR), et-ou personnes hospitalisées MCO au cours de l'année n pour tout autre motif avec une maladie de Parkinson ou démence de la maladie de Parkinson comme complication ou morbidité associée (DP ou DR d'un des RUM (Résumé d'Unité Médicale) ou DA)",
             "regle_gestion": ""
         },
         {
@@ -1180,7 +1180,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Regroupement des pathologies démences (dont maladie d'Alzheimer) et maladie de Parkinson",
             "regle_gestion": ""
         },
         {
@@ -1193,7 +1193,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) au cours de l'année n avec code CIM-10 de sclérose en plaque, et-ou personnes hospitalisées pour sclérose en plaque au cours des années n à n-4 (diagnostic principal (DP) ou diagnostic relié (DR))",
             "regle_gestion": ""
         },
         {
@@ -1206,7 +1206,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) au cours de l'année n avec code CIM-10 de paraplégie, et-ou personnes hospitalisées pour paraplégie au cours des années n à n-4 (diagnostic principal (DP) ou diagnostic relié (DR))",
             "regle_gestion": ""
         },
         {
@@ -1219,7 +1219,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) au cours de l'année n avec codes CIM-10 d'affections musculaires ou neuromusculaires, et-ou personnes hospitalisées pour ces mêmes motifs au cours des années n à n-4 (diagnostic principal (DP) ou diagnostic relié (DR))",
             "regle_gestion": ""
         },
         {
@@ -1232,7 +1232,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) au cours de l'année n avec codes CIM-10 d'épilepsie ou d'état de mal épileptique, et-ou personnes hospitalisées pour ces mêmes motifs au cours des années n à n-4 (diagnostic principal (DP) ou diagnostic relié (DR))",
             "regle_gestion": ""
         },
         {
@@ -1245,7 +1245,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) n°9 (Forme grave des affections neurologiques et musculaires, épilepsie grave), n°20 (Paraplégie, mais avec codes CIM-10 autres) et n°25 (Sclérose en plaques, mais avec codes CIM-10 autres) (à l'exclusion de la démence, maladie de Parkinson, sclérose en plaque, paraplégie, myopathie, myasthénie, épilepsie), ainsi que les personnes avec ALD pour séquelles de poliomyélite ou pour certaines malformations congénitales du système nerveux, au cours de l'année n",
             "regle_gestion": ""
         },
         {
@@ -1258,7 +1258,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Regroupement des pathologies sclérose en plaque, paraplégie, myopathie ou myasthénie, epilepsie et autres affections neurologiques",
             "regle_gestion": ""
         },
         {
@@ -1271,7 +1271,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Regroupement des pathologies démences (dont maladie d'Alzheimer), maladie de Parkinson, sclérose en plaque, paraplégie, myopathie ou myasthénie, epilepsie et autres affections neurologiques",
             "regle_gestion": ""
         },
         {
@@ -1284,7 +1284,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) au cours de l'année n, avec codes CIM-10 de maladies chroniques des voies respiratoires inférieures, insuffisance respiratoire, et autres troubles respiratoires et-ou personnes hospitalisées pour ces mêmes motifs au cours des années n à n-4 (diagnostic principal (DP) ou diagnostic relié (DR)), et-ou personnes hospitalisées pour ces mêmes motifs au cours de l'année n (DP ou DR d'un des RUM (Résumé d'Unité Médicale) ou diagnostic associé (DA)), et-ou personnes ayant reçu au moins trois délivrances (à différentes dates) au cours de l'année n de médicaments spécifiques. Les personnes ayant une mucoviscidose sont exclues de ce groupe",
             "regle_gestion": ""
         },
         {
@@ -1297,7 +1297,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) au cours de l'année n, avec codes CIM-10 de maladies chroniques des voies respiratoires inférieures, insuffisance respiratoire, et autres troubles respiratoires et-ou personnes hospitalisées pour ces mêmes motifs au cours des années n à n-4 (diagnostic principal (DP) ou diagnostic relié (DR)), et-ou personnes hospitalisées pour ces mêmes motifs au cours de l'année n (DP ou DR d'un des RUM (Résumé d'Unité Médicale) ou diagnostic associé (DA)), et-ou personnes ayant reçu au moins trois délivrances (à différentes dates) au cours de l'année n de médicaments spécifiques",
             "regle_gestion": ""
         },
         {
@@ -1310,7 +1310,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) au cours de l'année n, avec codes CIM-10 de maladie de Crohn, arthropathie au cours de la maladie de Crohn, recto-colite hémorragique ou arthropathie au cours de colite ulcéreuse, et-ou personnes hospitalisées pour ces mêmes motifs au cours des années n à n-4 (diagnostic principal (DP) ou diagnostic relié (DR)), et-ou personnes hospitalisées au cours de l'année n pour tout autre motif avec une maladie chronique inflammatoire de l'intestin comme complication ou morbidité associée (DP ou DR d'un des RUM (Résumé d'Unité Médicale) ou diagnostic associé (DA))",
             "regle_gestion": ""
         },
         {
@@ -1323,7 +1323,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) au cours de l'année n, avec codes CIM-10 d'arthrite rhumatoïde, ou arthrites juvéniles, et-ou personnes hospitalisées pour ces mêmes motifs au cours des années n à n-4 (diagnostic principal (DP) ou diagnostic relié (DR)), et-ou personnes hospitalisées au cours de l'année n pour tout autre motif avec une arthrite rhumatoïde ou arthrite juvénile comme complication ou morbidité associée (DP ou DR d'un des RUM (Résumé d'Unité Médicale) ou diagnostic associé (DA))",
             "regle_gestion": ""
         },
         {
@@ -1336,7 +1336,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) au cours de l'année n, avec codes CIM-10 de spondylarthrite ankylosante ou arthropathie psoriasique ou entéropathique, ou autres spondylopathie inflammatoire, et-ou personnes hospitalisées pour ces mêmes motifs ou spondylarthrite ankylosante juvénile au cours des années n à n-4 (diagnostic principal (DP) ou diagnostic relié (DR)), et-ou personnes hospitalisées au cours de l'année n pour tout autre motif avec une spondylarthrite ankylosante ou une arthropathie psoriasique ou entéropathique ou une autre spondylopathie inflammatoire comme complication ou morbidité associée (DP ou DR d'un des RUM (Résumé d'Unité Médicale) ou diagnostic associé (DA))",
             "regle_gestion": ""
         },
         {
@@ -1349,7 +1349,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) au cours de l'année n, avec codes CIM-10 de lupus érythémateux, autres affections localisées du tissu conjonctif, périartérite noueuse ou affections apparentées, autres vasculopathies nécrosantes et lupus érythémateux disséminé, et-ou personnes hospitalisées pour ces mêmes motifs au cours des années n à n-4 (diagnostic principal (DP) ou diagnostic relié (DR)), et-ou personnes hospitalisées au cours de l'année n pour tout autre motif avec une autre maladie inflammatoire comme complication ou morbidité associée (DP ou DR d'un des RUM (Résumé d'Unité Médicale) ou diagnostic associé (DA))",
             "regle_gestion": ""
         },
         {
@@ -1362,7 +1362,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Regroupement des pathologies maladies inflammatoires chroniques intestinales, polyarthrite rhumatoïde et maladies apparentées, spondylarthrite ankylosante et maladies apparentées et autres maladies inflammatoires chroniques",
             "regle_gestion": ""
         },
         {
@@ -1375,7 +1375,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) n°17 (Maladies métaboliques héréditaires) au cours de l'année n selon la liste CnamTS, et-ou personnes en ALD au cours de l'année n avec code CIM-10 d'amylose, et-ou personnes hospitalisées pour ces mêmes motifs au cours des années n à n-4 (diagnostic principal (DP) ou diagnostic relié (DR)), et-ou personnes hospitalisées au cours de l'année n pour tout autre motif avec une amylose comme complication ou morbidité associée (DP ou DR d'un des RUM (Résumé d'Unité Médicale) ou diagnostic associé (DA))",
             "regle_gestion": ""
         },
         {
@@ -1388,7 +1388,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) au cours de l'année n avec code CIM-10 de fibrose kystique, et-ou personnes hospitalisées pour fibrose kystique au cours des années n à n-4 (diagnostic principal (DP) ou diagnostic relié (DR)), et-ou personnes hospitalisées au cours de l'année n pour tout autre motif avec une fibrose kystique comme complication ou morbidité associée (DP ou DR d'un des RUM (Résumé d'Unité Médicale) ou diagnostic associé (DA))",
             "regle_gestion": ""
         },
         {
@@ -1401,7 +1401,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) au cours de l'année n, avec codes CIM-10 de carence héréditaire en facteur VIII, carence héréditaire en facteur IX, autres anomalies de la coagulation ou purpura et autres affections hémorragiques, et-ou personnes hospitalisées pour carence héréditaire en facteur VIII ou en facteur IX au cours des années n à n-4 (diagnostic principal (DP) ou diagnostic relié (DR)), et-ou personnes hospitalisées au cours de l'année n pour tout autre motif avec une carence héréditaire en facteur VIII ou en facteur IX comme complication ou morbidité associée (DP ou DR d'un des RUM (Résumé d'Unité Médicale) ou diagnostic associé (DA))",
             "regle_gestion": ""
         },
         {
@@ -1414,7 +1414,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) au cours de l'année n, avec codes CIM-10 de carence héréditaire en facteur VIII ou carence héréditaire en facteur IX, et-ou personnes hospitalisées pour carence héréditaire en facteur VIII ou en facteur IX au cours des années n à n-4 (diagnostic principal (DP) ou diagnostic relié (DR)), et-ou personnes hospitalisées au cours de l'année n pour tout autre motif avec une carence héréditaire en facteur VIII ou en facteur IX comme complication ou morbidité associée (DP ou DR d'un des RUM (Résumé d'Unité Médicale) ou diagnostic associé (DA))",
             "regle_gestion": ""
         },
         {
@@ -1427,7 +1427,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) au cours de l'année n, avec codes CIM-10 d'autres anomalies de la coagulation, dont Willebrand, carence en facteur XI et autres carences, ou purpura et autres affections hémorragiques",
             "regle_gestion": ""
         },
         {
@@ -1440,7 +1440,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Regroupement des pathologies maladies métaboliques héréditaires ou amylose, mucoviscidose et hémophilie ou troubles de l'hémostase graves",
             "regle_gestion": ""
         },
         {
@@ -1453,7 +1453,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) au cours de l'année n, avec codes CIM-10 de maladies dues au virus de l'immunodéficience humaine, et-ou personnes hospitalisées en MCO (diagnostic principal (DP) ou diagnostic relié (DR)) ou RIM-P (DP ou diagnostic associé (DA)) pour ces mêmes motifs au cours des années n à n-4, et-ou personnes hospitalisées MCO au cours de l'année n pour tout autre motif avec un VIH-SIDA comme complication ou morbidité associée (DP ou DR d'un des RUM (Résumé d'Unité Médicale) ou DA), et-ou personnes ayant eu une délivrance à 3 dates différentes d'au moins un médicament spécifique au traitement du VIH-SIDA au cours de l'année n, et-ou personnes ayant eu un acte de biologie médicale spécifique au traitement du VIH-SIDA au cours de l'année n",
             "regle_gestion": ""
         },
         {
@@ -1466,7 +1466,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Regroupement des pathologies maladies inflammatoires chroniques intestinales, polyarthrite rhumatoïde et maladies apparentées, spondylarthrite ankylosante et maladies apparentées, autres maladies inflammatoires chroniques, maladies métaboliques héréditaires ou amylose, mucoviscidose, hémophilie ou troubles de l'hémostase graves et VIH ou SIDA",
             "regle_gestion": ""
         },
         {
@@ -1479,7 +1479,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une durée de traitement d'au moins 45 jours en hémodialyse ou au moins 1 jour en dialyse péritonéale au cours de l'année n, et-ou personnes ayant au moins 1 jour d'hémodialyse (et moins de 45 jours) au cours de l'année n et une durée de traitement d'au moins 45 jours d'hémodialyse ou au moins 1 jour en dialyse péritonéale au cours de l'année n-1. La transplantation rénale dans l'année prime sur le suivi de transplantation rénale, qui prime sur la dialyse chronique : une personne en suivi de transplantation rénale (avec rejet du greffon), chez qui on redémarre une dialyse puis qui bénéficie d'une transplantation rénale, est considérée comme transplantée au cours de l'année n (et non en suivi de transplantation rénale ni dialysée), du fait des dépenses importantes afférentes à la transplantation rénale",
             "regle_gestion": ""
         },
         {
@@ -1531,7 +1531,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant reçu au moins 3 délivrances (à différentes dates) d'au moins un médicament immunosuppresseur utilisé contre le rejet de transplantation rénale et inscrit sur la liste des médicaments remboursables, et personnes hospitalisées pour surveillance de transplantation rénale (quel que soit le niveau de sévérité) au cours des années n à n-4, et-ou personnes hospitalisées avec un diagnostic principal (DP) ou diagnostic relié (DR) ou diagnostic associé (DA) de présence de greffe de rein au cours des années n à n-4, et-ou personnes identifiées par un GHM (Groupe Homogène de Malades) de transplantation rénale (quel que soit le niveau de sévérité), ou un acte CCAM (Classification Commune des Actes Médicaux) de transplantation du rein, ou du pancréas et du rein, au cours des années n-1 à n-4, et-ou ayant une ALD (Affection de Longue Durée) au cours de l'année n pour insuffisance rénale chronique. Le suivi de transplantation rénale prime sur la dialyse chronique, et la transplantation rénale prime sur le suivi de transplantation rénale. Les personnes inclues dans un de ces 3 groupes ont été exclues du groupe « Autres ALD » si cette autre ALD était en rapport avec un code CIM-10 allant de N00 à N99 (maladies de l'appareil génito-urinaire)",
             "regle_gestion": ""
         },
         {
@@ -1544,7 +1544,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant eu au cours de l'année n entre 1 et 44 jours d'hémodialyse, sans 45 jours ou plus d'hémodialyse au cours de l'année n-1 et sans dialyse péritonéale au cours des années n ou n-1",
             "regle_gestion": ""
         },
         {
@@ -1557,7 +1557,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Regroupement des pathologies dialyse chronique, transplantation rénale et suivi de transplantation rénale",
             "regle_gestion": ""
         },
         {
@@ -1570,7 +1570,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) au cours de l'année n, avec codes CIM-10 d'affections hépatiques ou pancréatiques, et-ou personnes hospitalisées pour ces mêmes motifs ou varices sophagiennes au cours des années n à n-4 (diagnostic principal (DP) ou diagnostic relié (DR)), et-ou personnes hospitalisées au cours de l'année n pour tout autre motif avec une affection hépatique ou pancréatique comme complication ou morbidité associée (DP ou DR d'un des RUM (Résumé d'Unité Médicale) ou diagnostic associé (DA)), et-ou personnes ayant eu une délivrance à 3 dates différentes d'au moins un médicament spécifique au traitement des hépatites chroniques au cours de l'année n. Les personnes ayant une mucoviscidose sont exclues de ce groupe",
             "regle_gestion": ""
         },
         {
@@ -1583,7 +1583,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) au cours de l'année n, avec codes CIM-10 d'affections hépatiques ou pancréatiques, et-ou personnes hospitalisées pour ces mêmes motifs ou varices sophagiennes au cours des années n à n-4 (diagnostic principal (DP) ou diagnostic relié (DR)), et-ou personnes hospitalisées au cours de l'année n pour tout autre motif avec une affection hépatique ou pancréatique comme complication ou morbidité associée (DP ou DR d'un des RUM (Résumé d'Unité Médicale) ou diagnostic associé (DA)), et-ou personnes ayant eu une délivrance à 3 dates différentes d'au moins un médicament spécifique au traitement des hépatites chroniques au cours de l'année n",
             "regle_gestion": ""
         },
         {
@@ -1596,7 +1596,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) au cours de l'année n, avec codes CIM-10 d'affections hépatiques, et-ou personnes hospitalisées pour ces mêmes motifs ou varices sophagiennes au cours des années n à n-4 (diagnostic principal (DP) ou diagnostic relié (DR)), et-ou personnes hospitalisées au cours de l'année n pour tout autre motif avec une affection hépatique comme complication ou morbidité associée (DP ou DR d'un des RUM (Résumé d'Unité Médicale) ou diagnostic associé (DA)), et-ou personnes ayant eu une délivrance à 3 dates différentes d'au moins un médicament spécifique au traitement des hépatites chroniques au cours de l'année n. Les personnes ayant une mucoviscidose sont exclues de ce groupe",
             "regle_gestion": ""
         },
         {
@@ -1609,7 +1609,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) au cours de l'année n, avec codes CIM-10 d'affections pancréatiques, et-ou personnes hospitalisées pour ces mêmes motifs au cours des années n à n-4 (diagnostic principal (DP) ou diagnostic relié (DR)), et-ou personnes hospitalisées au cours de l'année n pour tout autre motif avec une affection pancréatique comme complication ou morbidité associée (DP ou DR d'un des RUM (Résumé d'Unité Médicale) ou diagnostic associé (DA)). Les personnes ayant une mucoviscidose sont exclues de ce groupe",
             "regle_gestion": ""
         },
         {
@@ -1622,7 +1622,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) pour une autre cause que celles associées aux 55 groupes précédents, au cours de l'année n. Toutefois, les personnes inclues dans un des groupes d'IRCT (Insuffisance Rénale Chronique Terminale) ont été exclues du groupe « Autres ALD » si cette autre ALD était en rapport avec un code CIM-10 allant de N00 à N99 (maladies de l'appareil génito-urinaire)",
             "regle_gestion": ""
         },
         {
@@ -1635,7 +1635,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) d'origine non précisée",
             "regle_gestion": ""
         },
         {
@@ -1648,7 +1648,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) pour insuffisances médullaires et autres cytopénies chroniques",
             "regle_gestion": ""
         },
         {
@@ -1661,7 +1661,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) pour bilharziose compliquée",
             "regle_gestion": ""
         },
         {
@@ -1674,7 +1674,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) pour hémoglobinopathies, hémolyses chroniques, constitutionnelles et acquises graves (dont la drépanocytose)",
             "regle_gestion": ""
         },
         {
@@ -1687,7 +1687,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) pour néphropathie chronique grave et syndrome néphrotique primitif (sans dialyse chronique ni greffe)",
             "regle_gestion": ""
         },
         {
@@ -1700,7 +1700,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) pour anomalies chromosomiques, séquelles d'encéphalites virales (dont le syndrome de Down)",
             "regle_gestion": ""
         },
         {
@@ -1713,7 +1713,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) pour scoliose structurelle évolutive",
             "regle_gestion": ""
         },
         {
@@ -1726,7 +1726,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) pour tuberculose active, lèpre",
             "regle_gestion": ""
         },
         {
@@ -1739,7 +1739,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) pour tumeurs à évolution imprévisible ou inconnue (dont les codes en D37-D48, les tumeurs de l'encéphale, des glandes endocrines, les syndromes myélodysplasiques, la polyglobulie essentielle, les gammapathies monoclonales, etc.)",
             "regle_gestion": ""
         },
         {
@@ -1752,7 +1752,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) dite hors liste dont les causes les plus fréquentes sont la dégénérescence maculaire liée à l'âge ou DMLA, les séquelles d'embolie pulmonaire, l'ostéoporose avec fracture pathologique, la polyarthrose et le syndrome d'apnée du sommeil, ainsi que les celles d'origine non précisée",
             "regle_gestion": ""
         },
         {
@@ -1765,7 +1765,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant une ALD (Affection de Longue Durée) pour polypathologie",
             "regle_gestion": ""
         },
         {
@@ -1778,7 +1778,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Regroupement des 49 pathologies identifiées dans la cartographie (variables commençant par \"top\" et ne se terminant pas par \"med\" à l'exclusion de la maternité)",
             "regle_gestion": ""
         },
         {
@@ -1791,7 +1791,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Regroupement des 55 pathologies et traitements identifiés dans la cartographie (variables commençant par \"top\" à l'exclusion de la maternité)",
             "regle_gestion": ""
         },
         {
@@ -1830,7 +1830,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Regroupement des 56 pathologies, traitements et événement de santé identifiés dans la cartographie (variables commençant par \"top\")",
             "regle_gestion": ""
         },
         {
@@ -1843,7 +1843,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant ou non des pathologies chroniques repérées, mais hospitalisés pour des pathologies autres que celles-ci au cours de l'année n",
             "regle_gestion": ""
         },
         {
@@ -1869,7 +1869,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Regroupement des 56 pathologies, traitements et événement de santé identifiés dans la cartographie (variables commençant par \"top\") avec l'ajout des hospitalisations ponctuelles (avec ou sans pathologies, traitements ou maternité)",
             "regle_gestion": ""
         },
         {
@@ -1895,7 +1895,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant reçu au moins 6 délivrances (à différentes dates) d'antalgiques, et-ou 6 délivrances d'anti-inflammatoires non stéroïdiens, et-ou 6 délivrances de corticoïdes oraux, dans l'année n, mais qui n'ont pas de pathologies (donc en particulier sans prise en charge pour ALD) ou autres traitements chroniques repérés, ni de maternité, ni d'hospitalisations l'année n",
             "regle_gestion": ""
         },
         {
@@ -1908,7 +1908,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant reçu au moins 6 délivrances (à différentes dates) d'anti-inflammatoires non stéroïdiens, dans l'année n, mais qui n'ont pas de pathologies (donc en particulier sans prise en charge pour ALD) ou autres traitements chroniques repérés, ni de maternité, ni d'hospitalisations l'année n",
             "regle_gestion": ""
         },
         {
@@ -1921,7 +1921,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant reçu au moins 6 délivrances (à différentes dates) d'antalgiques, dans l'année n, mais qui n'ont pas de pathologies (donc en particulier sans prise en charge pour ALD) ou autres traitements chroniques repérés, ni de maternité, ni d'hospitalisations l'année n",
             "regle_gestion": ""
         },
         {
@@ -1934,7 +1934,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant reçu au moins 6 délivrances (à différentes dates) de corticoïdes oraux, dans l'année n, mais qui n'ont pas de pathologies (donc en particulier sans prise en charge pour ALD) ou autres traitements chroniques repérés, ni de maternité, ni d'hospitalisations l'année n",
             "regle_gestion": ""
         },
         {
@@ -1947,7 +1947,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant reçu au moins 6 délivrances (à différentes dates) d'antalgiques, et-ou 6 délivrances d'anti-inflammatoires non stéroïdiens, et-ou 6 délivrances de corticoïdes oraux, dans l'année n",
             "regle_gestion": ""
         },
         {
@@ -1960,7 +1960,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant reçu au moins 6 délivrances (à différentes dates) d'anti-inflammatoires non stéroïdiens, dans l'année n",
             "regle_gestion": ""
         },
         {
@@ -1973,7 +1973,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant reçu au moins 6 délivrances (à différentes dates) d'antalgiques, dans l'année n",
             "regle_gestion": ""
         },
         {
@@ -1986,7 +1986,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "observation": "",
+            "observation": "Personnes ayant reçu au moins 6 délivrances (à différentes dates) de corticoïdes oraux, dans l'année n",
             "regle_gestion": ""
         },
         {

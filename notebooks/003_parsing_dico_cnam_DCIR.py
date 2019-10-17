@@ -66,7 +66,7 @@ df.columns = ['produit',
               'elementaire_ou_calculee', 
               'classe_donnee', 
               'regle_gestion', 
-              'observation_variable',
+              'observation',
               'sensible_ou_medicale', 
               'type_objet', 
               'mode_acces',
@@ -309,8 +309,8 @@ mask = df.regle_gestion.str.startswith("variable de joi")
 df.loc[mask, "regle_gestion"] = ""
 
 mask = df.regle_gestion.str.startswith("Regroupement de") | df.regle_gestion.str.startswith("Personnes ayant")
-assert (df[mask].observation_variable == "").all()
-df.loc[mask, "observation_variable"] = df[mask].regle_gestion
+assert (df[mask].observation == "").all()
+df.loc[mask, "observation"] = df[mask].regle_gestion
 df.loc[mask, "regle_gestion"] = ""
 
 mask = df.regle_gestion.str.startswith("La ligne de pre")
@@ -395,8 +395,8 @@ for i, (produit, name_table) in df[["produit", 'name_table']].drop_duplicates().
 
             continue
         
-        columns_to_update = ['description', 'type', 'nomenclature', 'length', "regle_gestion"]
-        columns_to_update = ['regle_gestion']
+        columns_to_update = ['description', 'type', 'nomenclature', 'length', "regle_gestion", "observation"]
+        columns_to_update = ['observation']
         field_descriptor = get_field_descriptor(sdf, name, columns_to_update)
         for key in columns_to_update:
             if field_descriptor[key] == "" or field_descriptor[key] is None:
@@ -413,5 +413,7 @@ for i, (produit, name_table) in df[["produit", 'name_table']].drop_duplicates().
     schema.save(schema_path, ensure_ascii=False)
 
 1
+
+df[df.name == "CAT_PCS_COD"]
 
 

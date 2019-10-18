@@ -8,64 +8,74 @@
             "length": null,
             "format": "default",
             "dateCreated": "2014",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [
                 "2015",
                 "2016"
-            ]
+            ],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ENT_ANN",
             "description": "Année de la date début de séjour",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "4",
             "format": "default",
             "dateCreated": "2014",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [
                 "2015",
                 "2016"
-            ]
+            ],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ENT_MOI",
             "description": "Mois de la date début de séjour",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
             "dateCreated": "2014",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [
                 "2015",
                 "2016"
-            ]
+            ],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETA_NUM_EPMSI",
             "description": "N° FINESS ePMSI",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
             "dateCreated": "2014",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [
                 "2015",
                 "2016"
-            ]
+            ],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETA_NUM_GEO",
             "description": "Numéro FINESS  géographique",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
             "dateCreated": "2017",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FAC_MNT",
@@ -75,39 +85,45 @@
             "length": null,
             "format": "default",
             "dateCreated": "2014",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [
                 "2015",
                 "2016"
-            ]
+            ],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FAC_NUM",
             "description": "N° séquentiel de facture (idem RAPSS)",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "5",
             "format": "default",
             "dateCreated": "2014",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [
                 "2015",
                 "2016"
-            ]
+            ],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "LPP_COD",
             "description": "Code référence LPP",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "13",
             "format": "default",
             "dateCreated": "2014",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [
                 "2015",
                 "2016"
-            ]
+            ],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "LPP_PRI_UNI",
@@ -117,11 +133,13 @@
             "length": null,
             "format": "default",
             "dateCreated": "2014",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [
                 "2015",
                 "2016"
-            ]
+            ],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "LPP_PU_DEV",
@@ -131,11 +149,13 @@
             "length": null,
             "format": "default",
             "dateCreated": "2014",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [
                 "2015",
                 "2016"
-            ]
+            ],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "LPP_QUA",
@@ -145,11 +165,13 @@
             "length": null,
             "format": "default",
             "dateCreated": "2014",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [
                 "2015",
                 "2016"
-            ]
+            ],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "MNT_UNI_ECA",
@@ -159,25 +181,29 @@
             "length": null,
             "format": "default",
             "dateCreated": "2014",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [
                 "2015",
                 "2016"
-            ]
+            ],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "RHAD_NUM",
             "description": "Numéro séquentiel d'entrée (idem RAPSS)",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "5",
             "format": "default",
             "dateCreated": "2014",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [
                 "2015",
                 "2016"
-            ]
+            ],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "TIP_PRS_IDE",
@@ -187,11 +213,13 @@
             "length": null,
             "format": "default",
             "dateCreated": "2014",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [
                 "2015",
                 "2016"
-            ]
+            ],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "TOT_MNT_ECA",
@@ -201,30 +229,46 @@
             "length": null,
             "format": "default",
             "dateCreated": "2014",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [
                 "2015",
                 "2016"
-            ]
+            ],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "TYP_ART",
             "description": "Type d'enregistrement",
             "type": "string",
             "nomenclature": "MS_ENR_V",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2014",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [
                 "2015",
                 "2016"
-            ]
+            ],
+            "observation": "",
+            "regle_gestion": ""
+        },
+        {
+            "name": "ETA_NUM_TWO",
+            "description": "Numéro FINESS de l’établissement (site géographique)",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2014",
+            "dateDeleted": "2017",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         }
     ],
     "name": "T_HADaa_nnFP",
     "title": "Table FP : Table des RSFA des LPP/DMI en sus des établissements ex-OQN",
-    "description": "Champ : Privé",
     "produit": "PMSI HAD",
     "missingValues": [
         ""
@@ -245,8 +289,10 @@
         }
     ],
     "history": {
-        "dateCreated": "2017",
-        "dateDeleted": "2017",
+        "dateCreated": "2014",
+        "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Privé",
+    "observation": ""
 }

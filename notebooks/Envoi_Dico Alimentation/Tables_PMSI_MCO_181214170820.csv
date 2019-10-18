@@ -1,0 +1,131 @@
+Nom_Table;TYPE_TABLE;Libellé_Table;Année_Présence;Année_Suppression;Variables de  jointure;champ;Contenu et observations;Règles_Gestion;Concept
+T_MCOaaA;Séjour;Acte CCAM;2005;;ETA_NUM et RSA_NUM;Public et Privé;"Cette Table contients les actes CCAM réalisés au cours des séjours : Lorsque le séjour < 1 jour les actes CCAM sont tous saisis -Sinon seuls les Codes ""Classants"" sont obligatoirement saisis - pour le détail des règles, il faut se référer à l'onglet ""CCAM"". Ne contient pas d'actes relatifs aux RSA fictifs pas besoin de filtrer";1-compress code_ccam;
+T_MCOaaB;Séjour;Description du Séjour;2005;;ETA_NUM et RSA_NUM;Public et Privé;"cette table fournit le GHM, la durée globale du séjour…ensemble des variables servant au calcul tarifaire pour la T2A. Pour avoir le détail des règles de calcul des séjours, il faut se référer à l'onglet ""GHM-GHS"". Attention des RSA fictifs qu'ils faut filtrer =>voir règle de gestion pour les supprimer.";"1- Une ligne par séjour (ETA_NUM/RSA_NUM)
+2-RSA Fictifs(Attention ne concerne que les établissements ex-OQN (privés)): Pour supprimer les RSA fictifs, ce sont des RSA alors qu'il n'y a pas eu d'hospitalisation (pb techinque informatique : ils se gérèrent automatiquement) cela ne concerne que les étab privés (ex-OQN);
+Tous les RSA fictifs sont classes en GHM 90Z00Z 
+Where MCO08B GRG_GH <> '90Z00Z'
+Or GRG_RET <>""24""
+Or ENT_MOD is not missing";
+T_MCOaaC;Séjour;NIR patient et Dates de soin;2005;;ETA_NUM et RSA_NUM;Public et Privé;"Cette table fournit les informations d'identification du patient (permet de chaîner avec DCIR), elle contient 1 ligne par RSA (table MCOB). Les codes retour nous informent sur la qualité dev NIR_ANO_17 et non pas sur le séjour; Pour les codes retour qui ne valent pas 0, cela signifie donc que le NIR_ANO_17 n'est pas bon (env. 2% des lignes; cf onglet ""Filtres"") mais le séjour est quant à lui correct. Attention il y a de RSA fictifs qu'ils faut filtrer, voir règles de gestion pour les supprimer (pas de possibilté de filtrer sans croiser avec la table MCOB).";"1-une ligne par triplet (BEN_NIR_IDT / ETA_NUM / RSA_NUM)
+2-Pour supprimer les NIR fictifs, Les NIR sont fictifs mais les actes semble réelles :Where NIR_ANO_17
+MCO08C NIR_RET <>'0' OR   
+MCO08C NAI_RET <>'0' OR   
+MCO08C SEX_RET <>'0' OR   
+MCO08C SEJ_RET <>'0' OR   
+MCO08C FHO_RET <>'0' OR   
+MCO08C PMS_RET <>'0' OR   
+MCO08C DAT_RET <>'0' OR   
+MCO08C NIR_ANO_17  in ( '4B9QHRFMQZNFEBB3D' , 'xxxxxxxxxxxxxxxxx' , 'XXXXXXXXXXXXXXXXD')
+3- Autres NIR fictifs très fréqunet liés au GHM=14Z08Z  (IVG)
+4- Lorsqu'une personne est admise dans un établissement de santé ou y reçoit des soins en demandant à garder l'anonymat conformément aux articles R. 1112-28 et R. 1112-38 du code de la santé publique, les informations d'identification sont limitées à l’identifiant dit numéro de RSS, à l'année de naissance, au sexe et au numéro administratif de séjour
+5- NIR_ANO_17 présent plus de 365 fois dans la base MCOCSTC, surement des fictifs!
+6-RSA Fictifs(Attention ne concerne que les établissements ex-OQN (privés)): Pour supprimer les RSA fictifs, ce sont des RSA alors qu'il n'y a pas eu d'hospitalisation (pb techinque informatique : ils se gérèrent automatiquement) cela ne concerne que les étab privés (ex-OQN);
+Tous les RSA fictifs sont classes en GHM 90Z00Z 
+Where MCO08B GRG_GH <> '90Z00Z'
+Or GRG_RET <>""24""
+Or ENT_MOD is not missing";
+T_MCOaaD;Séjour;Diagnostic associé;2005;;ETA_NUM et RSA_NUM;Public et Privé;Cette table fournit les diagnostiques associés significatifs. Pour 1 RSA ( table MCOB), il peut y avoir plusieurs DAS (ou aucun). Souvent plusieurs fois le même DAS pour le même séjour (doublons de DAS). Attention il y a de RSA fictifs qu'ils faut filtrer =>voir règles de gestion pour les supprimer (pas de possibilté de filtrer sans croiser avec la table MCOB).;"1-RSA Fictifs(Attention ne concerne que les établissements ex-OQN (privés)): Pour supprimer les RSA fictifs, ce sont des RSA alors qu'il n'y a pas eu d'hospitalisation (pb techinque informatique : ils se gérèrent automatiquement) cela ne concerne que les étab privés (ex-OQN);
+Tous les RSA fictifs sont classes en GHM 90Z00Z 
+Where MCO08B GRG_GH <> '90Z00Z'
+Or GRG_RET <>""24""
+Or ENT_MOD is not missing";
+T_MCOaaE;Séjour;Etablissement;2005;;ETA_NUM;Public et Privé;"1 ligne par étab: 857 ex-DG et 1177 ex-OQN;  
+Par exemple pour l'année 2010: il y a 30 étab en + : 93 nouveaux finess (dont les hôpitaux militaires : REG_ETA=""SERVICE DE SANTE DES ARMEES"" ) et 63 ont disparu - 98,7% ont transmis les 12 mois.";;
+T_MCOaaUM;Séjour;Unité médicale;2006;;ETA_NUM et RSA_NUM;Public et Privé;"Cette table contient tous les RUM (Résumé d'Unité Médical) d'un séjour; Il y a une ligne par RUM ms l'UM n'est toujours renseigné. Attention il y a de RSA fictifs qu'ils faut filtrer =>voir règles de gestion pour les supprimer (pas de possibilté de filtrer sans croiser avec la table MCOB).";"1-RSA Fictifs(Attention ne concerne que les établissements ex-OQN (privés)): Pour supprimer les RSA fictifs, ce sont des RSA alors qu'il n'y a pas eu d'hospitalisation (pb techinque informatique : ils se gérèrent automatiquement) cela ne concerne que les étab privés (ex-OQN);
+Tous les RSA fictifs sont classes en GHM 90Z00Z 
+Where MCO08B GRG_GH <> '90Z00Z'
+Or GRG_RET <>""24""
+Or ENT_MOD is not missing";
+T_MCOaaGV2017;Séjour;Table de passage en version de GHM à partir de mars de l'année;2016;;;Public et Privé;"
+version de mars de l'année";;
+T_MCOaaGV2018;Séjour;Table de passage en version de GHM à partir de mars de l'année suivante;2017;;;Public et Privé;"
+version de mars de l'année suivante";;
+T_MCOaaUPGV;Séjour;Types d'autorisations d'unités médicales à portée globale valides;2012;;;Public et Privé;;;
+T_MCOaaLEG;Séjour;Fichier donnant toutes les erreurs détectées par la fonction groupage;2014;;;Public et Privé;;;
+T_MCOaaSTC;Séjour;Prise en charge;2006;;ETA_NUM et RSA_NUM;Public;727 STC;;
+T_MCOaaVALO;Séjour;Valorisation des séjours;2011;;ETA_NUM et RSA_NUM;Public;;;
+T_MCOaaDMIP;Séjour;Fich comp dmi en sus;2008;;;Public;;;
+T_MCOaaDIALP;Séjour;Fich comp dialyse péritonéale en sus;2009;;;Public;;;
+T_MCOaaIVG;Séjour;Fich comp IVG;2017;;;Public;;;
+T_MCOaaMED;Séjour;Fich comp medicament en sus;2008;;;Public;;;
+T_MCOaaMEDATU;Séjour;Fich comp médicament soumis à autorisation temporaire d'utilisation;2012;;;Public et Privé;;;
+T_MCOaaMEDTHROMBO;Séjour;Fich comp Méd. thrombolytiques pour le traitement des AVC ischémiques ;2012;;;Public;;;
+T_MCOaaPIE;Séjour;Fich comp prestation inter établissement;2008;;;Public;;;
+T_MCOaaPORG;Séjour;Fich comp prélévement d'organe;2008;;;Public;;;
+T_MCOaaZ;Séjour;Fich comp radiothérapie;2011;;ETA_NUM et RSA_NUM;Public;;;
+T_MCOaaVALOACE;ACE;Valorisation des actes et consultations externes;2013;;;Public;"
+les HCL ne pas transmettent plus d'ACE au niveau finess géo à partir de 2015";;
+T_MCOaaCSTC;ACE;ACE NIR/date;2008;;ETA_NUM et SEQ_NUM;Public;"
+les HCL ne pas transmettent plus d'ACE au niveau finess géo à partir de 2015";;
+T_MCOaaFASTC;ACE;ACE Entete facture;2007;;ETA_NUM et SEQ_NUM;Public;"
+les HCL ne pas transmettent plus d'ACE au niveau finess géo à partir de 2015";;
+T_MCOaaFBSTC;ACE;ACE Prestation;2008;;ETA_NUM et SEQ_NUM;Public;"
+les HCL ne pas transmettent plus d'ACE au niveau finess géo à partir de 2015";;
+T_MCOaaFCSTC;ACE;ACE Honoraire;2007;;ETA_NUM et SEQ_NUM;Public;"
+les HCL ne pas transmettent plus d'ACE au niveau finess géo à partir de 2015";;
+T_MCOaaFHSTC;ACE;ACE medicament en sus;2009;;ETA_NUM et SEQ_NUM;Public;"
+les HCL ne pas transmettent plus d'ACE au niveau finess géo à partir de 2015";;
+T_MCOaaFLSTC;ACE;ACE biologie NABM;2012;;;Public;"
+Mise en colonnes des actes en 2015 (pr toutes les années); les HCL ne pas transmettent plus d'ACE au niveau finess géo à partir de 2015";;
+T_MCOaaFMSTC;ACE;ACE actes CCAM;2007;;ETA_NUM et SEQ_NUM;Public;"
+Table rechargée en déc 2015 pour les années 2013 et 2014; les HCL ne pas transmettent plus d'ACE au niveau finess géo à partir de 2015";;
+T_MCOaaFPSTC;ACE;ACE DMI en sus;2011;;ETA_NUM et SEQ_NUM;Public;"
+les HCL ne pas transmettent plus d'ACE au niveau finess géo à partir de 2015";;
+T_MCOaaFA;Séjour;OQN Entete facture;2005;;ETA_NUM et RSA_NUM;Privé;"
+Parfois, il y a plusieurs lignes pour 1 RSA !";;
+T_MCOaaFB;Séjour;OQN Prestation;2005;;ETA_NUM et RSA_NUM;Privé;;;
+T_MCOaaFC;Séjour;OQN Honoraire;2005;;ETA_NUM et RSA_NUM;Privé;;;
+T_MCOaaFI;Séjour;OQN Interruption séjour;2005;;ETA_NUM et RSA_NUM;Privé;;;
+T_MCOaaFL;Séjour;OQN biologie NABM;2012;;;Privé;"
+Mise en colonnes des actes en 2015 (pr toutes les années)";;
+T_MCOaaFH;Séjour;OQN medicament en sus;2005;;ETA_NUM et RSA_NUM;Privé;;;
+T_MCOaaFM;Séjour;OQN actes CCAM;2005;;ETA_NUM et RSA_NUM;Privé;;;
+T_MCOaaFP;Séjour;OQN DMI en sus;2005;;ETA_NUM et RSA_NUM;Privé;;;
+T_MCOaaSUP_BPHNA;Séjour (non individualisé);Fich sup BP HN nb;2010;;;Public;"
+Chgt de nom en 2015 ajout du préfixe SUP_";;
+T_MCOaaSUP_BPHNC;Séjour (non individualisé);Fich sup BP HN etb demandeur;2010;;;Public;"
+Chgt de nom en 2015 ajout du préfixe SUP_";;
+T_MCOaaSUP_BPHNP;Séjour (non individualisé);Fich sup BP HN etb producteur;2010;;;Public;"
+Chgt de nom en 2015 ajout du préfixe SUP_";;
+T_MCOaaSUP_LACT;Séjour (non individualisé);Fich sup lactarium;2010;;;Public;"
+Chgt de nom en 2015 ajout du préfixe SUP_";;
+T_MCOaaSUP_CES;ACE (non individualisé);Fich sup ACE Consultations externes Spécifiques;2014;;;Public;"
+Chgt de nom en 2015 ajout du préfixe SUP_";;
+T_MCOaaSUP_SMUR;non individualisé;Fich sup SMUR;2016;;;Public;;;
+T_MCOaaSUP_PPCO;Séjour (non individualisé);Fich sup Primo prescription de chimiothérapie orale;2016;;;Public;;;
+T_MCOaaSUP_USMP;Séjour (non individualisé);Fich sup Médicaments dispensés en USMP (Unité Sanitaire en Milieu Pénitentiaire);2016;;;Public;;;
+T_MCOaaBPHN;Séjour (non individualisé);B et P hors nomenclature (extension de fichier .bphn);2010;2011;ETA_NUM;Public;;;
+T_SUPaaALD;Séjour (non individualisé);Alternatives à la dialyse (extension de fichier .ald);2007;2009;ETA_NUM;Public;;1-Un enregistrement par ETA_NUM/ANN_MOI/PRS_COD;
+T_SUPaaATU;Séjour (non individualisé);Passage aux urgences (extension de fichier .atu) ;2007;2009;ETA_NUM;Public;;"1-Table de 
+Code  AUT_TYP>>  Libellé 
+POSU  >>     Pôle Opérationnel Spécialisé d'Urgence 
+SAU >>         Service d'Accueil des Urgences 
+UPATOU >> Unité de Proximité, d'Accueil, de Traitement et d'Orientation des Urgences ";
+T_SUPaaBPHN;Séjour (non individualisé);B et P hors nomenclature (extension de fichier .bphn);2009;2010;ETA_NUM;Public;;;
+T_SUPaaDMI;Séjour (non individualisé);Dispositifs médicaux implantables (extension de fichier .dmi);2007;2009;ETA_NUM;Public;;1-un enregistrement par eta_num et LPP_COD;
+T_SUPaaFFM;Séjour (non individualisé);Forfait petit matériel (extension de fichier .ffm);2007;2009;ETA_NUM;Public;;1-un enregistrement par établissement et par mois;
+T_SUPaaIVG;;IVG (extension de fichier .ivg);2007;2009;ETA_NUM;Public;;"1-un enregistrement par ETA_NUM||ANN_MOI||PRS_IVG
+2-Code : PRS_IVG Libellé  
+AMD :forfait pour une IVG avec anesthésie générale pour une durée d'hospitalisation égale ou inférieure à 12 heures  
+AMF :forfait pour une IVG par mode médicamenteux  
+APD :forfait pour une IVG avec anesthésie générale pour une durée d'hospitalisation comprise entre à 12 et 24 heures  
+FJS :forfait pour vingt-quatre heures supplémentaires  
+IMD :forfait pour une IVG sans anesthésie pour une durée d'hospitalisation égale ou inférieure à 12 heures  
+IPD :forfait pour une IVG sans anesthésie pour une durée d'hospitalisation comprise entre à 12 et 24 heures ";
+T_SUPaaMON;;Molécules onéreuses (extension de fichier .mon);2007;2009;ETA_NUM;Public;;1-un enregistrement par eta_num et UCD_COD;
+T_MCOaaSUP_FFM;;Fich sup FFM (forfait petit matériel);2015;2016;;Public;"
+Existe aussi en 2007 et 2008 sous le nom T_SUPaaFFM";;
+T_MCOaaGV9;;Table de passage en version de GHM V9;2005;2008;ETA_NUM et RSA_NUM;Public et Privé;;1-une ligne par séjour (ETA_NUM||RSA_NUM);
+T_MCOaaGV10;;Table de passage en version de GHM V10;2005;2007;ETA_NUM et RSA_NUM;Public et Privé;;1-une ligne par séjour (ETA_NUM||RSA_NUM);
+T_MCOaaGV10B;;Table de passage en version de GHM V10B;2007;2008;ETA_NUM et RSA_NUM;Public et Privé;;1-une ligne par séjour (ETA_NUM||RSA_NUM);
+T_MCOaaGV10C;;Table de passage en version de GHM V10C;2008;2010;ETA_NUM et RSA_NUM;Public et Privé;;;
+T_MCOaaGV11;;Table de passage en version de GHM V11;2008;2010;ETA_NUM et RSA_NUM;Public et Privé;;;
+T_MCOaaGV11B;;Table de passage en version de GHM V11B;2009;2011;ETA_NUM et RSA_NUM;Public et Privé;;;
+T_MCOaaGV11C;;Table de passage en version de GHM V11C;2010;2012;ETA_NUM et RSA_NUM;Public et Privé;;;
+T_MCOaaGV11D;;Table de passage en version de GHM V11D;2011;2013;ETA_NUM et RSA_NUM;Public et Privé;;;
+T_MCOaaGV11E;;Table de passage en version de GHM V11E;2012;2014;;Public et Privé;;;
+T_MCOaaGV11F;;Table de passage en version de GHM V11F;2013;2015;;Public et Privé;;;
+T_MCOaaGV11G;;Table de passage en version de GHM V11G;2014;2016;;Public et Privé;;;
+T_MCOaaGV2016;;Table de passage en version de GHM à partir de mars de l'année;2015;2017;;Public et Privé;;;
+T_MCOaaPIP;;Fich comp prothèse PIP;2012;2016;;Public;;;
+T_MCOaaORP;;Fich comp maladie orpheline;2013;2017;;Public et Privé;;;

@@ -7,135 +7,171 @@
             "nomenclature": "-",
             "length": null,
             "format": "default",
-            "dateCreated": "2016",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ENT_ANN",
             "description": "Année de la date début de séjour",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "4",
             "format": "default",
-            "dateCreated": "2016",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ENT_MOI",
             "description": "Mois de la date début de séjour",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
-            "dateCreated": "2016",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETA_NUM_EPMSI",
             "description": "N° FINESS ePMSI",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
-            "dateCreated": "2016",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETA_NUM_GEO",
             "description": "Numéro FINESS  géographique",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
             "dateCreated": "2017",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETB_NUM",
             "description": "Etablissement de transfert ou de retour ou lieu d'exécution de l'acte",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "14",
             "format": "default",
-            "dateCreated": "2016",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FAC_NUM",
             "description": "N° séquentiel de facture (idem RAPSS)",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "5",
             "format": "default",
-            "dateCreated": "2016",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "RHAD_NUM",
             "description": "Numéro séquentiel d'entrée (idem RAPSS)",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "5",
             "format": "default",
-            "dateCreated": "2016",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "SEJ_FIN",
             "description": "Nature d'interruption ou de fin de séjour",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
-            "dateCreated": "2016",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "SOR_ANN",
             "description": "Année de la date fin de séjour",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "4",
             "format": "default",
-            "dateCreated": "2016",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "SOR_MOI",
             "description": "Mois de la date fin de séjour",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
-            "dateCreated": "2016",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "TYP_ART",
             "description": "Type d'enregistrement",
             "type": "string",
             "nomenclature": "MS_ENR_V",
-            "length": null,
+            "length": "1",
             "format": "default",
-            "dateCreated": "2016",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
+        },
+        {
+            "name": "ETA_NUM_TWO",
+            "description": "Numéro FINESS de l’établissement (site géographique)",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2014",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         }
     ],
     "name": "T_HADaa_nnFI",
     "title": "Table FI : Table des RSFA interruption de séjour des établissements ex-OQN",
-    "description": "Champ : Privé",
     "produit": "PMSI HAD",
     "missingValues": [
         ""
@@ -156,8 +192,10 @@
         }
     ],
     "history": {
-        "dateCreated": "2016",
-        "dateDeleted": "2017",
+        "dateCreated": "2014",
+        "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Privé",
+    "observation": ""
 }

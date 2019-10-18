@@ -5,143 +5,169 @@
             "description": "N° FINESS de l'établisement",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
-            "dateCreated": "2012",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "RHA_VER",
             "description": "N° version du format du RHA",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "3",
             "format": "default",
-            "dateCreated": "2012",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "RHA_NUM",
             "description": "N° Séquentiel du séjour",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "7",
             "format": "default",
-            "dateCreated": "2012",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "RHS_NUM",
             "description": "Numéro séquentiel du RHS",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "3",
             "format": "default",
-            "dateCreated": "2012",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "CSARR_COD",
             "description": "Code principal",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "7",
             "format": "default",
-            "dateCreated": "2012",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "APP_SUP",
-            "description": "Code supplémentaire «appareillage«",
+            "description": "Code supplémentaire \"appareillage\"",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "3",
             "format": "default",
-            "dateCreated": "2012",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "MOD_LIEU",
             "description": "Code modulateur de lieu",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
-            "dateCreated": "2012",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "MOD_PAT_1",
-            "description": "Code «modulateur de patient« n°1",
+            "description": "Code \"modulateur de patient\" n°1",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
-            "dateCreated": "2012",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "MOD_PAT_2",
-            "description": "Code «modulateur de patient« n°2",
+            "description": "Code \"modulateur de patient\" n°2",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
-            "dateCreated": "2012",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "TYP_INTERV",
             "description": "Code de l'intervenant",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
-            "dateCreated": "2012",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "CLAS_NBR_PAT_PS",
             "description": "Nombre de patients en acte individuel non dédié ou collectif (classe)",
             "type": "number",
             "nomenclature": "-",
-            "length": "5",
+            "length": null,
             "format": "default",
-            "dateCreated": "2012",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NBR_CSARR",
             "description": "Nombre de réalisations",
             "type": "number",
             "nomenclature": "-",
-            "length": "5",
+            "length": null,
             "format": "default",
-            "dateCreated": "2012",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "COMP_SEM",
             "description": "Acte compatible avec  la semaine",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
-            "dateCreated": "2012",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ENT_DAT_DEL_UM",
@@ -150,47 +176,54 @@
             "nomenclature": "-",
             "length": null,
             "format": "default",
-            "dateCreated": "2012",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NBR_PAT_INTERV",
             "description": "Nombre réel de patients",
             "type": "number",
             "nomenclature": "-",
-            "length": "5",
+            "length": null,
             "format": "default",
-            "dateCreated": "2012",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NBR_INTERV",
             "description": "Nombre d'intervenants",
             "type": "number",
             "nomenclature": "-",
-            "length": "5",
+            "length": null,
             "format": "default",
-            "dateCreated": "2012",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "EXT_DOC",
             "description": "Extension documentaire",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
-            "dateCreated": "2012",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         }
     ],
     "name": "T_SSRaa_nnCSARR",
     "title": "actes du Catalogue spécifique des actes de rééducation et réadaptation",
-    "description": "Champ : Public et Privé",
     "produit": "PMSI SSR",
     "missingValues": [
         ""
@@ -214,7 +247,9 @@
     ],
     "history": {
         "dateCreated": "2014",
-        "dateDeleted": "2017",
+        "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public et Privé",
+    "observation": "A partir de 2014 - remplace la table CCAR (nv nomenclature)"
 }

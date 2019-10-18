@@ -7,7 +7,8 @@ import logging
 import pytest
 from tableschema import Schema
 
-from src.constants import SCHEMAS, HISTORY, DATE_CREATED, DATE_MISSING, DATE_DELETED, NOMENCLATURE
+from src.constants import SCHEMAS, HISTORY, DATE_CREATED, DATE_MISSING, DATE_DELETED, NOMENCLATURE, OBSERVATION, \
+    CHAMP, REGLE_GESTION
 from src.utils import get_all_schema_path
 
 
@@ -23,7 +24,7 @@ def test_tableschema_is_valid(schema_path):
 
 def test_get_all_schema_path_return_all_schemas():
     number_of_schemas = len(list(get_all_schema_path(SCHEMAS)))
-    assert number_of_schemas == 143
+    assert number_of_schemas >= 143
 
 
 @pytest.mark.parametrize('schema_path', get_all_schema_path(SCHEMAS))
@@ -31,11 +32,11 @@ def test_tableschema_contains_all_fields(schema_path):
     descriptor = Schema(schema_path).descriptor
 
     assert sorted(list(set(descriptor.keys()) - set(["foreignKeys", "primaryKey"]))) == \
-           sorted(["fields", "name", "title", "description", "produit", "missingValues", HISTORY])
+           sorted(["fields", "name", "title", CHAMP, "produit", "missingValues", HISTORY, OBSERVATION])
 
     assert set(descriptor[HISTORY].keys()) == set([DATE_CREATED, DATE_DELETED, DATE_MISSING])
 
     for field in descriptor['fields']:
         assert sorted(list(set(field.keys()) - set(["constraints"]))) == \
-               sorted(["name", "description", "type", NOMENCLATURE, "length", "format", DATE_CREATED, DATE_DELETED,
-                       DATE_MISSING])
+               sorted(["name", "description", "type", NOMENCLATURE, "length", "format", OBSERVATION, REGLE_GESTION,
+                       DATE_CREATED, DATE_DELETED, DATE_MISSING])

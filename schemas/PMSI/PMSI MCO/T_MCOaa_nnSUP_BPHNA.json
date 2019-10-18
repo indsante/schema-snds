@@ -1,0 +1,121 @@
+{
+    "name": "T_MCOaa_nnSUP_BPHNA",
+    "title": "Fich sup BP HN nb",
+    "produit": "PMSI MCO",
+    "history": {
+        "dateCreated": "2010",
+        "dateDeleted": "",
+        "dateMissing": []
+    },
+    "missingValues": [
+        ""
+    ],
+    "fields": [
+        {
+            "name": "ACT_COD",
+            "description": "Code acte",
+            "type": "string",
+            "length": "4",
+            "dateCreated": "2010",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
+        },
+        {
+            "name": "NBR_ACT_PAT_AUT_ETB",
+            "description": "Nombre d'actes réalisés pour les patients d'autres établissements ou de laboratoires extérieurs",
+            "type": "number",
+            "length": "10",
+            "dateCreated": "2010",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
+        },
+        {
+            "name": "NBR_ACT_CON_EXT",
+            "description": "Dont nombre d'actes réalisés pour consultants externe",
+            "type": "number",
+            "length": "10",
+            "dateCreated": "2010",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
+        },
+        {
+            "name": "ETA_NUM",
+            "description": "N° FINESS",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2010",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
+        },
+        {
+            "name": "NBR_ACT_PAT_ETB",
+            "description": "Nombre d'actes réalisés pour patients de l'etab",
+            "type": "number",
+            "length": "10",
+            "dateCreated": "2010",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
+        },
+        {
+            "name": "FIC_TYP",
+            "description": "Type de fichier",
+            "type": "string",
+            "length": "3",
+            "dateCreated": "2010",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
+        },
+        {
+            "name": "ANN_MOI",
+            "description": "Année+Mois",
+            "type": "string",
+            "length": "6",
+            "dateCreated": "2010",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
+        },
+        {
+            "name": "NBR_ACT_PAT_HOS",
+            "description": "Dont nombre d'actes réalisés pour patients hospitalisés",
+            "type": "number",
+            "length": "10",
+            "dateCreated": "2010",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
+        }
+    ],
+    "champ": "Public",
+    "observation": "Chgt de nom en 2015 ajout du préfixe SUP_"
+}

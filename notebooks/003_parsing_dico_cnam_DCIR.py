@@ -244,7 +244,8 @@ df.length = df.length.str.replace('.', ',').str.strip(',')
 # - X IR_IMB_R : INS_DTE -> pas IR_IMB_R
 # - X NS_BIO_F : BIO_ACT_QSN -> pas IR_BIO_R (quantité)
 # - X NS_PHA_F : PHA_ACT_PRU -> pas IR_PHA_R
-# - X dans dcir simplifié remplacer partout IR_ACT_V, IR_SPE_V par IR_SPA_D
+# - X remplacer partout IR_ACT_V, IR_SPE_V par IR_SPA_D
+# - X remplacer partout IR_CCI_V, IR_CIM_V par IR_CIM_V
 # - CT_IND_AAAA_GN : beaucoup d'erreurs a priori
 # - problème nomenclatures multiples
 # - BE_IDE_R à traiter (on l'a pas, la récupérer ?)
@@ -252,6 +253,12 @@ df.length = df.length.str.replace('.', ',').str.strip(',')
 # ##### DONE
 #
 #
+
+df.nomenclature = (df.nomenclature
+                   .replace('IR_ACT_V, IR_SPE_V', "IR_SPA_D")
+                   .replace('IR_CCI_V, IR_CIM_V', "IR_CIM_V")
+                   .replace('IR_IMB_R', '')
+                  )
 
 # +
 mask = df.nomenclature.str.contains(',')
@@ -264,11 +271,6 @@ df.loc[mask, 'nomenclature'] = ''
 mask = (df.nomenclature.isin(["BE_IDE_R"]))
 df.loc[mask,["produit", "name_table", "name", "nomenclature"]]
 df.loc[mask, 'nomenclature'] = ''
-
-df.nomenclature = (df.nomenclature
-                   .replace('IR_ACT_V, IR_SPE_V', "IR_SPA_D")
-                   .replace('IR_IMB_R', '')
-                  )
 
 mask = df.name.isin(['PHA_ACT_PRU', 'BIO_ACT_QSN', 'INS_DTE', 'TIP_PUB_PRX', 'TIP_ACT_PRU'])
 df.loc[mask, 'nomenclature'] = ''

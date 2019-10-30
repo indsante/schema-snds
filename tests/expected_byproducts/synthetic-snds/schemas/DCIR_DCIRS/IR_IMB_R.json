@@ -10,6 +10,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 17
             }
@@ -24,6 +25,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000
@@ -38,7 +40,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "date"
         },
         {
             "name": "IMB_ALD_DTF",
@@ -49,7 +52,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "date"
         },
         {
             "name": "IMB_ALD_NUM",
@@ -61,6 +65,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000
@@ -76,6 +81,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000
@@ -91,6 +97,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 1
             }
@@ -105,6 +112,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 3
             }
@@ -119,6 +127,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 1
             }
@@ -132,7 +141,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "date"
         },
         {
             "name": "MED_MTF_COD",
@@ -144,6 +154,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 6
             }
@@ -158,6 +169,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 10
             }
@@ -171,7 +183,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "date"
         }
     ],
     "name": "IR_IMB_R",

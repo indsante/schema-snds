@@ -12,7 +12,8 @@
             "dateMissing": [
                 "2015",
                 "2016"
-            ]
+            ],
+            "type_oracle": "number"
         },
         {
             "name": "ENT_ANN",
@@ -26,7 +27,8 @@
             "dateMissing": [
                 "2015",
                 "2016"
-            ]
+            ],
+            "type_oracle": "string"
         },
         {
             "name": "ENT_MOI",
@@ -40,7 +42,8 @@
             "dateMissing": [
                 "2015",
                 "2016"
-            ]
+            ],
+            "type_oracle": "string"
         },
         {
             "name": "ETA_NUM_EPMSI",
@@ -54,7 +57,8 @@
             "dateMissing": [
                 "2015",
                 "2016"
-            ]
+            ],
+            "type_oracle": "string"
         },
         {
             "name": "ETA_NUM_GEO",
@@ -65,7 +69,8 @@
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "FAC_MNT",
@@ -79,7 +84,8 @@
             "dateMissing": [
                 "2015",
                 "2016"
-            ]
+            ],
+            "type_oracle": "number"
         },
         {
             "name": "FAC_NUM",
@@ -93,7 +99,8 @@
             "dateMissing": [
                 "2015",
                 "2016"
-            ]
+            ],
+            "type_oracle": "string"
         },
         {
             "name": "LPP_COD",
@@ -107,7 +114,8 @@
             "dateMissing": [
                 "2015",
                 "2016"
-            ]
+            ],
+            "type_oracle": "string"
         },
         {
             "name": "LPP_PRI_UNI",
@@ -121,7 +129,8 @@
             "dateMissing": [
                 "2015",
                 "2016"
-            ]
+            ],
+            "type_oracle": "number"
         },
         {
             "name": "LPP_PU_DEV",
@@ -135,7 +144,8 @@
             "dateMissing": [
                 "2015",
                 "2016"
-            ]
+            ],
+            "type_oracle": "number"
         },
         {
             "name": "LPP_QUA",
@@ -149,7 +159,8 @@
             "dateMissing": [
                 "2015",
                 "2016"
-            ]
+            ],
+            "type_oracle": "number"
         },
         {
             "name": "MNT_UNI_ECA",
@@ -163,7 +174,8 @@
             "dateMissing": [
                 "2015",
                 "2016"
-            ]
+            ],
+            "type_oracle": "number"
         },
         {
             "name": "RHAD_NUM",
@@ -177,7 +189,8 @@
             "dateMissing": [
                 "2015",
                 "2016"
-            ]
+            ],
+            "type_oracle": "string"
         },
         {
             "name": "TIP_PRS_IDE",
@@ -191,7 +204,8 @@
             "dateMissing": [
                 "2015",
                 "2016"
-            ]
+            ],
+            "type_oracle": "number"
         },
         {
             "name": "TOT_MNT_ECA",
@@ -205,7 +219,8 @@
             "dateMissing": [
                 "2015",
                 "2016"
-            ]
+            ],
+            "type_oracle": "number"
         },
         {
             "name": "TYP_ART",
@@ -219,7 +234,8 @@
             "dateMissing": [
                 "2015",
                 "2016"
-            ]
+            ],
+            "type_oracle": "string"
         }
     ],
     "name": "T_HADaa_nnFP",

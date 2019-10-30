@@ -9,7 +9,8 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "TYP_ART",
@@ -20,7 +21,8 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "RSF_TYP",
@@ -31,7 +33,8 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "NUM_FAC",
@@ -42,7 +45,8 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "DEL_DAT_ENT",
@@ -53,7 +57,8 @@
             "format": "default",
             "dateCreated": "2012",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "ETA_NUM",
@@ -64,7 +69,8 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "PSH_MDT",
@@ -75,7 +81,8 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "PSH_DMT",
@@ -86,7 +93,8 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "EXO_TM",
@@ -97,7 +105,8 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "ACT_COD",
@@ -108,7 +117,8 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "ACT_NBR",
@@ -119,7 +129,8 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "ACT_COE",
@@ -130,7 +141,8 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "ACT_DNB",
@@ -141,7 +153,8 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "PRI_UNI",
@@ -152,7 +165,8 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "REM_BAS",
@@ -163,7 +177,8 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "REM_TAU",
@@ -174,7 +189,8 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "AMO_MNR",
@@ -185,7 +201,8 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "HON_MNT",
@@ -196,7 +213,8 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "AMC_MNR",
@@ -207,7 +225,8 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "NOE_MNR",
@@ -218,7 +237,8 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "NOE_OPE",
@@ -229,7 +249,8 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "SOIN_ANN",
@@ -240,7 +261,8 @@
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "SOIN_MOI",
@@ -251,7 +273,8 @@
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "EXE_SPE",
@@ -262,7 +285,8 @@
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         }
     ],
     "name": "T_SSRaa_nnFC",

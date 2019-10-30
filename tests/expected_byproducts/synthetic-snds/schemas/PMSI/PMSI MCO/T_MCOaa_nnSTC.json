@@ -9,7 +9,8 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "BEN_CMU_CTL",
@@ -20,7 +21,8 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "CAI_GES",
@@ -31,7 +33,8 @@
             "format": "default",
             "dateCreated": "2014",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "CAI_GES_CTL",
@@ -42,7 +45,8 @@
             "format": "default",
             "dateCreated": "2014",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "CAI_NUM",
@@ -53,7 +57,8 @@
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "CAI_NUM_CTL",
@@ -64,7 +69,8 @@
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "CENT_GES",
@@ -75,7 +81,8 @@
             "format": "default",
             "dateCreated": "2014",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "CENT_GES_CTL",
@@ -86,7 +93,8 @@
             "format": "default",
             "dateCreated": "2014",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "COD_PEC_CTL",
@@ -97,7 +105,8 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "CTR_TYP",
@@ -108,7 +117,8 @@
             "format": "default",
             "dateCreated": "2008",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "CTR_TYP_CTL",
@@ -119,7 +129,8 @@
             "format": "default",
             "dateCreated": "2008",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "DAT_DEB_FAC",
@@ -130,7 +141,8 @@
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "DAT_DEB_FAC_CTL",
@@ -141,7 +153,8 @@
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "DAT_FIN_FAC",
@@ -152,7 +165,8 @@
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "DAT_FIN_FAC_CTL",
@@ -163,7 +177,8 @@
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "DAT_HOS",
@@ -174,7 +189,8 @@
             "format": "default",
             "dateCreated": "2012",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "DAT_HOS_CTL",
@@ -185,7 +201,8 @@
             "format": "default",
             "dateCreated": "2012",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "DAT_PEC",
@@ -196,7 +213,8 @@
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "DAT_PEC_CTL",
@@ -207,7 +225,8 @@
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "ENT_NUM",
@@ -218,7 +237,8 @@
             "format": "default",
             "dateCreated": "2014",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "ENT_NUM_CTL",
@@ -229,7 +249,8 @@
             "format": "default",
             "dateCreated": "2014",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "ETA_NUM",
@@ -240,7 +261,8 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "EXO_TM",
@@ -251,7 +273,8 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "EXO_TM_CTL",
@@ -262,7 +285,8 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "FAC_18E",
@@ -273,7 +297,8 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "FAC_18E_CTL",
@@ -284,7 +309,8 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "FAC_MNT_FJ",
@@ -295,7 +321,8 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "FAC_MNT_FJ_CTL",
@@ -306,7 +333,8 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "FAC_MNT_TM",
@@ -317,7 +345,8 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "FAC_MNT_TM_CTL",
@@ -328,7 +357,8 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "FAC_NBR_VEN",
@@ -339,7 +369,8 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "FAC_SEJ_AM",
@@ -350,7 +381,8 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "FJ_COD_PEC",
@@ -361,7 +393,8 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "GES_COD",
@@ -372,7 +405,8 @@
             "format": "default",
             "dateCreated": "2014",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "GES_COD_CTL",
@@ -383,7 +417,8 @@
             "format": "default",
             "dateCreated": "2014",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "ID_MAM_ENF",
@@ -394,7 +429,8 @@
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "MAJ_MNT_CTL",
@@ -405,7 +441,8 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "MAJ_MNT_PS",
@@ -416,7 +453,8 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "NAT_ASS",
@@ -427,7 +465,8 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "NAT_ASS_CTL",
@@ -438,7 +477,8 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "NAT_PJ_DT",
@@ -449,7 +489,8 @@
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "NAT_PJ_DT_CTL",
@@ -460,7 +501,8 @@
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "NBR_VEN_CTL",
@@ -471,7 +513,8 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "NOE_RGM",
@@ -482,7 +525,8 @@
             "format": "default",
             "dateCreated": "2008",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "NOE_RGM_CTL",
@@ -493,7 +537,8 @@
             "format": "default",
             "dateCreated": "2008",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "NON_FAC_AM",
@@ -504,7 +549,8 @@
             "format": "default",
             "dateCreated": "2009",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "NON_FAC_AM_CTL",
@@ -515,7 +561,8 @@
             "format": "default",
             "dateCreated": "2009",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "PA_COD",
@@ -526,7 +573,8 @@
             "format": "default",
             "dateCreated": "2014",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "PA_COD_CTL",
@@ -537,7 +585,8 @@
             "format": "default",
             "dateCreated": "2014",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "PEC_SOI_URG",
@@ -548,7 +597,8 @@
             "format": "default",
             "dateCreated": "2015",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "PEC_SOI_URG_CTL",
@@ -559,7 +609,8 @@
             "format": "default",
             "dateCreated": "2015",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "REG_PEC_ASS",
@@ -570,7 +621,8 @@
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "REG_PEC_ASS_CTL",
@@ -581,7 +633,8 @@
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "REM_BAS_CTL",
@@ -592,7 +645,8 @@
             "format": "default",
             "dateCreated": "2008",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "REM_BAS_MNT",
@@ -603,7 +657,8 @@
             "format": "default",
             "dateCreated": "2008",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "REM_TAU",
@@ -614,7 +669,8 @@
             "format": "default",
             "dateCreated": "2008",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "REM_TAU_CTL",
@@ -625,7 +681,8 @@
             "format": "default",
             "dateCreated": "2008",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "RSA_NUM",
@@ -636,7 +693,8 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "SEJ_FAC_CTL",
@@ -647,7 +705,8 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "TOP_ECL_FLX",
@@ -658,7 +717,8 @@
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "TOP_ECL_FLX_CTL",
@@ -669,7 +729,8 @@
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "TOT_MNT_AM",
@@ -680,7 +741,8 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "TOT_MNT_AM_CTL",
@@ -691,7 +753,8 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "TOT_MNT_AMC",
@@ -702,7 +765,8 @@
             "format": "default",
             "dateCreated": "2012",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "TOT_MNT_AMC_CTL",
@@ -713,7 +777,8 @@
             "format": "default",
             "dateCreated": "2012",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "RAC_MNT_PAT_CTL",
@@ -724,7 +789,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "NBR_REJET_AMO_CTL",
@@ -735,7 +801,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "FAC_AMO_DT_CTL",
@@ -746,7 +813,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "FAC_AMC_DT_CTL",
@@ -757,7 +825,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "FAC_RAC_DT_CTL",
@@ -768,7 +837,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "PAI_AMO_DT_CTL",
@@ -779,7 +849,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "PAI_AMC_DT_CTL",
@@ -790,7 +861,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "PAI_RAC_DT_CTL",
@@ -801,7 +873,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "VALID_FAC_AMO_CTL",
@@ -812,7 +885,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "VALID_FAC_AMC_CTL",
@@ -823,7 +897,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "VALID_FAC_RAC_CTL",
@@ -834,7 +909,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "PAYS_ASS_PAT_CTL",
@@ -845,7 +921,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "RAC_MNT_PAT",
@@ -856,7 +933,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "NBR_REJET_AMO",
@@ -867,7 +945,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "FAC_AMO_DT",
@@ -878,7 +957,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "FAC_AMC_DT",
@@ -889,7 +969,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "FAC_RAC_DT",
@@ -900,7 +981,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "PAI_AMO_DT",
@@ -911,7 +993,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "PAI_AMC_DT",
@@ -922,7 +1005,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "PAI_RAC_DT",
@@ -933,7 +1017,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "VALID_FAC_AMO",
@@ -944,7 +1029,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "VALID_FAC_AMC",
@@ -955,7 +1041,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "VALID_FAC_RAC",
@@ -966,7 +1053,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "PAYS_ASS_PAT",
@@ -977,7 +1065,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         }
     ],
     "name": "T_MCOaa_nnSTC",

@@ -12,7 +12,8 @@
             },
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "ben_nir_psa",
@@ -24,6 +25,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 17
             }
@@ -38,6 +40,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000
@@ -53,6 +56,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 2
             }

@@ -9,7 +9,8 @@
             "format": "default",
             "dateCreated": "2008",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "ANN_PO",
@@ -20,7 +21,8 @@
             "format": "default",
             "dateCreated": "2009",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "DELAI",
@@ -31,7 +33,8 @@
             "format": "default",
             "dateCreated": "2008",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "ETA_NUM",
@@ -42,7 +45,8 @@
             "format": "default",
             "dateCreated": "2008",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "ETA_NUM_ENT",
@@ -53,7 +57,8 @@
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "MOI",
@@ -64,7 +69,8 @@
             "format": "default",
             "dateCreated": "2008",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "MOI_PO",
@@ -75,7 +81,8 @@
             "format": "default",
             "dateCreated": "2008",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "PO_COD",
@@ -86,7 +93,8 @@
             "format": "default",
             "dateCreated": "2008",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "PRS_TYP",
@@ -97,7 +105,8 @@
             "format": "default",
             "dateCreated": "2008",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "RSA_NUM",
@@ -108,7 +117,8 @@
             "format": "default",
             "dateCreated": "2008",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         }
     ],
     "name": "T_MCOaa_nnPORG",

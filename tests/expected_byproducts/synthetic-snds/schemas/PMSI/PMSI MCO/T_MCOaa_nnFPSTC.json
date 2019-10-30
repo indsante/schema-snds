@@ -9,7 +9,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "ENT_ANN",
@@ -20,7 +21,8 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "ENT_MOI",
@@ -31,7 +33,8 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "ETA_NUM",
@@ -42,7 +45,8 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "ETA_NUM_GEO",
@@ -53,7 +57,8 @@
             "format": "default",
             "dateCreated": "2016",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "FAC_MNT",
@@ -64,7 +69,8 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "LPP_COD",
@@ -75,7 +81,8 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "LPP_PRI_UNI",
@@ -86,7 +93,8 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "LPP_PU_DEV",
@@ -97,7 +105,8 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "LPP_QUA",
@@ -108,7 +117,8 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "MNT_UNI_ECA",
@@ -119,7 +129,8 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "NUM_FAC",
@@ -130,7 +141,8 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "RSF_TYP",
@@ -141,7 +153,8 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "SEQ_NUM",
@@ -152,7 +165,8 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "TIP_PRS_IDE",
@@ -163,7 +177,8 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "TOT_MNT_ECA",
@@ -174,7 +189,8 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "TYP_ART",
@@ -185,7 +201,8 @@
             "format": "default",
             "dateCreated": "2011",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         }
     ],
     "name": "T_MCOaa_nnFPSTC",

@@ -10,6 +10,7 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 1
             }
@@ -24,6 +25,7 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 10000000
@@ -39,6 +41,7 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 1
             }
@@ -53,6 +56,7 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 1
             }
@@ -67,6 +71,7 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 1
             }
@@ -81,6 +86,7 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 4
             }
@@ -95,6 +101,7 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100
@@ -110,6 +117,7 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 13
             }
@@ -124,6 +132,7 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 32
             }
@@ -138,6 +147,7 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 10000000
@@ -153,6 +163,7 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 1
             }
@@ -167,6 +178,7 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 10
@@ -182,6 +194,7 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 9
             }
@@ -196,6 +209,7 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000
@@ -210,7 +224,8 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "date"
         },
         {
             "name": "FLX_EMT_NUM",
@@ -222,6 +237,7 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000
@@ -237,6 +253,7 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000
@@ -252,6 +269,7 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000
@@ -266,7 +284,8 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "date"
         },
         {
             "name": "ORG_CLE_NUM",
@@ -278,6 +297,7 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 9
             }
@@ -292,6 +312,7 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000
@@ -307,6 +328,7 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000

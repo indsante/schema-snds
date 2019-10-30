@@ -12,7 +12,8 @@
             },
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "ben_nir_psa",
@@ -23,7 +24,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "ben_rng_gem",
@@ -34,7 +36,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "version",
@@ -45,7 +48,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         }
     ],
     "name": "CT_IDE_AAAA_GN",

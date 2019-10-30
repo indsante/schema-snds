@@ -11,7 +11,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "ANN_MOI",
@@ -24,7 +25,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "DEL_DAT_ENT",
@@ -37,7 +39,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "ETA_NUM_EPMSI",
@@ -50,7 +53,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "ETA_NUM_GEO",
@@ -63,7 +67,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "FAC_NUM",
@@ -76,7 +81,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "NABM_COD",
@@ -89,7 +95,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "PSH_DMT",
@@ -102,7 +109,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "PSH_MDT",
@@ -115,7 +123,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "RHAD_NUM",
@@ -128,7 +137,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "TYP_ART",
@@ -141,7 +151,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "ETA_NUM_TWO",
@@ -154,7 +165,8 @@
             "dateMissing": [],
             "format": "default",
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         }
     ],
     "name": "T_HADaa_nnFL",

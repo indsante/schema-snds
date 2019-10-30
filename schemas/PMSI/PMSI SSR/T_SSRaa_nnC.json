@@ -11,7 +11,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "MOI_LUN_1S",
@@ -24,7 +25,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "ANN_LUN_1S",
@@ -37,7 +39,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "NIR_RET",
@@ -50,7 +53,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "NAI_RET",
@@ -63,7 +67,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "SEX_RET",
@@ -76,7 +81,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "SEJ_RET",
@@ -89,7 +95,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "FHO_RET",
@@ -102,7 +109,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "PMS_RET",
@@ -115,7 +123,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "DAT_RET",
@@ -128,7 +137,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "COH_NAI_RET",
@@ -141,7 +151,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "COH_SEX_RET",
@@ -154,7 +165,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "NIR_ANO_17",
@@ -167,7 +179,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "SEJ_NUM",
@@ -180,7 +193,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "RHA_NUM",
@@ -193,7 +207,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "ENT_DAT",
@@ -206,7 +221,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "SOR_DAT",
@@ -219,7 +235,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "EXE_SOI_AMD",
@@ -232,7 +249,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "EXE_SOI_AMF",
@@ -245,7 +263,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "EXE_SOI_DTD",
@@ -258,7 +277,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "date"
         },
         {
             "name": "EXE_SOI_DTF",
@@ -271,7 +291,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "date"
         },
         {
             "name": "NUM_DAT_AT_RET",
@@ -284,7 +305,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "ORG_CPL_NUM_RET",
@@ -297,7 +319,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "NUM_DAT_AT",
@@ -310,7 +333,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "ORG_CPL_NUM",
@@ -323,7 +347,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "ETA_NUM_RET",
@@ -336,7 +361,8 @@
             "dateDeleted": "2017",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "ENT_AM",
@@ -349,7 +375,8 @@
             "dateMissing": [],
             "format": "default",
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "date"
         },
         {
             "name": "SOR_MOI",
@@ -362,7 +389,8 @@
             "dateMissing": [],
             "format": "default",
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "SOR_AM",
@@ -375,7 +403,8 @@
             "dateMissing": [],
             "format": "default",
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "date"
         },
         {
             "name": "SOR_ANN",
@@ -388,7 +417,8 @@
             "dateMissing": [],
             "format": "default",
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         }
     ],
     "name": "T_SSRaa_nnC",

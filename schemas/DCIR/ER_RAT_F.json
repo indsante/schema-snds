@@ -11,7 +11,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "BEN_RAT_ANO",
@@ -24,7 +25,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "ORG_CLE_NEW",
@@ -37,7 +39,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "RAT_IPP_DTE",
@@ -50,7 +53,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "date"
         },
         {
             "name": "RAT_IPP_TAU",
@@ -63,7 +67,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DCT_ORD_NUM",
@@ -76,7 +81,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "FLX_DIS_DTD",
@@ -89,7 +95,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "date"
         },
         {
             "name": "FLX_EMT_NUM",
@@ -102,7 +109,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "FLX_EMT_ORD",
@@ -115,7 +123,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "FLX_EMT_TYP",
@@ -128,7 +137,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "FLX_TRT_DTD",
@@ -141,7 +151,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "date"
         },
         {
             "name": "ORG_CLE_NUM",
@@ -154,7 +165,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "PRS_ORD_NUM",
@@ -167,7 +179,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "REM_TYP_AFF",
@@ -180,7 +193,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         }
     ],
     "name": "ER_RAT_F",

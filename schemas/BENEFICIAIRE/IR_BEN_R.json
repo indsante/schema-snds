@@ -15,7 +15,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "BEN_RNG_GEM",
@@ -28,7 +29,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": "La règle de calcul du rang du bénéficiaire dans le SNIIRAM est la suivante :\n- le rang de louvreur de droits est toujours égal à 1,\n- si un ayant droit a la même date de naissance que louvreur de droits, son rang est égal à 2,\n- un enfant né dune naissance unique a un rang égal à 1,\n- lorsquil y a des naissances multiples, chaque enfant est différencié par son rang (1 pour le 1er, 2 pour le second, )."
+            "regle_gestion": "La règle de calcul du rang du bénéficiaire dans le SNIIRAM est la suivante :\n- le rang de louvreur de droits est toujours égal à 1,\n- si un ayant droit a la même date de naissance que louvreur de droits, son rang est égal à 2,\n- un enfant né dune naissance unique a un rang égal à 1,\n- lorsquil y a des naissances multiples, chaque enfant est différencié par son rang (1 pour le 1er, 2 pour le second, ).",
+            "type_oracle": "number"
         },
         {
             "name": "BEN_NIR_ANO",
@@ -41,7 +43,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "BEN_IDT_ANO",
@@ -57,7 +60,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "BEN_IDT_TOP",
@@ -70,7 +74,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "ASS_NIR_ANO",
@@ -83,7 +88,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "BEN_IDT_MAJ",
@@ -96,7 +102,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "date"
         },
         {
             "name": "BEN_CDI_NIR",
@@ -109,7 +116,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "BEN_NAI_ANN",
@@ -122,7 +130,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "BEN_NAI_MOI",
@@ -135,7 +144,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "BEN_SEX_COD",
@@ -148,7 +158,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "BEN_DCD_DTE",
@@ -161,7 +172,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "date"
         },
         {
             "name": "BEN_DCD_AME",
@@ -174,7 +186,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "ORG_AFF_BEN",
@@ -187,7 +200,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "BEN_RES_DPT",
@@ -200,7 +214,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "BEN_RES_COM",
@@ -213,7 +228,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "BEN_TOP_CNS",
@@ -226,7 +242,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "MAX_TRT_DTD",
@@ -239,7 +256,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "date"
         },
         {
             "name": "ORG_CLE_NEW",
@@ -252,7 +270,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "BEN_DTE_INS",
@@ -265,7 +284,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "date"
         },
         {
             "name": "BEN_DTE_MAJ",
@@ -278,7 +298,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "date"
         }
     ],
     "name": "IR_BEN_R",

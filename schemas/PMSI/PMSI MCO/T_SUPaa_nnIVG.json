@@ -22,7 +22,8 @@
             "dateMissing": [],
             "format": "default",
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "FIC_TYP",
@@ -35,7 +36,8 @@
             "dateMissing": [],
             "format": "default",
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "ANN_MOI",
@@ -48,7 +50,8 @@
             "dateMissing": [],
             "format": "default",
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "date"
         },
         {
             "name": "NBR_IVG",
@@ -61,7 +64,8 @@
             "dateMissing": [],
             "format": "default",
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "PRS_IVG",
@@ -74,7 +78,8 @@
             "dateMissing": [],
             "format": "default",
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         }
     ],
     "champ": "Public",

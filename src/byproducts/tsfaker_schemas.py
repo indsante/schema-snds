@@ -16,7 +16,7 @@ from tableschema import Schema
 
 from src.constants import NO_NOMENCLATURE, ROOTED_SCHEMAS_DIR, ROOTED_NOMENCLATURES_DIR, NOMENCLATURES_DIR, \
     SCHEMAS_SYNTHETIC_SNDS_DIR, NOMENCLATURES_SYNTHETIC_SNDS_DIR
-from src.constants import STRING, NUMBER, INTEGER
+from src.constants import STRING, NUMBER, INTEGER, TYPE_CSV
 from src.utils import get_all_schema_path, get_all_nomenclatures_schema
 
 
@@ -68,7 +68,7 @@ def generate_tsfaker_schemas():
 
 def replace_length_by_bounds_and_number_by_integer(schema):
     for field in schema.fields:
-        tstype = field.descriptor.get('type')
+        tstype = field.descriptor.get(TYPE_CSV)
         length = field.descriptor.get('length')
         if length is None:
             continue
@@ -89,7 +89,7 @@ def replace_length_by_bounds_and_number_by_integer(schema):
             assert length <= 19, "field '{}' of schema '{}' is of length '{}'"\
                 .format(field.name, schema.descriptor["name"], length)
             assert schema.update_field(field.name,
-                                       {'type': INTEGER, 'constraints': {'minimum': 0, 'maximum': 10 ** length}})
+                                       {TYPE_CSV: INTEGER, 'constraints': {'minimum': 0, 'maximum': 10 ** length}})
 
 
 def replace_nomenclatures_by_foreign_key_reference(schema, nomenclature_to_fk_reference):

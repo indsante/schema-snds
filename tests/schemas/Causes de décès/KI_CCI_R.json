@@ -9,7 +9,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "DCD_IDT_TOP",
@@ -20,7 +21,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "BEN_IDT_ANO",
@@ -31,7 +33,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "BEN_IDT_TOP",
@@ -42,7 +45,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "BEN_NIR_ANO",
@@ -53,7 +57,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "FLX_PER_ANN",
@@ -64,7 +69,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "CER_VER_NUM",
@@ -75,7 +81,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "any"
         },
         {
             "name": "TRT_STA_COD",
@@ -86,7 +93,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "any"
         },
         {
             "name": "TYP_CER_COD",
@@ -97,7 +105,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "any"
         },
         {
             "name": "CER_SUP_TYP",
@@ -108,7 +117,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "any"
         },
         {
             "name": "TYP_VOL_COD",
@@ -119,7 +129,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "DCD_DPT_COD",
@@ -130,7 +141,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "DCD_COM_CO",
@@ -141,7 +153,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "any"
         },
         {
             "name": "BEN_RES_DPT",
@@ -152,7 +165,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "BEN_RES_COM",
@@ -163,7 +177,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "BEN_DCD_DTE",
@@ -174,7 +189,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "date"
         },
         {
             "name": "BEN_DCD_AME",
@@ -185,7 +201,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "DCD_LIE_COD",
@@ -196,7 +213,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "BEN_NAI_ANN",
@@ -207,7 +225,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "BEN_NAI_MOI",
@@ -218,7 +237,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "BEN_SEX_COD",
@@ -229,7 +249,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "PFV_ACP_COD",
@@ -240,7 +261,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "CAT_PCS_COD",
@@ -251,7 +273,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "ETA_MAR_COD",
@@ -262,7 +285,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "DCD_CIM_COD",
@@ -273,7 +297,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "DCD_CAU_COD",
@@ -284,7 +309,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "DCD_GRS_COD",
@@ -295,7 +321,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "DCD_GRS_DEL",
@@ -306,7 +333,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "DCD_LIE_LIB",
@@ -317,7 +345,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "DCD_ATT_COD",
@@ -328,7 +357,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "NEO_APG_SCO",
@@ -339,7 +369,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "NEO_GES_AGE",
@@ -350,7 +381,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "NEO_NAI_POI",
@@ -361,7 +393,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "RNG_NAI_TYP",
@@ -372,7 +405,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "GRS_ORD_NU",
@@ -383,7 +417,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "ACC_LIA_COD",
@@ -394,7 +429,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "ACC_PST_COD",
@@ -405,7 +441,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "ACC_DEB_COD",
@@ -416,7 +453,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "MOD_ACC_COD",
@@ -427,7 +465,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "HOS_TRF_TOP",
@@ -438,7 +477,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "MER_NAI_ANN",
@@ -449,7 +489,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "MER_PFS_COD",
@@ -460,7 +501,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "MER_PFG_LIB",
@@ -471,7 +513,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "MER_MAR_CO",
@@ -482,7 +525,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "MER_SIT_TOP",
@@ -493,7 +537,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "TOT_GRS_NBR",
@@ -504,7 +549,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "TOT_ACC_NBR",
@@ -515,7 +561,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "PER_PFS_COD",
@@ -526,7 +573,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "PER_PFG_LIB",
@@ -537,7 +585,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2015",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         }
     ],
     "name": "KI_CCI_R",

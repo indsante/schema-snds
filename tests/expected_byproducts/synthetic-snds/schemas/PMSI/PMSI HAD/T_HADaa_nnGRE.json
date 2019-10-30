@@ -9,7 +9,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "ETA_NUM_GEO",
@@ -31,7 +32,8 @@
                 "2014",
                 "2015",
                 "2016"
-            ]
+            ],
+            "type_oracle": "string"
         },
         {
             "name": "ETE_GHS_NUM",
@@ -42,7 +44,8 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "GHT_NBJ",
@@ -53,7 +56,8 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "GHT_NUM",
@@ -64,7 +68,8 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "GRE_GRP_ETB",
@@ -75,7 +80,8 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "GRE_GRP_GHPC",
@@ -86,7 +92,8 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "GRE_GRP_RET",
@@ -97,7 +104,8 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "GRE_RPPS_VER",
@@ -108,7 +116,8 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "RHAD_NUM",
@@ -119,7 +128,8 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "SEQ_NUM",
@@ -130,7 +140,8 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "SSEQ_NUM",
@@ -141,7 +152,8 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         }
     ],
     "name": "T_HADaa_nnGRE",

@@ -22,7 +22,8 @@
             "dateMissing": [],
             "format": "default",
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "GHJ_COD",
@@ -35,7 +36,8 @@
             "dateMissing": [],
             "format": "default",
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "RHA_VER",
@@ -48,7 +50,8 @@
             "dateMissing": [],
             "format": "default",
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "NBR_JOU",
@@ -61,7 +64,8 @@
             "dateMissing": [],
             "format": "default",
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "RHA_NUM",
@@ -74,7 +78,8 @@
             "dateMissing": [],
             "format": "default",
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         }
     ],
     "champ": "Public et Privé",

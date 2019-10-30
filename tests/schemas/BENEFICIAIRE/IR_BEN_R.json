@@ -13,7 +13,8 @@
             },
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "BEN_RNG_GEM",
@@ -24,7 +25,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "BEN_NIR_ANO",
@@ -35,7 +37,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "BEN_IDT_ANO",
@@ -49,7 +52,8 @@
             },
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "BEN_IDT_TOP",
@@ -60,7 +64,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "ASS_NIR_ANO",
@@ -71,7 +76,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "BEN_IDT_MAJ",
@@ -82,7 +88,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "date"
         },
         {
             "name": "BEN_CDI_NIR",
@@ -93,7 +100,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "BEN_NAI_ANN",
@@ -104,7 +112,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "BEN_NAI_MOI",
@@ -115,7 +124,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "BEN_SEX_COD",
@@ -126,7 +136,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "BEN_DCD_DTE",
@@ -137,7 +148,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "date"
         },
         {
             "name": "BEN_DCD_AME",
@@ -148,7 +160,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "ORG_AFF_BEN",
@@ -159,7 +172,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "BEN_RES_DPT",
@@ -170,7 +184,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "BEN_RES_COM",
@@ -181,7 +196,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "BEN_TOP_CNS",
@@ -192,7 +208,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "MAX_TRT_DTD",
@@ -203,7 +220,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "date"
         },
         {
             "name": "ORG_CLE_NEW",
@@ -214,7 +232,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "BEN_DTE_INS",
@@ -225,7 +244,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "date"
         },
         {
             "name": "BEN_DTE_MAJ",
@@ -236,7 +256,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "date"
         }
     ],
     "name": "IR_BEN_R",

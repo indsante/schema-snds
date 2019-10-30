@@ -11,7 +11,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "PHA_ACT_PRU",
@@ -24,7 +25,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "PHA_ACT_QSN",
@@ -37,7 +39,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "PHA_CPA_PCP",
@@ -50,7 +53,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "PHA_DEC_PRU",
@@ -63,7 +67,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": "Cette variable contient le prix unitaire de l'unité délivrée dans le cadre du déconditionnement (PHA_DEC_TOP = D). Ce prix unitaire correspond au prix du conditionnement divisé par le nombre d'unités de ce conditionnement. Cette zone doit obligatoirement être renseignée si le top déconditionnement est égal à la valeur D (PHA_DEC_TOP = D).  Exemple fictif :  Un pharmacien délivre 20 comprimés d'un produit SUBUTEX 0,4MG CPR (CIP 13 = 3400933944421). Le produit est conditionné par boîte de 7 comprimés. Le prix unitaire du comprimé = 2,89 euros (prix de la boite) - 7 = 0,41 euro (règle darrondi)."
+            "regle_gestion": "Cette variable contient le prix unitaire de l'unité délivrée dans le cadre du déconditionnement (PHA_DEC_TOP = D). Ce prix unitaire correspond au prix du conditionnement divisé par le nombre d'unités de ce conditionnement. Cette zone doit obligatoirement être renseignée si le top déconditionnement est égal à la valeur D (PHA_DEC_TOP = D).  Exemple fictif :  Un pharmacien délivre 20 comprimés d'un produit SUBUTEX 0,4MG CPR (CIP 13 = 3400933944421). Le produit est conditionné par boîte de 7 comprimés. Le prix unitaire du comprimé = 2,89 euros (prix de la boite) - 7 = 0,41 euro (règle darrondi).",
+            "type_oracle": "number"
         },
         {
             "name": "PHA_DEC_QSU",
@@ -76,7 +81,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": "Cette variable correspond au nombre d'unités fractionnées de médicament délivrées (exemple : le nombre de comprimés) dans le cadre du déconditionnement (PHA_DEC_TOP = D)."
+            "regle_gestion": "Cette variable correspond au nombre d'unités fractionnées de médicament délivrées (exemple : le nombre de comprimés) dans le cadre du déconditionnement (PHA_DEC_TOP = D).",
+            "type_oracle": "number"
         },
         {
             "name": "PHA_DEC_TOP",
@@ -89,7 +95,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "PHA_IDE_CPL",
@@ -102,7 +109,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "PHA_MOD_PRN",
@@ -115,7 +123,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "PHA_ORD_NUM",
@@ -128,7 +137,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "PHA_PRS_C13",
@@ -141,7 +151,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "PHA_PRS_IDE",
@@ -154,7 +165,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "PHA_SEQ_RNV",
@@ -167,7 +179,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "PHA_SUB_MTF",
@@ -180,7 +193,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DCT_ORD_NUM",
@@ -193,7 +207,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "FLX_DIS_DTD",
@@ -206,7 +221,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "date"
         },
         {
             "name": "FLX_EMT_NUM",
@@ -219,7 +235,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "FLX_EMT_ORD",
@@ -232,7 +249,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "FLX_EMT_TYP",
@@ -245,7 +263,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "FLX_TRT_DTD",
@@ -258,7 +277,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "date"
         },
         {
             "name": "ORG_CLE_NUM",
@@ -271,7 +291,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "PRS_ORD_NUM",
@@ -284,7 +305,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "REM_TYP_AFF",
@@ -297,7 +319,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         }
     ],
     "name": "ER_PHA_F",

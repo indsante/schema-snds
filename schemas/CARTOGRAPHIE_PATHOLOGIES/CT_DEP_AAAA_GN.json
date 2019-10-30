@@ -11,7 +11,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": "Construction de l'identifiant : Si identifiant bénéficiaire (ben_nir_ano) renseigné, id_carto = ben_nir_ano||\"U\" ; sinon, si qualité d'affiliation du bénéficiaire (ben_qaf_cod) = 10 alors id_carto = ass_nir_ano||\"U\" ; sinon id_carto = ben_nir_psa||ben_rng_gem"
+            "regle_gestion": "Construction de l'identifiant : Si identifiant bénéficiaire (ben_nir_ano) renseigné, id_carto = ben_nir_ano||\"U\" ; sinon, si qualité d'affiliation du bénéficiaire (ben_qaf_cod) = 10 alors id_carto = ass_nir_ano||\"U\" ; sinon id_carto = ben_nir_psa||ben_rng_gem",
+            "type_oracle": "string"
         },
         {
             "name": "ben_sex_cod",
@@ -24,7 +25,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "ben_nai_ann",
@@ -37,7 +39,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "age",
@@ -50,7 +53,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": "Age du bénéficiaire au 31 décembre de l'année compris entre 0 et 110 ans, calculé sur l'année de naissance du bénéficiaire à la dernière date de soins de l'année"
+            "regle_gestion": "Age du bénéficiaire au 31 décembre de l'année compris entre 0 et 110 ans, calculé sur l'année de naissance du bénéficiaire à la dernière date de soins de l'année",
+            "type_oracle": "number"
         },
         {
             "name": "cla_age_ct",
@@ -63,7 +67,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": "Regroupement en classes d'âge du bénéficiaire : de 0 à 14 ans ; de 15 à 34 ans ; de 35 à 54 ans ; de 55 à 64 ans ; de 65 à 74 ans ; 75 ans et plus"
+            "regle_gestion": "Regroupement en classes d'âge du bénéficiaire : de 0 à 14 ans ; de 15 à 34 ans ; de 35 à 54 ans ; de 55 à 64 ans ; de 65 à 74 ans ; 75 ans et plus",
+            "type_oracle": "string"
         },
         {
             "name": "cla_age_5",
@@ -76,7 +81,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": "Regroupement en classes d'âge quinquennales du bénéficiaire : de 0 à 4 ans ; de 5 à 9 ans ; de 10 à 14 ans ; de 15 à 19 ans ; de 20 à 24 ans ; de 25 à 29 ans ; de 30 à 34 ans ; de 35 à 39 ans ; de 40 à 44 ans ; de 45 à 49 ans ; de 50 à 54 ans ; de 55 à 59 ans ; de 60 à 64 ans ; de 65 à 69 ans ; de 70 à 74 ans ; de 75 à 79 ans ; de 80 à 84 ans ; de 85 à 89 ans ; de 90 à 94 ans ; de 95 à 99 ans ; de 100 à 104 ans ; de 105 à 110 ans"
+            "regle_gestion": "Regroupement en classes d'âge quinquennales du bénéficiaire : de 0 à 4 ans ; de 5 à 9 ans ; de 10 à 14 ans ; de 15 à 19 ans ; de 20 à 24 ans ; de 25 à 29 ans ; de 30 à 34 ans ; de 35 à 39 ans ; de 40 à 44 ans ; de 45 à 49 ans ; de 50 à 54 ans ; de 55 à 59 ans ; de 60 à 64 ans ; de 65 à 69 ans ; de 70 à 74 ans ; de 75 à 79 ans ; de 80 à 84 ans ; de 85 à 89 ans ; de 90 à 94 ans ; de 95 à 99 ans ; de 100 à 104 ans ; de 105 à 110 ans",
+            "type_oracle": "string"
         },
         {
             "name": "old_cod_reg",
@@ -89,7 +95,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": "Région du résidence du bénéficiaire lors de la dernière date de soins de l'année (régions en vigueur jusqu'au 31 décembre 2015)"
+            "regle_gestion": "Région du résidence du bénéficiaire lors de la dernière date de soins de l'année (régions en vigueur jusqu'au 31 décembre 2015)",
+            "type_oracle": "string"
         },
         {
             "name": "new_cod_reg",
@@ -102,7 +109,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": "Région du résidence du bénéficiaire lors de la dernière date de soins de l'année (régions en vigueur à partir du 1 janvier 2016)"
+            "regle_gestion": "Région du résidence du bénéficiaire lors de la dernière date de soins de l'année (régions en vigueur à partir du 1 janvier 2016)",
+            "type_oracle": "string"
         },
         {
             "name": "dpt",
@@ -115,7 +123,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": "Département du résidence du bénéficiaire lors de la dernière date de soins de l'année"
+            "regle_gestion": "Département du résidence du bénéficiaire lors de la dernière date de soins de l'année",
+            "type_oracle": "string"
         },
         {
             "name": "regime",
@@ -128,7 +137,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": "Régime social obligatoire du bénéficiaire lors de la dernière date de soins de l'année : RG (Régime Général) ; SLM (Société Locale Mutualiste) ; BDF (Banque de France) ; CAMIEG (Caisse d'Assurance Maladie des Industries Electriques et Gazières) ; RG-SLM (non déterminé car n'ayant des soins qu'en hospitalisation dans l'année)"
+            "regle_gestion": "Régime social obligatoire du bénéficiaire lors de la dernière date de soins de l'année : RG (Régime Général) ; SLM (Société Locale Mutualiste) ; BDF (Banque de France) ; CAMIEG (Caisse d'Assurance Maladie des Industries Electriques et Gazières) ; RG-SLM (non déterminé car n'ayant des soins qu'en hospitalisation dans l'année)",
+            "type_oracle": "string"
         },
         {
             "name": "source",
@@ -141,7 +151,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": "Source de provenance du bénéficiaire dans le SNIIRAM : PRS (bénéficiaire ayant eu au moins une prestation dans DCIR dans l'année) ; MCO (bénéficiaire n'ayant pas eu de prestation dans DCIR mais ayant été hospitalisé en médecine-chirurgie-obstétrique dans l'année) ; PSY (bénéficiaire n'ayant pas eu de prestation dans DCIR ni en MCO mais ayant été hospitalisé en établissement psychiatrique dans l'année) ; SSR (bénéficiaire n'ayant pas eu de prestation dans DCIR ni en MCO ni en PSY mais ayant été en service de soins de suite et réadaptation) ; HAD (bénéficiaire n'ayant pas eu de prestation dans DCIR ni en MCO ni en PSY ni en SSR mais ayant été hospitalisé à domicile)"
+            "regle_gestion": "Source de provenance du bénéficiaire dans le SNIIRAM : PRS (bénéficiaire ayant eu au moins une prestation dans DCIR dans l'année) ; MCO (bénéficiaire n'ayant pas eu de prestation dans DCIR mais ayant été hospitalisé en médecine-chirurgie-obstétrique dans l'année) ; PSY (bénéficiaire n'ayant pas eu de prestation dans DCIR ni en MCO mais ayant été hospitalisé en établissement psychiatrique dans l'année) ; SSR (bénéficiaire n'ayant pas eu de prestation dans DCIR ni en MCO ni en PSY mais ayant été en service de soins de suite et réadaptation) ; HAD (bénéficiaire n'ayant pas eu de prestation dans DCIR ni en MCO ni en PSY ni en SSR mais ayant été hospitalisé à domicile)",
+            "type_oracle": "string"
         },
         {
             "name": "cmu",
@@ -154,7 +165,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": "Bénéficiaire au moins une fois dans l'année de la CMUC (Couverture Maladie Universelle complémentaire)"
+            "regle_gestion": "Bénéficiaire au moins une fois dans l'année de la CMUC (Couverture Maladie Universelle complémentaire)",
+            "type_oracle": "number"
         },
         {
             "name": "ben_acs_top",
@@ -167,7 +179,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "ben_aah_top",
@@ -180,7 +193,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "ben_dcd_dte",
@@ -193,7 +207,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "dcd_3112",
@@ -206,7 +221,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": "Bénéficiaire décédé au 31 décembre de l'année au RG. Si le bénéficiaire n'est pas au RG, cette donnée est forcée à manquante"
+            "regle_gestion": "Bénéficiaire décédé au 31 décembre de l'année au RG. Si le bénéficiaire n'est pas au RG, cette donnée est forcée à manquante",
+            "type_oracle": "number"
         },
         {
             "name": "DEP_SDV_HONOGEN_MNT",
@@ -219,7 +235,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DEP_SDV_HONOGEN_BSE",
@@ -232,7 +249,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DEP_SDV_HONOSPE_MNT",
@@ -245,7 +263,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DEP_SDV_HONOSPE_BSE",
@@ -258,7 +277,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DEP_SDV_HONODENT_MNT",
@@ -271,7 +291,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DEP_SDV_HONODENT_BSE",
@@ -284,7 +305,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DEP_SDV_SAGEFEMME_MNT",
@@ -297,7 +319,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DEP_SDV_SAGEFEMME_BSE",
@@ -310,7 +333,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DEP_SDV_KINE_MNT",
@@ -323,7 +347,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DEP_SDV_KINE_BSE",
@@ -336,7 +361,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DEP_SDV_INFIRMIER_MNT",
@@ -349,7 +375,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DEP_SDV_INFIRMIER_BSE",
@@ -362,7 +389,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DEP_SDV_AUTRESAUXIL_MNT",
@@ -375,7 +403,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DEP_SDV_AUTRESAUXIL_BSE",
@@ -388,7 +417,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DEP_SDV_BIO_MNT",
@@ -401,7 +431,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DEP_SDV_BIO_BSE",
@@ -414,7 +445,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DEP_SDV_PHARMACIE_MNT",
@@ -427,7 +459,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DEP_SDV_PHARMACIE_BSE",
@@ -440,7 +473,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DEP_SDV_LPP_MNT",
@@ -453,7 +487,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DEP_SDV_LPP_BSE",
@@ -466,7 +501,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DEP_SDV_TRANSPORT_MNT",
@@ -479,7 +515,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DEP_SDV_TRANSPORT_BSE",
@@ -492,7 +529,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DEP_SDV_AUTRES_MNT",
@@ -505,7 +543,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DEP_SDV_AUTRES_BSE",
@@ -518,7 +557,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "TOT_DEP_SDV_MNT",
@@ -531,7 +571,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "TOT_DEP_SDV_BSE",
@@ -544,7 +585,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DEP_DGF_MCOSEJOUR_MNT",
@@ -557,7 +599,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DEP_DGF_MCOSEJOUR_BSE",
@@ -570,7 +613,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DEP_DGF_MCOSUS_MNT",
@@ -583,7 +627,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DEP_DGF_MCOSUS_BSE",
@@ -596,7 +641,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "dep_OQN_MCOSEJOUR_MNT",
@@ -609,7 +655,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "dep_OQN_MCOSEJOUR_BSE",
@@ -622,7 +669,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DEP_OQN_MCOSUS_MNT",
@@ -635,7 +683,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DEP_OQN_MCOSUS_BSE",
@@ -648,7 +697,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DEP_DGF_ACE_MNT",
@@ -661,7 +711,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DEP_DGF_ACE_BSE",
@@ -674,7 +725,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DEP_DGF_PSY_MNT",
@@ -687,7 +739,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DEP_DGF_PSY_BSE",
@@ -700,7 +753,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "dep_OQN_PSY_MNT",
@@ -713,7 +767,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "dep_OQN_PSY_BSE",
@@ -726,7 +781,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DEP_DGF_SSR_MNT",
@@ -739,7 +795,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DEP_DGF_SSR_BSE",
@@ -752,7 +809,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "dep_OQN_SSR_MNT",
@@ -765,7 +823,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "dep_OQN_SSR_BSE",
@@ -778,7 +837,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DEP_DGF_HAD_MNT",
@@ -791,7 +851,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DEP_DGF_HAD_BSE",
@@ -804,7 +865,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DEP_OQN_HAD_MNT",
@@ -817,7 +879,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DEP_OQN_HAD_BSE",
@@ -830,7 +893,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "TOT_DEP_HOP_MNT",
@@ -843,7 +907,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "TOT_DEP_HOP_BSE",
@@ -856,7 +921,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DEP_IJMALATMP_MNT",
@@ -869,7 +935,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DEP_IJMALATMP_BSE",
@@ -882,7 +949,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DEP_IJMATER_MNT",
@@ -895,7 +963,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DEP_IJMATER_BSE",
@@ -908,7 +977,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DEP_INVALID_MNT",
@@ -921,7 +991,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DEP_INVALID_BSE",
@@ -934,7 +1005,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "TOT_DEP_PRESESPECE_MNT",
@@ -947,7 +1019,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "TOT_DEP_PRESESPECE_BSE",
@@ -960,7 +1033,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "TOT_DEP_MNT",
@@ -973,7 +1047,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "TOT_DEP_BSE",
@@ -986,7 +1061,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "version",
@@ -999,7 +1075,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "BEN_DCD_AME",
@@ -1012,7 +1089,8 @@
             "dateMissing": [],
             "format": "default",
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         }
     ],
     "name": "CT_DEP_AAAA_GN",

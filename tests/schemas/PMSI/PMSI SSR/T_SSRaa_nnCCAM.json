@@ -9,7 +9,8 @@
             "format": "default",
             "dateCreated": "2009",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "RHA_VER",
@@ -20,7 +21,8 @@
             "format": "default",
             "dateCreated": "2009",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "RHA_NUM",
@@ -31,7 +33,8 @@
             "format": "default",
             "dateCreated": "2009",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "RHS_NUM",
@@ -42,7 +45,8 @@
             "format": "default",
             "dateCreated": "2009",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "CCAM_DEL_ENT_UM",
@@ -53,7 +57,8 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "CCAM_ACT",
@@ -64,7 +69,8 @@
             "format": "default",
             "dateCreated": "2009",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "EXT_PMSI",
@@ -75,7 +81,8 @@
             "format": "default",
             "dateCreated": "2016",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "CCAM_PHA_ACT",
@@ -86,7 +93,8 @@
             "format": "default",
             "dateCreated": "2009",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "CCAM_COD_ACT",
@@ -97,7 +105,8 @@
             "format": "default",
             "dateCreated": "2009",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "CCAM_EXT_DOC",
@@ -108,7 +117,8 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "CCAM_NBR_REA",
@@ -119,7 +129,8 @@
             "format": "default",
             "dateCreated": "2009",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "CCAM_VAL_DAT",
@@ -130,7 +141,8 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         }
     ],
     "name": "T_SSRaa_nnCCAM",

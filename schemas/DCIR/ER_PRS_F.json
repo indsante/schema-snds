@@ -11,7 +11,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "BEN_CDI_NIR",
@@ -24,7 +25,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "BEN_CMU_CAT",
@@ -37,7 +39,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "BEN_CMU_ORG",
@@ -50,7 +53,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "BEN_CMU_TOP",
@@ -63,7 +67,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "BEN_DCD_AME",
@@ -76,7 +81,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "BEN_DCD_DTE",
@@ -89,7 +95,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "date"
         },
         {
             "name": "BEN_EHP_TOP",
@@ -102,7 +109,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "BEN_IAT_CAT",
@@ -115,7 +123,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "BEN_NAI_ANN",
@@ -128,7 +137,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "BEN_PAI_CMU",
@@ -141,7 +151,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "BEN_NIR_PSA",
@@ -154,7 +165,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "BEN_RNG_GEM",
@@ -167,7 +179,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": "La règle de calcul du rang du bénéficiaire dans le SNIIRAM est la suivante :\n- le rang de louvreur de droits est toujours égal à 1,\n- si un ayant droit a la même date de naissance que louvreur de droits, son rang est égal à 2,\n- un enfant né dune naissance unique a un rang égal à 1,\n- lorsquil y a des naissances multiples, chaque enfant est différencié par son rang (1 pour le 1er, 2 pour le second, )."
+            "regle_gestion": "La règle de calcul du rang du bénéficiaire dans le SNIIRAM est la suivante :\n- le rang de louvreur de droits est toujours égal à 1,\n- si un ayant droit a la même date de naissance que louvreur de droits, son rang est égal à 2,\n- un enfant né dune naissance unique a un rang égal à 1,\n- lorsquil y a des naissances multiples, chaque enfant est différencié par son rang (1 pour le 1er, 2 pour le second, ).",
+            "type_oracle": "number"
         },
         {
             "name": "BEN_QAF_COD",
@@ -180,7 +193,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "BEN_RES_COM",
@@ -193,7 +207,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "BEN_RES_DPT",
@@ -206,7 +221,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "BEN_SEX_COD",
@@ -219,7 +235,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "ORG_AFF_BEN",
@@ -232,7 +249,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "PRS_REJ_TOP",
@@ -245,7 +263,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "EXE_SOI_AMD",
@@ -258,7 +277,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "EXE_SOI_AMF",
@@ -271,7 +291,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "EXE_SOI_DTD",
@@ -284,7 +305,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "date"
         },
         {
             "name": "EXE_SOI_DTF",
@@ -297,7 +319,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "date"
         },
         {
             "name": "PRE_PRE_AMD",
@@ -310,7 +333,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "PRE_PRE_DTD",
@@ -323,7 +347,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "date"
         },
         {
             "name": "PRS_GRS_DTD",
@@ -336,7 +361,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "date"
         },
         {
             "name": "PRS_HOS_AMD",
@@ -349,7 +375,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "PRS_HOS_DTD",
@@ -362,7 +389,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "date"
         },
         {
             "name": "BSE_REM_BSE",
@@ -375,7 +403,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "BSE_REM_MNT",
@@ -388,7 +417,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "BSE_REM_PRU",
@@ -401,7 +431,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": "La ligne de prestation contient des informations concernant un acte de base (une consultation par exemple)"
+            "regle_gestion": "La ligne de prestation contient des informations concernant un acte de base (une consultation par exemple)",
+            "type_oracle": "number"
         },
         {
             "name": "BSE_REM_SGN",
@@ -414,7 +445,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": "La ligne de prestation contient des informations concernant un acte de base (une consultation par exemple)"
+            "regle_gestion": "La ligne de prestation contient des informations concernant un acte de base (une consultation par exemple)",
+            "type_oracle": "number"
         },
         {
             "name": "CPL_REM_BSE",
@@ -427,7 +459,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": "La ligne de prestation contient des informations concernant un complément dacte ou une majoration (majoration de coordination par exemple)"
+            "regle_gestion": "La ligne de prestation contient des informations concernant un complément dacte ou une majoration (majoration de coordination par exemple)",
+            "type_oracle": "number"
         },
         {
             "name": "CPL_REM_MNT",
@@ -440,7 +473,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": "La ligne de prestation contient des informations concernant un complément dacte ou une majoration (majoration de coordination par exemple)"
+            "regle_gestion": "La ligne de prestation contient des informations concernant un complément dacte ou une majoration (majoration de coordination par exemple)",
+            "type_oracle": "number"
         },
         {
             "name": "CPL_REM_PRU",
@@ -453,7 +487,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": "La ligne de prestation contient des informations concernant un complément dacte ou une majoration (majoration de coordination par exemple)"
+            "regle_gestion": "La ligne de prestation contient des informations concernant un complément dacte ou une majoration (majoration de coordination par exemple)",
+            "type_oracle": "number"
         },
         {
             "name": "CPL_REM_SGN",
@@ -466,7 +501,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": "La ligne de prestation contient des informations concernant un complément dacte ou une majoration (majoration de coordination par exemple)"
+            "regle_gestion": "La ligne de prestation contient des informations concernant un complément dacte ou une majoration (majoration de coordination par exemple)",
+            "type_oracle": "number"
         },
         {
             "name": "PRS_ACT_CFT",
@@ -479,7 +515,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "PRS_ACT_COG",
@@ -492,7 +529,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "PRS_ACT_NBR",
@@ -505,7 +543,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "PRS_ACT_QTE",
@@ -518,7 +557,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "PRS_DEP_MNT",
@@ -531,7 +571,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "PRS_ETA_RAC",
@@ -544,7 +585,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "PRS_PAI_MNT",
@@ -557,7 +599,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "RGO_MOD_MNT",
@@ -570,7 +613,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "ORB_BSE_NUM",
@@ -583,7 +627,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "ORL_BSE_NUM",
@@ -596,7 +641,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "RGM_COD",
@@ -609,7 +655,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "RGM_GRG_COD",
@@ -622,7 +669,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "ACC_TIE_IND",
@@ -635,7 +683,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "BSE_FJH_TYP",
@@ -648,7 +697,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": "La ligne de prestation contient des informations concernant un acte de base (une consultation par exemple)"
+            "regle_gestion": "La ligne de prestation contient des informations concernant un acte de base (une consultation par exemple)",
+            "type_oracle": "number"
         },
         {
             "name": "BSE_PRS_NAT",
@@ -661,7 +711,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": "La ligne de prestation contient des informations concernant un acte de base (une consultation par exemple)"
+            "regle_gestion": "La ligne de prestation contient des informations concernant un acte de base (une consultation par exemple)",
+            "type_oracle": "number"
         },
         {
             "name": "CPL_AFF_COD",
@@ -674,7 +725,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": "La ligne de prestation contient des informations concernant un complément dacte ou une majoration (majoration de coordination par exemple)"
+            "regle_gestion": "La ligne de prestation contient des informations concernant un complément dacte ou une majoration (majoration de coordination par exemple)",
+            "type_oracle": "number"
         },
         {
             "name": "CPL_ANO_COD",
@@ -687,7 +739,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": "La ligne de prestation contient des informations concernant un complément dacte ou une majoration (majoration de coordination par exemple)"
+            "regle_gestion": "La ligne de prestation contient des informations concernant un complément dacte ou une majoration (majoration de coordination par exemple)",
+            "type_oracle": "number"
         },
         {
             "name": "CPL_FJH_TYP",
@@ -700,7 +753,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": "La ligne de prestation contient des informations concernant un complément dacte ou une majoration (majoration de coordination par exemple)"
+            "regle_gestion": "La ligne de prestation contient des informations concernant un complément dacte ou une majoration (majoration de coordination par exemple)",
+            "type_oracle": "number"
         },
         {
             "name": "CPL_MAJ_TOP",
@@ -713,7 +767,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": "La ligne de prestation contient des informations concernant un complément dacte ou une majoration (majoration de coordination par exemple)"
+            "regle_gestion": "La ligne de prestation contient des informations concernant un complément dacte ou une majoration (majoration de coordination par exemple)",
+            "type_oracle": "number"
         },
         {
             "name": "CPL_PRS_NAT",
@@ -726,7 +781,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": "La ligne de prestation contient des informations concernant un complément dacte ou une majoration (majoration de coordination par exemple)"
+            "regle_gestion": "La ligne de prestation contient des informations concernant un complément dacte ou une majoration (majoration de coordination par exemple)",
+            "type_oracle": "number"
         },
         {
             "name": "DPN_QLF",
@@ -739,7 +795,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DRG_MOD",
@@ -752,7 +809,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DRG_NAT",
@@ -765,7 +823,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "EXE_LIE_COD",
@@ -778,7 +837,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "EXO_MTF",
@@ -791,7 +851,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "IJR_EMP_NUM",
@@ -804,7 +865,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "IJR_RVL_NAT",
@@ -817,7 +879,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "MTM_NAT",
@@ -830,7 +893,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "ORG_CLE_NEW",
@@ -843,7 +907,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "PRE_REN_COD",
@@ -856,7 +921,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "PRS_CRD_OPT",
@@ -869,7 +935,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "PRS_DPN_QLP",
@@ -882,7 +949,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "PRS_NAT_REF",
@@ -895,7 +963,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "PRS_OPS_TRF",
@@ -908,7 +977,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "PRS_PDS_QCP",
@@ -921,7 +991,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "PRS_PDS_QTP",
@@ -934,7 +1005,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "PRS_PPF_COD",
@@ -947,7 +1019,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "PRS_PRE_MTT",
@@ -960,7 +1033,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "PRS_REF_KIN",
@@ -973,7 +1047,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "PRS_TOP_ENP",
@@ -986,7 +1061,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "PRS_TYP_KIN",
@@ -999,7 +1075,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "RGO_ASU_NAT",
@@ -1012,7 +1089,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "RGO_ENV_TYP",
@@ -1025,7 +1103,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "RGO_FTA_COD",
@@ -1038,7 +1117,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "RGO_MIN_TAU",
@@ -1051,7 +1131,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "RGO_REM_TAU",
@@ -1064,7 +1145,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "RGO_THE_TAU",
@@ -1077,7 +1159,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": "Si le code forçage du taux est égal à 1 ou 2 (taux minoré et taux minoré plafonné) alors : le taux théorique de la part de base = taux de remboursement du flux (taux minoré) + la valeur de la modulation, le taux théorique pour le supplément Alsace-Moselle =  9% - le taux de remboursement théorique de la part de base, et le taux théorique pour le TM CMU-C et lAide Médicale dEtat = 1% - le taux de remboursement théorique de la part de base - le taux de remboursement théorique du supplément Alsace-moselle. Et sinon, le taux théorique = le taux de remboursement du flux (dit \"taux réel\")."
+            "regle_gestion": "Si le code forçage du taux est égal à 1 ou 2 (taux minoré et taux minoré plafonné) alors : le taux théorique de la part de base = taux de remboursement du flux (taux minoré) + la valeur de la modulation, le taux théorique pour le supplément Alsace-Moselle =  9% - le taux de remboursement théorique de la part de base, et le taux théorique pour le TM CMU-C et lAide Médicale dEtat = 1% - le taux de remboursement théorique de la part de base - le taux de remboursement théorique du supplément Alsace-moselle. Et sinon, le taux théorique = le taux de remboursement du flux (dit \"taux réel\").",
+            "type_oracle": "number"
         },
         {
             "name": "ETB_PRE_FIN",
@@ -1090,7 +1173,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "PFS_EXE_NUM",
@@ -1103,7 +1187,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "PFS_EXE_NUMC",
@@ -1116,7 +1201,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "PFS_PRE_NUM",
@@ -1129,7 +1215,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "PFS_PRE_NUMC",
@@ -1142,7 +1229,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "PRS_MTT_NUM",
@@ -1155,7 +1243,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "PRS_MTT_NUMC",
@@ -1168,7 +1257,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "PSE_ACT_NAT",
@@ -1181,7 +1271,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "PSE_CNV_COD",
@@ -1194,7 +1285,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "PSE_REF_ADH",
@@ -1207,7 +1299,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "PSE_SPE_COD",
@@ -1220,7 +1313,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "PSE_STJ_COD",
@@ -1233,7 +1327,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "PSP_ACT_NAT",
@@ -1246,7 +1341,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "PSP_CNV_COD",
@@ -1259,7 +1355,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "PSP_PPS_NUM",
@@ -1272,7 +1369,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "PSP_PPS_NUMC",
@@ -1285,7 +1383,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "PSP_REF_ADH",
@@ -1298,7 +1397,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "PSP_SPE_COD",
@@ -1311,7 +1411,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "PSP_STJ_COD",
@@ -1324,7 +1425,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "PSP_SVI_PPS",
@@ -1337,7 +1439,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "DCT_ORD_NUM",
@@ -1350,7 +1453,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "FLX_DIS_DTD",
@@ -1363,7 +1467,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "date"
         },
         {
             "name": "FLX_EMT_NUM",
@@ -1376,7 +1481,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "FLX_EMT_ORD",
@@ -1389,7 +1495,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "FLX_EMT_TYP",
@@ -1402,7 +1509,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "FLX_TRT_DTD",
@@ -1415,7 +1523,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "date"
         },
         {
             "name": "ORG_CLE_NUM",
@@ -1428,7 +1537,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "PRS_ORD_NUM",
@@ -1441,7 +1551,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "REM_TYP_AFF",
@@ -1454,7 +1565,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "BEN_DRT_SPF",
@@ -1467,7 +1579,8 @@
             "dateMissing": [],
             "format": "default",
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "BEN_ACS_TOP",
@@ -1480,7 +1593,8 @@
             "dateMissing": [],
             "format": "default",
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "EXE_CTX_PFS",
@@ -1493,7 +1607,8 @@
             "dateMissing": [],
             "format": "default",
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "PRS_TYP_MAJ",
@@ -1506,7 +1621,8 @@
             "dateMissing": [],
             "format": "default",
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "EXE_CTX_BEN",
@@ -1519,7 +1635,8 @@
             "dateMissing": [],
             "format": "default",
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "CPL_FTA_COD",
@@ -1532,7 +1649,8 @@
             "dateMissing": [],
             "format": "default",
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "PRS_PPU_SEC",
@@ -1545,7 +1663,8 @@
             "dateMissing": [],
             "format": "default",
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "BEN_CTA_TYP",
@@ -1558,7 +1677,8 @@
             "dateMissing": [],
             "format": "default",
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "PRS_DRA_AME",
@@ -1571,7 +1691,8 @@
             "dateMissing": [],
             "format": "default",
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "DRG_AFF_NAT",
@@ -1584,7 +1705,8 @@
             "dateMissing": [],
             "format": "default",
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "PRS_MNT_MAJ",
@@ -1597,7 +1719,8 @@
             "dateMissing": [],
             "format": "default",
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "PRE_IND_PEL",
@@ -1610,7 +1733,8 @@
             "dateMissing": [],
             "format": "default",
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "PRS_DIS_PRE",
@@ -1623,7 +1747,8 @@
             "dateMissing": [],
             "format": "default",
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "CPL_REM_TAU",
@@ -1636,7 +1761,8 @@
             "dateMissing": [],
             "format": "default",
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "PRS_QTT_MAJ",
@@ -1649,7 +1775,8 @@
             "dateMissing": [],
             "format": "default",
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         }
     ],
     "name": "ER_PRS_F",

@@ -12,7 +12,8 @@
             "dateMissing": [
                 "2012",
                 "2013"
-            ]
+            ],
+            "type_oracle": "string"
         },
         {
             "name": "DAT_DEB_CON",
@@ -26,7 +27,8 @@
             "dateMissing": [
                 "2012",
                 "2013"
-            ]
+            ],
+            "type_oracle": "string"
         },
         {
             "name": "DAT_FIN_CON",
@@ -40,7 +42,8 @@
             "dateMissing": [
                 "2012",
                 "2013"
-            ]
+            ],
+            "type_oracle": "string"
         },
         {
             "name": "ETA_NUM_ESMS",
@@ -51,7 +54,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "ETA_NUM_EPMSI",
@@ -65,7 +69,8 @@
             "dateMissing": [
                 "2012",
                 "2013"
-            ]
+            ],
+            "type_oracle": "string"
         },
         {
             "name": "FFT_COD",
@@ -79,7 +84,8 @@
             "dateMissing": [
                 "2012",
                 "2013"
-            ]
+            ],
+            "type_oracle": "string"
         },
         {
             "name": "FIC_TYP",
@@ -93,7 +99,8 @@
             "dateMissing": [
                 "2012",
                 "2013"
-            ]
+            ],
+            "type_oracle": "string"
         },
         {
             "name": "MOI",
@@ -104,7 +111,8 @@
             "format": "default",
             "dateCreated": "2014",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "ETA_TYP_ESMS",
@@ -115,7 +123,8 @@
             "format": "default",
             "dateCreated": "2015",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         }
     ],
     "name": "T_HADaa_nnEHPA",

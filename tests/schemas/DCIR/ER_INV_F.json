@@ -9,7 +9,8 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "date"
         },
         {
             "name": "INV_PEN_CAT",
@@ -20,7 +21,8 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "INV_PEN_ETA",
@@ -31,7 +33,8 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "ORG_CLE_NEW",
@@ -42,7 +45,8 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "DCT_ORD_NUM",
@@ -53,7 +57,8 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "FLX_DIS_DTD",
@@ -64,7 +69,8 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "date"
         },
         {
             "name": "FLX_EMT_NUM",
@@ -75,7 +81,8 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "FLX_EMT_ORD",
@@ -86,7 +93,8 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "FLX_EMT_TYP",
@@ -97,7 +105,8 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "FLX_TRT_DTD",
@@ -108,7 +117,8 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "date"
         },
         {
             "name": "ORG_CLE_NUM",
@@ -119,7 +129,8 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "PRS_ORD_NUM",
@@ -130,7 +141,8 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "REM_TYP_AFF",
@@ -141,7 +153,8 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         }
     ],
     "name": "ER_INV_F",

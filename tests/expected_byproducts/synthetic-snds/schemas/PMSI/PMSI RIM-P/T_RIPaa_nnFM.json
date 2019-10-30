@@ -9,7 +9,8 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "ETA_NUM_EPMSI",
@@ -20,7 +21,8 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "ETA_NUM_TWO",
@@ -31,7 +33,8 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "RIP_NUM",
@@ -42,7 +45,8 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "FAC_NUM",
@@ -53,7 +57,8 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "ACT_DAT_COMP",
@@ -64,7 +69,8 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "ACT_MOI",
@@ -75,7 +81,8 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "ACT_ANN",
@@ -86,7 +93,8 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "DEL_DAT_ENT",
@@ -97,7 +105,8 @@
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "number"
         },
         {
             "name": "PSH_MDT",
@@ -108,7 +117,8 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "PSH_DMT",
@@ -119,7 +129,8 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "CCAM_COD",
@@ -130,7 +141,8 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "DOC_ACT",
@@ -141,7 +153,8 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "ACV_ACT",
@@ -152,7 +165,8 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "PHA_ACT",
@@ -163,7 +177,8 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "MOD_ACT1",
@@ -174,7 +189,8 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "MOD_ACT2",
@@ -185,7 +201,8 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "MOD_ACT3",
@@ -196,7 +213,8 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "MOD_ACT4",
@@ -207,7 +225,8 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "ANP_ACT",
@@ -218,7 +237,8 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "REM_EXP_ACT",
@@ -229,7 +249,8 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "DENT_NUM_1",
@@ -240,7 +261,8 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "DENT_NUM_2",
@@ -251,7 +273,8 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "DENT_NUM_3",
@@ -262,7 +285,8 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "DENT_NUM_4",
@@ -273,7 +297,8 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "DENT_NUM_5",
@@ -284,7 +309,8 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "DENT_NUM_6",
@@ -295,7 +321,8 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "DENT_NUM_7",
@@ -306,7 +333,8 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "DENT_NUM_8",
@@ -317,7 +345,8 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "DENT_NUM_9",
@@ -328,7 +357,8 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "DENT_NUM_10",
@@ -339,7 +369,8 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "DENT_NUM_11",
@@ -350,7 +381,8 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "DENT_NUM_12",
@@ -361,7 +393,8 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "DENT_NUM_13",
@@ -372,7 +405,8 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "DENT_NUM_14",
@@ -383,7 +417,8 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "DENT_NUM_15",
@@ -394,7 +429,8 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "DENT_NUM_16",
@@ -405,7 +441,8 @@
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         }
     ],
     "name": "T_RIPaa_nnFM",

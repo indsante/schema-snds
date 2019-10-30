@@ -12,7 +12,8 @@
             },
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "BEN_RNG_GEM",
@@ -24,6 +25,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 10
@@ -39,6 +41,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 18
             }
@@ -55,7 +58,8 @@
             },
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "string"
         },
         {
             "name": "BEN_IDT_TOP",
@@ -67,6 +71,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 10
@@ -82,6 +87,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 17
             }
@@ -95,7 +101,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "date"
         },
         {
             "name": "BEN_CDI_NIR",
@@ -107,6 +114,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 2
             }
@@ -121,6 +129,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 4
             }
@@ -135,6 +144,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 2
             }
@@ -149,6 +159,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 10
@@ -163,7 +174,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "date"
         },
         {
             "name": "BEN_DCD_AME",
@@ -175,6 +187,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 6
             }
@@ -189,6 +202,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 9
             }
@@ -203,6 +217,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 3
             }
@@ -217,6 +232,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 3
             }
@@ -231,6 +247,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 10
@@ -245,7 +262,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "date"
         },
         {
             "name": "ORG_CLE_NEW",
@@ -257,6 +275,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 9
             }
@@ -270,7 +289,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "date"
         },
         {
             "name": "BEN_DTE_MAJ",
@@ -281,7 +301,8 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "type_oracle": "date"
         }
     ],
     "name": "IR_BEN_R",

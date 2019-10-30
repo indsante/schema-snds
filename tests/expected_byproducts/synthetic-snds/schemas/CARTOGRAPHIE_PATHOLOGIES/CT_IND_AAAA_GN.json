@@ -10,6 +10,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 18
             }
@@ -24,6 +25,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -39,6 +41,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 4
             }
@@ -53,6 +56,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000
@@ -68,6 +72,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 5
             }
@@ -82,6 +87,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 5
             }
@@ -96,6 +102,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 2
             }
@@ -110,6 +117,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 2
             }
@@ -124,6 +132,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 3
             }
@@ -138,6 +147,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 6
             }
@@ -152,6 +162,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 3
             }
@@ -166,6 +177,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -181,6 +193,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000
@@ -196,6 +209,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000
@@ -211,6 +225,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -226,6 +241,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -241,6 +257,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -256,6 +273,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -271,6 +289,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -286,6 +305,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -301,6 +321,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -316,6 +337,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -331,6 +353,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -346,6 +369,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -361,6 +385,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -376,6 +401,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -391,6 +417,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -406,6 +433,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -421,6 +449,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -436,6 +465,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -451,6 +481,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -466,6 +497,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -481,6 +513,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -496,6 +529,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -511,6 +545,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -526,6 +561,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -541,6 +577,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -556,6 +593,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -571,6 +609,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -586,6 +625,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -601,6 +641,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -616,6 +657,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -631,6 +673,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -646,6 +689,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000
@@ -661,6 +705,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000
@@ -676,6 +721,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -691,6 +737,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000
@@ -706,6 +753,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000
@@ -721,6 +769,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -736,6 +785,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000
@@ -751,6 +801,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000
@@ -766,6 +817,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -781,6 +833,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000
@@ -796,6 +849,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000
@@ -811,6 +865,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -826,6 +881,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000
@@ -841,6 +897,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000
@@ -856,6 +913,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -871,6 +929,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -886,6 +945,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -901,6 +961,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -916,6 +977,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -931,6 +993,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -946,6 +1009,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -961,6 +1025,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -976,6 +1041,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -991,6 +1057,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1006,6 +1073,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1021,6 +1089,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1036,6 +1105,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1051,6 +1121,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1066,6 +1137,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1081,6 +1153,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1096,6 +1169,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1111,6 +1185,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1126,6 +1201,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1141,6 +1217,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1156,6 +1233,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1171,6 +1249,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1186,6 +1265,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1201,6 +1281,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1216,6 +1297,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1231,6 +1313,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1246,6 +1329,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1261,6 +1345,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1276,6 +1361,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1291,6 +1377,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1306,6 +1393,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1321,6 +1409,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1336,6 +1425,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1351,6 +1441,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1366,6 +1457,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1381,6 +1473,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1396,6 +1489,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1411,6 +1505,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1426,6 +1521,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1441,6 +1537,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1456,6 +1553,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1471,6 +1569,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1486,6 +1585,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1501,6 +1601,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1516,6 +1617,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1531,6 +1633,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1546,6 +1649,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1561,6 +1665,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1576,6 +1681,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1591,6 +1697,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1606,6 +1713,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1621,6 +1729,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1636,6 +1745,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1651,6 +1761,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1666,6 +1777,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1681,6 +1793,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1696,6 +1809,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1711,6 +1825,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1726,6 +1841,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1741,6 +1857,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1756,6 +1873,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1771,6 +1889,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1786,6 +1905,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1801,6 +1921,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1816,6 +1937,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1831,6 +1953,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1846,6 +1969,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1861,6 +1985,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1876,6 +2001,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1891,6 +2017,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1906,6 +2033,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1921,6 +2049,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1936,6 +2065,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1951,6 +2081,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1966,6 +2097,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1981,6 +2113,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1996,6 +2129,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -2011,6 +2145,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -2026,6 +2161,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -2041,6 +2177,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -2056,6 +2193,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -2071,6 +2209,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -2086,6 +2225,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -2101,6 +2241,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -2116,6 +2257,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -2131,6 +2273,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -2146,6 +2289,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -2161,6 +2305,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000
@@ -2176,6 +2321,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -2191,6 +2337,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -2206,6 +2353,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -2221,6 +2369,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -2236,6 +2385,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -2251,6 +2401,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -2266,6 +2417,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -2281,6 +2433,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -2296,6 +2449,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000
@@ -2311,6 +2465,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -2326,6 +2481,7 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 2
             }

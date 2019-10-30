@@ -11,7 +11,7 @@ from collections import defaultdict
 import pandas as pd
 from tableschema import Schema, Table
 from src.constants import DICO_SNDS_DIR, NO_NOMENCLATURE, DATE_CREATED, DATE_DELETED, DATE_MISSING, NOMENCLATURE, \
-    ROOTED_NOMENCLATURES_DIR, ROOTED_SCHEMAS_DIR
+    ROOTED_NOMENCLATURES_DIR, ROOTED_SCHEMAS_DIR, TYPE_ORACLE
 from src.utils import get_all_schema, get_all_nomenclatures_csv_schema_path
 
 DICO_EDGES_CSV = "snds_links.csv"
@@ -100,6 +100,7 @@ def table_schema_to_snds_variables():
             descriptor = field.descriptor
             length = descriptor.get('length', '')
             length = ' ({})'.format(length) if length else ''
+            format_variable = descriptor[TYPE_ORACLE] + length
             nomenclature = str(descriptor.get(NOMENCLATURE, ''))
             nomenclature = nomenclature if (nomenclature.strip() != 'nan') else NO_NOMENCLATURE
 
@@ -107,7 +108,7 @@ def table_schema_to_snds_variables():
                 # dico_produit: schema.descriptor[SCHEMA_PRODUIT],
                 'table': schema.descriptor['name'],
                 DICO_VARIABLE: descriptor['name'],
-                'format': descriptor['type'] + length,
+                'format': format_variable,
                 'description': descriptor['description'],
                 NOMENCLATURE: nomenclature,
                 DATE_CREATION: str(descriptor.get(DATE_CREATED, '')),

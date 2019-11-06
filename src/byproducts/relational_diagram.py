@@ -36,6 +36,7 @@ def generate_postgresql_tables(engine: Engine) -> None:
     logging.info("Creation des tables correspondant au schéma relationnel du SNDS, "
                  "dans la base PostgreSQL exposée depuis un containeur Docker.")
     schemas = get_all_schema()
+    schemas = [schema for schema in schemas if schema.descriptor["produit"] != "PMSI SSR"]
     storage = Storage(engine=engine)
     storage.create([schema.descriptor['name'] for schema in schemas],
                    [schema.descriptor for schema in schemas],

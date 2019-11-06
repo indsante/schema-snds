@@ -262,10 +262,10 @@ print(observation_table)
 
 df_table[df_table.name_table == "T_MCOaa_nnGV2018"]
 
-df_table.append({
+df_table = df_table.append({
       'produit': "PMSI MCO",
     'name_table': "T_MCOaa_nnGVxx",
-    'type_table': "Séjour"
+    'type_table': "Séjour",
         'title_table': "Table de passage en version de GHM",
         "date_created_table": "2005",
         "date_deleted_table": "",
@@ -332,7 +332,7 @@ for i, (produit, name_table) in df[["produit", 'name_table']].drop_duplicates().
     date_deleted_table = sdf.date_deleted_table.unique()[0]
 
     sdf_table = df_table[df_table.name_table == name_table]
-    print(name_table)
+    #print(name_table)
     assert len(sdf_table) == 1
     
     title = sdf_table.title_table.unique()[0]
@@ -446,5 +446,90 @@ for schema_path in get_all_schema_path():
 1
 
 
+
+for schema_path in get_all_schema_path():
+    schema = Schema(schema_path)
+    name = schema.descriptor["name"]
+    if "foreignKeys" in schema.descriptor or name in ["IR_BEN_R", "DA_PRA_R"]:
+        continue
+
+
+    if name.startswith("T_MCO") or name.startswith("T_SUP"):
+        assert "ETA_NUM" in schema.field_names
+        if not "RSA_NUM" in schema.field_names:
+            print(name, "ajout cle etrangère ETA_NUM vers T_MCOaa_nnE")
+            schema.descriptor["foreignKeys"] = [
+                {
+                    "fields": [
+                        "ETA_NUM",
+                    ],
+                    "reference": {
+                        "resource": "T_MCOaa_nnE",
+                        "fields": [
+                            "ETA_NUM",
+                        ]
+                    }
+                }
+            ]
+        else:
+            print(name, "ajout cle étrangère ETA_NUM, RSA_NUM vers T_MCOaa_nnB")
+            schema.descriptor["foreignKeys"] = [
+                {
+                    "fields": [
+                        "ETA_NUM",
+                        "RSA_NUM"
+                    ],
+                    "reference": {
+                        "resource": "T_MCOaa_nnB",
+                        "fields": [
+                            "ETA_NUM",
+                        "RSA_NUM"
+                        ]
+                    }
+                }
+            ]
+
+    elif name.startswith("T_HAD"):
+        continue
+        #print(name)
+    elif name.startswith("T_SSR"):
+        continue
+        #print(name)
+    elif name.startswith("T_RIP"):
+        continue
+        #print(name)
+    else:
+        raise ValueError(name)
+
+        
+    try:
+        schema.commit(strict=True)
+    except Exception as e:
+        print(e.errors)
+        raise e
+    
+    schema.save(schema_path, ensure_ascii=False)
+
+1
+
+
+
+for schema_path in get_all_schema_path():
+    schema = Schema(schema_path)
+    name = schema.descriptor["name"]
+    if not name.startswith("KI"):
+        continue
+    schema.descriptor["history"]["dateDeleted"] = ""
+    for field in schema.descriptor['fields']:
+        field.update({"dateDeleted": ""})
+    
+    
+    try:
+        schema.commit(strict=True)
+    except Exception as e:
+        print(e.errors)
+        raise e
+    
+    schema.save(schema_path, ensure_ascii=False)
 
 

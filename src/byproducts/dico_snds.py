@@ -152,11 +152,12 @@ def table_schema_to_snds_tables():
     df.to_csv(snds_table_path, index=False)
 
 
-def table_schema_to_snds_graph():
+def table_schema_to_snds_graph(schemas_dir=ROOTED_SCHEMAS_DIR):
     logging.info(" - convert schemas to {} and {}".format(DICO_NODES_CSV, DICO_EDGES_CSV))
     node_dict = dict()
     edge_list = []
-    for i, schema in enumerate(get_all_schema()):
+    schemas = get_all_schema(schemas_dir)
+    for i, schema in enumerate(schemas):
         descriptor = schema.descriptor
         table_name = descriptor['name']
         node_dict[table_name] = {
@@ -166,7 +167,7 @@ def table_schema_to_snds_graph():
             'index': i,
             'nb_vars': 1,
         }
-    for schema in get_all_schema():
+    for schema in schemas:
         descriptor = schema.descriptor
         for foreign_key in descriptor.get("foreignKeys", []):
             edge_list.append({

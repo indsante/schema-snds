@@ -9,8 +9,8 @@ from typing import List, Tuple
 import re
 import requests
 import unidecode
-from src.byproducts.dico_snds import DICO_CSV_FILES
 from src.constants import ROOTED_BYPRODUCTS_DIR, BYPRODUCT_REPOSITORIES_DIR
+from src.byproducts.dico_snds import DICO_CSV_FILES
 from src.settings import GITLAB_TOKEN
 
 HDH_GITLAB_URL = 'https://gitlab.com/healthdatahub'
@@ -71,7 +71,7 @@ def get_last_commit_id_str():
     last_commit_id_str = last_commit_sha[:10] + '_' + last_commit_message[:50]
 
     last_commit_id_str = unidecode.unidecode(last_commit_id_str)
-    regex = re.compile('[^0-9a-zA-Z\_\-]')
+    regex = re.compile(r'[^0-9a-zA-Z\_\-]')
     last_commit_id_str = regex.sub('', last_commit_id_str)
 
     logging.info("Le dernier commit sera identifié à partir du message '{}'".format(last_commit_id_str))

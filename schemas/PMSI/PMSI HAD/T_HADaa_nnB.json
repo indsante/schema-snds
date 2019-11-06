@@ -1012,13 +1012,6 @@
                 "resource": "T_HADaa_nnE",
                 "fields": "ETA_NUM"
             }
-        },
-        {
-            "fields": "ETA_NUM_EPMSI",
-            "reference": {
-                "resource": "T_HADaa_nnEHPA",
-                "fields": "ETA_NUM_EPMSI"
-            }
         }
     ],
     "history": {

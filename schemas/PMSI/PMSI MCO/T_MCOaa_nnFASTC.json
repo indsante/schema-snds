@@ -595,6 +595,10 @@
     "missingValues": [
         ""
     ],
+    "primaryKey": [
+        "ETA_NUM",
+        "SEQ_NUM"
+    ],
     "foreignKeys": [
         {
             "fields": "ETA_NUM",

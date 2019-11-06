@@ -96,6 +96,23 @@
             "type_oracle": "string"
         }
     ],
+    "foreignKeys": [
+        {
+            "fields": [
+                "ETA_NUM",
+                "RHA_NUM",
+                "RHS_NUM"
+            ],
+            "reference": {
+                "resource": "T_SSRaa_nnB",
+                "fields": [
+                    "ETA_NUM",
+                    "RHA_NUM",
+                    "RHS_NUM"
+                ]
+            }
+        }
+    ],
     "champ": "Public et Privé",
     "observation": "remplacée par la table T_SSRaaCCAM"
 }

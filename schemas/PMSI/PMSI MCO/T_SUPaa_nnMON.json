@@ -124,6 +124,19 @@
             "type_oracle": "date"
         }
     ],
+    "foreignKeys": [
+        {
+            "fields": [
+                "ETA_NUM"
+            ],
+            "reference": {
+                "resource": "T_MCOaa_nnE",
+                "fields": [
+                    "ETA_NUM"
+                ]
+            }
+        }
+    ],
     "champ": "Public",
     "observation": ""
 }

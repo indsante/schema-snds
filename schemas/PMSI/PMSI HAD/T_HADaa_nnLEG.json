@@ -124,6 +124,21 @@
             "type_oracle": "string"
         }
     ],
+        "foreignKeys": [
+        {
+            "fields": [
+                "ETA_NUM_ePMSI",
+                "RHAD_NUM"
+            ],
+            "reference": {
+                "resource": "T_HADaa_nnB",
+                "fields": [
+                    "ETA_NUM_EPMSI",
+                    "RHAD_NUM"
+                ]
+            }
+        }
+    ],
     "champ": "Public et Privé",
     "observation": ""
 }

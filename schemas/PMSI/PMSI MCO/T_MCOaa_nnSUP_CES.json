@@ -265,5 +265,18 @@
         }
     ],
     "champ": "Public",
-    "observation": "Chgt de nom en 2015 ajout du préfixe SUP_"
+    "observation": "Chgt de nom en 2015 ajout du préfixe SUP_",
+    "foreignKeys": [
+        {
+            "fields": [
+                "ETA_NUM"
+            ],
+            "reference": {
+                "resource": "T_MCOaa_nnE",
+                "fields": [
+                    "ETA_NUM"
+                ]
+            }
+        }
+    ]
 }

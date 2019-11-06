@@ -69,5 +69,18 @@
         }
     ],
     "champ": "Public",
-    "observation": "Existe aussi en 2007 et 2008 sous le nom T_SUPaaFFM"
+    "observation": "Existe aussi en 2007 et 2008 sous le nom T_SUPaaFFM",
+    "foreignKeys": [
+        {
+            "fields": [
+                "ETA_NUM"
+            ],
+            "reference": {
+                "resource": "T_MCOaa_nnE",
+                "fields": [
+                    "ETA_NUM"
+                ]
+            }
+        }
+    ]
 }

@@ -335,5 +335,18 @@
         }
     ],
     "champ": "Public",
-    "observation": ""
+    "observation": "",
+    "foreignKeys": [
+        {
+            "fields": [
+                "ETA_NUM"
+            ],
+            "reference": {
+                "resource": "T_MCOaa_nnE",
+                "fields": [
+                    "ETA_NUM"
+                ]
+            }
+        }
+    ]
 }

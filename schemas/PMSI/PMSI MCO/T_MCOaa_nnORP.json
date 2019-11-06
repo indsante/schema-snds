@@ -97,5 +97,20 @@
         }
     ],
     "champ": "Public et Privé",
-    "observation": ""
+    "observation": "",
+    "foreignKeys": [
+        {
+            "fields": [
+                "ETA_NUM",
+                "RSA_NUM"
+            ],
+            "reference": {
+                "resource": "T_MCOaa_nnB",
+                "fields": [
+                    "ETA_NUM",
+                    "RSA_NUM"
+                ]
+            }
+        }
+    ]
 }

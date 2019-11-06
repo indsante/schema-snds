@@ -26,7 +26,7 @@
             "type_oracle": "string"
         },
         {
-            "name": "ETA_NUM_PMSI",
+            "name": "ETA_NUM_EPMSI",
             "description": "N° FINESS e-PMSI",
             "type": "string",
             "length": null,
@@ -52,6 +52,15 @@
             "observation": "",
             "regle_gestion": "",
             "type_oracle": "string"
+        }
+    ],
+    "foreignKeys": [
+        {
+            "fields": "ETA_NUM_EPMSI",
+            "reference": {
+                "resource": "T_HADaa_nnE",
+                "fields": "ETA_NUM"
+            }
         }
     ],
     "champ": "Privé",

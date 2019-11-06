@@ -7,6 +7,7 @@ from sqlalchemy.engine import Engine
 from sqlalchemy.exc import OperationalError
 from tableschema_sql import Storage
 
+from src.constants import SCHEMAS
 from src.utils import get_all_schema, is_running_in_docker
 
 START_POSTGRES_CONTAINER_IN_BACKGROUND = 'docker-compose up -d postgres'
@@ -15,8 +16,10 @@ RUN_SCHEMACRAWLER_CONTAINER = 'docker-compose up schemacrawler'
 
 def generate_relational_diagram():
     if is_running_in_docker():
+        logging.info("Generate PostgreSQL tables within Docker")
         generate_postgresql_tables_within_docker()
     else:
+        logging.info("Generate relational diagram from host")
         generate_relational_diagram_from_host()
 
 
@@ -35,7 +38,7 @@ def generate_postgresql_tables_within_docker():
 def generate_postgresql_tables(engine: Engine) -> None:
     logging.info("Creation des tables correspondant au schéma relationnel du SNDS, "
                  "dans la base PostgreSQL exposée depuis un containeur Docker.")
-    schemas = get_all_schema()
+    schemas = get_all_schema(SCHEMAS)
     schemas = [schema for schema in schemas if schema.descriptor["produit"] != "PMSI SSR"]
     storage = Storage(engine=engine)
     storage.create([schema.descriptor['name'] for schema in schemas],

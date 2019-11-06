@@ -5,6 +5,8 @@ stages:
 test:
   stage: test
   image: python:3.7-stretch
+  services:
+  - postgres:11.1-alpine
   before_script:
     - ./create_virtualenv.sh
     - source venv/bin/activate

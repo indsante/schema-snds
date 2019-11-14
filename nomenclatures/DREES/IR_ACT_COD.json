@@ -1,0 +1,25 @@
+{
+  "fields": [
+    {
+      "name": "ACT_COD",
+      "type": "string",
+      "format": "default",
+      "role": "code"
+    },
+    {
+      "name": "ACT_COD_LIB",
+      "type": "string",
+      "format": "default",
+      "role": "label"
+    }
+  ],
+  "missingValues": [
+    ""
+  ],
+  "name": "IR_ACT_COD",
+  "title": "Lettre clé du Code Ngap",
+  "description": "Provenant des sources d'Albert Vuagnat à la Drees. La nomenclature peut se retrouver ici: https://www.ameli.fr/medecin/exercice-liberal/remuneration/nomenclatures-codage/ngap",
+  "primaryKey": [
+    "ACT_COD"
+  ]
+}

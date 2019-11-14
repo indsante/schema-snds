@@ -215,7 +215,7 @@
             "description": "Date de décès du bénéficiaire",
             "type": "date",
             "nomenclature": "IR_DTE_V",
-            "length": null,
+            "length": "8",
             "format": "default",
             "dateCreated": "2013",
             "dateDeleted": "",

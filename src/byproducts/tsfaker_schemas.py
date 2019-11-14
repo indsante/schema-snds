@@ -67,7 +67,9 @@ def generate_tsfaker_schemas():
 
 
 def replace_length_by_bounds_and_number_by_integer(schema):
+    # logging.debug(" - Replace for schema '{}'".format(schema.descriptor["name"]))
     for field in schema.fields:
+        # logging.debug("   - Replace for field '{}'".format(field.descriptor["name"]))
         tstype = field.descriptor.get(TYPE_CSV)
         length = field.descriptor.get('length')
         if length is None:
@@ -86,7 +88,7 @@ def replace_length_by_bounds_and_number_by_integer(schema):
         if tstype == STRING:
             assert schema.update_field(field.name, {'constraints': {'maximum': length}})
         if tstype == NUMBER:
-            assert length <= 19, "field '{}' of schema '{}' is of length '{}'"\
+            assert length <= 19, "field '{}' of schema '{}' is of length '{}', bigger than maximal value of 19"\
                 .format(field.name, schema.descriptor["name"], length)
             assert schema.update_field(field.name,
                                        {TYPE_CSV: INTEGER, 'constraints': {'minimum': 0, 'maximum': 10 ** length}})

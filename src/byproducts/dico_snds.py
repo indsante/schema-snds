@@ -36,6 +36,8 @@ PRODUIT_TO_GROUP = {
     "PMSI HAD": 8,
     "PMSI SSR": 9,
     "PMSI RIM-P": 10,
+    "DAMIR": 11,
+    "EGB": 12
 }
 
 pd.options.display.max_columns = 100

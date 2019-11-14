@@ -136,6 +136,8 @@ mapping = {
 df.produit = df.produit.map(lambda s: mapping[s] if s in mapping else s)
 df.produit.value_counts()
 
+df[df.produit == "AMOS"]
+
 mapping = {
     'Référentiel médicalisé du SNIIRAM-SNDS': 'Référentiel médicalisé des bénéficiaires (ALD)',
     'Dépenses des 57 millions dassurés sélectionnés': "Table dépenses de la cartographie des pathologies pour l'année AAAA et l'algorithme N",
@@ -221,13 +223,28 @@ df[df.type == ""]
 mask = (df.length.str.contains('\.') | df.length.str.contains('\,'))
 df[mask].head(2)
 
-df.loc[df.length == "38"]
+df.loc[(df.nomenclature == "IR_DTE_V") & (df.length == ""), "length"] = "8"
+
+df.loc[df.name.isin(["FLX_DIS_DTD", "REM_TYP_AFF", "FLX_TRT_DTD", 
+                     "ORG_AFF_DTF", "DCT_REM_DTD", "DCT_ARR_DTE",
+                    "DCT_ARC_DTE", "TRS_DTD_DTE", "TRS_DTF_DTE",
+                    "TIP_ACL_DTD"]), "length"] = "8"
+
+df.loc[df.name.isin(["BEN_PAI_CMU"]), "length"] = "1"
+
+df.length = df.length.str.replace("$", "")
+
+df.loc[df.length == "$3", "length"] = "3"
 
 df.loc[df.length == "38", "length"] = "8"
 
-df.loc[df.length == "145"]
+df.loc[df.length == "172", "length"] = "17,2"
+
+df.loc[df.length == "132", "length"] = "13,2"
 
 df.loc[df.length == "145", "length"] = "14,5"
+
+df.loc[df.length == "152", "length"] = "15,2"
 
 df.loc[df.length == "72"]
 
@@ -281,7 +298,7 @@ df.loc[mask, 'nomenclature'] = ''
 mask = (df.name_table.isin(['CT_IND_AAAA_GN']) & df.nomenclature.isin(['IR_PRF_V', "IR_PHA_R", "IR_DTE_V"]))
 df.loc[mask, 'nomenclature'] = ''
 
-mask = (df.name_table.isin(['ER_DCT_F']) & df.nomenclature.isin(["IR_PMC_V"]))
+mask = (df.nomenclature.isin(["IR_PMC_V"]))
 df.loc[mask, 'nomenclature'] = ''
 
 mask = df.name.isin(['INS_DTE'])
@@ -336,14 +353,14 @@ produit_a_garder = [
  'Causes de décès',
  'DCIR_DCIRS',
  'BENEFICIAIRE',
+ "DAMIR",
+ "EGB"
  ]
 
-df = df[df.produit.isin(produit_a_garder)]
+
 # -
 
-df.regle_gestion.nunique()
-
-df.head()
+df_table[df_table.produit == "EGB"]
 
 # ## Create descriptor
 
@@ -351,7 +368,9 @@ def get_field_descriptor(df, name, columns):
     return (df[df.name.str.upper() == name.upper()][columns]
             .to_dict(orient="records")[0])
 
-for i, (produit, name_table) in df[["produit", 'name_table']].drop_duplicates().iterrows():
+for i, (produit, name_table) in \
+    df.loc[df.produit.isin(produit_a_garder),["produit", 'name_table']].drop_duplicates().iterrows():
+    
     # Restriction table
     sdf = df[(df.produit == produit) & (df.name_table == name_table)]
     
@@ -361,8 +380,24 @@ for i, (produit, name_table) in df[["produit", 'name_table']].drop_duplicates().
    
     # Lecture schema
     schema_path = "schemas/{}/{}.json".format(produit, name_table)
-    assert os.path.exists(schema_path)
-    schema = Schema(schema_path)
+    if not os.path.exists(schema_path):
+        print("- Creating schema")
+        table_descriptor = {
+             "name": name_table, 
+             "title": title, 
+             "produit": produit,
+            "champ": "",
+             "history": {
+                 "dateCreated": "",
+                 "dateDeleted": "",
+                 "dateMissing": []
+            },
+            "observation": ""
+        }
+    
+        schema = Schema(table_descriptor)
+    else :
+        schema = Schema(schema_path)
 
     
     # MAJ table
@@ -409,10 +444,12 @@ for i, (produit, name_table) in df[["produit", 'name_table']].drop_duplicates().
         #columns_to_update = ['observation']
         field_descriptor = get_field_descriptor(sdf, name, columns_to_update)
         for key in columns_to_update:
-            if field_descriptor[key] == "" or field_descriptor[key] is None:
+            if key in field and (field_descriptor[key] == "" or field_descriptor[key] is None):
                 field_descriptor.pop(key)
         field.update(field_descriptor)
-    
+
+        if "type_oracle" not in field:
+            field.update({"type_oracle":  field_descriptor["type"]})
     
     try:
         schema.commit(strict=True)

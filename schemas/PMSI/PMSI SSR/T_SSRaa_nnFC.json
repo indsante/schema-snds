@@ -130,7 +130,7 @@
             "name": "ACT_COD",
             "description": "Code acte",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_ACT_COD",
             "length": "5",
             "format": "default",
             "dateCreated": "2007",

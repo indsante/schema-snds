@@ -1,0 +1,59 @@
+{
+    "fields": [
+        {
+            "name": "AGE_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "AGE_INS_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "AGE_PS5_COD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "AGE_SEP_COD",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "AGE_TRC_SPS",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "VIC_ACC_TRA",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "AGE_AMO",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "LIB_AMO",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_AGE_V",
+    "title": "Age",
+    "primaryKey": [
+        "AGE_COD"
+    ]
+}

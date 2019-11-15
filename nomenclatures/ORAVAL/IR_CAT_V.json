@@ -1,0 +1,34 @@
+{
+    "fields": [
+        {
+            "name": "PFS_CAT_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "PFS_CAT_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "CAT_LIB_SNI",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_CAT_V",
+    "title": "Catégorie Professionnel de Santé",
+    "primaryKey": [
+        "PFS_CAT_COD"
+    ]
+}

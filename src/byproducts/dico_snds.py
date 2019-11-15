@@ -36,6 +36,8 @@ PRODUIT_TO_GROUP = {
     "PMSI HAD": 8,
     "PMSI SSR": 9,
     "PMSI RIM-P": 10,
+    "DAMIR": 11,
+    "EGB": 12
 }
 
 pd.options.display.max_columns = 100
@@ -154,9 +156,9 @@ def table_schema_to_snds_tables():
 
 def table_schema_to_snds_graph(schemas_dir=ROOTED_SCHEMAS_DIR):
     logging.info(" - convert schemas to {} and {}".format(DICO_NODES_CSV, DICO_EDGES_CSV))
+
     node_dict = dict()
-    edge_list = []
-    schemas = get_all_schema(schemas_dir)
+    schemas = [schema for schema in get_all_schema(schemas_dir) if schema.descriptor["produit"] not in ["DAMIR", "EGB"]]
     for i, schema in enumerate(schemas):
         descriptor = schema.descriptor
         table_name = descriptor['name']
@@ -167,6 +169,8 @@ def table_schema_to_snds_graph(schemas_dir=ROOTED_SCHEMAS_DIR):
             'index': i,
             'nb_vars': 1,
         }
+
+    edge_list = []
     for schema in schemas:
         descriptor = schema.descriptor
         for foreign_key in descriptor.get("foreignKeys", []):

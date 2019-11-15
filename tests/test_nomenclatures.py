@@ -68,6 +68,16 @@ def test_validate_nomenclature_schema(nomenclature_path, schema_path):
 
 
 @pytest.mark.parametrize('nomenclature_path,schema_path', get_all_nomenclatures_csv_schema_path(NOMENCLATURES_DIR))
+def test_nomenclature_schema_name_equal_file_name(nomenclature_path, schema_path):
+    """
+    Validate that nomenclature filename equal schema.descriptor.name
+    """
+    filename = os.path.basename(schema_path)[:-5]
+    name = Schema(schema_path).descriptor["name"]
+    assert name == filename
+
+
+@pytest.mark.parametrize('nomenclature_path,schema_path', get_all_nomenclatures_csv_schema_path(NOMENCLATURES_DIR))
 def test_nomenclature_primary_keys_is_unique(nomenclature_path, schema_path):
     """
     Validate that nomenclature have a primary key, and that it is unique.

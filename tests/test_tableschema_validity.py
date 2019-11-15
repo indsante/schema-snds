@@ -3,7 +3,7 @@ These tests are looking at current schemas, not tests ones. Hence we do not use 
 """
 
 import logging
-
+import os
 import pytest
 from tableschema import Schema
 
@@ -20,6 +20,18 @@ def test_tableschema_is_valid(schema_path):
             logging.info("Error in schema at path '{}'".format(schema_path))
             logging.error(error)
         assert schema.valid
+
+
+@pytest.mark.parametrize('schema_path', get_all_schema_path(SCHEMAS))
+def test_tableschema_name_and_produc(schema_path):
+    filename = os.path.basename(schema_path)[:-5]
+    schema = Schema(schema_path)
+    name = schema.descriptor["name"]
+    assert name == filename
+
+    productname = schema_path.split("/")[-2]
+    product = schema.descriptor["produit"]
+    assert product == productname
 
 
 def test_get_all_schema_path_return_all_schemas():

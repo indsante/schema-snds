@@ -22,7 +22,11 @@ def get_all_schema_path(schemas_dir=ROOTED_SCHEMAS_DIR) -> List[str]:
 
 
 def get_all_nomenclatures_schema(nomenclatures_dir=NOMENCLATURES_DIR) -> List[Schema]:
-    return [Schema(schema_path) for _, schema_path in get_all_nomenclatures_csv_schema_path(nomenclatures_dir)]
+    result = []
+    for _, schema_path in get_all_nomenclatures_csv_schema_path(nomenclatures_dir):
+        schema = Schema(schema_path)
+        result.append(schema)
+    return result
 
 
 def get_all_nomenclatures_csv_schema_path(nomenclatures_dir=NOMENCLATURES_DIR) -> List[Tuple[str, str]]:
@@ -81,3 +85,6 @@ def add_foreign_key(schema: Schema, fields: Union[str, List[str]], referenced_ta
         foreign_key_descriptor['description'] = description
     schema.descriptor['foreignKeys'].append(foreign_key_descriptor)
     schema.commit(strict=True)
+
+if __name__ == '__main__':
+    print(list(get_all_nomenclatures_csv_schema_path(NOMENCLATURES_DIR)))

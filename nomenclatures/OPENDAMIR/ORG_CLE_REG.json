@@ -1,0 +1,19 @@
+{
+  "fields": [
+    {
+      "name": "ORG_CLE_REG",
+      "type": "integer",
+      "format": "default",
+      "role": "code"
+    },
+    {
+      "name": "ORG_CLE_LIB",
+      "type": "string",
+      "format": "default",
+      "role": "label"
+    }
+  ],
+  "missingValues": [],
+  "name": "DS_PFS_V",
+  "primaryKey": "ORG_CLE_REG"
+}

@@ -1,0 +1,19 @@
+{
+  "fields": [
+    {
+      "name": "ETE_TYP_SNDS",
+      "type": "integer",
+      "format": "default",
+      "role": "code"
+    },
+    {
+      "name": "ETE_TYP_LIB",
+      "type": "string",
+      "format": "default",
+      "role": "label"
+    }
+  ],
+  "missingValues": [],
+  "name": "DS_PFS_V",
+  "primaryKey": "ETE_TYP_SNDS"
+}

@@ -1,0 +1,19 @@
+{
+  "fields": [
+    {
+      "name": "ETP_REG_COD",
+      "type": "integer",
+      "format": "default",
+      "role": "code"
+    },
+    {
+      "name": "ETP_LIB_LIB",
+      "type": "string",
+      "format": "default",
+      "role": "label"
+    }
+  ],
+  "missingValues": [],
+  "name": "DS_PFS_V",
+  "primaryKey": "ETP_REG_COD"
+}

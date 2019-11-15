@@ -1,0 +1,19 @@
+{
+  "fields": [
+    {
+      "name": "DDP_SPE_COD",
+      "type": "integer",
+      "format": "default",
+      "role": "code"
+    },
+    {
+      "name": "DDP_SPE_LIB",
+      "type": "string",
+      "format": "default",
+      "role": "label"
+    }
+  ],
+  "missingValues": [],
+  "name": "DS_PFS_V",
+  "primaryKey": "DDP_SPE_COD"
+}

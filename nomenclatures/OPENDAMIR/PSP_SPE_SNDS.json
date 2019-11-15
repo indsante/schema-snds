@@ -1,0 +1,19 @@
+{
+  "fields": [
+    {
+      "name": "PSP_SPE_SNDS",
+      "type": "integer",
+      "format": "default",
+      "role": "code"
+    },
+    {
+      "name": "PSP_SPE_LIB",
+      "type": "string",
+      "format": "default",
+      "role": "label"
+    }
+  ],
+  "missingValues": [],
+  "name": "DS_PFS_V",
+  "primaryKey": "PSP_SPE_SNDS"
+}

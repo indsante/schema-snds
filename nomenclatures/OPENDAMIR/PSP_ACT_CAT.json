@@ -1,0 +1,19 @@
+{
+  "fields": [
+    {
+      "name": "PSP_ACT_CAT",
+      "type": "integer",
+      "format": "default",
+      "role": "code"
+    },
+    {
+      "name": "PSP_ACT_LIB",
+      "type": "string",
+      "format": "default",
+      "role": "label"
+    }
+  ],
+  "missingValues": [],
+  "name": "DS_PFS_V",
+  "primaryKey": "PSP_ACT_CAT"
+}

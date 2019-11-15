@@ -1,0 +1,19 @@
+{
+  "fields": [
+    {
+      "name": "PRE_INS_REG",
+      "type": "integer",
+      "format": "default",
+      "role": "code"
+    },
+    {
+      "name": "PRE_INS_LIB",
+      "type": "string",
+      "format": "default",
+      "role": "label"
+    }
+  ],
+  "missingValues": [],
+  "name": "DS_PFS_V",
+  "primaryKey": "PRE_INS_REG"
+}

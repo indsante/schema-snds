@@ -1,0 +1,19 @@
+{
+  "fields": [
+    {
+      "name": "MDT_TYP_COD",
+      "type": "integer",
+      "format": "default",
+      "role": "code"
+    },
+    {
+      "name": "MDT_TYP_LIB",
+      "type": "string",
+      "format": "default",
+      "role": "label"
+    }
+  ],
+  "missingValues": [],
+  "name": "DS_PFS_V",
+  "primaryKey": "MDT_TYP_COD"
+}

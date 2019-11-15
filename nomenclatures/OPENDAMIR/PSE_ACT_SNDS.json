@@ -1,0 +1,19 @@
+{
+  "fields": [
+    {
+      "name": "PSE_ACT_SNDS",
+      "type": "integer",
+      "format": "default",
+      "role": "code"
+    },
+    {
+      "name": "PSE_ACT_LIB",
+      "type": "string",
+      "format": "default",
+      "role": "label"
+    }
+  ],
+  "missingValues": [],
+  "name": "DS_PFS_V",
+  "primaryKey": "PSE_ACT_SNDS"
+}

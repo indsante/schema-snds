@@ -14,6 +14,6 @@
     }
   ],
   "missingValues": [],
-  "name": "DS_PFS_V",
+  "name": "MDT_TYP_COD",
   "primaryKey": "MDT_TYP_COD"
 }

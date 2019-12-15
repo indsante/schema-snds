@@ -396,7 +396,7 @@
             "name": "TRS_ACT_PRU",
             "description": "Prix unitaire du code affiné du transport",
             "type": "number",
-            "nomenclature": "IR_DTR_V",
+            "nomenclature": "-",
             "length": "10,5",
             "format": "default",
             "dateCreated": "",

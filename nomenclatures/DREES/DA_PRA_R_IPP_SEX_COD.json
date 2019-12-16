@@ -1,0 +1,25 @@
+{
+  "fields": [
+    {
+      "name": "IPP_SEX_COD",
+      "type": "string",
+      "format": "default",
+      "role": "code"
+    },
+    {
+      "name": "IPP_SEX_LIB",
+      "type": "string",
+      "format": "default",
+      "role": "label"
+    }
+    ],
+  "missingValues": [
+    ""
+    ],
+  "name": "DA_PRA_R_IPP_SEX_COD",
+  "title": "Sexe dans le référentiel des professionnel de santé",
+  "description": "Provenant des documents de l'extraction APL pour DREES faite par la CNAM",
+  "primaryKey": [
+    "IPP_SEX_COD"
+    ]
+}

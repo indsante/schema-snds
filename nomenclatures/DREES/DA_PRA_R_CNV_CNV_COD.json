@@ -1,0 +1,25 @@
+{
+  "fields": [
+    {
+      "name": "CNV_CNV_COD",
+      "type": "string",
+      "format": "default",
+      "role": "code"
+    },
+    {
+      "name": "CNV_CNV_LIB",
+      "type": "string",
+      "format": "default",
+      "role": "label"
+    }
+    ],
+  "missingValues": [
+    ""
+    ],
+  "name": "DA_PRA_R_CNV_CNV_COD",
+  "title": "Code convention nationale du PS dans le référentiel des professionnel de santé",
+  "description": "Provenant des documents de l'extraction APL pour DREES faite par la CNAM",
+  "primaryKey": [
+    "CNV_CNV_COD"
+    ]
+}

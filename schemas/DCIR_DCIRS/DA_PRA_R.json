@@ -368,7 +368,7 @@
             "name": "EXC_FIN_MTF",
             "description": "Motif de fin d'exercice libéral",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "EXC_FIN_MTF",
             "length": "1",
             "format": "default",
             "dateCreated": "",

@@ -1,0 +1,24 @@
+{
+  "fields": [
+    {
+      "name": "EXC_FIN_COD",
+      "type": "string",
+      "format": "default",
+      "role": "code"
+    },
+    {
+      "name": "EXC_FIN_LIB",
+      "type": "string",
+      "format": "default",
+      "role": "label"
+    }
+    ],
+  "missingValues": [
+    ""
+    ],
+  "name": "EXC_FIN_MTF",
+  "title": "Motif de fin d'exercice libéral",
+  "primaryKey": [
+    "EXC_FIN_COD"
+    ]
+}

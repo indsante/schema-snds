@@ -1,6 +1,6 @@
 from collections import defaultdict
 from os import getcwd
-from os.path import join
+from os.path import join as pjoin
 
 from src.settings import RUNNING_TEST
 
@@ -31,26 +31,25 @@ TESTS_DIR = 'tests'
 
 # Root directory is used to read schemas and generate them in TESTS_DIR while running tests
 ROOT_DIR = getcwd()
+WORKING_DIR = ROOT_DIR
 if RUNNING_TEST:
-    ROOT_DIR = TESTS_DIR
+    WORKING_DIR = TESTS_DIR
+
 
 DATA = 'data'
-BYPRODUCT_REPOSITORIES_DIR = join(ROOT_DIR, DATA, 'byproducts_repositories')
+BYPRODUCT_REPOSITORIES_DIR = pjoin(DATA, 'byproducts_repositories')
 
-SCHEMAS = 'schemas'
-ROOTED_SCHEMAS_DIR = join(ROOT_DIR, SCHEMAS)
+SCHEMAS_DIR = 'schemas'
 
-BYPRODUCTS_DIR = join(DATA, 'byproducts')
-ROOTED_BYPRODUCTS_DIR = join(ROOT_DIR, BYPRODUCTS_DIR)
-DICO_SNDS_DIR = join(ROOTED_BYPRODUCTS_DIR, 'dico-snds')
-MARKDOWN_DIR = join(ROOTED_BYPRODUCTS_DIR, 'documentation-snds', 'markdown')
-SYNTHETIC_SNDS_DIR = join(ROOTED_BYPRODUCTS_DIR, "synthetic-snds")
-SCHEMAS_SYNTHETIC_SNDS_DIR = join(SYNTHETIC_SNDS_DIR, "schemas")
-NOMENCLATURES_SYNTHETIC_SNDS_DIR = join(SYNTHETIC_SNDS_DIR, "nomenclatures")
+BYPRODUCTS_DIR = pjoin(DATA, 'byproducts')
+DICO_SNDS_DIR = pjoin(BYPRODUCTS_DIR, 'dico-snds')
+MARKDOWN_DIR = pjoin(BYPRODUCTS_DIR, 'documentation-snds', 'markdown')
+SYNTHETIC_SNDS_DIR = pjoin(BYPRODUCTS_DIR, "synthetic-snds")
+SCHEMAS_SYNTHETIC_SNDS_DIR = pjoin(SYNTHETIC_SNDS_DIR, "schemas")
+NOMENCLATURES_SYNTHETIC_SNDS_DIR = pjoin(SYNTHETIC_SNDS_DIR, "nomenclatures")
 
 NOMENCLATURES_DIR = 'nomenclatures'
-ROOTED_NOMENCLATURES_DIR = join(ROOT_DIR, NOMENCLATURES_DIR)
-NOMENCLATURES_DICO_SNDS = join(DICO_SNDS_DIR, NOMENCLATURES_DIR)
+NOMENCLATURES_DICO_SNDS_DIR = pjoin(DICO_SNDS_DIR, NOMENCLATURES_DIR)
 
 NO_NOMENCLATURE = '-'
 

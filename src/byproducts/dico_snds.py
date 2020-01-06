@@ -6,12 +6,16 @@ L'objectif de ces fonctions est de recréer les données nécessaire à l'applic
 
 import logging
 import os
-from typing import Union, List
 from collections import defaultdict
+from os.path import join as pjoin
+from shutil import copyfile
+from typing import Union, List
+
 import pandas as pd
 from tableschema import Schema, Table
-from src.constants import DICO_SNDS_DIR, NO_NOMENCLATURE, DATE_CREATED, DATE_DELETED, DATE_MISSING, NOMENCLATURE, \
-    ROOTED_NOMENCLATURES_DIR, ROOTED_SCHEMAS_DIR, TYPE_ORACLE
+
+from src.constants import DICO_SNDS_DIR, NO_NOMENCLATURE, DATE_CREATED, DATE_DELETED, DATE_MISSING, \
+    NOMENCLATURE, TYPE_ORACLE, WORKING_DIR, NOMENCLATURES_DICO_SNDS_DIR, NOMENCLATURES_DIR
 from src.utils import get_all_schema, get_all_nomenclatures_csv_schema_path
 
 DICO_EDGES_CSV = "snds_links.csv"
@@ -47,19 +51,36 @@ DATE_SUPRESSION = 'suppression'
 DATES_MANQUANTES = 'dates_manquantes'
 
 
-def generate_dico_snds():
+def generate_dico_snds(work_dir=WORKING_DIR):
     logging.info("Convert schemas to dico-snds app data")
-    os.makedirs(DICO_SNDS_DIR, exist_ok=True)
+    os.makedirs(pjoin(work_dir, DICO_SNDS_DIR), exist_ok=True)
     table_schema_to_snds_variables()
     table_schema_to_snds_tables()
     table_schema_to_snds_graph()
     table_schema_to_snds_nomenclatures()
+    cp_nomenclatures(work_dir)
 
 
-def table_schema_to_snds_nomenclatures():
+def cp_nomenclatures(work_dir):
+    rooted_nomenclatures_dir = pjoin(work_dir, NOMENCLATURES_DIR)
+    rooted_nomenclatures_dico_snds_dir = pjoin(work_dir, NOMENCLATURES_DICO_SNDS_DIR)
+    logging.info(" - copy the csv in {} subdirectories into {}".format(
+        rooted_nomenclatures_dir,
+        rooted_nomenclatures_dico_snds_dir
+    ))
+    os.makedirs(rooted_nomenclatures_dico_snds_dir)
+    for root, dirs, files in os.walk(rooted_nomenclatures_dir):
+        for file in files:
+            source_file_path = pjoin(root, file)
+            target_file_path = pjoin(rooted_nomenclatures_dico_snds_dir, file)
+            if source_file_path.endswith('.csv'):
+                copyfile(source_file_path, target_file_path)
+
+
+def table_schema_to_snds_nomenclatures(work_dir=WORKING_DIR):
     logging.info(" - create a table with all nomenclatures title's : {}".format(DICO_NOMENCLATURES_CSV))
     nomenclature_dict = defaultdict(set)
-    for schema in get_all_schema(ROOTED_SCHEMAS_DIR):
+    for schema in get_all_schema(work_dir):
         # table_name = schema.descriptor.get('name')
         for field in schema.fields:
             descriptor = field.descriptor
@@ -69,7 +90,7 @@ def table_schema_to_snds_nomenclatures():
                 nomenclature_dict[nomenclature].add(variable_name)
 
     nomenclature_list = []
-    for csv_path, schema_path in get_all_nomenclatures_csv_schema_path(ROOTED_NOMENCLATURES_DIR):
+    for csv_path, schema_path in get_all_nomenclatures_csv_schema_path(pjoin(work_dir, NOMENCLATURES_DIR)):
         schema = Schema(schema_path)
         table = Table(csv_path, schema=schema_path)
         n_rows = 0
@@ -89,11 +110,11 @@ def table_schema_to_snds_nomenclatures():
         })
     df = pd.DataFrame(nomenclature_list, columns=[NOMENCLATURE, TITRE, 'variables_liees', 'nombre_lignes'])
     df = df.sort_values([NOMENCLATURE])
-    snds_nomenclature_path = os.path.join(DICO_SNDS_DIR, DICO_NOMENCLATURES_CSV)
+    snds_nomenclature_path = pjoin(work_dir, DICO_SNDS_DIR, DICO_NOMENCLATURES_CSV)
     df.to_csv(snds_nomenclature_path, index=False)
 
 
-def table_schema_to_snds_variables():
+def table_schema_to_snds_variables(work_dir=WORKING_DIR):
     # dico_produit = "produit"
     logging.info(" - convert schemas to {}".format(DICO_VARIABLES_CSV))
     variables_list = []
@@ -125,11 +146,11 @@ def table_schema_to_snds_variables():
     df = df.sort_values([
         # dico_produit,
         'table', DICO_VARIABLE])
-    snds_variable_path = os.path.join(DICO_SNDS_DIR, DICO_VARIABLES_CSV)
+    snds_variable_path = pjoin(work_dir, DICO_SNDS_DIR, DICO_VARIABLES_CSV)
     df.to_csv(snds_variable_path, index=False)
 
 
-def table_schema_to_snds_tables():
+def table_schema_to_snds_tables(work_dir=WORKING_DIR):
     logging.info(" - convert schemas to {}".format(DICO_TABLES_CSV))
     dico_produit = "Produit"
     dico_table = "Table"
@@ -150,15 +171,16 @@ def table_schema_to_snds_tables():
     df = pd.DataFrame(table_list, columns=[dico_produit, dico_table, dico_libelle, DATE_CREATION, DATE_SUPRESSION,
                                            DATES_MANQUANTES])
     df = df.sort_values([dico_produit, dico_table, dico_libelle])
-    snds_table_path = os.path.join(DICO_SNDS_DIR, DICO_TABLES_CSV)
+    snds_table_path = pjoin(work_dir, DICO_SNDS_DIR, DICO_TABLES_CSV)
     df.to_csv(snds_table_path, index=False)
 
 
-def table_schema_to_snds_graph(schemas_dir=ROOTED_SCHEMAS_DIR):
+def table_schema_to_snds_graph(work_dir=WORKING_DIR):
     logging.info(" - convert schemas to {} and {}".format(DICO_NODES_CSV, DICO_EDGES_CSV))
 
     node_dict = dict()
-    schemas = [schema for schema in get_all_schema(schemas_dir) if schema.descriptor["produit"] not in ["DAMIR", "EGB"]]
+    schemas = [schema for schema in
+               get_all_schema(work_dir) if schema.descriptor["produit"] not in ["DAMIR", "EGB"]]
     for i, schema in enumerate(schemas):
         descriptor = schema.descriptor
         table_name = descriptor['name']
@@ -183,7 +205,7 @@ def table_schema_to_snds_graph(schemas_dir=ROOTED_SCHEMAS_DIR):
             })
     df_nodes = pd.DataFrame(list(node_dict.values()), columns=['name', 'description', 'group', 'index', 'nb_vars'])
     df_nodes = df_nodes.sort_values(['index'])
-    snds_nodes_path = os.path.join(DICO_SNDS_DIR, DICO_NODES_CSV)
+    snds_nodes_path = pjoin(work_dir, DICO_SNDS_DIR, DICO_NODES_CSV)
     df_nodes.to_csv(snds_nodes_path, index=False)
 
     df_edges = pd.DataFrame(edge_list, columns=['source', 'target', 'joint_var'])
@@ -193,7 +215,7 @@ def table_schema_to_snds_graph(schemas_dir=ROOTED_SCHEMAS_DIR):
                 .reset_index()
                 .sort_values(['source', 'target'])
                 )
-    snds_edges_path = os.path.join(DICO_SNDS_DIR, DICO_EDGES_CSV)
+    snds_edges_path = pjoin(work_dir, DICO_SNDS_DIR, DICO_EDGES_CSV)
     df_edges.to_csv(snds_edges_path, index=False)
 
 

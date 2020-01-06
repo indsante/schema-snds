@@ -9,14 +9,14 @@ from goodtables import validate
 from tableschema import Schema
 
 from src.byproducts.main import generate_byproducts
-from src.constants import SCHEMAS, NOMENCLATURES_DIR, NO_NOMENCLATURE
+from src.constants import SCHEMAS_DIR, NOMENCLATURES_DIR, NO_NOMENCLATURE, TESTS_DIR
 from src.utils import get_all_nomenclatures_csv_schema_path, get_all_nomenclatures_schema
 from src.utils import get_all_schema
 
 
 def list_nomenclatures_usage():
     used_nomenclatures = set()
-    for schema in get_all_schema(SCHEMAS):
+    for schema in get_all_schema():
         for field in schema.fields:
             nomenclature = field.descriptor['nomenclature']
             if nomenclature != NO_NOMENCLATURE:
@@ -39,7 +39,7 @@ def test_nomenclatures_list():
 
 
 def test_nomenclature_presence():
-    generate_byproducts()
+    generate_byproducts(False, TESTS_DIR)
     present_nomenclatures = list_present_nomenclatures()
     print(present_nomenclatures)
     used_nomenclatures = list_nomenclatures_usage()

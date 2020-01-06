@@ -7,26 +7,26 @@ from sqlalchemy.engine import Engine
 from sqlalchemy.exc import OperationalError
 from tableschema_sql import Storage
 
-from src.constants import SCHEMAS
+from src.constants import WORKING_DIR
 from src.utils import get_all_schema, is_running_in_docker
 
 START_POSTGRES_CONTAINER_IN_BACKGROUND = 'docker-compose up -d postgres'
 RUN_SCHEMACRAWLER_CONTAINER = 'docker-compose up schemacrawler'
 
 
-def generate_relational_diagram():
+def generate_relational_diagram(work_dir=WORKING_DIR):
     if is_running_in_docker():
         logging.info("Generate PostgreSQL tables within Docker")
-        generate_postgresql_tables_within_docker()
+        generate_postgresql_tables_within_docker(work_dir)
     else:
         logging.info("Generate relational diagram from host")
-        generate_relational_diagram_from_host()
+        generate_relational_diagram_from_host(work_dir)
 
 
-def generate_postgresql_tables_within_docker():
+def generate_postgresql_tables_within_docker(work_dir):
     engine = get_postgres_engine()
     if does_postgres_accept_connection(engine):
-        generate_postgresql_tables(engine)
+        generate_postgresql_tables(engine, work_dir)
         logging.info("Vous pouvez maintenant créer un diagramme relationnel avec la commande `{}`"
                      .format(RUN_SCHEMACRAWLER_CONTAINER))
     else:
@@ -35,10 +35,10 @@ def generate_postgresql_tables_within_docker():
                         .format(START_POSTGRES_CONTAINER_IN_BACKGROUND))
 
 
-def generate_postgresql_tables(engine: Engine) -> None:
+def generate_postgresql_tables(engine: Engine, work_dir) -> None:
     logging.info("Creation des tables correspondant au schéma relationnel du SNDS, "
                  "dans la base PostgreSQL exposée depuis un containeur Docker.")
-    schemas = get_all_schema(SCHEMAS)
+    schemas = get_all_schema(work_dir)
     schemas = [schema for schema in schemas if schema.descriptor["produit"] != "PMSI SSR"]
     storage = Storage(engine=engine)
     storage.create([schema.descriptor['name'] for schema in schemas],
@@ -46,7 +46,7 @@ def generate_postgresql_tables(engine: Engine) -> None:
                    force=True)
 
 
-def generate_relational_diagram_from_host():
+def generate_relational_diagram_from_host(work_dir):
     logging.info('Démarrage de PostgreSQL avec docker-compose')
     subprocess.run(START_POSTGRES_CONTAINER_IN_BACKGROUND.split())
 
@@ -54,7 +54,7 @@ def generate_relational_diagram_from_host():
     wait_for_postgres(engine)
     drop_all_tables_postgres(engine)
 
-    generate_postgresql_tables(engine)
+    generate_postgresql_tables(engine, work_dir)
 
     logging.info('Lancement de schemacrawler avec docker-compose, pour créer un diagramme relationnel')
     subprocess.run(RUN_SCHEMACRAWLER_CONTAINER.split())

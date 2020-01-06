@@ -1,16 +1,18 @@
 import logging
 import os
+import re
 import shlex
 import shutil
 import subprocess
 from os.path import join as pjoin
 from time import sleep
 from typing import List, Tuple
-import re
+
 import requests
 import unidecode
-from src.constants import ROOTED_BYPRODUCTS_DIR, BYPRODUCT_REPOSITORIES_DIR
+
 from src.byproducts.dico_snds import DICO_CSV_FILES
+from src.constants import WORKING_DIR, BYPRODUCTS_DIR, BYPRODUCT_REPOSITORIES_DIR
 from src.settings import GITLAB_TOKEN
 
 HDH_GITLAB_URL = 'https://gitlab.com/healthdatahub'
@@ -166,25 +168,27 @@ def update_remote_byproduct_repository(last_commit_id_str: str,
     os.chdir(current_dir)
 
 
-def get_byproduct_repository_dir(byproduct_repository):
-    return pjoin(BYPRODUCT_REPOSITORIES_DIR, byproduct_repository)
+def get_byproduct_repository_dir(byproduct_repository, work_dir=WORKING_DIR):
+    return pjoin(work_dir, BYPRODUCT_REPOSITORIES_DIR, byproduct_repository)
 
 
-def copy_file_to_byproduct_repository(source_file: str, byproduct_repository: str, target_file: str) -> None:
+def copy_file_to_byproduct_repository(source_file: str, byproduct_repository: str, target_file: str,
+                                      work_dir=WORKING_DIR) -> None:
     """
     Replace file in byproducts's repository local copy by source file.
     """
-    source_file_path = pjoin(ROOTED_BYPRODUCTS_DIR, byproduct_repository, source_file)
-    target_file_path = pjoin(BYPRODUCT_REPOSITORIES_DIR, byproduct_repository, target_file)
+    source_file_path = pjoin(work_dir, BYPRODUCTS_DIR, byproduct_repository, source_file)
+    target_file_path = pjoin(work_dir, BYPRODUCT_REPOSITORIES_DIR, byproduct_repository, target_file)
     shutil.copy(source_file_path, target_file_path)
 
 
-def copy_directory_to_byproduct_repository(source_dir: str, byproduct_repository: str, target_dir: str) -> None:
+def copy_directory_to_byproduct_repository(source_dir: str, byproduct_repository: str, target_dir: str,
+                                           work_dir=WORKING_DIR) -> None:
     """
     Erase target directory in byproduct's repository local copy. Replace it with source directory.
     """
-    source_dir_path = pjoin(ROOTED_BYPRODUCTS_DIR, byproduct_repository, source_dir)
-    target_dir_path = pjoin(BYPRODUCT_REPOSITORIES_DIR, byproduct_repository, target_dir)
+    source_dir_path = pjoin(work_dir, BYPRODUCTS_DIR, byproduct_repository, source_dir)
+    target_dir_path = pjoin(work_dir, BYPRODUCT_REPOSITORIES_DIR, byproduct_repository, target_dir)
     shutil.rmtree(target_dir_path, ignore_errors=True)
     shutil.copytree(source_dir_path, target_dir_path)
 

@@ -1,17 +1,20 @@
 import logging
 import os
+from os.path import join as pjoin
 from typing import List, Union, Tuple
 
 from tableschema import Schema
 
-from src.constants import ROOTED_SCHEMAS_DIR, NOMENCLATURES_DIR
+from src.constants import WORKING_DIR, SCHEMAS_DIR, NOMENCLATURES_DIR
 
 
-def get_all_schema(schemas_dir=ROOTED_SCHEMAS_DIR) -> List[Schema]:
-    return [Schema(schema_path) for schema_path in get_all_schema_path(schemas_dir)]
+def get_all_schema(work_dir=WORKING_DIR) -> List[Schema]:
+    return [Schema(schema_path) for schema_path in get_all_schema_path(work_dir)]
 
 
-def get_all_schema_path(schemas_dir=ROOTED_SCHEMAS_DIR) -> List[str]:
+def get_all_schema_path(work_dir=WORKING_DIR) -> List[str]:
+    schemas_dir = pjoin(work_dir, SCHEMAS_DIR)
+
     for root, dirs, files in os.walk(schemas_dir):
         dirs.sort()
         for file in sorted(files):
@@ -85,6 +88,7 @@ def add_foreign_key(schema: Schema, fields: Union[str, List[str]], referenced_ta
         foreign_key_descriptor['description'] = description
     schema.descriptor['foreignKeys'].append(foreign_key_descriptor)
     schema.commit(strict=True)
+
 
 if __name__ == '__main__':
     print(list(get_all_nomenclatures_csv_schema_path(NOMENCLATURES_DIR)))

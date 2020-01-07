@@ -7,14 +7,14 @@ from sqlalchemy.engine import Engine
 from sqlalchemy.exc import OperationalError
 from tableschema_sql import Storage
 
-from src.constants import WORKING_DIR
+from src.constants import ROOT_DIR
 from src.utils import get_all_schema, is_running_in_docker
 
 START_POSTGRES_CONTAINER_IN_BACKGROUND = 'docker-compose up -d postgres'
 RUN_SCHEMACRAWLER_CONTAINER = 'docker-compose up schemacrawler'
 
 
-def generate_relational_diagram(work_dir=WORKING_DIR):
+def generate_relational_diagram(work_dir):
     if is_running_in_docker():
         logging.info("Generate PostgreSQL tables within Docker")
         generate_postgresql_tables_within_docker(work_dir)
@@ -99,4 +99,4 @@ def does_postgres_accept_connection(engine: Engine) -> bool:
 
 
 if __name__ == '__main__':
-    generate_relational_diagram()
+    generate_relational_diagram(ROOT_DIR)

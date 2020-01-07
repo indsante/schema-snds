@@ -1,6 +1,8 @@
 import os
 from os.path import join as pjoin
 
+import pytest
+
 from src.byproducts.main import generate_byproducts
 from src.byproducts.update_byproducts_repositories import update_all_byproducts
 from src.constants import TESTS_DIR, ROOT_DIR, BYPRODUCTS_DIR
@@ -8,8 +10,11 @@ from src.constants import TESTS_DIR, ROOT_DIR, BYPRODUCTS_DIR
 EXPECTED_BYPRODUCTS_DIR = 'expected_byproducts'
 
 
-def test_generate_byproducts():
-    #generate_byproducts(False, ROOT_DIR)
+def test_generate_byproducts_root():
+    generate_byproducts(False, ROOT_DIR)
+
+
+def test_generate_byproducts_tests():
     generate_byproducts(False, TESTS_DIR)
 
 
@@ -27,5 +32,5 @@ def test_generated_byproducts_equal_files():
                 assert expected_line == actual_line
 
 
-def test_update_all_byproducs_pass():
-    update_all_byproducts(local=True)
+def test_update_all_byproducts_locally():
+    update_all_byproducts(local=True, work_dir=ROOT_DIR)

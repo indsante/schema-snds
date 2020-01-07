@@ -5,14 +5,14 @@ from typing import List, Union, Tuple
 
 from tableschema import Schema
 
-from src.constants import WORKING_DIR, SCHEMAS_DIR, NOMENCLATURES_DIR
+from src.constants import SCHEMAS_DIR, NOMENCLATURES_DIR
 
 
-def get_all_schema(work_dir=WORKING_DIR) -> List[Schema]:
+def get_all_schema(work_dir) -> List[Schema]:
     return [Schema(schema_path) for schema_path in get_all_schema_path(work_dir)]
 
 
-def get_all_schema_path(work_dir=WORKING_DIR) -> List[str]:
+def get_all_schema_path(work_dir) -> List[str]:
     schemas_dir = pjoin(work_dir, SCHEMAS_DIR)
 
     for root, dirs, files in os.walk(schemas_dir):

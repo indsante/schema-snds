@@ -1,6 +1,7 @@
 import logging
 import os
 import re
+from os.path import join as pjoin
 from pprint import pprint
 
 import pandas as pd
@@ -9,14 +10,14 @@ from goodtables import validate
 from tableschema import Schema
 
 from src.byproducts.main import generate_byproducts
-from src.constants import SCHEMAS_DIR, NOMENCLATURES_DIR, NO_NOMENCLATURE, TESTS_DIR
+from src.constants import NOMENCLATURES_DIR, NO_NOMENCLATURE, ROOT_DIR
 from src.utils import get_all_nomenclatures_csv_schema_path, get_all_nomenclatures_schema
 from src.utils import get_all_schema
 
 
-def list_nomenclatures_usage():
+def list_nomenclatures_usage(work_dir):
     used_nomenclatures = set()
-    for schema in get_all_schema():
+    for schema in get_all_schema(work_dir):
         for field in schema.fields:
             nomenclature = field.descriptor['nomenclature']
             if nomenclature != NO_NOMENCLATURE:
@@ -24,25 +25,25 @@ def list_nomenclatures_usage():
     return used_nomenclatures
 
 
-def list_present_nomenclatures():
+def list_present_nomenclatures(work_dir):
     present_nomenclatures_files = []
-    for root, dirs, files in os.walk(NOMENCLATURES_DIR):
+    for root, dirs, files in os.walk(pjoin(work_dir, NOMENCLATURES_DIR)):
         present_nomenclatures_files += files
     present_nomenclatures = [re.sub('.csv$', '', nom) for nom in present_nomenclatures_files]
     return present_nomenclatures
 
 
 def test_nomenclatures_list():
-    nomenclature_list = list_present_nomenclatures()
-    assert nomenclature_list
-    assert len(nomenclature_list) == len(set(nomenclature_list))
+    nomenclature_list = list_present_nomenclatures(ROOT_DIR)
+    assert nomenclature_list, "No nomenclatures"
+    assert len(nomenclature_list) == len(set(nomenclature_list)), "There are duplicate nomenclatures"
 
 
 def test_nomenclature_presence():
-    generate_byproducts(False, TESTS_DIR)
-    present_nomenclatures = list_present_nomenclatures()
+    generate_byproducts(False, ROOT_DIR)
+    present_nomenclatures = list_present_nomenclatures(ROOT_DIR)
     print(present_nomenclatures)
-    used_nomenclatures = list_nomenclatures_usage()
+    used_nomenclatures = list_nomenclatures_usage(ROOT_DIR)
     nomenclatures_difference = list(set(used_nomenclatures) - set(present_nomenclatures))
     if len(nomenclatures_difference) != 0:
         logging.error(
@@ -89,7 +90,7 @@ def test_nomenclature_primary_keys_is_unique(nomenclature_path, schema_path):
 
 
 # TODO
-@pytest.mark.xfail(reason="To be done")
+@pytest.mark.xfail(reason="Adding title should be done but is not finished")
 @pytest.mark.parametrize('schema', get_all_nomenclatures_schema(NOMENCLATURES_DIR))
 def test_nomenclature_have_title(schema):
     """

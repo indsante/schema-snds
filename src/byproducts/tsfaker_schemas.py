@@ -15,16 +15,16 @@ from typing import Dict
 
 from tableschema import Schema
 
-from src.constants import WORKING_DIR, NO_NOMENCLATURE, SCHEMAS_DIR, NOMENCLATURES_DIR, SCHEMAS_SYNTHETIC_SNDS_DIR, \
-    NOMENCLATURES_SYNTHETIC_SNDS_DIR
+from src.constants import NO_NOMENCLATURE, SCHEMAS_DIR, NOMENCLATURES_DIR, SCHEMAS_SYNTHETIC_SNDS_DIR, \
+    NOMENCLATURES_SYNTHETIC_SNDS_DIR, ROOT_DIR
 from src.constants import STRING, NUMBER, INTEGER, TYPE_CSV
 from src.utils import get_all_schema_path, get_all_nomenclatures_schema
 
 
-def generate_synthetic_snds(work_dir=WORKING_DIR):
+def generate_synthetic_snds(work_dir):
     rooted_schemas_synthetic_snds_dir = pjoin(work_dir, SCHEMAS_SYNTHETIC_SNDS_DIR)
 
-    generate_tsfaker_schemas(rooted_schemas_synthetic_snds_dir)
+    generate_tsfaker_schemas(rooted_schemas_synthetic_snds_dir, work_dir)
     copy_nomenclatures_for_tsfaker(work_dir)
     run_tsfaker(rooted_schemas_synthetic_snds_dir)
 
@@ -56,12 +56,12 @@ def copy_nomenclatures_for_tsfaker(work_dir):
     shutil.copytree(rooted_nomenclatures_dir, rooted_nomenclatures_synthetic_snds_dir)
 
 
-def generate_tsfaker_schemas(rooted_schemas_synthetic_snds_dir):
+def generate_tsfaker_schemas(rooted_schemas_synthetic_snds_dir, work_dir):
     logging.info("Build standard tables schemas for tsfaker in directory '{}'"
                  .format(rooted_schemas_synthetic_snds_dir))
     nomenclature_to_fk_reference = build_nomenclature_to_foreign_keys_reference()
 
-    for source_schema_path in get_all_schema_path():
+    for source_schema_path in get_all_schema_path(work_dir):
         schema = Schema(source_schema_path)
         replace_length_by_bounds_and_number_by_integer(schema)
         replace_nomenclatures_by_foreign_key_reference(schema, nomenclature_to_fk_reference)
@@ -143,4 +143,4 @@ def build_nomenclature_to_foreign_keys_reference() -> Dict[str, dict]:
 
 
 if __name__ == '__main__':
-    generate_synthetic_snds()
+    generate_synthetic_snds(ROOT_DIR)

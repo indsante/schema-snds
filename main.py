@@ -2,6 +2,7 @@
 import argparse
 import logging
 
+from src.constants import ROOT_DIR
 from src.byproducts.main import generate_byproducts
 from src.byproducts.update_byproducts_repositories import update_all_byproducts
 from src.utils import get_logging_level_value
@@ -28,7 +29,7 @@ if __name__ == '__main__':
                         datefmt='%Y-%m-%d %H:%M:%S',
                         )
 
-    generate_byproducts(args.generate_erd)
+    generate_byproducts(args.generate_erd, ROOT_DIR)
 
     if args.update or args.local:
-        update_all_byproducts(args.local)
+        update_all_byproducts(args.local, ROOT_DIR)

@@ -12,7 +12,7 @@ import requests
 import unidecode
 
 from src.byproducts.dico_snds import DICO_CSV_FILES
-from src.constants import WORKING_DIR, BYPRODUCTS_DIR, BYPRODUCT_REPOSITORIES_DIR
+from src.constants import BYPRODUCTS_DIR, BYPRODUCT_REPOSITORIES_DIR
 from src.settings import GITLAB_TOKEN
 
 HDH_GITLAB_URL = 'https://gitlab.com/healthdatahub'
@@ -20,7 +20,7 @@ GITLAB_COM_API_V4 = 'https://gitlab.com/api/v4'
 LIST_TUPLE_STR_STR = List[Tuple[str, str]]
 
 
-def update_all_byproducts(local) -> None:
+def update_all_byproducts(local, work_dir) -> None:
     if not local and GITLAB_TOKEN is None:
         raise Exception("GITLAB TOKEN is not set. This is expected, if we are not executing on GitLab-CI runners, "
                         "for protected branches. Exiting, as we cannot automatically update byproducts.")
@@ -35,6 +35,7 @@ def update_all_byproducts(local) -> None:
         local_to_byproduct_files=[],
         last_commit_id_str=last_commit_id_str,
         byproduct_project_id=11935953,
+        work_dir=work_dir,
         automatic_merge=True,
         local=local)
 
@@ -46,6 +47,7 @@ def update_all_byproducts(local) -> None:
         local_to_byproduct_files=[(csv_file, pjoin('app', 'app_data', csv_file)) for csv_file in DICO_CSV_FILES],
         last_commit_id_str=last_commit_id_str,
         byproduct_project_id=11925754,
+        work_dir=work_dir,
         automatic_merge=True,
         local=local)
 
@@ -58,6 +60,7 @@ def update_all_byproducts(local) -> None:
         local_to_byproduct_files=[],
         last_commit_id_str=last_commit_id_str,
         byproduct_project_id=14595304,
+        work_dir=work_dir,
         automatic_merge=True,
         local=local)
 
@@ -85,8 +88,9 @@ def update_byproduct_repository(byproduct_repository: str,
                                 local_to_byproduct_files: LIST_TUPLE_STR_STR,
                                 last_commit_id_str: str,
                                 byproduct_project_id: int,
+                                work_dir: str,
                                 automatic_merge: bool = False,
-                                local: bool = False) -> int:
+                                local: bool = False, ) -> int:
     """
     Update byproduct repository with byproducts generated with current schema
 
@@ -100,20 +104,20 @@ def update_byproduct_repository(byproduct_repository: str,
     """
     logging.info("Mise à jour du dépôt '{}' avec la version courante du schéma".format(byproduct_repository))
     try:
-        clone_byproduct_repository(byproduct_repository, local)
+        clone_byproduct_repository(byproduct_repository, local, work_dir)
         update_local_byproduct_repository(byproduct_repository, local_to_byproduct_directories,
-                                          local_to_byproduct_files)
+                                          local_to_byproduct_files, work_dir)
         if not local:
             update_remote_byproduct_repository(last_commit_id_str, byproduct_repository, byproduct_project_id,
-                                               automatic_merge)
+                                               automatic_merge, work_dir)
         return 0
     except Exception as e:
         logging.error(e)
         return 1
 
 
-def clone_byproduct_repository(byproduct_repository, local):
-    byproduct_repository_dir = get_byproduct_repository_dir(byproduct_repository)
+def clone_byproduct_repository(byproduct_repository, local, work_dir):
+    byproduct_repository_dir = get_byproduct_repository_dir(byproduct_repository, work_dir)
     if local:
         gitlab_user_token = ''
     else:
@@ -136,21 +140,23 @@ def clone_byproduct_repository(byproduct_repository, local):
 
 def update_local_byproduct_repository(byproduct_repository: str,
                                       local_to_byproduct_directories: LIST_TUPLE_STR_STR,
-                                      local_to_byproduct_files: LIST_TUPLE_STR_STR) -> None:
+                                      local_to_byproduct_files: LIST_TUPLE_STR_STR,
+                                      work_dir: str) -> None:
     logging.info("Copie des fichiers et dossiers générés vers la version locale du dépôt '{}'".format(
-        get_byproduct_repository_dir(byproduct_repository)))
+        get_byproduct_repository_dir(byproduct_repository, work_dir)))
     for source_dir, target_dir in local_to_byproduct_directories:
-        copy_directory_to_byproduct_repository(source_dir, byproduct_repository, target_dir)
+        copy_directory_to_byproduct_repository(source_dir, byproduct_repository, target_dir, work_dir)
     for source_file, target_file in local_to_byproduct_files:
-        copy_file_to_byproduct_repository(source_file, byproduct_repository, target_file)
+        copy_file_to_byproduct_repository(source_file, byproduct_repository, target_file, work_dir)
 
 
 def update_remote_byproduct_repository(last_commit_id_str: str,
                                        byproduct_repository: str,
                                        byproduct_project_id: int,
-                                       automatic_merge: bool):
+                                       automatic_merge: bool,
+                                       work_dir: str):
     current_dir = os.getcwd()
-    os.chdir(get_byproduct_repository_dir(byproduct_repository))
+    os.chdir(get_byproduct_repository_dir(byproduct_repository, work_dir))
     if not exec_terminal("git status --porcelain"):
         logging.info("Pas de différence entre le dépôt '{}' et le schéma courant.".format(byproduct_repository))
     else:
@@ -168,12 +174,12 @@ def update_remote_byproduct_repository(last_commit_id_str: str,
     os.chdir(current_dir)
 
 
-def get_byproduct_repository_dir(byproduct_repository, work_dir=WORKING_DIR):
+def get_byproduct_repository_dir(byproduct_repository, work_dir):
     return pjoin(work_dir, BYPRODUCT_REPOSITORIES_DIR, byproduct_repository)
 
 
 def copy_file_to_byproduct_repository(source_file: str, byproduct_repository: str, target_file: str,
-                                      work_dir=WORKING_DIR) -> None:
+                                      work_dir: str) -> None:
     """
     Replace file in byproducts's repository local copy by source file.
     """
@@ -183,7 +189,7 @@ def copy_file_to_byproduct_repository(source_file: str, byproduct_repository: st
 
 
 def copy_directory_to_byproduct_repository(source_dir: str, byproduct_repository: str, target_dir: str,
-                                           work_dir=WORKING_DIR) -> None:
+                                           work_dir: str) -> None:
     """
     Erase target directory in byproduct's repository local copy. Replace it with source directory.
     """

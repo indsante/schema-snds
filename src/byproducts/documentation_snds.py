@@ -3,11 +3,11 @@ import os
 
 import table_schema_to_markdown
 
-from src.constants import WORKING_DIR, SCHEMAS_DIR, MARKDOWN_DIR
+from src.constants import ROOT_DIR, SCHEMAS_DIR, MARKDOWN_DIR
 from src.utils import get_all_schema_path
 
 
-def generate_documentation_snds(work_dir=WORKING_DIR) -> None:
+def generate_documentation_snds(work_dir) -> None:
     logging.info("Génération des fichiers markdown pour la documentation VuePress")
     logging.getLogger('table_schema_to_markdown').setLevel(logging.WARNING)
     for schema_path in get_all_schema_path(work_dir):
@@ -18,4 +18,4 @@ def generate_documentation_snds(work_dir=WORKING_DIR) -> None:
 
 
 if __name__ == '__main__':
-    generate_documentation_snds()
+    generate_documentation_snds(ROOT_DIR)

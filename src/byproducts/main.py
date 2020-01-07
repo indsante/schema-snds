@@ -6,10 +6,10 @@ from src.byproducts.dico_snds import generate_dico_snds
 from src.byproducts.documentation_snds import generate_documentation_snds
 from src.byproducts.relational_diagram import generate_relational_diagram
 from src.byproducts.tsfaker_schemas import generate_synthetic_snds
-from src.constants import WORKING_DIR, BYPRODUCTS_DIR
+from src.constants import BYPRODUCTS_DIR
 
 
-def generate_byproducts(generate_erd=False, work_dir=WORKING_DIR):
+def generate_byproducts(generate_erd, work_dir):
     rooted_byproducts_dir = pjoin(work_dir, BYPRODUCTS_DIR)
 
     logging.info("Suppression du dossier '{}' contenant les produits dérivés.".format(rooted_byproducts_dir))

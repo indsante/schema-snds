@@ -2,8 +2,6 @@ from collections import defaultdict
 from os import getcwd
 from os.path import join as pjoin
 
-from src.settings import RUNNING_TEST
-
 # Table schema extra keys
 OBSERVATION = "observation"
 CHAMP = "champ"
@@ -28,13 +26,7 @@ PRODUCT_TO_GROUP['PMSI RIM-P'] = PMSI
 PRODUCT_TO_GROUP['PMSI SSR'] = PMSI
 
 TESTS_DIR = 'tests'
-
-# Root directory is used to read schemas and generate them in TESTS_DIR while running tests
 ROOT_DIR = getcwd()
-WORKING_DIR = ROOT_DIR
-if RUNNING_TEST:
-    WORKING_DIR = TESTS_DIR
-
 
 DATA = 'data'
 BYPRODUCT_REPOSITORIES_DIR = pjoin(DATA, 'byproducts_repositories')

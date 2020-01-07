@@ -1,18 +1,21 @@
 import os
+from os.path import join as pjoin
 
 from src.byproducts.main import generate_byproducts
 from src.byproducts.update_byproducts_repositories import update_all_byproducts
-from src.constants import BYPRODUCTS_DIR, ROOTED_BYPRODUCTS_DIR
+from src.constants import TESTS_DIR, ROOT_DIR, BYPRODUCTS_DIR
 
 EXPECTED_BYPRODUCTS_DIR = 'expected_byproducts'
 
 
 def test_generate_byproducts():
-    generate_byproducts()
+    #generate_byproducts(False, ROOT_DIR)
+    generate_byproducts(False, TESTS_DIR)
 
 
 def test_generated_byproducts_equal_files():
-    for root, dirs, files in os.walk(ROOTED_BYPRODUCTS_DIR):
+    rooted_byproducts_dir = pjoin(TESTS_DIR, BYPRODUCTS_DIR)
+    for root, dirs, files in os.walk(rooted_byproducts_dir):
         for file in files:
             actual_file_path = os.path.join(root, file)
             expected_file_path = actual_file_path.replace(BYPRODUCTS_DIR, EXPECTED_BYPRODUCTS_DIR)

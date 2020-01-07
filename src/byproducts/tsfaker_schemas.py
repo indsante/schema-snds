@@ -10,23 +10,26 @@ import logging
 import os
 import shutil
 import subprocess
+from os.path import join as pjoin
 from typing import Dict
 
 from tableschema import Schema
 
-from src.constants import NO_NOMENCLATURE, ROOTED_SCHEMAS_DIR, ROOTED_NOMENCLATURES_DIR, NOMENCLATURES_DIR, \
-    SCHEMAS_SYNTHETIC_SNDS_DIR, NOMENCLATURES_SYNTHETIC_SNDS_DIR
+from src.constants import WORKING_DIR, NO_NOMENCLATURE, SCHEMAS_DIR, NOMENCLATURES_DIR, SCHEMAS_SYNTHETIC_SNDS_DIR, \
+    NOMENCLATURES_SYNTHETIC_SNDS_DIR
 from src.constants import STRING, NUMBER, INTEGER, TYPE_CSV
 from src.utils import get_all_schema_path, get_all_nomenclatures_schema
 
 
-def generate_synthetic_snds():
-    generate_tsfaker_schemas()
-    copy_nomenclatures_for_tsfaker()
-    run_tsfaker()
+def generate_synthetic_snds(work_dir=WORKING_DIR):
+    rooted_schemas_synthetic_snds_dir = pjoin(work_dir, SCHEMAS_SYNTHETIC_SNDS_DIR)
+
+    generate_tsfaker_schemas(rooted_schemas_synthetic_snds_dir)
+    copy_nomenclatures_for_tsfaker(work_dir)
+    run_tsfaker(rooted_schemas_synthetic_snds_dir)
 
 
-def run_tsfaker():
+def run_tsfaker(rooted_schemas_synthetic_snds_dir):
     tsfaker_cmd = "tsfaker {schemas_dir} " \
                   "--resources {nomenclatures} " \
                   "--output {fake_dir} " \
@@ -34,26 +37,28 @@ def run_tsfaker():
                   "--overwrite  " \
                   "--limit-fk 10 " \
                   "--logging-level WARNING" \
-        .format(schemas_dir=SCHEMAS_SYNTHETIC_SNDS_DIR,
+        .format(schemas_dir=rooted_schemas_synthetic_snds_dir,
                 nomenclatures=NOMENCLATURES_DIR,
-                fake_dir=SCHEMAS_SYNTHETIC_SNDS_DIR)
+                fake_dir=rooted_schemas_synthetic_snds_dir)
     logging.info("Use tsfaker to generate fake data.")
     logging.info("Command used: '{}'".format(tsfaker_cmd))
-    os.makedirs(SCHEMAS_SYNTHETIC_SNDS_DIR, exist_ok=True)
+    os.makedirs(rooted_schemas_synthetic_snds_dir, exist_ok=True)
     subprocess.run(tsfaker_cmd.split())
 
 
-def copy_nomenclatures_for_tsfaker():
+def copy_nomenclatures_for_tsfaker(work_dir):
+    rooted_nomenclatures_dir = pjoin(work_dir, NOMENCLATURES_DIR)
+    rooted_nomenclatures_synthetic_snds_dir = pjoin(work_dir, NOMENCLATURES_SYNTHETIC_SNDS_DIR)
     logging.info("Copy nomenclatures for tsfaker in directory '{}'"
-                 .format(NOMENCLATURES_SYNTHETIC_SNDS_DIR))
-    if os.path.exists(NOMENCLATURES_SYNTHETIC_SNDS_DIR):
-        shutil.rmtree(NOMENCLATURES_SYNTHETIC_SNDS_DIR)
-    shutil.copytree(ROOTED_NOMENCLATURES_DIR, NOMENCLATURES_SYNTHETIC_SNDS_DIR)
+                 .format(rooted_nomenclatures_synthetic_snds_dir))
+    if os.path.exists(rooted_nomenclatures_synthetic_snds_dir):
+        shutil.rmtree(rooted_nomenclatures_synthetic_snds_dir)
+    shutil.copytree(rooted_nomenclatures_dir, rooted_nomenclatures_synthetic_snds_dir)
 
 
-def generate_tsfaker_schemas():
+def generate_tsfaker_schemas(rooted_schemas_synthetic_snds_dir):
     logging.info("Build standard tables schemas for tsfaker in directory '{}'"
-                 .format(SCHEMAS_SYNTHETIC_SNDS_DIR))
+                 .format(rooted_schemas_synthetic_snds_dir))
     nomenclature_to_fk_reference = build_nomenclature_to_foreign_keys_reference()
 
     for source_schema_path in get_all_schema_path():
@@ -62,7 +67,7 @@ def generate_tsfaker_schemas():
         replace_nomenclatures_by_foreign_key_reference(schema, nomenclature_to_fk_reference)
         schema.commit(strict=True)
 
-        target_schema_path = source_schema_path.replace(ROOTED_SCHEMAS_DIR, SCHEMAS_SYNTHETIC_SNDS_DIR)
+        target_schema_path = source_schema_path.replace(SCHEMAS_DIR, SCHEMAS_SYNTHETIC_SNDS_DIR)
         schema.save(target_schema_path, ensure_ascii=False)
 
 
@@ -76,7 +81,7 @@ def replace_length_by_bounds_and_number_by_integer(schema):
             continue
 
         if ',' in length:
-            assert tstype == NUMBER, "field '{}' of schema '{}' is of lenght '{}' and type '{}'"\
+            assert tstype == NUMBER, "field '{}' of schema '{}' is of lenght '{}' and type '{}'" \
                 .format(field.name, schema.descriptor["name"], length, tstype)
             length, decimals = length.split(',')
             assert schema.update_field(field.name,
@@ -88,7 +93,7 @@ def replace_length_by_bounds_and_number_by_integer(schema):
         if tstype == STRING:
             assert schema.update_field(field.name, {'constraints': {'maximum': length}})
         if tstype == NUMBER:
-            assert length <= 19, "field '{}' of schema '{}' is of length '{}', bigger than maximal value of 19"\
+            assert length <= 19, "field '{}' of schema '{}' is of length '{}', bigger than maximal value of 19" \
                 .format(field.name, schema.descriptor["name"], length)
             assert schema.update_field(field.name,
                                        {TYPE_CSV: INTEGER, 'constraints': {'minimum': 0, 'maximum': 10 ** length}})

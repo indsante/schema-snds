@@ -1,8 +1,6 @@
 import os
 from os.path import join as pjoin
 
-import pytest
-
 from src.byproducts.main import generate_byproducts
 from src.byproducts.update_byproducts_repositories import update_all_byproducts
 from src.constants import TESTS_DIR, ROOT_DIR, BYPRODUCTS_DIR

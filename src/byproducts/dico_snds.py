@@ -68,7 +68,7 @@ def cp_nomenclatures(work_dir):
         rooted_nomenclatures_dir,
         rooted_nomenclatures_dico_snds_dir
     ))
-    os.makedirs(rooted_nomenclatures_dico_snds_dir)
+    os.makedirs(rooted_nomenclatures_dico_snds_dir, exist_ok=True)
     for root, dirs, files in os.walk(rooted_nomenclatures_dir):
         for file in files:
             source_file_path = pjoin(root, file)
@@ -145,8 +145,13 @@ def table_schema_to_snds_variables(work_dir):
                           DATE_SUPRESSION, DATES_MANQUANTES])
     df = df.sort_values([
         # dico_produit,
-        'table', DICO_VARIABLE])
+        'table',
+        # DICO_VARIABLE
+    ],
+        kind="mergesort"  # Do not loose original variables order while sorting
+    )
     snds_variable_path = pjoin(work_dir, DICO_SNDS_DIR, DICO_VARIABLES_CSV)
+    print(snds_variable_path)
     df.to_csv(snds_variable_path, index=False)
 
 
@@ -237,4 +242,5 @@ def create_join_str(source_fields: Union[str, List[str]], referenced_fields: Uni
 
 
 if __name__ == '__main__':
-    generate_dico_snds(ROOT_DIR)
+    table_schema_to_snds_variables(ROOT_DIR)
+    # generate_dico_snds(ROOT_DIR)

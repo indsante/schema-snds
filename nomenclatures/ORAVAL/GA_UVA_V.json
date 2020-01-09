@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "VCC_USI_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "VCC_USI_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "GA_UVA_V",
+    "title": "Code usine vaccin",
+    "primaryKey": [
+        "VCC_USI_COD"
+    ]
+}

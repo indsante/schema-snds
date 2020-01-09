@@ -1,0 +1,20 @@
+CPT_CMU_COD;CPT_CMH_COD;CPT_CMU_LIB;TEC_COL
+1A1;1A;Honoraires des généralistes;0
+1A2;1A;Honoraires des specialistes;0
+1A3;1A;Honoraires paramédicaux;0
+1B;1B;Honoraires dentaires;0
+1C;1C;Honoraires paramédicaux;0
+1D;1D;Honoraires du secteur public;0
+1E1;1E;Médicaments;0
+1E2;1E;Dispositifs médicaux;0
+1F;1F;Frais d'analyse et de biologie;0
+1G;1G;Frais de transport;0
+1H;1H;Prestations hospitalières;0
+1I;1I;Autres prestations;0
+2;2;Forfait journalier;0
+3A;3A;Forfaits prothèses dentaires;0
+3B;3B;Forfaits orthodontie;0
+3C;3C;Forfaits optique médicale;0
+3D;3D;Forfaits prothèses auditives;0
+3E;3E;Autres soins;0
+999;99;Valeur inconnue;1

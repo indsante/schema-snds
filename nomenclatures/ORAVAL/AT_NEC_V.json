@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "NEC_ELE_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "NEC_ELE_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_NEC_V",
+    "title": "code élément contesté",
+    "primaryKey": [
+        "NEC_ELE_COD"
+    ]
+}

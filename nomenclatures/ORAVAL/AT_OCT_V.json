@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "CTX_ORI_CTN",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "CTX_ORI_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_OCT_V",
+    "title": "origine de la contestation",
+    "primaryKey": [
+        "CTX_ORI_CTN"
+    ]
+}

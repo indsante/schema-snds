@@ -1,0 +1,56 @@
+CPT_LLD_COD;CPT_GLF_COD;CPT_LLD_LIB;TEC_COL
+21H1;21H;Prestations ASS;0
+11A1;11A;Honoraires Medicaux des omnipraticiens;0
+11A2;11A;Honoraires Medicaux des specialistes;0
+11A3;11A;Honoraires Medicaux des sages-femmes;0
+11B1;11B;Honoraires Paramedicaux Infirmiers;0
+11B2;11B;Honoraires Paramedicaux Masseurs Kinesitherapeutes;0
+11B3;11B;Honoraires Paramedicaux Orthophonistes;0
+11B4;11B;Honoraires Paramedicaux Orthoptistes;0
+11B5;11B;Honoraires Paramedicaux Pedicures;0
+11B6;11B;Honoraires Paramedicaux Sages-femmes;0
+11C1;11C;Honoraires dentaires des omnipraticiens;0
+11C2;11C;Honoraires dentaires des specialistes;0
+11D1;11D;Honoraires du secteur public;0
+11G1;11G;Forfaits option et contrat conv.;0
+11H1;11H;Honoraires Autres professionnels;0
+11J1;11J;Actes de laboratoire OQN - Biologie;0
+11J2;11J;Actes de laboratoire hors OQN (dont Prelevements);0
+11J3;11J;Actes  Hors OQN   des Directeurs de laboratoire;0
+11K1;11K;Medicaments;0
+11L1;11L;Produits humains - OQN Cliniques privees;0
+11L2;11L;Produits humains - Hors OQN;0
+11M1;11M;Appareils et materiels de traitement;0
+11N1;11N;Optique medicale;0
+11P1;11P;Ortheses et protheses externes - OQN Cliniques privees;0
+11P2;11P;Ortheses et protheses externes - Hors OQN;0
+11Q1;11Q;Protheses internes - OQN Cliniques privees;0
+11Q2;11Q;Protheses internes - Hors OQN;0
+11R1;11R;Vehicules pour handicapes physiques;0
+11S1;11S;Autres frais;0
+11T1;11T;Transports;0
+11U1;11U;Cures thermales;0
+11U2;11U;autres Prestations en nature - Autres;0
+11V1;11V;Prestations en especes;0
+12A1;12A;Dotation globale;0
+12A2;12A;Autres frais d'hospitalisation Publique;0
+12A3;12A;Honoraires du secteur public;0
+12A4;12A;Remboursement IVG a l'acte - Etablissements publics I.V.G.;0
+12B1;12B;Enfance inadaptee;0
+12B2;12B;Adultes Handicapes;0
+12B3;12B;Et. d'hebergement Personnes agees (medicalisation);0
+12B4;12B;Autres Prestations Personnes agees;0
+12B5;12B;Services de soins a domicile;0
+12B6;12B;Centres d'action medico-sociale precoce;0
+12B8;12B;Autres Prestations medico-sociales;0
+12C1;12C;Cliniques privees sous OQN hors consommations intermediaires;0
+12C2;12C;Cliniques privees Hors OQN;0
+12C3;12C;Remboursement IVG a l'acte - Cliniques privees - I.V.G.;0
+12C4;12C;Cliniques privees sous OQN - Urgence;0
+12D1;12D;Experimentations;0
+21A1;21A;Prestations Maternite en especes;0
+21B1;21B;Incapacite permanente;0
+21C1;21C;Autres charges techniques AT;0
+21D1;21D;Prestations Invalidite;0
+21G1;21G;Prestations Deces;0
+9999;999;Valeur inconnue;1

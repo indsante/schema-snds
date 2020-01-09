@@ -1,0 +1,5 @@
+RAT_DOS_ETA;DOS_ETA_LIB;TEC_COL
+0;ni suspendu, ni clôturé;0
+1;supendu;0
+2;cloturé;0
+9;Inconnu;1

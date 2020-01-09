@@ -1,0 +1,34 @@
+{
+    "fields": [
+        {
+            "name": "GEO_REG_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "GEO_PAY_COD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GEO_REG_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_REG_V",
+    "title": "Région ( anciens et nouveaux libellés )",
+    "primaryKey": [
+        "GEO_REG_COD"
+    ]
+}

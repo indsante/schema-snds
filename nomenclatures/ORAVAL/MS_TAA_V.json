@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "ACT_AUT_TYP",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "ACT_AUT_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "MS_TAA_V",
+    "title": "Table des Types d'activités autorisées",
+    "primaryKey": [
+        "ACT_AUT_TYP"
+    ]
+}

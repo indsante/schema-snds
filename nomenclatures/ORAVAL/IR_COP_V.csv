@@ -1,0 +1,1686 @@
+CPT_COP_NUM;CPT_LFS_COD;CPT_COP_LIB;TEC_COL
+656121115;;Prest. AT-MP - Honoraires dentaires;0
+656121116;11D11;Prest. AT-MP - Honoraires du secteur public;0
+65612111741;;Prestations AT/MP - Contrats de bonne pratique;0
+65612111742;;Prestations AT/MP - Contrats de santé publique;0
+65612111743;;Prestations AT/MP - Accords de bon usage des soins;0
+65612111748;;Prestations AT/MP - Autres contrats;0
+6561211174;;Prestations AT/MP - Contrats conventionnels;0
+65612111761;11D11;Prest.AT-MP -Gardes en établissements;0
+65612111762;11D11;Prest.AT-MP -Astreintes en établissements;0
+65612111763;11D11;Prest.AT/MP -Astreintes en ville;0
+65612111767;11D11;Prest.AT/MP -Régulation;0
+65612111;;Prest. AT-MP  - Honoraires;0
+6561211211;11J11;Prest. AT-MP -Actes de labo. effectués par les laboratoires;0
+6561211212;11J12;Prest. AT-MP -Actes de labo. effectués par les pharmacies;0
+6561211213;11J13;Prest. AT-MP -Actes de labo. effectués par centres de santé;0
+656121121;;Prest. AT-MP -  Actes de laboratoire hors prélèvements;0
+656121122;11J21;Prest. AT-MP -Actes de labo. - prélèvements;0
+656121123;11J31;Prest. AT-MP - Actes des Directeurs de laboratoire;0
+65612112;;Prest. AT-MP - Biologie et prélèvements;0
+65612113;11K11;Prest. AT-MP - Médicaments;0
+6561211411;11L11;Prest. AT-MP - Produits humains - OQN Cliniques privées;0
+6561211412;11L21;Prest. AT-MP - Produits humains - Hors OQN;0
+656121141;;Prest. AT-MP - Produits humains;0
+656121142;11M11;Prest. AT-MP - Appareils et matériels de traitement;0
+656121143;11N11;Prest. AT-MP - Optique médicale;0
+6561211441;11P11;Prest. AT-MP -Orth & Proth externes - OQN Cliniques privées;0
+6561211442;11P21;Prest. AT-MP -Orth & Proth externes - Hors OQN;0
+656121144;;Prest. AT-MP -Orth & Proth externes;0
+6561211451;11Q11;Prest. AT-MP - Prothèses internes - OQN Cliniques privées;0
+6561111761;11D11;Prest.Mal. -Astreintes - omnipraticiens;0
+6561111762;11D11;Prest.Mal. -Astreintes - spécialistes;0
+65611117;11V11;Prest. Mal. -prest. en espèces;0
+6561111;;Prest. Mal. exécutées en ville;0
+6561112111;12A11;Prest. Mal. - Dotation globale - Ch. de l'ex.;0
+6561112112;12A11;Prest. Mal. - Dotation globale - Ch. exercice précédent;0
+65611121131;12A11;USLD - Dotation globale - Ch. de l'ex.;0
+65611121132;12A11;USLD - Dotation globale - Ch. de l'ex. précédent;0
+6561112113;;USLD - Dotation globale;0
+65611121141;12B31;USLD - EHPAD - Ch. de l'ex.;0
+65611121142;12B31;USLD - EHPAD - Ch. de l'ex. précédent;0
+6561112114;;USLD - EHPAD;0
+656111211;;Prest. Mal. - Dotation globale;0
+656111212;12A21;Prest. Mal. - Autres frais d'hospit. Publique;0
+656111213;12A31;Prest. Mal. - Honoraires du secteur public;0
+656111214;;Prest. Mal. - Forfaits journaliers CMU / AME;0
+656111215;12A41;Prest. Mal. - Rembrst IVG à l'acte - Ets publics - I.V.G.;0
+65611121;;Prest. Mal. - Ets sanitaires;0
+656111221;12B11;Prest. Mal. - Enfance inadaptée;0
+656111222;12B21;Prest. Mal. - Adultes Handicapés;0
+6561112231;12B31;Médicalisation - EHPA;0
+6561112232;12B31;Médicalisation - EHPAD;0
+656111223;;Prest. Mal. - Et. d'hébergement Pers. âgées (médicalisation);0
+656111224;12B41;Prest. Mal. - Autres Prest.Pers. Âgées;0
+656111225;12B51;Prest. Mal. - Services de soins infirmiers à dom.;0
+656111226;12B61;Prest. Mal.-Centre d'act. méd-soc préco (enfants de - 6 ans);0
+6561112271;12B81;Prest. Mal. - Centres de Cure Ambulatoire en Alcoologie;0
+6561112272;12B81;Prest. Mal. -Svces d'éduc spé et soins à dom. ( 6 à 16 ans);0
+656111227;;Prest. Mal. - Autres Ets médico-sociaux;0
+656111228;12B81;Prest. Mal. - Autres Prest. médico-sociales;0
+65611122;;Prest. Mal. - Ets médico-sociaux;0
+6561112311;12C11;Prest.Mal. -Clin. priv. sous  OQN  Prest.hosp. -Chirurgie;0
+6561112312;12C11;Prest.Mal.-Clin. priv. sous  OQN -Prest.hosp. - Médecine;0
+6561112313;12C11;Prest.Mal. -Clin. priv. sous  OQN - Prest.hosp. -Gyné.;0
+6561112314;12C11;Prest.Mal. -Clin. priv. sous  OQN - Prest.hosp. -Moyen séj;0
+6561112315;12C11;Prest.Mal. -Clin. priv. sous  OQN - Prest.hosp. -Psy.;0
+65611123161;12C11;Prest.Mal-Hospit.Clin privées- TAA;0
+65611123162;12C11;Prest.Mal-Hospit.à dom.- TAA;0
+656111231631;12C11;PREST.Mal - Clinique privée passage aux Urgence - TAA;0
+656111231632;12C11;PREST.Mal - Clinique privée Forfait Annuel d'Urgence - TAA;0
+65611123163;12C11;Prest.Mal.  - Clinique privée Urgence - TAA;0
+65611123164;12C11;Prest.Mal.  - Dialyse - TAA;0
+65611123165;;Prest.Mal.  - prélèvements d'organes - TAA;0
+65611123166;;Prest.Mal.  - IVG - TAA;0
+65611123167;;Prest.Mal.  - médicaments facturés en sus - TAA;0
+65611123168;;Prest.Mal.  - dispositifs médicaux facturés en sus - TAA;0
+65612123167;;Prest.AT-MP - médicaments facturés en sus - TAA;0
+65612123168;;Prest. AT-MP - dispositifs médicaux facturés en sus -TAA;0
+6561212316;12C11;Prest.AT-MP-Clin privées sous OQN (hors CI) - TAA;0
+65612123171;;Prestations AT-MP - FAU;0
+65612123172;;Prestations AT-MP - forfait annuel de prélévement d'organe CPO;0
+65612123173;;Prestations AT-MP - forfait annuel de greffe;0
+65612123174;;Prestations AT-MP - MIGAC;0
+656121231;12C11;Prest. AT-MP -Clin. priv. sous OQN (hors conso. interméd.);0
+656121232;12C21;Prest. AT-MP -Clin. priv. Hors OQN;0
+656121235;12C41;Prest. AT-MP -Clin. priv. sous OQN - Urgence;0
+6561212361;12C11;Prestations AT-MP - OQN PSY - frais de séjours;0
+6561212362;12C11;Prestations AT-MP - OQN PSY - médicaments;0
+6561212363;12C11;Prestations AT-MP - OQN PSY - dispositifs médicaux;0
+6561212371;12C11;Prestations AT-MP - OQN SSR - frais de séjours;0
+4573416;;MNAM -Créan. syst. caisse-piv/Ets priv.;0
+45734191;;Autres Mut. -Créan. caisse-piv Ets priv. - acptes;0
+45734192;;Autres Mut. -Créan. caisse-piv Ets priv. -prest. liq.;0
+4573419;;Autres Mut. -Créan. syst. caisse-piv/Ets priv.;0
+457341;;Mut. -Créan. syst. caisse-piv/Ets priv.;0
+4573421;;Créances MGEN - Syst. Cais. Pivots - Ets privés;0
+4573422;;Créances MGPTT - Syst. Cais. Pivots - Ets privés;0
+4573423;;Créances MGP - Syst. Cais. Pivots - Ets privés;0
+4573424;;Créances MFP - Syst. Cais. Pivots - Ets privés;0
+4573425;;Créances MNH - Syst. Cais. Pivots - Ets privés;0
+4573426;;Créances MNAM - Syst. Cais. Pivots - Ets privés;0
+45112423;;CNAMTS FORMMEL financement des abstreintes;0
+451124711;;CNAMTS - Télétrans. FSE - Sal. agri;0
+451124713;;CNAMTS - Télétrans. FSE - RATP;0
+451124714;;CNAMTS - Télétrans. FSE - CNMSS;0
+451124715;;CNAMTS - Télétrans. FSE - SNCF;0
+451124716;;CNAMTS - Télétrans. FSE - Banque de France;0
+451124717;;CNAMTS - Télétrans. FSE - ENIM;0
+451124718;;CNAMTS - Télétrans. FSE - CANMSS;0
+451124721;;CNAMTS - Télétrans. FSE - Clercs de notaire;0
+451124722;;CNAMTS - Télétrans. FSE - CANAM;0
+451124723;;CNAMTS - Télétrans. FSE - Caisse des Cultes;0
+451124724;;CNAMTS - Télétrans. FSE - Port autono de Bordx;0
+451124725;;CNAMTS - Télétrans. FSE - Caisse des Francais de l'Etranger;0
+451124726;;CNAMTS - Télétrans. FSE - CCIP;0
+451124727;;CNAMTS - Télétrans. FSE - Assemblée Nat.;0
+451124728;;CNAMTS - Télétrans. FSE - Sénat;0
+451124731;;CNAMTS - Télétrans. FSE - MGEN;0
+451124732;;CNAMTS - Télétrans. FSE - MG;0
+451124733;;CNAMTS - Télétrans. FSE - MG Police;0
+451124734;;CNAMTS - Télétrans. FSE - MFP;0
+451124735;;CNAMTS - Télétrans. FSE - MN hosp.;0
+451124736;;CNAMTS - Télétrans. FSE - Mut.  Marine;0
+451124737;;CNAMTS - Télétrans. FSE - Autres Mut.;0
+4511248111;;CNAMTS - B2 pharm. - Salariés agricoles;0
+4511248112;;CNAMTS - B2 pharm. - Expl.  Agricoles;0
+4511248113;;CNAMTS - B2 pharm. - RATP;0
+4511248114;;CNAMTS - B2 pharm. - CNMSS;0
+4511248115;;CNAMTS - B2 pharm. - SNCF;0
+4511248116;;CNAMTS - B2 pharm. - Banque de France;0
+4511248117;;CNAMTS - B2 pharm. - ENIM;0
+4511248118;;CNAMTS - B2 pharm. - CANSSM;0
+4511248121;;CNAMTS - B2 pharm. - Clercs de notaires;0
+4511248122;;CNAMTS - B2 pharm. - CANAM;0
+4511248123;;CNAMTS - B2 pharm. - Caisse des cultes;0
+4511248124;;CNAMTS - B2 pharm. - Port Bordeaux;0
+4511248125;;CNAMTS - B2 pharm. - Caisse fr. étranger;0
+4511248126;;CNAMTS - B2 pharm. - CCIP;0
+4511248127;;CNAMTS - B2 pharm. - Ass. Nationale;0
+4511248128;;CNAMTS - B2 pharm. - Sénat;0
+4511248131;;CNAMTS - B2 pharmaciens. - MGEN;0
+4511248132;;CNAMTS - B2 pharmaciens - MG;0
+4511248133;;CNAMTS - B2 pharmaciens - MG Police;0
+4511248134;;CNAMTS - B2 pharmaciens - MFP;0
+4511248135;;CNAMTS - B2 pharmaciens. - MN hosp.;0
+4511248136;;CNAMTS - B2 pharmaciens - Mut. Marine;0
+4511248137;;CNAMTS - B2 pharmaciens - Autres Mut.;0
+45112561;;CNAMTS -Créan. caisse-piv Ets priv. - acptes;0
+45112562;;CNAMTS -Créan. caisse-piv Ets priv. -prest. liq.;0
+4511256;;CNAMTS -Créan. caisse-piv Ets priv./caisse Gest.;0
+45112661;;CNAMTS - Frais de télémise à jour - autres régimes;0
+45112671;;CNAMTS -Clin. priv. - Forfait annuel Urgence -autr régim.;0
+45112672;;CNAMTS-Astreintes;0
+45112673;;CNAMTS-Forfaits centres infirmiers;0
+45112674;;CNAMTS-Forfaits de gardes ambulancieres;0
+4511267511;;CNAMTS - Contrats conventionnels soins palliatifs;0
+4511267512;;CNAMTS - Contrats conventionnels transporteurs;0
+4511267513;;CNAMTS - Contrats conventionnels médecins spécialistes;0
+4511267514;;CNAMTS - Contrats conventionnels - CPS biologistes;0
+4511267515;;CNAMTS - Contrats conventionnels - CPS Infirmiers;0
+4511267516;;CNAMTS - Contrats conventionnels-CBP-Chirurgiens dentistes et aux.médicaux;0
+4511267517;;CNAMTS - Contrats conventionnels - CBP-Biologistes;0
+4511267518;;CNAMTS - Contrats conventionnels - CBP Généralistes;0
+45112676;;CNAMTS-actions santé publique centre de santé-Autres régimes;0
+6561121451;11Q11;Prest. Mat. - Prothèses internes - OQN Cliniques privées;0
+6561121452;11Q21;Prest. Mat. - Prothèses internes - Hors OQN;0
+656112145;;Prest. Mat. - Prothèses internes;0
+656112146;11R11;Prest. Mater. - Véhicules pour handicapés physiques;0
+6561121471;11H11;Prest. Mater. -Autr.presc. - Forfaits TIPS CMU;0
+6561121472;11H11;Prest. Mater. -Autr.presc. - CMUC Migrants;0
+656112147;11H11;Prest. Mater. - Forfaits divers;0
+656112148;11S11;Prest. Mater. - Autres frais;0
+65611214;;Prest. Mat. - Autres prescriptions;0
+656112151;11T11;Prest. Mat. - Transp.;0
+656112152;11T11;Prest. Mat. - Transp.;0
+656112158;11T11;Prest. Mat. - Transp.;0
+65611215;11T11;Prest. Mat. - Transp.;0
+656112161;11U11;Prest. Mater. - Cures thermales;0
+6561121681;11U21;Prest. Mater. - autres Prest.en nature - Frais d'expertise;0
+6561121688;11U21;Prest. Mater. - autres Prest.en nature - Diverses autres PN;0
+656112168;11U21;Prest. Mater. - autres Prest.en nature - Autres;0
+65611216;11U21;Prest. Mat. - Autres Prest. en nature;0
+656112171;21A11;Prest. Mater. -prest. en espèces-Marternité;0
+656112172;21A11;Prest. Mater. -I.J. - autres que cures thermales;0
+656112178;21A11;Prest. Mat. -prest. en espèces;0
+65611217;21A11;Prest. Mater. -prest. en espèces-Marternité;0
+6561121;;Prest. Mat. exécutées en ville;0
+6561122111;12A11;Prest. Mat. - Dotation globale  - Ch. de l'ex.;0
+6561122112;12A11;Prest. Mat. - Dotation globale - Ch. exercice précédent;0
+656112211;;Prest. Mat. - Dotation Globale;0
+656112212;12A21;Prest. Mat. - Autres frais d'hospit. Publique;0
+656112213;12A31;Prest. Mat. - Honoraires du secteur public;0
+656112214;;Prestations Maternité - Forfaits journaliers CMU/AME;0
+656112215;;Prest. Mater. -  Ets publics - I.V.G.;0
+65611221;;Prest. Mat. - Ets sanitaires;0
+656112221;12B11;Prest. Mater. - Enfance inadaptée;0
+656112222;12B21;Prest. Mater. - Adultes Handicapés;0
+656112228;12B81;Prest. Mater. - Autres Prest. médico-sociales;0
+65611222;;Prestations Maternité - Etablissements médico-sociaux;0
+6561122311;12C11;Prest. Mat -Clin. priv. sous  OQN  Prest.hosp. -Chirurgie;0
+6561122312;12C11;Prest. Mat-Clin. priv. sous  OQN -Prest.hosp. - Médecine;0
+6561122313;12C11;Prest. Mat -Clin. privées sous  OQN - Prest.hosp. -Gyné.;0
+6561122314;12C11;Prest. Mater. -Clin. priv. sous  OQN - Prest.hosp. -moyens séjours;0
+6561122315;12C11;Prest. Mater. -Clin. priv. sous  OQN - Prest.hosp. -Psy.;0
+65611223161;12C11;Prest.Mat-Hospit.Clin privées- TAA;0
+65611223162;12C11;Prest.Mat-Hospit.à dom.- TAA;0
+4564321;;CFE -Créan. caisse-piv Ets priv. - acptes;0
+4564322;;CFE -Créan. caisse-piv Ets priv. -prest. liq.;0
+456432;;CFE -Créan. syst. caisse-piv/Ets priv.;0
+45644111;;Opérations Regime Local  ALMO - Forfaits Journaliers;0
+45644118;;Opérations Regime Local  ALMO - Autres prestations;0
+4564411;;Opérations du Régime Local Alsace-Moselle -prest.;0
+45651211;;CAVIMAC -Créan. syst. caisse-piv -part oblig. - acptes;0
+45651212;;CAVIMAC -Créan. syst. caisse-piv -part oblig. -prest. liq.;0
+4565121;;CAVIMAC -Créan. syst. caisse pivots -part oblig.;0
+4565122;;CAVIMAC -Créan. syst. caisse pivots - Part Cpltaire;0
+456512;;CAVIMAC -Créan. syst. caisse-piv/Ets priv.;0
+456513;;Créances CAVIMAC- Syst. Cais. Pivots - Ets privés;0
+45652221;;URSSM -Créan. caisse-piv Ets priv. - acptes;0
+45652222;;URSSM -Créan. caisse-piv Ets priv. -prest. liq.;0
+4565222;;URSSM -Créan. syst. caisse-piv/Ets priv.;0
+4565223;;Créances URSSM - Syst. Cais. Pivots - Ets privés;0
+456581121;;Port autono de Bordx -Créan. caisse-piv Ets priv. - acptes;0
+456581122;;Port autono Bordx -Créan. caisse-piv Ets priv. -prest. liq.;0
+45658112;;Port autono de Bordx -Créan. syst. caisse-piv/Ets priv.;0
+7585212;;Prod.techn.p/annul.ODP ex.ant.- USLD - Dotation globale;0
+7585213;;Prod.techn.p/annul.ODP ex.ant.- USLD - EHPAD;0
+758521;;Prod.techn.p/annul.ODP ex.ant.-prest.Mal;0
+758522;;Prod.techn.p/annul.ODP ex.ant.-prest.Mat;0
+758525;;Prod.techn.p/annul.ODP ex.ant.-prest.AT;0
+774112;;Encaissement sur A.N.V;0
+999999999999;99999;Valeur inconnue;0
+4573211;;OC -Méd. réf. -Proc. A - Virts. - Mut. Code de la Mutua.;0
+4573212;;OC -Méd. réf. -Proc. A - Virts. - Sociétés d'Assces.;0
+4573213;;OC -Méd. réf. -Proc. A - Virts. - Instit. de Prévoy.;0
+4573214;;OC -Méd. réf. -Proc. A - Virts.-Mut. Rég. agri. code rural.;0
+4573215;;OC -Méd. réf. -Proc. A - Virts. -Autres mut.;0
+4573216;;OC -Méd. réf. -Proc. A - Virts. -Autres mut.;0
+4573217;;OC -Méd. réf. -Proc. A - Virts. -Autres mut.;0
+4573218;;OC -Méd. réf. -Proc. A - Virts. -Autres mut.;0
+4573219;;OC -Méd. réf. -Proc. A -prest. à recycler;0
+457321;;OC -Méd. réf. -Proc. A - Virts.;0
+4573221;;OC-Méd.réf -Proc. A -Paiemts man. A.C. -Mut.Code Mutua.;0
+4573222;;OC-Méd.réf.-Proc. A -Paiemts man. Ag. Cpta. - Stés d'Ass.;0
+65611121831;12A41;Mal.IVG - conventions internationales;0
+65611121838;12A41;Mal.IVG - autres;0
+656111238;12C11;Prest.maladie - autres dépenses des cliniques privées;0
+6561112381;12C11;Mal.autres dépenses des cli.priv.- conv.internationales;0
+6561112382;12C11;Mal.autres dépenses des cli.priv.- USLD privées;0
+6561112383;12C11;Mal.autres dep.des cli.priv-ETS sous stat.jurid.étranger;0
+6561112388;12C11;Mal.autres dépenses des cli.priv.- autres;0
+656112218;12A21;Mat.autres frais d'hosp.publ.et actes et consult.ext.et IVG;0
+6561122181;12A21;Mat.autres frais d'hospitalisation publique;0
+65611221811;12A21;Mat.autres frais d'hosp.publique - conv.internationales;0
+65611221818;12A21;Mat.autres frais d'hosp.publique - autres;0
+6561122182;12A31;Mat.actes et consultations externes;0
+65611221821;12A31;Mat.actes et consult.externes - conv.internationales;0
+65611221828;12A31;Mat.actes et consult.externes - autres;0
+6561122183;12A41;Mat.IVG;0
+65611221831;12A41;Mat.IVG - conventions internationales;0
+65611221838;12A41;Mat.IVG - autres;0
+656112238;12C11;Prest.maternité - autres dépenses des cliniques privées;0
+6561122381;12C11;Mat.autres dépenses des cli.priv.- conv.internationales;0
+6561122382;12C11;Mat.autres dépenses des cli.priv.- USLD privées;0
+6561122383;12C11;Mat.autres dép.des cli.priv-ETS sous stat.jurid.étranger;0
+6561122388;12C11;Mat.autres dépenses des cli.priv.- autres;0
+656121218;12A21;AT-MP- autres frais d'hosp.publ.et actes et consult.ext.et IVG;0
+6561212181;12A21;AT-MP-autres frais d'hospîtalisation publique;0
+65612121811;12A21;AT-MP-autres frais d'hosp.publique-conv.internationales;0
+65612121818;12A21;AT-MP-autres frais d'hosp.publique - autres;0
+6561212182;12A31;AT-MP-actes et consultations externes;0
+65612121821;12A31;AT-MP-actes et consult.externes - conv.internationales;0
+65612121828;12A31;AT-MP-actes et consult.externes - autres;0
+656121238;12C11;Prest.A.T.-autres dépenses des cliniques privées;0
+6561212381;12C11;AT-MP-autres dépenses des cli.priv-conv.internationales;0
+6561212382;12C11;AT-MP-autres dépenses des cli.priv.- USLD privées;0
+6561212383;12C11;AT-MP-autres dép.des cli.priv-ETS sous stat.jurid.étranger;0
+6561212388;12C11;AT-MP-autres dépenses des cli.priv.- autres;0
+45562;;RSI-système caisses pivots-Etablissements privés;0
+455621;;RSI-système caisses pivots-Ets privés - acomptes;0
+455622;;RSI-système caisses pivots-Ets privés - prest.liquidées;0
+45563;;Créances RSI-système caisses pivots-Ets privés;0
+6563114111;;Frais de gestion dépistage cancer colo-rectal;0
+6563114112;;Rémunération des professionnels de santé;0
+6563114121;;Frais de gestion dépistage cancer du sein;0
+6563114122;;Rémunération des professionnels de santé;0
+457312;;Aide Médicale Etat;0
+4573121;;Aide Médicale Etat-Soins de ville;0
+45731212;;AME - SDV-Hono.dentaires;0
+45731213;;AME - SDV-Hono.Auxiliaires médicaux;0
+45731214;;AME - SDV-Médicaments et dispositifs médicaux;0
+45731215;;AME - SDV-Frais d'analyse de biologie médicale;0
+45731216;;AME - SDV-Frais de transport;0
+45731217;;AME - SDV-Hono.Secteur public;0
+4573122;;Aide Médicale Etat-Etablissements;0
+45731221;;AME-Etablissements privés;0
+45731222;;AME-Etablissementsmédico-sociaux;0
+45731223;;AME-Etablissements publics-Autres frais d'hospitalisation;0
+45731224;;AME-Etablissements publics-Honoraires;0
+45731225;;AME-Etablissements publics-forfaits journaliers;0
+45731226;;AME-Etablissements-IVG;0
+6561111177;11G11;MAL.FORFAITS ADH ZONE DEFICIT;0
+6561111178;;MAL.CONTRATS AUTRES;0
+65611111781;11G11;MAL.CONTRATS.INFIRMIERS;0
+451126771;;CNAMTS - Cliniques privees - CPO;0
+451126772;;CNAMTS - Cliniques privees - MIGAC;0
+45112731;;CNAMTS-IVG anonymes;0
+454221;;MSA -Créan. caisse-piv Ets priv. - acptes;0
+454222;;MSA -Créan. caisse-piv Ets priv. -prest. liq.;0
+454223;;Créances MSA - Syst. Cais. pivots -Ets privés;0
+45422;;MSA -Créan. syst. caisse-piv/Ets priv.;0
+455121;;CANAM -Créan. caisse-piv Ets priv. - acptes;0
+455122;;CANAM -Créan. caisse-piv Ets priv. -prest. liq.;0
+45512;;CANAM -Créan. syst. caisse-piv/Ets priv.;0
+45513;;Créances CANAM - Syst. Cais. Pivots - Ets privés;0
+4561221;;CNMSS -Créan. caisse-piv Ets priv. - acptes;0
+4561222;;CNMSS -Créan. caisse-piv Ets priv. -prest. liq.;0
+456122;;CNMSS -Créan. syst. caisse-piv/Ets priv.;0
+456123;;Créances CNMSS- Syst. Cais. Pivots - Ets privés;0
+4562121;;RATP -Créan. caisse-piv Ets priv. - acptes;0
+4562122;;RATP -Créan. caisse-piv Ets priv. -prest. liq.;0
+456212;;RATP -Créan. syst. caisse-piv/Ets priv.;0
+456213;;Créances RATP - Syst. Cais. Pivots - Ets privés;0
+4562221;;SNCF -Créan. caisse-piv Ets priv. - acptes;0
+4562222;;SNCF -Créan. caisse-piv Ets priv. -prest. liq.;0
+456222;;SNCF -Créan. syst. caisse-piv/Ets priv.;0
+456223;;Créances SNCF - Syst. Cais. Pivots - Ets privés;0
+4562421;;BDF -Créan. caisse-piv Ets priv. - acptes;0
+4562422;;BDF -Créan. caisse-piv Ets priv. -prest. liq.;0
+456242;;Banque de France -Créan. syst. caisse-piv/Ets priv.;0
+456243;;Créances BDF- Syst. Cais. Pivots - Ets privés;0
+4564121;;CRPCEN -Créan. caisse-piv Ets priv. - acptes;0
+4564122;;CRPCEN -Créan. caisse-piv Ets priv. -prest. liq.;0
+456412;;CRPCEN -Créan. syst. caisse-piv/Ets priv.;0
+456413;;Créances CRPCEN- Syst. Cais. Pivots - Ets privés;0
+4564221;;ENIM -Créan. caisse-piv Ets priv. - acptes;0
+4564222;;ENIM -Créan. caisse-piv Ets priv. -prest. liq.;0
+456422;;ENIM -Créan. syst. caisse-piv/Ets priv.;0
+456423;;Créances ENIM - Syst. Cais. Pivots - Ets privés;0
+6561112228;12B21;MAL.ADULTES HANDICAPES AUTRES ETAB;0
+6561112281;12B81;MAL.AUT.PREST.MS.CONV.INTERN;0
+6561112288;12B81;MAL.AUT.PREST.MS.AUTRES;0
+656112131;11K11;Prest. Mater. - Médicaments;0
+656112132;11K11;Prest. Mater. - Médicaments Antiretroviraux;0
+656112133;11K11;Prest. Mater. - Médicaments d'exception;0
+656112134;11K11;Prest. Mater. - Hormones de croissance;0
+656112135;11K11;Prest. Mater. - Suppléments Médicaments;0
+656112136;11K11;Prest. Mater. - Médicaments Retrocédés;0
+656112137;11K11;Prest. Mater. - Vaccins Grippe et ROR;0
+656112138;11K11;Prest. Mater. - Autres pharmacie;0
+6561121381;11K11;Prest. Mater. - Médicaments Maladies rares;0
+6561121382;11K11;MAT.IVG.FORFAIT MEDICAMENTS;0
+6561121682;11U21;MAT.AUTRES PN-FRAIS D'EXPERT - Soins à l'ETR;0
+65611218;11U21;MAT.SDV - Conventions Internationales;0
+6561122211;12B11;MAT.ENFANCE INADAPTEE IME;0
+6561122212;12B11;MAT.ENFANCE INADAPTEE ITEP;0
+6561122213;12B11;MAT.ENFANCE INADAPTEE ETAB.POLYHANDICAPES;0
+6561122218;12B11;MAT.ENFANCE INADAPTEE AUTRES ETABL;0
+6561122221;12B21;MAT.ADULTES HANDICAPES  MAS;0
+6561122228;12B21;MAT.ADULTES HANDICAPES  AUTRES ETAB;0
+6561122281;12B81;MAT.AUT.PREST.MS.Conventions internationales;0
+6561122288;12B81;MAT.AUT.PREST.MS.AUTRES;0
+6561211177;11G11;AT.FORFAITS ADH ZONE DEFICITAIRE;0
+6561211178;11G11;AT.CONTRATS AUTRES;0
+65612111781;11G11;AT.CONTRATS INFIRMIERS;0
+65612111782;11G11;AT.CONTRATS MASSEURS KINESITHERAPEUTES;0
+65612111783;11G11;AT.CONTRATS ORTHOPHONISTES;0
+65612111784;11G11;AT.CONTRATS ORTHOPTISTES;0
+65612111787;11G11;AT.CONTRATS DENTISTES;0
+656121124;11G11;AT.CONTRATS DES LABO.;0
+6561211241;11G11;AT.CONTRATS DES LABO. CBP;0
+6561211242;11G11;AT.CONTRATS DES LABO. CSP;0
+656121131;11K11;Prest. AT-MP - Médicaments;0
+656121132;11K11;Prest. AT-MP - Médicaments Antirétroviraux;0
+656121133;11K11;Prest. AT-MP - Médicaments d'exception;0
+656121134;11K11;Prest. AT-MP - Hormones de croissance;0
+656121135;11K11;Prest. AT-MP - Supplément Médicaments;0
+656121136;11K11;Prest. AT-MP - Médicaments Retrocédés;0
+6561211383;;AT.PERMANENCE PHARMACEUTIQUE;0
+6561211432;11N11;Prest. AT-MP - Optique médicale;0
+656121154;11G11;AT.CONTRATS DES TRANSPORTEURS;0
+6561211541;11G11;AT.CONTRATS DES TRANSPORTEURS - CBP;0
+6561211682;11U21;AT.AUTRES PN-FRAIS D'EXPERT.Soins à l'ETR;0
+65612118;11U21;AT.SDV.CONVENTIONS INTERNATIONALES;0
+6561212211;12B11;AT.ENF.INADAPT.IME;0
+6561212212;12B11;AT.ENF.INADAPT.ITEP;0
+6561212213;12B11;AT.ENF.INADAPT.ETAB.POLYHANDICAPES;0
+6561212218;12B11;AT.ENF.INADAPT.AUTRES ETAB;0
+6561212221;12B21;AT.ADULTES HANDICAPES.MAS;0
+6561212228;12B21;AT.ADULTES HANDICAPES.AUTRES ETAB;0
+656121228;11U21;PREST.AT-AUTRES PREST.MEDICO-SOCIALES;0
+6561212281;11U21;AT.AUT.PREST.MS.CONV.INTERNATIONALES;0
+6561212288;11U21;AT.AUT.PREST.MS.AUTRES;0
+451126773;;CNAMTS - Cliniques privées - FHT;0
+4511274;;CNAMTS - Corps de réserve sanitaire;0
+65611123175;;Mal-Forfait annuel haute technicité;0
+65612123175;;AT-MP-Forfait annuel haute technicité;0
+6562617101;;Complément Social Invalidité (CRPCEN);0
+45112663;;CNAMTS - Forfait d'adhésion zone déficitaire - Autres régimes;0
+451126774;;CNAMTS - Cliniques privées - Différentiel tarifaire;0
+6562112211;;Prest. extra-lég:ASS-Temps libres,loisirs,vac. des familles;0
+656311321;;Programme SOPHIA - Rémunération des professionnels de santé;0
+4511245;;CNAMTS-HOPITAL T2A;0
+45112451;;CNAMTS-SECTIONS LOCALES MUTUALISTES DU REG.GEN.-HOPITAL T2A;0
+451124511;;CNAMTS-MGEN-HOPITAL T2A;0
+451124512;;CNAMTS-MG-HOPITAL T2A;0
+451124513;;CNAMTS-MGP-HOPITAL T2A;0
+451124514;;CNAMTS-MFP--HOPITAL T2A;0
+451124515;;CNAMTS-MNH-HOPITAL T2A;0
+451124516;;CNAMTS-MNAM-HOPITAL T2A;0
+451124517;;CNAMTS-LMDE--HOPITAL T2A;0
+45112455;;CNAMTS-AUTRES REG.-HOPITAL T2A;0
+451124551;;CNAMTS-MSA-HOPITAL T2A;0
+451124552;;CNAMTS-RSI-HOPITAL T2A;0
+451124553;;CNAMTS-CNMSS-HOPITAL T2A;0
+451124554;;CNAMTS-RATP-HOPITAL T2A;0
+451124555;;CNAMTS-SNCF-HOPITAL T2A;0
+451124556;;CNAMTS-BDF-HOPITAL T2A;0
+451124557;;CNAMTS-AUT. REGIMES & ORG.DE SECURITE SOCIALE-HOPITAL T2A;0
+4511245571;;CNAMTS-CRPCEN-HOPITAL T2A;0
+4511245572;;CNAMTS-ENIM-HOPITAL T2A;0
+4511245573;;CNAMTS-CAVIMAC-HOPITAL T2A;0
+4511245574;;CNAMTS-URSSM-HOPITAL T2A;0
+4511245575;;CNAMTS-PORT BORD.-HOPITAL T2A;0
+4511245576;;CNAMTS-CCIP-HOPITAL T2A;0
+4511245577;;CNAMTS-ASS.NAT.-HOPITAL T2A;0
+4511245578;;CNAMTS-SENAT-HOPITAL T2A;0
+4511257;;CNAMTS-CREANCE HOPITAL T2A;0
+45112571;;CNAMTS-CREANCE CG-ACOMPTE H;0
+45112572;;CNAMTS-CREANCE CG-VERSEMENT H;0
+45112575;;CNAMTS-CREANCE H-VERSEMENT H;0
+4511357;;CNAMTS-DETTES CP-VERSEMENT H;0
+45113571;;CNAMTS-DETTES CP/RG-VERSEMENT H;0
+45113572;;CNAMTS-DETTES CP/MSA-VERSEMENT H;0
+45113573;;CNAMTS-DETTES CP/CNMSS-VERSEMENT H;0
+45113574;;CNAMTS-DETTES CP/URSSM-VERSEMENT H;0
+4522245;;CPAM-HOPITAL T2A;0
+45222451;;CPAM-SECTIONS LOCALES MUTUALISTES DU REG.GEN.-HOPITAL T2A;0
+452224511;;CPAM-MGEN-HOPITAL T2A;0
+452224512;;CPAM-MG-HOPITAL T2A;0
+452224513;;CPAM-MGP-HOPITAL T2A;0
+452224514;;CPAM-MFP--HOPITAL T2A;0
+452224515;;CPAM-MNH-HOPITAL T2A;0
+452224516;;CPAM-MNAM-HOPITAL T2A;0
+452224517;;CPAM-LMDE--HOPITAL T2A;0
+45222455;;CPAM-AUTRES REG.-HOPITAL T2A;0
+452224551;;CPAM-MSA-HOPITAL T2A;0
+452224552;;CPAM-RSI-HOPITAL T2A;0
+452224553;;CPAM-CNMSS-HOPITAL T2A;0
+452224554;;CPAM-RATP-HOPITAL T2A;0
+452224555;;CPAM-SNCF-HOPITAL T2A;0
+452224556;;CPAM-BDF-HOPITAL T2A;0
+452224557;;CPAM-AUT. REGIMES & ORG.DE SECURITE SOCIALE-HOPITAL T2A;0
+4522245571;;CPAM-CRPCEN-HOPITAL T2A;0
+4522245572;;CPAM-ENIM-HOPITAL T2A;0
+4522245573;;CPAM-CAVIMAC-HOPITAL T2A;0
+4522245574;;CPAM-URSSM-HOPITAL T2A;0
+4522245575;;CPAM-PORT BORD.-HOPITAL T2A;0
+4522245576;;CPAM-CCIP-HOPITAL T2A;0
+4573323;;OC-CMU-Proc.A -Paiemts man. Ag. Cpta. - Instit. de Prévoy.;0
+4573324;;OC-CMU -Proc.A - Paiemts man. Ag. Cpta. - Mut. régime agri.;0
+4573325;;OC - CMU -Proc. A - Paiemts man. Ag. Cpta. -Autres mut.;0
+4573326;;OC - CMU -Proc. A - Paiemts man. Ag. Cpta. -Autres mut.;0
+4573327;;OC - CMU -Proc. A - Paiemts man. Ag. Cpta. -Autres mut.;0
+4573328;;OC - CMU -Proc. A - Paiemts man. Ag. Cpta. -Autres mut.;0
+457332;;OC - CMU -Proc. A - Paiemts man. Ag. Cpta.;0
+4573331;;OC - CMU -Proc.A -Constats d'indus - Mut. Code de la Mutua.;0
+4573332;;OC - CMU -Proc. A - Constats d'indus - Sociétés d'Assces.;0
+4573333;;OC - CMU -Proc. A - Constats d'indus - Instit. de Prévoy.;0
+4573334;;OC - CMU -Proc. A - Constats d'indus - Mut. régime agri.;0
+4573335;;OC - CMU -Proc. A - Constats d'indus -Autres mut.;0
+4573336;;OC - CMU -Proc. A - Constats d'indus -Autres mut.;0
+4573337;;OC - CMU -Proc. A - Constats d'indus -Autres mut.;0
+4573338;;OC - CMU -Proc. A - Constats d'indus -Autres mut.;0
+457333;;OC - CMU -Proc. A - Constats d'indus;0
+4573341;;OC - CMU -Proc. B - Gest. locale - Mut. Code de la Mutua.;0
+4573342;;OC - CMU -Proc. B - Gest. locale - Sociétés d'Assces.;0
+4573343;;OC - CMU -Proc. B - Gest. locale - Instit. de Prévoy.;0
+4573344;;OC - CMU -Proc. B - Gest. locale - Mut. régime agri.;0
+4573345;;OC - CMU -Proc. B - Gest. locale -Autres mut.;0
+4573346;;OC - CMU -Proc. B - Gest. locale -Autres mut.;0
+4573347;;OC - CMU -Proc. B - Gest. locale -Autres mut.;0
+4573348;;OC - CMU -Proc. B - Gest. locale -Autres mut.;0
+457334;;OC - CMU -Proc. B - Gest. locale;0
+4573351;;OC - CMU -Proc. B - Gest. Nat. - Mut. Code de la Mutua.;0
+452624555;;CGSS-SNCF-HOPITAL T2A;0
+452624556;;CGSS-BDF-HOPITAL T2A;0
+452624557;;CGSS-AUT. REGIMES & ORG.DE SECURITE SOCIALE-HOPITAL T2A;0
+4526245571;;CGSS-CRPCEN-HOPITAL T2A;0
+4526245572;;CGSS-ENIM-HOPITAL T2A;0
+4526245573;;CGSS-CAVIMAC-HOPITAL T2A;0
+4526245574;;CGSS-URSSM-HOPITAL T2A;0
+4526245575;;CGSS-PORT BORD.-HOPITAL T2A;0
+4526245576;;CGSS-CCIP-HOPITAL T2A;0
+4526245577;;CGSS-ASS.NAT.-HOPITAL T2A;0
+4526245578;;CGSS-SENAT-HOPITAL T2A;0
+4526257;;CGSS-CREANCE HOPITAL T2A;0
+45262572;;CGSS-CREANCE CG-VERSEMENT H;0
+4526357;;CGSS-DETTES HOPITAL T2A;0
+45263571;;CGSS-DETTE CP RG-VERSEMENT H;0
+45263572;;CGSS-DETTE CP  MSA-VERSEMENT H;0
+45263573;;CGSS-DETTE CP CNMSS-VERSEMENT H;0
+45263574;;CGSS-DETTE CP CANSSM-VERSEMENT H;0
+452646;;CGSS-CREANCES & DETTES-HOPITAL T2A;0
+4526462;;CGSS-CREANCES CAISSE RATTACHEMENT-MUTUELLES LOCALES;0
+4526463;;CGSS-DETTES CP-MUTUELLES LOCALES;0
+45415;;CCMSA-HOPITAL T2A;0
+454152;;CCMSA-CREANCE-VERSEMENT H;0
+454157;;CCMSA-DETTE-VERSEMENT H;0
+454246;;MSA-HOPITAL T2A;0
+4542461;;MSA-CREANCE CG-ACOMPTE H;0
+4542462;;MSA-CREANCE CG-VERSEMENT H;0
+4542463;;MSA-CREANCE CG-INDUS H;0
+4542465;;MSA-CREANCE H-VERSEMENT H;0
+4542466;;MSA-CREANCE H-INDUS ACOMPTE H;0
+4542467;;MSA-DETTES CP-VERSEMENT H;0
+455643;;RSI-HOPITAL T2A;0
+4556432;;RSI-CREANCE-VERSEMENT H;0
+455646;;RSI-HOPITAL T2A;0
+4556461;;RSI-CREANCE CG-ACOMPTE H;0
+4556462;;RSI-CREANCE CG-VERSEMENT H;0
+4556463;;RSI-CREANCE CG-INDUS H;0
+4556465;;RSI-CREANCE H-VERSEMENT H;0
+4556466;;RSI-CREANCE H-INDUS ACOMPTE H;0
+456124;;CNMSS-ETABLISSEMENTS HOSPITALIERS;0
+4561243;;CNMSS-HOPITAL T2A;0
+45612432;;CNMSS-CREANCE-VERSEMENT H;0
+45612437;;CNMSS-DETTE-VERSEMENT H;0
+4561246;;CNMSS-HOPITAL T2A;0
+45612461;;CNMSS-CREANCE CG-ACOMPTE H;0
+45612462;;CNMSS-CREANCE CG-VERSEMENT H;0
+45612463;;CNMSS-CREANCE CG-INDUS H;0
+45612465;;CNMSS-CREANCE H-VERSEMENT H;0
+45612466;;CNMSS-CREANCE H-INDUS ACOMPTE H;0
+45612467;;CNMSS-DETTES CP -VERSEMENT  H;0
+456214;;RATP-ETABLISSEMENTS HOSPITALIERS;0
+4562143;;RATP-HOPITAL T2A;0
+45621432;;RATP-CREANCE-VERSEMENT H;0
+4562146;;RATP-HOPITAL T2A;0
+45621461;;RATP-CREANCE CG-ACOMPTE H;0
+45621462;;RATP-CREANCE CG-VERSEMENT H;0
+45621463;;RATP-CREANCE CG-INDUS H;0
+45621465;;RATP-CREANCE H-VERSEMENT H;0
+45621466;;RATP-CREANCE H-INDUS ACOMPTE H;0
+4562243;;SNCF-HOPITAL T2A;0
+45622432;;SNCF-CREANCE-VERSEMENT H;0
+4562246;;SNCF-HOPITAL T2A;0
+45622461;;SNCF-CREANCE CG-ACOMPTE H;0
+45622462;;SNCF-CREANCE CG-VERSEMENT H;0
+45622463;;SNCF-CREANCE CG-INDUS H;0
+45622465;;SNCF-CREANCE H-VERSEMENT H;0
+45622466;;SNCF-CREANCE H-INDUS ACOMPTE H;0
+456414;;CRPCEN-ETABLISSEMENTS HOSPITALIERS;0
+4564143;;CRPCEN-HOPITAL T2A;0
+45641432;;CRPCEN-CREANCE-VERSEMENT H;0
+4564146;;CRPCEN-HOPITAL T2A;0
+45641461;;CRPCEN-CREANCE CG-ACOMPTE H;0
+45641462;;CRPCEN-CREANCE CG-VERSEMENT H;0
+45641463;;CRPCEN-CREANCE CG-INDUS H;0
+45641465;;CRPCEN-CREANCE H-VERSEMENT H;0
+45641466;;CRPCEN-CREANCE H-INDUS ACOMPTE H;0
+456424;;ENIM-ETABLISSEMENTS HOSPITALIERS;0
+4564243;;ENIM-HOPITAL T2A;0
+45642432;;ENIM-CREANCE-VERSEMENT H;0
+4564246;;ENIM-HOPITAL T2A;0
+45642461;;ENIM-CREANCE CG-ACOMPTE H;0
+45642462;;ENIM-CREANCE CG-VERSEMENT H;0
+45642463;;ENIM-CREANCE CG-INDUS H;0
+45642465;;ENIM-CREANCE H-VERSEMENT H;0
+45642466;;ENIM-CREANCE H-INDUS ACOMPTE H;0
+456514;;CAVIMAC-ETABLISSEMENTS HOSPITALIERS;0
+4565143;;CAVIMAC-HOPITAL T2A;0
+45651432;;CAVIMAC-CREANCE-VERSEMENT H;0
+4565146;;CAVIMAC-HOPITAL T2A;0
+45651461;;CAVIMAC-CREANCE CG-ACOMPTE H;0
+45651462;;CAVIMAC-CREANCE CG-VERSEMENT H;0
+45651463;;CAVIMAC-CREANCE CG-INDUS H;0
+45651465;;CAVIMAC-CREANCE H-VERSEMENT H;0
+45651466;;CAVIMAC-CREANCE H-INDUS ACOMPTE H;0
+4565213;;CANSS-MINES-HOPITAL T2A;0
+45652132;;CANSS-MINES-CREANCE-VERSEMENT H;0
+45652137;;CANSS-MINES-DETTE-VERSEMENT H;0
+45652246;;URSSM-HOPITAL T2A;0
+456522461;;URSSM-CREANCE CG-ACOMPTE H;0
+456522462;;URSSM-CREANCE CG-VERSEMENT H;0
+456522463;;URSSM-CREANCE CG-INDUS H;0
+456522465;;URSSM-CREANCE H-VERSEMENT H;0
+456522466;;URSSM-CREANCE H-INDUS ACOMPTE H;0
+456522467;;URSSM-DETTES CP-VERSEMENT H;0
+45658114;;PORT BORD.-ETABLISSEMENTS HOSPITALIERS;0
+456581143;;PORT BORD.-HOPITAL T2A;0
+4565811432;;PORT BORD.-CREANCE-VERSEMENT H;0
+456581146;;PORT BORD.-HOPITAL T2A;0
+4565811461;;PORT BORD.-CREANCE CG-ACOMPTE H;0
+4565811462;;PORT BORD.-CREANCE CG-VERSEMENT H;0
+4565811463;;PORT BORD.-CREANCE CG-INDUS H;0
+4565811465;;PORT BORD.-CREANCE H-VERSEMENT H;0
+4565811466;;PORT BORD.-CREANCE H-INDUS ACOMPTE H;0
+45658124;;CCIP-ETABLISSEMENTS HOSPITALIERS;0
+456581243;;CCIP.-HOPITAL T2A;0
+4565812432;;CCIP-CREANCE-VERSEMENT H;0
+456581246;;CCIP-HOPITAL T2A;0
+4565812461;;CCIP-CREANCE CG-ACOMPTE H;0
+4565812462;;CCIP-CREANCE CG-VERSEMENT H;0
+4565812463;;CCIP-CREANCE CG-INDUS H;0
+4565812465;;CCIP-CREANCE H-VERSEMENT H;0
+452624554;;CGSS-RATP-HOPITAL T2A;0
+4565812466;;CCIP-CREANCE H-INDUS ACOMPTE H;0
+45658134;;ASS.NAT.-ETABLISSEMENTS HOSPITALIERS;0
+456581343;;ASS.NAT.-HOPITAL T2A;0
+4565813432;;ASS.NAT.-CREANCE-VERSEMENT H;0
+456581346;;ASS.NAT.-HOPITAL T2A;0
+4565813461;;ASS.NAT.-CREANCE CG-ACOMPTE H;0
+4565813462;;ASS.NAT.-CREANCE CG-VERSEMENT H;0
+4565813463;;ASS.NAT.-CREANCE CG-INDUS H;0
+4565813465;;ASS.NAT.-CREANCE H-VERSEMENT H;0
+4565813466;;ASS.NAT.-CREANCE H-INDUS ACOMPTE H;0
+45658144;;SENAT-ETABLISSEMENTS HOSPITALIERS;0
+456581443;;SENAT-HOPITAL T2A;0
+4565814432;;SENAT-CREANCE-VERSEMENT H;0
+456581446;;SENAT-HOPITAL T2A;0
+4565814461;;SENAT-CREANCE CG-ACOMPTE H;0
+4565814462;;SENAT-CREANCE CG-VERSEMENT H;0
+4565814463;;SENAT-CREANCE CG-INDUS H;0
+4565814465;;SENAT-CREANCE H-VERSEMENT H;0
+4565814466;;SENAT-CREANCE H-INDUS ACOMPTE H;0
+457346;;SECTIONS LOCALES MUTUALISTES DU REG.GEN.-ETS HOSPITALIERS;0
+4573461;;MGEN-HOPITAL T2A;0
+45734611;;MGEN-CREANCE CG-ACOMPTE H;0
+45734612;;MGEN-CREANCE CG-VERSEMENT H;0
+45734613;;MGEN-CREANCE CG-INDUS H;0
+45734615;;MGEN-CREANCE H-VERSEMENT H;0
+65611111782;11G11;MAL.CONTRATS.MASSEURS KINESITHERAPEUTES;0
+65611111783;11G11;MAL.CONTRATS.ORTHOPHONISTES;0
+65611111784;11G11;MAL.CONTRATS.ORTHOPTISTES;0
+65611111787;11G11;MAL.CONTRATS.DENTISTES;0
+656111124;;MAL.CONTRATS DES LABO;0
+6561111241;11G11;MAL.CONTRATS DES LABO.CBP;0
+6561111242;11G11;MAL.CONTRATS DES LABO.CSP;0
+656111131;11K11;Prest. Mal. - Médicaments;0
+656111132;11K11;Prest. Mal. - Médicaments.Antiretroviraux;0
+656111133;11K11;Prest. Mal. - Médicaments d'exception;0
+656111134;11K11;Prest. Mal. - Hormones de croissance;0
+656111135;11K11;Prest. Mal. - Supplément Médicaments;0
+656111136;11K11;Prest. Mal. - Médicaments Retrocédés;0
+656111137;11K11;Prest. Mal. -Vaccins Grippe et ROR;0
+656111138;11K11;Prest. Mal. -Autres pharmacie;0
+6561111381;11K11;Prest. Mal. - Médicaments Maladies rares;0
+6561111382;11K11;Prest. Mal. - IVG.Forfait Médicaments;0
+6561111383;11K11;MAL.PERMANENCE PHARMACEUTIQUE;0
+656111154;11G11;MAL.CONTRATS DES TRANSP.;0
+6561111541;11G11;MAL.CONTRATS DES TRANSP.CBP;0
+6561111682;11U21;MAL.AUTRES PN-Soins à l'ETRANGER;0
+65611118;11U21;MAL.SDV.CONVENTIONS INTERNATIONALES;0
+6561112211;12B11;MAL.ENF.INADAPT.IME;0
+6561112212;12B11;MAL.ENF.INADAPT.ITEP;0
+6561112213;12B11;MAL.ENF.INADAPT.ETAB.POLYHANDICAPES;0
+6561112218;12B11;MAL.ENF.INADAPT.AUTRES ETAB;0
+6561112221;12B21;MAL.ADULTES HANDICAPES MAS;0
+45734651;;MNH-CREANCE CG-ACOMPTE H;0
+45734652;;MNH-CREANCE CG-VERSEMENT H;0
+45734653;;MNH-CREANCE CG-INDUS H;0
+45734655;;MNH-CREANCE H-VERSEMENT H;0
+45734656;;MNH-CREANCE H-INDUS ACOMPTE H;0
+4573466;;MNAM-HOPITAL T2A;0
+45734661;;MNAM-CREANCE CG-ACOMPTE H;0
+45734662;;MNAM-CREANCE CG-VERSEMENT H;0
+45734663;;MNAM-CREANCE CG-INDUS H;0
+45734665;;MNAM-CREANCE H-VERSEMENT H;0
+45734666;;MNAM-CREANCE H-INDUS ACOMPTE H;0
+4573467;;LMDE-HOPITAL T2A;0
+45734671;;LMDE-CREANCE CG-ACOMPTE H;0
+45734672;;LMDE-CREANCE CG-VERSEMENT H;0
+45734673;;LMDE-CREANCE CG-INDUS H;0
+45734675;;LMDE-CREANCE H-VERSEMENT H;0
+45734676;;LMDE-CREANCE H-INDUS ACOMPTE H;0
+4573469;;AUTRES MUT.-HOPITAL T2A;0
+45734691;;AUTRES MUT.-CREANCE CG-ACOMPTE H;0
+45734692;;AUTRES MUT.-CREANCE CG-VERSEMENT H;0
+45734693;;AUTRES MUT.-CREANCE CG-INDUS H;0
+45734695;;AUTRES MUT.-CREANCE H-VERSEMENT H;0
+45734696;;AUTRES MUT.-CREANCE H-INDUS ACOMPTE H;0
+6262334;;Frais de teletransmission - pédicures podologues;0
+6561111683;11U21;Autres prestations en nature - VIH;0
+6561111684;11U21;Autres prestations en nature - MST;0
+656111217;12C11;T2A - Public - Facturation individuelle;0
+6561112171;12C11;T2A - Frais de séjour et de soins;0
+65611121711;12C11;Hospitalisation;0
+65611121712;12C11;HAD;0
+65611121713;12C11;Urgence;0
+65611121714;12C11;Dialyses;0
+65611121715;12C11;Prélèvements organes;0
+65611121716;12C11;IVG;0
+65611121717;12C11;Médicaments en sus;0
+65611121718;12C11;Dispositifs médicaux en sus;0
+6561112172;12C11;Soins externes;0
+65611121726;12C11;IVG;0
+65611121728;12C11;Autres soins externes;0
+6561112173;12C11;Forfaits;0
+65611121731;12C11;FAU;0
+65611121732;12C11;Forfait annuel de prélèvement d'organes;0
+65611121733;12C11;Forfait annuel de greffes;0
+65611121734;12C11;MIGAC;0
+65611121735;12C11;Forfait de haute technicité;0
+6561112178;12C11;Autres dépenses T2A publique;0
+65611121781;12C11;Conventions internationales;0
+65611121782;12C11;Scanners et IRMN;0
+65611121788;12C11;Autres;0
+6561112214;12B11;Mal.IME Belges pris en charge par la CNSA;0
+656112217;12C11;T2A - Public - Facturation individuelle;0
+6561122171;12C11;T2A - Frais de séjour et de soins;0
+65611221711;12C11;Hospitalisation;0
+65611221712;12C11;HAD;0
+65611221713;12C11;Urgence;0
+65611221714;12C11;Dialyses;0
+65611221715;12C11;Prélèvements organes;0
+65611221717;12C11;Médicaments en sus;0
+65611221718;12C11;Dispositifs médicaux en sus;0
+6561122172;12C11;Soins externes;0
+65611221726;12C11;IVG;0
+65611221728;12C11;Autres soins externes;0
+6561122178;12C11;Autres dépenses T2A publique;0
+65611221781;12C11;Conventions internationales;0
+65611221782;12C11;Scanners et IRMN;0
+65611221788;12C11;Autres;0
+6561122214;12B11;Mat.IME Belges pris en charge par la CNSA;0
+656121217;12C11;T2A - Public - Facturation individuelle;0
+6561212171;12C11;T2A - Frais de séjour et de soins;0
+65612121711;12C11;Hospitalisation;0
+65612121712;12C11;HAD;0
+65612121713;12C11;Urgence;0
+65612121714;12C11;Dialyses;0
+65612121715;12C11;Prélèvements organes;0
+65612121716;12C11;IVG;0
+65612121717;12C11;Médicaments en sus;0
+65612121718;12C11;Dispositifs médicaux en sus;0
+6561212172;12C11;Soins externes;0
+65612121726;12C11;IVG;0
+65612121728;12C11;Autres soins externes;0
+6561212173;12C11;Forfaits;0
+65612121731;12C11;FAU;0
+65612121732;12C11;Forfait annuel de prélèvement d'organes;0
+65612121733;12C11;Forfait annuel de greffes;0
+65612121734;12C11;MIGAC;0
+65612121735;12C11;Forfait de haute technicité;0
+6561212178;12C11;Autres dépenses T2A publique;0
+65612121781;12C11;Conventions internationales;0
+65612121782;12C11;Scanners et IRMN;0
+65612121788;12C11;Autres;0
+65612213;;Indemnités en capital - Majorations pour faute inexcusable;0
+656122214;;Droits propres - Majorations pour faute inexcusable - Exercice courant;0
+656122223;;Droits dérivés - Majorations pour faute inexcusable - Exercice courant;0
+6562117921;;Suppléments dentaires Int  (CRPCEN);0
+6562117931;;Suppléments optiques Int  (CRPCEN);0
+6562117941;;Suppléments accoustiques Int  (CRPCEN);0
+45112711;;CNAMTS-Créances sur l'Etat-Grippe porcine-Assurés hors AME;0
+45112712;;CNAMTS-Créances sur l'Etat-Grippe porcine-Bénéficiaires de l'AME;0
+45112713;;CNAMTS-Créances sur l'Etat-Grippe porcine-Touristes;0
+47513618;;Prest. à ventiler Prestij Mutuelle Vittavi Antilles Guyane;0
+6561112215;12B11;MAL.ENF.INADAPT.AUTRES FORFAITS;0
+6562112311;;Prestations extra-légales : FAM;0
+45112664;;CNAMTS Pandémie exceptionnelle Part des autres régimes;0
+6561111686;;Pandémie exceptionnelle;0
+442116;;Allocation supplémentaire d'invalidité;0
+4421161;;Prestations allocations supplémentaires -FSI L-815-3;0
+4421162;;Prestations allocations FSI alloc. Supp. -L-815-3;0
+45112665;;CNAMTS - Autres créances - CAPI - Autres régimes;0
+4511267519;;CNAMTS - Contrats conventionnels CSS infirmiers;0
+4511275;;CNAMTS-Pandémie exceptionnelle;0
+65611111744;;Contrat d'Amélioration des Pratiques Individuelles gestion MOC;0
+65612111744;;Contrat d'Amélioration des Pratiques Individuelles gestion AN;0
+65631133;;Entretien de santé des jeunes 16-25 ans;0
+6562112321;;CESU - Accueil du jeune enfant;0
+656111171;;PE - Indemnités journalières;0
+656111172;;Allocation de fin de vie;0
+65611111745;;Contrats expérimentations de nouveaux modes de rémunération;0
+65612111745;;Contrats expérimentations de nouveaux modes de rémunération;0
+45112666;;CNAMTS - Nouveaux modes de rémunération;0
+65616811;;Prestations invalidité - Autres charges techniques - Frais de tutelle;0
+65616812;;Personnes physiques - Frais de tutelle;0
+65616813;;Frais de mandataires judiciaires;0
+656311111;;"Activités des Centres d""Examen de Santé";0
+656311112;;Transport des consultants CES;0
+4522245577;;CPAM-ASS.NAT.-HOPITAL T2A;0
+4522245578;;CPAM-SENAT-HOPITAL T2A;0
+4522257;;CPAM-CREANCE HOPITAL T2A;0
+45222572;;CPAM-CREANCE CG-VERSEMENT H;0
+4522357;;CPAM-DETTE HOPITAL T2A;0
+45223571;;CPAM-DETTE CP RG-VERSEMENT H;0
+45223572;;CPAM-DETTE CP  MSA-VERSEMENT H;0
+45223573;;CPAM-DETTE CP CNMSS-VERSEMENT H;0
+45223574;;CPAM-DETTE CP CANSSM-VERSEMENT H;0
+452246;;CPAM-CREANCES & DETTES-HOPITAL T2A;0
+4522462;;CPAM-CREANCES CAISSE RATTACHEMENT-MUTUELLES LOCALES;0
+4522463;;CPAM-DETTES CP-MUTUELLES LOCALES;0
+4526245;;CGSS-HOPITAL T2A;0
+45262451;;CGSS-SECTIONS LOCALES MUTUALISTES DU REG.GEN.-HOPITAL T2A;0
+452624511;;CGSS-MGEN-HOPITAL T2A;0
+452624512;;CGSS-MG-HOPITAL T2A;0
+4573465;;MNH-HOPITAL T2A;0
+452624513;;CGSS-MGP-HOPITAL T2A;0
+452624514;;CGSS-MFP--HOPITAL T2A;0
+452624515;;CGSS-MNH-HOPITAL T2A;0
+452624516;;CGSS-MNAM-HOPITAL T2A;0
+452624517;;CGSS-LMDE--HOPITAL T2A;0
+452624519;;CGSS-AUT.MUT.--HOPITAL T2A;0
+45262455;;CGSS-AUTRES REG.-HOPITAL T2A;0
+452624551;;CGSS-MSA-HOPITAL T2A;0
+452624552;;CGSS-RSI-HOPITAL T2A;0
+452624553;;CGSS-CNMSS-HOPITAL T2A;0
+6562113312;21H11;Secours maladie Alsace;0
+656211331;;Soins Pop° en marge CMU;0
+656211332;;Aide à l'acquisition contrat couv. Compl. ASS;0
+656211333;;Aides financières aux personnes handicapés (hors aide au logement);0
+6562113341;;Secours maladie intérieur;0
+6562113342;;Secours maladie Alsace;0
+656211338;;Autres secours et  aides financières;0
+65621133;;Prest. extra-lég:ASS- Secours et aides fi. -Mal.;0
+656211411;;Prest. extra-lég:ASS-Aide à la réins à dom pers. hand -Mal.;0
+6562117111;;Prime layette A;0
+6562117112;;Prime layette A Alsace;0
+6562117121;;Prime layette B;0
+6562117122;;Prime layette B Alsace;0
+6562117131;;Prime layette jumeaux;0
+6562117132;;Prime layette triplets;0
+65621171;;Prestations cures thermales -Mal.;0
+65621172;;Indemnités compensatrices pour dialyse à dom. art. 71-2;0
+65621173;;Soins bucco-dentaires;0
+656211741;;Prest. suppl. ART. 71-4 hors BDG;0
+656211742;;Prestations suppltaires art. 71-4 budget global;0
+656211743;;Prestations suppltaires art. 71-4-1 hors budget global;0
+656211744;;Prestations suppltaires art. 71-4-1 budget global;0
+65621174;;Prestations suppltaires art. 71-4 & 71-4-1;0
+65621178;;Autres prestations suppltaires -Mal.;0
+656211791;;Prime layette et supplement;0
+656211792;;Prime layette et supplement;0
+656211793;;Prime layette et supplement;0
+656211794;;Prime layette et supplement;0
+6562117951;;Action sociale - Dentaire;0
+6562117952;;Action sociale - Optique;0
+6562117953;;Action sociale - Auditif;0
+6562117954;;Action sociale-cures;0
+6562117;;Prestations suppltaires -Mal.;0
+656211812;;Prestations aide médicale urgente -Mal.;0
+656211813;;Suivi post professionnel -Maladie;0
+656211814;;Dépenses techniques d'Action Sanitaire et Sociale Migrants;0
+656211818;;Autres dépenses d'Action Sanitaire et Sociale -Mal.;0
+656221322;;Prest.aides à domicile soins palliatifs;0
+656221333;;Aides financières aux pers. Handicapées (hors aides au logement);0
+656221338;;autres secours et aides financières;0
+65622133;;Prest. extra-lég: ASS- Secours et aides fi. - Accidents du Travail;0
+656221411;;Prest. extra-lég: ASS- Aide à la réins. à dom. des pers. handicapés - Accidents du Travail;0
+65622171;;Prestations cures thermales - Accidents du Travail;0
+65622178;;Autres prestations suppltaires - Accidents du Travail;0
+656221811;;Primes de fin de rééducation - Accidents du Travail;0
+656221812;;Prestations aide médicale urgente - Accidents du Travail;0
+656221813;;Suivi post-professionnel - Accidents du Travail;0
+656221814;;Dépenses techniques ASS migrants AT;0
+656221818;;Autres dépenses d'Action Sanitaire et Sociale - Accidents du Travail;0
+6562412211;;Allocation vacances-vieillesse;0
+6562412212;;Allocation vacances Alsace-vieillesse;0
+6562413211;;Aide à domicile - Vieillesse;0
+6562413212;;Aide à domicile Alsace- Vieillesse;0
+6562413311;;Secours interieur - vieillesse;0
+6562413312;;Secours Alsace - Vieillesse;0
+6562612310;;Secours interieur - invalidité;0
+6562613211;;Aide à domicile intérieur- Invalidité;0
+6562;;Prest. extra-lég.: Action Sanitaire et Sociale;0
+65631111;;Examens de santé;0
+65631112;;Examen bucco-dentaire;0
+65631121;;Vaccination anti-grippale;0
+65631122;;Vaccination hépatite B;0
+65631123;;Vaccination ROR;0
+65631124;;Vaccination anti-pneumococcique;0
+65631128;;Diverses vaccinations;0
+6563112;;Vaccinations;0
+65631131;;Substituts Nicotiniques;0
+656311411;;Dépistage cancer colo-rectal;0
+656311412;;Dépistage cancer du sein;0
+656311413;;Dépistage cancer du col de l'utérus;0
+656311424;;Test angine;0
+656311425;;Dépistage et prévention du saturnisme;0
+65631143;;Contraception d'urgence;0
+65631181;;Autres actions de prévention;0
+65631182;;Actions de dépistage ou de prévention;0
+6563118;;Autres actes de prévention divers;0
+65631211;;Analyses et examens de santé;0
+6563121;;Analyses et examens de santé;0
+65631231;;Education pour la santé;0
+656312411;;Actions de dépistage et de prévention;0
+656312412;;Actions de dépistage et de prévention;0
+6563124;;Actions de dépistage et de prévention;0
+65631251;;Campagne d'Hygiène bucco-dentaire;0
+65631288;;Autres actions collectives prévention - Maladie;0
+6563128;;Autres actions collectives prévention - Maladie;0
+65631;;Dépenses techniques de la Prévention Maladie;0
+6563;;Dépenses de Prévention Maladie;0
+6564;;Prestations specifiques a certains regimes;0
+65681;;Autres Prest. Mal.;0
+6568282;;Prestations AT/MP Article 40;0
+6568283;;Prestations AT/MP - Faute inexcusable - Art. L 452.2;0
+65682;;Autres prestations AT/MP;0
+6568;;Autres prestations;0
+6572113;;Subventions accordées aux ACT;0
+47513605;;Prest. à vent. Prestij Mut. de l'E.D.F.;0
+657211;;Subventions accordées;0
+65721631;;Ets francais du sang;0
+65721632;;Ets francais des greffes;0
+65721633;;ANAES;0
+65721634;;Institut National de Transfusion sanguine;0
+6572163;;Participations à divers Ets -Mal.;0
+6572168;;Autres participations;0
+65722631;;Ets francais du sang;0
+65722632;;Ets francais des greffes;0
+65722633;;ANAES;0
+65722634;;Institut National de Transfusion sanguine;0
+6572263;;Subventions accordées aux ACT;0
+65775;;Examens de santé;0
+658511;;A.N.V  Maladie;0
+7585211;;Prod.techn.p/annul.ODP ex.ant.-Mal. - Dotation globale;0
+65616111;21D11;Prest. Inva. -  Avtge princpal - Pension d'inva.;0
+65616118;21D11;Prest. Inva. -  Avtge princpal -  Autres Avtges;0
+6561611;;Prest. Inva. -  Avtge princpal;0
+65616121;21D11;Prest. Inva. - Major. -  Major. pour tierce personne;0
+65616122;21D11;Prest. Inva. - All. Suppl. FSI /  Alloc. suppltaires L.815-2;0
+65616128;21D11;Prest. Inva. -Autres Major.;0
+6561612;;Prest. Inva. - Major.;0
+656161;;Prest. Inva. - Droits propres;0
+65616211;21D11;Prest. Inva. - Avtge princpal - Pension de veuf ou de veuve;0
+65616218;21D11;Prest. Inva. - Avtge princpal -  Autres Avtges;0
+6561621;;Prest. Inva. -  Avtge princpal;0
+65616221;21D11;Prest. Inva. - Major. - Major. pour tierce personne;0
+65616222;21D11;Prest. Inva. -  All. Suppl. FSI -Alloc. suppltaire L.815-3;0
+65616228;21D11;Prest. Inva. - Autres Major.;0
+6561622;;Prest. Inva. - Major.;0
+656162;;Prest. Inva. - Droits des survivants;0
+6561681;21D11;Prest. Inva. - autres Ch. techniques -  Frais de tutelle;0
+6561688;21D11;Prest. Inva. - Autres Ch. techniques - Autres;0
+656168;;Prest. Inva. - Autres Ch. techniques - Divers;0
+65616;;Prest. Inva.;0
+65617;21G11;Prestations Décès;0
+6561;;Prestations légales;0
+6562112212;;Allocation vacances Alsace;0
+45112683;;CNAMTS - TDR angines - Autres régimes;0
+451126822;;CNAMTS - Cancer colo-rectal - Rémunération des professionnels de santé - Autres régimes;0
+45734616;;MGEN-CREANCE H-INDUS ACOMPTE H;0
+4573462;;MG-HOPITAL T2A;0
+45734621;;MG-CREANCE CG-ACOMPTE H;0
+45734622;;MG-CREANCE CG-VERSEMENT H;0
+45734623;;MG-CREANCE CG-INDUS H;0
+45734625;;MG-CREANCE H-VERSEMENT H;0
+45734626;;MG-CREANCE H-INDUS ACOMPTE H;0
+4573463;;MGP-HOPITAL T2A;0
+45734631;;MGP-CREANCE CG-ACOMPTE H;0
+45734632;;MGP-CREANCE CG-VERSEMENT H;0
+45734633;;MGP-CREANCE CG-INDUS H;0
+45734635;;MGP-CREANCE H-VERSEMENT H;0
+45734636;;MGP-CREANCE H-INDUS ACOMPTE H;0
+4573464;;MFP-HOPITAL T2A;0
+45734641;;MFP-CREANCE CG-ACOMPTE H;0
+45734642;;MFP-CREANCE CG-VERSEMENT H;0
+45734643;;MFP-CREANCE CG-INDUS H;0
+45734645;;MFP-CREANCE H-VERSEMENT H;0
+45734646;;MFP-CREANCE H-INDUS ACOMPTE H;0
+47513610;;Prest. à vent. Prestij Mut. des Hospices Civils de Lyon;0
+47513611;;Prest. à vent. Prestij Mut. SOGIREL - Lyon;0
+4573649;;Sortants CMUC OC -Prest. à recycler - A;0
+457364;;Org. Comp. -Sortants OC CPAM-Pro.A-Prél.;0
+4573651;;Sortants CMUC OC - Mut. code Mutualité-B;0
+4573652;;Sortants CMUC OC -Sociétés assurance-B;0
+4573653;;Sortants CMUC OC -Institu. prévoyance-B;0
+4573654;;Sortants CMUC OC -Mut. régime agricole -B;0
+47513615;;Prest. à vent. Prestij Mut. Asso. Lyonnaise de Prévoy.;0
+47513616;;Prest. à vent. Prestij Mut. Municpx Ville de Marseille;0
+47513617;;Prest. à vent. Prestij Stés d'Etudiants Mutualistes;0
+47513619;;Prest. à vent. Prestij Mut. Nat. des Hospitaliers;0
+47513622;;Prest. à vent. Prestij Mut. de Fumel;0
+47513629;;Prest. à vent. Prestij 541ème Mutualiste (Lyon);0
+47513634;;Prest. à vent. Prestij Mut. du persl des Préfectures;0
+47513637;;Prest. à vent. Prestij Mut. de l'E.D.F.;0
+47513638;;Prest. à vent. Prestij Mut. de l'E.D.F.;0
+47513639;;Prest. à vent. Prestij Mut. de l'E.D.F.;0
+47513640;;Prest. à vent. Prestij Mut. de l'E.D.F.;0
+47513641;;Prest. à vent. Prestij Mut. de l'E.D.F.;0
+47513645;;Prest. à vent. Prestij Mut. de la C.G.E. (La Neptune);0
+47513651;;Prest. à vent. Prestij Mut. du persl Munic. et Hospitalier;0
+47513652;;Prest. à vent. Prestij Mut.COVIMUT-Poitiers Transp. Commun;0
+47513654;;Prest. à vent. Prestij Mut. Persl Munic. et Transp. Commun;0
+47513656;;Prest. à vent. Prestij Mut. du persl Munic. et collect. loc.;0
+47513689;;Prest. à vent. Prestij Mut. de l'Est - Sect. Strasbourg;0
+475151;;Prestations saisie manuelle;0
+475152;;Versements OC Médecins référents;0
+475153;;Versements OC CMU;0
+47515;;Opérat. compt. Saisies manuelles;0
+4753121;;Prest. à recyc. Prestij CPAM - débit;0
+475331500;;Prest. à recyc. Prestij Mut. Gale des Affaires Sociales;0
+475331501;;Prest. à recyc. Prestij M.G.E.N. - Sect. extra-métropole;0
+475331503;;Prest. à recyc. Prestij Mut. Gale de la Police - Sect. Paris;0
+475331504;;Prest. à recyc. Prestij Mut. Agents des Impôts;0
+475331505;;Prest. à recyc. Prestij Mut. autono Gale de l'Education;0
+475331506;;Prest. à recyc. Prestij M.G.E.N.;0
+475331507;;Prest. à recyc. Prestij Mut. du Minist. de l'Agriculture;0
+475331508;;Prest. à recyc. Prestij Mut. Gale Equipmt et Transp.;0
+475331509;;Prest. à recyc. Prestij Mut. du Minist. de l'Industrie;0
+475331511;;Prest. à recyc. Prestij Mut. du Trésor;0
+475331512;;Prest. à recyc. Prestij Mut. Gale des P.T.T.;0
+475331513;;Prest. à recyc. Prestij Mut. des Douanes;0
+475331514;;Prest. à recyc. Prestij Mut. des agents des C.A.N.S.S.M.;0
+45112662;;CNAMTS - Gardes des pharmacies;0
+4511271;;CNAMTS-Créances sur l'Etat-Grippe aviaire;0
+65611111764;11D11;Prestations maladie  -Gardes en ville;0
+65612111764;11D11;Prestations AT/MP -Gardes en ville;0
+656211815;;Complément de prestations-Chikungunya;0
+65631183;;Autres actes de prévention;0
+65631188;;Autres actes de prévention-divers;0
+65631148;;Autres actions de dépistage;0
+475332604;;Prest. à réimp Prestij Mut. de la Police Nat.;0
+475332605;;Prest. à réimp Prestij Mut. de l'E.D.F.;0
+475332606;;Prest. à réimp Prestij Mut. Nat. Fonct. Collect. Territ.;0
+475332607;;Prest. à réimp Prestij Mut. Transp. en commun de Lyon;0
+475332609;;Prest. à réimp Prestij M.G.P.C.L. (collectiv. loc.);0
+475332610;;Prest. à réimp Prestij Mut. des Hospices Civils de Lyon;0
+475332611;;Prest. à réimp Prestij Mut. SOGIREL - Lyon;0
+475332612;;Prest. à réimp Prestij Mut. du Bât. et des Travaux Publics;0
+475332613;;Prest. à réimp Prestij Mut. des Persls Municpx - U.P.E.S.E.;0
+475332614;;Prest. à réimp Prestij Mut. M.I.C.I.L.S. - U.M.I.G.A.;0
+475332615;;Prest. à réimp Prestij Mut. Asso. Lyonnaise de Prévoy.;0
+475332616;;Prest. à réimp Prestij Mut. Municpx Ville de Marseille;0
+475332617;;Prest. à réimp Prestij Stés d'Etudiants Mutualistes;0
+475332619;;Prest. à réimp Prestij Mut. Nat. des Hospitaliers;0
+475332622;;Prest. à réimp Prestij Mut. de Fumel;0
+475332629;;Prest. à réimp Prestij 541ème Mutualiste (Lyon);0
+475332634;;Prest. à réimp Prestij Mut. du persl des Préfectures;0
+475332637;;Prest. à réimp Prestij Mut. de l'E.D.F.;0
+475332638;;Prest. à réimp Prestij Mut. de l'E.D.F.;0
+475332639;;Prest. à réimp Prestij Mut. de l'E.D.F.;0
+475332640;;Prest. à réimp Prestij Mut. de l'E.D.F.;0
+475332641;;Prest. à réimp Prestij Mut. de l'E.D.F.;0
+475332645;;Prest. à réimp Prestij Mut. de la C.G.E. (La Neptune);0
+475332651;;Prest. à réimp Prestij Mut. du persl Munic. et Hospitalier;0
+475332652;;Prest. à réimp Prestij Mut.COVIMUT-Poitiers Transp.Commun;0
+475332654;;Prest. à réimp Prestij Mut. Persl Munic. et Transp. Commun;0
+475332656;;Prest. à réimp Prestij Mut. du persl Munic. et collect. loc.;0
+475332689;;Prest. à réimp Prestij Mut. de l'Est - Sect. Strasbourg;0
+475332;;Compte  rejet mutuelles en attendant 303;0
+475333000;;Recyc. Ag. cpta. -  CPAM;0
+4753331;;Recyc. Ag. cpta. - Rembrsts de soins;0
+475333500;;Recyc. Ag. cpta. -  Mut. Gale des Affaires Sociales;0
+475333501;;Recyc. Ag. cpta. -  M.G.E.N. - Sect. extra-métropole;0
+475333503;;Recyc. Ag. cpta. -  Mut. Gale de la Police - Sect. Paris;0
+475333504;;Recyc. Ag. cpta. -  Mut. Agents des Impôts;0
+475333505;;Recyc. Ag. cpta. -  Mut. autono Gale de l'Education;0
+475333506;;Recyc. Ag. cpta. -  M.G.E.N.;0
+475333507;;Recyc. Ag. cpta. -  Mut. du Minist. de l'Agriculture;0
+475333508;;Recyc. Ag. cpta. -  Mut. Gale de l'Equipmt et des Transp.;0
+4573429;;Créances Aut.MUT - Syst. Cais. Pivots - Ets privés;0
+457342;;Créances mutuelles - Syst. Cais. Pivots - Ets privés;0
+45734;;Sections loc. mutualistes du Régime Général;0
+457351;;OC - Part Cpltaire Noémie 3 - Flux CCDP;0
+457352;;OC - Part Cpltaire Noémie 3 - Autres;0
+45735;;OC divers;0
+4573611;;Aide à la mut. - Mut. code de la Mutualité;0
+4573612;;Aide à la mut. -Sociétés d'assurance;0
+4573613;;Aide à la mut. -Institut° de prévoyance;0
+4573614;;Aide à la mut. -Mut. régime agricole;0
+4573615;;Aide à la mut. -Autres mutuelles;0
+4573619;;Aide à la mut. -Prest. à recycler - A;0
+457361;;Orga. Comp. - Aide à la mut. - Proc. A - Prél.;0
+4573621;;Aide à la mut. -Mut. code de la Mutualité;0
+4573622;;Aide à la mut. -Sociétés d'assurance;0
+4573623;;Aide à la mut. -Institut° de prévoyance;0
+4573624;;Aide à la mut. -Mut. régime agricole;0
+4573625;;Aide à la mut. -Autres mutuelles;0
+4573629;;Aide à la mut. -Prest. à recycler - B;0
+457362;;Orga. Comp. - Aide à la mut. - Proc. B - Prél.;0
+4573631;;Sortants CMUC CPAM - Mut. code Mutualité-B;0
+4573632;;Sortants CMUC CPAM -Sociétés assurance-B;0
+4573633;;Sortants CMUC CPAM -Institu. prévoyance-B;0
+4573634;;Sortants CMUC CPAM -Mut. régime agricole -B;0
+4573635;;Sortants CMUC CPAM -Autres mutuelles - B;0
+4573639;;Sortants CMUC CPAM -Prest. à recycler - B;0
+457363;;Org. Comp. -Sortants CMUC CPAM-Pro.B-Prél.;0
+4573641;;Sortants CMUC OC - Mut. code Mutualité-A;0
+4573642;;Sortants CMUC OC -Sociétés assurance-A;0
+4573643;;Sortants CMUC OC -Institu. prévoyance-A;0
+4573644;;Sortants CMUC OC -Mut. régime agricole -A;0
+65621122;;Prest. extra-lég:ASS-Temps libres,loisirs,vac. des familles;0
+6562113211;;Aide à domicile intérieur;0
+6562113212;;Aide à domicile Alsace;0
+656211321;;Prest. extra-lég:ASS-Prest Aide à dom. pers atteintes sida;0
+656211322;;Prest. aides à dom, soins palliatifs;0
+6562113231;;Aide à domicile intérieur;0
+6562113232;;Aide à domicile Alsace;0
+6562113251;;Prest. extra-lég:ASS- Aide familiale;0
+6562113252;;Prest. extra-lég:ASS- Aide ménagère pers. Âgées;0
+6562113253;;Prest. extra-lég:ASS- Aide ménagère aux familles;0
+4573655;;Sortants CMUC OC -Autres mutuelles - B;0
+4573659;;Sortants CMUC OC -Prest. à recycler - B;0
+457365;;Org. Comp. -Sortants OC CPAM-Pro.B-Prél.;0
+45736;;Organismes Complémentaires - Sortants CMU;0
+4582111;;C.S.G. précomptée s/ pension d'inva. à 6,2%;0
+4582112;;C.S.G. précomptée s/ pension d'inva. à 3,80% (code C.G.I.);0
+4582121;;C.S.G. précomptée sur IJ - part organisme;0
+4582122;;C.S.G. précomptée sur IJ - part Mut.;0
+4582123;;C.S.G. précomptée sur IJ - autres organismes;0
+458221;;R.D.S. sur pension d'inva.;0
+4582221;;R.D.S. sur IJ - part organisme;0
+4582222;;R.D.S. sur IJ - part Mut.;0
+4582223;;R.D.S. sur IJ - autres organismes;0
+47511;;Prestations PRESTIJ - CPAM à ventiler;0
+47513500;;Prest. à vent. Prestij Mut. Gale des Affaires Sociales;0
+47513501;;Prest. à vent. Prestij M.G.E.N. - Sect. extra-métropole;0
+47513503;;Prest. à vent. Prestij Mut. Gale de la Police - Sect. Paris;0
+47513504;;Prest. à vent. Prestij Mut. Agents des Impôts;0
+47513505;;Prest. à vent. Prestij Mut. autono Gale de l'Education;0
+47513506;;Prest. à vent. Prestij M.G.E.N.;0
+47513507;;Prest. à vent. Prestij Mut. du Minist. de l'Agriculture;0
+47513508;;Prest. à vent. Prestij Mut. Gale de l'Equipmt et des Transp.;0
+47513509;;Prest. à vent. Prestij Mut. du Minist. de l'Industrie;0
+47513511;;Prest. à vent. Prestij Mut. du Trésor;0
+47513512;;Prest. à vent. Prestij Mut. Gale des P.T.T.;0
+47513513;;Prest. à vent. Prestij Mut. des Douanes;0
+47513514;;Prest. à vent. Prestij Mut. des agents des C.A.N.S.S.M.;0
+47513515;;Prest. à vent. Prestij Sté Mutualiste de l'I.N.S.E.E.;0
+47513516;;Prest. à vent. Prestij Mut. de la Marine;0
+47513518;;Prest. à vent. Prestij Mut. de la C.D.C.;0
+47513519;;Prest. à vent. Prestij Mut. des Persls Civils de l'Aviation;0
+47513520;;Prest. à vent. Prestij Union Stés Mutua Fonct. Rég. Paris.;0
+47513523;;Prest. à vent. Prestij Mut. Centrale des Finances;0
+47513526;;Prest. à vent. Prestij Mut. Minist. Anciens Combattants;0
+47513527;;Prest. à vent. Prestij Mut. du Minist. de la Justice;0
+47513529;;Prest. à vent. Prestij Mut. Familiale France et Outre-Mer;0
+47513532;;Prest. à vent. Prestij Mut. Civile de la Guerre;0
+47513533;;Prest. à vent. Prestij Mut. des Relations extérieures;0
+47513536;;Prest. à vent. Prestij M.G.P. - Sect. Versailles;0
+47513537;;Prest. à vent. Prestij Mut. Gale de la Police;0
+47513555;;Prest. à vent. Prestij Sté Mutualiste Police Nat.;0
+47513599;;Prest. à vent. Prestij Mutua. Fonction Publique;0
+47513601;;Prest. à vent. Prestij M.N.E.F.;0
+47513602;;Prest. à vent. Prestij Mut.Cpltaire Ville Paris,assist. pub.;0
+47513603;;Prest. à vent. Prestij Mut. de l'E.D.F.;0
+47513604;;Prest. à vent. Prestij Mut. de la Police Nat.;0
+65611111422;11B22;Prest. Mal. -Hono. Para. Masseurs Kinésithérapeutes Sal.;0
+6561111142;;Prest. Mal. -Hono. Para. Masseurs Kinésithérapeutes;0
+65611111431;11B31;Prest. Mal. -Hono. Para. Orthophonistes Lib.;0
+65611111432;11B32;Prest. Mal. -Hono. Para. Orthophonistes Sal.;0
+6561111143;;Prest. Mal. -Hono. Para. Orthophonistes;0
+65611111441;11B41;Prest. Mal. -Hono. Para. Orthoptistes Lib.;0
+65611111442;11B42;Prest. Mal. -Hono. Para. Orthoptistes Sal.;0
+6561111144;;Prest. Mal. -Hono. Para. Orthoptistes;0
+6561111145;11B51;Prest. Mal. -Hono. Para. Pédicures;0
+65611111461;11B61;Prest. Mal. -Hono. Para. Sages-Femmes Libérales;0
+65611111462;11B62;Prest. Mal. -Hono. Para. Sages-Femmes Salariées;0
+6561111146;;Prest. Mal. -Hono. Para. Sages-femmes;0
+656111114;;Prest. Mal. -Hono. Para.;0
+65611111511;11C11;Prest. Mal. - Honoraires des Dent. Omniprat. liber.;0
+65611111512;11C12;Prest. Mal. - Honoraires des Dent. Omniprat. sal.;0
+6561111151;;Prest. Mal. - Honoraires dentaires des omnipraticiens;0
+65611111521;11C21;Prest. Mal. - Honoraires des Dent. Spec. liber.;0
+65611111522;11C22;Prest. Mal. - Honoraires des Dent. Spec. sal.;0
+6561111152;;Prest. Mal. - Honoraires dentaires des spécialistes;0
+656111115;;Prest. Mal. - Honoraires dentaires;0
+656111116;11D11;Prest. Mal. - Honoraires du secteur public;0
+6561111171;11G11;Prest. Mal. - Honoraires Forfaits option conventionnelle;0
+65611111721;;Prest. Mal. - Forfaits protheses dentaires CMU;0
+65611111722;;Prest. Mal. - Forfaits orthodontie CMU;0
+6561111172;;Prest. Mal. - Forfaits dentaires CMU;0
+6561111173;11H11;Prest. Mal  -.Forfaits option centres de santé;0
+65611111741;11G11;Prestations maladie - Contrats de bonne pratique;0
+65611111742;11G11;Prestations maladie - Contrats de santé publique;0
+65611111743;11G11;Prestations maladie - Accords de bon usage des soins;0
+65611111748;11G11;Prestations maladie - Autres contrats;0
+6561111174;11G11;Prestations maladie - Contrats conventionnels;0
+6561111175;11D11;Prestations maladie - IVG en ville;0
+65611111761;11D11;Prest.Mal. -Gardes en établissements;0
+65611111762;11D11;Prest.Mal. -Astreintes en établissements;0
+475331515;;Prest. à recyc. Prestij Sté Mutualiste de l'I.N.S.E.E.;0
+475331516;;Prest. à recyc. Prestij Mut. de la Marine;0
+475331518;;Prest. à recyc. Prestij Mut. de la C.D.C.;0
+475331519;;Prest. à recyc. Prestij Mut. des Persls Civils de l'Aviation;0
+475331520;;Prest. à recyc. Prestij Union Stés Mutua Fonct. Rég. Paris.;0
+475331523;;Prest. à recyc. Prestij Mut. Centrale des Finances;0
+475331526;;Prest. à recyc. Prestij Mut. du Minist. Anciens Combattants;0
+475331527;;Prest. à recyc. Prestij Mut. du Minist. de la Justice;0
+475331529;;Prest. à recyc. Prestij Mut. Familiale France et Outre-Mer;0
+475331532;;Prest. à recyc. Prestij Mut. Civile de la Guerre;0
+475331533;;Prest. à recyc. Prestij Mut. des Relations extérieures;0
+475331536;;Prest. à recyc. Prestij M.G.P. - Sect. Versailles;0
+475331537;;Prest. à recyc. Prestij Mut. Gale de la Police;0
+475331555;;Prest. à recyc. Prestij Sté Mutualiste Police Nat.;0
+475331599;;Prest. à recyc. Prestij Mutua. Fonction Publique;0
+475331601;;Prest. à recyc. Prestij M.N.E.F.;0
+475331602;;Prest. à recyc.Prestij Mut.Cpltaire ville Paris,assist. pub.;0
+475331603;;Prest. à recyc. Prestij Mut. de l'E.D.F.;0
+475331604;;Prest. à recyc. Prestij Mut. de la Police Nat.;0
+475331605;;Prest. à recyc. Prestij Mut. de l'E.D.F.;0
+475331606;;Prest. à recyc. Prestij Mut. Nat. Fonct. Collect. Territ.;0
+475331607;;Prest. à recyc. Prestij Mut. Transp. en commun de Lyon;0
+475331609;;Prest. à recyc. Prestij M.G.P.C.L. (collectiv. loc.);0
+475331610;;Prest. à recyc. Prestij Mut. des Hospices Civils de Lyon;0
+475331611;;Prest. à recyc. Prestij Mut. SOGIREL - Lyon;0
+475331612;;Prest. à recyc. Prestij Mut. du Bât. et des Travaux Publics;0
+475331613;;Prest. à recyc. Prestij Mut. des Persls Municpx - U.P.E.S.E.;0
+475331614;;Prest. à recyc. Prestij Mut. M.I.C.I.L.S. - U.M.I.G.A.;0
+4573645;;Sortants CMUC OC -Autres mutuelles - A;0
+47513606;;Prest. à vent. Prestij Mut. Nat. Fonct. Collect. Territ.;0
+47513607;;Prest. à vent. Prestij Mut. Transp. en commun de Lyon;0
+47513609;;Prest. à vent. Prestij M.G.P.C.L. (collectiv. loc.);0
+47513612;;Prest. à vent. Prestij Mut. du Bât. et des Travaux Publics;0
+47513613;;Prest. à vent. Prestij Mut. des Persls Municpx - U.P.E.S.E.;0
+47513614;;Prest. à vent. Prestij Mut. M.I.C.I.L.S. - U.M.I.G.A.;0
+4573223;;OC-Méd.réf.-Proc. A -Paiemts man. Ag.Cpta.-Instit.de Prév;0
+4573224;;OC-Méd.réf.-Proc. A -Paiemts man. Ag.Cpta.-Mut. Rég. Agri;0
+4573225;;OC -Méd. réf. -Proc. A - Paiemts man. Ag. Cpta. -Autres mut.;0
+4573226;;OC -Méd. réf. -Proc. A - Paiemts man. Ag. Cpta. -Autres mut.;0
+4573227;;OC -Méd. réf. -Proc. A - Paiemts man. Ag. Cpta. -Autres mut.;0
+4573228;;OC -Méd. réf. -Proc. A - Paiemts man. Ag. Cpta. -Autres mut.;0
+457322;;OC -Méd. réf. -Proc. A - Paiemts man. Ag. Cpta.;0
+4573231;;OC-Méd.réf.-Proc.A -Constats d'indus-Mut.Code de la Mutua.;0
+4573232;;OC-Méd.réf.-Proc.A -Constats d'indus - Stés d'Assces.;0
+4573233;;OC -Méd. réf. -Proc.A -Constats d'indus-Instit. de Prévoy.;0
+4573234;;OC -Méd. réf.-Proc.A -Constats d'indus -Mut. régime agri.;0
+4573235;;OC -Méd. réf. -Proc. A - Constats d'indus -Autres mut.;0
+4573236;;OC -Méd. réf. -Proc. A - Constats d'indus -Autres mut.;0
+4573237;;OC -Méd. réf. -Proc. A - Constats d'indus -Autres mut.;0
+4573238;;OC -Méd. réf. -Proc. A - Constats d'indus -Autres mut.;0
+457323;;OC -Méd. réf. -Proc. A - Constats d'indus;0
+4573241;;OC-Méd.réf.-Proc.B-Gest. locale-Mut.Code de la Mutua.;0
+4573242;;OC -Méd. réf. -Proc. B - Gest. locale - Sociétés d'Assces.;0
+4573243;;OC -Méd. réf. -Proc. B - Gest. locale - Instit. de Prévoy.;0
+4573244;;OC -Méd. réf. -Proc. B - Gest. locale - Mut. régime agri.;0
+4573245;;OC -Méd. réf. -Proc. B - Gest. locale -Autres mut.;0
+4573246;;OC -Méd. réf. -Proc. B - Gest. locale -Autres mut.;0
+4573247;;OC -Méd. réf. -Proc. B - Gest. locale -Autres mut.;0
+4573248;;OC -Méd. réf. -Proc. B - Gest. locale -Autres mut.;0
+457324;;OC -Méd. réf. -Proc. B - Gest. locale;0
+4573251;;OC -Méd. réf. -Proc. B - Gest. Nat. - Mut. Code de la Mutua.;0
+4573252;;OC -Méd. réf. -Proc. B - Gest. Nat. - Sociétés d'Assces.;0
+4573253;;OC -Méd. réf. -Proc. B - Gest. Nat. - Instit. de Prévoy.;0
+4573254;;OC -Méd. réf. -Proc. B - Gest. Nat. - Mut. régime agri.;0
+4573255;;OC -Méd. réf. -Proc. B - Gest. Nat. -Autres mut.;0
+4573256;;OC -Méd. réf. -Proc. B - Gest. Nat. -Autres mut.;0
+4573257;;OC -Méd. réf. -Proc. B - Gest. Nat. -Autres mut.;0
+4573258;;OC -Méd. réf. -Proc. B - Gest. Nat. -Autres mut.;0
+457325;;OC -Méd. réf. -Proc. B - Gest. Nat.;0
+45732;;OC -Méd. réf.;0
+4573311;;OC - CMU -Proc. A - Virts. - Mut. Code de la Mutua.;0
+4573312;;OC - CMU -Proc. A - Virts. - Sociétés d'Assces.;0
+4573313;;OC - CMU -Procédure A - Virts. - Instit. de Prévoy.;0
+4573314;;OC - CMU -Proc. A - Virts. - Mut. régime agri. (code rural)-;0
+4573315;;OC - CMU -Proc. A - Virts. -Autres mut.;0
+4573316;;OC - CMU -Proc. A - Virts. -Autres mut.;0
+4573317;;OC - CMU -Proc. A - Virts. -Autres mut.;0
+4573318;;OC - CMU -Proc. A - Virts. -Autres mut.;0
+4573319;;OC - CMU -Proc. A -prest. à recycler;0
+457331;;OC - CMU -Proc. A - Virts.;0
+4573321;;OC-CMU-Proc.A-Paiemts man. Ag.Cpta.-Mut.Code de la Mutua.;0
+4573322;;OC-CMU -Proc.A -Paiemts man. Ag. Cpta. - Stés d'Assces.;0
+6561211452;11Q21;Prest. AT-MP - Prothèses internes - Hors OQN;0
+656121145;;Prest. AT-MP - Prothèses internes;0
+656121146;11R11;Prest. AT-MP - Véhicules pour handicapés physiques;0
+656121148;11S11;Prest. AT-MP - Autres frais;0
+65612114;;Prest. AT-MP - Autres prescriptions;0
+656121151;11T11;Prest. AT-MP - Transp.;0
+656121152;11T11;Prest. AT-MP - Transp.;0
+656121153;11T11;Prest. AT-MP - Transp.;0
+656121158;11T11;Prest. AT-MP - Transp.;0
+65612115;11T11;Prest. AT-MP - Transp.;0
+656121161;11U11;Prest. AT-MP - Cures thermales;0
+6561211681;11U21;Prest. AT-MP - autres Prest.en nature - Frais d'expertise;0
+6561211688;11U21;Prest. AT-MP - autres Prest. en nature - diverses autres PN;0
+656121168;11U21;Prest. AT-MP - autre Prest. en nature - Autres;0
+65612116;;Prest. AT-MP - Autres prestations en nature;0
+65612117;11V11;Prest. AT-MP -prest. en espèces;0
+6561211;;Dépenses AT-MP exécutées en ville;0
+6561212111;12A11;Prest. AT-MP - Dotation globale - Ch. de l'ex.;0
+6561212112;12A11;Prest. AT-MP - Dotation globale - Ch. exercice précédent;0
+656121211;;Prest. AT-MP - Dotation Globale;0
+656121212;12A21;Prest. AT-MP - Autres frais d'Hospit. Publique;0
+656121213;12A31;Prest. AT-MP - Honoraires du secteur public;0
+65612121;;Prest. AT-MP - Ets sanitaires;0
+656121221;12B11;Prest. AT-MP - Enfance inadaptée;0
+656121222;12B21;Prest. AT-MP - Adultes Handicapés;0
+65612122;;Prest. AT-MP - Ets médico-sociaux;0
+6561212311;12C11;Prest. AT-MP -Clin. priv. sous  OQN - Prest.hosp. -Chirurgie;0
+6561212312;12C11;Prest. AT-MP-Clin. priv. sous  OQN -Prest.hosp. - Médecine;0
+6561212313;12C11;Prest. AT-MP -Clin. priv. sous  OQN - Prest.hosp. -Gyné.;0
+6561212314;12C11;Prest. AT-MP -Clin. priv. sous  OQN - Prest.hosp. -Moyen séj;0
+6561212315;12C11;Prest. AT-MP -Clin. priv. sous  OQN- Prest.hosp. -Psy.;0
+65612123161;12C11;Prest.AT-MP-Hospit.Clin privées- TAA;0
+65612123162;12C11;Prest.AT-MP-Hospit.à dom.- TAA;0
+656121231631;12C11;Prest.AT-MP- Clinique privée passage aux Urgence - TAA;0
+656121231632;12C11;PREST.AT-MP - Clinique privée Forfait Annuel d'Urgence - TAA;0
+65612123163;12C11;Prest.AT-MP- Clinique privée - Urgence - TAA;0
+65612123164;12C11;Prest.AT-MP- Dialyse - TAA;0
+65612123165;;Prest.AT-MP - prélèvements d'organes - TAA;0
+4573352;;OC - CMU -Proc. B - Gest. Nat. - Sociétés d'Assces.;0
+4573353;;OC - CMU -Proc. B - Gest. Nat. - Instit. de Prévoy.;0
+4573354;;OC - CMU -Proc. B - Gest. Nat. - Mut. régime agri.;0
+4573355;;OC - CMU -Proc. B - Gest. Nat. -Autres mut.;0
+4573356;;OC - CMU -Proc. B - Gest. Nat. -Autres mut.;0
+4573357;;OC - CMU -Proc. B - Gest. Nat. -Autres mut.;0
+4573358;;OC - CMU -Proc. B - Gest. Nat. -Autres mut.;0
+457335;;OC - CMU -Proc. B - Gest. Nat.;0
+457336;;CMU Cpltaire - IVG;0
+45733;;OC - CMU;0
+45734111;;MGEN -Créan. caisse-piv Ets priv. - acptes;0
+45734112;;MGEN -Créan. caisse-piv Ets priv. -prest. liq.;0
+4573411;;MGEN -Créan. syst. caisse-piv/Ets priv.;0
+45734121;;MGPTT -Créan. caisse-piv Ets priv. - acptes;0
+45734122;;MGPTT -Créan. caisse-piv Ets priv. -prest. liq.;0
+4573412;;MGPTT -Créan. syst. caisse-piv/Ets priv.;0
+45734131;;MGP -Créan. caisse-piv Ets priv. - acptes;0
+45734132;;MGP -Créan. caisse-piv Ets priv. -prest. liq.;0
+4573413;;MGP -Créan. syst. caisse-piv/Ets priv.;0
+45734141;;MFP -Créan. caisse-piv Ets priv. - acptes;0
+45734142;;MFP -Créan. caisse-piv Ets priv. -prest. liq.;0
+4573414;;MFP -Créan. syst. caisse-piv/Ets priv.;0
+45734151;;MNH -Créan. caisse-piv Ets priv. - acptes;0
+45734152;;MNH -Créan. caisse-piv Ets priv. -prest. liq.;0
+4573415;;MNH -Créan. syst. caisse-piv/Ets priv.;0
+45734161;;MNAM -Créan. caisse-piv Ets priv. - acptes;0
+45734162;;MNAM -Créan. caisse-piv Ets priv. -prest. liq.;0
+656111218;12A21;Mal.autres frais d'hosp.publ.et actes et consult.ext.et IVG;0
+6561112181;12A21;Mal.autres frais d'hospitalisation publique;0
+65611121811;12A21;Mal.autres frais d'hosp.publique - conv.internationales;0
+65611121818;12A21;Mal.autres frais d'hosp.publique - autres;0
+6561112182;12A31;Mal.actes et consultations externes;0
+65611121821;12A31;Mal.autres frais d'hosp.publique - autres;0
+65611121828;12A31;Mal.actes et consult.externes - autres;0
+6561112183;12A41;Mal.IVG;0
+6561112362;12C11;Prest.Mal.  - OQN PSY - médicaments;0
+6561112363;12C11;Prest.Mal.  - OQN PSY - dispositifs médicaux;0
+6561112371;12C11;Prest.Mal.  - OQN SSR - frais de séjours;0
+6561112372;12C11;Prest.Mal.  - OQN SSR - médicaments;0
+6561112373;12C11;Prest.Mal.  - OQN SSR - dispositifs médicaux;0
+65611123;;Prest. Mal. -Clin. priv.;0
+65611124;12D11;Prest. Mal. - Expérimentations;0
+6561112;;Prest. Mal. - Dépenses exécutées en établissement;0
+6561117;;Prest. Maladie - CMUC Migrants;0
+656111;;Prest. Mal.;0
+6561121111;11A11;Prest. Mat. - Honoraires Médicaux-Omniprat. Liber.;0
+6561121112;11A12;Prest. Mat. - Honoraires Médicaux-Omniprat. sal.;0
+656112111;;Prest. Mat. - Honoraires Médicaux des omnipraticiens;0
+6561121121;11A21;Prest. Mat. - Honoraires Médicaux-Spec. Liber.;0
+6561121122;11A22;Prest. Mat. - Honoraires Médicaux-Spec. sal.;0
+656112112;;Prest. Mat. - Honoraires Médicaux des spécialistes;0
+6561121131;11A31;Prest. Mat. - Honoraires Médicaux des S.F. liber.;0
+6561121132;11A32;Prest. Mat. - Honoraires Médicaux des S.F. sal.;0
+656112113;;Prest. Mat. - Honoraires Médicaux des sages-femmes;0
+65611211411;11B11;Prest. Mat. -Hono. Para. Infirmiers Lib.;0
+65611211412;11B12;Prest. Mat. -Hono. Para. Infirmiers Sal.;0
+6561121141;;Prest. Mat. -Hono. Para. Infirmiers;0
+65611211421;11B21;Prest. Mat. -Hono. Para. Masseurs Kinésithérapeutes Lib.;0
+65611211422;11B22;Prest. Mat. -Hono. Para. Masseurs Kinésithérapeutes Sal.;0
+475333509;;Recyc. Ag. cpta. -  Mut. du Minist. de l'Industrie;0
+475333511;;Recyc. Ag. cpta. -  Mut. du Trésor;0
+475333512;;Recyc. Ag. cpta. -  Mut. Gale des P.T.T.;0
+475333513;;Recyc. Ag. cpta. -  Mut. des Douanes;0
+475333514;;Recyc. Ag. cpta. -  Mut. des agents des C.A.N.S.S.M.;0
+475333515;;Recyc. Ag. cpta. -  Sté Mutualiste de l'I.N.S.E.E.;0
+475333516;;Recyc. Ag. cpta. -  Mut. de la Marine;0
+475333518;;Recyc. Ag. cpta. -  Mut. de la C.D.C;0
+475333519;;Recyc. Ag. cpta. -  Mut. des Persls Civils de l'Aviation;0
+475333520;;Recyc. Ag. cpta. -  Union Stés Mutua Fonct. Région Paris.;0
+475333523;;Recyc. Ag. cpta. -  Mut. Centrale des Finances;0
+475333526;;Recyc. Ag. cpta. -  Mut. Minist. Anciens Combattants;0
+475333527;;Recyc. Ag. cpta. -  Mut. du Minist. de la Justice;0
+475333529;;Recyc. Ag. cpta. -  Mut. Familiale France et Outre-Mer;0
+475333532;;Recyc. Ag. cpta. -  Mut. Civile de la Guerre;0
+475333533;;Recyc. Ag. cpta. -  Mut. des Relations extérieures;0
+475333536;;Recyc. Ag. cpta. -  M.G.P. - Sect. Versailles;0
+475333537;;Recyc. Ag. cpta. -  Mut. Gale de la Police;0
+475333555;;Recyc. Ag. cpta. -  Sté Mutualiste Police Nat.;0
+475333599;;Recyc. Ag. cpta. -  Mutua. Fonction Publique;0
+475333601;;Recyc. Ag. cpta. -  M.N.E.F.;0
+475333602;;Recyc. Ag. cpta. -  Mut.Cpltaire Ville Paris, assist. Pub;0
+475333603;;Recyc. Ag. cpta. -  Mut. de l'E.D.F.;0
+475333604;;Recyc. Ag. cpta. -  Mut. de la Police Nat.;0
+475333605;;Recyc. Ag. cpta. -  Mut. de l'E.D.F.;0
+475333606;;Recyc. Ag. cpta. -  Mut. Nat. Fonct. Collect. Territ.;0
+475333607;;Recyc. Ag. cpta. -  Mut. Transp. en commun de Lyon;0
+475333609;;Recyc. Ag. cpta. -  M.G.P.C.L. (collectiv. loc.);0
+475333610;;Recyc. Ag. cpta. -  Mut. des Hospices Civils de Lyon;0
+475333611;;Recyc. Ag. cpta. -  Mut. SOGIREL - Lyon;0
+475333612;;Recyc. Ag. cpta. -  Mut. du Bât. et des Travaux Publics;0
+475333613;;Recyc. Ag. cpta. -  Mut. des Persls Municpx - U.P.E.S.E.;0
+475333614;;Recyc. Ag. cpta. -  Mut. M.I.C.I.L.S. - U.M.I.G.A.;0
+475333615;;Recyc. Ag. cpta. -  Mut. Asso. Lyonnaise de Prévoy.;0
+475333616;;Recyc. Ag. cpta. -  Mut. Municpx Ville de Marseille;0
+475333617;;Recyc. Ag. cpta. -  Stés d'Etudiants Mutualistes;0
+475333619;;Recyc. Ag. cpta. -  Mut. Nat. des Hospitaliers;0
+6561122361;12C11;Prestations Maternité - OQN PSY - frais de séjours;0
+6561122362;12C11;Prestations Maternité - OQN PSY - médicaments;0
+6561122363;12C11;Prestations Maternité - OQN PSY - dispositifs médicaux;0
+6561122371;12C11;Prestations Maternité - OQN SSR - frais de séjours;0
+6561122372;12C11;Prestations Maternité - OQN SSR - médicaments;0
+6561122373;12C11;Prestations Maternité - OQN SSR - dispositifs médicaux;0
+65611223;;Prest. Mat. -Clin. priv.;0
+65611224;12D11;Prest. Mat. - Expérimentations;0
+6561122;;Prest. Mat. - Dépenses exécutées en établissement;0
+6561127;;Prest. Maternité - CMUC Migrants;0
+656112;;Prest. Mat.;0
+65611;;Prest. Mal.-Maternité;0
+6561211111;11A11;Prest. AT-MP  - Honoraires Médicaux-Omniprat. liber.;0
+6561211112;11A12;Prest. AT-MP  - Honoraires Médicaux-Omniprat. sal.;0
+656121111;;Prest. AT-MP  - Honoraires Médicaux des omnipraticiens;0
+6561211121;11A21;Prest. AT-MP  - Honoraires Médicaux-Spec. liber.;0
+6561211122;11A22;Prest. AT-MP  - Honoraires Médicaux-Spec. sal.;0
+656121112;;Prest. AT-MP  - Honoraires Médicaux des spécialistes;0
+6561211131;11A31;Prest. AT-MP  - Honoraires Médicaux des S.F. Liber;0
+6561211132;11A32;Prest. AT-MP  - Honoraires Médicaux des S.F. sal;0
+656121113;;Prest. AT-MP  - Honoraires Médicaux des sages-femmes;0
+65612111411;11B11;Prest. AT-MP -Hono. Para. Infirmiers Lib.;0
+65612111412;11B12;Prest. AT-MP -Hono. Para. Infirmiers Sal.;0
+6561211141;;Prest. AT-MP -Hono. Para. Infirmiers;0
+65611111763;11D11;Prest.Mal. -Astreintes en ville;0
+65611111767;11D11;Prest.Mal. -Régulation;0
+656111117;;Prest. Mal. - Honoraires Forfaits divers;0
+656111118;11H11;Prest. Mal. - Autres professionnels de santé;0
+65611111;;Prest. Mal. - Honoraires;0
+6561111211;11J11;Prest. Mal. -Actes de labo. effectués par les laboratoires;0
+6561111212;11J12;Prest. Mal. -Actes de labo. effectués par les pharmacies;0
+6561111213;11J13;Prest. Mal. -Actes de labo. effectués par centres de santé;0
+656111121;;Prest. Mal. -Actes de labo. - hors prélèvements;0
+656111122;11J21;Prest. Mal. -Actes de labo. - prélèvements;0
+656111123;11J31;Prest. Mal. - Actes des Directeurs de laboratoire;0
+65611112;;Prest. Mal. - Biologie et prélèvements;0
+65611113;11K11;Prest. Mal. - Médicaments;0
+6561111411;11L11;Prest. Mal. - Produits humains - OQN Cliniques privées;0
+6561111412;11L21;Prest. Mal. - Produits humains - Hors OQN;0
+656111141;;Prest. Mal. - Produits humains;0
+656111142;11M11;Prest. Mal. - Appareils et matériels de traitement;0
+6561111432;11N11;Optique médicale - Hors OQN, hors ff CMU;0
+6561111433;11N11;Optique médicale - Forfaits CMU;0
+656111143;11N11;Prest. Mal. - Optique médicale;0
+6561111441;11P11;Prest. Mal. -Orth & Proth externes - OQN Cliniques privées;0
+6561111442;11P21;Prest. Mal. -Orth & Proth externes - Hors OQN;0
+6561111443;;Prest. Mal. - Prothèses auditives - Forfait CMU;0
+656111144;;Prest. Mal. -Orth & Proth externes;0
+6561111451;11Q11;Prest. Mal. - Prothèses internes - OQN Cliniques privées;0
+6561111452;11Q21;Prest. Mal. - Prothèses internes - Hors OQN;0
+656111145;;Prest. Mal. - Prothèses internes;0
+656111146;11R11;Prest. Mal. - Véhicules pour handicapés physiques;0
+6561111471;11H11;Prest.Mal. -Autr.presc. - Forfaits TIPS CMU;0
+6561111472;11H11;Prest.Mal. -Autr.presc. - CMUC Migrants;0
+656111147;11H11;Prest. Mal. - Forfaits divers;0
+656111148;11S11;Prest. Mal. - Autres frais;0
+65611114;;Prest. Mal. - Autres prescriptions;0
+656111151;11T11;Prest. Mal. - Transp.;0
+656111152;11T11;Prest. Mal. - Transp.;0
+656111153;11T11;Prest. Mal. - Transp.;0
+656111158;11T11;Prest. Mal. - Transp.;0
+65611115;11T11;Prest. Mal. - Transp.;0
+656111161;11U11;Prest. Mal. - Cures thermales;0
+656111162;;Prestations Contrôle Médical - ENIM;0
+6561111681;11U21;Prest. Mal. - autres Prest.en nature - Frais d'expertise;0
+6561111688;11U21;Prest. Mal. - autres Prest.en nature - Diverses autres PN;0
+656111168;11U21;Prest. Mal. - autres Prest.en nature - Autres;0
+65611116;;Prest. Mal. - Autres prestations en nature;0
+475331615;;Prest. à recyc. Prestij Mut. Asso. Lyonnaise de Prévoy.;0
+475331616;;Prest. à recyc. Prestij Mut. Municpx Ville de Marseille;0
+475331617;;Prest. à recyc. Prestij Stés d'Etudiants Mutualistes;0
+475331619;;Prest. à recyc. Prestij Mut. Nat. des Hospitaliers;0
+475331622;;Prest. à recyc. Prestij Mut. de Fumel;0
+475331629;;Prest. à recyc. Prestij 541ème Mutualiste (Lyon);0
+475331634;;Prest. à recyc. Prestij Mut. du persl des Préfectures;0
+475331637;;Prest. à recyc. Prestij Mut. de l'E.D.F.;0
+475331638;;Prest. à recyc. Prestij Mut. de l'E.D.F.;0
+475331639;;Prest. à recyc. Prestij Mut. de l'E.D.F.;0
+475331640;;Prest. à recyc. Prestij Mut. de l'E.D.F.;0
+475331641;;Prest. à recyc. Prestij Mut. de l'E.D.F.;0
+475331645;;Prest. à recyc. Prestij Mut. de la C.G.E. (La Neptune);0
+475331651;;Prest. à recyc. Prestij Mut. du persl Munic. et Hospitalier;0
+475331652;;Prest. à recyc. Prestij Mut.COVIMUT-Poitiers Transp. Commun;0
+475331654;;Prest. à recyc. Prestij Mut. Persl Munic. et Transp. Commun;0
+475331656;;Prest. à recyc. Prestij Mut. Persl Munic. et collect. loc.;0
+475331689;;Prest. à recyc. Prestij Mut. de l'Est - Sect. Strasbourg;0
+475331;;Prestations à recycler - PRESTIJ Mut.;0
+475332500;;Prest. à réimp Prestij Mut. Gale des Affaires Sociales;0
+475332501;;Prest. à réimp Prestij M.G.E.N. - Sect. extra-métropole;0
+475332503;;Prest. à réimp Prestij Mut. Gale de la Police - Sect. Paris;0
+475332504;;Prest. à réimp Prestij Mut. Agents des Impôts;0
+475332505;;Prest. à réimp Prestij Mut. autono Gale de l'Education;0
+475332506;;Prest. à réimp Prestij M.G.E.N.;0
+475332507;;Prest. à réimp Prestij Mut. du Minist. de l'Agriculture;0
+475332508;;Prest. à réimp Prestij Mut. Gale de l'Equipmt et des Transp.;0
+475332509;;Prest. à réimp Prestij Mut. du Minist. de l'Industrie;0
+475332511;;Prest. à réimp Prestij Mut. du Trésor;0
+475332512;;Prest. à réimp Prestij Mut. Gale des P.T.T.;0
+475332513;;Prest. à réimp Prestij Mut. des Douanes;0
+475332514;;Prest. à réimp Prestij Mut. des agents des C.A.N.S.S.M.;0
+475332515;;Prest. à réimp Prestij Sté Mutualiste de l'I.N.S.E.E.;0
+475332516;;Prest. à réimp Prestij Mut. de la Marine;0
+475332518;;Prest. à réimp Prestij Mut. de la C.D.C.;0
+475332519;;Prest. à réimp Prestij Mut. des Persls Civils de l'Aviation;0
+475332520;;Prest. à réimp Prestij Union Stés Mutual Fonct. Rég. Paris.;0
+475332523;;Prest. à réimp Prestij Mut. Centrale des Finances;0
+475332526;;Prest. à réimp Prestij Mut. Minist. Anciens Combattants;0
+475332527;;Prest. à réimp Prestij Mut. du Minist. de la Justice;0
+475332529;;Prest. à réimp Prestij Mut. Familiale France et Outre-Mer;0
+475332532;;Prest. à réimp Prestij Mut. Civile de la Guerre;0
+475332533;;Prest. à réimp Prestij Mut. des Relations extérieures;0
+475332536;;Prest. à réimp Prestij M.G.P. - Sect. Versailles;0
+475332537;;Prest. à réimp Prestij Mut. Gale de la Police;0
+475332555;;Prest. à réimp Prestij Sté Mutualiste Police Nat.;0
+475332599;;Prest. à réimp Prestij Mutua. Fonction Publique;0
+475332601;;Prest. à réimp Prestij M.N.E.F.;0
+475332602;;Prest. à réimp Prestij Mut. Cpltaire Ville Paris,assist. Pub;0
+475332603;;Prest. à réimp Prestij Mut. de l'E.D.F.;0
+656111233;;Prest.Mal.  -Clin. priv. - Forfaits journaliers CMU/AME;0
+656111234;12C31;Prest.Mal. - Rembrst IVG à l'acte -Clin. priv. - I.V.G.;0
+656111235;12C41;Prest.Mal.  -Clin. priv. sous OQN - Urgence;0
+6561112361;12C11;Prest.Mal.  - OQN PSY - frais de séjours;0
+6561112316;12C11;Prest.Mal-Clin privées sous OQN (hors CI) - TAA;0
+65611123171;;Prest.Mal.  - FAU;0
+65611123172;;Prest.Mal.  - forfait annuel de prélévement d'organe CPO;0
+65611123173;;Prest.Mal.  - forfait annuel de greffe;0
+65611123174;;Prest.Mal.  - MIGAC;0
+656111231;;Prest. Mal. -Clin. priv. sous OQN (hors conso. interméd.);0
+6561212372;12C11;Prestations AT-MP - OQN SSR - médicaments;0
+6561212373;12C11;Prestations AT-MP - OQN SSR - dispositifs médicaux;0
+65612123;;Prest. AT-MP -Clin. priv.;0
+65612124;12D11;Prest. AT-MP - Expérimentations;0
+6561212;;Prest. AT-MP - Dépenses exécutées en établissement;0
+656121;;Prestations d'incapacité temporaire;0
+65612211;21B11;Prest. AT-MP - incap. perman. - Transferts en capital;0
+65612212;21B11;Prest. AT-MP - incap. perman.;0
+6561221;;Prest. AT-MP - incap. perman. - Indemnités en capital;0
+656122211;21B11;Prest. AT-MP - incap. perman. - Rentes d'incapacité;0
+656122212;21B11;Prest. AT-MP - incap. perman. -  Major. pour tierce personne;0
+656122213;21B11;Prest. AT-MP - incap. perman. -  Major. cristalisée;0
+65612221;;Prest. AT-MP - incap. perman. - Rentes - Droits propres;0
+656122221;21B11;Prest. AT-MP - incap. perman. -  Rentes d'ayants-droit;0
+656122222;21B11;Prest. AT-MP - incap. perman. -  Major. et bonifications;0
+65612222;;Prest. AT-MP - incap. perman. -  Rentes - Droits dérivés;0
+6561222;;Prest. AT-MP - incap. perman. -  Rentes;0
+656122;;Prest. AT-MP - incap. perman.;0
+656123;21C11;Prest. AT-MP - Autres Ch. techniques;0
+65612;;Prest. AT-MP;0
+6561121142;;Prest. Mat. -Hono. Para. Masseurs Kinésithérapeutes;0
+65611211431;11B31;Prest. Mater. -Hono. Para. Orthophonistes Lib.;0
+65611211432;11B32;Prest. Mater. -Hono. Para. Orthophonistes Sal.;0
+6561121143;;Prest. Mater. -Hono. Para. Orthophonistes;0
+65611211441;11B41;Prest. Mater. -Hono. Para. Orthoptistes Lib.;0
+65611211442;11B42;Prest. Mater. -Hono. Para. Orthoptistes Sal.;0
+6561121144;;Prest. Mater. -Hono. Para. Orthoptistes;0
+6561121145;11B51;Prest. Mater. -Hono. Para. Pédicures;0
+65611211461;11B61;Prest. Mat. -Hono. Para. Sages-Femmes Libérales;0
+65611211462;11B62;Prest. Mat. -Hono. Para. Sages-Femmes Salariées;0
+6561121146;;Prest. Mat. -Hono. Para. Sages-femmes;0
+656112114;;Prest. Mat. -Hono. Para.;0
+65611211511;11C11;Prest. Mater. - Honoraires des Dent. Omniprat. liber.;0
+65611211512;11C12;Prest. Mater. - Honoraires des Dent. Omniprat. sal.;0
+6561121151;;Prest. Mater. - Honoraires dentaires des omnipraticiens;0
+65611211521;11C21;Prest. Mater. - Honoraires des Dent. Spec. liber.;0
+65611211522;11C22;Prest. Mater. - Honoraires des Dent. Spec. sal.;0
+6561121152;;Prest. Mater. - Honoraires dentaires des spécialistes;0
+656112115;;Prest. Mater. - Honoraires dentaires;0
+656112116;11D11;Prest. Mat. - Honoraires du secteur public;0
+65611211721;;Prest. Mater. - Forfaits protheses dentaires CMU;0
+65611211722;;Prest. Mater. - Forfaits orthodontie CMU;0
+6561121172;;Prest. Mater. - Forfaits dentaires CMU;0
+656112117;;Prest. Mater. - Honoraires Forfaits divers;0
+656112118;11H11;Prest. Mater. - Autres professionnels de santé;0
+65611211;;Prest. Mat. - Honoraires;0
+6561121211;11J11;Prest. Mat. -Actes de labo. effectués par les laboratoires;0
+6561121212;11J12;Prest. Mat. -Actes de labo. effectués par les pharmacies;0
+6561121213;11J13;Prest. Mat. -Actes de labo. effectués par centres de santé;0
+656112121;;Prest. Mat. -Actes de labo. hors prélèvements;0
+656112122;11J21;Prest. Mat. -Actes de labo. - prélèvements;0
+656112123;11J31;Prest. Mat. - Actes  des Directeurs de laboratoire;0
+65611212;;Prest. Mat. - Biologie et prélèvements;0
+65611213;11K11;Prest. Mater. - Médicaments;0
+6561121411;11L11;Prest. Mat. - Produits humains - OQN Cliniques privées;0
+6561121412;11L21;Prest. Mat. - Produits humains - Hors OQN;0
+656112141;;Prest. Mat. - Produits humains;0
+656112142;11M11;Prest. Mater. - Appareils et matériels de traitement;0
+6561121432;11N11;Optique médicale - Hors OQN, hors ff CMU;0
+6561121433;11N11;Optique médicale - Forfaits CMU;0
+656112143;11N11;Prest. Mater. - Optique médicale;0
+6561121441;11P11;Prest. Mater. -Orth & Proth externes - OQN Cliniques privées;0
+6561121442;11P21;Prest. Mater. -Orth & Proth externes - Hors OQN;0
+6561121443;;Prest. Mater. - Prothèses auditives - Forfait CMU;0
+656112144;;Prest. Mater. -Orth & Proth externes;0
+475333622;;Recyc. Ag. cpta. -  Mut. de Fumel;0
+475333629;;Recyc. Ag. cpta. -  541ème Mutualiste (Lyon);0
+475333634;;Recyc. Ag. cpta. -  Mut. du persl des Préfectures;0
+475333637;;Recyc. Ag. cpta. -  Mut. de l'E.D.F.;0
+475333638;;Recyc. Ag. cpta. -  Mut. de l'E.D.F.;0
+475333639;;Recyc. Ag. cpta. -  Mut. de l'E.D.F.;0
+475333640;;Recyc. Ag. cpta. -  Mut. de l'E.D.F.;0
+475333641;;Recyc. Ag. cpta. -  Mut. de l'E.D.F.;0
+475333645;;Recyc. Ag. cpta. -  Mut. de la C.G.E. (La Neptune);0
+475333651;;Recyc. Ag. cpta. -  Mut. du persl Munic. et Hospitalier;0
+475333652;;Recyc. Ag. cpta. -  Mut.COVIMUT-Poitiers (Transp. Commun);0
+475333654;;Recyc. Ag. cpta. -  Mut. du persl Munic. et Transp. Commun;0
+475333656;;Recyc. Ag. cpta. -  Mut. du persl Munic. et collectiv. loc.;0
+475333689;;Recyc. Ag. cpta. -  Mut. de l'Est - Sect. Strasbourg;0
+626231;;Frais de télétransmission -Méd.;0
+626232;;Frais de teletransmission - Chirurgiens dentistes;0
+6262331;;Frais de télétrans. - Infirmiers;0
+6262332;;Frais de télétransmission - Masseurs kinésithérapeutes;0
+6262333;;Frais de teletrans-orthoptistes;0
+6262335;;Frais de télétransmission - Orthophonistes;0
+626234;;Frais de télétrans. - Sages-Femmes;0
+62623511;;Frais de télétransmission FSE - Pharmaciens;0
+62623512;;Frais de télétransmission B2 dégradés - Pharmaciens;0
+6262351;;Frais de télétransmission - Pharmaciens;0
+6262352;;Frais de teletransmission - Laboratoires;0
+6262355;;Frais de teletransmission - Centres de santé;0
+626331;;Frais de télétransmission -Méd.;0
+626332;;Frais de teletransmission - Chirurgiens dentistes;0
+6263331;;Frais de télétrans. - Infirmiers;0
+6263332;;Frais de télétransmission - Masseurs kinésithérapeutes;0
+6263333;;Frais de teletrans-orthoptistes;0
+6263335;;Frais de télétransmission - Orthophonistes;0
+626334;;Frais de télétrans. - Sages-Femmes;0
+62633511;;Frais de télétransmission FSE - Pharmaciens;0
+62633512;;Frais de télétransmission B2 dégradés - Pharmaciens;0
+6263351;;Frais de télétransmission - Pharmaciens;0
+6263352;;Frais de teletransmission - Laboratoires;0
+6263355;;Frais de teletransmission - Centres de santé;0
+6264;;Frais de télémise à jour;0
+62681;;Frais de télémise à jour;0
+6561111111;11A11;Prest. Mal. - Honoraires Médicaux-Omniprat. liber.;0
+6561111112;11A12;Prest. Mal. - Honoraires Médicaux-Omniprat. sal.;0
+656111111;;Prest. Mal. - Honoraires Médicaux des omnipraticiens;0
+6561111121;11A21;Prest. Mal. - Honoraires Médicaux -Spec. liber.;0
+6561111122;11A22;Prest. Mal. - Honoraires Médicaux -Spec. sal.;0
+656111112;;Prest. Mal. - Honoraires Médicaux des spécialistes;0
+6561111131;11A31;Prest. Mal. - Honoraires Médicaux des S.F. liber.;0
+6561111132;11A32;Prest. Mal. - Honoraires Médicaux des S.F. sal.;0
+656111113;;Prest. Mal. - Honoraires Médicaux des sages-femmes;0
+65611111411;11B11;Prest. Mal. -Hono. Para. Infirmiers Lib.;0
+65611111412;11B12;Prest. Mal. -Hono. Para. Infirmiers Sal.;0
+6561111141;;Prest. Mal. -Hono. Para. Infirmiers;0
+65611111421;11B21;Prest. Mal. -Hono. Para. Masseurs Kinésithérapeutes Lib.;0
+656111232;12C21;Prest.Mal.  -Clin. priv. Hors OQN;0
+65611223163;12C11;Prest.Mat. -Clinique privée- Urgence - TAA;0
+65611223164;12C11;Prest.Mat-Dialyse - TAA;0
+65611223165;;Prest.Mat - prélèvements d'organes - TAA;0
+65611223167;;Prest.Mat- médicaments facturés en sus - TAA;0
+65611223168;;Prest.Mat - dispositifs médicaux facturés en sus - TAA;0
+6561122316;12C11;Prest.Mat-Clin privées sous OQN (hors CI) - TAA;0
+656112231;12C11;Prest. Mat. -Clin. priv. sous OQN (hors conso. interméd.);0
+656112232;12C21;Prest. Mat. -Clin. priv. Hors OQN;0
+656112233;;Prest. Mater.-forfaits journaliers CMU/AME;0
+656112234;;Prest. Mater. - Rembrst IVG à l'acte -Clin. priv. - I.V.G.;0
+45658113;;Créances PORT BORD - Syst. Cais. Pivots - Ets privés;0
+456581221;;CCIP -Créan. caisse-piv Ets priv. - acptes;0
+456581222;;CCIP -Créan. caisse-piv Ets priv. -prest. liq.;0
+45658122;;CCIP -Créan. syst. caisse-piv/Ets priv.;0
+45658123;;Créances CCIP - Syst. Cais. Pivots - Ets privés;0
+456581321;;Assemblée Nat. -Créan. caisse-piv Ets priv. - acptes;0
+456581322;;Assemblée Nat. -Créan. caisse-piv Ets priv. -prest. liq.;0
+45658132;;Assemblée Nat. -Créan. syst. caisse-piv/Ets priv.;0
+45658133;;Créances ASS.NAT - Syst. Cais. Pivots - Ets privés;0
+456581421;;SENAT -Créan. caisse-piv Ets priv. - acptes;0
+456581422;;SENAT -Créan. caisse-piv Ets priv. -prest. liq.;0
+45658142;;Sénat -Créan. syst. caisse-piv/Ets priv.;0
+45658143;;CréancesSENAT - Syst. Cais. Pivots - Ets privés;0
+45731211;;AME -prest. IVG;0
+45731218;;AME - Autres  Prestations;0
+40957233;;acptes Ets priv. - Forfait annuel - Urgence;0
+65612111421;11B21;Prest. AT-MP -Hono. Para. Masseurs Kinésithérapeutes Lib.;0
+65612111422;11B22;Prest. AT-MP -Hono. Para. Masseurs Kinésithérapeutes Sal.;0
+6561211142;;Prest. AT-MP -Hono. Para. Masseurs Kinésithérapeutes;0
+65612111431;11B31;Prest. AT-MP -Hono. Para. Orthophonistes Lib.;0
+65612111432;11B32;Prest. AT-MP -Hono. Para. Orthophonistes Sal.;0
+6561211143;;Prest. AT-MP -Hono. Para. Orthophonistes;0
+65612111441;11B41;Prest. AT-MP -Hono. Para. Orthoptistes Lib.;0
+65612111442;11B42;Prest. AT-MP -Hono. Para. Orthoptistes Sal.;0
+6561211144;;Prest. AT-MP -Hono. Para. Orthoptistes;0
+6561211145;11B51;Prest. AT-MP -Hono. Para. Pédicures;0
+65612111461;11B61;Prest. AT-MP -Hono. Para. Sages-Femmes Libérales;0
+65612111462;11B62;Prest. AT-MP -Hono. Para. Sages-Femmes Salariées;0
+6561211146;;Prest. AT-MP -Hono. Para. Sages-femmes;0
+656121114;;Prest. AT-MP -Hono. Para.;0
+65612111511;11C11;Prest. AT-MP - Honoraires des Dent. Omniprat. liber.;0
+65612111512;11C12;Prest. AT-MP - Honoraires des Dent. Omniprat Sal.;0
+6561211151;;Prest. AT-MP - Honoraires dentaires des omnipraticiens;0
+65612111521;11C21;Prest. AT-MP - Honoraires des Dent. Spec. liber.;0
+65612111522;11C22;Prest. AT-MP - Honoraires des Dent. Spec Sal.;0
+6561211152;;Prest. AT-MP - Honoraires dentaires des spécialistes;0
+6562113311;21H11;Secours maladie intérieur;0

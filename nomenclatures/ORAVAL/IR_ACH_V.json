@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "DCT_FLX_ACH",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "FLX_ACH_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_ACH_V",
+    "title": "Type d'acheminement des flux",
+    "primaryKey": [
+        "DCT_FLX_ACH"
+    ]
+}

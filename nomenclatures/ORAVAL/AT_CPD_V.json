@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "SIN_CAT_PRD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "PDT_CAT_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_CPD_V",
+    "title": "MP - Catégorie De Produit",
+    "primaryKey": [
+        "SIN_CAT_PRD"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "MED_CND_TOP",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "MED_CND_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "RM_CND_V",
+    "title": "top conditionnement",
+    "primaryKey": [
+        "MED_CND_TOP"
+    ]
+}

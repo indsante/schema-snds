@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "RRG_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "RRG_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_RRG_V",
+    "title": "Regroupement de régimes",
+    "primaryKey": [
+        "RRG_COD"
+    ]
+}

@@ -1,0 +1,7 @@
+VLP_COD;VLP_LIB;TEC_COL
+0;sans objet;2
+1;valorisation partielle, même déclaration du type d'UM sur le RUM et dans GENRSA/AGRAF;0
+2;valorisation partielle, déclaration différente du type d'UM sur le RUM et dans GENRSA/AGRAF. Le type d'UM donné dans GENRSA/AGRAF est retenu;0
+3;valorisation totale, même déclaration du type d'UM sur le RUM et dans GENRSA/AGRAF;0
+4;valorisation totale, déclaration différente du type d'UM sur le RUM et dans GENRSA/AGRAF. Le type d'UM donné dans GENRSA/AGRAF est retenu;0
+9;valeur inconnue;1

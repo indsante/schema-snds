@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "LDD_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "LDD_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "MS_LDD_V",
+    "title": "Passage dans un lit dédié aux soins Palliatifs",
+    "primaryKey": [
+        "LDD_COD"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "fields": [
+        {
+            "name": "SEE_COT_VAL",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "COT_VAL_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "COT_GRP_COD",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_VSE_V",
+    "primaryKey": "COT_VAL_LIB",
+    "title": "Validité de la Section"
+}

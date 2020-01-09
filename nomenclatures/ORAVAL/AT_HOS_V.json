@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "CUR_TOP_HOS",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "CUR_TOP_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_HOS_V",
+    "title": "TOP Hospitalisation",
+    "primaryKey": [
+        "CUR_TOP_HOS"
+    ]
+}

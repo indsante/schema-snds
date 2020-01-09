@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "CSS_CTL_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "CSS_CTL_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "MS_CSS_V",
+    "title": "Controle du Numero de Securite Sociale",
+    "primaryKey": [
+        "CSS_CTL_COD"
+    ]
+}

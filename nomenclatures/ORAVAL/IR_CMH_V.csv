@@ -1,0 +1,17 @@
+CPT_CMH_COD;CPT_CMF_COD;CPT_CMH_LIB;TEC_COL
+1A;1;Honoraires medicaux (secteur prive);0
+1B;1;Honoraires dentaires (secteur prive);0
+1C;1;Honoraires paramedicaux (secteur prive);0
+1D;1;Honoraires du secteur public;0
+1E;1;Medicaments & dispositifs medicaux;0
+1F;1;Frais d'analyse et de biologie;0
+1G;1;Frais de transport;0
+1H;1;Prestations hospitalieres;0
+1I;1;Autres prestations;0
+2;2;Forfait journalier;0
+3A;3;Soins dentaires et prothetiques;0
+3B;3;Soins d'orthopedie dentofaciale;0
+3C;3;Optique;0
+3D;3;Audioprothese;0
+3E;3;Autres soins;0
+99;9;VALEUR INCONNUE;1

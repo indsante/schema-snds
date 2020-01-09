@@ -1,0 +1,37 @@
+{
+    "fields": [
+        {
+            "name": "SIN_MLP_TAB",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "SIN_MLP_BTR",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "MLP_TAB_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "MLP_TAB_LBC",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_MLT_V",
+    "title": "numéro de MP tableau - numéro de MP  bis ter",
+    "primaryKey": ["SIN_MLP_TAB", "SIN_MLP_BTR"]
+}

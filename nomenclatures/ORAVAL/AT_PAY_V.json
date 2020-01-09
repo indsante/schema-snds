@@ -1,0 +1,34 @@
+{
+    "fields": [
+        {
+            "name": "PAY_COD_LIE",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "PAY_LIB_LIE",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "PAY_ABR_LIE",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_PAY_V",
+    "title": "Code Pays",
+    "primaryKey": [
+        "PAY_COD_LIE"
+    ]
+}

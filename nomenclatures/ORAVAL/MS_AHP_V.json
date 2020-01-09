@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "AHP_CTL_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "AHP_CTL_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "MS_AHP_V",
+    "title": "Controle fusion Ano Hospit et Hospit PMSI",
+    "primaryKey": [
+        "AHP_CTL_COD"
+    ]
+}

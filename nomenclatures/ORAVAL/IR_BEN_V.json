@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "BEN_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "BEN_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_BEN_V",
+    "title": "Contexte bénéficiaire",
+    "primaryKey": [
+        "BEN_COD"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "IND_FOR",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "IND_FOR_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_VIT_V",
+    "title": "indicateur de forçage Sesam Vitale",
+    "primaryKey": [
+        "IND_FOR"
+    ]
+}

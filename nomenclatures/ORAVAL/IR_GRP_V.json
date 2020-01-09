@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "PFS_GRP_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "PFS_GRP_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_GRP_V",
+    "title": "Membre d'un groupe ou d'une association",
+    "primaryKey": [
+        "PFS_GRP_COD"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "ETA_CHT_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "ETA_CHT_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_CHS_V",
+    "title": "code présence d un CHSCT",
+    "primaryKey": [
+        "ETA_CHT_COD"
+    ]
+}

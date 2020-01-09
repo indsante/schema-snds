@@ -1,0 +1,32 @@
+{
+    "fields": [
+        {
+            "name": "GM7_GHM_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "CMD_COD",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "GHM_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "primaryKey": "GM7_GHM_COD",
+    "name": "MS_GM7_V",
+    "title": "Groupe Homogene de Malade (GHM) V7"
+}

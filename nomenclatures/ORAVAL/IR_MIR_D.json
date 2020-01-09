@@ -1,0 +1,112 @@
+{
+    "fields": [
+        {
+            "name": "CPT_MIR_NUM",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "CPT_MIR_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "CPT_COP_NUM",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "CPT_COP_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "CPT_LFS_COD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "CPT_LFS_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "CPT_LLD_COD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "CPT_LLD_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "CPT_GLF_COD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "CPT_GLF_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "CPT_LVE_COD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "CPT_LVE_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "CPT_LOH_COD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "CPT_LOH_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "CPT_CMU_COD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "CPT_CMU_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "CPT_CMH_COD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "CPT_CMH_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "CPT_CMF_COD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "CPT_CMF_LIB",
+            "type": "string",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "primaryKey": "CPT_MIR_NUM",
+    "name": "IR_MIR_D",
+    "title": "Table des Comptes Comptables MIRCOSS (Dénormalisée)"
+}

@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "AVI_NAT_DEC",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "AVI_NAT_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_AVI_V",
+    "title": "nature décision avis",
+    "primaryKey": [
+        "AVI_NAT_DEC"
+    ]
+}

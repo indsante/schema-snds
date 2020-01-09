@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "AFP_CTL_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "AFP_CTL_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "MS_AFP_V",
+    "title": "Controle fusion Ano Hospit et Fichier PMSI",
+    "primaryKey": [
+        "AFP_CTL_COD"
+    ]
+}

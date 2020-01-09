@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "BEN_QLT_RAT",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "BEN_QLR_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_TDO_V",
+    "title": "Qualité de bénéficiaire",
+    "primaryKey": [
+        "BEN_QLT_RAT"
+    ]
+}

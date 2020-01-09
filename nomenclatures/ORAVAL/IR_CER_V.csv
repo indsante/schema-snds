@@ -1,0 +1,8 @@
+TRS_DIS_NIV;DIS_NIV_LIB;TEC_COL
+0;Sans objet;2
+1;Non certifié;0
+2;Certification des données GPS Uniquement;0
+3;Certification des données GPS et de l'identification du véhicule.;0
+4;certification des données GPS, de l'identification du véhicule et de l'identifiant de l'assuré.;0
+5;Certification des données GPS, de l'identification du véhicule, de l'identifiant de l'assuré, du conducteur, et de l'accompagnant le cas échéant.;0
+99;Valeur inconnue;1

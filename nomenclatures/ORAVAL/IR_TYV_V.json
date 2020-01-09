@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "CPT_VEN_TYP",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "VEN_TYP_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_TYV_V",
+    "title": "Type de Ventilation",
+    "primaryKey": [
+        "CPT_VEN_TYP"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "SIN_DCD_IND",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "DCD_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_DCD_V",
+    "title": "indicateur de Décès consécutif au sinistre",
+    "primaryKey": [
+        "SIN_DCD_IND"
+    ]
+}

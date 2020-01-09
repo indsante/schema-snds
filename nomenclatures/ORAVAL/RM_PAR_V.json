@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "GEN_MLE_TOP",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "GEN_MLE_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "RM_PAR_V",
+    "title": "top des principes actifs retenus",
+    "primaryKey": [
+        "GEN_MLE_TOP"
+    ]
+}

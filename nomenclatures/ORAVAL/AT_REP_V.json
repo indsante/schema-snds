@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "AAT_TOP_ASS",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "AAT_TOP_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_REP_V",
+    "title": "Suite repos AS",
+    "primaryKey": [
+        "AAT_TOP_ASS"
+    ]
+}

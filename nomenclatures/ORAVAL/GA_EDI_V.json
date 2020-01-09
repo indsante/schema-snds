@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "CPN_DOC_EDI",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "CPN_EDI_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "GA_EDI_V",
+    "title": "Code origine édition",
+    "primaryKey": [
+        "CPN_DOC_EDI"
+    ]
+}

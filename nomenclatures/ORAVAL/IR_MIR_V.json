@@ -1,0 +1,39 @@
+{
+    "fields": [
+        {
+            "name": "CPT_MIR_NUM",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "CPT_COP_NUM",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "CPT_CMU_COD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "CPT_MIR_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_MIR_V",
+    "title": "Comptes Comptables MIRCOSS",
+    "primaryKey": [
+        "CPT_MIR_NUM"
+    ]
+}

@@ -1,0 +1,839 @@
+GM9_GHM_COD;CMD_COD;GHM_LIB;TEC_COL
+20Z03Z;20;Abus de drogues non éthyliques sans dépendance;0
+20Z04Z;20;Éthylisme avec dépendance;0
+20Z05Z;20;Éthylisme aigu;0
+20Z06V;20;Troubles mentaux organiques induits par l'alcool ou d'autres substances, âge inférieur à 70 ans sans CMA;0
+10M06Z;10;Maladies métaboliques congénitales;0
+10M07V;10;Autres troubles endocriniens, âge inférieur à 70 ans sans CMA;0
+10M07W;10;Autres troubles endocriniens, âge supérieur à 69 ans et/ou CMA;0
+11C01S;11;Interventions pour affections des reins et des voies urinaires, avec CMAS;0
+15Z05A;15;Nouveau-nés de 2500 g et plus, sans problème significatif;0
+15Z05B;15;Nouveau-nés de 2500 g et plus, avec autre problème significatif;0
+15Z05C;15;Nouveau-nés de 2500 g et plus, avec problème sévère;0
+15Z05D;15;Nouveau-nés de 2500 g et plus, avec problème majeur;0
+15Z06A;15;Nouveau-nés de 2000 g à 2499 g, sans problème significatif;0
+15Z06B;15;Nouveau-nés de 2000 g à 2499 g, avec autre problème significatif;0
+15Z06C;15;Nouveau-nés de 2000 g à 2499 g, avec problème sévère;0
+11C02V;11;Interventions sur les reins et les uretères et chirurgie majeure de la vessie pour une affection tumorale, sans CMA;0
+09M05V;9;Lésions, infections et inflammations de la peau et des tissus sous-cutanés, âge de 18 à 69 ans sans CMA;0
+09M05W;9;Lésions, infections et inflammations de la peau et des tissus sous-cutanés, âge de 18 à 69 ans avec CMA, ou âge supérieur à 69 ans;0
+09M06Z;9;Ulcères cutanés;0
+09M07V;9;Autres affections dermatologiques, âge inférieur à 70 ans sans CMA;0
+09M07W;9;Autres affections dermatologiques, âge supérieur à 69 ans et/ou CMA;0
+09M08V;9;Affections dermatologiques sévères, âge inférieur à 70 ans sans CMA;0
+09M08W;9;Affections dermatologiques sévères, âge supérieur à 69 ans et/ou CMA;0
+24K05Z;24;Polysomnographies et autres explorations de longue durée : séjours de moins de 2 jours;0
+08M07W;8;Fractures, entorses, luxations et dislocations du bras, de la jambe à l'exception du pied, âge de 18 à 69 ans avec CMA, ou âge supérieur à 69 ans;0
+08M08Z;8;Entorses et luxations du bassin et de la hanche;0
+08M09Z;8;Arthropathies non spécifiques;0
+19M02V;19;Troubles aigus de l'adaptation et du fonctionnement psychosocial, âge inférieur à 70 ans sans CMA;0
+19M02W;19;Troubles aigus de l'adaptation et du fonctionnement psychosocial, âge supérieur à 69 ans et/ou CMA;0
+19M03Z;19;Troubles de la personnalité et du comportement avec réactions impulsives;0
+19M04Z;19;Psychoses, âge supérieur à 80 ans;0
+19M05Z;19;Psychoses, âge inférieur à 81 ans;0
+19M06V;19;Troubles mentaux d'origine organique et retards mentaux, âge supérieur à 80 ans sans CMA;0
+19M06W;19;Troubles mentaux d'origine organique et retards mentaux, âge supérieur à 80 ans avec CMA;0
+19M07V;19;Troubles mentaux d'origine organique et retards mentaux, âge inférieur à 81 ans sans CMA;0
+05C10W;5;Chirurgie majeure de revascularisation avec CMA;0
+05C11V;5;Autres interventions de chirurgie vasculaire sans CMA;0
+05C11W;5;Autres interventions de chirurgie vasculaire avec CMA;0
+05C12V;5;Amputations du membre inférieur, sauf des orteils, pour troubles circulatoires, sans CMA;0
+05C12W;5;Amputations du membre inférieur, sauf des orteils, pour troubles circulatoires, avec CMA;0
+05C13V;5;Amputations pour troubles circulatoires portant sur le membre supérieur ou les orteils sans CMA;0
+05C13W;5;Amputations pour troubles circulatoires portant sur le membre supérieur ou les orteils avec CMA;0
+05C14Z;5;Pose d'un stimulateur cardiaque permanent avec insuffisance cardiaque;0
+05C15Z;5;Pose d'un stimulateur cardiaque permanent sans insuffisance cardiaque;0
+05C16Z;5;***Remplacement ou ablation chirurgicale d'électrodes ou de boîtier de stimulation cardiaque permanente;0
+05C17V;5;Ligatures de veines et éveinages, âge inférieur à 70 ans sans CMA;0
+24C10Z;24;Affections de la CMD 05 : séjours de moins de 2 jours, avec autre acte opératoire de la CMD 05;0
+09M03V;9;Traumatismes de la peau et des tissus sous-cutanés, âge de 18 à 69 ans sans CMA;0
+09M03W;9;Traumatismes de la peau et des tissus sous-cutanés, âge de 18 à 69 ans avec CMA, ou âge supérieur à 69 ans;0
+09M04Z;9;Lésions, infections et inflammations de la peau et des tissus sous-cutanés, âge inférieur à 18 ans;0
+06C06V;6;***Interventions sur l'oesophage, l'estomac et le duodénum, âge supérieur à 17 ans sans CMA;0
+06C06W;6;***Interventions sur l'oesophage, l'estomac et le duodénum, âge supérieur à 17 ans avec CMA;0
+23M06Z;23;Autres facteurs influant sur l'état de santé;0
+23Z02Z;23;Soins palliatifs, avec ou sans acte;0
+23Z03Z;23;Interventions de confort;0
+24C01Z;24;***Libérations du canal carpien : séjours de moins de 2 jours;0
+24C02Z;24;Affections de la CMD 01 : séjours de moins de 2 jours, avec autre acte opératoire de la CMD 01;0
+16M02W;16;Affections du système réticuloendothélial ou immunitaire avec CMA;0
+16M03V;16;Troubles de la lignée érythrocytaire, âge inférieur à 18 ans sans CMA;0
+16M03W;16;Troubles de la lignée érythrocytaire, âge inférieur à 18 ans avec CMA;0
+16M04V;16;Troubles de la lignée érythrocytaire, âge de 18 à 69 ans sans CMA;0
+16M04W;16;Troubles de la lignée érythrocytaire, âge de 18 à 69 ans avec CMA, ou âge supérieur à 69 ans;0
+16M05V;16;Troubles de la coagulation, âge inférieur à 70 ans sans CMA;0
+16M05W;16;Troubles de la coagulation, âge supérieur à 69 ans et/ou CMA;0
+17C01S;17;Interventions pour affections myéloprolifératives et tumeurs de siège imprécis ou diffus, avec CMAS;0
+01M10V;1;Autres affections cérébrovasculaires sans CMA;0
+01M10W;1;Autres affections cérébrovasculaires avec CMA;0
+01M11V;1;Affections des nerfs crâniens et rachidiens, âge inférieur à 70 ans sans CMA;0
+01M11W;1;Affections des nerfs crâniens et rachidiens, âge supérieur à 69 ans et/ou CMA;0
+24C15Z;24;Résections osseuses localisées et ablations de matériel de fixation : séjours de moins de 2 jours;0
+24C16Z;24;***Interventions sur la main  : séjours de moins de 2 jours;0
+24C17Z;24;Arthroscopies : séjours de moins de 2 jours;0
+04C03V;4;Autres interventions chirurgicales sur le système respiratoire sans CMA;0
+04C03W;4;Autres interventions chirurgicales sur le système respiratoire avec CMA;0
+04M02V;4;Bronchites et asthme, âge inférieur à 18 ans sans CMA;0
+04M02W;4;Bronchites et asthme, âge inférieur à 18 ans avec CMA;0
+04M03V;4;Bronchites et asthme, âge de 18 à 69 ans sans CMA;0
+04M03W;4;Bronchites et asthme, âge de 18 à 69 ans avec CMA, ou âge supérieur à 69 ans;0
+04M04Z;4;Pneumonies et pleurésies banales, âge inférieur à 18 ans;0
+01M18W;1;Lésions traumatiques intracrâniennes sévères, âge supérieur à 69 ans et/ou CMA;0
+01M19V;1;Autres lésions traumatiques intracrâniennes, sauf commotions, âge inférieur à 70 ans sans CMA;0
+01M19W;1;Autres lésions traumatiques intracrâniennes, sauf commotions, âge supérieur à 69 ans et/ou CMA;0
+01M20V;1;Commotions cérébrales, âge inférieur à 70 ans sans CMA;0
+01M20W;1;Commotions cérébrales, âge supérieur à 69 ans et/ou CMA;0
+24M40Z;24;Surveillances de greffes de coeur sans acte diagnostique par voie vasculaire : séjours de moins de 2 jours;0
+24Z01Z;24;***Epuration extrarénale, en séances;0
+24Z02Z;24;***Chimiothérapie pour tumeur, en séances;0
+24Z03Z;24;***Préparations à une irradiation externe avec une dosimétrie tridimensionnelle;0
+24Z04Z;24;***Autres préparations à une irradiation externe;0
+24Z05Z;24;***Techniques spéciales d'irradiation externe, en séances;0
+24Z06Z;24;***Techniques complexes d'irradiation externe, en séances;0
+24Z07Z;24;***Autres techniques d'irradiation externe, en séances;0
+24Z08Z;24;***Transfusion, en séances;0
+09M10V;9;Tumeurs malignes des seins sans CMA;0
+09M10W;9;Tumeurs malignes des seins avec CMA;0
+09Z02Z;9;Interventions à visée esthétique;0
+10C01S;10;Interventions pour affections endocriniennes, métaboliques et nutritionnelles, avec CMAS;0
+10C02Z;10;Interventions sur l'hypophyse;0
+10C03Z;10;Interventions sur les surrénales;0
+10C04Z;10;***Interventions pour obésité;0
+10C05Z;10;Interventions sur les parathyroïdes;0
+12C05Z;12;Interventions sur les testicules pour des tumeurs malignes;0
+10C06V;10;***Interventions sur la thyroïde, âge inférieur à 70 ans sans CMA;0
+13M02Z;13;Infections de l'appareil génital féminin;0
+13M03V;13;Tumeurs malignes de l'appareil génital féminin sans CMA;0
+13M03W;13;Tumeurs malignes de l'appareil génital féminin avec CMA;0
+08C11V;8;Interventions sur le membre supérieur à l'exception de l'humérus et de la main, âge inférieur à 70 ans sans CMA;0
+08C11W;8;Interventions sur le membre supérieur à l'exception de l'humérus et de la main, âge supérieur à 69 ans et/ou CMA;0
+08C12Z;8;Biopsies ostéoarticulaires;0
+08C13Z;8;Résections osseuses localisées et/ou ablations de matériel de fixation interne au niveau de la hanche et du fémur;0
+08C14Z;8;Résections osseuses localisées et/ou ablations de matériel de fixation interne au niveau d'une localisation autre que la hanche et le fémur;0
+08C15V;8;Interventions sur le pied sans CMA;0
+08C15W;8;Interventions sur le pied avec CMA;0
+08C16V;8;***Interventions sur les tissus mous sans CMA;0
+08C16W;8;***Interventions sur les tissus mous avec CMA;0
+08C17Z;8;Interventions sur la main et le poignet pour kyste synovial;0
+04M05V;4;Pneumonies et pleurésies banales, âge supérieur à 17 ans sans CMA;0
+04M05W;4;Pneumonies et pleurésies banales, âge supérieur à 17 ans avec CMA;0
+04M06Z;4;Infections et inflammations respiratoires, âge inférieur à 18 ans;0
+03C03Z;3;Exérèses de glandes salivaires;0
+03C04Z;3;Interventions sur les glandes salivaires autres que les exérèses;0
+03C05Z;3;Réparations de fissures labiale et palatine;0
+03C06Z;3;Interventions sur les sinus et l'apophyse mastoïde, âge inférieur à 18 ans;0
+03C07V;3;Interventions sur les sinus et l'apophyse mastoïde, âge de 18 à 69 ans sans CMA;0
+24Z22Z;24;Autres transferts vers MCO : séjours de moins de 2 jours;0
+24Z23Z;24;Nouveau-nés de moins de 5 jours : séjours de moins de 2 jours;0
+24Z24Z;24;Transferts de nouveau-nés vers un autre établissement MCO : séjours de moins de 2 jours;0
+24Z25Z;24;Brûlures avec transfert vers un autre établissement MCO : séjours de moins de 2 jours;0
+25C02Z;25;Interventions pour maladie due au VIH;0
+25M02A;25;Autres maladies dues au VIH;0
+25M02B;25;Maladies dues au VIH, avec une seule complication infectieuse;0
+25M02C;25;Maladies dues au VIH, avec plusieurs complications infectieuses;0
+25Z02E;25;Maladies dues au VIH, avec décès;0
+16M01S;16;Affections du sang et des organes hématopoïétiques, avec CMAS;0
+16M02V;16;Affections du système réticuloendothélial ou immunitaire sans CMA;0
+08C29Z;8;Interventions sur le tissu mou pour tumeurs malignes;0
+08C30V;8;Interventions sur les tissus mous pour affections non malignes sans CMA;0
+08C30W;8;Interventions sur les tissus mous pour affections non malignes avec CMA;0
+08M01S;8;Affections de l'appareil musculosquelettique et du tissu conjonctif, avec CMAS non traumatiques;0
+08M02Z;8;Fractures, entorses, luxations et dislocations de l'avant-bras, de la main, du pied ou multiples ou mal précisées, âge inférieur à 18 ans;0
+08M03V;8;Fractures, entorses, luxations et dislocations de l'avant-bras, de la main, du pied ou multiples ou mal précisées, âge de 18 à 69 ans sans CMA;0
+06C07V;6;Interventions mineures sur l'intestin grêle et le côlon sans CMA;0
+06C07W;6;Interventions mineures sur l'intestin grêle et le côlon avec CMA;0
+06C08V;6;Appendicectomies compliquées, âge inférieur à 70 ans sans CMA;0
+06C08W;6;Appendicectomies compliquées, âge supérieur à 69 ans et/ou CMA;0
+06C09V;6;Appendicectomies non compliquées, âge inférieur à 70 ans sans CMA;0
+06C09W;6;Appendicectomies non compliquées, âge supérieur à 69 ans et/ou CMA;0
+06C10Z;6;Interventions réparatrices pour hernies et éventrations, âge inférieur à 18 ans;0
+06C11V;6;Interventions réparatrices pour hernies et éventrations à l'exception des hernies inguinales et crurales, âge supérieur à 17 ans sans CMA;0
+06C11W;6;Interventions réparatrices pour hernies et éventrations à l'exception des hernies inguinales et crurales, âge supérieur à 17 ans avec CMA;0
+06C12V;6;Interventions réparatrices pour hernies inguinales et crurales, âge supérieur à 17 ans sans CMA;0
+06C12W;6;Interventions réparatrices pour hernies inguinales et crurales, âge supérieur à 17 ans avec CMA;0
+06C13V;6;Libérations d'adhérences péritonéales, âge inférieur à 70 ans sans CMA;0
+07C04V;7;Cholécystectomies sans exploration de la voie biliaire principale sans CMA;0
+07C04W;7;Cholécystectomies sans exploration de la voie biliaire principale avec CMA;0
+07C05V;7;***Interventions sur les voies biliaires, autres que les cholécystectomies sans CMA;0
+07C05W;7;***Interventions sur les voies biliaires, autres que les cholécystectomies avec CMA;0
+07C06Z;7;Interventions diagnostiques sur le système hépatobiliaire et pancréatique pour des affections malignes;0
+07C07Z;7;Interventions diagnostiques sur le système hépatobiliaire et pancréatique pour des affections non malignes;0
+07C08Z;7;Autres interventions sur le système hépatobiliaire et pancréatique;0
+08M10V;8;Maladies osseuses et arthropathies spécifiques, âge inférieur à 70 ans sans CMA;0
+08M10W;8;Maladies osseuses et arthropathies spécifiques, âge supérieur à 69 ans et/ou CMA;0
+08M11V;8;Fractures pathologiques et affections malignes de l'appareil musculosquelettique et du tissu conjonctif sans CMA;0
+08M11W;8;Fractures pathologiques et affections malignes de l'appareil musculosquelettique et du tissu conjonctif avec CMA;0
+08M12V;8;Pathologies rachidiennes relevant d'un traitement médical, âge inférieur à 70 ans sans CMA;0
+08M12W;8;Pathologies rachidiennes relevant d'un traitement médical, âge supérieur à 69 ans et/ou CMA;0
+08M13Z;8;Signes et symptômes concernant l'appareil musculosquelettique et le tissu conjonctif;0
+08M14V;8;Affections du tissu conjonctif, âge inférieur à 70 ans sans CMA;0
+08M14W;8;Affections du tissu conjonctif, âge supérieur à 69 ans et/ou CMA;0
+08M04W;8;Fractures de la hanche et du bassin avec CMA;0
+01M15Z;1;Accidents ischémiques transitoires et occlusions des artères précérébrales, âge supérieur à 80 ans;0
+01M16Z;1;Accidents ischémiques transitoires et occlusions des artères précérébrales, âge inférieur à 81 ans;0
+01M17V;1;Sclérose en plaques et ataxie cérébelleuse, âge inférieur à 70 ans sans CMA;0
+01M17W;1;Sclérose en plaques et ataxie cérébelleuse, âge supérieur à 69 ans et/ou CMA;0
+01M18V;1;Lésions traumatiques intracrâniennes sévères, âge inférieur à 70 ans sans CMA;0
+28Z11Z;28;Techniques spéciales d'irradiation externe, en séances;0
+28Z12Z;28;Techniques complexes d'irradiation externe, en séances;0
+28Z13Z;28;Autres techniques d'irradiation externe, en séances;0
+28Z14Z;28;Transfusion, en séances;0
+28Z15Z;28;Caisson d'oxygénothérapie hyperbare, en séances;0
+90C01Z;90;***Actes sans relation avec le diagnostic principal;0
+90H01Z;90;Erreurs détectées dans les RSA par le logiciel de mesure de l'activité hospitalière;0
+90H02Z;90;Actes sans relation avec le diagnostic principal : séjours de 2 jours et plus;0
+01M12V;1;Autres affections du système nerveux, âge inférieur à 70 ans sans CMA;0
+01M12W;1;Autres affections du système nerveux, âge supérieur à 69 ans et/ou CMA;0
+01M13Z;1;Troubles de la conscience et comas d'origine non traumatique;0
+01M14V;1;Accidents vasculaires cérébraux non transitoires sans CMA;0
+01M14W;1;Accidents vasculaires cérébraux non transitoires avec CMA;0
+22C02Z;22;Brûlures non étendues avec greffe cutanée;0
+22C03Z;22;Brûlures non étendues avec parages de plaie ou autres interventions chirurgicales;0
+22M02Z;22;Brûlures non étendues sans intervention chirurgicale;0
+22Z02Z;22;Brûlures étendues;0
+23C02Z;23;Interventions chirurgicales avec autres motifs de recours aux services de santé;0
+23M02Z;23;Rééducation;0
+23M03V;23;Signes et symptômes sans CMA;0
+09C03V;9;Greffes de peau et/ou parages de plaie à l'exception des ulcères cutanés et cellulites sans CMA;0
+09C03W;9;Greffes de peau et/ou parages de plaie à l'exception des ulcères cutanés et cellulites avec CMA;0
+09C04V;9;Mastectomies totales pour tumeur maligne sans CMA;0
+09C04W;9;Mastectomies totales pour tumeur maligne avec CMA;0
+09C05V;9;Mastectomies subtotales pour tumeur maligne sans CMA;0
+09C05W;9;Mastectomies subtotales pour tumeur maligne avec CMA;0
+09C06Z;9;Interventions sur le sein pour des affections non malignes autres que les actes de biopsie et d'excision locale;0
+09C07Z;9;Biopsies et excisions locales pour des affections non malignes du sein;0
+09C08Z;9;Interventions sur la région anale et périanale;0
+09C09Z;9;Interventions plastiques en dehors de la chirurgie esthétique;0
+09C10V;9;Autres interventions sur la peau, les tissus sous-cutanés ou les seins sans CMA;0
+24C26Z;24;***Interventions sur le système utéroannexiel : séjours de moins de 2 jours;0
+21M09W;21;Complications iatrogéniques non classées ailleurs avec CMA;0
+09C02V;9;Greffes de peau et/ou parages de plaie pour ulcère cutané ou cellulite sans CMA;0
+09C02W;9;Greffes de peau et/ou parages de plaie pour ulcère cutané ou cellulite avec CMA;0
+17C05V;17;Autres interventions au cours d'affections myéloprolifératives ou de tumeurs de siège imprécis ou diffus sans CMA;0
+17C05W;17;Autres interventions au cours d'affections myéloprolifératives ou de tumeurs de siège imprécis ou diffus avec CMA;0
+17K02Z;17;Antécédents ou suspicion d'affections tumorales, avec exploration endoscopique;0
+17K03Z;17;***Curiethérapies et autres irradiations internes;0
+17K04Z;17;Autres irradiations;0
+17K05Z;17;Curiethérapies de la prostate;0
+17K06Z;17;Autres curiethérapies et irradiations internes;0
+17M01S;17;Affections myéloprolifératives et tumeurs de siège imprécis ou diffus, avec CMAS;0
+17M02Z;17;***Lymphomes ou leucémies, âge inférieur à 18 ans;0
+17M03V;17;***Lymphomes ou leucémies, âge supérieur à 17 ans sans CMA;0
+17M03W;17;***Lymphomes ou leucémies, âge supérieur à 17 ans avec CMA;0
+17M04Z;17;Antécédents ou suspicion d'affections tumorales, avec autres explorations;0
+17M05Z;17;Chimiothérapie pour leucémie aigüe;0
+17M06V;17;Chimiothérapie pour autre tumeur, sans CMA;0
+01M21Z;1;Douleurs chroniques rebelles;0
+02C02V;2;Interventions sur la rétine, âge inférieur à 70 ans sans CMA;0
+02C02W;2;Interventions sur la rétine, âge supérieur à 69 ans et/ou CMA;0
+02C03Z;2;Interventions sur l'orbite;0
+02C04Z;2;Autres interventions intraoculaires;0
+02C05Z;2;Interventions sur le cristallin avec ou sans vitrectomie;0
+02C06Z;2;Interventions primaires sur l'iris;0
+02C07Z;2;Autres interventions extraoculaires, âge inférieur à 18 ans;0
+90H03Z;90;Actes sans relation avec le diagnostic principal : séjours de moins de 2 jours;0
+90Z00Z;90;Erreurs détectées par les contrôles effectués sur les RUM et leur séquencement;0
+90Z01Z;90;Diagnostic invalide comme diagnostic principal, dans certaines circonstances;0
+90Z02Z;90;Autres erreurs détectées dans le parcours de l'arbre de groupage;0
+90Z03Z;90;Erreurs d'implémentation de la fonction groupage ou erreur d'exécution d'un programme.;0
+11M12W;11;Signes et symptômes concernant les reins et les voies urinaires, âge de 18 à 69 ans avec CMA, ou âge supérieur à 69 ans;0
+12C01S;12;Interventions pour affections de l'appareil génital masculin, avec CMAS;0
+12C02Z;12;***Interventions pelviennes majeures chez l'homme;0
+12C03Z;12;Interventions sur le pénis;0
+12C04V;12;Prostatectomies transurétrales sans CMA;0
+12C04W;12;Prostatectomies transurétrales avec CMA;0
+11M02W;11;Lithiases urinaires, âge supérieur à 69 ans et/ou CMA;0
+01C03W;1;Craniotomies pour traumatisme, âge supérieur à 17 ans avec CMA;0
+01C04V;1;Craniotomies en dehors de tout traumatisme, âge supérieur à 17 ans sans CMA;0
+01C04W;1;Craniotomies en dehors de tout traumatisme, âge supérieur à 17 ans avec CMA;0
+01C05V;1;Interventions sur le rachis et la moelle pour des affections neurologiques sans CMA;0
+01C05W;1;Interventions sur le rachis et la moelle pour des affections neurologiques avec CMA;0
+01C06V;1;Interventions sur le système vasculaire précérébral sans CMA;0
+01C06W;1;Interventions sur le système vasculaire précérébral avec CMA;0
+01C07Z;1;***Libérations du canal carpien;0
+01C08V;1;Interventions sur les nerfs crâniens ou périphériques et autres interventions sur le système nerveux, âge inférieur à 70 ans sans CMA;0
+24C27Z;24;Interventions sur la vulve, le vagin et le col utérin : séjours de moins de 2 jours;0
+24C28Z;24;Dilatations et curetages en dehors de la grossesse, conisations : séjours de moins de 2 jours;0
+24C29Z;24;Affections de la CMD 13 : séjours de moins de 2 jours, avec autre acte opératoire de la CMD 13;0
+24C30Z;24;Dilatations et curetages au cours de la grossesse, en dehors des interruptions volontaires : séjours de moins de 2 jours;0
+24C31Z;24;Affections de la CMD 14 : séjours de moins de 2 jours, avec autre acte opératoire de la CMD 14;0
+24C32Z;24;Affections de la CMD 16 : séjours de moins de 2 jours, avec acte opératoire de la CMD 16;0
+24C33Z;24;Affections de la CMD 17 : séjours de moins de 2 jours, avec acte opératoire;0
+24C34Z;24;Affections de la CMD 18 : séjours de moins de 2 jours, avec acte opératoire;0
+IIIIII;99;valeur inconnue;1
+XXXXXX;0;sans objet;2
+11K02W;11;Insuffisance rénale, avec dialyse, âge supérieur à 69 ans et/ou CMA;0
+11M01S;11;Affections des reins et des voies urinaires, avec CMAS;0
+11M02V;11;Lithiases urinaires, âge inférieur à 70 ans sans CMA;0
+18C02W;18;Interventions pour maladies infectieuses ou parasitaires avec CMA;0
+18M02V;18;Maladies virales et fièvres d'étiologie indéterminée, âge inférieur à 18 ans sans CMA;0
+18M02W;18;Maladies virales et fièvres d'étiologie indéterminée, âge inférieur à 18 ans avec CMA;0
+18M03Z;18;Maladies virales, âge supérieur à 17 ans;0
+18M04V;18;Fièvres d'étiologie indéterminée, âge supérieur à 17 ans sans CMA;0
+18M04W;18;Fièvres d'étiologie indéterminée, âge supérieur à 17 ans avec CMA;0
+18M05V;18;Infections postopératoires et posttraumatiques sans CMA;0
+18M05W;18;Infections postopératoires et posttraumatiques avec CMA;0
+18M06Z;18;Septicémies, âge inférieur à 18 ans;0
+18M07V;18;Septicémies, âge supérieur à 17 ans sans CMA;0
+18M07W;18;Septicémies, âge supérieur à 17 ans avec CMA;0
+02C08V;2;Autres interventions extraoculaires, âge de 18 à 69 ans sans CMA;0
+24M23Z;24;Affections de la CMD 13 : séjours de moins de 2 jours, sans acte opératoire de la CMD 13;0
+24M24Z;24;Affections de l'ante partum : séjours de moins de 2 jours;0
+24M25Z;24;Affections de la CMD 14 : séjours de moins de 2 jours, sans acte opératoire de la CMD 14;0
+24M26Z;24;Affections de la CMD 16 : séjours de moins de 2 jours, sans acte opératoire de la CMD 16;0
+24M27Z;24;Affections de la CMD 17 : séjours de moins de 2 jours, sans acte opératoire;0
+24M28Z;24;Affections de la CMD 18 : séjours de moins de 2 jours, sans acte opératoire;0
+24M29Z;24;Troubles aigus de l'adaptation et du fonctionnement psychosocial : séjours de moins de 2 jours;0
+24M30Z;24;Affections de la CMD 19 : séjours de moins de 2 jours, sans acte opératoire;0
+24M31Z;24;Effets toxiques des médicaments et autres produits : séjours de moins de 2 jours;0
+24M32Z;24;Affections de la CMD 21 : séjours de moins de 2 jours, sans acte opératoire de la CMD 21;0
+24M33Z;24;Affections de la CMD 22 : séjours de moins de 2 jours, sans acte opératoire de la CMD 22;0
+24M34Z;24;Autres motifs de recours pour infection à VIH : séjours de moins de 2 jours;0
+08C19Z;8;Arthroscopies;0
+08C20Z;8;Greffes de peau pour maladie de l'appareil musculosquelettique ou du tissu conjonctif;0
+08C21V;8;Autres interventions portant sur l'appareil musculosquelettique et le tissu conjonctif sans CMA;0
+08C21W;8;Autres interventions portant sur l'appareil musculosquelettique et le tissu conjonctif avec CMA;0
+08C22Z;8;Interventions pour reprise de prothèses articulaires;0
+08C23V;8;Prothèses de hanche sans CMA;0
+08C23W;8;Prothèses de hanche avec CMA;0
+08C24Z;8;Prothèses de genou;0
+08C25Z;8;Prothèses d'épaule;0
+08C26Z;8;Interventions majeures sur le rachis;0
+08C27V;8;Autres interventions sur le rachis sans CMA;0
+24C54Z;24;Libérations du canal carpien et d'autres nerfs superficiels : séjours de moins de 2 jours;0
+24C55Z;24;Autres interventions sur la main  : séjours de moins de 2 jours;0
+24K01Z;24;Greffes de cellules souches hématopoïétiques : séjours de moins de 2 jours;0
+24K02Z;24;***Endoscopies avec anesthésie : séjours de moins de 2 jours;0
+05C06W;5;Autres interventions cardiothoraciques âge supérieur à 1 an, ou vasculaires quel que soit l'âge, avec circulation extracorporelle, avec CMA;0
+24M09Z;24;Arythmies et troubles de la conduction cardiaque : séjours de moins de 2 jours;0
+24M10Z;24;Affections de la CMD 05 : séjours de moins de 2 jours, sans acte opératoire de la CMD 05;0
+24M11Z;24;Gastroentérites et maladies diverses du tube digestif : séjours de moins de 2 jours;0
+24M12Z;24;Affections de la CMD 06 : séjours de moins de 2 jours, sans acte opératoire de la CMD 06;0
+24M13Z;24;Affections de la CMD 07 : séjours de moins de 2 jours, sans acte opératoire de la CMD 07;0
+24M14Z;24;Pathologies rachidiennes relevant d'un traitement médical : séjours de moins de 2 jours;0
+24C03Z;24;Interventions sur le cristallin : séjours de moins de 2 jours;0
+24C04Z;24;Affections de la CMD 02 : séjours de moins de 2 jours, avec autre acte opératoire de la CMD 02;0
+24C05Z;24;Amygdalectomies et/ou adénoïdectomies : séjours de moins de 2 jours;0
+24C06Z;24;Drains transtympaniques : séjours de moins de 2 jours;0
+24C07Z;24;Affections de la CMD 03 : séjours de moins de 2 jours, avec autre acte opératoire de la CMD 03;0
+24C08Z;24;Affections de la CMD 04 : séjours de moins de 2 jours, avec acte opératoire de la CMD 04;0
+24C09Z;24;Ligatures de veines et éveinages : séjours de moins de 2 jours;0
+08M03W;8;Fractures, entorses, luxations et dislocations de l'avant-bras, de la main, du pied ou multiples ou mal précisées, âge de 18 à 69 ans avec CMA, ou âge supérieur à 69 ans;0
+08M04V;8;Fractures de la hanche et du bassin sans CMA;0
+06C16W;6;Interventions sur l'oesophage, l'estomac et le duodénum pour tumeurs malignes, âge supérieur à 17 ans avec CMA;0
+06C17V;6;Interventions sur l'oesophage, l'estomac et le duodénum pour affections non malignes, âge supérieur à 17 ans sans CMA;0
+06C17W;6;Interventions sur l'oesophage, l'estomac et le duodénum pour affections non malignes, âge supérieur à 17 ans avec CMA;0
+06M01S;6;Affections du tube digestif avec CMAS;0
+06M02V;6;Gastroentérites et maladies diverses du tube digestif, âge inférieur à 18 ans sans CMA;0
+06M02W;6;Gastroentérites et maladies diverses du tube digestif, âge inférieur à 18 ans avec CMA;0
+12C06Z;12;Interventions sur les testicules pour des affections non malignes, âge inférieur à 18 ans;0
+12C07Z;12;Interventions sur les testicules pour des affections non malignes, âge supérieur à 17 ans;0
+12C08Z;12;Circoncisions;0
+12C09Z;12;Autres interventions pour tumeurs malignes de l'appareil génital masculin;0
+12C10Z;12;Autres interventions pour des affections non malignes de l'appareil génital masculin;0
+12C11Z;12;Interventions pelviennes majeures chez l'homme pour tumeurs malignes;0
+12C12Z;12;Interventions pelviennes majeures chez l'homme pour affections non malignes;0
+12M02V;12;Infections et inflammations de l'appareil génital masculin, âge inférieur à 70 ans sans CMA;0
+12M02W;12;Infections et inflammations de l'appareil génital masculin, âge supérieur à 69 ans et/ou CMA;0
+12M03V;12;Tumeurs malignes de l'appareil génital masculin sans CMA;0
+12M03W;12;Tumeurs malignes de l'appareil génital masculin avec CMA;0
+07C09V;7;Interventions sur le foie, le pancréas et les veines porte ou cave pour tumeurs malignes sans CMA;0
+07C09W;7;Interventions sur le foie, le pancréas et les veines porte ou cave pour tumeurs malignes avec CMA;0
+08C18V;8;Interventions sur la main et le poignet pour une affection autre qu'un kyste synovial sans CMA;0
+08C18W;8;Interventions sur la main et le poignet pour une affection autre qu'un kyste synovial avec CMA;0
+24M15Z;24;Fractures, entorses et luxations : séjours de moins de 2 jours, sans anesthésie;0
+24M16Z;24;Affections de la CMD 08 : séjours de moins de 2 jours, sans acte opératoire de la CMD 08;0
+08C07W;8;***Interventions sur le rachis avec CMA;0
+08C08Z;8;Interventions sur l'humérus ou sur le membre inférieur à l'exception de la hanche, du fémur et du pied, âge inférieur à 18 ans;0
+08C09V;8;Interventions sur l'humérus ou sur le membre inférieur à l'exception de la hanche, du fémur et du pied, âge supérieur à 17 ans sans CMA;0
+08C09W;8;Interventions sur l'humérus ou sur le membre inférieur à l'exception de la hanche, du fémur et du pied, âge supérieur à 17 ans avec CMA;0
+08C10V;8;Interventions sur le genou, âge inférieur à 70 ans sans CMA;0
+08C10W;8;Interventions sur le genou, âge supérieur à 69 ans et/ou CMA;0
+08M05Z;8;Fractures de la diaphyse, de l'épiphyse ou d'une partie non précisée du fémur;0
+08M06Z;8;Fractures, entorses, luxations et dislocations du bras, de la jambe à l'exception du pied, âge inférieur à 18 ans;0
+08M07V;8;Fractures, entorses, luxations et dislocations du bras, de la jambe à l'exception du pied, âge de 18 à 69 ans sans CMA;0
+07C03W;7;***Cholécystectomies avec exploration de la voie biliaire principale avec CMA;0
+06M10Z;6;Ulcères gastroduodénaux compliqués;0
+03M04V;3;Otites moyennes et infections des voies aériennes supérieures, âge de 18 à 69 ans sans CMA;0
+03M04W;3;Otites moyennes et infections des voies aériennes supérieures, âge de 18 à 69 ans avec CMA, ou âge supérieur à 69 ans;0
+03M05Z;3;Troubles de l'équilibre;0
+03M06Z;3;Épistaxis;0
+03M07V;3;Tumeurs malignes des oreilles, du nez, de la gorge ou de la bouche, âge inférieur à 70 ans sans CMA;0
+03M07W;3;Tumeurs malignes des oreilles, du nez, de la gorge ou de la bouche, âge supérieur à 69 ans et/ou CMA;0
+03M08Z;3;Autres diagnostics portant sur les oreilles, le nez, la gorge ou la bouche, âge inférieur à 18 ans;0
+24K06Z;24;***Affections de la bouche et des dents avec certaines extractions, réparations et prothèses dentaires : séjours de moins de 2 jours;0
+24K07Z;24;***Cathétérismes cardiaques ou coronarographies : séjours de moins de 2 jours;0
+24K08Z;24;Affections de la CMD 08 : séjours de moins de 2 jours, sans acte opératoire de la CMD 08, avec anesthésie;0
+13C05Z;13;Interventions sur le système utéroannexiel pour des tumeurs malignes;0
+13C06Z;13;Interruptions tubaires pour des affections non malignes;0
+13C07V;13;Interventions sur le système utéroannexiel pour des affections non malignes, autres que les interruptions tubaires, âge inférieur à 70 ans sans CMA;0
+11M03V;11;Infections des reins et des voies urinaires, âge inférieur à 18 ans sans CMA;0
+11M03W;11;Infections des reins et des voies urinaires, âge inférieur à 18 ans avec CMA;0
+11M04V;11;Infections des reins et des voies urinaires, âge de 18 à 69 ans sans CMA;0
+11M04W;11;Infections des reins et des voies urinaires, âge de 18 à 69 ans avec CMA, ou âge supérieur à 69 ans;0
+11M05V;11;***Insuffisance rénale, avec dialyse, âge inférieur à 70 ans sans CMA;0
+18M08V;18;Autres maladies infectieuses ou parasitaires, âge inférieur à 70 ans sans CMA;0
+18M08W;18;Autres maladies infectieuses ou parasitaires, âge supérieur à 69 ans et/ou CMA;0
+03C07W;3;Interventions sur les sinus et l'apophyse mastoïde, âge de 18 à 69 ans avec CMA, ou âge supérieur à 69 ans;0
+03C08V;3;***Interventions diverses sur les oreilles, le nez, la gorge ou le cou sans CMA;0
+03C08W;3;***Interventions diverses sur les oreilles, le nez, la gorge ou le cou avec CMA;0
+03C09Z;3;Rhinoplasties;0
+03C10Z;3;Amygdalectomies et/ou adénoïdectomies isolées, âge inférieur à 18 ans;0
+04M14W;4;Maladies pulmonaires interstitielles avec CMA;0
+04M15V;4;Autres diagnostics portant sur le système respiratoire sans CMA;0
+04M15W;4;Autres diagnostics portant sur le système respiratoire avec CMA;0
+04M16V;4;Traumatismes thoraciques majeurs sans CMA;0
+04M16W;4;Traumatismes thoraciques majeurs avec CMA;0
+04M17V;4;Épanchements pleuraux sans CMA;0
+04M17W;4;Épanchements pleuraux avec CMA;0
+05C02Z;5;Chirurgie de remplacement valvulaire avec circulation extracorporelle et avec cathétérisme cardiaque ou coronarographie;0
+05C03V;5;Chirurgie de remplacement valvulaire avec circulation extracorporelle, sans cathétérisme cardiaque, ni coronarographie, sans CMA;0
+05C03W;5;Chirurgie de remplacement valvulaire avec circulation extracorporelle, sans cathétérisme cardiaque, ni coronarographie, avec CMA;0
+05C04V;5;Pontages aortocoronariens avec cathétérisme cardiaque ou coronarographie sans CMA;0
+05C04W;5;Pontages aortocoronariens avec cathétérisme cardiaque ou coronarographie avec CMA;0
+05C05V;5;Pontages aortocoronariens sans cathétérisme cardiaque ni coronarographie sans CMA;0
+05C05W;5;Pontages aortocoronariens sans cathétérisme cardiaque ni coronarographie avec CMA;0
+08C27W;8;Autres interventions sur le rachis avec CMA;0
+08C28Z;8;Interventions maxillofaciales;0
+04M11W;4;Signes et symptômes respiratoires avec CMA;0
+04M12V;4;Pneumothorax sans CMA;0
+04M12W;4;Pneumothorax avec CMA;0
+04M13Z;4;¿dème pulmonaire et détresse respiratoire;0
+04M14V;4;Maladies pulmonaires interstitielles sans CMA;0
+17C02V;17;Interventions majeures au cours de lymphomes ou de leucémies sans CMA;0
+17C02W;17;Interventions majeures au cours de lymphomes ou de leucémies avec CMA;0
+17C03V;17;Autres interventions au cours de lymphomes ou de leucémies sans CMA;0
+17C03W;17;Autres interventions au cours de lymphomes ou de leucémies avec CMA;0
+17C04V;17;Interventions majeures pour affections myéloprolifératives ou tumeurs de siège imprécis ou diffus, sans CMA;0
+17C04W;17;Interventions majeures pour affections myéloprolifératives ou tumeurs de siège imprécis ou diffus, avec CMA;0
+24Z20Z;24;Accouchements : séjours de moins de 2 jours;0
+24Z21Z;24;Nouveau-nés et nourissons de 5 jours à 120 jours : séjours de moins de 2 jours;0
+24K21Z;24;Affections de la CMD  21 : séjours de moins de 2 jours, sans acte opératoire de la CMD 21, avec anesthésie;0
+24K22Z;24;Affections de la CMD  22 : séjours de moins de 2 jours, sans acte opératoire de la CMD 22, avec anesthésie;0
+24K23Z;24;Surveillances de greffes de coeur avec acte diagnostique par voie vasculaire : séjours de moins de 2 jours;0
+24K24Z;24;Endoscopies biliaires thérapeutiques et anesthésie : séjours de moins de 2 jours;0
+24K25Z;24;Autres endoscopies biliaires : séjours de moins de 2 jours;0
+24K26Z;24;Endoscopies digestives thérapeutiques et anesthésie : séjours de moins de 2 jours;0
+24K27Z;24;Endoscopies digestives thérapeutiques sans anesthésie : séjours de moins de 2 jours;0
+24K28Z;24;Endoscopies digestives diagnostiques et anesthésie : séjours de moins de 2 jours;0
+01C08W;1;Interventions sur les nerfs crâniens ou périphériques et autres interventions sur le système nerveux, âge supérieur à 69 ans et/ou CMA;0
+01C09Z;1;Pose d'un stimulateur cérébral;0
+01C10Z;1;Pose d'un stimulateur médullaire;0
+01C11Z;1;Craniotomies pour tumeurs, âge inférieur à 18 ans;0
+01C12Z;1;Craniotomies pour affections non tumorales, âge inférieur à 18 ans;0
+01C13Z;1;Libérations du canal carpien et d'autres nerfs superficiels;0
+01K02Z;1;Embolisations intracrâniennes et médullaires;0
+01K03Z;1;Autres actes thérapeutiques par voie vasculaire du système nerveux;0
+01M01S;1;Affections du système nerveux, avec CMAS;0
+01M02Z;1;Convulsions, épilepsies et céphalées, âge inférieur à 18 ans;0
+01M03V;1;Convulsions, épilepsies et céphalées, âge de 18 à 69 ans sans CMA;0
+01M03W;1;Convulsions, épilepsies et céphalées, âge de 18 à 69 ans avec CMA, ou âge supérieur à 69 ans;0
+28Z05Z;28;Dialyse péritonéale automatisée, en séances;0
+28Z06Z;28;Dialyse péritonéale continue ambulatoire, en séances;0
+28Z07Z;28;Chimiothérapie pour tumeur, en séances;0
+24C20Z;24;Affections de la CMD 10 : séjours de moins de 2 jours, avec acte opératoire de la CMD 10;0
+24C21Z;24;Interventions transurétrales, sauf prostatectomie : séjours de moins de 2 jours;0
+24C22Z;24;Affections de la CMD 11 : séjours de moins de 2 jours, avec autre acte opératoire de la CMD 11;0
+24C23Z;24;Interventions sur les testicules : séjours de moins de 2 jours;0
+24C24Z;24;Circoncisions : séjours de moins de 2 jours;0
+24C25Z;24;Affections de la CMD 12 : séjours de moins de 2 jours, avec autre acte opératoire de la CMD 12;0
+06M03V;6;Gastroentérites et maladies diverses du tube digestif, âge de 18 à 69 ans sans CMA;0
+06M03W;6;Gastroentérites et maladies diverses du tube digestif, âge de 18 à 69 ans avec CMA, ou âge supérieur à 69 ans;0
+06M04V;6;Hémorragies digestives, âge inférieur à 70 ans sans CMA;0
+06M04W;6;Hémorragies digestives, âge supérieur à 69 ans et/ou CMA;0
+05M05W;5;Syncopes et lipothymies, âge supérieur à 69 ans et/ou CMA;0
+05M06V;5;Angine de poitrine sans CMA;0
+05M06W;5;Angine de poitrine avec CMA;0
+05M07V;5;Thrombophlébites veineuses profondes, âge inférieur à 70 ans sans CMA;0
+05M07W;5;Thrombophlébites veineuses profondes, âge supérieur à 69 ans et/ou CMA;0
+05M08V;5;Arythmies et troubles de la conduction cardiaque, âge inférieur à 70 ans sans CMA;0
+05M08W;5;Arythmies et troubles de la conduction cardiaque, âge supérieur à 69 ans et/ou CMA;0
+21M03V;21;Effets toxiques des médicaments et autres produits, âge de 18 à 69 ans sans CMA;0
+21M03W;21;Effets toxiques des médicaments et autres produits, âge de 18 à 69 ans avec CMA, ou âge supérieur à 69 ans;0
+21M04Z;21;Réactions allergiques non classées ailleurs, âge inférieur à 18 ans;0
+21M05Z;21;Réactions allergiques non classées ailleurs, âge supérieur à 17 ans;0
+21M06Z;21;Traumatismes complexes, âge inférieur à 18 ans;0
+21M07V;21;Traumatismes complexes, âge de 18 à 69 ans sans CMA;0
+21M07W;21;Traumatismes complexes, âge de 18 à 69 ans avec CMA, ou âge supérieur à 69 ans;0
+21M08V;21;Autres traumatismes et effets nocifs autres que les intoxications, âge inférieur à 70 ans sans CMA;0
+21M08W;21;Autres traumatismes et effets nocifs autres que les intoxications, âge supérieur à 69 ans et/ou CMA;0
+21M09V;21;Complications iatrogéniques non classées ailleurs sans CMA;0
+05C06V;5;Autres interventions cardiothoraciques, âge supérieur à 1 an, ou vasculaires quel que soit l'âge, avec circulation extracorporelle, sans CMA;0
+24K29Z;24;Endoscopies digestives diagnostiques sans anesthésie : séjours de moins de 2 jours;0
+24K03Z;24;***Endoscopies sans anesthésie : séjours de moins de 2 jours;0
+21M02Z;21;Effets toxiques des médicaments et autres produits, âge inférieur à 18 ans;0
+24K04Z;24;Mise en place de certains accès vasculaires : séjours de moins de 2 jours;0
+05K02V;5;***Endoprothèses coronariennes et vasculaires périphériques sans CMA;0
+05K02W;5;***Endoprothèses coronariennes et vasculaires périphériques avec CMA;0
+05K03Z;5;***Cathétérismes cardiaques ou coronarographies avec pathologie cardiaque sévère en dehors d'un infarctus aigu du myocarde;0
+05K04Z;5;***Cathétérismes cardiaques ou coronarographies pour une pathologie autre;0
+05K05V;5;Endoprothèses vasculaires et infarctus du myocarde sans CMA;0
+03K02Z;3;Affections de la bouche et des dents avec certaines extractions, réparations et prothèses dentaires;0
+20Z06W;20;Troubles mentaux organiques induits par l'alcool ou d'autres substances, âge supérieur à 69 ans et/ou CMA;0
+21C01S;21;Interventions pour traumatismes, allergies et empoisonnements, avec CMAS;0
+24C50Z;24;Interventions et explorations sur le système utéroannexiel  : séjours de moins de 2 jours;0
+24C51Z;24;Interventions sur la main ou le poignet à la suite de blessures : séjours de moins de 2 jours;0
+24C52Z;24;Allogreffes de cornée : séjours de moins de 2 jours;0
+24C53Z;24;Autres affections de la CMD 21 : séjours de moins de 2 jours, avec acte opératoire de la CMD 21;0
+05C08V;5;Autres interventions cardiothoraciques âge supérieur à 1 an, ou vasculaires quel que soit l'âge, sans circulation extracorporelle, sans CMA;0
+23M03W;23;Signes et symptômes avec CMA;0
+23M04Z;23;Suivi thérapeutique avec diagnostic associé d'antécédent d'affection maligne;0
+23M05Z;23;Suivi thérapeutique sans diagnostic associé d'antécédent d'affection maligne;0
+03M02Z;3;Traumatismes et déformations du nez;0
+03M03Z;3;Otites moyennes et infections des voies aériennes supérieures, âge inférieur à 18 ans;0
+24C11Z;24;Interventions réparatrices pour hernies abdominales : séjours de moins de 2 jours;0
+24C12Z;24;Interventions sur le rectum et l'anus : séjours de moins de 2 jours;0
+24C13Z;24;Affections de la CMD 06 : séjours de moins de 2 jours, avec autre acte opératoire de la CMD 06;0
+24C14Z;24;Affections de la CMD 07 : séjours de moins de 2 jours, avec acte opératoire de la CMD 07;0
+14C02A;14;Césariennes sans complication significative;0
+14C02B;14;Césariennes avec autres complications;0
+14C02C;14;Césariennes avec complications majeures;0
+14C03Z;14;Accouchements par voie basse avec autres interventions;0
+14C04Z;14;Affections du post-partum ou du post abortum avec intervention chirurgicale;0
+14C05Z;14;Avortements avec aspiration ou curetage ou hystérotomie;0
+14M02Z;14;Affections médicales du post-partum ou du post abortum;0
+14Z02A;14;Accouchements par voie basse sans complication significative;0
+14Z02B;14;Accouchements par voie basse avec autres complications;0
+14Z02C;14;Accouchements par voie basse avec complications majeures;0
+21C02Z;21;Greffes de peau pour lésions autres que des brûlures;0
+21C03Z;21;Parages de plaies pour lésions autres que des brûlures;0
+21C04Z;21;Interventions sur la main ou le poignet à la suite de blessures;0
+21C05V;21;Autres interventions pour blessures ou complications d'acte sans CMA;0
+21C05W;21;Autres interventions pour blessures ou complications d'acte avec CMA;0
+21M01S;21;Traumatismes, allergies et empoisonnements, avec CMAS;0
+15Z06D;15;Nouveau-nés de 2000 g à 2499 g, avec problème majeur;0
+01M04Z;1;Méningites virales;0
+01M05V;1;Infections du système nerveux à l'exception des méningites virales, âge inférieur à 70 ans sans CMA;0
+01M05W;1;Infections du système nerveux à l'exception des méningites virales, âge supérieur à 69 ans et/ou CMA;0
+01M06V;1;Tumeurs du système nerveux, sans CMA;0
+01M06W;1;Tumeurs du système nerveux, avec CMA;0
+25Z03Z;25;Maladies dues au VIH, âge inférieur à 13 ans;0
+26C01S;26;Interventions pour traumatismes multiples graves, avec CMAS non traumatiques;0
+26C02Z;26;Interventions pour traumatismes multiples graves, sans CMAS;0
+26M01S;26;Traumatismes multiples graves, avec CMAS non traumatiques;0
+26M02Z;26;Traumatismes multiples graves, sans CMAS;0
+27C02Z;27;Transplantations hépatiques;0
+27C03Z;27;Transplantations pancréatiques;0
+27C04Z;27;Transplantations pulmonaires;0
+27C05Z;27;Transplantations cardiaques;0
+05M09W;5;Insuffisances cardiaques et états de choc circulatoire avec CMA;0
+05M10Z;5;Cardiopathies congénitales et valvulopathies, âge inférieur à 18 ans;0
+05M11V;5;Cardiopathies congénitales et valvulopathies, âge de 18 à 69 ans sans CMA;0
+05M11W;5;Cardiopathies congénitales et valvulopathies, âge de 18 à 69 ans avec CMA, ou âge supérieur à 69 ans;0
+05M12V;5;Troubles vasculaires périphériques, âge inférieur à 70 ans sans CMA;0
+05M12W;5;Troubles vasculaires périphériques, âge supérieur à 69 ans et/ou CMA;0
+05M13Z;5;Douleurs thoraciques;0
+05M14Z;5;Arrêt cardiaque;0
+05M15Z;5;Hypertension artérielle;0
+05M16V;5;Athérosclérose coronarienne sans CMA;0
+05M16W;5;Athérosclérose coronarienne avec CMA;0
+05M17V;5;Autres affections de l'appareil circulatoire sans CMA;0
+05M17W;5;Autres affections de l'appareil circulatoire avec CMA;0
+05M18Z;5;Endocardites aiguës et subaiguës;0
+06C02Z;6;Chirurgie majeure des malformations digestives;0
+06C03V;6;Résections rectales sans CMA;0
+06C03W;6;Résections rectales avec CMA;0
+06C04V;6;Interventions majeures sur l'intestin grêle et le côlon sans CMA;0
+06C04W;6;Interventions majeures sur l'intestin grêle et le côlon avec CMA;0
+06C05Z;6;Interventions sur l'oesophage, l'estomac et le duodénum, âge inférieur à 18 ans;0
+04M07V;4;Infections et inflammations respiratoires, âge supérieur à 17 ans sans CMA;0
+04M07W;4;Infections et inflammations respiratoires, âge supérieur à 17 ans avec CMA;0
+04M08V;4;Bronchopneumopathies chroniques sans CMA;0
+04M08W;4;Bronchopneumopathies chroniques avec CMA;0
+04M09V;4;Tumeurs de l'appareil respiratoire sans CMA;0
+04M09W;4;Tumeurs de l'appareil respiratoire avec CMA;0
+04M10V;4;Embolies pulmonaires sans CMA;0
+04M10W;4;Embolies pulmonaires avec CMA;0
+04M11V;4;Signes et symptômes respiratoires sans CMA;0
+11C02W;11;Interventions sur les reins et les uretères et chirurgie majeure de la vessie pour une affection tumorale, avec CMA;0
+11C03V;11;Interventions sur les reins et les uretères et chirurgie majeure de la vessie pour une affection non tumorale, sans CMA;0
+11C03W;11;Interventions sur les reins et les uretères et chirurgie majeure de la vessie pour une affection non tumorale, avec CMA;0
+11C04Z;11;Autres interventions sur la vessie à l'exception des interventions transurétrales;0
+11C05V;11;Interventions transurétrales ou par voie transcutanée sans CMA;0
+11C05W;11;Interventions transurétrales ou par voie transcutanée avec CMA;0
+11C06Z;11;Interventions sur l'urètre, âge inférieur à 18 ans;0
+11C07Z;11;Interventions sur l'urètre, âge supérieur à 17 ans;0
+11C08V;11;Autres interventions sur les reins et les voies urinaires sans CMA;0
+06M11W;6;Ulcères gastroduodénaux non compliqués, âge supérieur à 69 ans et/ou CMA;0
+07C02V;7;***Interventions sur le foie, le pancréas et les veines porte ou cave sans CMA;0
+07C02W;7;***Interventions sur le foie, le pancréas et les veines porte ou cave avec CMA;0
+07C03V;7;***Cholécystectomies avec exploration de la voie biliaire principale sans CMA;0
+05K05W;5;Endoprothèses vasculaires et infarctus du myocarde avec décès et/ou complications et/ou morbidités associées;0
+01M07Z;1;Maladies dégénératives du système nerveux, âge supérieur à 80 ans;0
+01M08V;1;Maladies dégénératives du système nerveux, âge inférieur à 81 ans sans CMA;0
+01M08W;1;Maladies dégénératives du système nerveux, âge inférieur à 81 ans avec CMA;0
+01M09Z;1;Affections et lésions du rachis et de la moelle;0
+05C07Z;5;Autres interventions cardiothoraciques, âge inférieur à 2 ans, avec circulation extracorporelle;0
+17M06W;17;Chimiothérapie pour autre tumeur, avec CMA;0
+17M07V;17;Autres affections myéloprolifératives et tumeurs de siège imprécis ou diffus, âge inférieur à 70 ans sans CMA;0
+17M07W;17;Autres affections myéloprolifératives et tumeurs de siège imprécis ou diffus, âge supérieur à 69 ans et/ou CMA;0
+17M08Z;17;Leucémies aigües, âge inférieur à 18 ans;0
+17M09V;17;Leucémies aigües, âge supérieur à 17 ans sans CMA;0
+17M09W;17;Leucémies aigües, âge supérieur à 17 ans avec CMA;0
+17M10V;17;Lymphomes ou autres leucémies sans CMA;0
+17M10W;17;Lymphomes ou autres leucémies avec CMA;0
+18C02V;18;Interventions pour maladies infectieuses ou parasitaires sans CMA;0
+28Z08Z;28;Préparations à une irradiation externe avec une dosimétrie tridimensionnelle;0
+28Z09Z;28;Autres préparations à une irradiation externe;0
+28Z10Z;28;Curiethérapie, en séances;0
+13C01S;13;Interventions pour affections de l'appareil génital féminin, avec CMAS;0
+13C02V;13;Exentérations pelviennes, hystérectomies élargies ou vulvectomies, sans CMA;0
+13C02W;13;Exentérations pelviennes, hystérectomies élargies ou vulvectomies, avec CMA;0
+13C03V;13;Hystérectomies, âge inférieur à 70 ans sans CMA;0
+13C03W;13;Hystérectomies, âge supérieur à 69 ans et/ou CMA;0
+13C04V;13;Interventions réparatrices sur l'appareil génital féminin, âge inférieur à 70 ans sans CMA;0
+13C04W;13;Interventions réparatrices sur l'appareil génital féminin, âge supérieur à 69 ans et/ou CMA;0
+02C08W;2;Autres interventions extraoculaires, âge de 18 à 69 ans avec CMA, ou âge supérieur à 69 ans;0
+02C09Z;2;Allogreffes de cornée;0
+02M02Z;2;Hyphéma;0
+02M03Z;2;Infections oculaires aiguës sévères;0
+02M04Z;2;Affections oculaires d'origine neurologique;0
+24K38Z;24;Affections de la bouche et des dents avec certaines extractions, réparations et prothèses dentaires sans anesthésie : séjours de moins de 2 jours;0
+07M03V;7;Hépatites alcooliques et cirrhoses, âge inférieur à 70 ans sans CMA;0
+07M03W;7;Hépatites alcooliques et cirrhoses, âge supérieur à 69 ans et/ou CMA;0
+07M04V;7;Affections hépatiques à l'exception des tumeurs malignes, des cirrhoses, des hépatites alcooliques, sans CMA;0
+07M04W;7;Affections hépatiques à l'exception des tumeurs malignes, des cirrhoses, des hépatites alcooliques, avec CMA;0
+07M05V;7;Affections non malignes du pancréas sans CMA;0
+07M05W;7;Affections non malignes du pancréas avec CMA;0
+07M06V;7;Affections malignes du système hépatobiliaire ou du pancréas, âge inférieur à 70 ans sans CMA;0
+07M06W;7;Affections malignes du système hépatobiliaire ou du pancréas, âge supérieur à 69 ans et/ou CMA;0
+08C01S;8;Interventions pour affections de l'appareil musculosquelettique et du tissu conjonctif, avec CMAS non traumatiques;0
+08C02Z;8;Interventions majeures multiples sur les genoux et/ou les hanches;0
+08C03V;8;***Interventions majeures sur les articulations et greffes de membres sans CMA;0
+08C03W;8;***Interventions majeures sur les articulations et greffes de membres avec CMA;0
+08C04Z;8;Interventions sur la hanche et le fémur, autres que les interventions majeures, âge inférieur à 18 ans;0
+08C05V;8;Interventions sur la hanche et le fémur, autres que les interventions majeures, âge supérieur à 17 ans sans CMA;0
+08C05W;8;Interventions sur la hanche et le fémur, autres que les interventions majeures, âge supérieur à 17 ans avec CMA;0
+07C10V;7;Interventions sur le foie, le pancréas et les veines porte ou cave pour affections non malignes sans CMA;0
+07C10W;7;Interventions sur le foie, le pancréas et les veines porte ou cave pour affections non malignes avec CMA;0
+07C11V;7;Dérivations biliaires sans CMA;0
+07C11W;7;Dérivations biliaires avec CMA;0
+07C12V;7;Autres interventions sur les voies biliaires sauf cholécystectomies isolées sans CMA;0
+07C12W;7;Autres interventions sur les voies biliaires sauf cholécystectomies isolées avec CMA;0
+07M01S;7;Affections du système hépatobiliaire et du pancréas avec CMAS;0
+07M02V;7;Affections des voies biliaires, âge inférieur à 70 ans sans CMA;0
+07M02W;7;Affections des voies biliaires, âge supérieur à 69 ans et/ou CMA;0
+05K06V;5;Endoprothèses vasculaires sans infarctus du myocarde sans CMA;0
+05K06W;5;Endoprothèses vasculaires sans infarctus du myocarde avec CMA;0
+05K07Z;5;Actes thérapeutiques par voie vasculaire sauf endoprothèses avec pathologie cardiovasculaire sévère en dehors de l'infarctus aigu du myocarde;0
+05K08Z;5;Actes thérapeutiques par voie vasculaire sauf endoprothèses sans pathologie cardiovasculaire sévère;0
+05K09Z;5;Actes diagnostiques par voie vasculaire avec pathologie cardiovasculaire sévère en dehors d'un infarctus aigu du myocarde;0
+05K10Z;5;Actes diagnostiques par voie vasculaire sans pathologie cardiovasculaire sévère;0
+05K11Z;5;Traitements des troubles du rythme par voie vasculaire;0
+05M02E;5;Infarctus aigu du myocarde avec décès;0
+05M03Z;5;Infarctus aigu du myocarde avec complications cardiovasculaires et sortie en vie de l'établissement;0
+05M04V;5;Infarctus aigu du myocarde sans complication cardiovasculaire sans CMA;0
+05M04W;5;Infarctus aigu du myocarde sans complication cardiovasculaire avec CMA;0
+05M05V;5;Syncopes et lipothymies, âge inférieur à 70 ans sans CMA;0
+24K30Z;24;Endoscopies urinaires thérapeutiques et anesthésie : séjours de moins de 2 jours;0
+24K31Z;24;Endoscopies urinaires thérapeutiques sans anesthésie : séjours de moins de 2 jours;0
+24K32Z;24;Endoscopies urinaires diagnostiques et anesthésie : séjours de moins de 2 jours;0
+24K33Z;24;Endoscopies urinaires diagnostiques sans anesthésie : séjours de moins de 2 jours;0
+24K34Z;24;Endoscopies oto-rhino-laryngologiques : séjours de moins de 2 jours;0
+24K35Z;24;Endoscopies bronchiques : séjours de moins de 2 jours;0
+24K36Z;24;Traitements des troubles du rythme par voie vasculaire : séjours de moins de 2 jours;0
+24K37Z;24;Embolisations : séjours de moins de 2 jours;0
+05C17W;5;Ligatures de veines et éveinages, âge supérieur à 69 ans et/ou CMA;0
+05C18Z;5;Autres interventions sur le système circulatoire;0
+05C19Z;5;Pose d'un défibrillateur cardiaque;0
+05C20Z;5;Remplacement ou ablation chirurgicale d'électrodes ou repositionnement de boîtier de stimulation cardiaque permanente;0
+18Z01S;18;Maladies infectieuses et parasitaires, avec CMAS, avec ou sans acte;0
+19C02Z;19;Interventions chirurgicales avec un diagnostic principal de maladie mentale;0
+05C08W;5;Autres interventions cardiothoraciques âge supérieur à 1 an, ou vasculaires quel que soit l'âge, sans circulation extracorporelle, avec CMA;0
+05C09Z;5;Autres interventions cardiothoraciques, âge inférieur à 2 ans, sans circulation extracorporelle;0
+05C10V;5;Chirurgie majeure de revascularisation sans CMA;0
+24Z09E;24;Infarctus du myocarde avec décès : séjours de moins de 2 jours;0
+24Z10E;24;Nouveau-nés décédés : séjours de moins de 2 jours;0
+24Z11E;24;Autres décès : séjours de moins de 2 jours;0
+24Z12Z;24;***Transferts de nouveau-nés vers un autre établissement : séjours de moins de 2 jours;0
+24Z13Z;24;***Brûlures avec transfert vers un autre établissement : séjours de moins de 2 jours;0
+24Z14Z;24;***Autres transferts : séjours de moins de 2 jours;0
+24Z15Z;24;Interruption volontaire de grossesse : séjours de moins de 2 jours;0
+24Z16Z;24;***Affections de la CMD 15 : séjours de moins de 2 jours;0
+24Z17Z;24;Éthylisme aigu : séjours de moins de 2 jours;0
+24Z18Z;24;Affections de la CMD 20 : séjours de moins de 2 jours;0
+24Z19Z;24;Interventions à visée esthétique et de confort, séjours de moins de 2 jours;0
+06M05V;6;Tumeurs malignes du tube digestif, âge inférieur à 70 ans sans CMA;0
+06M05W;6;Tumeurs malignes du tube digestif, âge supérieur à 69 ans et/ou CMA;0
+06M06V;6;Occlusions intestinales non dues à une hernie sans CMA;0
+06M06W;6;Occlusions intestinales non dues à une hernie avec CMA;0
+06M07V;6;Maladies inflammatoires de l'intestin sans CMA;0
+06M07W;6;Maladies inflammatoires de l'intestin avec CMA;0
+06M08Z;6;Autres affections digestives, âge inférieur à 18 ans;0
+06M09V;6;Autres affections digestives, âge de 18 à 69 ans sans CMA;0
+06M09W;6;Autres affections digestives, âge de 18 à 69 ans avec CMA, ou âge supérieur à 69 ans;0
+06M11V;6;Ulcères gastroduodénaux non compliqués, âge inférieur à 70 ans sans CMA;0
+27C06Z;27;Transplantations rénales;0
+27Z02Z;27;Allogreffes de cellules souches hématopoïétiques;0
+27Z03Z;27;Autogreffes de cellules souches hématopoïétiques;0
+28Z01Z;28;Entraînements à la dialyse péritonéale automatisée, en séances;0
+28Z02Z;28;Entraînements à la dialyse péritonéale continue ambulatoire, en séances;0
+28Z03Z;28;Entraînements à l'hémodialyse, en séances;0
+28Z04Z;28;Hémodialyse, en séances;0
+24K39Z;24;Actes diagnostiques par voie vasculaire de la CMD 05 : séjours de moins de 2 jours;0
+24M01Z;24;Convulsions, épilepsies et céphalées : séjours de moins de 2 jours;0
+24M02Z;24;Commotions cérébrales : séjours de moins de 2 jours;0
+24M03Z;24;Affections de la CMD 01 : séjours de moins de 2 jours, sans acte opératoire de la CMD 01;0
+24M04Z;24;Affections de la CMD 02 : séjours de moins de 2 jours, sans acte opératoire de la CMD 02;0
+24M05Z;24;Otites moyennes et infections des voies aériennes supérieures : séjours de moins de 2 jours;0
+24M06Z;24;Affections de la CMD 03 : séjours de moins de 2 jours, sans acte opératoire de la CMD 03;0
+24M07Z;24;Bronchites et asthme : séjours de moins de 2 jours;0
+24M08Z;24;Affections de la CMD 04 : séjours de moins de 2 jours, sans acte opératoire de la CMD 04;0
+24K09Z;24;Affections de la CMD 09 : séjours de moins de 2 jours, sans acte opératoire de la CMD 09, avec anesthésie;0
+24K10Z;24;Lithotritie extracorporelle de l'appareil urinaire : séjours de moins de 2 jours;0
+24K11Z;24;Affections de la CMD 13 : séjours de moins de 2 jours, sans acte opératoire de la CMD 13, avec anesthésie;0
+24K12Z;24;Affections de la CMD 17 : séjours de moins de 2 jours, sans acte opératoire, avec anesthésie;0
+11M05W;11;***Insuffisance rénale, avec dialyse, âge supérieur à 69 ans et/ou CMA;0
+11M06V;11;Insuffisance rénale, sans dialyse, âge inférieur à 70 ans sans CMA;0
+11M06W;11;Insuffisance rénale, sans dialyse, âge supérieur à 69 ans et/ou CMA;0
+11M07V;11;Tumeurs des reins et des voies urinaires sans CMA;0
+11M07W;11;Tumeurs des reins et des voies urinaires avec CMA;0
+11M08Z;11;Autres affections des reins et des voies urinaires, âge inférieur à 18 ans;0
+11M09V;11;Autres affections des reins et des voies urinaires, âge supérieur à 17 ans sans CMA;0
+11M09W;11;Autres affections des reins et des voies urinaires, âge supérieur à 17 ans avec CMA;0
+11M10V;11;Rétrécissement urétral, âge inférieur à 70 ans sans CMA;0
+11M10W;11;Rétrécissement urétral, âge supérieur à 69 ans et/ou CMA;0
+11M11Z;11;Signes et symptômes concernant les reins et les voies urinaires, âge inférieur à 18 ans;0
+11M12V;11;Signes et symptômes concernant les reins et les voies urinaires, âge de 18 à 69 ans sans CMA;0
+24M35Z;24;Autres motifs de recours chez un patient diabétique : séjours de moins de 2 jours;0
+08C06Z;8;Amputations pour affections de l'appareil musculosquelettique et du tissu conjonctif;0
+08C07V;8;***Interventions sur le rachis sans CMA;0
+05M09V;5;Insuffisances cardiaques et états de choc circulatoire sans CMA;0
+03M09V;3;Autres diagnostics portant sur les oreilles, le nez, la gorge ou la bouche, âge supérieur à 17 ans sans CMA;0
+03M09W;3;Autres diagnostics portant sur les oreilles, le nez, la gorge ou la bouche, âge supérieur à 17 ans avec CMA;0
+03M10Z;3;Affections de la bouche et des dents sans certaines extractions, réparations ou prothèses dentaires, âge inférieur à 18 ans;0
+03M11V;3;Affections de la bouche et des dents sans certaines extractions, réparations ou prothèses dentaires, âge de 18 à 69 ans sans CMA;0
+24K13Z;24;***Motifs de recours de la CMD 23 : séjours de moins de 2 jours, sans acte opératoire, avec anesthésie;0
+24K14Z;24;Autres séjours de moins de 2 jours sans acte opératoire, avec anesthésie;0
+24K15Z;24;Affections de la CMD  03 : séjours de moins de 2 jours, sans acte opératoire de la CMD 03, avec anesthésie;0
+24K16Z;24;Endoprothèses coronariennes et vasculaires périphériques : séjours de moins de 2 jours;0
+24K17Z;24;Actes thérapeutiques par voie vasculaire sauf endoprothèses et embolisations : séjours de moins de 2 jours;0
+24K18Z;24;Affections de la CMD  05 : séjours de moins de 2 jours, sans acte opératoire de la CMD 05, avec anesthésie;0
+24K19Z;24;Affections de la CMD  06 : séjours de moins de 2 jours, sans acte opératoire de la CMD 06, avec anesthésie;0
+24K20Z;24;Évacuation d'ascite : séjours de moins de 2 jours;0
+24C39Z;24;Créations  et réfections des fistules artérioveineuses, séjours de moins de 2 jours;0
+24C40Z;24;Interventions pour traumatismes de l'oeil, séjours de moins de 2 jours;0
+24C41Z;24;Actes non mineurs de la CMD 02, séjours de moins de 2 jours;0
+24C42Z;24;Actes non mineurs de la CMD 03 : séjours de moins de 2 jours;0
+24C43Z;24;Pose d'un défibrillateur cardiaque : séjours de moins de 2 jours;0
+24C44Z;24;Pose d'un stimulateur cardiaque permanent : séjours de moins de 2 jours;0
+24C45Z;24;Hémorroïdectomies : séjours de moins de 2 jours;0
+24C46Z;24;Actes non mineurs sur la main  : séjours de moins de 2 jours;0
+24C47Z;24;Interventions sur le sein : séjours de moins de 2 jours;0
+24C48Z;24;Interventions sur la peau et les tissus sous-cutanés : séjours de moins de 2 jours;0
+24C49Z;24;Prélèvements d'ovocytes : séjours de moins de 2 jours;0
+10M05W;10;Troubles métaboliques ou nutritionnels divers, âge de 18 à 69 ans avec CMA, ou âge supérieur à 69 ans;0
+24C35Z;24;Affections de la CMD 19 : séjours de moins de 2 jours, avec acte opératoire;0
+24C36Z;24;***Affections de la CMD 21 : séjours de moins de 2 jours, avec acte opératoire de la CMD 21;0
+24C37Z;24;Affections de la CMD 22 : séjours de moins de 2 jours, avec acte opératoire de la CMD 22;0
+24C38Z;24;Motifs de recours de la CMD 23 : séjours de moins de 2 jours, avec acte opératoire;0
+10M01S;10;Affections endocriniennes, métaboliques et nutritionnelles, avec CMAS;0
+10M02V;10;Diabète, âge de 36 à 69 ans sans CMA;0
+10M02W;10;Diabète, âge de 36 à 69 ans avec CMA, ou âge supérieur à 69 ans;0
+10M03Z;10;Diabète, âge inférieur à 36 ans;0
+10M04V;10;Troubles métaboliques ou nutritionnels divers, âge inférieur à 18 ans sans CMA;0
+10M04W;10;Troubles métaboliques ou nutritionnels divers, âge inférieur à 18 ans avec CMA;0
+10M05V;10;Troubles métaboliques ou nutritionnels divers, âge de 18 à 69 ans sans CMA;0
+13C07W;13;Interventions sur le système utéroannexiel pour des affections non malignes, autres que les interruptions tubaires, âge supérieur à 69 ans et/ou CMA;0
+13C08V;13;Interventions sur la vulve, le vagin ou le col utérin, âge inférieur à 70 ans sans CMA;0
+13C08W;13;Interventions sur la vulve, le vagin ou le col utérin, âge supérieur à 69 ans et/ou CMA;0
+13C09Z;13;Laparoscopies ou coelioscopies diagnostiques;0
+13C10Z;13;Ligatures tubaires par laparoscopie ou coelioscopie;0
+13C11Z;13;Dilatations et curetages, conisations pour tumeurs malignes;0
+13C12Z;13;Dilatations et curetages, conisations pour des affections non malignes;0
+13C13Z;13;Autres interventions sur l'appareil génital féminin;0
+11K02V;11;Insuffisance rénale, avec dialyse, âge inférieur à 70 ans sans CMA;0
+09C10W;9;Autres interventions sur la peau, les tissus sous-cutanés ou les seins avec CMA;0
+09M02Z;9;Traumatismes de la peau et des tissus sous-cutanés, âge inférieur à 18 ans;0
+03C11Z;3;Amygdalectomies et/ou adénoïdectomies isolées, âge supérieur à 17 ans;0
+03C12Z;3;Interventions sur les amygdales et les végétations adénoïdes autres que les amygdalectomies et/ou les adénoïdectomies isolées, âge inférieur à 18 ans;0
+03C13Z;3;Interventions sur les amygdales et les végétations adénoïdes autres que les amygdalectomies et/ou les adénoïdectomies isolées, âge supérieur à 17 ans;0
+03C14Z;3;Drains transtympaniques, âge inférieur à 18 ans;0
+03C15Z;3;Drains transtympaniques, âge supérieur à 17 ans;0
+03C16V;3;Autres interventions chirurgicales portant sur les oreilles, le nez, la gorge ou le cou, âge inférieur à 70 ans sans CMA;0
+03C16W;3;Autres interventions chirurgicales portant sur les oreilles, le nez, la gorge ou le cou, âge supérieur à 69 ans et/ou CMA;0
+03C17Z;3;Interventions sur la bouche;0
+03C18Z;3;Pose d'implants cochléaires;0
+03C19Z;3;Ostéotomies de la face;0
+03C20Z;3;Interventions de reconstruction de l'oreille moyenne;0
+03C21Z;3;Interventions pour oreilles décollées;0
+01C01S;1;Interventions pour affections du système nerveux, sauf craniotomie, avec CMAS;0
+01C02Z;1;***Craniotomies, âge inférieur à 18 ans;0
+01C03V;1;Craniotomies pour traumatisme, âge supérieur à 17 ans sans CMA;0
+24M17Z;24;Traumatismes de la peau et des tissus sous-cutanés : séjours de moins de 2 jours;0
+24M18Z;24;Affections de la CMD 09 : séjours de moins de 2 jours, sans acte opératoire de la CMD 09;0
+24M19Z;24;Affections de la CMD 10 : séjours de moins de 2 jours, sans acte opératoire de la CMD 10;0
+24M20Z;24;Lithiases urinaires : séjours de moins de 2 jours;0
+24M21Z;24;Affections de la CMD 11 : séjours de moins de 2 jours, sans acte opératoire de la CMD 11;0
+24M22Z;24;Affections de la CMD 12 : séjours de moins de 2 jours, sans acte opératoire de la CMD 12;0
+12M04V;12;Hypertrophie prostatique bénigne, âge inférieur à 70 ans sans CMA;0
+12M04W;12;Hypertrophie prostatique bénigne, âge supérieur à 69 ans et/ou CMA;0
+12M05Z;12;Autres affections de l'appareil génital masculin;0
+08M15V;8;Tendinites, myosites et bursites, âge inférieur à 70 ans sans CMA;0
+08M15W;8;Tendinites, myosites et bursites, âge supérieur à 69 ans et/ou CMA;0
+08M16Z;8;Ostéomyélites;0
+08M17Z;8;Arthrites septiques;0
+08M18Z;8;Suites de traitement après une affection de l'appareil musculosquelettique ou du tissu conjonctif;0
+08M19V;8;Autres pathologies de l'appareil musculosquelettique et du tissu conjonctif sans CMA;0
+08M19W;8;Autres pathologies de l'appareil musculosquelettique et du tissu conjonctif avec CMA;0
+13M04V;13;Autres affections de l'appareil génital féminin, âge inférieur à 70 ans sans CMA;0
+13M04W;13;Autres affections de l'appareil génital féminin, âge supérieur à 69 ans et/ou CMA;0
+06C13W;6;Libérations d'adhérences péritonéales, âge supérieur à 69 ans et/ou CMA;0
+06C14V;6;Interventions sur le rectum et l'anus autres que les résections rectales sans CMA;0
+06C14W;6;Interventions sur le rectum et l'anus autres que les résections rectales avec CMA;0
+06C15V;6;Autres interventions sur le tube digestif sans CMA;0
+06C15W;6;Autres interventions sur le tube digestif avec CMA;0
+06C16V;6;Interventions sur l'oesophage, l'estomac et le duodénum pour tumeurs malignes, âge supérieur à 17 ans sans CMA;0
+24C18Z;24;Affections de la CMD 08 : séjours de moins de 2 jours, avec autre acte opératoire de la CMD 08;0
+24C19Z;24;***Affections de la CMD 09 : séjours de moins de 2 jours, avec acte opératoire de la CMD 09;0
+11C08W;11;Autres interventions sur les reins et les voies urinaires avec CMA;0
+09M09Z;9;Affections non malignes des seins;0
+14Z03A;14;Affections de l'ante partum, avec ou sans intervention chirurgicale, sans complications;0
+14Z03B;14;Affections de l'ante partum, avec ou sans intervention chirurgicale, avec complications;0
+14Z04Z;14;Avortements sans aspiration, ni curetage, ni hystérotomie;0
+14Z05Z;14;Grossesses ectopiques;0
+14Z06Z;14;Menaces d'avortement;0
+14Z07Z;14;Faux travail;0
+15Z02Z;15;Autres problèmes postnéonatals précoces;0
+15Z03Z;15;Transferts précoces de nouveau-nés vers un autre établissement;0
+15Z04E;15;Nouveau-nés de 1500 g et plus, décédés;0
+10C06W;10;***Interventions sur la thyroïde, âge supérieur à 69 ans et/ou CMA;0
+10C07Z;10;Interventions sur le tractus thyréoglosse;0
+10C08Z;10;Autres interventions pour troubles endocriniens, métaboliques ou nutritionnels;0
+10C09Z;10;Gastroplasties pour obésité;0
+10C10Z;10;Autres interventions pour obésité;0
+10C11V;10;Interventions sur la thyroïde pour tumeurs malignes, âge inférieur à 70 ans sans CMA;0
+10C11W;10;Interventions sur la thyroïde pour tumeurs malignes, âge supérieur à 69 ans et/ou CMA;0
+10C12V;10;Interventions sur la thyroïde pour affections non malignes, âge inférieur à 70 ans sans CMA;0
+10C12W;10;Interventions sur la thyroïde pour affections non malignes, âge supérieur à 69 ans et/ou CMA;0
+24M36Z;24;Autres motifs de recours de la CMD 23 : séjours de moins de 2 jours, sans acte opératoire;0
+24M37Z;24;Douleurs chroniques rebelles : séjours de moins de 2 jours;0
+24M38Z;24;Affections des seins : séjours de moins de 2 jours;0
+24M39Z;24;Surveillances de greffes de rein : séjours de moins de 2 jours;0
+02M05Z;2;Autres affections oculaires, âge inférieur à 18 ans;0
+02M06V;2;Autres affections oculaires, âge supérieur à 17 ans sans CMA;0
+02M06W;2;Autres affections oculaires, âge supérieur à 17 ans avec CMA;0
+03C02V;3;Interventions majeures sur la tête et le cou sans CMA;0
+03C02W;3;Interventions majeures sur la tête et le cou avec CMA;0
+03M11W;3;Affections de la bouche et des dents sans certaines extractions, réparations ou prothèses dentaires, âge de 18 à 69 ans avec CMA, ou âge supérieur à 69 ans;0
+04C01S;4;Interventions pour affections de l'appareil respiratoire, avec CMAS;0
+04C02V;4;Interventions majeures sur le thorax sans CMA;0
+04C02W;4;Interventions majeures sur le thorax avec CMA;0
+15Z07A;15;Nouveau-nés de 1500 g à 1999 g, sans problème significatif;0
+15Z07B;15;Nouveau-nés de 1500 g à 1999 g, avec autre problème significatif;0
+15Z07C;15;Nouveau-nés de 1500 g à 1999 g, avec problème majeur ou sévère;0
+15Z08A;15;Nouveau-nés de 1000 g à 1499 g, sortis en vie;0
+15Z08E;15;Nouveau-nés de 1000 g à 1499 g, décédés;0
+15Z09A;15;Nouveau-nés de moins de 1000 g, sortis en vie;0
+15Z09E;15;Nouveau-nés de moins de 1000 g, décédés;0
+16C01S;16;Interventions pour affections du sang et des organes hématopoïétiques, avec CMAS;0
+16C02Z;16;Interventions sur la rate;0
+16C03V;16;Autres interventions pour affections du sang et des organes hématopoïétiques sans CMA;0
+16C03W;16;Autres interventions pour affections du sang et des organes hématopoïétiques avec CMA;0
+19M07W;19;Troubles mentaux d'origine organique et retards mentaux, âge inférieur à 81 ans avec CMA;0
+19M08Z;19;Maladies et troubles mentaux de l'enfance;0
+19M09Z;19;Autres troubles mentaux;0
+19M10Z;19;Névroses autres que les névroses dépressives;0
+19M11V;19;Névroses dépressives, âge inférieur à 70 ans sans CMA;0
+19M11W;19;Névroses dépressives, âge supérieur à 69 ans et/ou CMA;0
+20Z02Z;20;Toxicomanies non éthyliques avec dépendance;0

@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "LES_COD_TOP",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "LES_COD_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_NOU_V",
+    "title": "TOP codification (ancienne ou nouvelle)",
+    "primaryKey": [
+        "LES_COD_TOP"
+    ]
+}

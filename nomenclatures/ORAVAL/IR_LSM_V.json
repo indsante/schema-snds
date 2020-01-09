@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "LSM_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "LSM_COD_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_LSM_V",
+    "title": "Table des codes ELSM",
+    "primaryKey": [
+        "LSM_COD"
+    ]
+}

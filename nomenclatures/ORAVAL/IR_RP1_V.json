@@ -1,0 +1,74 @@
+{
+    "fields": [
+        {
+            "name": "PRS_RP1_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "PRS_RP2_COD",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "PRS_RP1_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "PRS_NAT_TDM",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "PFS_SPE_POS",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "PFS_SPE_COD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "PFS_ACT_NAT",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "DDP_GDE_COD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "MFT_COD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "ETE_STJ_COD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "ETE_CAT_RG1",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_RP1_V",
+    "title": "Regroupement HPHE Détaillé Honoraires Spécialistes et Auxiliaires",
+    "primaryKey": [
+        "PRS_RP1_COD"
+    ]
+}

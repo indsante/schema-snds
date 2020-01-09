@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "RAT_REN_TYP",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "RAT_REN_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_TPR_V",
+    "title": "Type de prestation",
+    "primaryKey": [
+        "RAT_REN_TYP"
+    ]
+}

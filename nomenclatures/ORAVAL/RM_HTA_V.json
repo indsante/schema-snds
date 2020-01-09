@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "MED_HTA_TOP",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "MED_HTA_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "RM_HTA_V",
+    "title": "top HTA ( hypertension artérielle )",
+    "primaryKey": [
+        "MED_HTA_TOP"
+    ]
+}

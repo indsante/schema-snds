@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "BEN_QLT_RGT",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "BEN_QLT_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_BRG_V",
+    "title": "Libellés regroupés BEQ",
+    "primaryKey": [
+        "BEN_QLT_RGT"
+    ]
+}

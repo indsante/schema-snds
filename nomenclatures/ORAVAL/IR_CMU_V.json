@@ -1,0 +1,34 @@
+{
+    "fields": [
+        {
+            "name": "CPT_CMU_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "CPT_CMH_COD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "CPT_CMU_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_CMU_V",
+    "title": "Postes Comptables CMU",
+    "primaryKey": [
+        "CPT_CMU_COD"
+    ]
+}

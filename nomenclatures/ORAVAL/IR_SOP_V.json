@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "BDG_SOP_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "BDG_SOP_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_SOP_V",
+    "title": "Sortie / Présence",
+    "primaryKey": [
+        "BDG_SOP_COD"
+    ]
+}

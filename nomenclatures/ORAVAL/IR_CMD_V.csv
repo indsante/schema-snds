@@ -1,0 +1,32 @@
+GHS_CMD;CMD_LIB;TEC_COL
+99;Valeur inconnue;1
+0;Sans objet;0
+1;Affections du système nerveux;0
+2;Affections de l'oeil;0
+3;Affections des oreilles, du nez, de la gorge, de la bouche et des dents;0
+4;Affections de l'appareil respiratoire;0
+5;Affections de l'appareil circulatoire;0
+6;Affections du tube digestif;0
+7;Affections du système hépatobiliaire et du pancréas;0
+8;Affections et traumatismes de l'appareil musculosquelettique et du tissu conjonctif;0
+9;Affections de la peau, des tissus souscutanés et des seins;0
+10;Affections endocriniennes, métaboliques et nutritionnelles;0
+11;Affections du rein et des voies urinaires;0
+12;Affections de l'appareil génital masculin;0
+13;Affections de l'appareil génital féminin;0
+14;Grossesses pathologiques, accouchements et affections du post-partum;0
+15;Nouveau-nés, prématurés et affections de la période périnatale;0
+16;Affections du sang et des organes hématopoïétiques;0
+17;Affections myéloprolifératives et tumeurs de siège imprécis ou diffus;0
+18;Maladies infectieuses et parasitaires;0
+19;Maladies et troubles mentaux;0
+20;Troubles mentaux organiques liés à l'absorption de drogues ou induits par celles-ci;0
+21;Traumatismes, allergies et empoisonnements;0
+22;Brûlures;0
+23;Facteurs influant sur l'état de santé et autres motifs de recours aux services de santé;0
+24;Séjours de moins de 2 jours;0
+25;Maladies dues à une infection par le VIH;0
+26;Traumatismes multiples graves;0
+27;Transplantations d'organes;0
+28;Séances;0
+90;Erreurs et autres séjours inclassables;2

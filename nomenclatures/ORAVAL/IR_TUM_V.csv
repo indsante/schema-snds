@@ -1,0 +1,27 @@
+CAT_TUM_COD;CAT_TUM_LIB;TEC_COL
+1;Tumeur de la lèvre, de la cavité buccale et du pharynx;0
+2;Tumeur de l'oesophage;0
+3;Tumeur de l'estomac;0
+4;Tumeur du colon-rectum;0
+5;Tumeur du foie;0
+6;Tumeur du pancréas;0
+7;Tumeur du larynx;0
+8;Tumeur de la trachée, des bronches et du poumon;0
+9;Mélanome malin peau;0
+10;Tumeur du sein;0
+11;Tumeur du col de l'utérus;0
+12;Tumeur du corps de l'utérus;0
+13;Tumeur de l'ovaire;0
+14;Tumeur de la prostate;0
+15;Tumeur du testicule;0
+16;Tumeur de la vessie;0
+17;Tumeur du rein et organes urinaires autres ou non précisés;0
+18;Tumeur de l'encéphale et autres parties du système nerveux central;0
+19;Tumeur de la thyroïde;0
+20;Maladie de Hodgkin;0
+21;Lymphomes non Hodgkinien;0
+22;Myélome multiple et tumeurs malignes à plasmocytes;0
+23;Leucémies;0
+99;Autres Tumeurs  ( non précisé );0
+88;Valeur Inconnue;1
+0;Sans Objet;2

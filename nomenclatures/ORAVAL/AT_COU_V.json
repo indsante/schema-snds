@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "COU_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "COU_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_COU_V",
+    "title": "types de courrier associé",
+    "primaryKey": [
+        "COU_COD"
+    ]
+}

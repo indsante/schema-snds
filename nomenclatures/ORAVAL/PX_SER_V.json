@@ -1,0 +1,34 @@
+{
+    "fields": [
+        {
+            "name": "TLS_FCT_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "SER_SER_CPS",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "TLS_FCT_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "PX_SER_V",
+    "title": "services pour restitution",
+    "primaryKey": [
+        "TLS_FCT_COD"
+    ]
+}

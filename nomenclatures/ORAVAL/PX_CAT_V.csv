@@ -1,0 +1,19 @@
+CAT_TLS_COD;CAT_TLS_LIB;TEC_COL
+0;Établissements et SAMU;0
+1;Dispensaires et centres de santé;0
+10;Médecins généralistes;0
+11;Médecins spécialistes;0
+20;Pharmaciens;0
+23;GIHP;0
+24;Transporteurs sanitaires;0
+25;Taxis;0
+26;Fournisseurs de biens médicaux;0
+30;Directeurs de laboratoire d'analyses;0
+40;Chirurgiens-dentistes;0
+50;Sages-femmes;0
+60;Infirmiers;0
+70;Masseurs-Kinésithérapeutes;0
+80;Pédicures-podologues;0
+91;Orthophonistes;0
+92;Orthoptistes;0
+99;Valeur inconnue;1

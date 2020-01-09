@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "RAT_ITI_IND",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "RAT_ITI_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_ITI_V",
+    "title": "Indicateur ITI (Indemnité Temporaire d'Inaptitude)",
+    "primaryKey": [
+        "RAT_ITI_IND"
+    ]
+}

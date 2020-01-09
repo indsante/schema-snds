@@ -1,0 +1,13 @@
+ACT_AUT_TYP;ACT_AUT_LIB;TEC_COL
+II;valeur inconnue;1
+XX;sans objet;2
+01;Réanimation;0
+02;Soins Intensifs;0
+03;Surveillance continue;0
+04;Néonatalogie sans soins intensifs (type 2A);0
+05;Néonatalogie avec soins intensifs (type 2B);0
+06;Néonatalogie et réanimation périnatale (type 3);0
+07;Zone de surveillance de courte durée;0
+08;Soins palliatifs;0
+11;Anesthésie ou chirurgie ambulatoire;0
+12;Hospitalisation à temps partiel de jour ou de nuit;0

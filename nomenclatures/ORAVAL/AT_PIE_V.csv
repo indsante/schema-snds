@@ -1,0 +1,162 @@
+PIE_PIE_TYP;PIE_PIE_LIB;TEC_COL
+1ERE;Première pièce;0
+ACCUEIL;Possibilité d'éditer des documents à l'accueil;0
+ADC;Acte de décès;0
+AFFIL;Affiliation;0
+APR;Appareillage;0
+ASSUJ;Assujettissement;0
+AVIS;Avis Médical;0
+AVIS_DCD;Avis Décès;0
+AVIS_DMF;Avis Décision Médicale Finale;0
+AVIS_EMP_ATY;Avis Employeur Atypique;0
+AVIS_EVTAPR;Avis Appareillage;0
+AVIS_EVTARR;Avis Arrêt de Travail;0
+AVIS_EVTARR_MIT;Avis Arrêt de Travail Mi-Temps;0
+AVIS_EVTCUR;Avis Cure;0
+AVIS_EVTEPR;Avis Entente Préalable;0
+AVIS_EVTHOS;Avis Hospitalisation;0
+AVIS_EVTITI;Avis Indemnité Temporaire d'Inaptitude;0
+AVIS_EVTREE;Avis Rééducation;0
+AVIS_EVTREE_COT;Avis COTOREP;0
+AVIS_EVTSOI;Avis Soins;0
+AVIS_EVTSPC;Avis Soins Post-Consolidation;0
+AVIS_IPP;Avis IPP;0
+AVIS_LIBRE;Avis Médical Colloque;0
+AVIS_MP;Avis Maladie Professionnelle;0
+AVIS_MP_2A;Avis M.P. 2ème Alinéa;0
+AVIS_MP_3A;Avis M.P. 3ème Alinéa;0
+AVIS_MP_4A;Avis M.P. 4ème Alinéa;0
+AVIS_MP_CRRMP;Avis M.P. CRRMP;0
+AVIS_MP_NEX;Avis M.P. Cond. Adm. Non Examinées;0
+AVIS_MP_PNEUMO;Avis M.P. Médecin Pneumologue;0
+AVIS_MP_TRT;Avis M.P. Complément Traitement;0
+AVIS_NLL;Avis Nouvelle Lésion;0
+AVIS_RCE;Avis Imputabilité (RCE);0
+AVIS_RCH;Avis Rechute;0
+AVIS_SPC;Avis Soins Post-Consolidation;0
+AVIS_VIH_AT;Avis VIH et AT;0
+CM;Certificats Médicaux;0
+CMD;Certificat Médical de Décès;0
+CMF;Certificat Final;0
+CMI;Certificat Initial;0
+CMNLL;Certificat Nouvelle Lésion;0
+CMP;Certificat Prolongation;0
+CMR;Certificat Rechute;0
+CMSPC;Certificat Soins Post-Consolidation;0
+CONTEST;Contestation (lettre de);0
+CTX;Contentieux (décision);0
+CUR;Cure;0
+DAT;Déclaration AT;0
+DAT_TAR;Information DAT Tardive;0
+DAT_TAR_AGE;Actes de gestion Déclaration Tardive;0
+DAT_TAR_CON_EMP;Contestation Employeur (lettre de);0
+DAT_TAR_CPAM;Information CPAM;0
+DAT_TAR_CRAM;Information CRAM;0
+DAT_TAR_DEC_EMP;Contentieux Employeur (Décision);0
+DAT_TAR_EMP;Information Employeur;0
+DAT_TAR_INST;Instruire DAT Tardive;0
+DCD;Décès;0
+DIV;Divers;0
+DMF;Décision médicale finale;0
+DMP;Déclaration MP;0
+DOS;Dossier sinistre;0
+DOS_PAP;Dossier Papier;0
+DOS_SAS;Dossier Electronique;0
+EMP;Employeur;0
+ENQ;Enquêtes;0
+ENQ_ADM;Enquête Aministrative;0
+ENQ_ADM_MP;Enquête Adm. M.P. (Emp. Principal);0
+ENQ_ADM_MP_AUT;Enquête Adm. M.P. (Autre Employeur);0
+ENQ_EXT;Enquête Externe;0
+ENQ_EXT_MP;Enquête Externe M.P. (Emp. Principal);0
+ENQ_EXT_MP_AUT;Enquête Externe M.P. (Autre Employeur);0
+ENQ_LEG;Enquête Légale;0
+ENQ_LEG_DCD;Enquête Légale Décès;0
+EP;Entente préalable;0
+EPIATI;Episode ATI;0
+EPIDCD;Episode décès;0
+EPINLL;Episode Nouvelle lésion;0
+EPIRCH;Episode Rechute;0
+EPISPC;Episode Soins Post-Consolidation;0
+EVE;Evénement;0
+EVTAPR;Evénement Appareillage;0
+EVTARR;Evénement Arrêt de Travail;0
+EVTCUR;Evénement Cure;0
+EVTDIV;Evénement Divers;0
+EVTEPR;Evénement Entente Préalable;0
+EVTHOS;Evénement Hospitalisation;0
+EVTITI;Evénement ITI;0
+EVTPER;Evénement Période;0
+EVTPERSOI;Evénement Période soin;0
+EVTREE;Evénement Rééducation;0
+EVTSOI;Evénement Soins;0
+EVTSPC;Evénement Soins Post-Consolidation;0
+EXA_COM;Examen compl. exigé par le tableau;0
+EXP;Expertises;0
+EXP_DCD;Expertise Décès;0
+EXP_DMF;Expertise Décision Médicale Finale;0
+EXP_EVTAPR;Expertise Appareillage;0
+EXP_EVTARR;Expertise Arrêt de Travail;0
+EXP_EVTCUR;Expertise Cure;0
+EXP_EVTHOS;Expertise Hospitalisation;0
+EXP_EVTITI;Expertise Indemnité Temporaire d'Inaptitude;0
+EXP_EVTSOI;Expertise Soins;0
+EXP_EVTSPC;Expertise Soins Post-Consolidation;0
+EXP_MP;Expertise Maladie Professionnelle;0
+EXP_NLL;Expertise Nouvelle Lésion;0
+EXP_RCE;Expertise Imputabilité (RCE);0
+EXP_RCH;Expertise Rechute;0
+EXP_SPC;Expertise Soins Post-Consolidation;0
+FORMU;Formulaires...;0
+FRAUDE;Fraude;0
+HOS;Hospitalisation;0
+ITI;Indemnité temporaire d'inaptitude;0
+MP;Maladie Professionnelle;0
+MUT;Mutations ...;0
+MUT_ACC_DOS_DEM;Mutation Accepter Dossier Demandé;0
+MUT_ACC_DOS_TRS;Mutation Traiter Accepter Dossier Transmis;0
+MUT_DEM_VIC_ENT;Mutation Entrée Demande Victime;0
+MUT_DEM_VIC_SOR;Mutation Sortie Demande Victime;0
+MUT_ENT;Mutation Entrée de Dossier;0
+MUT_ENT_MAN;Mutation Entrée de Dossier (hors SAS);0
+MUT_MODIF;Mutation Modification;0
+MUT_REC_DEM_DOS;Mutation RecevoirDossier (Demander);0
+MUT_REC_DOS_DEM;Mutation Recevoir Dossier Demandé;0
+MUT_REC_TRS_DOS;Mutation Recevoir Dossier (Transmettre);0
+MUT_REF_DEM_DOS;Mutation Refuser Demander Dossier;0
+MUT_REF_DEM_DOS_RE;Mutation Refuser Demander Dossier  (Retour);0
+MUT_REF_DOS_DEM;Mutation Refuser Dossier Demandé;0
+MUT_REF_DOS_DEM_RE;Mutation Refuser Dossier Demandé (Retour);0
+MUT_REF_DOS_TRS;Mutation Refuser Dossier Transmis;0
+MUT_REF_TRS_DOS;Mutation Refuser Transmettre Dossier;0
+MUT_SOR;Mutation Sortie de Dossier;0
+MUT_SOR_MAN;Mutation Sortie de Dossier (hors SAS);0
+QUEST;Questionnaires;0
+QUEST_AD;Questionnaire Ayant-droit;0
+QUEST_DIV;Questionnaire Divers Intervenant;0
+QUEST_EMP;Questionnaire Employeur;0
+QUEST_MED;Questionnaire Autre Médecin;0
+QUEST_MP_AUT_EMP;Questionnaire MP Autre Employeur;0
+QUEST_MP_EMP;Questionnaire MP Employeur;0
+QUEST_MP_MEDTRA;Questionnaire MP Médecin Travail;0
+QUEST_MP_VIC;Questionnaire MP Victime;0
+QUEST_MT;Questionnaire Médecin Traitant;0
+QUEST_PPA;Questionnaire Première Personne Avisée;0
+QUEST_TEM;Questionnaire Témoin;0
+QUEST_VIC;Questionnaire Victime;0
+RAPPORT;Rapport de Police ou Gendarmerie;0
+REE;Rééducation;0
+RENS;Renseignements divers;0
+RESERVE;Réserves Employeurs;0
+RESMOT;Réserves motivées;0
+RESNMOT;Réserves non motivées;0
+SALAIRE;Salaires;0
+SALAIRE_EMP;Salaires Employeur;0
+SALAIRE_EMP_AUT;Salaire Autre Employeur;0
+SALAIRE_VIC;Salaires Victime;0
+SIGN;Signalements;0
+TOP_GDR;Entreprise à risque majorée;0
+VIC;Victime;0
+VIH;Séroconversion;0
+VOLITI;Volet Employeur ITI;0
+IIIIIIIIIIIIIIIIIIII;Valeur inconnue;1

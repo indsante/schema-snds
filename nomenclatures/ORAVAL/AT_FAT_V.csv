@@ -1,0 +1,29 @@
+FAT_FAM_COD;FAT_FAM_LIB;TEC_COL
+0;Pas d'information;0
+1a;Problème électrique, explosion, feu;0
+21;Débordement, renversement de matériel ou d'objet solide;0
+22;Fuite, écoulement, éclaboussure, aspersion de liquide;0
+23;Vaporisation, formation de gaz;0
+24;Emission de poussières ou de particules;0
+31;Rupture de matériel ou d'équipement;0
+32;Rupture, éclatement causant des éclats (bois, verre, métal ...);0
+3a;Glissade, chute, effondrement d'objet ou de matériel;0
+41;Perte de contrôle de machine, de matière travaillée;0
+42;Perte de contrôle de moyen de transport ou de manutention;0
+43;Perte de contrôle d'outil;0
+4a;Perte de contrôle d'autres objets ou d'animal;0
+51;Chute de hauteur;0
+52;Glissade, trébuchement, chute de personne de plain-pied;0
+61;Blessure en marchant sur un objet coupant;0
+62;Blessure en s'agenouillant, s'asseyant ou en s'appuyant contre;0
+63;Blessure en étant happé, entraîné par un objet ou un matériel;0
+64;Mouvement non coordonné, gestes intempestifs ou inopportun;0
+7a;Blessure en portant, soulevant, se levant, déposant, se baissant;0
+7b;Blessure en torsion, en rotation, ou en se tournant;0
+81;Surprise, frayeur;0
+84;Agression, bousculade par un animal;0
+85;Présence de la victime ou d'un tiers créant une menace pour elle, lui-même;0
+8a;Violence, agression, menace;0
+9a;Autres;0
+II;Valeur inconnue;1
+XX;Valeur sans objet;2

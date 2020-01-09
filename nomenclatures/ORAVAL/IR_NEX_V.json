@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "PFS_EXC_NAT",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "EXC_NAT_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_NEX_V",
+    "title": "Nature d'Exercice d'un PS",
+    "primaryKey": [
+        "PFS_EXC_NAT"
+    ]
+}

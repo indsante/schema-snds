@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "MPP_COD_PRF",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "MPP_LIB_PRF",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_MPP_V",
+    "title": "Profession de la victime d'une MP (version 212 SGE)",
+    "primaryKey": [
+        "MPP_COD_PRF"
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "fields": [
+        {
+            "name": "EXC_EXC_NAT",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "EXC_NAT_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "EXC_NAT_SNI",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_EPS_V",
+    "title": "Code nature d'exercice du PS",
+    "primaryKey": [
+        "EXC_NAT_SNI"
+    ]
+}

@@ -1,0 +1,196 @@
+AMA_DVI_COD;AMA_DVI_LIB;TEC_COL
+0000;Pas d'information;0
+0001;Pas d'agent matériel;0
+0002;Pas d'information;0
+0099;Autres situations connues du groupe 00, mais non listées ci-dessus;0
+0100;Bâtiments, surfaces à niveau (intérieur ou extérieur, fixes ou mobiles, temporaires ou non) - non précisés;0
+0101;Éléments de bâtiments, de constructions - portes, murs, cloisons  et obstacles par  destination (fenêtres, baies vitrées, ...);0
+0102;Surfaces ou circulation à niveau - sols (intérieur ou extérieur, terrains agricoles, terrains de sport, sols glissants, sols encombrés, planche à clous, ...);0
+0103;Surfaces ou circulations à niveau - flottantes;0
+0199;Autres constructions et surfaces à niveau connues du groupe 01, mais non listées ci-dessus;0
+0200;Bâtiments, constructions, surfaces en hauteur (intérieur ou extérieur) - non précisés;0
+0201;Parties de bâtiment fixes en hauteur (toitures, terrasses, ouvertures, escaliers, quais);0
+0202;Constructions, surfaces fixes en hauteur (comprend les passerelles, échelles fixes, pylônes);0
+0203;Constructions, surfaces mobiles en hauteur (comprend  échafaudages, échelles mobiles, nacelles, plates-formes élévatrices );0
+0204;Constructions, surfaces temporaires en hauteur (comprend les échafaudages temporaires, harnais, balançoires);0
+0205;Constructions, surfaces en hauteur flottantes (comprend les plates-formes de forage, les échafaudages sur barges);0
+0299;Autres constructions et surfaces  en hauteur connues du groupe 02, mais non listées ci-dessus;0
+0300;Bâtiments, constructions, surfaces en profondeur (intérieur ou extérieur) - non précisés;0
+0301;Fouilles, tranchées, puits, fosses, escarpements, fosses de garage;0
+0302;Souterrains, galeries;0
+0303;Milieux sous-marins;0
+0399;Autres constructions en profondeur connues du groupe 03, mais non listées ci-dessus;0
+0400;Dispositifs de distribution de matière, alimentation, canalisations  -  non précisés;0
+0401;Dispositifs de distribution de matière, d'alimentation, canalisations - fixes - pour gaz, air, liquides, solides - y compris les trémies;0
+0402;Dispositifs de distribution de matière - alimentation - canalisations mobiles;0
+0403;Égouts, drainages;0
+0499;Autres dispositifs de distribution de matière - alimentation - canalisations connus du groupe 04, mais non listés ci-dessus;0
+0500;Moteurs, dispositifs de transmission et de stockage d'énergie - non précisés;0
+0501;Moteurs, générateurs d'énergie (thermique, électrique, rayonnement) y compris les compresseurs, les pompes;0
+0502;Dispositifs de transmission et stockage d'énergie (mécanique, pneumatique, hydraulique, électrique y compris batteries, accumulateurs);0
+0599;Autres dispositifs de transmission et stockage d'énergie connus du groupe 05, mais non listés ci-dessus;0
+0600;Outils à main non motorisés - non précisés;0
+0601;Outils à main non motorisés pour scier;0
+0602;Outils à main non motorisés pour couper, séparer (comprend ciseaux, cisailles, sécateurs);0
+0603;Outils à main non motorisés pour tailler, mortaiser, ciseler,  rogner, tondre;0
+0604;Outils à main non motorisés pour gratter, polir, poncer;0
+0605;Outils à main non motorisés pour percer, tourner, visser;0
+0606;Outils à main non motorisés pour clouer, riveter, agrafer;0
+0607;Outils à main non motorisés pour coudre, tricoter;0
+0608;Outils à main non motorisés pour souder, coller;0
+0609;Outils à main non motorisés pour extraction de matériaux et travail du sol (comprend les outils agricoles);0
+0610;Outils à main non motorisés pour cirer, lubrifier, laver, nettoyer;0
+0611;Outils à main non motorisés pour peindre;0
+0612;Outils à main non motorisés pour maintenir, saisir;0
+0613;Outils à main non motorisés pour travaux de cuisine (sauf couteaux);0
+0614;Outils à main non motorisés pour travaux médicaux et chirurgicaux, piquants, coupants;0
+0615;Outils à main non coupants non motorisés pour travaux médicaux et chirurgicaux, autres;0
+0699;Autres outils à main non motorisés pour autres travaux connus du groupe 06, mais non listés ci-dessus;0
+0700;Outils mécaniques tenus ou guidés à la main - non précisés;0
+0701;Outils mécaniques à main pour scier;0
+0702;Outils mécaniques à main pour couper,  séparer (comprend ciseaux, cisailles, sécateurs);0
+0703;Outils mécaniques à main pour tailler, mortaiser, ciseler,  rogner, tondre;0
+0704;Outils mécaniques à main pour gratter, polir, poncer (comprend tronçonneuse à disque);0
+0705;Outils mécaniques à main pour percer, tourner, visser;0
+0706;Outils mécaniques à main pour clouer, riveter, agrafer;0
+0707;Outils mécaniques à main pour coudre, tricoter;0
+0708;Outils mécaniques à main pour souder, coller;0
+0709;Outils mécaniques à main pour extraction de matériaux et travail du sol (comprend  outils agricoles, brise-béton);0
+0710;Outils mécaniques à main pour cirer, lubrifier, laver, nettoyer (comprend aspirateur, nettoyeur à haute pression);0
+0711;Outils mécaniques à main pour peindre;0
+0712;Outils mécaniques à main pour maintenir, saisir;0
+0713;Outils mécaniques à main pour travaux de cuisine (sauf couteaux);0
+0714;Outils mécaniques à main pour chauffer (comprend séchoir, décapeur thermique, fer à repasser);0
+0715;Outils mécaniques à main pour travaux médicaux et chirurgicaux, piquants, coupants;0
+0716;Outils mécaniques à main pour travaux médicaux et chirurgicaux, autres;0
+0717;Pistolets pneumatiques (sans précision de l'outil);0
+0799;Autres outils mécaniques tenus ou guidés à la main connus du groupe 07, mais non listés ci-dessus;0
+0800;Outils à main, sans précision sur la motorisation - non précisés;0
+0801;Outils à main, sans précision sur la motorisation, pour scier;0
+0802;Outils à main, sans précision sur la motorisation, pour couper, séparer (comprend ciseaux, cisailles, sécateurs...);0
+0803;Outils à main, sans précision sur la motorisation, pour tailler, mortaiser, ciseler,  rogner, tondre;0
+0804;Outils à main, sans précision sur la motorisation, pour gratter, polir, poncer;0
+0805;Outils à main, sans précision sur la motorisation, pour percer, tourner, visser;0
+0806;Outils à main, sans précision sur la motorisation, pour clouer, riveter, agrafer;0
+0807;Outils à main, sans précision sur la motorisation, pour coudre, tricoter;0
+0808;Outils à main, sans précision sur la motorisation, pour souder, coller;0
+0809;Outils à main, sans précision sur la motorisation, pour extraction de matériaux et travail du sol (comprend les outils agricoles);0
+0810;Outils à main, sans précision sur la motorisation, pour cirer, lubrifier, laver, nettoyer;0
+0811;Outils à main, sans précision sur la motorisation, pour peindre;0
+0812;Outils à main, sans précision sur la motorisation, pour maintenir, saisir;0
+0813;Outils à main, sans précision sur la motorisation, pour travaux de cuisine (sauf couteaux);0
+0814;Outils à main, sans précision sur la motorisation, pour travaux médicaux et chirurgicaux, piquants, coupants;0
+0815;Outils à main, sans précision sur la motorisation, pour travaux médicaux et chirurgicaux, autres;0
+0899;Autres outils à main, sans précision sur la motorisation, pour autres travaux, connus du groupe 08, mais non listés ci-dessus;0
+0900;Machines et équipements portables ou mobiles - non précisés;0
+0901;Machines portables ou mobiles d'extraction et de travail du sol - mines et carrières et engins BTP;0
+0902;Machines portables ou mobiles de travail du sol - agriculture;0
+0903;Machines portables ou mobiles (hors travail du sol) - de chantier de construction;0
+0904;Machines mobiles de nettoyage des sols;0
+0999;Autres machines et équipements portables ou mobiles connus du groupe 09, mais non listés ci-dessus;0
+1000;Machines et équipements fixes - non précisés;0
+1001;Machines fixes d'extraction et de travail du sol;0
+1002;Machines pour la préparation des matériaux : concasser, pulvériser, filtrer, séparer, mélanger, malaxer;0
+1003;Machines pour la transformation des matériaux - procédés chimiques (réacteurs, fermenteurs);0
+1004;Machines pour la transformation des matériaux - procédés à chaud (fours, séchoirs, étuves);0
+1005;Machines pour la transformation des matériaux - procédés à froid (production de froid);0
+1006;Machines pour la transformation des matériaux - autres procédés;0
+1007;Former par pressage, écrasement (machines à);0
+1008;Machines à former - par calandrage, laminage, machines à cylindres (y compris  papeterie);0
+1009;Machines à former - par injection, extrusion, soufflage, filage, moulage, fusion, coulée;0
+1010;Machines d'usinage (raboter, fraiser, surfacer, meuler, polir, tourner, percer);0
+1011;Machines d'usinage - pour scier;0
+1012;Machines d'usinage - pour couper, fendre, rogner (comprend presse à découper, cisaille, massicot, oxycoupage);0
+1013;Machines pour le traitement des surfaces (nettoyer, laver, sécher, peindre, imprimer);0
+1014;Machines pour le traitement des surfaces - galvanisation, traitement électrolytique des surfaces;0
+1015;Machines à assembler (souder, coller, clouer, visser, riveter, filer, câbler, coudre, agrafer);0
+1016;Machines à conditionner, emballer (remplir, étiqueter, fermer...);0
+1017;Autres machines d'industries spécifiques (contrôle d'essais, diverses);0
+1018;Machines spécifiques utilisées en agriculture, élevage, ne se rattachant pas aux machines ci-dessus;0
+1099;Autres machines et équipements fixes connus du groupe 10 mais non listés ci-dessus;0
+1100;Dispositifs de convoyage, de transport et de stockage - non précisés;0
+1101;Convoyeurs fixes, matériels et systèmes de manutention continue - à tapis, escaliers roulants, téléphériques, transporteurs, ...;0
+1102;Élévateurs, ascenseurs, matériels de mise à niveau - monte-charge, élévateurs à godets, vérin, cric, ...;0
+1103;Grues fixes, mobiles, embarquées sur véhicules, ponts roulants, matériels d'élévation à charge suspendue;0
+1104;Dispositifs mobiles de manutention, chariots de manutention (chariots motorisés ou non) - brouette, transpalettes, ...;0
+1105;Apparaux de levage, amarrage, préhension et matériels divers de manutention (comprend élingues, crochets, cordages...);0
+1106;Dispositifs de stockage, emballage, conteneurs fixes (silos, réservoirs, citernes, bassins);0
+1107;Dispositifs de stockage, emballage, conteneurs mobiles;0
+1108;Accessoires de stockage, rayonnages paletiers, palettes;0
+1109;Emballages divers, petits et moyens, mobiles (bennes, récipients divers, bouteilles, caisses, extincteurs...);0
+1199;Autres dispositifs de convoyage, de transport et  de stockage connus du groupe 11 mais non listés ci-dessus;0
+1200;Véhicules terrestres - non précisés;0
+1201;Véhicules poids lourds: camions (transport de charges),  bus et autocars (transport de passagers);0
+1202;Véhicules légers - charges ou passagers;0
+1203;Véhicules - deux, trois roues motorisés ou non;0
+1204;Autres véhicules terrestres: skis, patins à roulettes, ...;0
+1299;Autres véhicules terrestres connus du groupe 12 mais non listés ci-dessus;0
+1300;Autres véhicules de transport - non précisés;0
+1301;Véhicules sur rails y compris monorails suspendus: charges;0
+1302;Véhicules sur rails y compris monorails suspendus: passagers;0
+1303;Véhicules nautiques: charges;0
+1304;Véhicules nautiques: passagers;0
+1305;Véhicules nautiques: pêche;0
+1306;Véhicules aériens: charges;0
+1307;Véhicules aériens: passagers;0
+1399;Autres véhicules de transport connus du groupe 13, mais non listés ci-dessus;0
+1400;Matériaux, objets, produits, éléments constitutifs de machine ou de véhicule, bris, poussières - non précisés;0
+1401;Matériaux de construction - gros et petits : agent préfabriqué, coffrage, poutrelle, brique, tuile, ...;0
+1402;Éléments de construction ou éléments constitutifs de machine, de véhicule: châssis, carter, manivelle, roue, ...;0
+1403;Pièces travaillées, éléments ou outils de machine (y compris les fragments et éclats en provenance de ces agents matériels);0
+1404;Agents d'assemblage: visserie, clou, boulon;0
+1405;Particules, poussières, éclats, morceaux, projections, échardes et autres éléments brisés;0
+1406;Produits - de l'agriculture (comprend grains, paille, autres productions agricoles);0
+1407;Produits - pour l'agriculture, l'élevage (comprend engrais, aliments pour le bétail);0
+1408;Produits stockés (comprend les objets et emballages disposés dans un stockage);0
+1409;Produits stockés - en rouleaux,  bobines;0
+1410;Charges - transportées sur dispositif de manutention mécanique, de transport;0
+1411;Charges - suspendues à un dispositif de mise à niveau, une grue;0
+1412;Charges - manutentionnées à la main;0
+1499;Autres matériaux, objets, produits, agents de machines connus du groupe 14, mais non listés ci-dessus;0
+1500;Substances chimiques, explosives,  radioactives, biologiques - non précisées;0
+1501;Matières - caustiques, corrosives (solides, liquides ou gazeuses);0
+1502;Matières - nocives, toxiques (solides, liquides ou gazeuses);0
+1503;Matières - inflammables (solides, liquides ou gazeuses);0
+1504;Matières - explosives, réactives (solides, liquides ou gazeuses);0
+1505;Gaz, vapeurs sans effets spécifiques - inertes pour la vie, asphyxiants;0
+1506;Substances - radioactives;0
+1507;Substances - biologiques;0
+1508;Substances, matières - sans danger spécifique (eau, matières inertes...);0
+1599;Autres substances chimiques, explosives, radioactives, biologiques connues du groupe 15 mais non listées ci-dessus;0
+1600;Dispositifs et équipements de sécurité - non précisés;0
+1601;Dispositifs de sécurite - sur machine;0
+1602;Dispositifs de protection - individuels;0
+1603;Dispositifs et appareils - de secours;0
+1699;Autres dispositifs et équipements de sécurité connus du groupe 16 mais non listés ci-dessus;0
+1700;Équipements de bureau et personnels, matériel de sport, armes, appareillage domestique - non précisés;0
+1701;Mobilier;0
+1702;Équipements - informatique, bureautique, reprographie, communication;0
+1703;Équipements - pour enseignement, écriture, dessin - comprend: machine à écrire, timbrer, agrandisseur, horodateur, ...;0
+1704;Objets et équipements pour le sport, les jeux;0
+1705;Armes;0
+1706;Objets personnels, vêtements;0
+1707;Instruments de musique;0
+1708;Appareillage, ustensiles, objets, linge de type domestique (usage professionnel);0
+1799;Autres équipements de bureau et personnels, matériel de sport, armes connus du groupe 17 mais non listés ci-dessus;0
+1800;Organismes vivants et êtres humains - non précisés;0
+1801;Arbres, plantes, cultures;0
+1802;Animaux - domestiques et d'élevage;0
+1803;Animaux sauvages, insectes, serpents;0
+1804;Micro-organismes;0
+1805;Agents infectieux viraux;0
+1806;Humains;0
+1899;Autres organismes vivants connus du groupe 18, mais non listés ci-dessus;0
+1900;Déchets en vrac - non précisés;0
+1901;Déchets en vrac de matières, produits, matériaux, objets;0
+1902;Déchets en vrac de substances chimiques;0
+1903;Déchets en vrac de substances biologiques, de végétaux, d'animaux;0
+1999;Autres déchets en vrac connus du groupe 19 mais non listés ci-dessus;0
+2000;Phénomènes physiques et éléments naturels - non précisés;0
+2001;Phénomènes physiques, bruit, radiation naturelle (lumière, arc lumineux, pressurisation, dépressurisation, pression, ... );0
+2002;Éléments naturels et atmosphériques (comprend étendues d'eau, boue, pluie, grêle, neige, verglas, coup de vent...);0
+2003;Catastrophes naturelles (comprend inondation, volcanisme, tremblement de terre, raz de marée, feu, incendie, ... );0
+2099;Autres phénomènes physiques et éléments naturels connus du groupe 20 mais non listés ci-dessus;0
+9900;Autres agents matériels non listés dans cette classification;0
+IIII;Valeur inconnue;1
+XXXX;Sans objet;2

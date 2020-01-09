@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "FAT_FAM_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "FAT_FAM_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_FAT_V",
+    "title": "Famille des AT",
+    "primaryKey": [
+        "FAT_FAM_COD"
+    ]
+}

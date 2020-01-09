@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "PHA_CIP_TYP",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "PHA_CIP_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_TCP_V",
+    "title": "Type de CIP délivré",
+    "primaryKey": [
+        "PHA_CIP_TYP"
+    ]
+}

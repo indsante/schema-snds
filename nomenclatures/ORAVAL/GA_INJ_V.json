@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "CPN_INJ_NUM",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "CPN_INJ_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "GA_INJ_V",
+    "title": "Numéro de coupon d'injection",
+    "primaryKey": [
+        "CPN_INJ_NUM"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "SEE_TRF_MOD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "SEE_MOD_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_MOD_V",
+    "title": "Mode de tarification de la section",
+    "primaryKey": [
+        "SEE_TRF_MOD"
+    ]
+}

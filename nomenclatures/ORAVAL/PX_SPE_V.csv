@@ -1,0 +1,75 @@
+SPE_COD;SPE_LIB;CAT_TLS_COD;TEC_COL
+10;Neurochirurgie;11;0
+11;Oto-rhino-laryngologie;11;0
+12;Pédiatre;11;0
+13;Pneumo. phtisiologue;11;0
+14;Rhumatologue;11;0
+15;Ophtalmologue;11;0
+16;Chirurgie urologique;11;0
+17;Neuropsychiatre;11;0
+18;Stomatologue;11;0
+19;Chirurgien dentiste;40;0
+1;Médecine générale;10;0
+20;Réanimation médicale;11;0
+21;Sage-femme;50;0
+22;Spécialiste en médecine générale reconnu par l'ordre;11;0
+23;Spécialiste en médecine générale avec diplôme;11;0
+24;Infirmier;60;0
+26;Kinésithérapeute;70;0
+27;Pédicure / Podologue;80;0
+28;Orthophoniste;91;0
+29;Orthoptiste;92;0
+2;Anesthésiste - Réanimation chirurgicale;11;0
+30;Analyse médicale;30;0
+31;Médecine physique et de réadaptation;11;0
+32;Neurologue;11;0
+33;Psychiatrie générale;11;0
+34;Gériatrie;11;0
+35;Néphrologue;11;0
+36;Chirurgien dentiste - Orthodontie;40;0
+37;Anatomo cytologie pathologiste;11;0
+38;Médecin biologiste;11;0
+39;Polyvalent;30;0
+3;Pathologie cardio-vasculaire;11;0
+40;Anatomo-pathologie;30;0
+41;Chirurgie orthopédique traumatologie;11;0
+42;Endocrinologie méta;11;0
+43;Chirurgie infantile;11;0
+44;Chirurgie maxillo-faciale;11;0
+45;Chirurgie maxillo-faciale - Stomatologie;11;0
+46;Chirurgie plastique;11;0
+47;Chirurgie thoracique;11;0
+48;Chirurgie vasculaire;11;0
+49;Chirurgie viscérale et digestive;11;0
+4;Chirurgie générale;11;0
+50;Pharmacie d'officine;20;0
+51;Pharmacie mutualiste;20;0
+55;Transporteur sanitaire;24;0
+56;Taxi;25;0
+57;GIHP et société de services aux particuliers;23;0
+5;Dermatologie et Vénérologie;11;0
+60;Société;26;0
+61;Artisan;26;0
+62;Association;26;0
+63;Orthèses;26;0
+64;Optique médicale;26;0
+65;Audioprothèses;26;0
+66;Prot.oculaires et faciales;26;0
+67;Podo-orthèses;26;0
+68;Orthoprothèses;26;0
+6;Radiologue (Radiodiagnostic - Imagerie médicale);11;0
+70;Gynéco. médicale;11;0
+71;Hématologie;11;0
+72;Médecine nucléaire;11;0
+73;Oncologie médicale;11;0
+74;Oncologie radiothérapie;11;0
+75;Psychiatrie enfants et adolescents;11;0
+76;Radiothérapie;11;0
+77;Obstétrique;11;0
+78;Génétique médicale;11;0
+79;Gynécologie obstetrique et médicale;11;0
+7;Gynécologue obstétricien;11;0
+80;Santé publique et médecine sociale;11;0
+8;Gastro-entérologue et hépatologue;11;0
+9;Médecine interne;11;0
+99;Valeur inconnue;99;1

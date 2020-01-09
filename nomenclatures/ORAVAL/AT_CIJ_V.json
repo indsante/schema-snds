@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "JIJ_CLA_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "JIJ_CLA_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_CIJ_V",
+    "title": "Classes du nombre de jours d IJ",
+    "primaryKey": [
+        "JIJ_CLA_COD"
+    ]
+}

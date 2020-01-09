@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "CDM_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "CDM_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "MS_CDM_V",
+    "title": "Nomenclature CDAM (Actes Hospitaliers)",
+    "primaryKey": [
+        "CDM_COD"
+    ]
+}

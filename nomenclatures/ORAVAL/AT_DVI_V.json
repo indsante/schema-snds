@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "DVI_LES_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "DVI_LES_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_DVI_V",
+    "title": "Déviation",
+    "primaryKey": [
+        "DVI_LES_COD"
+    ]
+}

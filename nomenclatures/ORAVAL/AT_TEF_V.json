@@ -1,0 +1,39 @@
+{
+    "fields": [
+        {
+            "name": "TEF_TRA_EFF",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "TEF_BOR_INF",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "TEF_BOR_SUP",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "TEF_TRA_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_TEF_V",
+    "title": "Tranche d Effectif",
+    "primaryKey": [
+        "TEF_TRA_EFF"
+    ]
+}

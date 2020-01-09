@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "NAL_TRA_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "NAL_TRA_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_NAL_V",
+    "title": "Nombre d'ALD dont les patients sont victimes",
+    "primaryKey": [
+        "NAL_TRA_COD"
+    ]
+}

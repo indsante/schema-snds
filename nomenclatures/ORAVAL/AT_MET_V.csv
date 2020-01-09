@@ -1,0 +1,911 @@
+SIN_ACT_COD;SIN_ACT_LIB;SIN_ACT_TYP;TEC_COL
+3435;Autres professions intermédiaires de la culture et de la création artistique;3;0
+3439;PROFESSIONS INTERMEDIAIRES DE LA GESTION ADMINISTRATIVE;1;0
+3442;CONTROLEURS DES IMPOTS;1;0
+3443;AGENTS DES SERVICES PUBLICS ACCORDANT DES PREST. SOCIAL.;1;0
+3444;AGENTS SERVICES PUBLICS ACCORDANT DES PERMIS,LICENCES;1;0
+3449;PROFESSIONS INTERMEDIAIRES DE L'ADMINIST. PUBLIQ. DOUANE;1;0
+3450;INSPECTEURS DE LA POLICE JUDICIAIRE ET DETECTIVES;1;0
+3460;PROFESSIONS INTERMEDIAIRES DU TRAVAIL SOCIAL;1;0
+3471;DECORATEURS ET DESSINATEURS MODELISTES  PRODUITS INDUST.;1;0
+3472;ANNONCEURS PRESENTATEURS RADIO ,TELEVISION ,SPECTACLES;1;0
+3473;MUSICIENS CHANTEURS,DANSEURS DE RUE DE BOITE DE NUIT;1;0
+3474;CLOWN MAGICIENS ACROBATES ET ASSIMILES;1;0
+3475;ATHLETES SPORTIFS ET ASSIMILES;1;0
+3480;ASSISTANTS LAICS DES CULTES;1;0
+34;Professions intermédiaires des services juridiques, des services sociaux et assimilés;2;0
+6123;APICULTEURS SERICICULTEURS ET OUVRIERS APICULTURE;1;0
+6123;Apiculteurs, sériciculteurs et ouvriers qualifiés de l'apiculture et de la sériciculture;3;0
+6124;ELEVEURS;1;0
+6129;ELEVEURS ET OUVRIERS QUALIFIES ELEVAGE;1;0
+6129;Eleveurs et ouvriers qualifiés de l'élevage commercial et assimilés, non classés ailleurs;3;0
+6130;AGRICULTEURS ET OUVRIERS QUALIFIESE POLYCULTURE;1;0
+6130;Agriculteurs et ouvriers qualifiés des cultures et de l'élevage à but commercial;3;0
+6141;EXPLOITANTS ET OUVRIERS FORESTIERS;1;0
+6142;CHARBONNIERS CHARBON DE BOIS ET OUVRIERS ASSIMILES;1;0
+6151;AQUACULTEURS ET OUVRIERS DE L'AQUACULTURE;1;0
+6152;PECHEURS PECHE COTIERE ET EN EAUX INTERIEURES;1;0
+6153;PECHEURS DE LA PECHE EN HAUTE MER;1;0
+6154;CHASSEURS ET TRAPPEURS;1;0
+61;Agriculteurs et ouvriers qualifiés de l'agriculture commerciale;2;0
+6200;AGRI. ET OUVR. DE L'AGRI. ET DE LA PECHE DE SUBSIS.;1;0
+6210;AGRICULTEURS,OUVRIERS AGRICULTURE, DE LA PECHE DE SUBSIST;1;0
+6210;Exploitants et ouvriers forestiers;3;0
+6221;Aquaculteurs et ouvriers de l'aquaculture;3;0
+6222;Pêcheurs de la pêche côtière et en eaux intérieures;3;0
+6223;Pêcheurs de la pêche en haute mer;3;0
+6224;Chasseurs et trappeurs;3;0
+62;Professions commerciales qualifiées de la sylviculture, de la pêche et de la chasse;2;0
+6310;Agriculteurs, subsistance;3;0
+6320;Eleveurs de bétail, subsistance;3;0
+6330;Agriculteurs et éleveurs, subsistance;3;0
+6340;Pêcheurs, chasseurs, trappeurs et cueilleurs, subsistance;3;0
+63;Agriculteurs, pêcheurs, chasseurs et cueilleurs de subsistance;2;0
+7100;ARTISANS, OUVR. DES METIERS DE L'EXTRACTION ET DU BATIMENT;1;0
+7111;Constructeurs de maisons;3;0
+7111;MINEURS ET CARRIERS;1;0
+7112;BOUTEFEUX;1;0
+7112;Maèons;3;0
+7113;FENDEURS ET TAILLEURS DE PIERRE;1;0
+7113;Fendeurs et tailleurs de pierre;3;0
+7114;Constructeurs en béton armé, maèons ragréeurs et assimilés;3;0
+7115;Charpentiers en bois et menuisiers du bâtiment;3;0
+7119;Métiers qualifiés du bâtiment (gros oeuvre) et assimilés non classés ailleurs;3;0
+7121;CONSTRUCTEURS TECHNIQUES ET MATERIAUX TRADITIONNELS;1;0
+7121;Couvreurs et zingueurs;3;0
+7122;MACONS;1;0
+7122;Poseurs de revêtements de sol et carreleurs;3;0
+7123;CONSTRUCTEURS EN BETON ARME MACONS RAGREEURS ET ASSIMILES;1;0
+7123;Plâtriers;3;0
+7124;CHARPENTIERS EN BOIS ET MENUISIERS DU BATIMENT;1;0
+7124;Monteurs en isolation thermique et acoustique;3;0
+7125;Vitriers;3;0
+7126;Plombiers et tuyauteurs;3;0
+7127;Mécaniciens-installateurs réfrigération et climatisation;3;0
+7129;OUVRIERS BATIMENT (GROS OEUVRE) ET ASSIMILES;1;0
+7131;COUVREURS ET ZINGUEURS;1;0
+7131;Peintres en bâtiment et poseurs de papiers peints;3;0
+7132;Laqueurs, vernisseurs et assimilés;3;0
+7132;POSEURS DE REVETEMENT DE SOL ET CARRELEURS;1;0
+7133;PLATRIERS;1;0
+7133;Ravaleurs de faèades et ramoneurs;3;0
+7134;MONTEURS EN ISOLATION THERMIQUE ET ACOUSTIQUE;1;0
+7135;VITRIERS;1;0
+7136;PLOMBIERS ET TUYAUTEURS;1;0
+7137;ELECTRICIENS DU BATIMENT ET ASSIMILES;1;0
+7141;PEINTRES EN BATIMENT ET POSEURS DE PAPIERS PEINTS;1;0
+7142;LAQUEURS VERNISSEURS ET ASSIMILES;1;0
+7143;RAVALEURS DE FACADES ET RAMONEURS;1;0
+71;Métiers qualifiés du bâtiment et assimilés, sauf électriciens;2;0
+7200;ART, OUVR DES PROF DE LA METAL DE LA CONSTR MECA ET ASSIM.;1;0
+7211;MOULEURS ET NOYAUTEURS DE FONDERIE;1;0
+7211;Mouleurs et noyauteurs de fonderie;3;0
+7212;SOUDEURS ET OXYCOUPEURS;1;0
+7212;Soudeurs et oxycoupeurs;3;0
+7213;TOLIERS CHAUDRONNIERS;1;0
+7213;Tôliers-chaudronniers;3;0
+7214;CHARPENTIERS METALLIERS,MONTEURS DE CHARPENTES METALLIQUES;1;0
+7214;Charpentiers métalliers et monteurs de charpentes métalliques;3;0
+7215;GREEURS ET EPISSEURS DE CABLES;1;0
+7215;Gréeurs et épisseurs de câbles;3;0
+7216;SCAPHANDRIERS ET HOMMES GRENOUILLES;1;0
+7221;FORGERONS ESTAMPEURS ET CONDUCTEURS DE PRESSES;1;0
+7221;Forgerons, estampeurs et conducteurs de presses à forger;3;0
+7222;OUTILLEURS ET ASSIMILES;1;0
+7222;Outilleurs et assimilés;3;0
+7223;REGLEURS ET REGLEURS-CONDUCTEURS DE MACHINES-OUTILS;1;0
+7223;Régleurs et conducteurs de machines-outils;3;0
+7224;MEULEURS POLISSEURS ET AFFUTEURS;1;0
+7224;Meuleurs, polisseurs et affûteurs;3;0
+7231;MECANICIENS ET AJUSTEURS DE VEHICULES;1;0
+7231;Mécaniciens et réparateurs de véhicules à moteur;3;0
+7232;MECANICIENS ET AJUSTEURS DE MOTEURS D'AVION;1;0
+7232;Mécaniciens et réparateurs de moteurs d'avion;3;0
+7233;MECANICIENS ET AJUSTEURS DE MACHINES AGRICOLES;1;0
+7233;Mécaniciens et réparateurs de machines agricoles et industrielles;3;0
+7234;Réparateurs de bicyclettes et assimilés;3;0
+7241;MECANICIENS ET AJUSTEURS D'APPAREILS ELECTRIQUES;1;0
+7242;AJUSTEURS D'APPAREILS ELECTRONIQUES;1;0
+7243;MECANICIENS ET REPARATEURS D'APPAREILS ELECTRONIQUES;1;0
+7244;MONTEURS ET REPARATEURS D'INSTALLATIONS TELEGRAPHIQUES;1;0
+7245;MONTEURS ET REPARATEURS DE LIGNES ELECTRIQUES;1;0
+72;Métiers qualifiés de la métallurgie, de la construction mécanique et assimilés;2;0
+7300;ART, OUVR DE LA MECA DE PREC DES PROF D'ART IMPRIM ET ASSIM;1;0
+7311;MECANICIENS REPARATEURS D'INSTRUMENTS DE PRECISION;1;0
+7311;Mécaniciens-réparateurs d'instruments de précision;3;0
+7312;FACTEURS ET ACCORDEURS D'INSTRUMENTS DE MUSIQUE;1;0
+7312;Facteurs et accordeurs d'instruments de musique;3;0
+7313;JOAILLIERS ET ORFEVRES;1;0
+7313;Joailliers et orfèvres;3;0
+7314;Potiers et assimilés (produits céramiques et abrasifs);3;0
+7315;Souffleurs, mouleurs, tailleurs, meuleurs et polisseurs de verre;3;0
+7316;Peintres d'enseignes, peintres-décorateurs et graveurs;3;0
+7317;Métiers de l'artisanat sur bois et sur des matériaux similaires;3;0
+7318;Métiers de l'artisanat sur textile, sur cuir et sur des matériaux similaires;3;0
+7319;Métiers de l'artisanat non classés ailleurs;3;0
+7321;Compositeurs et préparateurs en forme imprimante et assimilés;3;0
+7321;POTIERS ET ASSIMILES (PRODUITS CERAMIQUES ET ABRASIFS);1;0
+7322;Imprimeurs;3;0
+7322;SOUFFLEURS MOULEURS TAILLEURS MEULEURS,POLISSEURS VERRE;1;0
+7323;GRAVEURS SUR VERRE;1;0
+7323;Relieurs et assimiles;3;0
+7324;PEINTRES DECORATEURS SUR VERRE ET CERAMIQUE;1;0
+7331;OUVRIERS DES METIERS D'ARTISANAT SUR BOIS;1;0
+7332;OUVRIERS DES METIERS D'ARTISANAT TEXTILE SUR CUIR;1;0
+7341;COMPOSITEURS TYPOGRAPHES ET ASSIMILES;1;0
+7342;STEREOTYPEURS ET CLICHEURS GALVANOPLASTES;1;0
+7343;GRAVEURS D'IMPRIMERIE ET PHOTOGRAVEURS;1;0
+7344;PERSONNEL DE LA PHOTOGRAPHIE ET ASSIMILES;1;0
+7345;RELIEURS ET ASSIMILES;1;0
+7346;IMPRIMEURS SERIGRAPHES;1;0
+73;Métiers qualifiés de l'artisanat et de l'imprimerie;2;0
+7400;AUTRES ARTISANS ET OUVRIERS DES METIERS DE TYPE ARTISANAL;1;0
+7411;BOUCHERS POISSONIERS ET ASSIMILES;1;0
+7411;Electriciens du bâtiment et assimilés;3;0
+7412;BOULANGERS PATISSIERS ET CONFISEURS;1;0
+3513;Techniciens, réseaux et systèmes d'ordinateurs;3;0
+3514;Techniciens de l'Internet;3;0
+3521;Techniciens de radio-télévision et d'enregistrement audio-visuel;3;0
+3522;Techniciens de télécommunications;3;0
+35;Techniciens de l'information et des communications;2;0
+3;Autres membres des forces armées;2;0
+4100;EMPLOYES DE BUREAU;1;0
+4110;Employés de bureau, fonctions générales;3;0
+4111;STENOGRAPHES ET DACTYLOGRAPHES;1;0
+4112;OPERATEURS DE TRAITEMENT DE TEXTE ET ASSIMILES;1;0
+4113;OPERATEURS DE SAISIE DE DONNEES;1;0
+4114;OPERATEURS SUR MACHINES;1;0
+4115;SECRETAIRES;1;0
+4120;Secrétaires (fonctions générales);3;0
+4121;TENEURS DE LIVRES;1;0
+4122;EMPLOYES DE SERVICE STATISTIQUE OU FINANCIER;1;0
+4131;Dactylographes et opérateurs de traitement de texte;3;0
+4131;EMPLOYES DU SERVICE DES STOCKS;1;0
+4132;EMPLOYES DU SERVICE D'ORDONNANCEMENT DE LA PRODUCTION;1;0
+4132;Opérateurs sur clavier numérique;3;0
+4133;EMPLOYES DU SERVICE DES TRANSPORTS;1;0
+4141;EMPLOYES DE BIBLIOTHEQUE ET CLASSEURS ARCHIVISTES;1;0
+4142;EMPLOYES DE SERVICE DU COURRIER;1;0
+4143;CODEURS CORRECTEURS D'.PREUVES ET ASSIMILES;1;0
+4144;ECRIVAINS PUBLICS ET ASSIMILES;1;0
+4190;AUTRES EMPLOYES DE BUREAU;1;0
+41;Employés de bureau;2;0
+4200;EMPLOYES DE RECEPTION CAISSIERS GUICHETIERS ET ASSIMILES;1;0
+4211;CAISSIERS ET BILLETTISTES;1;0
+4211;Guichetiers de banque et assimilés;3;0
+4212;Croupiers et assimilés dans le secteur des jeux de hasard;3;0
+4212;GUICHETIERS DE BANQUE ET AUTRES GUICHETIERS;1;0
+4213;CROUPIERS ET ASSIMILES;1;0
+4213;Prêteurs sur gages et bailleurs de fonds;3;0
+4214;Encaisseurs et assimilés;3;0
+4214;PRETEURS SUR GAGES ET BAILLEURS DE FONDS;1;0
+4215;ENCAISSEURS ET ASSIMILES;1;0
+4221;Consultants et employés d'agence de voyages;3;0
+4221;EMPLOYES D'AGENCE DE VOYAGES;1;0
+4222;Employés de centre d'appel;3;0
+4222;RECEPTIONNISTES ET EMPLOYES D'INFORMATION;1;0
+4223;TELEPHONISTES STANDARDISTES;1;0
+4223;Téléphonistes-standardistes;3;0
+4224;Réceptionnistes, hôtellerie;3;0
+4225;Employés, service d'information;3;0
+4226;Réceptionnistes (fonctions générales);3;0
+4227;Intervieweurs, enquêtes et études de marché;3;0
+4229;Employés chargés d'informer la clientèle non classés ailleurs;3;0
+42;Employés de réception, guichetiers et assimilés;2;0
+4311;Aides comptables et teneurs de livres;3;0
+4312;Employés de services statistiques ou financiers;3;0
+4313;Commis, service de paie;3;0
+4321;Employés du service des stocks;3;0
+4322;Employés du service d'ordonnancement de la production;3;0
+4323;Employés du service des transports;3;0
+43;Employés des services comptables et d'approvisionnement;2;0
+4411;Employés de bibliothèque;3;0
+4412;Employés de service du courrier;3;0
+4413;Codeurs, correcteurs d'épreuves et assimilés;3;0
+4414;Ecrivains publics et assimilés;3;0
+4415;Classeurs-archivistes;3;0
+4416;Employés, service du personnel;3;0
+4419;Employés administratifs non classés ailleurs;3;0
+44;Autres employés de type administratif;2;0
+5100;PERSONNEL DES SERV. DIRECTS AUX PART, PROTECT ET DE SECURITE;1;0
+5111;AGENTS D'ACCUEIL DE VOYAGE ET STEWARDS;1;0
+5111;Agents d'accueil et stewards;3;0
+5112;CONTROLEURS ET RECEVEURS DE TRANSPORTS PUBLICS;1;0
+5112;Contrôleurs et receveurs de transports publics;3;0
+5113;GUIDES;1;0
+5113;Guides;3;0
+5120;Cuisiniers;3;0
+5121;ECONOMES (COLLECTIVITES) INTENDANTS ET GOUVERNANTES;1;0
+5122;CUISINIERS;1;0
+5123;SERVEURS ET BARMEN;1;0
+5131;GARDES D'ENFANTS;1;0
+5131;Serveurs;3;0
+5132;AIDES SOIGNANTS EN INSTITUTION;1;0
+5132;Barmen;3;0
+5133;AIDES SOIGNANTS;1;0
+5139;PERSONNEL SOIGNANT ET ASSIMILE NON CLASSE AILLEURS;1;0
+5141;COIFFEURS SPECIALISTES DES SOINS DE BEAUTE;1;0
+5141;Coiffeurs;3;0
+5142;Esthéticiens et assimilés;3;0
+5142;PERSONNEL DE COMPAGNIE ET VALETS DE CHAMBRE;1;0
+5143;AGENTS DE POMPES FUNEBRE ET EMBAUMEURS;1;0
+5149;AUTRE PERSONNEL DES SERVICES DIRECTS AUX PARTICULIERS;1;0
+5151;ASTROLOGUES ET ASSIMILES;1;0
+5151;Intendants et superviseurs des services de nettoyage de bureaux, des hôtels et d'autres établissemen;3;0
+5152;Gouvernantes et intendants à domicile;3;0
+5153;Concierges;3;0
+5161;Astrologues, diseurs de bonne aventure et assimilés;3;0
+5161;POMPIERS;1;0
+5162;AGENTS DE POLICE;1;0
+5162;Personnel de compagnie et valets de chambre;3;0
+5163;Agents de pompes funèbres et embaumeurs;3;0
+5163;GARDIENS DE PRISON;1;0
+5164;Toiletteurs et gardiens d'animaux;3;0
+5165;Moniteurs d'auto-école;3;0
+5169;PERSONNEL SERVICES PROTECTION ET SECURITE;1;0
+5169;Personnel des services directs aux particuliers, non classé ailleurs;3;0
+51;Personnel des services directs aux particuliers;2;0
+5200;MODELES VENDEURS ET DEMONSTRATEURS;1;0
+5210;MANNEQUINS ET AUTRES MODELES;1;0
+5211;Vendeurs à l'étal et sur les marchés;3;0
+5212;Vendeurs ambulants de comestibles;3;0
+5220;VENDEURS ET DEMONSTRATEURS EN MAGASIN;1;0
+5221;Commerèants, magasins;3;0
+5222;Superviseurs, magasins;3;0
+5223;Vendeurs, magasin;3;0
+5230;Caissiers et billettistes;3;0
+5230;VENDEURS;1;0
+5241;Mannequins et autres modèles;3;0
+5242;Démonstrateurs en magasin;3;0
+9332;CONDUCTEURS DE VEHICULES ET DE MACHINES TRACTION ANIMALE;1;0
+9332;Conducteurs de véhicules et de machines à traction animale;3;0
+9333;MANUTENTIONNAIRES;1;0
+9333;Manutentionnaires;3;0
+9334;Garnisseurs de rayons;3;0
+93;Manoeuvres des mines, du bâtiment et des travaux publics, des industries manufacturières et des tran;2;0
+9411;Cuisiniers, restauration rapide;3;0
+9412;Aides de cuisine;3;0
+94;Assistants de fabrication de l'alimentation;2;0
+9510;Travailleurs des petits métiers des rues et assimilés;3;0
+9520;Vendeurs ambulants (à l'exception de l'alimentation);3;0
+95;Vendeurs ambulants et autres travailleurs des petits métiers des rues et assimilés;2;0
+9611;Manoeuvres, enlèvement des ordures et matériel recyclable;3;0
+9612;Trieurs de déchets;3;0
+9613;Balayeurs et manoeuvres assimilés;3;0
+9621;Messagers, porteurs de bagages et livreurs de colis;3;0
+9622;Manoeuvres polyvalents;3;0
+9623;Encaisseurs de distributeurs automatiques à prépaiement et releveurs de compteurs;3;0
+9624;Porteurs d'eau et ramasseurs de bois de feu;3;0
+9629;Professions élémentaires non classés ailleurs;3;0
+96;Eboueurs et autres travailleurs non qualifiés;2;0
+9800;ELEVES, STAGIAIRES;1;0
+AIDSOI;VIH : AIDE SOIGNANT;1;0
+AUTRE;VIH : AUTRES;1;0
+IIIIIIIIII;Valeur inconnue;9;1
+INF;VIH : INFIRMIER;1;0
+MEDCHI;VIH : MEDECIN, CHIRURGIEN HOPITAL, CLINIQUE, DISPE;1;0
+PERENTHOP;VIH : PERSONNEL ENTRETIEN HOPITAL, CLINIQUE, DISPE;1;0
+PERENTLAB;VIH : PERSONNEL ENTRETIEN LABORATOIRE DE RECHERCHE;1;0
+PERLAB;VIH : PERSONNEL LABORATOIRE, BIOLOGISTE, CHERCHEUR;1;0
+XXXXXXXXXX;Sans objet;0;2
+00;Non précisée;2;0
+0000;Non précisée;1;0
+01;Officiers des forces armées;2;0
+0110;Officiers des forces armées;3;0
+02;Sous-officiers des forces armées;2;0
+03;Autres membres des forces armées;2;0
+3420;Agents commerciaux et courtiers;1;0
+99;Reprise;2;0
+9999;Reprise;1;0
+7412;Mécaniciens et ajusteurs d'appareils électriques;3;0
+7413;Monteurs et réparateurs de lignes électriques;3;0
+7413;OUVRIERS DE LA FABRICATION DES PRODUITS LAITIERS;1;0
+7414;OUVRIERS DE LA CONSERVERIE DE FRUITS DE LEGUMES;1;0
+7415;DEGUSTATEURS,CLASSEURS DE DENREES ALIMENTAIRES, BOISSONS;1;0
+7416;OUVRIERS PREPA.TABAC,ET,FABRICATION PRODUIT DU TABAC;1;0
+7421;Mécaniciens et réparateurs d'appareils électroniques;3;0
+7421;OUVRIERS DU TRAITEMENT DU BOIS;1;0
+7422;EBENISTES MENUISIERS ET ASSIMILES;1;0
+7422;Monteurs et réparateurs, technologies de l'information et des communications;3;0
+7423;REGLEURS ET REGLEURS-CONDUCTEURS DE MACHINES;1;0
+7424;VANNIERS BROSSIERS ET ASSIMILES;1;0
+7431;PREPARATEURS DE FIBRES;1;0
+7432;TISSERANDS TRICOTEURS ET ASSIMILES;1;0
+7433;TAILLEURS COUTURIERS CHAPELIERS ET MODISTES;1;0
+7434;FOURREURS ET ASSIMILES;1;0
+7435;PATRONNIERS ET COUPEURS DU TEXTILE DU CUIR;1;0
+7436;COUSEURS BRODEURS ET ASSIMILES;1;0
+7437;TAPISSIERS ET ASSIMILES;1;0
+7441;TANNEURS PEAUSSIERS;1;0
+7442;ARTISANS ET OUVRIERS DE LA CHAUSSURE ET ASSIMILES;1;0
+74;Métiers de l'électricité et de l'électrotechnique;2;0
+7511;Bouchers, poissonniers et assimilés;3;0
+7512;Boulangers, pâtissiers et confiseurs;3;0
+7513;Fabricants des produits laitiers;3;0
+7514;Conserveurs de fruits, de légumes et assimilés;3;0
+7515;Dégustateurs et classeurs de denrées alimentaires et de boissons;3;0
+7516;Métiers qualifiés de la préparation du tabac et de la fabrication des produits du tabac;3;0
+7521;Métiers qualifiés du traitement du bois;3;0
+7522;Ebénistes, menuisiers et assimilés;3;0
+7523;Régleurs et conducteurs de machines à bois;3;0
+7531;Tailleurs, couturiers, fourreurs, modistes et chapeliers;3;0
+7532;Métiers qualifiés de la coupe de vêtements et assimilés;3;0
+7533;Couseurs, brodeurs et assimilés;3;0
+7534;Tapissiers et assimilés;3;0
+7535;Tanneurs, peaussiers et mégissiers;3;0
+7536;Cordonniers et assimilés;3;0
+7541;Scaphandriers et plongeurs;3;0
+7542;Boutefeux;3;0
+7543;Classeurs et essayeurs de produits (à l'exception des aliments et des boissons);3;0
+7544;Fumigateurs et préposés au contrôle de la vermine et des mauvaises herbes;3;0
+7549;Métiers qualifiés de l'industrie et de l'artisanat non classés ailleurs;3;0
+75;Métiers de l'alimentation, du travail sur bois, de l'habillement et autres métiers qualifiés de l'in;2;0
+8100;CONDUCTEURS D'INSTALLATIONS ET DE MATERIELS FIXES;1;0
+8111;CONDUCTEURS D'INSTALLATIONS DE MINE;1;0
+8111;Mineurs et conducteurs d'installations de mine;3;0
+8112;CONDUCTEURS D'INSTALLATIONS DE PREPARATION DES MINERAIS;1;0
+8112;Conducteurs d'installations de préparation des minerais et de la roche;3;0
+8113;FOREURS SONDEURS DE PUITS ET ASSIMILES;1;0
+8113;Foreurs, sondeurs de puits et assimilés;3;0
+8114;Conducteurs de machines à fabriquer du ciment, de la pierre et d'autres produits minéraux;3;0
+8121;CONDUCTEURS DE FOURS;1;0
+8121;Conducteurs d'installations de transformation et de traitement des métaux;3;0
+8122;CONDUCTEURS DE FOURS DEUXIEME FUSION DES METAUX COULEURS;1;0
+8122;Conducteurs d'installations de traitement superficiel des métaux;3;0
+8123;CONDUCTEURS D'INSTALLATIONS TRAITEMENT THERMIQUE DES METAUX;1;0
+8124;TREFILEURS ET ETIREURS DE METAUX;1;0
+8131;CONDUCTEURS DE FOURS DE VERRERIE ET DE CERAMIQUE;1;0
+8131;Conducteurs d'installations et de machines de traitement chimique;3;0
+8132;Conducteurs de machines pour la fabrication des produits photographiques;3;0
+8139;CONDUCTEURS D'INSTALLATIONS DE VERRERIE ET DE CERAMIQUE;1;0
+8141;CONDUCTEURS D'INSTALLATIONS POUR LE TRAVAIL DU BOIS;1;0
+8141;Conducteurs de machines pour la fabrication des produits en caoutchouc;3;0
+8142;CONDUCTEURS D'INSTALLATIONS FABRICATION  PATE A PAPIER;1;0
+8142;Conducteurs de machines pour la fabrication de produits en matières plastiques;3;0
+8143;CONDUCTEURS D'INSTALLATIONS POUR LA FABRICATION DU PAPIER;1;0
+8143;Conducteurs de machines de papeterie;3;0
+8151;CONDUCTEURS D'INSTAL. FRAGMENT.,BROYAGE,MALAXAGE CHIMIQUE;1;0
+8151;Conducteurs de machines à préparer les fibres, à filer et à bobiner;3;0
+8152;CONDUCTEURS APPAREILS DE TRAITEMENT THERMIQUE DE LA CHIMIE;1;0
+8152;Conducteurs de métiers mécaniques à tisser et à tricoter;3;0
+8153;CONDUCTEURS D'APPAREILS DE FILTRAGE, SEPARATION CHIMIQUES;1;0
+8153;Conducteurs de machines à coudre;3;0
+8154;CONDUCTEURS D'APPAREILS DE DISTILLATION,REACTEURS CHIMIQUES;1;0
+8154;Conducteurs de machines à blanchir, à teindre et à nettoyer les tissus;3;0
+8155;CONDUCTEURS D'INSTALLATIONS DE RAFFINAGE DE PETROLE,GAZ;1;0
+8155;Conducteurs de machines à préparer les fourrures et le cuir;3;0
+8156;Conducteurs de machines pour la fabrication des chaussures et assimilés;3;0
+8157;Conducteurs de machines de blanchisserie;3;0
+8159;CONDUCTEURS D'INSTALLATIONS DE TRAITEMENT CHIMIQUE;1;0
+8159;Conducteurs de machines pour la fabrication de produits textiles et d'articles en fourrure et en cui;3;0
+8160;Conducteurs de machines pour la fabrication de denrées alimentaires et de produits connexes;3;0
+8161;CONDUCTEURS D'INSTALLATIONS DE PRODUCTION D'ENERGIE;1;0
+8162;CHAUFFEURS DE MACHINES;1;0
+8163;CONDUCTEURS D'INCINERATEURS,TRAITEMENT DE L'EAU;1;0
+8171;CONDUCTEURS DE CHAINES DE MONTAGE AUTOMATIQUE;1;0
+8171;Conducteurs d'installations pour la fabrication du papier et de la pâte à papier;3;0
+8172;CONDUCTEURS DE ROBOTS INDUSTRIELS;1;0
+8172;Conducteurs d'installations pour le travail du bois;3;0
+8181;Conducteurs d'installations de verrerie et de céramique;3;0
+8182;Chauffeurs de machines à vapeur et de chaudières;3;0
+8183;Conducteurs de machines d'emballage, d'embouteillage et d'étiquetage;3;0
+8189;Conducteurs de machines et d'installations fixes non classés ailleurs;3;0
+81;Conducteurs de machines et d'installations fixes;2;0
+8200;CONDUCTEURS DE MACHINES ET OUVRIERS DE L'ASSEMBLAGE;1;0
+8211;CONDUCTEURS DE MACHINES OUTILS;1;0
+8211;Monteurs en construction mécanique;3;0
+8212;CONDUCTEURS DE MACHINES,FABRIQUE CIMENT,ET AUTRES MINERAUX;1;0
+8212;Monteurs d'appareils électriques et électroniques;3;0
+8219;Monteurs et assembleurs non classés ailleurs;3;0
+8221;CONDUCTEURS DE MACHINES FABRICAT. PRODUITS PHARMACEUTIQUES;1;0
+8222;CONDUCTEURS DE MACHINES POUR LA FABRICATION DE MUNITIONS;1;0
+8223;CONDUCTEURS DE MACHINES TRAITEMENT SUPERFICIEL DES METAUX;1;0
+8224;CONDUCTEURS DE MACHINES FABRICAT. PRODUITS PHOTOGRAPHIQUES;1;0
+8229;CONDUCTEURS DE MACHINES FABRICATION DES PRODUITS CHIMIQUES;1;0
+8231;CONDUCTEURS DE MACHINES FABRICATION PRODUITS EN CAOUTCHOUC;1;0
+8232;CONDUCTEURS DE MACHINES FABRIC. PRODUITS MATIERE PLASTIQUE;1;0
+8240;CONDUCTEURS DE MACHINES;1;0
+8251;CONDUCTEURS DE MACHINES D'IMPRIMERIE;1;0
+8252;CONDUCTEURS DE MACHINES;1;0
+8253;CONDUCTEURS DE MACHINES DE PAPETERIE;1;0
+8261;CONDUCTEURS DE MACHINES PREPARATION FIBRE;1;0
+8262;CONDUCTEURS DE MACHINES MECANIQUES;1;0
+8263;CONDUCTEURS DE MACHINESA PIQUER;1;0
+5243;Vendeurs au porte à porte;3;0
+5244;Télévendeurs;3;0
+5245;Pompistes;3;0
+5246;Commis au comptoir, restauration rapide;3;0
+5249;Vendeurs non classés ailleurs;3;0
+52;Commerèants et vendeurs;2;0
+5311;Gardes d'enfants;3;0
+5312;Aides-enseignants;3;0
+5321;Aides-soignants en institution;3;0
+5322;Aides-soignants à domicile;3;0
+5329;Personnel soignant et assimilé, non classé ailleurs;3;0
+53;Personnel soignant;2;0
+5411;Pompiers;3;0
+5412;Agents de police;3;0
+5413;Gardiens de prison;3;0
+5414;Agents de sécurité;3;0
+5419;Personnel des services de protection et de sécurité, non classé ailleurs;3;0
+54;Personnel des services de protection et de sécurité;2;0
+6100;AGRI., OUVR. QUAL. DE L'AGRI. ET DE LA PECHE POUR MARCHES;1;0
+6111;AGRICULTEURS ET OUVRIERS QUALIFIES CULTURES CHAMPS;1;0
+6111;Agriculteurs et ouvriers qualifiés, cultures de plein champ;3;0
+6112;ARBORICULTEURS  OUVRIERS QUALIFIES DE L'ARBORICULTURE;1;0
+6112;Arboriculteurs et ouvriers qualifiés de l'arboriculture;3;0
+6113;AGRICULTEURS ET OUVRIERS QUALIFIES DE L'HORTICULTURE;1;0
+6113;Agriculteurs et ouvriers qualifiés de l'horticulture et des pépinières;3;0
+6114;AGRICULTEURS ET OUVRIERS QUALIFIES DES CULTURES MIXTES;1;0
+6114;Agriculteurs et ouvriers qualifiés, cultures diversifiées;3;0
+6121;ELEVEURS ET OUVRIERS QUALIFIES DE L'ELEVAGE DE BETAIL;1;0
+6121;Eleveurs et ouvriers qualifiés de l'élevage de bétail;3;0
+6122;AVICULTEURS ET OUVRIERS QUALIFIES DE L'AVICULTURE;1;0
+6122;Aviculteurs et ouvriers qualifiés de l'aviculture;3;0
+8264;CONDUCTEURS DE MACHINES A BLANCHIR;1;0
+8265;CONDUCTEURS DE MACHINES A PREPARER LES FOURRURES,LE CUIR;1;0
+8266;CONDUCTEURS  MACHINES FABRICAT. DES CHAUSSURES ET ASSIMILES;1;0
+8269;CONDUCTEURS DE MACHINES FAB. PROD. TEXTILES,FOUURURES,CUIRS;1;0
+8271;CONDUCTEURS DE MACHINES PREPARATIONS VIANDES,POISSONS;1;0
+8272;CONDUCTEURS DE MACHINES FABRICATION DES PRODUITS LAITIERS;1;0
+8273;CONDUCTEURS DE MACHINES A MOUDRE CEREALES ,EPICES;1;0
+8274;CONDUCTEURS DE MACHINES PROD. ARTIC. BOULANGERIE,PATISSERIE;1;0
+8275;CONDUCTEURS DE MACHINES TRAITEMENT FRUITS,LEGUMES;1;0
+8276;CONDUCTEURS DE MACHINES PRODUCTION DU SUCRE;1;0
+8277;CONDUCTEURS DE MACHINES TRAITEMENT DU THE,CAFE ET DU CACAO;1;0
+8278;CONDUCTEURS  MACHINES BRASSERIE FAB. VIN ET AUTRES BOISSONS;1;0
+8279;CONDUCTEURS DE MACHINES POUR LA PRODUCTION DU TABAC;1;0
+8281;MONTEURS EN CONSTRUCTION MECANIQUE;1;0
+8282;MONTEURS EN APPAREILLAGE ELECTRIQUE;1;0
+8283;MONTEURS D'APPAREILS ELECTRONIQUES;1;0
+8284;ASSEMBLEURS ARTICLES METAL,CAOUTCHOUC,MATIERES PLASTIQUES;1;0
+8285;ASSEMBLEURS ARTICLES EN BOIS ET EN MATIERES SIMILAIRES;1;0
+8286;ASSEMBLEURS ARTICLES CARTON,TEXTILE,MATIERES SIMILAIRES;1;0
+8290;AUTRES CONDUCTEURS DE MACHINES ET OUVRIERS DE L'ASSEMBLAGE;1;0
+82;Ouvriers de l'assemblage;2;0
+8300;CONDUC DE VEHI. ET D'ENGINS LOURDS DE LEVAGE ET DE MANîUVRE;1;0
+8311;CONDUCTEURS DE LOCOMOTIVES;1;0
+8311;Conducteurs de locomotives;3;0
+8312;SERRE-FREINS AIGUILLEURS ET AGENTS DE MANOEUVRE;1;0
+8312;Serre-freins, aiguilleurs et agents de manoeuvre;3;0
+8321;CONDUCTEURS DE MOTOCYCLES;1;0
+8321;Conducteurs de motocycles;3;0
+8322;CHAUFFEURS TAXI ET CONDUC. AUTOMOBILES ET DE CAMIONNETTES;1;0
+8322;Chauffeurs de taxi et conducteurs d'automobiles et de camionnettes;3;0
+8323;CONDUCTEURS D'AUTOBUS ET DE TRAMWAYS;1;0
+8324;CONDUCTEURS DE POIDS LOURDS ET DE CAMIONS;1;0
+8331;CONDUCTEURS DE MATERIELS MOTORISES AGRICOLES ET FORESTIERS;1;0
+8331;Conducteurs d'autobus et de tramways;3;0
+8332;CONDUCTEURS D'ENGINS DE TERRASSEMENT, MATERIELS SIMILAIRES;1;0
+8332;Conducteurs de poids lourds et de camions;3;0
+8333;CONDUCTEURS DE GRUES D'ENGINS DE LEVAGE DIVERS;1;0
+8334;CONDUCTEURS DE CHARIOTS ELEVATEURS;1;0
+8340;MATELOTS DE PONT ET ASSIMILES;1;0
+8341;Conducteurs d'engins mobiles agricoles et forestiers;3;0
+8342;Conducteurs d'engins de terrassement et de matériels similaires;3;0
+8343;Conducteurs de grues, d'engins de levage divers et de matériels similaires;3;0
+8344;Conducteurs de chariots élévateurs;3;0
+8350;Matelots de pont et assimilés;3;0
+83;Conducteurs de véhicules et d'engins lourds de levage et de manoeuvre;2;0
+9100;EMPLOYES NON QUALIFIES DES SERVICES ET DE LA VENTE;1;0
+9111;Aides de ménage à domicile;3;0
+9111;VENDEURS AMBULANTS DE COMESTIBLES;1;0
+9112;Agents d'entretien dans les bureaux, les hôtels et autres établissements;3;0
+9112;VENDEURS AMBULANTS DE PRODUITS DIVERS NON ALIMENTAIRES;1;0
+9113;VENDEURS DE PORTE EN PORTE ET VENDEURS AU TELEPHONE;1;0
+9120;CIREURS DE CHAUSSURES,AUTRES PETITS METIERS DES RUES;1;0
+9121;Laveurs et repasseurs de linge à la main;3;0
+9122;Laveurs de véhicules;3;0
+9123;Laveurs de vitres;3;0
+9129;Autres nettoyeurs;3;0
+9131;AIDES DE MENAGE ET NETTOYEURS DOMESTIQUES;1;0
+9132;AIDES ET NETTOYEURS BUREAUX,HOTELS ET AUTRES ETABLISSEMENT;1;0
+9133;LAVEURS ET REPASSEURS DE LINGE;1;0
+9141;PERSONNEL DU SERVICE D'IMMEUBLE;1;0
+9142;LAVEURS DE VEHICULES DE VITRES ET ASSIMILES;1;0
+9151;MESSAGERS PORTEURS DE COLIS OU DE BAGAGES LIVREURS;1;0
+9152;PORTIERS GARDIENS ET ASSIMILES;1;0
+9153;ENCAISSEURS DISTRIB. AUTOMATIQUES OUR PAIEMENT;1;0
+9161;EBOUEURS;1;0
+9162;BALAYEURS ET MANOEUVRES ASSIMILES;1;0
+91;Aides de ménage;2;0
+9200;MANOEUVRES DE L'AGRICULTURE DE LA PECHE ET ASSIMILES;1;0
+9211;AIDES ET MANOEUVRES AGRICOLES;1;0
+9211;Manoeuvres de l'agriculture;3;0
+9212;MANOEUVRES FORESTIERS;1;0
+9212;Manoeuvres de l'élevage;3;0
+9213;MANOEUVRES PECHEURS CHASSEURS ET TRAPPEURS;1;0
+9213;Manoeuvres de l'agriculture et de l'élevage;3;0
+9214;Manoeuvres, cultures maraîchères et horticulture;3;0
+9215;Manoeuvres forestiers;3;0
+9216;Manoeuvres pêcheurs et aquaculteurs;3;0
+92;Manoeuvres de l'agriculture, de la pêche et de la sylviculture;2;0
+9300;MAN MINES DU BAT ET DES TVX PUB DES INDUS MANUFACT TRANS;1;0
+9311;MANOEUVRES DES MINES ET DES CARRIERES;1;0
+9311;Manoeuvres des mines et des carrières;3;0
+9312;MANOEUVRES CHANTIER TRAVAUX PUBLICS ET D'ENTRETIEN;1;0
+9312;Manoeuvres de chantier de travaux publics;3;0
+9313;MANOEUVRES DU BATIMENT;1;0
+9313;Manoeuvres du bâtiment;3;0
+9321;Emballeurs à la main et autres manoeuvres des industries manufacturières;3;0
+9321;MANOEUVRES DE L'ASSEMBLAGE;1;0
+9322;EMBALLEURS;1;0
+9329;Manoeuvres des industries manufacturières non classés ailleurs;3;0
+9331;CONDUCTEURS DE VEHICULES A BRAS OU PEDALES;1;0
+9331;Conducteurs de véhicules à bras et à pédales;3;0
+100;FORCES ARMEES;1;0
+1100;MEMBRES DE L'EXECUTIF ET CORPS LEGISL CADRES SUP ADMIN PUB;1;0
+110;Officiers des forces armées;3;0
+1110;MEMBRES DE L'EXECUTIF ET DES CORPS LEGISLATIFS;1;0
+1111;Membres des corps législatifs;3;0
+1112;Cadres supérieurs de l'administration publique;3;0
+1113;Chefs traditionnels et chefs de village;3;0
+1114;Dirigeants et cadres supérieurs d'organisations spécialisées;3;0
+1120;CADRES SUPERIEURES DE L'ADMINISTRATION PUBLIQUE;1;0
+1120;Directeurs généraux d'entreprise;3;0
+1130;CHEFS TRADITIONNELS ET CHEFS DE VILLAGE;1;0
+1141;DIRIGEANTS ET CADRES SUPERIEURS DE PARTIS POLITIQUES;1;0
+1142;DIRIGEANTS ET CADRES SUPERIEURS D'ORGAN. D'EMPLOYEURS;1;0
+1143;DIRIGEANTS ET CADRES SUPERIEURS D'ORGAN. HUMANITAIRE;1;0
+11;Directeurs généraux, cadres supérieurs et membres de l'Exécutif et des corps législatifs;2;0
+1200;DIRECTEURS DE SOCIETE;1;0
+1210;DIRECTEURS;1;0
+1211;Directeurs et cadres de direction, services financiers;3;0
+1212;Directeurs et cadres de direction, ressources humaines;3;0
+1213;Directeurs et cadres de direction, stratégie et planifications;3;0
+1219;Directeurs des services administratifs non classés ailleurs;3;0
+1221;CADRES DE DIRECTION AGRICULTURE CHASSE SYLVICULTURE;1;0
+1221;Directeurs et cadres de direction, ventes et commercialisation;3;0
+1222;CADRES DE DIRECTION INDUSTRIES MANUFACTURIERES;1;0
+1222;Directeurs et cadres de direction, publicité et relations publiques;3;0
+1223;CADRES DE DIRECTION BATIMENT ET TRAVAUX PUBLICS;1;0
+1223;Directeurs et cadres de direction, recherche-développement;3;0
+1224;CADRES DE DIRECTION COMMERCE DE GROS ET DE DETAIL;1;0
+1225;CADRES DE DIRECTION RESTAURATION ET HOTELLERIE;1;0
+1226;CADRES DE DIRECTION TRANSPORTS ENTREPOSAGE ET COMMUNICATION;1;0
+1227;CADRES DE DIRECTION ENTREPRISES D'INTERMEDIATION;1;0
+1228;CADRES DE DIRECTION SERVICES DE SOINS PERSO. NETTOYAGE;1;0
+1229;CADRES DE DIRECTION NON CLASSES AILLEURS;1;0
+1231;CADRE DE DIRECTION SERVICES ADMINISTRATIFS ET FINANCIERS;1;0
+1232;CADRE DE DIRECTION PERSONNEL ET RELATIONS PROFESSIONNEL.;1;0
+1233;CADRE DE DIRECTION VENTES ET COMMERCIALISATION;1;0
+1234;CADRE DE DIRECTION PUBLICITE ET RELATIONS PUBLIQUES;1;0
+1235;CADRE DE DIRECTION ACHATS ET DISTRIBUTION;1;0
+1236;CADRE DE DIRECTION SERVICES INFORMATIQUES;1;0
+1237;CADRE DE DIRECTION RECHERCHE DEVELOPPEMENT;1;0
+12;Directeurs de services administratifs et commerciaux;2;0
+1300;DIRIGEANTS ET GERANTS;1;0
+1311;DIRIGEANTS ET GERANTS AGRICULTURE CHASSE SYLVICULTURE;1;0
+1311;Directeurs et cadres de direction, agriculture et sylviculture;3;0
+1312;DIRIGEANTS ET GERANTS DANS INDUSTRIES MANUFACTURIERES;1;0
+1312;Directeurs et cadres de direction, aquaculture et pêche;3;0
+1313;DIRIGEANTS ET GERANTS DANS LE BATIMENT ET LES T.P.;1;0
+1314;DIRIGEANTS ET GERANTS DANS LE COMMERCE DE GROS ET DETAIL;1;0
+1315;DIRIGEANTS ET GERANTS DANS LA RESTAURATION,HOTELLERIE;1;0
+1316;DIRIGEANTS ET GERANTS DANS LES TRANSPORTS,COMMUNICATION;1;0
+1317;DIRIGEANTS ET GERANTS D'ENTREPRISES D'INTERMEDIATION;1;0
+1318;DIRIGEANTS ET GERANTS DE SERVICES DE SOINS PERSONNELS;1;0
+1319;DIRIGEANTS ET GERANTS NON CLASSES AILLEURS;1;0
+1321;Directeurs et cadres de direction, industrie manufacturière;3;0
+1322;Directeurs et cadres de direction, mines;3;0
+1323;Directeurs et cadres de direction, bâtiment;3;0
+1324;Directeurs et cadres de direction, approvisionnement, distribution et assimilés;3;0
+1330;Directeurs et cadres de direction, technologies de l'information et des communications;3;0
+1341;Cadres de direction, garde d'enfants;3;0
+1342;Cadres de direction, services de santé;3;0
+1343;Cadres de direction, services aux personnes âgées;3;0
+1344;Cadres de direction, services sociaux;3;0
+1345;Cadres de direction, éducation;3;0
+1346;Directeurs et cadres de direction, succursales de banque, services financiers et assurances;3;0
+1349;Autres cadres de direction, services spécialisés non classés ailleurs;3;0
+13;Directeurs et cadres de direction, production et services spécialisés;2;0
+1411;Directeurs et gérants, hôtellerie;3;0
+1412;Directeurs et gérants, restauration;3;0
+1420;Directeurs et gérants, commerce de détail et de gros;3;0
+1431;Directeurs et gérants, centres sportifs, centres de loisirs et centres culturels;3;0
+1439;Directeurs et gérants, services non classés ailleurs;3;0
+14;Directeurs et gérants de l'hôtellerie, la restauration, le commerce et autres services;2;0
+1;Officiers des forces armées;2;0
+2100;SPECIALISTES DES SCIENCES PHYSIQUES MATHEMATIQUES ET TECHNIQUES;1;0
+210;Sous-officiers des forces armées;3;0
+2111;PHYSICIENS ET ASTRONOMES;1;0
+2111;Physiciens et astronomes;3;0
+2112;METEOROLOGUES;1;0
+2112;Météorologues;3;0
+2113;CHIMISTES;1;0
+2113;Chimistes;3;0
+2114;GEOLOGUES ET GEOPHYSICIENS;1;0
+2114;Géologues et géophysiciens;3;0
+2120;Mathématiciens, actuaires et statisticiens;3;0
+2121;MATHEMATICIENS ET ASSIMILES;1;0
+2122;STATISTICIENS;1;0
+2131;Biologistes, botanistes, zoologistes et assimilés;3;0
+2131;CONCEPTEURS ET ANALYSTES DE SYSTEMES INFORMATIQUES;1;0
+2132;Agronomes et assimilés;3;0
+2132;PROGRAMMEURS;1;0
+2133;Spécialistes de la protection de l'environnement;3;0
+2139;SPECIALISTES DE L'INFORMATIQUE NON CLASSES AILLEURS;1;0
+2141;ARCHITECTES URBANISTES ET INGENIEURS DE LA CIRCULATION;1;0
+2141;Spécialistes, sciences techniques de la production et de l'industrie;3;0
+2142;INGENIEURS CIVILS;1;0
+2142;Ingénieurs civils;3;0
+2143;INGENIEURS ELECTRICIENS;1;0
+2143;Ingénieurs écologistes;3;0
+2144;INGENIEURS ELECTRONICIENS ET DES TELECOMMUNICATIONS;1;0
+2144;Ingénieurs mécaniciens;3;0
+2145;INGENIEURS MECANICIENS;1;0
+2145;Ingénieurs chimistes;3;0
+2146;INGENIEURS CHIMISTES;1;0
+2146;Ingénieurs des mines, ingénieurs métallurgistes et assimilés;3;0
+2147;INGENIEURS DES MINES INGENIEURS METALLURGISTES;1;0
+2148;CARTOGRAPHES ET GEOMETRES;1;0
+2149;ARCHITECTES INGENIEURS ET ASSIMILES NON CLASSES AILLEURS;1;0
+2149;Spécialistes, sciences techniques non classés ailleurs;3;0
+2151;Ingénieurs électriciens;3;0
+2152;Ingénieurs électroniciens;3;0
+2153;Spécialistes des télécommunications;3;0
+2161;Architectes, bâtiment;3;0
+2162;Architectes paysagistes;3;0
+2163;Concepteurs modélistes de produits et de vêtements;3;0
+2164;Urbanistes et ingénieurs de la circulation routière;3;0
+2165;Cartographes et géomètres;3;0
+2166;Concepteurs graphiques, multimédia - graphistes;3;0
+21;Spécialistes des sciences techniques;2;0
+2200;SPECIALISTES DES SCIENCES DE LA VIE ET DE LA SANTE;1;0
+2211;BIOLOGISTES BOTANISTES ZOOLOGISTES ET ASSIMILES;1;0
+2211;Médecins généralistes;3;0
+2212;Médecins spécialistes;3;0
+2212;PHARMACOLOGISTES PATHOLOGISTES ET ASSIMILES;1;0
+2213;AGRONOMES ET ASSIMILES;1;0
+2221;Cadres infirmiers;3;0
+2221;MEDECINS;1;0
+2222;DENTISTES;1;0
+2222;Sages-femmes;3;0
+2223;VETERINAIRES;1;0
+2224;PHARMACIENS;1;0
+2229;MEDECINS ET ASSIMILES (SAUF CADRES INFIRMIERS) N.C.A;1;0
+2230;CADRES INFIRMIERS ET SAGES-FEMMES;1;0
+2230;Spécialistes des médecines traditionnelles et des médecines complémentaires;3;0
+2240;Praticiens paramédicaux;3;0
+2250;Vétérinaires;3;0
+2261;Dentistes;3;0
+2262;Pharmaciens;3;0
+2263;Spécialistes de la salubrité de l'environnement, de l'hygiène et de la santé au travail;3;0
+2264;Physiothérapeutes;3;0
+2265;Diététiciens et spécialistes de la nutrition;3;0
+2266;Audiologistes et orthophonistes;3;0
+2267;Optométristes;3;0
+2269;Spécialistes de la santé non classés ailleurs;3;0
+22;Spécialistes de la santé;2;0
+2300;SPECIALISTES DE L'ENSEIGNEMENT;1;0
+2310;PROFESSEURS UNIVERSITE ET ETS ENSEIGNEMENT SUPERIEUR;1;0
+2310;Professeurs d'université et d'établissements d'enseignement supérieur;3;0
+2320;PROFESSEURS DE L ENSEIGNEMENT SECONDAIRE;1;0
+2320;Professeurs, enseignement technique et professionnel;3;0
+2330;Professeurs, enseignement secondaire;3;0
+2331;INSTITUTEURS DE L ENSEIGNEMENT PRIMAIRE;1;0
+2332;INSTITUTEURS DE L ENSEIGNEMENT PREPRIMAIRE;1;0
+2340;ENSEIGNANTS SPECIALISES DANS L EDUCATION DES HANDICAPES;1;0
+2341;Instituteurs, enseignement primaire;3;0
+2342;Educateurs de la petite enfance;3;0
+2351;SPECIALISTES DES METHODES D'ENSEIGNEMENT;1;0
+2351;Spécialistes des méthodes d'enseignement;3;0
+2352;Enseignants, éducation spécialisée;3;0
+2352;INSPECTEURS DE L'ENSEIGNEMENT;1;0
+2353;Autres professeurs de langues;3;0
+2354;Autres professeurs de musique;3;0
+2355;Autres professeurs de disciplines artistiques;3;0
+2356;Formateurs en technologies de l'information;3;0
+2359;AUTRES SPECIALISTES DE L'ENSEIGNEMENT;1;0
+2359;Spécialistes de l'enseignement, non classés ailleurs;3;0
+23;Spécialistes de l'enseignement;2;0
+2400;AUTRES SPECIALISTES DES PROF. INTELLEC. ET SCIENTI.;1;0
+2411;CADRES COMPTABLES;1;0
+2411;Cadres comptables;3;0
+2412;Conseillers en finances et investissements;3;0
+2412;SPECIALISTES DES PROBLEMES DE PERSONNEL DEVELO. CORRESP.;1;0
+2413;Analystes financiers;3;0
+2419;SPECIALISTES DES FONCTIONS ADMINISTRATIVES ET COMMERCIA.;1;0
+2421;AVOCATS;1;0
+2421;Analystes, gestion et organisation;3;0
+2422;MAGISTRATS;1;0
+2422;Spécialistes, administration et politiques;3;0
+2423;Spécialistes, ressources humaines et évolution de carrière;3;0
+2424;Spécialistes de la formation du personnel;3;0
+2429;AUTRES JURISTES NON CLASSES AILLEURS;1;0
+2431;ARCHIVISTES PALEOGRAPHES ET CONSERVATEURS DE MUSEE;1;0
+2431;Spécialistes de la publicité et de la commercialisation;3;0
+2432;BIBLIOTHECAIRES DOCUMENTALISTES ET ASSIMILES;1;0
+2432;Spécialistes des relations publiques;3;0
+2433;Spécialistes des ventes, secteurs médical et technique (à l'exception des TIC);3;0
+2434;Spécialistes des ventes, technologies de l'information et des communications;3;0
+2441;ECONOMISTES;1;0
+2442;SOCIOLOGUES ANTHROPOLOGUES ET ASSIMILES;1;0
+2443;PHILOSOPHES HISTORIENS ET SPECIAL. SCIENCES POLITIQUES;1;0
+2444;LINGUISTES TRADUCTEURS ET INTERPRETES;1;0
+2445;PSYCHOLOGUES;1;0
+2446;SPECIALISTES DU TRAVAIL SOCIAL;1;0
+2451;AUTEURS JOURNALISTES ET AUTRES ECRIVAINS;1;0
+2452;SCULPTEURS PEINTRES ET ASSIMILES;1;0
+2453;COMPOSITEURS MUSICIENS ET CHANTEURS;1;0
+2454;CHOREGRAPHES ET DANSEURS;1;0
+2455;ACTEURS ET METTEURS EN SCENE DE CINEMA DE THEATRE;1;0
+2460;MEMBRES DU CLERGE;1;0
+24;Spécialistes en administration d'entreprises;2;0
+2511;Analystes de systèmes;3;0
+2512;Concepteurs de logiciels;3;0
+2513;Concepteurs de sites Internet et de multimédia;3;0
+2514;Programmeurs d'applications;3;0
+2519;Concepteurs et analystes de logiciels, et concepteurs de multimédia non classés ailleurs;3;0
+2521;Spécialistes des bases de données;3;0
+2522;Administrateurs de systèmes;3;0
+2523;Spécialistes des réseaux d'ordinateurs;3;0
+2529;Spécialistes des bases de données et des réseaux d'ordinateurs non classés ailleurs;3;0
+25;Spécialistes des technologies de l'information et des communications;2;0
+2611;Avocats;3;0
+2612;Magistrats;3;0
+2619;Juristes non classés ailleurs;3;0
+2621;Archivistes paléographes et conservateurs de musée;3;0
+2622;Bibliothécaires, documentalistes et professions assimilées;3;0
+2631;Economistes;3;0
+2632;Sociologues, anthropologues et assimilés;3;0
+2633;Philosophes, historiens et spécialistes des sciences politiques;3;0
+2634;Psychologues;3;0
+2635;Spécialistes du travail social;3;0
+2636;Ministres des cultes;3;0
+2641;Auteurs et autres écrivains;3;0
+2642;Journalistes;3;0
+2643;Traducteurs, interprètes et linguistes;3;0
+2651;Artistes plasticiens;3;0
+2652;Compositeurs, musiciens et chanteurs;3;0
+2653;Danseurs et chorégraphes;3;0
+2654;Metteurs en scène de cinéma, de théâtre et d'autres spectacles;3;0
+2655;Acteurs;3;0
+2656;Annonceurs-présentateurs de radio, de télévision et autres médias;3;0
+2659;Artistes créateurs et exécutants non classés ailleurs;3;0
+26;Spécialistes de la justice, des sciences sociales et de la culture;2;0
+2;Sous-officiers des forces armées;2;0
+3100;PROF. INTERMEDIAIRES DES SCIENCES PHYSIQUES ET TEC;1;0
+310;Autres membres des forces armées;3;0
+3111;TECHNICIENS DES SCIENCES CHIMIQUES ET PHYSIQUES;1;0
+3111;Techniciens des sciences chimiques et physiques;3;0
+3112;TECHNICIENS DU GENIE CIVIL;1;0
+3112;Techniciens du génie civil;3;0
+3113;TECHNICIENS EN ELECTRICITE;1;0
+3113;Techniciens en électricité;3;0
+3114;TECHNICIENS EN ELECTRONIQUE ET EN TELECOMMUNICATIONS;1;0
+3114;Techniciens en électronique;3;0
+3115;TECHNICIENS EN CONSTRUCTION MECANIQUE;1;0
+3115;Techniciens en construction mécanique;3;0
+3116;Techniciens en chimie industrielle;3;0
+3117;TECHNICIENS DES MINES TECHNICIENS METALLURGISTES;1;0
+3117;Techniciens des mines, techniciens métallurgistes;3;0
+3118;DESSINATEURS INDUSTRIELS;1;0
+3118;Dessinateurs industriels;3;0
+3119;TECHNICIENS DES SCIENCES PHYSIQUES ET TECHNIQUES;1;0
+3119;Techniciens des sciences physiques et techniques non classés ailleurs;3;0
+3121;ASSISTANTS INFORMATICIENS;1;0
+3121;Superviseurs, mines;3;0
+3122;Superviseurs, industries manufacturières;3;0
+3122;TECHNICIENS DE MATERIELS INFORMATIQUES;1;0
+3123;Superviseurs, bâtiment;3;0
+3123;TECHNICIENS DE ROBOTS INDUSTRIELS;1;0
+3131;Conducteurs d'installations de production d'énergie;3;0
+3131;PHOTOGRAPHES ET TECHNICIENS D'APPAREILS ENREGISTREURS;1;0
+3132;Conducteurs d'incinérateurs et d'installations de traitement de l'eau;3;0
+3132;TECHNICIENS DE MATERIELS D'EMISSIONS DE RADIO DE TELEVIS;1;0
+3511;Techniciens des technologies de l'information et des communications, opérations;3;0
+3512;Techniciens des technologies de l'information et des communications, soutien aux utilisateurs;3;0
+3133;Conducteurs d'installations de traitement chimique;3;0
+3133;TECHNICIENS D'APPAREILS ELECTROMEDICAUX;1;0
+3134;Conducteurs d'installations de raffinage de pétrole et de gaz naturel;3;0
+3135;Contrôleurs des processus industriels, métallurgie;3;0
+3139;TECHNICIENS D'APPAREILS D'OPTIQUE ET D'ELECTRONIQUE;1;0
+3139;Techniciens, contrôle de processus industriels non classés ailleurs;3;0
+3141;OFFICIERS MECANICIENS DE NAVIRES;1;0
+3141;Techniciens des sciences de la vie (à l'exception de la médecine);3;0
+3142;OFFICIERS DE PONT ET PILOTES;1;0
+3142;Techniciens, agriculture et élevage;3;0
+3143;PILOTES D'AVIONS ET ASSIMILES;1;0
+3143;Techniciens, sylviculture;3;0
+3144;CONTROLEURS DE LA CIRCULATION AERIENNE;1;0
+3145;TECHNICIENS DE LA SECURITE AERIENNE;1;0
+3151;INSPECTEURS DE SECURITE INCENDIE ET D'IMMEUBLES;1;0
+3151;Officiers mécaniciens de navires;3;0
+3152;INSPECTEURS SECURITE ET HYGIENE ET CONTROLEURS DE QUALITE;1;0
+3152;Officiers de pont et pilotes;3;0
+3153;Pilotes d'avions et assimilés;3;0
+3154;Contrôleurs de la circulation aérienne;3;0
+3155;Techniciens de la sécurité aérienne;3;0
+31;Professions intermédiaires des sciences et techniques;2;0
+3200;PROF. INTERMEDIAIRES DES SCIENCES DE LA VIE ET DE;1;0
+3211;TECHNICIENS DES SCIENCES DE LA VIE;1;0
+3211;Techniciens d'appareils électromédicaux;3;0
+3212;TECHNICIENS AGRONOMES ET FORESTIERS;1;0
+3212;Techniciens de laboratoire médical;3;0
+3213;CONSEILLERS AGRICOLES ET FORESTIERS;1;0
+3213;Techniciens et assistants pharmaciens et préparateurs en pharmacie;3;0
+3214;Techniciens de prothèses médicales et dentaires;3;0
+3221;ASSISTANTS MEDICAUX;1;0
+3221;Personnel infirmier (niveau intermédiaire);3;0
+3222;Sages-femmes (niveau intermédiaire);3;0
+3223;DIETETICIENS ET SPECIALISTES DE LA NUTRITION;1;0
+3224;OPTOMETRICIENS ET OPTICIENS;1;0
+3225;ASSISTANTS DE MEDECINE DENTAIRE;1;0
+3226;KINESITHERAPEUTES ET ASSIMILES;1;0
+3227;ASSISTANTS VETERINAIRES;1;0
+3228;ASSISTANTS ET PREPARATEURS EN PHARMACIE;1;0
+3229;PROFESSIONS INTERMEDIAIRES DE LA MEDECINE MODERNE;1;0
+3230;Praticiens des médecines traditionnelles et des médecines complémentaires;3;0
+3231;PERSONNEL INFIRMIER (NIVEAU INTERMEDIAIRE);1;0
+3232;SAGES-FEMMES (NIVEAU INTERMEDIAIRE);1;0
+3240;Techniciens et assistants vétérinaires;3;0
+3241;PRATICIENS DE LA MEDECINE TRADITIONNELLE;1;0
+3242;GUERISSEURS;1;0
+3251;Assistants et thérapeutes en médecine dentaire;3;0
+3252;Techniciens de dossiers médicaux;3;0
+3253;Agents de santé communautaire;3;0
+3254;Opticiens;3;0
+3255;Techniciens et assistants en physiothérapie;3;0
+3256;Assistants médicaux;3;0
+3257;Inspecteurs, salubrité de l'environnement et de la santé au travail, et assimilés;3;0
+3258;Ambulanciers;3;0
+3259;Professions intermédiaires de la santé non classées ailleurs;3;0
+32;Professions intermédiaires de la santé;2;0
+3300;PROFESSIONS INTERMEDIAIRES DE L'ENSEIGNEMENT;1;0
+3310;PROFESSIONS INTERMEDIAIRES DE L'ENSEIGNEMENT PRIMAIRE;1;0
+3311;Courtiers en valeurs et cambistes;3;0
+3312;Responsables des prêts;3;0
+3313;Professions intermédiaires de la comptabilité;3;0
+3314;Professions intermédiaires de la statistique , des mathématiques et assimilées;3;0
+3315;Commissaires-priseurs et autres experts en évaluation;3;0
+3320;PROFESSIONS INTERMEDIAIRES DE L'ENSEIGNEMENT PREPRIMAIRE;1;0
+3321;Agents d'assurances;3;0
+3322;Représentants et techniciens commerciaux;3;0
+3323;Acheteurs;3;0
+3324;Courtiers en marchandises;3;0
+3330;PROFESSIONS INTERMEDIAIRES DE L'EDUCATION DES HANDICAPES;1;0
+3331;Agents concessionnaires;3;0
+3332;Organisateurs de conférences et d'événements;3;0
+3333;Agents d'emploi et de recrutement de main-d'oeuvre;3;0
+3334;Agents immobiliers;3;0
+3339;Agents de services commerciaux non classés ailleurs;3;0
+3340;AUTRES PROFESSIONS INTERMEDIAIRES DE L'ENSEIGNEMENT;1;0
+3341;Superviseurs, travail de bureau;3;0
+3342;Secrétaires, services juridiques;3;0
+3343;Secrétaires d'administration et secrétaires exécutifs;3;0
+3344;Secrétaires médicaux/ales;3;0
+3351;Inspecteurs des douanes et des frontières;3;0
+3352;Contrôleurs des impôts;3;0
+3353;Agents des services publics accordant des prestations sociales;3;0
+3354;Agents des services publics accordant des permis et des licences;3;0
+3355;Inspecteurs et enquêteurs de police;3;0
+3359;Professions intermédiaires de l'application de la loi et  assimilées non classées ailleurs;3;0
+33;Professions intermédiaires, finance et administration;2;0
+3400;AUTRES PROFESSIONS INTERMEDIAIRES;1;0
+3411;COURTIERS EN VALEURS ET CAMBISTES;1;0
+3411;Professions juridiques intermédiaires et assimilées;3;0
+3412;AGENTS D'ASSURANCE;1;0
+3412;Professions intermédiaires du travail social;3;0
+3413;AGENTS IMMOBILIERS;1;0
+3413;Professions intermédiaires des religions;3;0
+3414;AGENTS DE VOYAGES;1;0
+3415;AGENTS COMMERCIAUX ET AGENTS COMMERCIAUX TECHNICIENS;1;0
+3416;ACHETEURS;1;0
+3417;ESTIMATEURS EXPERTS EN EVALUATION ET VENDEURS ENCHERES;1;0
+3419;PROFESSIONS INTERMEDIAIRES DES FINANCES ET VENTE;1;0
+3421;Athlètes et sportifs de compétition;3;0
+3421;COURTIERS EN MARCHANDISES;1;0
+3422;AGENTS CONCESSIONNAIRES;1;0
+3422;Entraîneurs sportifs et arbitres de sport;3;0
+3423;AGENTS D'ETABLISSEMENT DE CONTRATS D'EMPLOI;1;0
+3423;Instructeurs et animateurs de programmes, loisirs et activités de remise en forme;3;0
+3429;AGENTS COMMERCIAUX ET COURTIERS NON CLASSES AILLEURS;1;0
+3431;Photographes;3;0
+3431;SECRETAIRES D'ADMINISTRATION ET PROF. INTERMEDIAIRES;1;0
+3432;Décorateurs et designers d'intérieurs;3;0
+3432;PROFESSIONS JURIDIQUES INTERMEDIAIRES;1;0
+3433;COMPTABLES;1;0
+3433;Techniciens de galeries d'art, de musées et de bibliothèques;3;0
+3434;Chefs cuisiniers;3;0
+3434;PROFESSIONS INTERMEDIAIRES DE LA STATISTIQUE MATHEMAT.;1;0

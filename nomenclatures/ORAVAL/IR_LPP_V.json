@@ -1,0 +1,31 @@
+{
+    "fields": [
+        {
+            "name": "LPP_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "VAL_DTD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "LPP_TAR",
+            "type": "number",
+            "format": "default"
+        },
+        {
+            "name": "LPP_PRU",
+            "type": "number",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "primaryKey": "LPP_COD",
+    "name": "IR_LPP_V",
+    "title": "Liste des Produits et des Prestations"
+}

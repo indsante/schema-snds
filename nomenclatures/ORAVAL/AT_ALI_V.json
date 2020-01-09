@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "ATT_ALI_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "ATT_ALI_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_ALI_V",
+    "title": "code Alinéa : regroupement des codes natures AT",
+    "primaryKey": [
+        "ATT_ALI_COD"
+    ]
+}

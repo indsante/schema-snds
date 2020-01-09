@@ -1,0 +1,34 @@
+{
+    "fields": [
+        {
+            "name": "GET_GEN_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "GET_GET_COD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GET_GET_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_GET_V",
+    "title": "Médicament générique",
+    "primaryKey": [
+        "GET_GEN_COD"
+    ]
+}

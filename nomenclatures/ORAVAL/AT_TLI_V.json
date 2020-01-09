@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "TLY_LIE_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "TLY_LIE_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_TLI_V",
+    "title": "Type de lieu",
+    "primaryKey": [
+        "TLY_LIE_COD"
+    ]
+}

@@ -1,0 +1,652 @@
+GM7_GHM_COD;CMD_COD;GHM_LIB;TEC_COL
+120;4;Infections et inflammations respiratoires, âge de 18 à 69 ans sans CMA;0
+121;4;Infections et inflammations respiratoires, âge inférieur à 18 ans;0
+81;3;Drains transtympaniques, âge inférieur à 18 ans;0
+82;3;Autres interventions chirurgicales portant sur les oreilles, le nez, la gorge ou le cou;0
+83;3;Interventions sur la bouche avec CMA;0
+690;24;Transfusion, en séances;0
+701;24;@Affections de la CMD n°01 : ambulatoire, avec autre acte opératoire de la CMD n°01;0
+702;24;@Affections de la CMD n°02 : ambulatoire, avec autre acte opératoire de la CMD n°02;0
+703;24;@Affections de la CMD n°03 : ambulatoire, avec autre acte opératoire de la CMD n°03;0
+704;24;@Affections de la CMD n°04 : ambulatoire, avec acte opératoire de la CMD n°04;0
+705;24;@Affections de la CMD n°05 : ambulatoire, avec autre acte opératoire de la CMD n°05;0
+706;24;@Affections de la CMD n°06 : ambulatoire, avec autre acte opératoire de la CMD n°06;0
+707;24;@Affections de la CMD n°07 : ambulatoire, avec acte opératoire de la CMD n°07;0
+708;24;@Affections de la CMD n°08 : ambulatoire, avec autre acte opératoire de la CMD n°08;0
+709;24;@Affections de la CMD n°09 : ambulatoire, avec acte opératoire de la CMD n°09;0
+710;24;@Affections de la CMD n°10 : ambulatoire, avec acte opératoire de la CMD n°10;0
+711;24;@Affections de la CMD n°11 : ambulatoire, avec autre acte opératoire de la CMD n°11;0
+712;24;@Affections de la CMD n°12 : ambulatoire, avec autre acte opératoire de la CMD n°12;0
+713;24;@Affections de la CMD n°13 : ambulatoire, avec autre acte opératoire de la CMD n°13;0
+312;8;Interventions sur le membre supérieur à l'exception de l'humérus et de la main, âge inférieur à 70 ans sans CMA;0
+313;8;Interventions sur le pied;0
+314;8;Interventions sur les tissus mous, âge supérieur à 69 ans et/ou CMA;0
+315;8;Interventions sur les tissus mous, âge inférieur à 70 ans sans CMA;0
+316;8;Interventions sur la main et le poignet pour kyste synovial;0
+684;24;!** Autres séances sans acte opératoire;0
+685;24;Préparations à une irradiation externe avec une dosimétrie tridimensionnelle;0
+686;24;Autres préparations à une irradiation externe;0
+687;24;Techniques spéciales d'irradiation externe, en séances;0
+688;24;Techniques complexes d'irradiation externe, en séances;0
+689;24;Autres techniques d'irradiation externe, en séances;0
+430;11;Interventions sur les reins et les uretères et chirurgie majeure de la vessie pour une affection tumorale;0
+431;11;Interventions sur les reins et les uretères et chirurgie majeure de la vessie pour une affection non tumorale, âge supérieur à 69 ans et/ou CMA;0
+432;11;Interventions sur les reins et les uretères et chirurgie majeure de la vessie pour une affection non tumorale, âge inférieur à 70 ans sans CMA;0
+435;11;Autres interventions sur la vessie à l'exception des interventions transurétrales, âge supérieur à 69 ans et/ou CMA;0
+436;11;Autres interventions sur la vessie à l'exception des interventions transurétrales, âge inférieur à 70 ans sans CMA;0
+437;11;Interventions transurétrales ou par voie transcutanée, âge supérieur à 69 ans et/ou CMA;0
+438;11;Interventions transurétrales ou par voie transcutanée, âge inférieur à 70 ans sans CMA;0
+439;11;Interventions sur l'urètre, âge de 18 à 69 ans avec CMA, ou âge supérieur à 69 ans;0
+440;11;Interventions sur l'urètre, âge de 18 à 69 ans sans CMA;0
+441;11;Interventions sur l'urètre, âge inférieur à 18 ans;0
+442;11;Autres interventions sur les reins et les voies urinaires;0
+450;11;*** Insuffisances rénales;0
+451;11;*** Dialyses rénales;0
+452;11;Tumeurs des reins et des voies urinaires, âge supérieur à 69 ans et/ou CMA;0
+21;1;Autres affections cérébro-vasculaires sans CMA;0
+22;1;Affections des nerfs crâniens et rachidiens, âge supérieur à 69 ans et/ou CMA;0
+23;1;Affections des nerfs crâniens et rachidiens, âge inférieur à 70 ans sans CMA;0
+593;17;*** Chimiothérapie et surveillance;0
+594;17;Antécédents ou suspicion d'affections tumorales, avec exploration endoscopique;0
+595;17;Antécédents ou suspicion d'affections tumorales, sans exploration endoscopique;0
+596;17;Autres affections myéloprolifératives et tumeurs de siège imprécis ou diffus, âge supérieur à 69 ans et/ou CMA;0
+597;17;Autres affections myéloprolifératives et tumeurs de siège imprécis ou diffus, âge inférieur à 70 ans sans CMA;0
+598;25;Maladies dues au VIH, avec décès;0
+599;25;Maladies dues au VIH, âge inférieur à 13 ans;0
+600;25;Interventions pour maladie due au VIH;0
+601;18;Interventions pour maladies infectieuses ou parasitaires;0
+602;18;Maladies infectieuses et parasitaires, avec CMAS, avec ou sans acte;0
+604;18;Septicémies, âge supérieur à 17 ans;0
+605;18;Septicémies, âge inférieur à 18 ans;0
+606;18;Infections post-opératoires et post-traumatiques;0
+607;18;Fièvres d'étiologie indéterminée, âge de 18 à 69 ans avec CMA, ou âge supérieur à 69 ans;0
+608;18;Fièvres d'étiologie indéterminée, âge de 18 à 69 ans sans CMA;0
+609;18;Maladies virales, âge supérieur à 17 ans;0
+610;18;Maladies virales et fièvres d'étiologie indéterminée, âge inférieur à 18 ans;0
+611;18;Autres maladies infectieuses ou parasitaires;0
+612;25;Maladies dues au VIH, avec plusieurs complications infectieuses;0
+613;25;Maladies dues au VIH, avec une seule complication infectieuse;0
+614;25;Autres maladies dues au VIH;0
+615;19;Interventions chirurgicales avec un diagnostic principal de maladie mentale;0
+618;19;Troubles aigus de l'adaptation et du fonctionnement psycho-social;0
+619;19;Névroses dépressives;0
+514;13;Dilatations et curetages, conisations pour tumeurs malignes;0
+869;15;!** Nouveau-nés de 1500 g à 1999 g, avec problème majeur;0
+870;15;!** Nouveau-nés de 1500 g à 1999 g, sans problème majeur;0
+871;15;Nouveau-nés de 2000 g à 2499 g, avec problème sévère;0
+872;15;Nouveau-nés de 2000 g à 2499 g, avec problème majeur;0
+873;15;!** Nouveau-nés de 2000 g à 2499 g, sans problème majeur;0
+874;15;Nouveau-nés de 2500 g et plus, sans problème significatif;0
+525;13;Tumeurs malignes de l'appareil génital féminin, âge inférieur à 70 ans sans CMA;0
+526;13;Infections de l'appareil génital féminin;0
+527;13;Autres affections de l'appareil génital féminin;0
+528;13;Interventions pour affections de l'appareil génital féminin, avec CMAS;0
+530;14;!** Césariennes avec CMA;0
+531;14;Césariennes sans complication significative;0
+532;14;*** Accouchements par voie basse avec stérilisation, dilatation et curetage;0
+533;14;Accouchements par voie basse avec autres interventions;0
+534;14;Affections du post-partum ou du post-abortum avec intervention chirurgicale;0
+535;14;Accouchements par voie basse avec complications majeures;0
+536;14;Accouchements par voie basse avec autres complications;0
+537;14;Césariennes avec complications majeures;0
+538;14;Césariennes avec autres complications;0
+539;14;!** Accouchements par voie basse avec complications;0
+540;14;Accouchements par voie basse sans complication significative;0
+541;14;Affections médicales du post-partum ou du post-abortum;0
+543;14;Grossesses ectopiques;0
+544;14;Menaces d'avortement;0
+545;14;Avortements avec aspiration ou curetage ou hystérotomie;0
+546;14;Avortements sans aspiration, ni curetage, ni hystérotomie;0
+547;14;Faux travail;0
+122;4;Tumeurs de l'appareil respiratoire;0
+830;24;Endoscopies sous anesthésie, en ambulatoire;0
+831;24;Mise en place de certains accès vasculaires, en ambulatoire;0
+833;24;Affections de la CMD n°08 : ambulatoire, sans acte opératoire de la CMD n°08,  avec anesthésie;0
+834;24;Affections de la CMD n°09 : ambulatoire, sans acte opératoire de la CMD n°09, avec anesthésie;0
+835;24;Affections de la CMD n°13 : ambulatoire, sans acte opératoire de la CMD n°13, avec anesthésie;0
+836;24;Affections de la CMD n°17 : ambulatoire, sans acte opératoire, avec anesthésie;0
+837;24;Motifs de recours de la CMD n°23 : ambulatoire, sans acte opératoire, avec anesthésie;0
+838;24;Autres motifs de recours pour infection à VIH, en ambulatoire;0
+839;24;Autres motifs de recours chez un patient diabétique, en ambulatoire;0
+858;15;Nouveau-nés de 1500 g à 1999 g, avec problème majeur ou sévère;0
+859;15;Nouveau-nés de 2500 g et plus, avec autre problème significatif;0
+860;15;Nouveau-nés de 2500 g et plus, avec problème sévère;0
+861;15;Autres problèmes post-néonatals précoces;0
+862;15;Transferts précoces de nouveau-nés vers un autre établissement;0
+863;15;Nouveau-nés de moins de 1000 g, décédés;0
+864;15;Nouveau-nés de moins de 1000 g, sortis en vie;0
+865;15;Nouveau-nés de 1000 g à 1499 g, décédés;0
+866;15;Nouveau-nés de 1000 g à 1499 g, sortis en vie;0
+867;15;Nouveau-nés de 1500 g et plus, décédés;0
+868;15;Nouveau-nés de 1500 g à 1499 g, sans problème significatif;0
+365;9;Greffes de peau et/ou parages de plaie pour ulcère cutané ou cellulite, âge inférieur à 70 ans sans CMA;0
+229;6;Interventions réparatrices pour hernies inguinales et crurales, âge de 18 à 69 ans sans CMA;0
+230;6;Interventions réparatrices pour hernies et éventrations, âge inférieur à 18 ans;0
+231;6;Interventions sur le rectum et l'anus autres que les résections rectales, âge supérieur à 69 ans et/ou CMA;0
+232;6;Interventions sur le rectum et l'anus autres que les résections rectales, âge inférieur à 70 ans sans CMA;0
+233;6;Autres interventions sur le tube digestif, âge supérieur à 69 ans et/ou CMA;0
+234;6;Autres interventions sur le tube digestif, âge inférieur à 70 ans sans CMA;0
+246;6;Tumeurs malignes du tube digestif, âge supérieur à 69 ans et/ou CMA;0
+247;6;Tumeurs malignes du tube digestif, âge inférieur à 70 ans sans CMA;0
+248;6;Hémorragies digestives, âge supérieur à 69 ans et/ou CMA;0
+249;6;Hémorragies digestives, âge inférieur à 70 ans sans CMA;0
+250;6;Ulcères gastro-duodénaux compliqués;0
+251;6;Ulcères gastro-duodénaux non compliqués, âge supérieur à 69 ans et/ou CMA;0
+252;6;Ulcères gastro-duodénaux non compliqués, âge inférieur à 70 ans sans CMA;0
+253;6;Maladies inflammatoires de l'intestin;0
+254;6;Occlusions intestinales non dues à une hernie, âge supérieur à 69 ans et/ou CMA;0
+255;6;Occlusions intestinales non dues à une hernie, âge inférieur à 70 ans sans CMA;0
+256;6;Gastro-entérites et maladies diverses du tube digestif, âge de 18 à 69 ans avec CMA, ou âge supérieur à 69 ans;0
+257;6;Gastro-entérites et maladies diverses du tube digestif, âge de 18 à 69 ans sans CMA;0
+258;6;Gastro-entérites et maladies diverses du tube digestif, âge inférieur à 18 ans;0
+317;8;Interventions sur la main et le poignet pour une affection autre qu'un kyste synovial;0
+318;8;Arthroscopies;0
+319;8;Autres interventions portant sur l'appareil musculo-squelettique et le tissu conjonctif, âge supérieur à 69 ans et/ou CMA;0
+320;8;Autres interventions portant sur l'appareil musculo-squelettique et le tissu conjonctif, âge inférieur à 70 ans sans CMA;0
+335;8;Fractures de la diaphyse, de l'épiphyse ou d'une partie non précisée du fémur;0
+336;8;Fractures de la hanche et du bassin;0
+337;8;Entorses et luxations du bassin et de la hanche;0
+338;8;Ostéomyélites;0
+339;8;Fractures pathologiques et affections malignes de l'appareil musculo- squelettique et du tissu conjonctif;0
+340;8;Affections du tissu conjonctif, âge supérieur à 69 ans et/ou CMA;0
+341;8;Affections du tissu conjonctif, âge inférieur à 70 ans sans CMA;0
+342;8;Arthrites septiques;0
+343;8;Pathologies rachidiennes relevant d'un traitement médical;0
+585;17;Chimiothérapie pour leucémie aiguë;0
+586;17;Chimiothérapie pour autre tumeur, avec CMA;0
+587;17;Chimiothérapie pour autre tumeur, sans CMA;0
+589;17;Lymphomes ou leucémies, âge de 18 à 69 ans avec CMA, ou âge supérieur à 69 ans;0
+590;17;Lymphomes ou leucémies, âge de 18 à 69 ans sans CMA;0
+591;17;Lymphomes ou leucémies, âge inférieur à 18 ans;0
+592;17;Radiothérapie et surveillance;0
+391;9;Lésions, infections et inflammations de la peau et des tissus sous-cutanés, âge de 18 à 69 ans avec CMA, ou âge supérieur à 69 ans;0
+392;9;Lésions, infections et inflammations de la peau et des tissus sous-cutanés, âge de 18 à 69 ans sans CMA;0
+393;9;Lésions, infections et inflammations de la peau et des tissus sous-cutanés, âge inférieur à 18 ans;0
+262;6;Affections du tube digestif avec CMAS;0
+620;19;Névroses autres que les névroses dépressives;0
+621;19;Troubles de la personnalité et du comportement avec réactions impulsives;0
+622;19;*** Troubles mentaux d'origine organique et retard mental;0
+225;6;Appendicectomies non compliquées, âge inférieur à 70 ans sans CMA;0
+226;6;Interventions réparatrices pour hernies et éventrations à l'exception des hernies inguinales et crurales, âge de 18 à 69 ans avec CMA, ou âge supérieur à 69 ans;0
+227;6;Interventions réparatrices pour hernies et éventrations à l'exception des hernies inguinales et crurales, âge de 18 à 69 ans sans CMA;0
+228;6;Interventions réparatrices pour hernies inguinales et crurales, âge de 18 à 69 ans avec CMA, ou âge supérieur à 69 ans;0
+875;15;Nouveau-nés de 2500 g et plus, avec problème majeur;0
+876;15;!** Nouveau-nés de 2500 g et plus, avec autre problème significatif;0
+877;15;Nouveau-nés de 2000 g à 2499 g, avec autre problème significatif;0
+878;15;Nouveau-nés de 2000 g à 2499 g, sans problème significatif;0
+879;15;Nouveau-nés de 1500 g à 1499 g, avec autre problème significatif;0
+880;24;@Décès immédiat;0
+885;24;Affections de la bouche et des dents avec certaines extractions, réparations et prothèses dentaires, en ambulatoire;0
+886;24;Cathétérismes cardiaques ou coronarographies, en ambulatoire;0
+887;24;Lithotritie extracorporelle de l'appareil urinaire, en ambulatoire;0
+890;24;@Transfert immédiat;0
+900;90;@Erreurs détectées par les contrôles effectués sur les RUM et leur séquencement;0
+901;90;@Actes sans relation avec le diagnostic principal;0
+902;90;@Diagnostic invalide comme diagnostic principal, dans certaines circonstances;0
+903;90;@Autres erreurs détectées dans le parcours de l'arbre de groupage;0
+267;7;*** Interventions majeures sur le foie, le pancréas ou les veines porte ou cave;0
+268;7;*** Interventions mineures sur le foie, le pancréas ou les veines porte ou cave;0
+269;7;Interventions sur les voies biliaires, autres que les cholécystectomies, âge supérieur à 69 ans et/ou CMA;0
+270;7;Interventions sur les voies biliaires, autres que les cholécystectomies, âge inférieur à 70 ans sans CMA;0
+271;7;Cholécystectomies avec exploration de la voie biliaire principale, âge supérieur à 69 ans et/ou CMA;0
+28;1;Convulsions, épilepsies et céphalées, âge de 18 à 69 ans avec CMA, ou âge supérieur à 69 ans;0
+29;1;Convulsions, épilepsies et céphalées, âge de 18 à 69 ans sans CMA;0
+30;1;Convulsions, épilepsies et céphalées, âge inférieur à 18 ans;0
+31;1;*** Troubles de la conscience et comas d'origine traumatique, âge supérieur à 69 ans et/ou CMA;0
+32;1;*** Troubles de la conscience et comas d'origine traumatique, âge de 18 à 69 ans sans CMA;0
+33;1;*** Troubles de la conscience et comas d'origine traumatique, âge inférieur à 18 ans;0
+34;1;*** Commotion cérébrale, âge supérieur à 69 ans et/ou CMA;0
+35;1;*** Commotion cérébrale, âge de 18 à 69 ans sans CMA;0
+36;1;*** Commotion cérébrale, âge inférieur à 18 ans;0
+37;1;Autres affections du système nerveux, âge supérieur à 69 ans et/ou CMA;0
+38;1;Autres affections du système nerveux, âge inférieur à 70 ans sans CMA;0
+39;1;Interventions pour affections du système nerveux, sauf craniotomie, avec CMAS;0
+40;1;Affections du système nerveux, avec CMAS;0
+41;1;Lésions traumatiques intracrâniennes sévères, âge supérieur à 69 ans et/ou CMA;0
+42;1;Lésions traumatiques intracrâniennes sévères, âge inférieur à 70 ans sans CMA;0
+43;1;Autres lésions traumatiques intracrâniennes, sauf commotions, âge supérieur à 69 ans et/ou CMA;0
+44;1;Autres lésions traumatiques intracrâniennes, sauf commotions, âge inférieur à 70 ans sans CMA;0
+45;1;Commotions cérébrales, âge supérieur à 69 ans et/ou CMA;0
+46;1;Commotions cérébrales, âge inférieur à 70 ans sans CMA;0
+48;2;Interventions sur la rétine;0
+49;2;Interventions sur l'orbite;0
+50;2;Interventions primaires sur l'iris;0
+51;2;Interventions sur le cristallin avec ou sans vitrectomie;0
+623;19;*** Psychoses;0
+624;19;Maladies et troubles mentaux de l'enfance;0
+625;19;Autres troubles mentaux;0
+626;19;Troubles mentaux d'origine organique et retards mentaux, âge inférieur à 81 ans;0
+627;19;Psychoses, âge inférieur à 81 ans;0
+629;20;Toxicomanies non éthyliques avec dépendance;0
+630;20;Abus de drogues non éthyliques sans dépendance;0
+631;20;Éthylisme avec dépendance;0
+632;20;Éthylisme aigu;0
+633;20;Troubles mentaux organiques induits par l'alcool ou d'autres substances;0
+634;19;Troubles mentaux d'origine organique et retards mentaux, âge supérieur à 80 ans;0
+635;19;Psychoses, âge supérieur à 80 ans;0
+636;21;Greffes de peau pour lésions autres que des brûlures;0
+637;21;Parages de plaies pour lésions autres que des brûlures;0
+638;21;Interventions sur la main ou le poignet à la suite de blessures;0
+639;21;Autres interventions pour blessures ou complications d'acte, âge supérieur à 69 ans et/ou CMA;0
+640;21;Autres interventions pour blessures ou complications d'acte, âge inférieur à 70 ans sans CMA;0
+642;21;Interventions pour traumatismes, allergies et empoisonnements, avec CMAS;0
+643;21;Traumatismes, allergies et empoisonnements, avec CMAS;0
+644;21;Traumatismes complexes, âge de 18 à 69 ans avec CMA, ou âge supérieur à 69 ans;0
+645;21;Traumatismes complexes, âge de 18 à 69 ans sans CMA;0
+646;21;Traumatismes complexes, âge inférieur à 18 ans;0
+647;21;Réactions allergiques non classées ailleurs, âge supérieur à 17 ans;0
+459;11;Signes et symptômes concernant les reins et les voies urinaires, âge de 18 à 69 ans avec CMA, ou âge supérieur à 69 ans;0
+460;11;Signes et symptômes concernant les reins et les voies urinaires, âge de 18 à 69 ans sans CMA;0
+461;11;Signes et symptômes concernant les reins et les voies urinaires, âge inférieur à 18 ans;0
+462;11;Rétrécissement urétral, âge supérieur à 69 ans et/ou CMA;0
+463;11;Rétrécissement urétral, âge inférieur à 70 ans sans CMA;0
+464;11;*** Rétrécissement urétral, âge inférieur à 18 ans;0
+465;11;Autres affections des reins et des voies urinaires, âge de 18 à 69 ans avec CMA, ou âge supérieur à 69 ans;0
+466;11;Autres affections des reins et des voies urinaires, âge de 18 à 69 ans sans CMA;0
+467;11;Autres affections des reins et des voies urinaires, âge inférieur à 18 ans;0
+468;11;Interventions pour affections des reins et des voies urinaires, avec CMAS;0
+469;11;Affections des reins et des voies urinaires, avec CMAS;0
+470;11;Insuffisance rénale, avec dialyse;0
+471;11;Insuffisance rénale, sans dialyse;0
+474;12;Interventions pelviennes majeures chez l'homme avec CMA;0
+475;12;Interventions pelviennes majeures chez l'homme sans CMA;0
+476;12;Interventions sur le pénis;0
+477;12;Prostatectomies transurétrales, âge supérieur à 69 ans et/ou CMA;0
+478;12;Prostatectomies transurétrales, âge inférieur à 70 ans sans CMA;0
+479;12;Interventions sur les testicules pour des tumeurs malignes;0
+480;12;Interventions sur les testicules pour des affections non malignes, âge supérieur à 17 ans;0
+196;5;Arythmies et troubles de la conduction cardiaque, âge inférieur à 70 ans sans CMA;0
+197;5;Angine de poitrine;0
+198;5;Syncopes et lipothymies, âge supérieur à 69 ans et/ou CMA;0
+199;5;Syncopes et lipothymies, âge inférieur à 70 ans sans CMA;0
+648;21;Réactions allergiques non classées ailleurs, âge inférieur à 18 ans;0
+649;21;Effets toxiques des médicaments et autres produits, âge de 18 à 69 ans avec CMA, ou âge supérieur à 69 ans;0
+650;21;Effets toxiques des médicaments et autres produits, âge de 18 à 69 ans sans CMA;0
+651;21;Effets toxiques des médicaments et autres produits, âge inférieur à 18 ans;0
+910;90;@Erreurs d'implémentation de la fonction groupage ou erreur d'exécution d'un programme.;0
+565;27;Autogreffes de cellules souches hématopoïétiques;0
+566;16;Interventions sur la rate, âge supérieur à 17 ans;0
+567;16;Interventions sur la rate, âge inférieur à 18 ans;0
+568;16;Autres interventions pour affections du sang et des organes hématopoïétiques;0
+569;16;Interventions pour affections du sang et des organes hématopoïétiques, avec CMAS;0
+570;16;Affections du sang et des organes hématopoïétiques, avec CMAS;0
+571;16;Troubles de la lignée érythrocytaire, âge supérieur à 17 ans;0
+572;16;Troubles de la lignée érythrocytaire, âge inférieur à 18 ans;0
+573;16;Troubles de la coagulation;0
+574;16;Affections du système réticulo-endothélial ou immunitaire, âge supérieur à 69 ans et/ou CMA;0
+575;16;Affections du système réticulo-endothélial ou immunitaire, âge inférieur à 70 ans sans CMA;0
+576;17;Interventions pour affections myéloprolifératives et tumeurs de siège imprécis ou diffus, avec CMAS;0
+577;17;Affections myéloprolifératives et tumeurs de siège imprécis ou diffus, avec CMAS;0
+578;17;Interventions majeures au cours de lymphomes ou de leucémies;0
+579;17;Autres interventions au cours de lymphomes ou de leucémies, âge supérieur à 69 ans et/ou CMA;0
+580;17;Autres interventions au cours de lymphomes ou de leucémies, âge inférieur à 70 ans sans CMA;0
+272;7;Cholécystectomies avec exploration de la voie biliaire principale, âge inférieur à 70 ans sans CMA;0
+273;7;Cholécystectomies sans exploration de la voie biliaire principale, âge supérieur à 69 ans et/ou CMA;0
+274;7;Cholécystectomies sans exploration de la voie biliaire principale, âge inférieur à 70 ans sans CMA;0
+275;7;Interventions diagnostiques sur le système hépato-biliaire et pancréatique pour des affections malignes;0
+276;7;Interventions diagnostiques sur le système hépato-biliaire et pancréatique pour des affections non malignes;0
+277;7;Autres interventions sur le système hépato-biliaire et pancréatique;0
+279;27;Transplantations pancréatiques;0
+280;27;Transplantations hépatiques;0
+284;7;Hépatites alcooliques et cirrhoses;0
+285;7;Affections malignes du système hépato-biliaire ou du pancréas;0
+286;7;Affections non malignes du pancréas;0
+84;3;Interventions sur la bouche sans CMA;0
+94;3;Tumeurs malignes des oreilles, du nez, de la gorge ou de la bouche;0
+714;24;@Affections de la CMD n°14 : ambulatoire, avec autre acte opératoire de la CMD n°14;0
+716;24;@Affections de la CMD n°16 : ambulatoire, avec acte opératoire de la CMD n°16;0
+717;24;@Affections de la CMD n°17 : ambulatoire, avec acte opératoire;0
+718;24;@Affections de la CMD n°18 : ambulatoire, avec acte opératoire;0
+719;24;@Affections de la CMD n°19 : ambulatoire, avec acte opératoire;0
+721;24;@Affections de la CMD n°21 : ambulatoire, avec acte opératoire de la CMD n°21;0
+722;24;@Affections de la CMD n°22 : ambulatoire, avec acte opératoire de la CMD n°22;0
+723;24;@Motifs de recours de la CMD n°23 : ambulatoire, avec acte opératoire;0
+761;24;Libération du canal carpien, en ambulatoire;0
+762;24;Interventions sur le cristallin, en ambulatoire;0
+763;24;Amygdalectomies et/ou adénoïdectomies, en ambulatoire;0
+764;24;Drains transtympaniques, en ambulatoire;0
+765;24;Ligatures de veines et éveinages, en ambulatoire;0
+766;24;Interventions réparatrices pour hernies abdominales, en ambulatoire;0
+767;24;Interventions sur le rectum et l'anus, en ambulatoire;0
+768;24;Résections osseuses localisées et ablations de matériel de fixation, en ambulatoire;0
+769;24;Interventions sur la main, en ambulatoire;0
+770;24;Arthroscopies, en ambulatoire;0
+771;24;Interventions transurétrales, sauf prostatectomie, en ambulatoire;0
+772;24;Interventions sur les testicules, en ambulatoire;0
+773;24;Circoncisions, en ambulatoire;0
+774;24;Interventions sur le système utéro-annexiel, en ambulatoire;0
+775;24;Interventions sur la vulve, le vagin et le col utérin, en ambulatoire;0
+776;24;Dilatations et curetages en dehors de la grossesse, et conisation, en ambulatoire;0
+287;7;Affections hépatiques à l'exception des tumeurs malignes, des cirrhoses, des hépatites alcooliques, âge supérieur à 69 ans et/ou CMA;0
+288;7;Affections hépatiques à l'exception des tumeurs malignes, des cirrhoses, des hépatites alcooliques, âge inférieur à 70 ans sans CMA;0
+289;7;Affections des voies biliaires, âge supérieur à 69 ans et/ou CMA;0
+290;7;Affections des voies biliaires, âge inférieur à 70 ans sans CMA;0
+904;90;@Erreurs détectées dans les RSA par le logiciel MAHOS;0
+908;90;@Reclassement des séjours en hospitalisation complète mentionnant un acte sans relation avec le diagnostic principal;0
+909;90;@Reclassement des séjours ambulatoires mentionnant un acte sans relation avec le diagnostic principal;0
+421;10;Troubles métaboliques ou nutritionnels divers, âge de 18 à 69 ans sans CMA;0
+422;10;Troubles métaboliques ou nutritionnels divers, âge inférieur à 18 ans;0
+423;10;Maladies métaboliques congénitales;0
+424;10;Autres troubles endocriniens, âge supérieur à 69 ans et/ou CMA;0
+425;10;Autres troubles endocriniens, âge inférieur à 70 ans sans CMA;0
+426;10;Interventions pour affections endocriniennes, métaboliques et nutritionnelles, avec CMAS;0
+291;7;Interventions sur le foie, le pancréas et les veines porte ou cave, âge supérieur à 69 ans et/ou CMA;0
+292;7;Interventions sur le foie, le pancréas et les veines porte ou cave, âge inférieur à 70 ans sans CMA;0
+293;7;Affections du système hépato-biliaire et du pancréas avec CMAS;0
+294;8;Interventions majeures multiples sur les genoux et/ou les hanches;0
+295;8;Interventions majeures sur les articulations et greffes de membres;0
+296;8;Interventions sur la hanche et le fémur, autres que les interventions majeures, âge de 18 à 69 ans avec CMA, ou âge supérieur à 69 ans;0
+297;8;Interventions sur la hanche et le fémur, autres que les interventions majeures, âge de 18 à 69 ans sans CMA;0
+298;8;Interventions sur la hanche et le fémur, autres que les interventions majeures, âge inférieur à 18 ans;0
+299;8;Greffes de peau pour maladie de l'appareil musculo-squelettique ou du tissu conjonctif;0
+300;8;Amputations pour affections de l'appareil musculo-squelettique et du tissu conjonctif;0
+301;8;Interventions sur le rachis, âge supérieur à 69 ans et/ou CMA;0
+172;5;Autres interventions cardiothoraciques, âge supérieur à 1 an, ou vasculaires quel que soit l'âge, sans circulation extracorporelle;0
+178;5;Infarctus aigu du myocarde avec complications cardio-vasculaires et sortie en vie de l'établissement;0
+179;5;Infarctus aigu du myocarde sans complication cardio-vasculaire;0
+180;5;Infarctus aigu du myocarde avec décès;0
+181;5;Cathétérismes cardiaques ou coronarographies avec pathologie cardiaque sévère en dehors d'un infarctus aigu du myocarde;0
+182;5;Cathétérismes cardiaques ou coronarographies pour une pathologie autre;0
+183;5;Endocardites aiguës et subaiguës;0
+184;5;Insuffisances cardiaques et états de choc circulatoire;0
+185;5;Thrombophlébites veineuses profondes;0
+186;5;Arrêt cardiaque;0
+187;5;Troubles vasculaires périphériques, âge supérieur à 69 ans et/ou CMA;0
+188;5;Troubles vasculaires périphériques, âge inférieur à 70 ans sans CMA;0
+189;5;Athérosclérose coronarienne, âge supérieur à 69 ans et/ou CMA;0
+190;5;Athérosclérose coronarienne, âge inférieur à 70 ans sans CMA;0
+191;5;Hypertension artérielle;0
+192;5;Cardiopathies congénitales et valvulopathies, âge de 18 à 69 ans avec CMA, ou âge supérieur à 69 ans;0
+193;5;Cardiopathies congénitales et valvulopathies, âge de 18 à 69 ans sans CMA;0
+194;5;Cardiopathies congénitales et valvulopathies, âge inférieur à 18 ans;0
+195;5;Arythmies et troubles de la conduction cardiaque, âge supérieur à 69 ans et/ou CMA;0
+777;24;Dilatations et curetages au cours de la grossesse, en ambulatoire;0
+801;24;@Affections de la CMD n°01 : ambulatoire, sans acte opératoire de la CMD n°01;0
+456;11;Infections des reins et des voies urinaires, âge inférieur à 18 ans;0
+457;11;Lithiases urinaires, âge supérieur à 69 ans et/ou CMA;0
+458;11;Lithiases urinaires, âge inférieur à 70 ans sans CMA;0
+302;8;Interventions sur le rachis, âge inférieur à 70 ans sans CMA;0
+303;8;Biopsies ostéo-articulaires;0
+304;8;Interventions sur l'humérus ou sur le membre inférieur à l'exception de la hanche, du fémur et du pied, âge de 18 à 69 ans avec CMA, ou âge supérieur à 69 ans;0
+24;1;Infections du système nerveux à l'exception des méningites virales;0
+25;1;Méningites virales;0
+26;1;*** Encéphalopathies hypertensives;0
+27;1;Troubles de la conscience et comas d'origine non traumatique;0
+581;17;Interventions majeures pour affections myéloprolifératives ou tumeurs de siège imprécis ou diffus, avec CMA;0
+582;17;Interventions majeures pour affections myéloprolifératives ou tumeurs de siège imprécis ou diffus, sans CMA;0
+583;17;Autres interventions au cours d'affections myéloprolifératives ou tumeurs de siège imprécis ou diffus;0
+584;27;!** Greffes de moelle;0
+427;10;Affections endocriniennes, métaboliques et nutritionnelles, avec CMAS;0
+429;27;Transplantations rénales;0
+515;13;Dilatations et curetages, conisations pour des affections non malignes;0
+516;13;Autres interventions sur l'appareil génital féminin;0
+524;13;Tumeurs malignes de l'appareil génital féminin, âge supérieur à 69 ans et/ou CMA;0
+366;9;Greffes de peau et/ou parages de plaie à l'exception des ulcères cutanés et cellulites avec CMA;0
+367;9;Greffes de peau et/ou parages de plaie à l'exception des ulcères cutanés et cellulites sans CMA;0
+368;9;Mastectomies totales pour tumeur maligne, âge supérieur à 69 ans et/ou CMA;0
+369;9;Mastectomies totales pour tumeur maligne, âge inférieur à 70 ans sans CMA;0
+370;9;Mastectomies subtotales pour tumeur maligne, âge supérieur à 69 ans et/ou CMA;0
+371;9;Mastectomies subtotales pour tumeur maligne, âge inférieur à 70 ans sans CMA;0
+372;9;Interventions sur le sein pour des affections non malignes autres que les actes de biopsie et d'excision locale;0
+373;9;Biopsies et excisions locales pour des affections non malignes du sein;0
+374;9;Interventions sur la région anale et périanale;0
+375;9;Interventions plastiques;0
+376;9;Autres interventions sur la peau, les tissus sous-cutanés ou les seins, âge supérieur à 69 ans et/ou CMA;0
+377;9;Autres interventions sur la peau, les tissus sous-cutanés ou les seins, âge inférieur à 70 ans sans CMA;0
+385;9;Ulcères cutanés;0
+259;6;Autres affections digestives, âge de 18 à 69 ans avec CMA, ou âge supérieur à 69 ans;0
+260;6;Autres affections digestives, âge de 18 à 69 ans sans CMA;0
+261;6;Autres affections digestives, âge inférieur à 18 ans;0
+153;5;Chirurgie de remplacement valvulaire avec circulation extracorporelle, sans cathétérisme cardiaque, ni coronarographie;0
+154;5;Pontages aorto-coronariens avec cathétérisme cardiaque ou coronarographie;0
+155;5;Pontages aorto-coronariens sans cathétérisme cardiaque, ni coronarographie;0
+156;5;*** Autres interventions cardio-thoraciques ou vasculaires avec circulation extracorporelle;0
+157;5;*** Autres interventions cardio-thoraciques sans circulation extracorporelle;0
+158;5;Chirurgie majeure de revascularisation, âge supérieur à 69 ans et/ou CMA;0
+159;5;Chirurgie majeure de revascularisation, âge inférieur à 70 ans sans CMA;0
+160;5;Autres interventions de chirurgie vasculaire;0
+161;5;Amputations du membre inférieur, sauf des orteils, pour troubles circulatoires;0
+162;5;Amputations pour troubles circulatoires portant sur le membre supérieur ou les orteils;0
+163;5;Pose d'un stimulateur cardiaque permanent avec infarctus aigu du myocarde ou insuffisance cardiaque congestive ou état de choc;0
+164;5;Pose d'un stimulateur cardiaque permanent sans infarctus aigu du myocarde, ni insuffisance cardiaque congestive, ni état de choc;0
+165;5;*** Remplacement ou ablation chirurgicale d'électrode de stimulation cardiaque à l'exception des remplacements isolés du boîtier;0
+166;5;Remplacement ou ablation chirurgicale d'électrodes ou de boîtier de stimulation cardiaque permanente;0
+167;5;Ligatures de veines et éveinages;0
+168;5;Autres interventions sur le système circulatoire;0
+169;5;Autres interventions cardiothoraciques, âge inférieur à 2 ans, avec circulation extracorporelle;0
+386;9;Affections dermatologiques sévères, âge supérieur à 69 ans et/ou CMA;0
+387;9;Affections dermatologiques sévères, âge inférieur à 70 ans sans CMA;0
+388;9;Tumeurs malignes des seins, âge supérieur à 69 ans et/ou CMA;0
+389;9;Tumeurs malignes des seins, âge inférieur à 70 ans sans CMA;0
+390;9;Affections non malignes des seins;0
+123;4;Traumatismes thoraciques majeurs, âge supérieur à 69 ans et/ou CMA;0
+124;4;Traumatismes thoraciques majeurs, âge inférieur à 70 ans sans CMA;0
+125;4;Épanchements pleuraux, âge supérieur à 69 ans et/ou CMA;0
+126;4;Épanchements pleuraux, âge inférieur à 70 ans sans CMA;0
+127;4;oedème pulmonaire et détresse respiratoire;0
+128;4;Bronchopneumopathies chroniques;0
+129;4;Pneumonies et pleurésies banales, âge de 18 à 69 ans avec CMA, ou âge supérieur à 69 ans;0
+130;4;Pneumonies et pleurésies banales, âge de 18 à 69 ans sans CMA;0
+131;4;Pneumonies et pleurésies banales, âge inférieur à 18 ans;0
+132;4;Maladies pulmonaires interstitielles, âge supérieur à 69 ans et/ou CMA;0
+133;4;Maladies pulmonaires interstitielles, âge inférieur à 70 ans sans CMA;0
+134;4;Pneumothorax, âge supérieur à 69 ans et/ou CMA;0
+135;4;Pneumothorax, âge inférieur à 70 ans sans CMA;0
+136;4;Bronchites et asthme, âge de 18 à 69 ans avec CMA, ou âge supérieur à 69 ans;0
+137;4;Bronchites et asthme, âge de 18 à 69 ans sans CMA;0
+138;4;Bronchites et asthme, âge inférieur à 18 ans;0
+139;4;Signes et symptômes respiratoires, âge supérieur à 69 ans et/ou CMA;0
+140;4;Signes et symptômes respiratoires, âge inférieur à 70 ans sans CMA;0
+141;4;Autres diagnostics portant sur le système respiratoire, âge supérieur à 69 ans et/ou CMA;0
+142;4;Autres diagnostics portant sur le système respiratoire, âge inférieur à 70 ans sans CMA;0
+170;5;Autres interventions cardiothoraciques, âge supérieur à 1 an, ou vasculaires quel que soit l'âge, avec circulation extracorporelle;0
+171;5;Autres interventions cardiothoraciques, âge inférieur à 2 ans, sans circulation extracorporelle;0
+802;24;@Affections de la CMD n°02 : ambulatoire, sans acte opératoire de la CMD n°02;0
+803;24;@Affections de la CMD n°03 : ambulatoire, sans acte opératoire de la CMD n°03;0
+804;24;@Affections de la CMD n°04 : ambulatoire, sans acte opératoire de la CMD n°04;0
+805;24;@Affections de la CMD n°05 : ambulatoire, sans acte opératoire de la CMD n°05;0
+806;24;@Affections de la CMD n°06 : ambulatoire, sans acte opératoire de la CMD n°06;0
+807;24;@Affections de la CMD n°07 : ambulatoire, sans acte opératoire de la CMD n°07;0
+808;24;@Affections de la CMD n°08 : ambulatoire, sans acte opératoire de la CMD n°08;0
+809;24;@Affections de la CMD n°09 : ambulatoire, sans acte opératoire de la CMD n°09;0
+810;24;@Affections de la CMD n°10 : ambulatoire, sans acte opératoire de la CMD n°10;0
+811;24;@Affections de la CMD n°11 : ambulatoire, sans acte opératoire de la CMD n°11;0
+812;24;@Affections de la CMD n°12 : ambulatoire, sans acte opératoire de la CMD n°12;0
+813;24;@Affections de la CMD n°13 : ambulatoire, sans acte opératoire de la CMD n°13;0
+814;24;@Affections de la CMD n°14 : ambulatoire, sans acte opératoire de la CMD n°14;0
+815;24;@Affections de la CMD n°15 : ambulatoire;0
+816;24;@Affections de la CMD n°16 : ambulatoire, sans acte opératoire de la CMD n°16;0
+817;24;@Affections de la CMD n°17 : ambulatoire, sans acte opératoire;0
+818;24;@Affections de la CMD n°18 : ambulatoire, sans acte opératoire;0
+819;24;@Affections de la CMD n°19 : ambulatoire, sans acte opératoire;0
+820;24;@Affections de la CMD n°20 : ambulatoire;0
+453;11;Tumeurs des reins et des voies urinaires, âge inférieur à 70 ans sans CMA;0
+454;11;Infections des reins et des voies urinaires, âge de 18 à 69 ans avec CMA, ou âge supérieur à 69 ans;0
+455;11;Infections des reins et des voies urinaires, âge de 18 à 69 ans sans CMA;0
+310;8;Résections osseuses localisées et/ou ablation de matériel de fixation interne au niveau d'une localisation autre que la hanche et le fémur;0
+311;8;Interventions sur le membre supérieur à l'exception de l'humérus et de la main, âge supérieur à 69 ans et/ou CMA;0
+305;8;Interventions sur l'humérus ou sur le membre inférieur à l'exception de la hanche, du fémur et du pied, âge de 18 à 69 ans sans CMA;0
+306;8;Interventions sur l'humérus ou sur le membre inférieur à l'exception de la hanche, du fémur et du pied, âge inférieur à 18 ans;0
+307;8;Interventions sur le genou, âge supérieur à 69 ans et/ou CMA;0
+308;8;Interventions sur le genou, âge inférieur à 70 ans sans CMA;0
+309;8;Résections osseuses localisées et/ou ablation de matériel de fixation interne au niveau de la hanche et du fémur;0
+212;6;Résections rectales, âge inférieur à 70 ans sans CMA;0
+213;6;Interventions majeures sur l'intestin grêle et le côlon, âge supérieur à 69 ans et/ou CMA;0
+214;6;Interventions majeures sur l'intestin grêle et le côlon, âge inférieur à 70 ans sans CMA;0
+215;6;Interventions sur l'oesophage, l'estomac et le duodénum, âge de 18 à 69 ans avec CMA, ou âge supérieur à 69 ans;0
+216;6;Interventions sur l'oesophage, l'estomac et le duodénum, âge de 18 à 69 sans CMA;0
+217;6;Interventions sur l'oesophage, l'estomac et le duodénum, âge inférieur à 18 ans;0
+218;6;Libérations d'adhérences péritonéales, âge supérieur à 69 ans et/ou CMA;0
+219;6;Libérations d'adhérences péritonéales, âge inférieur à 70 ans sans CMA;0
+143;4;Interventions pour affections de l'appareil respiratoire, avec CMAS;0
+150;5;Endoprothèses coronariennes et vasculaires périphériques;0
+151;27;Transplantations cardiaques;0
+152;5;Chirurgie de remplacement valvulaire avec circulation extracorporelle et avec cathétérisme cardiaque ou coronarographie;0
+52;2;Autres interventions extra-oculaires, âge supérieur à 17 ans;0
+652;21;Complications iatrogéniques non classées ailleurs, âge supérieur à 69 ans et/ou CMA;0
+653;21;Complications iatrogéniques non classées ailleurs, âge inférieur à 70 ans sans CMA;0
+654;21;Autres traumatismes et effets nocifs autres que les intoxications, âge supérieur à 69 ans et/ou CMA;0
+655;21;Autres traumatismes et effets nocifs autres que les intoxications, âge inférieur à 70 ans sans CMA;0
+656;26;Interventions pour traumatismes multiples graves, avec CMAS;0
+657;26;Interventions pour traumatismes multiples graves, sans CMAS;0
+658;26;Traumatismes multiples graves, avec CMAS;0
+659;26;Traumatismes multiples graves, sans CMAS;0
+660;22;Brûlures non étendues avec greffe cutanée;0
+661;22;Brûlures non étendues avec parages de plaie ou autres interventions chirurgicales;0
+662;22;Brûlures avec transfert précoce vers un autre établissement;0
+663;22;Brûlures étendues;0
+664;22;Brûlures non étendues sans intervention chirurgicale;0
+669;23;Interventions chirurgicales avec autres motifs de recours aux services de santé;0
+670;23;Rééducation;0
+671;23;Signes et symptômes avec CMA;0
+672;23;Signes et symptômes sans CMA;0
+673;23;Suivi thérapeutique avec antécédent d'affections malignes;0
+674;23;Suivi thérapeutique sans antécédent d'affections malignes;0
+675;23;Autres facteurs influant sur l'état de santé;0
+680;24;Épuration extra-rénale, en séances;0
+681;24;Chimiothérapie pour tumeur, en séances;0
+682;24;*** Radiothérapie;0
+683;24;!** Autres séances avec acte opératoire;0
+548;14;Affections de l'ante partum, avec ou sans intervention chirurgicale, avec complications;0
+549;14;Affections de l'ante partum, avec ou sans intervention chirurgicale, sans complications;0
+556;15;*** Nouveau-nés décédés ou transférés;0
+557;15;*** Immaturité extrême ou détresses respiratoires;0
+558;15;*** Prématurité avec problèmes majeurs;0
+559;15;*** Prématurité sans problème majeur;0
+560;15;*** Nouveau-nés à terme avec problèmes majeurs;0
+561;15;*** Nouveau-nés avec d'autres problèmes significatifs;0
+562;15;*** Nouveau-nés normaux;0
+564;27;Allogreffes de cellules souches hématopoïétiques;0
+394;9;Traumatismes de la peau et des tissus sous-cutanés, âge de 18 à 69 ans avec CMA, ou âge supérieur à 69 ans;0
+395;9;Traumatismes de la peau et des tissus sous-cutanés, âge de 18 à 69 ans sans CMA;0
+396;9;Traumatismes de la peau et des tissus sous-cutanés, âge inférieur à 18 ans;0
+397;9;Autres affections dermatologiques, âge supérieur à 69 ans et/ou CMA;0
+398;9;Autres affections dermatologiques, âge inférieur à 70 ans sans CMA;0
+404;10;*** Amputations au niveau des membres inférieurs pour troubles endocriniens, métaboliques ou nutritionnels;0
+405;10;!** Interventions sur l'hypophyse ou les glandes surrénales;0
+406;10;*** Greffes cutanées et parages de plaies pour troubles endocriniens, métaboliques ou nutritionnels;0
+407;10;Interventions pour obésité;0
+408;10;Interventions sur les parathyroïdes;0
+409;10;Interventions sur la thyroïde;0
+410;10;Interventions sur le tractus thyréoglosse;0
+411;10;Autres interventions pour troubles endocriniens, métaboliques ou nutritionnels, âge supérieur à 69 ans et/ou CMA;0
+412;10;Autres interventions pour troubles endocriniens, métaboliques ou nutritionnels, âge inférieur à 70 ans sans CMA;0
+413;10;Interventions sur l'hypophyse;0
+821;24;@Affections de la CMD n°21 : ambulatoire, sans acte opératoire de la CMD n°21;0
+822;24;@Affections de la CMD n°22 : ambulatoire, sans acte opératoire de la CMD n°22;0
+823;24;@Motifs de recours de la CMD n°23 : ambulatoire, sans acte opératoire;0
+827;24;@Greffes d'organes : ambulatoire, sans acte opératoire de la CMD n°27;0
+482;12;Circoncision, âge supérieur à 17 ans;0
+483;12;Circoncision, âge inférieur à 18 ans;0
+484;12;Autres interventions pour tumeurs malignes de l'appareil génital masculin;0
+485;12;Autres interventions pour des affections non malignes de l'appareil génital masculin;0
+494;12;Tumeurs malignes de l'appareil génital masculin, âge supérieur à 69 ans et/ou CMA;0
+495;12;Tumeurs malignes de l'appareil génital masculin, âge inférieur à 70 ans sans CMA;0
+496;12;Hypertrophie prostatique bénigne, âge supérieur à 69 ans et/ou CMA;0
+497;12;Hypertrophie prostatique bénigne, âge inférieur à 70 ans sans CMA;0
+498;12;Infections et inflammations de l'appareil génital masculin;0
+499;12;*** Stérilisation masculine;0
+500;12;Autres affections de l'appareil génital masculin;0
+501;12;Interventions pour affections de l'appareil génital masculin, avec CMAS;0
+504;13;Exentérations pelviennes, hystérectomies élargies ou vulvectomies;0
+505;13;Hystérectomies, âge supérieur à 69 ans et/ou CMA;0
+506;13;Hystérectomies, âge inférieur à 70 ans sans CMA;0
+507;13;Interventions réparatrices sur l'appareil génital féminin;0
+508;13;Interventions sur le système utéro-annexiel pour des tumeurs malignes;0
+509;13;Interventions sur le système utéro-annexiel pour des affections non malignes, autres que les interruptions tubaires;0
+510;13;Interruptions tubaires pour des affections non malignes;0
+511;13;Interventions sur la vulve, le vagin ou le col utérin;0
+512;13;Laparoscopies ou coelioscopies diagnostiques;0
+513;13;Ligatures tubaires par laparoscopie ou coelioscopie;0
+200;5;Douleurs thoraciques;0
+201;5;Autres affections de l'appareil circulatoire avec CMA;0
+202;5;Autres affections de l'appareil circulatoire sans CMA;0
+211;6;Résections rectales, âge supérieur à 69 ans et/ou CMA;0
+95;3;Troubles de l'équilibre;0
+96;3;Épistaxis;0
+97;3;*** Epiglottites;0
+98;3;Otites moyennes et infections des voies aériennes supérieures, âge de 18 à 69 ans avec CMA, ou âge supérieur à 69 ans;0
+99;3;Otites moyennes et infections des voies aériennes supérieures, âge de 18 à 69 ans sans CMA;0
+100;3;Otites moyennes et infections des voies aériennes supérieures, âge inférieur à 18 ans;0
+101;3;Laryngo-trachéites;0
+102;3;Traumatismes et déformations du nez;0
+103;3;Affections de la bouche et des dents sans certaines extractions, réparations ou prothèses dentaires, âge supérieur à 17 ans;0
+104;3;Affections de la bouche et des dents sans certaines extractions, réparations ou prothèses dentaires, âge inférieur à 18 ans;0
+105;3;Affections de la bouche et des dents avec certaines extractions, réparations et prothèses dentaires;0
+106;3;Autres diagnostics portant sur les oreilles, le nez, la gorge ou la bouche, âge supérieur à 17 ans;0
+107;3;Autres diagnostics portant sur les oreilles, le nez, la gorge ou la bouche, âge inférieur à 18 ans;0
+113;4;Interventions majeures sur le thorax;0
+114;4;Autres interventions chirurgicales sur le système respiratoire avec CMA;0
+115;4;Autres interventions chirurgicales sur le système respiratoire sans CMA;0
+116;27;Transplantations pulmonaires;0
+118;4;Embolies pulmonaires;0
+481;12;Interventions sur les testicules pour des affections non malignes, âge inférieur à 18 ans;0
+344;8;Maladies osseuses et arthropathies spécifiques, âge supérieur à 69 ans et/ou CMA;0
+220;6;Interventions mineures sur l'intestin grêle et le côlon, âge supérieur à 69 ans et/ou CMA;0
+221;6;Interventions mineures sur l'intestin grêle et le côlon, âge inférieur à 70 ans sans CMA;0
+222;6;Appendicectomies compliquées, âge supérieur à 69 ans et/ou CMA;0
+223;6;Appendicectomies compliquées, âge inférieur à 70 ans sans CMA;0
+224;6;Appendicectomies non compliquées, âge supérieur à 69 ans et/ou CMA;0
+53;2;Autres interventions extra-oculaires, âge inférieur à 18 ans;0
+54;2;Autres interventions intra-oculaires;0
+59;2;Hyphéma;0
+60;2;Infections oculaires aiguës sévères;0
+61;2;Affections oculaires d'origine neurologique;0
+62;2;Autres affections oculaires, âge supérieur à 17 ans avec CMA;0
+63;2;Autres affections oculaires, âge supérieur à 17 ans sans CMA;0
+64;2;Autres affections oculaires, âge inférieur à 18 ans;0
+68;3;Interventions majeures sur la tête et le cou;0
+69;3;Exérèses de glandes salivaires;0
+70;3;Interventions sur les glandes salivaires autres que les exérèses;0
+71;3;Réparations de fissures labiale et palatine;0
+72;3;Interventions sur les sinus et l'apophyse mastoïde, âge supérieur à 17 ans;0
+73;3;Interventions sur les sinus et l'apophyse mastoïde, âge inférieur à 18 ans;0
+74;3;Interventions diverses sur les oreilles, le nez, la gorge ou le cou;0
+75;3;Rhinoplasties;0
+76;3;Amygdalectomies et/ou adénoïdectomies isolées, âge supérieur à 17 ans;0
+77;3;Amygdalectomies et/ou adénoïdectomies isolées, âge inférieur à 18 ans;0
+78;3;Interventions sur les amygdales et les végétations adénoïdes autres que les amygdalectomies et/ou les adénoïdectomies isolées, âge supérieur à 17 ans;0
+79;3;Interventions sur les amygdales et les végétations adénoïdes autres que les amygdalectomies et/ou les adénoïdectomies isolées, âge inférieur à 18 ans;0
+80;3;Drains transtympaniques, âge supérieur à 17 ans;0
+414;10;Interventions sur les glandes surrénales.;0
+418;10;Diabète, âge supérieur à 35 ans;0
+419;10;Diabète, âge inférieur à 36 ans;0
+420;10;Troubles métaboliques ou nutritionnels divers, âge de 18 à 69 ans avec CMA, ou âge supérieur à 69 ans;0
+999;99;valeur inconnue;1
+0;0;sans objet;2
+1;1;Craniotomies en dehors de tout traumatisme, âge supérieur à 17 ans;0
+2;1;Craniotomies pour traumatisme, âge supérieur à 17 ans;0
+3;1;Craniotomies, âge inférieur à 18 ans;0
+4;1;Interventions sur le rachis et la moelle pour des affections neurologiques;0
+5;1;Interventions sur le système vasculaire précérébral;0
+6;1;Libérations du canal carpien;0
+7;1;Interventions sur les nerfs crâniens ou périphériques et autres interventions sur le système nerveux, âge supérieur à 69 ans et/ou CMA;0
+8;1;Interventions sur les nerfs crâniens ou périphériques et autres interventions sur le système nerveux, âge inférieur à 70 ans sans CMA;0
+9;1;Maladies dégénératives du système nerveux, âge supérieur à 80 ans;0
+10;1;Maladies dégénératives du système nerveux, âge inférieur à 81 ans;0
+11;1;Accidents ischémiques transitoires et occlusions des artères précérébrales, âge inférieur à 81 ans;0
+12;1;Accidents ischémiques transitoires et occlusions des artères précérébrales, âge supérieur à 80 ans;0
+13;1;Affections et lésions du rachis et de la moelle;0
+14;1;Tumeurs du système nerveux, âge supérieur à 69 ans et/ou CMA;0
+15;1;Tumeurs du système nerveux, âge inférieur à 70 ans sans CMA;0
+16;1;*** Maladies dégénératives du système nerveux;0
+17;1;Sclérose en plaques et ataxie cérébelleuse;0
+18;1;Accidents vasculaires cérébraux non transitoires;0
+19;1;*** Accidents ischémiques transitoires et occlusions des artères précérébrales;0
+20;1;Autres affections cérébro-vasculaires avec CMA;0
+345;8;Maladies osseuses et arthropathies spécifiques, âge inférieur à 70 ans sans CMA;0
+346;8;Arthropathies non spécifiques;0
+347;8;Signes et symptômes concernant l'appareil musculo-squelettique et le tissu conjonctif;0
+348;8;Tendinites, myosites et bursites;0
+349;8;Suites de traitement après une affection de l'appareil musculo-squelettique ou du tissu conjonctif;0
+350;8;Fractures, entorses, luxations et dislocations de l'avant-bras, de la main, du pied ou multiples ou mal précisées, âge de 18 à 69 ans avec CMA, ou âge supérieur à 69 ans;0
+351;8;Fractures, entorses, luxations et dislocations de l'avant-bras, de la main, du pied ou multiples ou mal précisées, âge de 18 à 69 ans sans CMA;0
+352;8;Fractures, entorses, luxations et dislocations de l'avant-bras, de la main, du pied ou multiples ou mal précisées, âge inférieur à 18 ans;0
+353;8;Fractures, entorses, luxations et dislocations du bras, de la jambe à l'exception du pied, âge de 18 à 69 ans avec CMA, ou âge supérieur à 69 ans;0
+354;8;Fractures, entorses, luxations et dislocations du bras, de la jambe à l'exception du pied, âge de 18 à 69 ans sans CMA;0
+355;8;Fractures, entorses, luxations et dislocations du bras, de la jambe à l'exception du pied, âge inférieur à 18 ans;0
+356;8;Autres pathologies de l'appareil musculo-squelettique et du tissu conjonctif;0
+357;8;Interventions pour affections de l'appareil musculo-squlettique et du tissu conjonctif, avec CMAS;0
+358;8;Affections de l'appareil musculo-squelettique et du tissu conjonctif, avec CMAS;0
+364;9;Greffes de peau et/ou parages de plaie pour ulcère cutané ou cellulite, âge supérieur à 69 ans et/ou CMA;0
+119;4;Infections et inflammations respiratoires, âge de 18 à 69 ans avec CMA, ou âge supérieur à 69 ans;0

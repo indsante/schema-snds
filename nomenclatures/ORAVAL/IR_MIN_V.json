@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "PRS_TYP_MIN",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "TYP_MIN_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_MIN_V",
+    "title": "type de minoration",
+    "primaryKey": [
+        "PRS_TYP_MIN"
+    ]
+}

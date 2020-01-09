@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "CPT_BRA_CHE",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "BRA_CHE_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_BRA_V",
+    "title": "Branche Comptable",
+    "primaryKey": [
+        "CPT_BRA_CHE"
+    ]
+}

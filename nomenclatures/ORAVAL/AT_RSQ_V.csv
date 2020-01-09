@@ -1,0 +1,1850 @@
+SEE_RSQ_NUM;SEE_BUR_NUM;SEE_CTN_NUM;ATV_COD_STR;SEE_RSQ_LIB;GRT_ACT_NUM;CTN_COD_FIN;GFI_COD_FIN;CTN_COD_CAL;GFC_NUM_CAL;TOP_TAR_IND;RSQ_BUR_IND;RSQ_BEN_IND;RSQ_DOC_IND;TAU_ECR_RDO;RSQ_CGL_IND;RSQ_ETT_IND;RSQ_SAL_IND;RSQ_EFF_IND;RSQ_HRE_IND;RSQ_COT_IND;RSQ_EFF_NGL;RSQ_BAT_IND;RSQ_EXC_IND;TEC_COL
+295MA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+295MA;N;AA;X;Fabrication de machines pour les industries du caoutchouc et du plastique;10;AA;039;AA;039;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+312BA;N;AA;X;Fabrication de matériel de distribution et de commande électrique pour haute tension;18;AA;044;AA;044;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+313ZA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+313ZA;N;AA;X;Fabrication de fils et câbles isolés;18;AA;048;AA;048;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+314ZA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+314ZA;N;AA;X;Fabrication de piles électriques. Fabrication d'appareils électriques autonomes;18;AA;006;AA;006;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+314ZC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+314ZC;N;AA;X;Fabrication d'accumulateurs ou d'isolateurs en verre ou en céramique;21;AA;051;AA;051;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+314ZD;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+314ZD;N;AA;X;Fabrication d'accumulateurs, isolateurs et lampes électriques;21;AA;051;AA;051;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+315AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+315AA;N;AA;X;Fabrication de lampes électriques;18;AA;051;AA;051;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+315CA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+315CA;N;AA;X;Fabrication de matériel d'éclairage;18;AA;006;AA;006;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+315CB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+297AA;N;AA;X;Fabrication d'appareils frigorifiques domestiques;11;AA;033;AA;033;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+297AE;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+297AE;N;AA;X;Fabrication d'appareils ménagers électriques (hors réfrigérateurs);22;AA;056;AA;056;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+297CA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+297CA;N;AA;X;Fabrication d'appareils ménagers non électriques;08;AA;033;AA;033;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+297CB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+297CB;N;AA;X;Fabrication d'appareils frigorifiques domestiques, d'appareils ménagers non électriques.;08;AA;033;AA;033;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+300AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+300AA;N;AA;X;Fabrication de machines de bureau;15;AA;045;AA;045;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+300CA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+300CA;N;AA;X;Fabrication d'ordinateurs et d'autres équipements informatiques;15;AA;045;AA;045;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+311AB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+311AB;N;AA;X;Fabrication de moteurs, génératrices et transformateurs électriques de petite, moyenne et grande puissance, ou de matériel de petite traction électrique;22;AA;044;AA;044;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+311CA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+311CA;N;AA;X;Réparation de matériels électriques;18;AA;044;AA;044;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+312AC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+312AC;N;AA;X;Fabrication d'appareillage électrique d'installation;18;AA;050;AA;050;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+312AD;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+312AD;N;AA;X;Fabrication de matériel électrique à basse tension;22;AA;044;AA;044;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+312AE;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+312AE;N;AA;X;Fabrication de matériels électriques, électromagnétiques industriels (moteurs, génératrices, transformateurs, appareillage);22;AA;044;AA;044;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+312AF;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+312AF;N;AA;X;Fabrication d'appareillage électrique d'installation, montage de petit matériel électrique;18;AA;050;AA;050;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+312AG;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+312AG;N;AA;X;Fabrication, réparation, entretien de : matériels électriques, électromagnétiques industriels, appareillages électriques d'installation, accumulateurs, isolateu;22;AA;44;AA;44;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+312BA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+323ZA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+323ZA;N;AA;X;Fabrication d'appareils de réception du son et de l'image;15;AA;053;AA;053;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+323ZB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+323ZB;N;AA;X;Fabrication d'appareils enregistrement et de reproduction du son et de l'image;15;AA;053;AA;053;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+331AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+331AA;N;AA;X;Fabrication de matériel d'imagerie médicale et de radiologie;23;AA;053;AA;053;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+331BA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+331BA;N;AA;X;Fabrication de matériel médico-chirurgical et de prothèses;26;AA;065;AA;065;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+331BB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+331BB;N;AA;X;Prothèse dentaire : ateliers de prothèse dentaire;26;AA;066;AA;066;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+331BC;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+331BC;N;AA;X;Fabrication, réparation de matériel médico-chirurgical, de prothèses y compris dentaires, d'instruments de précision, d'optique, d'horlogerie, de laboratoire. E;26;AA;65;AA;65;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+332AE;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+332AE;N;AA;X;Construction de matériels électriques, électroniques ou radioélectriques de bord des aéronefs;22;AA;055;AA;055;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+315CB;N;AA;X;Fabrication de piles électriques, d'appareils électriques autonomes, de matériel d'éclairage et de condensateurs;18;AA;006;AA;006;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+316AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+316AA;N;AA;X;Fabrication de matériels électriques pour moteurs et véhicules;18;AA;055;AA;055;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+316CA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+316CA;N;AA;X;Fabrication  de matériel électromagnétique industriel;18;AA;044;AA;044;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+316DC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+316DC;N;AA;X;Montage de petit matériel électrique;18;AA;050;AA;050;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+316DG;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+316DG;N;EE;X;Fabrication d'électrodes pour l'électrométallurgie et l'électrochimie en graphite, carbone amorphe, de charbon artificiel à usage électrique;06;EE;004;EE;004;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+316DH;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+316DH;N;AA;X;Fabrication de matériel de signalisation ou de contrôle et de sécurité (y compris pour voies ferrées);22;AA;027;AA;027;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+321AB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+321AB;N;AA;X;Fabrication de condensateurs;18;AA;006;AA;006;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+321AC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+321AC;N;AA;X;Fabrication de composants passifs ou de résistances et d'éléments chauffants industriels;22;AA;053;AA;053;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+321BA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+321BA;N;AA;X;Fabrication de composants électroniques actifs;18;AA;053;AA;053;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+321BB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+321BB;N;AA;X;Fabrication de matériels électroniques de réception, d'enregistrement (son, image), d'imagerie médicale, de composants (actifs, passifs) et d'éléments chauffan;18;AA;053;AA;053;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+321BC;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+321BC;N;AA;X;Fabrication, installation, entretien, réparation de : matériels et appareils électroniques de réception, de téléphonie, d'enregistrement, d'imagerie médicale, d;18;AA;53;AA;53;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+322AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+322AA;N;AA;X;Construction de matériel professionnel électronique et radio-électrique;18;AA;053;AA;053;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+322BA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+322BA;N;AA;X;Fabrication et installation d'appareils de téléphonie;15;AA;052;AA;052;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+335ZC;N;AA;X;Fabrication ou réparation d'horlogerie (dont pièces détachées);22;AA;063;AA;063;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+341ZA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+341ZA;N;AA;X;Construction de voitures particulières;16;AA;028;AA;028;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+341ZB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+341ZB;N;AA;X;Construction de véhicules utilitaires;16;AA;028;AA;028;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+341ZD;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+341ZD;N;AA;X;Construction de voitures particulières, de véhicules utilitaires ou blindés;16;AA;028;AA;028;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+341ZE;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+341ZE;N;AA;X;Construction de véhicules automobiles. Succursales et filiales des constructeurs;16;AA;28;AA;28;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+342AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+342AA;N;AA;X;Construction de carrosseries,bennes,remorques autres que de tourisme;16;AA;043;AA;043;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+342AB;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+342AB;N;AA;X;Construction de carrosseries, bennes, remorques autres que de tourisme. Fabrication de caravanes et véhicules de loisirs;16;AA;43;AA;43;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+342BA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+342BA;N;AA;X;Fabrication de caravanes et véhicules de loisirs;16;AA;043;AA;043;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+343ZA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+343ZA;N;AA;X;Fabrication ou fabrication associée à la réparation de menuiserie, tôlerie, sellerie, peintures spécialisées de voitures;16;AA;043;AA;043;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+343ZB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+343ZB;N;AA;X;Fabrication d'équipements d'accessoires et pièces détachées pour l'automobile;16;AA;028;AA;028;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+332AF;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+332AF;N;AA;X;Construction et installation de matériels d'équipement, d'appareils de bord des aéronefs (y compris armement);22;AA;062;AA;062;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+332BA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+332BA;N;AA;X;Fabrication d'appareils de contrôle et de régulation spécifiquement conçus pour l'automatisme industriel d'instruments et appareils électriques et électroniques;22;AA;054;AA;054;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+332BD;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+332BD;N;AA;X;Fabrication de compteurs d'eau et liquides divers,compteurs à gaz, de compteurs pour automobile, taximètres.Fabrication de distributeurs d'hydrocarbures;24;AA;064;AA;064;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+332BH;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+332BH;N;AA;X;Fabrication d'instruments de contrôle et de métrologie et d'autres appareils mécaniques de haute précision;22;AA;027;AA;027;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+332BI;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+332BI;N;AA;X;Fabrication de matériels de précision ou de laboratoire (y compris les armes sans outillage mécanique);22;AA;046;AA;046;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+332BJ;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+332BJ;N;AA;X;Fabrication d'appareils de mesures et de comptage;24;AA;064;AA;064;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+332BK;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+332BK;N;AA;X;Fabrication, installation d'appareils de mesure, de comptage, de signalisation, de contrôle, de sécurité, de régulation. Conception et installation de systèmes;22;AA;54;AA;54;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+333ZA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+333ZA;N;AA;X;Conception et installation de systèmes de contrôle et de production automatisée;22;AA;046;AA;046;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+334AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+334AA;N;AA;X;Fabrication de lunettes;23;AA;027;AA;027;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+334AB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+334AB;N;FF;X;Travail d'optique du verre;20;FF;021;FF;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+334AC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+334AC;N;AA;X;Fabrication d'instruments de précision (métrologie, contrôle), d'optique (lunette, photo, cinéma);23;AA;027;AA;027;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+334BC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+334BC;N;AA;X;Fabrication d'instruments optiques, photographiques ou cinématographiques;22;AA;027;AA;027;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+335ZC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+353CA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+353CA;N;AA;X;Construction de lanceurs et engins spatiaux;17;AA;062;AA;062;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+354AC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+354AC;N;AA;X;Fabrication ou réparation de motocycles ou de cycles;22;AA;057;AA;057;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+354AD;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+354AD;N;AA;X;Fabrication ou réparation de motocycles ou de cycles. Fabrication de pièces et équipement pour cycles ou motocycles;22;AA;057;AA;057;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+354CC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+354CC;N;AA;X;Fabrication de pièces et équipement pour cycles ou motocycles;14;AA;058;AA;058;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+361AD;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+361AD;N;FF;X;Tapissiers en siège;06;FF;002;FF;002;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+361AE;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+361AE;N;FF;X;Fabrication industrielle et artisanale de sièges;04;FF;003;FF;003;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+361AF;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+361AF;N;FF;X;Fabrication de sièges, de billards, de meubles en bois non classée ailleurs et industries connexes à l'ameublement;04;FF;003;FF;003;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+361CB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+361CB;N;FF;X;Fabrication de meubles de bureau et de magasin en bois;04;FF;004;FF;004;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+361CC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+361CC;N;AA;X;Fabrication de meubles métalliques (y compris coffres forts);22;AA;026;AA;026;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+361CE;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+361CE;N;AA;X;Fabrication de meubles métalliques, y compris coffres forts. Fabrication d'accessoires d'ameublement en bronze et fer forgé;22;AA;026;AA;026;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+361CF;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+361CF;N;FF;X;Fabrication de meubles en bois pour agencement de magasins, de bureaux. Réparateurs de meubles anciens;04;FF;004;FF;004;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+343ZC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+343ZC;N;AA;X;Fabrication d'équipements et de pièces pour moteurs d'automobiles.Fabrication de parties,pièces détachées et équipement de châssis;16;AA;028;AA;028;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+343ZD;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+343ZD;N;AA;X;Fabrication de parties d'équipement de carrosserie;16;AA;028;AA;028;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+343ZE;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+343ZE;N;AA;X;Fabrication d'équipements, de parties, d'accessoires et de pièces détachées pour l'automobile y compris équipements de carrosserie et de châssis.;16;AA;28;AA;28;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+351BF;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+351BF;N;AA;X;Construction, réparation ou peinture de navires en acier (y compris équipements spécifiques de bord);15;AA;1;AA;1;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+351EB;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+351EB;N;FF;X;Fabrication et réparation de navires en bois et en polyester stratifié;3;FF;5;FF;5;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+352ZC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+352ZC;N;AA;X;Fabrication et réparation de matériel fixe et roulant pour les transports guidés (notamment par rail);11;AA;041;AA;041;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+353AC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+353AC;N;AA;X;Construction et reconstruction de moteurs ou construction d'hélices pour l'aéronautique;22;AA;062;AA;062;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+353AD;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+353AD;N;AA;X;Fabrication et installation de matériels pour l'aéronautique et l'aérospatial non classé par ailleurs;22;AA;062;AA;062;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+353BA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+353BA;N;AA;X;Construction de cellules d'aéronefs;17;AA;061;AA;061;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+353BC;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+353BC;N;AA;X;Recherche, fabrication, entretien, maintenance, réparation, reconditionnement pour : aéronautique, aérospatiale, missiles, armement, structures, équipements;17;AA;61;AA;61;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+361ED;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+361ED;N;FF;X;Fabrication de meubles de cuisine, de meubles de jardin, artisanat du meuble à l'except. des meubles métalliques et des meubles entièrement en matière plastique;04;FF;002;FF;002;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+361EF;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+361EF;N;FF;X;Fabrication de meubles en bois pour cuisines et jardins. Tapissiers en siège;04;FF;002;FF;002;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+361GA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+361GA;N;FF;X;Fabrication avec outillage mécanique, y compris les artisans du meuble (à l'exception des meubles métalliques et des meubles entièrement en matière plastique): d;04;FF;006;FF;006;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+361GB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+361GB;N;FF;X;Fabrication de meubles meublants en bois. Fabrication de cercueils.;04;FF;006;FF;006;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+361GC;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+361GC;N;FF;X;Fabrication et réparation de meubles et de cercueils en bois ou matière similaire et d instruments de musique;4;FF;43;FF;43;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+361JB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+361JB;N;FF;X;Fabrication avec outillage mécanique, y compris les artisans du meuble ( à l'exception des meubles métalliques et des meubles entièrement en matière plastique):;04;FF;003;FF;003;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+361KA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+361KA;N;FF;X;Réparateurs de meubles anciens;06;FF;004;FF;004;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+361KB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+361KB;N;FF;X;Industries connexes de l'ameublement, hors fabrication de cercueils et réparation de meubles anciens. Fabrication de billards;06;FF;003;FF;003;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+361MB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+361MB;N;FF;X;Fabrication de sommiers, matelas et coussins. Réparation, réfection de matelas, literie;06;FF;003;FF;003;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+361MC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+361MC;N;FF;X;Fabrication d'articles de literie et d'articles pour voiliers.;06;FF;003;FF;003;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+361MD;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+361MD;N;FF;X;Fabrication et réparation de sièges, de matelas et sommiers et d'articles de literie et pour voiliers.;6;FF;3;FF;3;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+362CB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+362CB;N;AA;X;Emaillage (sauf activité artistique) ou bijouterie, joaillerie, orfèvrerie ' Graveur en médailles et monnaies;22;AA;024;AA;024;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+363ZB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+363ZB;N;FF;X;Fabrication, réparation et accordage d'instruments de musique;06;FF;001;FF;001;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+363ZC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+363ZC;N;FF;X;Fabrication, réparation et accordage d'instruments de musique. Industrie de la brosserie. Fabrication d'articles en bois pour écriture.;06;FF;001;FF;001;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+364ZA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+364ZA;N;AA;X;Fabrication d'articles de sport dont la matière première est le métal;24;AA;025;AA;025;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+364ZE;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+364ZE;N;FF;X;Fabrication d'articles de pêche et d'articles de sport dont la matière dominante est le bois;04;FF;003;FF;003;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+364ZF;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+364ZF;N;AA;X;Fabrication d'articles de sport, jeux et jouets, d'articles de puériculture non classé par ailleurs .;24;AA;025;AA;025;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+365ZG;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+365ZG;N;AA;X;Fabrication de jeux et jouets, de voitures d'enfants et d'articles de puériculture;22;AA;025;AA;025;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+366CA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+366CA;N;FF;X;Industrie de la brosserie;06;FF;001;FF;001;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+366EG;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+366EG;N;FF;X;Fabrication de porte-plumes réservoirs, porte-mines, de porte-plumes;06;FF;001;FF;001;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+366EJ;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+371ZE;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+371ZE;N;FF;X;Récupération, tri, recyclage, mise en valeur de tous types de déchets hors ordures ménagères, y compris désamorçage, démolition de munitions;21;FF;043;FF;043;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+371ZF;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+371ZF;N;CC;X;Traitement des déchets, des activités industrielles, économiques et des ménages, récupération, tri, recyclage, valorisation matière y compris démantèlement, dés;21;CC;52;CC;52;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+372ZA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+372ZA;N;FF;X;Récupération et recyclage de textiles;21;FF;043;FF;043;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+372ZB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+372ZB;N;FF;X;Récupération et recyclage de papiers et de carton;21;FF;043;FF;043;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+372ZD;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+372ZD;N;FF;X;Récupération et recyclage de : verre, matières plastiques, caoutchouc, cuirs;21;FF;043;FF;043;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+372ZE;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+372ZE;N;FF;X;Récupération et recyclage de déchets animaux et végétaux;21;FF;043;FF;043;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+372ZG;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+372ZG;N;FF;X;Récupération et recyclage non spécialisé;21;FF;043;FF;043;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+401ZA;B;ZZ;;;00;ZZ;000;ZZ;000;*;0;0;0;00000;0;0;1;1;1;0;0;0;0;0
+401ZA;N;CC;;Production et distribution d'électricité, de gaz et de chaleur. Agents statutaires : entreprises nationalisées;00;CC;028;CC;028;*;0;0;0;00000;0;0;1;1;1;0;0;0;0;0
+401ZB;B;ZZ;;;00;ZZ;000;ZZ;000;*;0;0;0;00000;0;0;1;1;1;0;0;0;0;0
+401ZB;N;CC;;Production et distribution d'électricité, de gaz et de chaleur. Agents statutaires : entreprises non nationalisées;00;CC;028;CC;028;*;0;0;0;00000;0;0;1;1;1;0;0;0;0;0
+401ZC;B;ZZ;;;00;ZZ;000;ZZ;000;*;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+401ZC;N;CC;;Production et distribution d'électricité, de gaz et de chaleur. Agents temporaires : entreprises nationalisées;09;CC;029;CC;029;*;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+401ZD;B;ZZ;;;00;ZZ;000;ZZ;000;*;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+401ZD;N;CC;;Production et distribution d'électricité, de gaz et de chaleur. Agents temporaires : entreprises non nationalisées;09;CC;029;CC;029;*;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+401ZE;B;ZZ;;;0;ZZ;0;ZZ;0;*;0;0;0;0;0;0;1;1;1;0;0;0;0;0
+366EJ;N;EE;X;Assemblage (sans fabrication d'éléments constitutifs) de fruits, fleurs et petits objets (nca) en matière plastique;12;EE;008;EE;008;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+366EL;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+366EL;N;EE;X;Fabrication de crayons. Préparations et conditionnement d'encre, de colles et produits pour le travail de bureau;11;EE;001;EE;001;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+366ET;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+366ET;N;FF;X;Activités manufacturières en bois ou matière similaire , articles de Paris, vaporisateurs, cures dents, articles pour fumeur;06;FF;002;FF;002;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+366EU;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+366EU;N;FF;X;Activités manufacturières en bois ou matières similaires, articles de Paris, articles pour fumeurs, articles en liège, en vannerie, en paille. Empailleurs, rép;06;FF;002;FF;002;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+371ZA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+371ZA;N;AA;X;Récupération de matières métalliques recyclables;26;AA;067;AA;067;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+371ZB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+371ZB;N;FF;X;Récupération et recyclage des métaux ferreux;21;FF;043;FF;043;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+371ZC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+371ZC;N;FF;X;Récupération et recyclage des métaux non ferreux;21;FF;043;FF;043;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+371ZD;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+371ZD;N;FF;X;Désamorçage, démolition de munitions et récupération;21;FF;043;FF;043;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+451AB;N;BB;X;Démolition;17;BB;001;BB;001;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+451DA;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+451DA;N;BB;X;Forages et sondages, fondations spéciales;10;BB;002;BB;002;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+451DB;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+451DB;N;BB;X;Forages et sondages, fondations spéciales. Travaux souterrains, de voies ferrées, maritimes et fluviaux.;10;BB;002;BB;002;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+452AA;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+452AA;N;BB;X;Construction de maisons individuelles;01;BB;001;BB;001;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+452BC;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+452BC;N;BB;X;Entreprises générales et construction de bâtiments (hors maisons individuelles);01;BB;001;BB;001;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+452BD;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+452BD;N;BB;X;Travaux de gros oeuvre et organisation de chantiers;01;BB;001;BB;001;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+452BE;B;BB;X;;0;BB;21;BB;21;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+452BE;N;BB;X;Autres travaux de gros oeuvre. Entreprise générale du bâtiment. Construction métallique : montage, levage.  Fumisterie industrielle;1;BB;1;BB;1;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+452CB;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+452CB;N;BB;X;Construction et entretien d'ouvrages d'art hors structures métalliques;08;BB;006;BB;006;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+452CC;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+452CC;N;BB;X;Construction métallique : montage et levage;07;BB;001;BB;001;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+452CD;B;BB;X;;0;BB;21;BB;21;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+452CD;N;BB;X;Ouvrages d'art, autres travaux d'infrastructures spécialisés (forages et sondages, fondations spéciales, travaux souterrains, de voies ferrées, maritimes et flu;8;BB;6;BB;6;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+452DA;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+452DA;N;BB;X;Travaux souterrains;11;BB;002;BB;002;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+452EA;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+452EA;N;BB;X;Travaux urbains et travaux d'hygiène publique;15;BB;004;BB;004;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+452EB;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+452EB;N;BB;X;Pose de canalisations à grande distance;15;BB;004;BB;004;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+452EC;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+452EC;N;BB;X;Travaux urbains et travaux d'hygiène publique. Pose de canalisations à grande distance;15;BB;004;BB;004;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+452ED;B;BB;X;;0;BB;21;BB;21;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+401ZE;N;CC;;Agents statutaires des Industries Electriques et Gazières;0;CC;28;CC;28;*;0;0;0;0;0;0;1;1;1;0;0;0;0;0
+401ZF;B;ZZ;;;0;ZZ;0;ZZ;0;*;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+401ZF;N;CC;;Salariés non statutaires des Industries Electriques et Gazières;9;CC;29;CC;29;*;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+403ZA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+403ZA;N;CC;X;Chauffage urbain et climatisation urbaine;09;CC;029;CC;029;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+403ZC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+403ZC;N;CC;X;Chauffage d'immeuble à forfait (exploitant de chauffage) quel que soit le combustible utilisé;09;CC;029;CC;029;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+403ZD;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+403ZD;N;CC;X;Chauffage urbain et climatisation urbaine, chauffage d'immeuble à forfait (exploitant de chauffage) quel que soit le combustible utilisé;09;CC;029;CC;029;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+403ZE;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+403ZE;N;CC;X;Production et distribution de chauffage urbain, exploitants de chauffage d immeubles, opérateurs d efficacité énergétique, valorisation énergétique des déchets,;9;CC;29;CC;29;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+410ZA;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+410ZA;N;CC;X;Captage, traitement et distribution de l'eau;9;CC;30;CC;30;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+451AA;B;BB;X;;0;BB;21;BB;21;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+451AA;N;BB;X;Terrassement courants et travaux préparatoires spécialisés (y compris travaux paysagers sauf horticulture).;9;BB;5;BB;5;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+451AB;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+452ED;N;BB;X;Construction et entretien de réseaux (électricité, Eaux, gaz, télécommunications, etc.) et autres réseaux non classés par ailleurs.;15;BB;4;BB;4;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+452FA;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+452FA;N;BB;X;Construction et entretien de lignes électriques et de télécommunications;16;BB;007;BB;007;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+452JA;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+452JA;N;BB;X;Couverture en tous matériaux (sans plomberie);02;BB;012;BB;012;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+452JB;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+452JB;N;BB;X;Couverture et plomberie, sanitaires. Installation d'eau et de gaz;02;BB;012;BB;012;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+452JC;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+452JC;N;BB;X;Couverture. - plomberie, sanitaires. - Installation d'eau et de gaz. -Installation d'équipements thermiques et de climatisation;02;BB;008;BB;008;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+452JD;B;BB;X;;0;BB;21;BB;21;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+452JD;N;BB;X;Travaux de couverture, de charpente en bois, d étanchéité;2;BB;12;BB;12;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+452KA;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+452KA;N;BB;X;Travaux d'étanchéité;02;BB;012;BB;012;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+452LA;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+452LA;N;BB;X;Travaux de charpente en bois;02;BB;012;BB;012;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+452NA;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+452NA;N;BB;X;Travaux de voies ferrées;14;BB;002;BB;002;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+452PB;B;BB;X;;0;BB;21;BB;21;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+452PB;N;BB;X;Construction et entretien de chaussées (y compris sols sportifs et pavage). Fabrication de produits asphaltés ou enrobés (avec transport et mise en oeuvre);13;BB;3;BB;3;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+452RA;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+452RA;N;BB;X;Travaux maritimes et fluviaux;12;BB;002;BB;002;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+452TB;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+452TB;N;BB;X;Montage d'échafaudage pour le bâtiment;02;BB;001;BB;001;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+452UC;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+452UC;N;BB;X;Mise en oeuvre avec ou sans fabrication d'armatures pour le béton armé;01;BB;001;BB;001;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+452UD;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+452UD;N;BB;X;Construction et entretien de fours et de cheminées. Fumisterie industrielle et de bâtiment. Ramonage;01;BB;008;BB;008;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+452VC;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+452VC;N;BB;X;Entreprise de taille de pierres, mise en oeuvre de pierre de taille. Pose et façonnage de marbrerie de bâtiment. Revêtement extérieur, enduit pierre, ravalement;01;BB;001;BB;001;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+452VD;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+452VD;N;BB;X;Travaux de maçonnerie et de gros-oeuvre (hors maisons individuelles);17;BB;001;BB;001;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+453AA;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+453AA;N;AA;X;Entreprises spécialisées dans l'installation de machines électriques dans les usines et établissements industriels;18;AA;60;AA;60;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+453AB;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+453AB;N;BB;X;Pose de paratonnerres et d'antennes de télévision (à l'exclusion de la fabrication);02;BB;012;BB;012;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+453AC;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+453AC;N;BB;X;Travaux d'installation électrique;06;BB;010;BB;010;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+453AD;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+453FB;N;BB;X;Installation d'équipements aérauliques, thermiques, frigorifiques et de climatisation;06;BB;009;BB;009;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+453HC;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+453HC;N;BB;X;Pose d'enseignes et de stores;06;BB;010;BB;010;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+454AC;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+454AC;N;BB;X;Travaux de plâtrerie. Plafonnage, cloisons, staff et stuc;05;BB;014;BB;014;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+454CC;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+454CC;N;BB;X;Fermetures : fabrication et pose de jalousies, volets, persiennes, etc.;17;BB;010;BB;010;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+454CD;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+454CD;N;BB;X;Menuiserie de bâtiment (fabrication et pose) associée ou non à la charpente;02;BB;011;BB;011;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+454CE;B;BB;X;;0;BB;21;BB;21;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+454CE;N;BB;X;Travaux de menuiserie extérieure;2;BB;11;BB;11;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+454DA;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+454DA;N;BB;X;Menuiserie métallique : murs-rideaux, panneaux de façade;02;BB;011;BB;011;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+454DB;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+454DB;N;BB;X;Métallerie:petite serrurerie (clefs,dépannage,petites réparations),travaux intérieurs,travaux extérieurs (généralement de plain-pied).-Pose de clôtures métalliqu;04;BB;014;BB;014;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+454DC;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+454DC;N;BB;X;Métallerie:serrurerie,ferronnerie, portes, balcons, escaliers, rampes, fenêtre, etc'cloisons industrialisées y compris fermeture et miroiterie associées, charpen;04;BB;011;BB;011;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+454DD;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+454DD;N;BB;X;Travaux d'isolation, traitement de l'amiante en place, métallerie (hors petite serrurerie);04;BB;011;BB;011;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+454FB;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+454FB;N;BB;X;Pose de revêtement intérieur de toute nature scellé ou cloué. Pose de carrelage et dallage intérieur;06;BB;014;BB;014;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+454HA;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+454HA;N;BB;X;Miroiterie. Vitrerie de bâtiment;05;BB;014;BB;014;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+454JB;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+454JB;N;BB;X;Travaux en peinture d'intérieur et travaux annexes notamment travaux d'assèchement des murs, travaux d'ignifugation. Peintures de lettres et attributs. -Ravaleme;05;BB;017;BB;017;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+454JD;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+454JD;N;BB;X;Peinture, plâtrerie, vitrerie (associées);05;BB;014;BB;014;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+453AD;N;BB;X;Pose d'antennes extérieures associée au commerce d'appareils de radio, de télévision;17;BB;015;BB;015;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+453AE;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+453AE;N;BB;X;Travaux d'installation électrique, pose d'enseignes et de stores, fermetures (fabrication et pose de jalousies, volets, persiennes );06;BB;010;BB;010;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+453AF;B;BB;X;;0;BB;21;BB;21;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+453AF;N;BB;X;Travaux de plomberie, de génie climatique, d électricité, autres travaux d installation technique non classés par ailleurs;6;BB;10;BB;10;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+453CA;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+453CA;N;BB;X;Travaux d'isolation;06;BB;011;BB;011;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+453CB;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+453CB;N;BB;X;Activité de confinement et de retrait d'amiante et de matériaux friables contenant de l'amiante;06;BB;011;BB;011;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+453EA;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+453EA;N;BB;X;Plomberie, installations sanitaires seules ou associées avec le chauffage ou l'électricité;06;BB;013;BB;013;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+453FB;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+747ZD;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+747ZD;N;II;X;Activités de désinfection, de désinsectisation et de dératisation;02;II;005;II;005;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+747ZE;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+747ZE;N;CC;X;Entreprises de travaux connexes aux sociétés de transports ferroviaires y compris la manutention dans les gares ferroviaires. Entreprises de nettoyage de matéri;5;CC;25;CC;25;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+747ZF;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+747ZF;N;II;X;Services de nettoyage de locaux et d'objets divers. Activités de désinfection, de désinsectisation et de dératisation.;2;II;5;II;5;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+748AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+748AA;N;CC;X;Studios et autres activités photographiques, laboratoires de développement, tirage (sauf photographie de presse 92.4ZA);10;CC;001;CC;001;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+748DA;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+748DA;N;II;X;Entreprises de conditionnement non spécialisées;6;II;4;II;4;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+748FA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+748FA;N;CC;X;Reprographie;10;CC;001;CC;001;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+748GA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+748GA;N;CC;X;Routage;07;CC;002;CC;002;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+748GB;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+748GB;N;CC;X;Acheminement et distribution de presse gratuite ou payante;7;CC;2;CC;2;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+748KB;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+748KB;N;BB;X;Décorateur d'ameublement (sans commerce d'ameublement);17;BB;016;BB;016;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+748KC;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+748KC;N;II;X;Travaux à façon divers sauf la location de brevets, entreposage d'archives d'entreprises (y compris la consultation d'archives). Ionisation de produits divers;7;II;6;II;6;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+748KD;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+748KD;N;BB;X;Décorateurs d'intérieur. Tapissiers-décorateurs. Fabrication maquettes et plans en relief;18;BB;015;BB;015;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+751AB;B;ZZ;;;00;ZZ;000;ZZ;000;*;1;0;0;00000;0;0;1;1;1;0;0;0;1;0
+751AB;N;HH;;Administration centrale (agents de toutes catégories, membres des cabinets ministériels);02;HH;003;HH;003;*;1;0;0;00000;0;0;1;1;1;0;0;0;1;0
+744BA;N;CC;X;Créateurs et intermédiaires de publicité : régies publicitaires sans affichage (entreprise de timbres réclame);10;CC;041;CC;041;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+744BB;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+744BB;N;CC;X;Créateurs et intermédiaires de publicité : régies publicitaires. Agences de presse y compris journalistes et photographes indépendants;10;CC;41;CC;41;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+501ZB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+501ZB;N;AA;X;Importation automobiles neuves concessionnaires, agents exclusifs, réparateurs agréés des sociétés françaises et étrangères de construction véhicules automobile;18;AA;069;AA;069;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+501ZC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+501ZC;N;AA;X;Succursales et filiales de vente et réparation des sociétés de construction de véhicules automobiles;16;AA;028;AA;028;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+501ZF;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+501ZF;N;AA;X;Importation, commerce, entretien, réparation de véhicules automobiles de marque (importateurs, concessionnaires, agents, réparateurs agréés), commerce et répara;18;AA;69;AA;69;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+502ZC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+502ZC;N;AA;X;Réparation, montage d'appareillage électrique : électricité automobile;18;AA;069;AA;069;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+502ZD;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+502ZD;N;AA;X;Dépannage, remorquage de véhicules automobiles (sans atelier de réparation et non annexé à un garage);18;AA;067;AA;067;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+502ZF;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+502ZF;N;AA;X;Réparation de véhicules automobiles (mécaniciens réparateurs automobiles n'appartenant pas à un réseau de marque de constructeurs ou d'importateurs d'automobiles;22;AA;067;AA;067;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+502ZG;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+502ZG;N;AA;X;Dépannage, remorquage de véhicules automobiles (sans atelier de réparation et non annexé à un garage). Réparation de véhicules automobiles (mécaniciens, répara;22;AA;067;AA;067;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+502ZH;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+502ZH;N;AA;X;Dépannage, remorquage de véhicules automobiles (sans atelier de réparation et non annexé à un garage). Mécaniciens-réparateurs n'appartenant pas à un réseau de;22;AA;67;AA;67;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+503AC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+503AC;N;GG;X;Commerce de véhicules , d'équipements automobiles, et de pneumatiques;07;GG;007;GG;007;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+503AD;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+503AD;N;GG;X;Commerce et location de véhicules automobiles et d'équipements associés, de machines et équipements agricoles. Ecoles de conduite. Exploitation de parkings.;7;GG;7;GG;7;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+504ZC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+504ZC;N;GG;X;Commerce de détail et réparation de motocycles, cycles et véhicules divers;07;GG;028;GG;028;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+505ZB;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+505ZB;N;GG;X;Commerce de combustibles, charbons, carburants et lavages automatiques;5;GG;31;GG;31;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+511NB;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+511NB;N;DD;X;Intermédiaires de commerce en produits agricoles et alimentaires et vente par correspondance sans manutention, ni livraison, ni stockage, ni conditionnement;20;DD;14;DD;14;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+511PA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+511PA;N;DD;X;Centrales d'achats alimentaires;05;DD;017;DD;017;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+511RA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+511RA;N;GG;X;Commerce de gros sans manutention, ni stockage, ni conditionnement;11;GG;024;GG;024;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+511RB;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+511RB;N;GG;X;Commerce de gros sans manutention. Centrales d'achats et intermédiaires du commerce non alimentaires;11;GG;24;GG;24;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+511TC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+511TC;N;GG;X;Intermédiaires du commerce, commissionnaires, courtiers (sauf agent commercial et représentant) : avec manutention de marchandises;13;GG;002;GG;002;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+511TD;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+454LC;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+454LC;N;BB;X;Travaux d'aménagement particuliers dans les bâtiments pour expositions, locaux commerciaux, etc;06;BB;014;BB;014;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+454LD;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+454LD;N;BB;X;Travaux d'aménagement intérieur. Métallerie : petite serrurerie.;06;BB;014;BB;014;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+454LE;B;BB;X;;0;BB;21;BB;21;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+454LE;N;BB;X;Travaux d'isolation, travaux de finitions (travaux d'aménagements intérieurs);6;BB;14;BB;14;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+455ZA;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+455ZA;N;BB;X;Location de matériel pour le bâtiment et les travaux publics avec montage et/ou opérateurs de matériel de construction;17;BB;002;BB;002;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+455ZB;B;BB;X;;0;BB;21;BB;21;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+455ZB;N;BB;X;Entretien, réparation, location et montage de matériel pour le batiment et les travaux publics.;17;BB;2;BB;2;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+501ZA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+501ZA;N;AA;X;Commerce de véhicules automobiles avec atelier de réparation (sauf mécaniciens et réparateurs automobiles);18;AA;068;AA;068;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+291CA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+291CA;N;AA;X;Fabrication de compresseurs;09;AA;034;AA;034;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+291CB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+291CB;N;AA;X;Fabrication de pompes;09;AA;035;AA;035;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+291DA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+291DA;N;AA;X;Fabrication de transmissions hydrauliques et pneumatiques;09;AA;035;AA;035;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+291FA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+291FA;N;AA;X;Fabrication d'articles de robinetterie;13;AA;032;AA;032;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+291FB;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+291FB;N;AA;X;Fabrication de pompes et d'articles de robinetterie.;13;AA;32;AA;32;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+291HA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+291HA;N;AA;X;Fabrication de roulements;14;AA;064;AA;064;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+291JC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+291JC;N;AA;X;Fabrication d'organes mécaniques de transmission (dont chaînes);11;AA;019;AA;019;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+292AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+292AA;N;AA;X;Fabrication et installation de fours et brûleurs;08;AA;033;AA;033;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+292CA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+292CA;N;AA;X;Fabrication associée ou non au montage et/ou à l'entretien d'ascenseurs, monte-charges et escaliers mécaniques;18;AA;049;AA;049;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+292DA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+292DA;N;AA;X;Fabrication d'équipements de levage et de manutention;10;AA;020;AA;020;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+292DB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+292DB;N;AA;X;Fabrication d'équipements de levage et de manutention de série;10;AA;042;AA;042;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+292DC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+292DC;N;AA;X;Fabrication d'outillage spécialisé de bord ou de garage;16;AA;042;AA;042;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+292DD;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+292DD;N;AA;X;Fabrication d'équipements de levage/manutention, d'outillages spécialisés de bord ou de garage;16;AA;042;AA;042;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+292FA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+292FA;N;AA;X;Fabrication de matériels aérauliques et thermiques;08;AA;033;AA;033;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+292FB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+292FB;N;AA;X;Fabrication et installation associées de matériels aérauliques;08;AA;049;AA;049;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+292FC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+292FC;N;AA;X;Fabrication de matériels frigorifiques industriels;11;AA;033;AA;033;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+292FD;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+292FD;N;AA;X;Fabrication et installation associées de matériels frigorifiques industriels;11;AA;049;AA;049;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+292FG;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+292FG;N;AA;X;Fabrication de matériels aérauliques et thermiques. Fabrication de matériels frigorifiques industriels;11;AA;033;AA;033;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+292FH;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+292FH;N;AA;X;Fabrication et installation associées de matériels industriels aérauliques ou frigorifiques;11;AA;049;AA;049;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+292FI;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+292FI;N;AA;X;Fabrication, installation, entretien, réparation de matériels aérauliques et thermiques, de fours et de brûleurs, d'appareils frigorifiques domestiques et indus;8;AA;33;AA;33;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+292JC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+292JC;N;AA;X;Fabrication d'appareils de pesage ou de bascules et ponts-bascules;22;AA;064;AA;064;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+292KA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+292KA;N;AA;X;Fabrication de matériel d'incendie;09;AA;035;AA;035;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+293AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+293AA;N;AA;X;Fabrication de tracteurs agricoles;16;AA;029;AA;029;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+293CA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+293CA;N;AA;X;Réparation de matériel agricole;12;AA;030;AA;030;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+293DA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+293DA;N;AA;X;Fabrication de matériel agricole;10;AA;029;AA;029;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+293DB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+293DB;N;AA;X;Fabrication de tracteurs et matériels agricoles;10;AA;029;AA;029;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+293DC;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+293DC;N;AA;X;Fabrication et/ou réparation d'engins mobiles et systèmes pour : la construction, les mines, le forage, la préparation des minerais et matériaux, le matériel ag;10;AA;29;AA;29;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+294AB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+294AB;N;AA;X;Fabrication de machines-outils à métaux ou de machines pour l'essai des métaux;11;AA;019;AA;019;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+295NA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+295NA;N;AA;X;Fabrication de moules;10;AA;018;AA;018;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+295NB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+295NB;N;AA;X;Fabrication de modèles;13;AA;018;AA;018;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+295NC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+295NC;N;AA;X;Fabrication de matrices, poinçons, moules et modèles;13;AA;018;AA;018;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+295PB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+295PB;N;AA;X;Fabrication de machines spécialisées ou de machines-outils diverses, notamment pour les industries de la céramique et du verre;11;AA;019;AA;019;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+296AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+296AA;N;AA;X;Fabrication de véhicules blindés;16;AA;028;AA;028;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+296AC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+296AC;N;AA;X;Fabrication de munitions ou d'armes (avec outillage mécanique);13;AA;025;AA;025;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+297AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+294BA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+294BA;N;AA;X;Fabrication de machines-outils à bois;10;AA;019;AA;019;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+294DA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+294DA;N;AA;X;Fabrication de matériel de soudage;10;AA;019;AA;019;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+294EB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+294EB;N;AA;X;Reconstruction et réparation de machines-outils;10;AA;013;AA;013;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+295AC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+295AC;N;AA;X;Fabrication de matériel pour la métallurgie ou la fonderie;11;AA;019;AA;019;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+295CA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+295CA;N;AA;X;Fabrication de matériel de travaux publics;10;AA;040;AA;040;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+295CD;B;BB;;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+295CD;N;BB;;Entretien et réparation des matériels du bâtiment et des travaux publics (dépendant d'une entreprise de bâtiment ou de travaux publics);17;BB;008;BB;008;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+295CE;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+295CE;N;AA;X;Fabrication de matériel pour les mines, le forage ou la préparation mécanique des minerais et des matériaux;11;AA;041;AA;041;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+295EB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+295EB;N;AA;X;Fabrication de machines pour les industries chimiques ou alimentaires;11;AA;039;AA;039;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+295EC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+295EC;N;AA;X;Fabrication de machines pour les industries de process (chimie, alimentation, plasturgie, caoutchouc);11;AA;039;AA;039;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+295GF;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+295GF;N;AA;X;Fabrication de machines et matériels pour le textile, le cuir ou la chaussure;22;AA;031;AA;031;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+295JA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+295JA;N;AA;X;Fabrication de machines pour les industries du papier et du carton;10;AA;031;AA;031;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+295JB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+295JB;N;AA;X;Fabrication de machines et matériels pour les industries textile, du cuir, de la chaussure, du papier-carton;10;AA;031;AA;031;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+927CC;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+927CC;N;CC;X;Attractions foraines (sauf les artistes) avec et sans montage de manèges ou de chapiteaux, et autres spectacles et services récréatifs;13;CC;36;CC;36;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+930AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+930AA;N;FF;X;Blanchisserie et teinturerie de gros;11;FF;037;FF;037;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+930BA;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+930BA;N;FF;X;Blanchisserie et teinturerie de détail, y compris laverie automatique;11;FF;36;FF;36;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+930DA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+930DA;N;II;X;Coiffure. - Travail du cheveu. - Fabrication de postiches;07;II;017;II;017;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+930DB;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+930DB;N;II;X;Coiffure. Fabrication de postiches. Esthétique corporelle.;7;II;17;II;17;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+930EA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+930EA;N;II;X;Esthétique corporelle;07;II;017;II;017;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+930HB;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+930HB;N;II;X;Pompes funèbres et services annexes, y compris le commerce d'articles funéraires;7;II;20;II;20;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+930KA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+930KA;N;II;X;Autres instituts pour la santé (établissements thermaux, etc.);03;II;007;II;007;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+930NA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+923FB;N;CC;X;Attractions foraines (sauf les artistes) avec montage de manèges ou de chapiteaux;13;CC;035;CC;035;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+923FC;B;ZZ;X;;0;ZZ;0;ZZ;0;*;0;0;0;0;0;0;1;1;1;0;0;0;1;0
+923FC;N;ZZ;X;Salariés employés dans le cadre du titre emploi forain;0;ZZ;0;ZZ;0;*;0;0;0;0;0;0;1;1;1;0;0;0;1;0
+923FD;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+923FD;N;CC;X;Entreprise de concert public, salle de concert, salle d'audition phonographique. Gestion d'équipements culturels socio-éducatifs et de salles de spectacles (sa;14;CC;031;CC;031;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+924ZA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+511TG;N;ZZ;;Voyageur de commerce, représentant, placier non exclusif (au service de plusieurs employeurs);0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;1;0;0;0;1;0;1;0
+511TH;B;ZZ;;;0;ZZ;0;ZZ;0;;0;0;0;0;1;0;1;1;1;0;1;0;1;0
+511TH;N;ZZ;;Salariés d'un employeur ne comportant pas d'établissements en France;0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;1;1;1;0;1;0;1;0
+511TI;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+511TI;N;GG;X;Centrales d'achat non alimentaires et intermédiaires du commerce;12;GG;035;GG;035;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+511TJ;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+511TJ;N;GG;X;Agents commerciaux et représentants (pour le personnel qu'ils emploient);15;GG;017;GG;017;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+512AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+512AA;N;DD;X;Commerce de gros de céréales et d'aliments pour le bétail;13;DD;031;DD;031;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+512AB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+512AB;N;DD;X;Commerce de gros de fruits et légumes, de poissons et d'animaux vivants;13;DD;021;DD;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+512EA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+512EA;N;DD;X;Commerce de gros d'animaux vivants;20;DD;016;DD;016;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+513AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+513AA;N;DD;X;Commerce de gros de fruits et légumes;18;DD;031;DD;031;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+513CA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+513CA;N;DD;X;Commerce de gros de viandes de boucherie;01;DD;004;DD;004;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+513DA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+513DA;N;DD;X;Commerce de gros de produits à base de viande;02;DD;017;DD;017;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+513EA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+513EA;N;DD;X;Commerce de gros de volailles et gibiers;03;DD;017;DD;017;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+513GA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+513GA;N;DD;X;Commerce de gros de produits laitiers, oeufs, huiles;10;DD;017;DD;017;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+513JA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+513JA;N;DD;X;Commerce de gros de vins, spiritueux, liqueurs;06;DD;027;DD;027;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+513JB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+513JB;N;DD;X;Commerce de gros de boissons autres que vins, spiritueux, liqueurs;06;DD;001;DD;001;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+513JC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+513JC;N;DD;X;Commerce de gros de boissons;13;DD;018;DD;018;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+513QA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+513QA;N;DD;X;Commerce de gros de café, thé, cacao, épices;12;DD;014;DD;014;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+513SA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+513SA;N;DD;X;Commerce de gros de poissons, crustacés et coquillages;04;DD;031;DD;031;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+513SB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+513SB;N;DD;X;Expédition de produits de la mer et d'eau douce, mareyeur;04;DD;031;DD;031;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+511TD;N;GG;X;Agents commerciaux (en ce qui concerne le personnel qu'ils emploient);15;GG;017;GG;017;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+511TE;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+511TE;N;GG;X;Représentants (en ce qui concerne le personnel qu'ils emploient);15;GG;017;GG;017;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+511TG;B;ZZ;;;0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;1;0;0;0;1;0;1;0
+513TC;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+513TC;N;DD;X;Commerce de gros (commerce interentreprises) alimentaire non spécialisé.;13;DD;10;DD;10;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+513VA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+513VA;N;DD;X;Commerce de gros de produits surgelés, commerce de gros de la confiserie;20;DD;017;DD;017;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+514CC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+514CC;N;GG;X;Commerce de gros de l'habillement, textiles, mercerie, chaussure et cuirs;09;GG;013;GG;013;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+514NA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+514NA;N;GG;X;Commerce de gros de produits pharmaceutiques;09;GG;008;GG;008;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+515AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+515AA;N;EE;X;Commerce de gros des produits pétroliers;07;EE;003;EE;003;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+515CC;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+515CC;N;GG;X;Commerce de métaux, de biens d'occasion et commerce non alimentaire sur éventaires et marchés;4;GG;30;GG;30;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+515EA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+515EA;N;FF;X;Importation et commerce de gros des produits forestiers (bois en grumes et bois ronds);05;FF;008;FF;008;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+515EB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+515EB;N;FF;X;Commerce de gros de futailles, d'articles semi-finis en bois sciés et de menuiseries de bâtiment;05;FF;004;FF;004;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+515EC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+745AB;B;ZZ;X;;00;ZZ;000;ZZ;000;*;0;0;0;00000;0;0;1;1;1;0;0;0;0;0
+745AB;N;ZZ;X;Association intermediaire (pers.depourvue d'emploi et mise a  disp. pour duree<=a celle prevue a l'art D241-6 du code S.S.;00;ZZ;000;ZZ;000;*;0;0;0;00000;0;0;1;1;1;0;0;0;1;0
+745BA;B;ZZ;;;00;ZZ;000;ZZ;000;;0;0;0;00000;0;1;1;1;1;0;0;0;0;0
+745BA;N;II;;Travail temporaire : personnel de bureau, y compris le personnel spécialisé en informatique;07;II;001;II;001;;0;0;0;00000;0;1;1;1;1;0;0;0;0;0
+745BB;B;ZZ;;;00;ZZ;000;ZZ;000;;0;0;0;00000;0;1;1;1;1;0;0;0;0;0
+745BB;N;II;;Travail temporaire : personnel paramédical;07;II;001;II;001;;0;0;0;00000;0;1;1;1;1;0;0;0;0;0
+745BC;B;ZZ;;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+745BC;N;II;;Personnel permanent des entreprises de travail temporaire;7;II;1;II;1;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+745BD;B;ZZ;X;;0;ZZ;0;ZZ;0;;0;0;0;0;0;1;1;1;1;0;0;0;0;0
+745BD;N;II;X;Toutes catégories de personnel de travail temporaire;1;II;2;II;2;;0;0;0;0;0;1;1;1;1;0;0;0;0;0
+745BE;B;ZZ;;;0;ZZ;0;ZZ;0;;0;0;0;0;0;1;1;1;1;0;0;0;0;0
+745BE;N;II;;Travail temporaire : personnel de bureau et personnel paramédical.;7;II;1;II;1;;0;0;0;0;0;1;1;1;1;0;0;0;0;0
+746ZA;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+746ZA;N;II;X;Agences privées de recherches, entreprises de surveillance (sans transports de fonds);5;II;3;II;3;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+746ZB;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+746ZB;N;CC;X;Transports de fonds et services sécurisés;7;CC;37;CC;37;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+747ZC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+747ZC;N;II;X;Services de nettoyage de locaux et d'objets divers;02;II;005;II;005;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+751AC;B;ZZ;;;00;ZZ;000;ZZ;000;*;1;0;0;00000;0;0;1;1;1;0;0;0;1;0
+751AC;N;HH;;Services extérieurs des administrations (y compris leurs établissements publics);02;HH;003;HH;003;*;1;0;0;00000;0;0;1;1;1;0;0;0;1;0
+751AD;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;1;0
+751AD;N;HH;X;Collectivités territoriales (communales, départementales, régionales... y compris leurs établissements publics);01;HH;003;HH;003;;1;0;0;00000;0;0;1;1;1;0;0;0;1;0
+751AE;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+751AE;N;HH;X;Administration hospitalière (y compris ses établissements publics);1;HH;3;HH;3;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+751AF;B;ZZ;;;00;ZZ;000;ZZ;000;*;1;0;0;00000;0;0;1;1;1;0;0;0;1;0
+751AF;N;HH;;Administration centrale et services extérieurs des administrations (y compris leurs établissements publics);02;HH;003;HH;003;*;1;0;0;00000;0;0;1;1;1;0;0;0;1;0
+751AG;B;ZZ;;;0;ZZ;0;ZZ;0;*;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+751AG;N;HH;;Administration centrale et services extérieurs des administrations (y compris leurs établissements publics). Représentation diplomatique étrangère en France. Or;2;HH;12;HH;12;*;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+751BA;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+751BA;N;HH;X;Collectivités territoriales (communales, départementales, régionales...) y compris leurs établissements publics hors secteur médico-social;1;HH;3;HH;3;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+751BB;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+751BB;N;HH;X;Etablissements publics médico-sociaux des collectivités territoriales;1;HH;3;HH;3;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+751CA;B;ZZ;X;;0;ZZ;0;ZZ;0;;0;0;0;0;0;0;1;1;1;0;0;0;0;0
+751CA;N;HH;X;Accueil à domicile à titre onéreux, d'enfants, de personnes âgées ou d'adultes handicapés confiés par des organismes publics, des oeuvres, des établissements ou;2;HH;5;HH;5;;0;0;0;0;0;0;1;1;1;0;0;0;0;0
+752EA;B;ZZ;X;;00;ZZ;000;ZZ;000;*;0;0;0;00000;1;0;1;1;1;0;1;0;1;0
+752EA;N;ZZ;X;Detenu occupe dans une activite (entreprise executee par voie de concession);00;ZZ;000;ZZ;000;*;0;0;0;00000;1;0;1;1;1;0;1;0;1;0
+752EB;B;ZZ;X;;00;ZZ;000;ZZ;000;*;0;0;0;00000;1;0;1;1;1;0;1;0;1;0
+752EB;N;ZZ;X;Detenu occupe par l administration penitentiaire (travail execute par voie de regie directe);00;ZZ;000;ZZ;000;*;0;0;0;00000;1;0;1;1;1;0;1;0;1;0
+752EC;B;ZZ;X;;0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;0;1;1;1;1;0;1;0
+752EC;N;ZZ;X;Pupille des etablissements de l'education surveillee;0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;0;1;1;1;1;0;1;0
+752ED;B;ZZ;X;;0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;0;1;1;1;1;0;1;0
+752ED;N;ZZ;X;Personne condamnée à executer un  travail d'interet général;0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;0;1;1;1;1;0;1;0
+752EE;B;ZZ;X;;0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;1;1;1;0;1;0;1;0
+752EE;N;HH;X;Personnes détenues, quelle que soit l'activité exercée.;2;HH;11;HH;11;*;0;0;0;0;1;0;1;1;1;0;1;0;1;0
+753AA;B;ZZ;X;;0;ZZ;0;ZZ;0;*;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+753AA;N;HH;X;Activités générales de sécurité sociale;2;HH;6;HH;6;*;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+753BA;B;ZZ;X;;00;ZZ;000;ZZ;000;*;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+753BA;N;HH;X;Caisses de retraites ne relevant pas de la législation sur les assurances;02;HH;002;HH;002;*;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+753BB;B;ZZ;X;;0;ZZ;0;ZZ;0;*;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+753BB;N;HH;X;Couverture du risque chômage et autres garanties du maintien de revenu, y compris la caisse nationale de surcompensation du bâtiment et des travaux publics et c;2;HH;2;HH;2;*;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+753CA;B;BB;X;;0;BB;21;BB;21;*;0;0;0;0;1;0;1;0;0;0;1;0;1;0
+753CA;N;BB;X;Allocations complémentaires aux indemnités journalières de sécurité sociale versées soit par des organismes de prévoyance soit par des employeurs : activités de;0;BB;19;BB;19;*;0;0;0;0;1;0;1;0;0;0;1;0;1;0
+753CB;B;BB;X;;0;BB;21;BB;21;*;0;0;0;0;1;0;1;0;0;0;1;0;1;0
+753CB;N;BB;X;Allocations complémentaires aux indemnités journalières de sécurité sociale versées soit par des organismes de prévoyance soit par des employeurs : autres activ;0;BB;20;BB;20;*;0;0;0;0;1;0;1;0;0;0;1;0;1;0
+753CC;B;ZZ;X;;0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;1;0;0;0;1;0;1;0
+753CC;N;CC;X;Caisses de congés payés dans les ports et dans certaines entreprises de manutention et de transports (en ce qui concerne les indemnités versées par ces organism;0;CC;0;CC;0;*;0;0;0;0;1;0;1;0;0;0;1;0;1;0
+753CD;B;ZZ;X;;00;ZZ;000;ZZ;000;*;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+753CD;N;HH;X;Couverture du risque chômage et autres garanties du maintien de revenu, y compris la Caisse nationale de surcompensation du bâtiment et des travaux publics;02;HH;002;HH;002;*;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+801ZA;B;ZZ;X;;0;ZZ;0;ZZ;0;*;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+801ZA;N;HH;X;Personnel enseignant et administratif des établissements d'enseignement privés et des organismes de formation;2;HH;8;HH;8;*;0;0;0;0;0;0;1;1;1;0;0;0;0;0
+802AA;B;ZZ;;;0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;0;1;0;1;1;0;1;0
+802AA;N;HH;;Elèves et étudiants des établissements publics ou privés d'enseignement secondaire, supérieur ou spécialisé visés à l'article L. 412.8 (2o, b) du code de la séc;0;HH;9;HH;9;*;0;0;0;0;1;0;0;1;0;1;1;0;1;0
+802CA;B;ZZ;;;0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;0;1;0;1;1;0;1;0
+802CA;N;HH;;Elèves et étudiants des établissements publics et privés d'enseignement technique visés à l'article L. 412.8 (2o, a) du code de la sécurité sociale;0;HH;10;HH;10;*;0;0;0;0;1;0;0;1;0;1;1;0;1;0
+804CA;B;ZZ;X;;0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;0;0;0;0;1;0;1;0
+804CA;N;ZZ;X;Salaries en conges de conversion;0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;0;0;0;0;1;0;1;0
+851CA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+851CA;N;II;X;Cabinets de médecin;07;II;008;II;008;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+851CB;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+851CB;N;II;X;Médecine systématique et de dépistage (y compris les centres interentreprises de médecine du travail);7;II;9;II;9;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+851CD;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+851CD;N;II;X;Cabinets de soins : médicaux et dentaires.;7;II;8;II;8;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+851EA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+851EA;N;II;X;Cabinets dentaires;07;II;008;II;008;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+851GA;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+851GA;N;II;X;Cabinets d'auxiliaires médicaux;7;II;7;II;7;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+851JA;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+851JA;N;CC;X;Ambulances;2;CC;11;CC;11;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+851KA;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+851KA;N;II;X;Laboratoires d'analyses médicales extrahospitaliers;7;II;8;II;8;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+851LA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+851LA;N;II;X;Centres de transfusion sanguine et banques d'organes;07;II;007;II;007;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+852ZA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+852ZA;N;II;X;Vétérinaires. - Cliniques vétérinaires;07;II;007;II;007;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+852ZB;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+852ZB;N;II;X;Centres de transfusion sanguine et banques d'organes. Vétérinaires. Cliniques vétérinaires.;7;II;7;II;7;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+853AA;B;ZZ;X;;00;ZZ;000;ZZ;000;*;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+853AA;N;II;X;Action sociale sous toutes ses formes, y compris garderies, haltes-garderies, centres de réadaptation fonctionnelle et rééducation professionnelle et centres d'a;03;II;010;II;010;*;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+853AB;B;ZZ;X;;0;ZZ;0;ZZ;0;*;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+853AB;N;II;X;Services d'aide sociale à domicile (auxiliaires de vie, aides ménagères...).;3;II;10;II;10;*;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+853AC;B;ZZ;X;;0;ZZ;0;ZZ;0;*;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+853AC;N;II;X;Accueil, hébergement en établissement pour personnes âgées (maisons de retraite...).;3;II;10;II;10;*;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+853AD;B;ZZ;X;;0;ZZ;0;ZZ;0;*;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+853AD;N;II;X;Accueil, hébergement en établissement pour personnes handicapées (enfants et adultes);3;II;10;II;10;*;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+853AE;B;ZZ;X;;0;ZZ;0;ZZ;0;*;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+853AE;N;II;X;Accueil, hébergement, prévention pour petite enfance, l'enfance, l'adolescence;3;II;10;II;10;*;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+853BA;B;ZZ;X;;0;ZZ;0;ZZ;0;*;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+853BA;N;II;X;Action sociale sous toutes ses formes hors risques 853AB/853AC/853AD/853AE;3;II;10;II;10;*;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+853CA;B;ZZ;;;0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;1;1;1;0;1;0;1;0
+853CA;N;ZZ;;Accueil à domicile, à titre onéreux, d'enfants pour le compte de particuliers, et de personnes âgées ou d'adultes handicapés sur leur propre demande ou pour le;0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;1;1;1;0;1;0;1;0
+853HA;B;ZZ;;;0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;1;1;1;0;1;0;1;0
+853HA;N;II;;Stagiaires des centres de formation professionnelle, de réadaptation fonctionnelle, de rééducation professionnelle.;4;II;11;II;11;*;0;0;0;0;1;0;1;1;1;0;1;0;1;0
+853HB;B;ZZ;;;0;ZZ;0;ZZ;0;*;0;0;0;0;0;0;1;1;1;0;0;0;0;0
+853HB;N;II;;Travailleurs handicapés des établissements ou services d'aide par le travail;4;II;12;II;12;*;0;0;0;0;0;0;1;1;1;0;0;0;0;0
+853KA;B;ZZ;;;00;ZZ;000;ZZ;000;*;0;0;0;00000;0;0;1;1;0;0;0;0;1;0
+853KA;N;ZZ;;Salariés âgés d'au moins 50 ans et de moins de 55 ans dispensés d'activité et maintenus aux effectifs de l'entreprise au titre d'une convention passée en applica;00;ZZ;000;ZZ;000;*;0;0;0;00000;0;0;1;1;0;0;0;0;1;0
+853KB;B;ZZ;X;;0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;0;0;0;1;1;0;1;0
+853KB;N;ZZ;X;Personnes bénéficiaires du revenu de solidarité active (RSA) ou personnes en situation d'insertion dans des structures agrées;0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;0;0;0;1;1;0;1;0
+853KC;B;ZZ;X;;0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;0;0;0;1;1;0;1;0
+853KC;N;ZZ;X;Personnes bénéficiaires des actions prescrites par les organismes mentionnés à l'article L.412-8-11° du CSS;0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;0;0;0;1;1;0;1;0
+853KD;B;ZZ;;;00;ZZ;000;ZZ;000;*;0;0;0;00000;0;0;1;1;1;0;0;0;1;0
+853KD;N;II;;Association intermédiaire (personnes dépourvues d'emploi et mises à disposition pour une durée supérieure à celle prévue à l'article D. 241-6 du code de la sécur;07;II;013;II;013;*;0;0;0;00000;0;0;1;1;1;0;0;0;1;0
+853KE;B;ZZ;X;;0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;0;1;0;1;1;0;1;0
+851AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+851AA;N;II;X;Etablissements de soins privés : cliniques générales ou spécialisées, établissements hospitaliers, généraux ou spécialisés, dispensaires, etc.;03;II;007;II;007;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+851AC;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+851AC;N;II;X;Services de soins privés médicaux exclusivement à domicile;3;II;7;II;7;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+851AD;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+851AD;N;II;X;Etablissements de soins privés y compris les centres de réadaptation fonctionnelle, autres instituts pour la santé (établissements thermaux, etc.).;3;II;7;II;7;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+853KE;N;ZZ;X;Personnes bénéficiant d'un contrat d'appui visées à l'article D.412-99 du code de la SS;0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;0;1;0;1;1;0;1;0
+853KF;B;ZZ;X;;0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;0;1;0;1;1;0;1;0
+853KF;N;ZZ;X;Volontariat civil, volontariat par l'insertion, volontariat associatif;0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;0;1;0;1;1;0;1;0
+853KG;B;ZZ;;;0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;0;1;0;1;1;0;1;0
+853KG;N;ZZ;;Tuteurs d'entreprises non rénumérés mentionnés au 15°) de l'article L.412-8 du code de la sécurité sociale.;0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;0;1;0;1;1;0;1;0
+853KH;B;ZZ;;;0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;0;1;0;1;1;0;1;0
+853KH;N;ZZ;;Personnes exerçant une activité économique réduite à fin d'insertion mentionnée à l'article 20 de la loi n°2007.1786 du 19 décembre 2007;0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;0;0;0;1;1;0;1;0
+853KI;B;ZZ;;;0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;0;1;0;1;1;0;1;0
+853KI;N;ZZ;;Salariés en CDDi dans les ateliers et chantiers d'insertion.;0;ZZ;0;ZZ;0;*;0;0;0;0;0;0;1;1;1;0;0;0;1;0
+853KJ;B;ZZ;X;;0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;0;1;0;1;1;0;1;0
+911AC;B;ZZ;X;;00;ZZ;000;ZZ;000;*;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+911AC;N;II;X;Ordres, syndicats et organisations professionnels d'employeurs et de non-salariés;07;II;014;II;014;*;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+911AD;B;ZZ;X;;00;ZZ;000;ZZ;000;*;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+911AD;N;II;X;Organisations économiques;07;II;014;II;014;*;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+911AE;B;ZZ;X;;0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;1;0;0;0;1;0;1;0
+911AE;N;CC;X;Caisses de congés payés des spectacles (en ce qui concerne les indemnités versées par ces organismes);0;CC;53;CC;53;*;0;0;0;0;1;0;1;0;0;0;1;0;1;0
+911AF;B;ZZ;X;;00;ZZ;000;ZZ;000;*;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+911AF;N;II;X;Ordres. Syndicats et Organisations professionnelles, économiques, religieuses, philosophiques, politiques;07;II;014;II;014;*;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+912ZA;B;ZZ;X;;00;ZZ;000;ZZ;000;*;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+912ZA;N;II;X;Syndicats de salariés;07;II;014;II;014;*;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+913AA;B;ZZ;X;;00;ZZ;000;ZZ;000;*;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+913AA;N;II;X;Organisations religieuses, philosophiques et politiques;07;II;014;II;014;*;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+913EA;B;ZZ;X;;0;ZZ;0;ZZ;0;*;1;0;0;0;0;0;1;1;1;0;0;0;1;0
+913EA;N;CC;X;Associations culturelles et socio-éducatives ne gérant pas d'équipements;7;CC;51;CC;51;*;1;0;0;0;0;0;1;1;1;0;0;0;1;0
+913EB;B;ZZ;X;;00;ZZ;000;ZZ;000;*;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+913EB;N;II;X;Autres services fournis à la collectivité;07;II;016;II;016;*;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+913EC;B;ZZ;X;;0;ZZ;0;ZZ;0;*;0;1;0;0;1;0;0;1;0;1;1;0;1;0
+913EC;N;ZZ;X;Personnes benevoles visees aux art D412-79 (sf celles visees au N 91-3ED) D412-82 et D412-95 du code SS;0;ZZ;0;ZZ;0;*;0;1;0;0;1;0;0;1;0;1;1;0;1;0
+913ED;B;ZZ;X;;0;ZZ;0;ZZ;0;*;0;1;0;0;1;0;0;1;0;1;1;0;1;0
+913ED;N;ZZ;X;Personnes benevoles visees a l'art D412-79  II G 2 , II K 2  et IV A 1 ,2 ,3  et 4 du code SS;0;ZZ;0;ZZ;0;*;0;1;0;0;1;0;0;1;0;1;1;0;1;0
+913EE;B;ZZ;;;0;ZZ;0;ZZ;0;*;0;1;0;0;1;0;0;1;0;1;1;0;1;0
+913EE;N;ZZ;;Personnes benevoles visees a l art L743.2 travaux administratifs;0;ZZ;0;ZZ;0;*;0;1;0;0;1;0;0;1;0;1;1;0;1;0
+913EF;B;ZZ;;;0;ZZ;0;ZZ;0;*;0;1;0;0;1;0;0;1;0;1;1;0;1;0
+913EF;N;ZZ;;Personnes benevoles visees a l art L743.2 travaux autres qu administratifs;0;ZZ;0;ZZ;0;*;0;1;0;0;1;0;0;1;0;1;1;0;1;0
+913EG;B;ZZ;;;0;ZZ;0;ZZ;0;*;0;1;0;0;1;0;0;1;0;1;1;0;1;0
+853KJ;N;ZZ;X;Personne volontaire effectuant un service civique ou un engagement de service civique (loi n°2010-485 du 10/03/2010);0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;0;1;0;1;1;0;1;0
+853KL;B;ZZ;;;0;ZZ;0;ZZ;0;*;0;0;0;0;0;0;1;1;1;0;0;0;1;0
+853KL;N;II;;Association intermédiaire (personnes dépourvues d'emploi et mises à disposition).;7;II;13;II;13;*;0;0;0;0;0;0;1;1;1;0;0;0;1;0
+900AA;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+900AA;N;CC;X;Services d assainissement (sauf ceux visés sous le numéro 74.7ZF). Collecte et traitement des eaux usées;9;CC;38;CC;38;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+900BA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+900BA;N;CC;X;Enlèvement des ordures ménagères avec personnel de collecte et des déchets industriels et commerciaux banals;09;CC;026;CC;026;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+900BB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+900BB;N;CC;X;Entreprises de nettoiement, d'arrosage, de balayage. Entreprises d'enlèvement d'ordures ménagères sans personnel de chargement;09;CC;026;CC;026;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+900BC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+900BC;N;CC;X;Entreprises de traitement des ordures ménagères et des déchets industriels et commerciaux banals;09;CC;026;CC;026;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+900BD;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+900BD;N;CC;X;Usine d'incinération des gadoues, des ordures ménagères;09;CC;029;CC;029;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+900BE;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+900BE;N;CC;X;Enlèvement des ordures ménagères avec personnel de collecte et des déchets industriels et commerciaux banals. Entreprises de traitement des ordures ménagères e;09;CC;026;CC;026;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+900BF;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+900BF;N;CC;X;Collecte des déchets ménagers ou d activités, dangereux ou non dangereux. Nettoiement de voirie, balayage, lavage;9;CC;26;CC;26;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+911AA;B;BB;;;0;BB;21;BB;21;*;0;0;0;0;1;0;1;0;0;0;1;0;1;0
+911AA;N;BB;;Caisses de congés payés du bâtiment et des travaux publics (en ce qui concerne les indemnités versées par ces organismes);0;BB;18;BB;18;*;0;0;0;0;1;0;1;0;0;0;1;0;1;0
+911AB;B;ZZ;X;;0;ZZ;0;ZZ;0;*;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+911AB;N;II;X;Caisses de congés payés (en ce qui concerne le personnel qu'elles emploient);7;II;19;II;19;*;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+913EG;N;ZZ;;Personnes benevoles visees a l'art L743.2 participant qu'a reunions;0;ZZ;0;ZZ;0;*;0;1;0;0;1;0;0;1;0;1;1;0;1;0
+913EH;B;ZZ;X;;0;ZZ;0;ZZ;0;*;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+913EH;N;II;X;Ordres. Syndicats et organisations professionnelles, économiques, religieuses, philosophiques, politiques. Autres services fournis à la collectivité.;7;II;16;II;16;*;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+921CA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+921CA;N;CC;X;Production de films (sauf les artistes);11;CC;032;CC;032;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+921CB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+921CB;N;CC;X;Production de films, studios de cinéma (sauf les artistes)   Production de programmes de télévision;11;CC;032;CC;032;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+921CC;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+921CC;N;CC;X;Production de films et de programmes pour le cinéma, la télévision, la radiodiffusion, etc ...Enregistrement sonore et édition musicale. Distribution et project;11;CC;32;CC;32;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+921DA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+921DA;N;CC;X;Entreprises de travaux à façon de cinéma : développement et tirage de films;11;CC;039;CC;039;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+921DB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+921DB;N;CC;X;Entreprises de travaux à façon de cinéma : studio d'enregistrement sonore;11;CC;039;CC;039;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+921DC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+921DC;N;CC;X;Studios de cinéma (sauf les artistes);11;CC;032;CC;032;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+921DD;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+921DD;N;CC;X;Exploitation de studios d'enregistrement sonore (sauf les artistes) - Travaux à façon de cinéma : développement, tirage de films   Distribution de films;11;CC;039;CC;039;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+921FA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+921FA;N;CC;X;Distribution de films et vidéo;11;CC;039;CC;039;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+921JA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+921JA;N;CC;X;Projection de films cinématographiques;11;CC;031;CC;031;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+922AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+922AA;N;CC;X;Entreprise de radiodiffusion et de télévision (tout le personnel sauf les artistes);11;CC;031;CC;031;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+922BA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+922BA;N;CC;X;Production de programmes de télévision;11;CC;032;CC;032;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+923AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+923AA;N;CC;X;Entreprise de concert public, salle de concert, salle d'audition phonographique;11;CC;031;CC;031;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+923AB;B;ZZ;X;;00;ZZ;000;ZZ;000;*;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+923AB;N;CC;X;Création et interprétation littéraires et artistiques;11;CC;042;CC;042;*;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+923AC;B;ZZ;X;;00;ZZ;000;ZZ;000;*;0;0;0;00000;1;0;1;1;1;0;1;0;1;0
+923AC;N;CC;X;Artistes, pour toutes leurs activités;11;CC;033;CC;033;*;0;0;0;00000;1;0;1;1;1;0;1;0;1;0
+923AD;B;ZZ;X;;0;ZZ;0;ZZ;0;*;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+923AD;N;CC;X;Artistes, pour toutes leurs activités. Création et interprétation littéraires et artistiques - Services annexes des spectacles (tout intermittent du spectacle).;14;CC;33;CC;33;*;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+923BA;B;ZZ;X;;00;ZZ;000;ZZ;000;*;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+923BA;N;CC;X;Services annexes des spectacles;14;CC;043;CC;043;*;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+923DA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+923DA;N;DD;X;Débits de boissons (avec spectacle), sauf les artistes;21;DD;035;DD;035;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+923DD;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+923DD;N;CC;X;Gestion d'équipements culturels socio-éducatifs et de salles de spectacles (sauf les artistes);14;CC;031;CC;031;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+923FA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+923FA;N;CC;X;Attractions foraines (sauf les artistes) sans montage de manège;13;CC;031;CC;031;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+923FB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+924ZA;N;CC;X;Agence de presse, y compris journalistes et photographes indépendants;10;CC;002;CC;002;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+925AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+925AA;N;CC;X;Gestion de bibliothèques et conservation du patrimoine culturel (monument privé, musée privé);14;CC;031;CC;031;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+926AA;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;1;0
+926AA;N;CC;X;Gestion d'équipements et centres sportifs (personnel non visé  ailleurs et notamment aux risques 92.6CH et 92.6CI);14;CC;31;CC;31;;1;0;0;0;0;0;1;1;1;0;0;0;1;0
+926CA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+926CA;N;CC;X;Courses de chevaux, courses de taureaux;13;CC;049;CC;049;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+926CC;B;ZZ;;;00;ZZ;000;ZZ;000;*;0;0;0;00000;1;0;0;1;0;1;1;0;1;0
+926CC;N;ZZ;;Cadets de golf;00;ZZ;000;ZZ;000;*;0;0;0;00000;1;0;0;1;0;1;1;0;1;0
+926CG;B;ZZ;X;;0;ZZ;0;ZZ;0;*;1;0;0;0;0;0;1;1;1;0;0;0;1;0
+926CG;N;CC;X;Associations ou sociétés sportives ne gérant pas d'équipements;13;CC;48;CC;48;*;1;0;0;0;0;0;1;1;1;0;0;0;1;0
+926CH;B;ZZ;;;0;ZZ;0;ZZ;0;;0;0;0;0;0;0;1;1;1;0;0;0;1;0
+926CH;N;CC;;Sportifs professionnels, y compris entraîneurs joueurs, quel que soit le classement de l'établissement qui les emploie : rugby, escalade, moto, handball, basket;13;CC;35;CC;35;;0;0;0;0;0;0;1;1;1;0;0;0;1;0
+926CI;B;ZZ;;;0;ZZ;0;ZZ;0;;0;0;0;0;0;0;1;1;1;0;0;0;1;0
+926CI;N;CC;;Sportifs professionnels, pour les sports non visés par ailleurs, incluant également les entraîneurs non joueurs des sports visés par le 926CH, quel que soit le;13;CC;34;CC;34;;0;0;0;0;0;0;1;1;1;0;0;0;1;0
+927AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+927AA;N;CC;X;Jeux de hasard et d'argent;13;CC;049;CC;049;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+927AB;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+927AB;N;CC;X;Organisation de jeux de hasard et d'argent (dont courses de chevaux et de taureaux).;13;CC;49;CC;49;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+927CA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;1;0
+927CA;N;CC;X;Autres spectacles et services récréatifs (bal, dancing, patinage, curiosités naturelles, spectacles son et lumière, parcs zoologiques privés, parcs d'attraction;13;CC;031;CC;031;;1;0;0;00000;0;0;1;1;1;0;0;0;1;0
+927CB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;1;0
+927CB;N;CC;X;Attractions foraines (sauf les artistes) sans montage de manège. Autres spectacles et services récréatifs (Y compris bal, dancing, patinage, curiosités;13;CC;031;CC;031;;1;0;0;00000;0;0;1;1;1;0;0;0;1;0
+515EC;N;FF;X;Commerce de gros et demi-gros de placage et contre-plaqués, de panneaux de particules et lattés;05;FF;004;FF;004;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+515EF;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+515EF;N;FF;X;Commerce de gros et demi gros de futailles, d'articles semi-finis en bois sciés et de menuiseries de bâtiments, de placage et contreplaqués, de panneaux de par;05;FF;004;FF;004;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+515EG;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+515EG;N;FF;X;Commerce du bois;5;FF;4;FF;4;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+515FA;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+515FA;N;GG;X;Commerce de gros de matériaux de construction;1;GG;23;GG;23;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+515LA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+515LA;N;GG;X;Commerce de gros de produits chimiques;09;GG;003;GG;003;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+516CA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+516CA;N;GG;X;Commerce de gros d'équipement pour la construction;02;GG;034;GG;034;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+516GB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+516GB;N;GG;X;Commerce de gros de matériel électroménager, multimédia, informatique et de mobilier de bureau;08;GG;010;GG;010;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+516GC;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+516GC;N;GG;X;Commerce de gros et location de matériel de bureau, électroménager, multimédia et informatique.;8;GG;10;GG;10;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+516KB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+516KB;N;GG;X;Commerce de gros de quincaillerie, de produits pour l'aménagement de l'habitat, de fournitures et d'équipements industriels;08;GG;001;GG;001;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+516KC;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+516KC;N;GG;X;Commerce de gros d'équipement industriel et de la maison, d'équipement de la personne et de produits pharmaceutiques.;8;GG;1;GG;1;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+516LB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+516LB;N;GG;X;Commerce de gros autres;09;GG;025;GG;025;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+516LC;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+516LC;N;GG;X;Intermédiaires du commerce avec manutention. Commerce de gros de produits chimiques et autres.;9;GG;25;GG;25;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+516NA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+516NA;N;GG;X;Commerce de gros de matériel agricole;02;GG;034;GG;034;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+516NB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+513TA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+513TA;N;DD;X;Commerce de gros alimentaires spécialisé ou non, divers;09;DD;017;DD;017;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+513TB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+513TB;N;DD;X;Commerce de gros de café,thé,épices,produits base de viandes,volailles,produits laitiers,produits surgelés, confiserie et centrales achats alimentaires;13;DD;010;DD;010;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+522JA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+522JA;N;DD;X;Commerce de détail de boissons;06;DD;018;DD;018;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+522NA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+522NA;N;DD;X;Commerce de détail de produits laitiers;10;DD;018;DD;018;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+522PA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+522PA;N;DD;X;Commerce de détail alimentaire spécialisé divers;05;DD;018;DD;018;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+523AB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+523AB;N;GG;X;Commerce de parfum et produits de beauté et commerce de détail de produits pharmaceutiques;12;GG;032;GG;032;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+523AC;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+523AC;N;GG;X;Commerce de détail de produits pharmaceutiques, d'articles médicaux et orthopédiques, d'optique et photographiques, de parfumerie et de produits de beauté.;12;GG;32;GG;32;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+523CA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+523CA;N;GG;X;Commerce de détail d'articles médicaux et orthopédiques;11;GG;008;GG;008;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+524CC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+516NB;N;GG;X;Commerce de gros d'équipement pour la construction et de matériel agricole;02;GG;034;GG;034;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+516NC;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+516NC;N;GG;X;Commerce de gros ou location de matériel de construction (batiment et travaux publics) et agricole.;2;GG;34;GG;34;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+521AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+521AA;N;DD;X;Commerce de détail de produits surgelés;20;DD;018;DD;018;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+521BA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+521BA;N;DD;X;Commerce d'alimentation générale;05;DD;018;DD;018;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+521BC;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+521BC;N;DD;X;Commerce de détail de produits laitiers, de produits surgelés, de fruits et légumes, de boissons et d'alimentation générale;8;DD;11;DD;11;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+521CB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+521CB;N;DD;X;Supérettes;05;DD;018;DD;018;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+521DA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+521DA;N;DD;X;Supermarchés (commerce de détail non spécialisé à prédominance alimentaire dont la surface de vente est inférieure à 2 500 m2);05;DD;019;DD;019;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+521FA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+521FA;N;DD;X;Hypermarchés (commerce de détail non spécialisé à prédominance alimentaire dont la surface de vente est supérieure à 2 500 m2);05;DD;020;DD;020;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+521FB;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+521FB;N;DD;X;Grande et moyenne distribution et Drive. Vente par automate.;5;DD;20;DD;20;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+521HB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+521HB;N;GG;X;Grands magasins et magasins multi-commerces;03;GG;029;GG;029;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+522AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+522AA;N;DD;X;Commerce de détail de fruits et légumes;18;DD;018;DD;018;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+522CA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+522CA;N;DD;X;Commerce de détail de viandes et produits à base de viande;01;DD;025;DD;025;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+522CB;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+522CB;N;DD;X;Commerce de détail de viandes, poissons, charcuterie artisanale y compris traiteurs, organisateurs de réception;8;DD;16;DD;16;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+522EA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+522EA;N;DD;X;Commerce de détail de poissons, crustacés et mollusques;04;DD;023;DD;023;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+522GA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+522GA;N;DD;X;Commerce de détail de pain, pâtisserie et confiserie;07;DD;018;DD;018;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+524CC;N;GG;X;Commerce de détail de l'habillement, textiles, chaussure, maroquinerie;11;GG;022;GG;022;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+524CD;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+524CD;N;GG;X;Commerce de détail de l'habillement, textiles, chaussures, maroquinerie. Vente à distance. Commerce de bijouterie, d'horlogerie, et d'orfèvrerie.;11;GG;22;GG;22;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+524HB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+524HB;N;GG;X;Commerce de meubles et de literie et décorateur d'ameublement (commerçant);06;GG;006;GG;006;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+524HC;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+524HC;N;GG;X;Grands magasins, magasins multi-commerces ou magasins populaires, commerces de meubles et de décoration de la maison;6;GG;6;GG;6;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+524JC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+524JC;N;GG;X;Commerce de détail de la céramique mobilière et de la verrerie;11;GG;026;GG;026;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+524JD;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+524JD;N;GG;X;Commerce de détail d'objets en caoutchouc, en plastique ou en liège;11;GG;019;GG;019;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+524LA;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+524LA;N;GG;X;Commerce de détail et location de matériel électroménager, multimédia, informatique;8;GG;4;GG;4;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+524NA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+524NA;N;GG;X;Commerce de détail de quincaillerie et de droguerie (surface de vente inférieure à 400 m2);08;GG;026;GG;026;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+524PA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+741GB;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+741GB;N;HH;X;Groupements d'employeurs. Coopératives d'activité et d'emploi. Services divers rendus principalement aux entreprises non désignés par ailleurs.;2;HH;1;HH;1;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+741GC;B;ZZ;;;0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;1;1;0;0;0;0;1;0
+741GC;N;ZZ;;Salarié bénéficiant du titre de travail simplifié dans les départements d'outre mer et à Saint Pierre et Miquelon en application de l'article L.1522-3 du code d;0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;1;1;0;0;0;0;1;0
+741GD;B;ZZ;X;;0;ZZ;0;ZZ;0;*;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+741GD;N;HH;X;Crédit-bail mobilier et immobilier, location de brevets. Cabinets juridiques et offices publics ou ministériels. Cabinets d'expertise comptable et d'analyse fin;2;HH;1;HH;1;*;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+741JA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+741JA;N;HH;X;Holdings;02;HH;001;HH;001;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+741JB;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+741JB;N;HH;X;Holdings. Cabinets de conseils en information et documentation. Cabinets d'études économiques, sociologiques, marchandisage.;2;HH;1;HH;1;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+711ZB;N;GG;X;Location de véhicules automobiles, de machines et équipements agricoles. Ecoles de conduite. Exploitation de parkings.;07;GG;018;GG;018;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+713CA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+713CA;N;GG;X;Location de matériel pour le bâtiment et les travaux publics (sans montage ni personnel de service);14;GG;016;GG;016;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+742CB;B;ZZ;X;;0;ZZ;0;ZZ;0;*;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+742CB;N;HH;X;Cabinets d'études techniques : agences de brevets, expertises, expertises en oeuvre d'art. - Expert chargé d'évaluer les dommages (ou les risques);2;HH;4;HH;4;*;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+742CC;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+742CC;N;BB;X;Activités de conseil et d'assistance : ingénierie, architecture, hygiène et sécurité, topographie, métrés;18;BB;016;BB;016;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+742CD;B;BB;X;;00;BB;021;BB;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+742CD;N;BB;X;Activité de conseil et d'assistance : ingénierie, architecture, hygiène et sécurité, topographie, métrés. Décorateur d'ameublement (sans commerce d'ameublement;18;BB;016;BB;016;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+742CE;B;BB;X;;0;BB;21;BB;21;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+742CE;N;BB;X;Conception de projets architecturaux y compris décoration, Ingénierie du BTP (y compris topographie, métrés, hygiène et sécurité, etc);18;BB;16;BB;16;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+743BA;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+743BA;N;HH;X;Bureaux d'essais, bancs d'essais;2;HH;7;HH;7;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+744AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+744AA;N;CC;X;Créateurs et intermédiaires de publicité : régies publicitaires avec affichage;10;CC;040;CC;040;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+744BA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+244CA;N;EE;X;Fabrication de spécialités pharmaceutiques;09;EE;002;EE;002;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+244CB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+244CB;N;EE;X;Fabrication de produits de base pour la pharmacie, d'alcaloïdes, de glucosides et dérivés, de produits extraits des algues. Fabrication de spécialités pharmace;09;EE;002;EE;002;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+244CC;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+244CC;N;EE;X;Fabrication de préparations pharmaceutiques, de cosmétiques et de parfums. Fabrication et transformation d'extraits de végétaux, d'algues, bois résineux. Fabric;9;EE;10;EE;10;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+244DA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+244DA;N;EE;X;Fabrication d'autres produits pharmaceutiques;09;EE;001;EE;001;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+245AB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+245AB;N;EE;X;Fabrication de produits savonniers;05;EE;003;EE;003;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+245AC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+245AC;N;EE;X;Fabrication de produits de ménage et de produits d'entretien;05;EE;003;EE;003;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+245AE;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+245AE;N;EE;X;Traitement chimique de corps gras. Fabrication de produits de base pour détergents;03;EE;002;EE;002;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+245CA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+245CA;N;EE;X;Parfumerie;10;EE;002;EE;002;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+245CB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+245CB;N;EE;X;Parfumerie. Fabrication d'huiles essentielles, arômes naturels;10;EE;002;EE;002;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+524PA;N;FF;X;Commerce de détail des bois de menuiserie de placage et contre-plaqués, de panneaux de particules et lattés;05;FF;002;FF;002;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+524PB;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+524PB;N;GG;X;Commerce de détail de bricolage (surface de vente supérieure ou égale à 400 m2);8;GG;27;GG;27;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+524RB;B;ZZ;;;0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;1;1;0;0;1;0;1;0
+524RB;N;ZZ;;Vendeur-colporteur de presse, porteurs de presse visés à l'article L. 311-3 (18e) du code de la sécurité sociale;0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;1;1;0;0;1;0;1;0
+524TB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+524TB;N;GG;X;Commerce de matériels optiques et photographiques;12;GG;033;GG;033;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+524VB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+524VB;N;GG;X;Commerce de bijouterie, d'horlogerie et d'orfevrerie;12;GG;014;GG;014;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+524WA;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+524WA;N;GG;X;Commerce de détail et location associée d'articles de sport et de loisirs, y compris cycles;11;GG;20;GG;20;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+524XB;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+524XB;N;GG;X;Commerce de fleurs et d'animaux d'agrément.;12;GG;5;GG;5;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+524ZC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+524ZC;N;GG;X;Commerce de détail autres;11;GG;021;GG;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+524ZD;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+524ZD;N;GG;X;Commerce de détail de quincaillerie et de droguerie (surface de vente inférieure à 400 m2), céramique mobilière, arts de la table, jouets, instruments de musiqu;11;GG;21;GG;21;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+526AB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+526AB;N;GG;X;Vente par correspondance;03;GG;015;GG;015;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+526DA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+526DA;N;DD;X;Commerce de détail alimentaire sur éventaires et marchés;05;DD;018;DD;018;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+526GA;B;ZZ;;;0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;1;1;0;0;1;0;1;0
+526GA;N;ZZ;;Vendeur à domicile visé à l'article L. 311-3 (20e) du code de la sécurité sociale;0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;1;1;0;0;1;0;1;0
+526HA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+526HA;N;DD;X;Vente par automate quel que soit le produit vendu : installation, approvisionnement, entretien, encaissement;12;DD;028;DD;028;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+527AC;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+527AC;N;FF;X;Autres industries du cuir;13;FF;42;FF;42;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+527CB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+527CB;N;AA;X;Réparation ou entretien de matériel ménager (y compris électrique et électronique);22;AA;047;AA;047;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+527HG;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;1;0
+527HG;N;GG;X;Petits métiers de la rue, repasseurs de couteaux, de ciseaux, rempailleurs, rétameurs;15;GG;012;GG;012;;1;0;0;00000;0;0;1;1;1;0;0;0;1;0
+551AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+551AA;N;DD;X;Hôtels avec restaurant;21;DD;032;DD;032;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+551CA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+551CA;N;DD;X;Hôtels sans restaurant;21;DD;033;DD;033;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+551CB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+551CB;N;DD;X;Hôtels sans restaurant et foyers;16;DD;023;DD;023;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+552AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;1;0
+552AA;N;DD;X;Installations d'hébergement à équipements légers (auberges de jeunesse, camps de vacances, terrains de camping, caravaning, etc.);21;DD;037;DD;037;;1;0;0;00000;0;0;1;1;1;0;0;0;1;0
+552EA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+552EA;N;DD;X;Wagons-lits et wagons-restaurants;21;DD;033;DD;033;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+552EB;B;ZZ;X;;00;ZZ;000;ZZ;000;*;1;0;0;00000;0;0;1;1;1;0;0;0;1;0
+552EB;N;DD;X;Installations d'hébergement à équipements développés (colonies de vacances, etc.);21;DD;038;DD;038;*;1;0;0;00000;0;0;1;1;1;0;0;0;1;0
+552EC;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+552EC;N;DD;X;Installations d'hébergement à équipements légers ou développés;16;DD;25;DD;25;;1;0;0;0;0;0;1;1;1;0;0;0;1;0
+552FB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;1;0
+552FB;N;DD;X;Foyers d'étudiants, de jeunes travailleurs, de marins et de soldats, résidences universitaires;21;DD;033;DD;033;;1;0;0;00000;0;0;1;1;1;0;0;0;1;0
+553AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+553AA;N;DD;X;Restaurants et cafés-restaurants (sans hébergement);21;DD;032;DD;032;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+553AB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+553AB;N;DD;X;restaurants, café-tabac et hôtels avec restaurants;16;DD;022;DD;022;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+553AC;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+553AC;N;DD;X;Restaurants, café-tabac, hôtels avec ou sans restaurant et foyers.;16;DD;22;DD;22;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+553BA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+553BA;N;DD;X;Restauration type rapide;21;DD;039;DD;039;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+553BC;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+553BC;N;DD;X;Restauration type rapide y compris Wagons-lits et wagons-restaurants;16;DD;26;DD;26;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+554AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+554AA;N;DD;X;Cafés-tabac;21;DD;033;DD;033;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+554BA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+554BA;N;DD;X;Débits de boissons (sans spectacle);21;DD;033;DD;033;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+554BB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+554BB;N;DD;X;Cafés associés à une autre activité;21;DD;033;DD;033;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+555AA;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+555AA;N;DD;X;Restauration collective;16;DD;24;DD;24;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+555DA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+555DA;N;DD;X;Traiteurs;21;DD;034;DD;034;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+601ZA;B;ZZ;;;0;ZZ;0;ZZ;0;*;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+601ZA;N;CC;;Transport ferroviaire : personnel contractuel SNCF;5;CC;3;CC;3;*;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+601ZB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+601ZB;N;CC;X;Transport ferroviaire : chemin de fer d'intérêt général, voies d'intérêt local. - Exploitation d'embranchements particuliers;05;CC;005;CC;005;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+602AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+602AA;N;CC;X;Transports urbains de voyageurs;02;CC;004;CC;004;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+602BB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+602BB;N;CC;X;Transport routier de voyageurs;02;CC;005;CC;005;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+602BC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+602BC;N;CC;X;Transport routier de voyageurs. Transport ferroviaire : chemin de fer d'intérêt général et local. Exploitation d'embranchements particuliers;02;CC;005;CC;005;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+602BD;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+602BD;N;CC;X;Transports terrestres de voyageurs, y compris par taxi;2;CC;5;CC;5;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+602CA;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+602CA;N;CC;X;Téléphériques, remontées mécaniques;7;CC;5;CC;5;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+602EA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+602EA;N;CC;X;Transport de voyageurs par taxi;02;CC;010;CC;010;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+602MD;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+602MD;N;CC;X;Transports routiers de marchandises;01;CC;008;CC;008;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+602ME;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+602ME;N;CC;X;Transports routiers de marchandises par véhicules isothermes, frigorifiques ou réfrigérants;01;CC;006;CC;006;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+602MF;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+602MF;N;CC;X;Transports routiers associés (marchandises et voyageurs);03;CC;012;CC;012;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+602MG;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+602MG;N;CC;X;Transports routiers de marchandises. Location de véhicules avec chauffeur;1;CC;8;CC;8;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+602NA;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+602NA;N;CC;X;Déménagement et garde-meubles;1;CC;13;CC;13;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+602PC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+602PC;N;CC;X;Location de véhicules utilitaires et industriels;01;CC;009;CC;009;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+603ZA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+603ZA;N;EE;X;Transports par conduite;11;EE;001;EE;001;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+611AB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+611AB;N;CC;X;Transports maritimes et côtiers de personnes et de marchandises y compris la location de bateaux avec équipage;04;CC;015;CC;015;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+612ZB;B;ZZ;;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;1;0;0
+612ZB;N;CC;;Transports fluviaux de marchandises;04;CC;022;CC;022;;1;0;0;00000;0;0;1;1;1;0;0;1;0;0
+612ZC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+612ZC;N;CC;X;Transports fluviaux et services associés, à l'exclusion du transport de marchandises, entreposage, manutention;04;CC;015;CC;015;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+621ZA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+621ZA;N;CC;X;Transports aériens réguliers et non réguliers : personnel non navigant;06;CC;014;CC;014;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+621ZB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+621ZB;N;CC;X;Transports aériens réguliers et non réguliers : personnel navigant;06;CC;016;CC;016;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+621ZC;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+621ZC;N;CC;X;Transports aériens réguliers et non réguliers : personnel navigant et non navigant. Services aéroportuaires;6;CC;14;CC;14;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+631AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+631AA;N;CC;X;Chargement, déchargement ou manutention de marchandises dans les ports maritimes (personnel mensualisé ou occasionnel);04;CC;021;CC;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+631AB;B;ZZ;X;;00;ZZ;000;ZZ;000;;0;0;0;00000;0;0;1;1;1;0;0;0;0;0
+631AB;N;CC;X;Ouvriers poissonniers soumis au régime de la vignette;04;CC;022;CC;022;;0;0;0;00000;0;0;1;1;1;0;0;0;0;0
+631AY;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+631AY;N;CC;X;Chargement et déchargement de marchandises dans les ports maritimes (activités dans les départements d'outre-mer);04;CC;050;CC;050;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+631AZ;B;ZZ;X;;0;ZZ;0;ZZ;0;;0;0;1;3500;0;0;1;1;1;0;1;0;0;0
+631AZ;N;CC;X;Ouvriers dockers maritimes intermittents, soumis au régime de la vignette, et effectuant quel que soit le classement de l'entreprise qui les emploie des opérati;4;CC;27;CC;27;;0;0;1;3500;0;0;1;1;1;0;1;0;0;0
+631BC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+631BC;N;CC;X;Entreprises de manutention (non visées aux numéros de risque 63.1ED et 74.7ZE);08;CC;022;CC;022;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+631BD;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+632AD;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+632AD;N;CC;X;Gares routières et exploitation d'ouvrages routiers à péages;03;CC;017;CC;017;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+632CD;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+632CD;N;CC;X;Services portuaires, maritimes et fluviaux non désignés par ailleurs;04;CC;015;CC;015;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+632CE;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+632CE;N;CC;X;Entreprises d'armement pour la pêche en mer. Transports maritimes et côtiers de personnes et de marchandises y compris la location de bateaux avec équipage. Tr;04;CC;015;CC;015;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+632CF;B;ZZ;;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+632CF;N;CC;;Transports par eau de marchandises et de passagers, et services auxiliaires;4;CC;15;CC;15;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+632EA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+632EA;N;CC;X;Services aéroportuaires;06;CC;014;CC;014;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+633ZA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+633ZA;N;CC;X;Agences de voyage;08;CC;023;CC;023;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+633ZB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+633ZB;N;CC;X;Office de tourisme;14;CC;047;CC;047;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+633ZC;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+633ZC;N;CC;X;Agences de voyage - Offices de tourisme;8;CC;23;CC;23;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+634AA;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+634AA;N;CC;X;Entreprises de groupage effectuant directement ou non l'enlèvement ou la livraison à domicile des marchandises, messagerie, fret express;1;CC;7;CC;7;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+634CE;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+634CE;N;CC;X;Affrètement et organisation des transports maritimes;04;CC;015;CC;015;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+634CF;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+634CF;N;CC;X;Affrètement et organisation de transports routiers;03;CC;018;CC;018;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+634CG;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+634CG;N;CC;X;Affrètement et organisation de transports aériens;06;CC;018;CC;018;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+634CH;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+634CH;N;CC;X;Affrètement et organisation de transports routiers ou aériens;06;CC;018;CC;018;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+634CI;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+634CI;N;CC;X;Affrètement et organisation des transports maritimes, routiers ou aériens. Gares routières et exploitation d'ouvrages routiers à péage;6;CC;18;CC;18;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+641AA;B;ZZ;;;0;ZZ;0;ZZ;0;*;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+641AA;N;CC;;Services postaux et financiers;7;CC;44;CC;44;*;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+641CA;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+641CA;N;CC;X;Autres activités de courrier : activités autres que celles exercées par La Poste. - Acheminement du courrier, lettre, colis généralement en express. - Activités;1;CC;45;CC;45;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+642AA;B;ZZ;;;0;ZZ;0;ZZ;0;*;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+642AA;N;CC;;Télécommunications nationales;12;CC;46;CC;46;*;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+642BA;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+642BA;N;CC;X;Activités de télécommunications hors télécommunications nationales, y compris les activités de télésurveillance (sans personnel d'intervention sur le site surve;12;CC;46;CC;46;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+631BD;N;CC;X;Manutention, entreposage dans les ports fluviaux. Entreprises de manutention (non visées au numéro de risque 74.7ZE);08;CC;022;CC;022;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+631BE;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+631BE;N;CC;X;Manutention, chargement, déchargement, entreposage de marchandises ou fret dans les ports maritimes et fluviaux, et les aéroports;8;CC;22;CC;22;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+631DA;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+631DA;N;DD;X;Entreposage frigorifique;15;DD;12;DD;12;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+631EB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+631EB;N;CC;X;Entrepôts, docks, magasins généraux (non frigorifiques) non reliés à une voie d'eau;08;CC;020;CC;020;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+631EC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+631EC;N;CC;X;Entrepôts de liquides en vrac avec installations de pompage;08;CC;019;CC;019;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+631ED;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+631ED;N;CC;X;Manutention, entreposage dans les ports fluviaux;04;CC;022;CC;022;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+631EE;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+631EE;N;CC;X;Entreposage et stockage non frigorifique non reliés à une voie d'eau. Entreposage de liquides en vrac.;8;CC;20;CC;20;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+651AA;B;ZZ;X;;00;ZZ;000;ZZ;000;*;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+651AA;N;HH;X;Organismes financiers;02;HH;001;HH;001;*;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+651AB;B;ZZ;X;;0;ZZ;0;ZZ;0;*;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+651AB;N;HH;X;Organismes et auxiliaires financiers - Bourse de commerce.;2;HH;1;HH;1;*;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+652AA;B;ZZ;X;;00;ZZ;000;ZZ;000;*;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+652AA;N;HH;X;Crédit-bail mobilier et immobilier, location de brevets;02;HH;001;HH;001;*;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+660AA;B;ZZ;X;;00;ZZ;000;ZZ;000;*;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+660AA;N;HH;X;Assurances;02;HH;002;HH;002;*;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+660AB;B;ZZ;X;;0;ZZ;0;ZZ;0;*;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+660AB;N;HH;X;Assurances et auxiliaires d'assurances.;2;HH;2;HH;2;*;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+671AA;B;ZZ;X;;00;ZZ;000;ZZ;000;*;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+671AA;N;HH;X;Auxiliaires financiers. - Bourse de commerce;02;HH;001;HH;001;*;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+672ZA;B;ZZ;X;;00;ZZ;000;ZZ;000;*;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+672ZA;N;HH;X;Auxiliaires d'assurances;02;HH;002;HH;002;*;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+701AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+701AA;N;GG;X;Promoteurs (sauf administration d'immeubles) : avec personnel technique ou d'entretien;12;GG;017;GG;017;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+701AB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+701AB;N;GG;X;Promoteurs (sauf administration d'immeubles) : sans personnel technique ou d'entretien;15;GG;012;GG;012;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+702AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+702AA;N;GG;X;Location de logements (avec personnel technique ou d'entretien);12;GG;017;GG;017;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+702AB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+702AB;N;GG;X;Location de logements (sans personnel technique ou d'entretien);15;GG;012;GG;012;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+702CA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+702CA;N;GG;X;Location d'immeubles à usages industriels et commerciaux;12;GG;017;GG;017;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+703AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+703AA;N;GG;X;Agences et sociétés immobilières (sauf administration d'immeubles) : avec personnel technique ou d'entretien;12;GG;017;GG;017;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+703AB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+703AB;N;GG;X;Agences et sociétés immobilières (sauf administration d'immeubles) : sans personnel technique ou d'entretien;15;GG;017;GG;017;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+703AC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+703AC;N;GG;X;Promoteurs ou location de logements avec personnel technique ou d'entretien   Agences et sociétés immobilières - Locations d'immeubles à usage industriel et co;15;GG;017;GG;017;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+703AD;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+703AD;N;GG;X;Promotion, vente, location ou administration de biens immobiliers.;15;GG;17;GG;17;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+703CA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+703CA;N;GG;X;Administration d'immeubles;12;GG;012;GG;012;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+703CB;B;ZZ;X;;0;ZZ;0;ZZ;0;*;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+703CB;N;GG;X;Concierges et employés d'immeubles;15;GG;11;GG;11;*;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+703CC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+703CC;N;GG;X;Promoteurs ou location de logement sans personnel technique ou d'entretien   Administrations d'immeubles;12;GG;012;GG;012;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+711ZB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+713EA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+713EA;N;GG;X;Location de matériel de bureau;15;GG;012;GG;012;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+714AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+714AA;N;FF;X;Location de linge et de vêtements professionnels associée à l'activité de blanchisserie;11;FF;037;FF;037;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+714AB;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+714AB;N;GG;X;Location de biens de consommation (mobiliers, linges, bâches, sacs, etc.) et d'autres biens d'équipements;12;GG;9;GG;9;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+714AC;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+714AC;N;FF;X;Blanchisserie et teinturerie de gros, y compris la location de linge et vêtements professionnels blanchis.;11;FF;37;FF;37;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+723ZA;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+723ZA;N;HH;X;Travaux informatiques à façon;2;HH;4;HH;4;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+724ZA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+724ZA;N;HH;X;Cabinets de conseils en information et documentation y compris avec serveur Minitel;02;HH;001;HH;001;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+725ZA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+725ZA;N;AA;X;Entretien et réparation de machines de bureau et de matériel informatique;15;AA;045;AA;045;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+725ZB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+725ZB;N;AA;X;Fabrication, réparation de matériels de bureau et de matériels informatiques et activités connexes;15;AA;045;AA;045;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+731ZA;B;ZZ;;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+731ZA;N;AA;;Entreprises de recherche dans le domaine de la construction électrique, radioélectrique et de l'électronique;24;AA;053;AA;053;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+731ZB;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+731ZB;N;EE;X;Chimie expert. Laboratoires de recherches chimiques;11;EE;2;EE;2;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+731ZC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+731ZC;N;HH;X;Recherche scientifique et technique;02;HH;004;HH;004;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+731ZD;B;ZZ;;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+731ZD;N;HH;;Etablissements de recherche scientifique et technique relevant du secteur public;02;HH;003;HH;003;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+731ZE;B;ZZ;;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+731ZE;N;HH;;Etablissements de recherche scientifique et technique;2;HH;13;HH;13;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+741AA;B;ZZ;X;;00;ZZ;000;ZZ;000;*;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+741AA;N;HH;X;Cabinets juridiques et offices publics ou ministériels;02;HH;001;HH;001;*;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+741CA;B;ZZ;X;;00;ZZ;000;ZZ;000;*;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+741CA;N;HH;X;Cabinets d'expertise comptable et d'analyse financière;02;HH;001;HH;001;*;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+741EA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+741EA;N;HH;X;Cabinets d'études économiques, sociologiques, marchandisage;02;HH;001;HH;001;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+741GA;B;ZZ;X;;00;ZZ;000;ZZ;000;*;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+741GA;N;HH;X;Cabinets d'études informatiques et d'organisation;02;HH;001;HH;001;*;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+287NC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+287NC;N;AA;X;Fabrication de petits articles métalliques (dont instruments de bureau et bimbeloterie);14;AA;025;AA;025;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+287PC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+287PC;N;AA;X;Fabrication de tuyaux métalliques flexibles;13;AA;025;AA;025;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+291AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+291AA;N;AA;X;Fabrication de moteurs autres que pour les aéronefs, les automobiles, les motocycles;09;AA;034;AA;034;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+291AD;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+291AD;N;AA;X;Fabrication de turbines;10;AA;034;AA;034;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+291AE;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+291AE;N;AA;X;Fabrication de moteurs autres que pour les aéronefs, les automobiles, les motocycles. Fabrication de turbines, de compresseurs .;10;AA;034;AA;034;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+291AF;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+291AF;N;AA;X;Fabrication de composants mécaniques : transmissions hydrauliques et pneumatiques, turbines, compresseurs, roulements, matrices, poinçons, moules et modèles, or;10;AA;34;AA;34;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+286DD;N;AA;X;Fabrication d'outillages mécaniques, outils pour machines ou d'outillages à base de diamants, de filières de diamant;11;AA;019;AA;019;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+286DE;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+286DE;N;AA;X;Fabrication de machines-outils, machines spécialisées , outillage, matériel pour la métallurgie, la fonderie, le soudage;11;AA;019;AA;019;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+286DF;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+286DF;N;AA;X;Fabrication, montage, installation, entretien, réparation de machines, éqpts, outillages:machine-outil, machine pour les industries de process,du textile,du cui;11;AA;19;AA;19;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+286FA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+286FA;N;AA;X;Fabrication de quincaillerie;13;AA;017;AA;017;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+286FB;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+286FB;N;AA;X;Fabrication de boulonnerie, ressorts, visseries et quincaillerie. Fabrication et/ou entretien de couverts, couteaux, ciseaux, rasoirs. Fabrication d'articles de;13;AA;17;AA;17;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+287AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+00000;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;1;0;0;0;0;0;0;0;1;0
+00000;N;ZZ;X;compte special;0;ZZ;0;ZZ;0;;1;0;0;0;1;0;0;0;0;0;0;0;1;0
+0000A;N;BB;X;Personnel des sièges sociaux et bureaux du BTP.;0;BB;21;BB;21;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+0000B;N;ZZ;X;Sièges sociaux et bureaux (hors BTP);0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+011AA;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+011AA;N;DD;X;Cultures et élevage dans les départements d'outre-mer;20;DD;27;DD;27;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+014AA;B;ZZ;X;;0;ZZ;0;ZZ;0;*;1;0;0;0;0;0;0;1;0;0;0;0;1;0
+014AA;N;ZZ;X;Enoiseur;0;ZZ;0;ZZ;0;*;1;0;0;0;0;0;0;1;0;0;0;0;1;0
+050AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+050AA;N;CC;X;Pêche en mer, entreprises d'armement pour la pêche en mer;04;CC;015;CC;015;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+111ZA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+111ZA;N;EE;X;Production de pétrole et de gaz naturel;07;EE;002;EE;002;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+111ZB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+111ZB;N;EE;X;Production de pétrole et de gaz naturel. Fabrication et distillation d'hydrocarbures benzéniques et de goudrons. Fabrication de térébenthine, de colophane et d;07;EE;002;EE;002;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+111ZC;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+111ZC;N;EE;X;Production,transport par conduite et raffinage de pétrole et de gaz. Fabrication d'ingrédients et d'additifs pour carburation et lubrification,de produits aspha;7;EE;11;EE;11;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+141AG;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+141AG;N;FF;X;Extraction et production de roches massives et de pierres de construction;14;FF;013;FF;013;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+141AH;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+141AH;N;FF;X;Extraction et préparation de matériaux issus des carrières de roches meubles ou massives;14;FF;13;FF;13;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+141CH;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+141CH;N;FF;X;Extraction et préparation d'amendements, de calcaires industriels, de craies, de gypses, de pierre à ciment et à chaux;14;FF;010;FF;010;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+142AE;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+142AE;N;FF;X;Extraction et préparation de matériaux alluvionnaires et de roches meubles;15;FF;014;FF;014;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+145ZL;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+145ZL;N;FF;X;Extraction, broyage et préparation de produits minéraux divers;20;FF;011;FF;011;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+145ZM;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+145ZM;N;FF;X;Extraction, broyage et préparation de produits minéraux divers;14;FF;10;FF;10;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+151AB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+151AB;N;DD;X;Abattage du bétail;01;DD;003;DD;003;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+151AC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+151AC;N;DD;X;Découpe de viandes;01;DD;003;DD;003;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+151AD;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+151AD;N;DD;X;Abattage du bétail, découpe et commerce de gros de viandes de boucherie;03;DD;002;DD;002;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+151AE;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+151AE;N;DD;X;Abattage du bétail, découpe et commerce de gros de viandes de boucherie. Production de viandes de volailles.;3;DD;2;DD;2;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+151CA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+151CA;N;DD;X;Production de viandes de volailles;03;DD;013;DD;013;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+151EB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+151EB;N;DD;X;Préparation industrielle de produits à base de viande (y compris boyauderie);02;DD;003;DD;003;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+151EC;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+151EC;N;DD;X;Transformation et conservation de la viande et préparation de produits à base de viande (y compris boyauderie). Transformation et conservation du poisson.;2;DD;3;DD;3;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+151FA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+151FA;N;DD;X;Charcuterie artisanale;02;DD;025;DD;025;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+152ZA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+152ZA;N;DD;X;Industrie du poisson;04;DD;017;DD;017;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+153CB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+153CB;N;DD;X;Préparation de cidre, de jus de fruits et légumes;06;DD;001;DD;001;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+153EB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+153EB;N;DD;X;Transformation et conservation de légumes;08;DD;007;DD;007;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+153EC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+153EC;N;DD;X;Transformation et conservation de légumes et de fruits;07;DD;005;DD;005;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+153FA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+153FA;N;DD;X;Transformation et conservation de fruits;08;DD;007;DD;007;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+153FB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+153FB;N;DD;X;Fabrication de confitures;08;DD;009;DD;009;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+154AC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+154AC;N;EE;X;Fabrication d'huiles et de corps gras d'origine végétale et animale;03;EE;004;EE;004;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+154AD;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+154AD;N;EE;X;Fabrication de matières colorantes de synthèse. Fabrication électrolytique de chlore, de potasse caustique, de chlorate et perchlorates, de fluor, d'acide fluo;03;EE;004;EE;004;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+154CB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+154CB;N;EE;X;Huiles raffinées, corps gras raffinés d'origine animale et végétale;03;EE;003;EE;003;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+155AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+246AE;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+246AE;N;EE;X;Fabrication de produits explosifs, d'engins et accessoires pyrotechniques;11;EE;003;EE;003;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+246CE;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+246CE;N;EE;X;Fabrication de colles et de gélatines d'origine animale. Fabrication de colles et liquides à base de matières amylacées;11;EE;003;EE;003;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+246CF;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+246CF;N;EE;X;Fabrication de colles à base de résines synthétiques, de colles et dissolutions au caoutchouc naturel et synthétique;13;EE;006;EE;006;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+246EA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+246EA;N;EE;X;Fabrication d'huiles essentielles, d'arômes naturels;10;EE;002;EE;002;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+246GA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+246GA;N;EE;X;Fabrication de produits photographiques et cinématographiques;11;EE;001;EE;001;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+246JA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+246JA;N;AA;X;Fabrication de supports de données non enregistrées;15;AA;053;AA;053;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+246LA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+246LA;N;EE;X;Fabrication d'ingrédients et d'additifs pour carburation et lubrification;11;EE;001;EE;001;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+246LE;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+246LE;N;EE;X;Fabrication de produits oenologiques;11;EE;004;EE;004;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+246LG;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+246LG;N;EE;X;Fabrication de produits chimiques à usage mécanique et métallurgique;01;EE;002;EE;002;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+246LH;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+246LH;N;EE;X;Transports par conduite. Fabrication d'ingrédients et d'additifs pour carburation et lubrification;11;EE;001;EE;001;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+247ZB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+247ZB;N;FF;X;Fabrication de fils, de fibres artificielles ou synthétiques;10;FF;031;FF;031;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+251AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+251AA;N;EE;X;Fabrication de pneumatiques et bandages;12;EE;006;EE;006;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+251AB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+251AB;N;EE;X;Fabrication de tous articles à partir du caoutchouc naturel ou de synthèse (hors activités désignées par ailleurs);12;EE;006;EE;006;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+251AC;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+251AC;N;EE;X;Fabrication d'articles en caoutchouc naturel ou synthétique à partir d'élastomères secs ou sous forme latex ou en solution;12;EE;6;EE;6;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+251CA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+251CA;N;EE;X;Rechapage et réparation industrielle de pneumatiques;12;EE;006;EE;006;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+251EC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+251EC;N;EE;X;Fabrication par calandrage ou tout autre procédé de feuilles ou bandes en caoutchouc. Fabrication d'articles divers en caoutchouc, tuyaux, courroies, etc. Fabric;13;EE;006;EE;006;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+251EG;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+251EG;N;EE;X;Fabrication d'articles d'hygiène et de chirurgie en caoutchouc, de chaussures en caoutchouc et d'articles chaussants.;14;EE;006;EE;006;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+251EH;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+251EH;N;EE;X;Fabrication de tissus caoutchoutés, d'adhésifs. Fabrication à partir du caoutchouc liquide (latex), de tous articles en latex, y compris dispersions et colles;14;EE;007;EE;007;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+251EJ;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+251EJ;N;EE;X;Transformation et confection d'articles en caoutchouc à partir d'ouvrages semi-oeuvrés. Fabrication de jeux, jouets et articles de puériculture;14;EE;007;EE;007;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+251EK;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+251EK;N;EE;X;Fabrication de tissus caoutchoutés, d'adhésifs. Fabrication à partir du caoutchouc liquide (latex), de tous articles en latex, y compris dispersions et colles.;14;EE;007;EE;007;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+252AF;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+252AF;N;EE;X;Fabrication de plaques, feuilles, tubes et profilés en matières plastiques;15;EE;008;EE;008;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+252CH;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+252CH;N;EE;X;Fabrication d'emballages en matières plastiques;15;EE;008;EE;008;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+252EK;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+252EK;N;EE;X;Fabrication d'éléments pour le bâtiment en matières plastiques;15;EE;008;EE;008;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+252GK;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+252GK;N;EE;X;Fabrication d'articles divers en matières plastiques;15;EE;008;EE;008;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+252HJ;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+252HJ;N;EE;X;Fabrication de pièces techniques en matières plastiques;15;EE;008;EE;008;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+252HK;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+252HK;N;EE;X;Fabrication, assemblage d'articles et pièces en matières plastiques, y compris composites.;15;EE;8;EE;8;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+261CB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+261CB;N;FF;X;Fabrication, façonnage et transformation de verre plat;16;FF;016;FF;016;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+261ED;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+261ED;N;FF;X;Fabrication, façonnage et transformation de verre creux;16;FF;015;FF;015;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+261EE;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+261EE;N;FF;X;Fabrication, façonnage et travail technique du verre.;16;FF;15;FF;15;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+261GA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+261GA;N;FF;X;Fabrication de fibres de verre;16;FF;026;FF;026;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+261JD;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+261JD;N;FF;X;Fabrication et façonnage de vitrerie d'art, vitraux et verre technique;16;FF;020;FF;020;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+262AF;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+271ZE;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+271ZE;N;AA;X;Fabrication de fonte ou d'acier;01;AA;001;AA;001;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+271ZF;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+271ZF;N;AA;X;Fonderie de fonte, d acier moulé ou de fonte malléable. Fabrication de fonte, d'acier, d'articles ou tubes en fonte. Fabrication de radiateurs,  de chaudières p;1;AA;1;AA;1;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+272AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+272AA;N;AA;X;Fabrication de tubes en fonte;04;AA;008;AA;008;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+272CC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+272CC;N;AA;X;Fabrication de tubes en acier ou de tubes isolateurs (sauf tubes en fonte);07;AA;005;AA;005;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+273AB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+273AB;N;AA;X;Etirage, laminage à froid de l'acier ou métallurgie des métaux entrant dans les ferro-alliages et métaux connexes;03;AA;003;AA;003;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+273AC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+273AC;N;AA;X;Travail à froid des métaux (étirage, laminage, profilage et pliage) et métallurgie des ferro-alliages et métaux connexes;03;AA;003;AA;003;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+273EA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+273EA;N;AA;X;Profilage à froid par formage ou pliage;03;AA;003;AA;003;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+273GA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+273GA;N;AA;X;Tréfilage à froid;03;AA;003;AA;003;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+262AF;N;FF;X;Fabrication de tuiles et briques en terre cuite, de carreaux et de poterie en céramique;17;FF;017;FF;017;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+262AG;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+262AG;N;FF;X;Fabrication de vaisselle et d'objets en porcelaine ou en faïence;17;FF;19;FF;19;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+262AH;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+262AH;N;FF;X;Fabrication de tuiles et briques et de produits céramiques non désignés par ailleurs.;17;FF;17;FF;17;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+262CA;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+262CA;N;FF;X;Fabrication d'appareils sanitaires en céramique;17;FF;24;FF;24;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+262LA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+262LA;N;FF;X;Fabrication de produits réfractaires;17;FF;025;FF;025;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+264CD;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+264CD;N;FF;X;Fabrication de produits divers en terre cuite ou en grès, de céramique d'art et d'émaux;17;FF;018;FF;018;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+265AB;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+265AB;N;FF;X;Fabrication de ciment, chaux, plâtre, produits en plâtre, agrégats légers, matériaux enrobés d'étanchéité et produits non désignés ailleurs;20;FF;12;FF;12;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+266AA;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+266AA;N;FF;X;Fabrication de produits en béton;19;FF;22;FF;22;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+266EB;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+266EB;N;FF;X;Préparation et livraison de béton prêt à l'emploi (sans mise en oeuvre);20;FF;27;FF;27;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+266JB;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+266JB;N;FF;X;Fabrication de produits en fibre-ciment;19;FF;23;FF;23;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+267ZD;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+267ZD;N;FF;X;Fabrication et pose de produits de marbrerie;18;FF;9;FF;9;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+268AC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+268AC;N;EE;X;Fabrication d'abrasifs appliqués, de carbure de calcium et silicium, de siliciure de calcium et de corindon artificiel;11;EE;004;EE;004;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+268CJ;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+268CJ;N;EE;X;Préparation de produits asphaltés (sans transport ni mise en oeuvre de produits). Fabrication de produits bitumeux de protection (enduits, revêtement);04;EE;005;EE;005;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+268CK;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+268CK;N;EE;X;Fabrication ou transformation d'articles à base de fibres minérales;14;EE;006;EE;006;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+271ZD;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+271ZD;N;AA;X;Laminage à chaud ou relaminage sans fabrication de fonte ni fabrication d'acier;01;AA;002;AA;002;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+273JC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+273JC;N;EE;X;Métallurgie des ferro-alliages;01;EE;005;EE;005;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+273JD;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+273JD;N;EE;X;Carbonisation du bois usine fixe (alcool méthylique). Fabrication de produits dérivés du bois. Métallurgie des ferro-alliages.;01;EE;005;EE;005;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+274CD;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+274CD;N;EE;X;Electrométallurgie et électrochimie associées. Métallurgie de l'aluminium et des autres métaux légers;01;EE;004;EE;004;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+274CE;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+274CE;N;AA;X;Métallurgie de l'aluminium;02;AA;007;AA;007;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+274CF;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+274CF;N;AA;X;Métallurgie de l'aluminium, plomb, zinc, étain, cuivre ou métaux précieux. Métallurgie de métaux non ferreux (Cr,Ni,Mn);02;AA;007;AA;007;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+274CG;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+274CG;N;EE;X;Electrométallurgie et électrochimie associées. Métallurgie de l'aluminium et des autres métaux légers. Fabrication d'électrodes pour l'électrométallurgie et l';01;EE;004;EE;004;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+274CH;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+274CH;N;AA;X;Métallurgie des métaux non ferreux et précieux. Laminage à chaud ou relaminage sans fabrication de fonte ni d'acier.;2;AA;7;AA;7;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+274KB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+274KB;N;AA;X;Métallurgie du plomb, zinc, étain, cuivre ou métaux précieux;02;AA;007;AA;007;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+274MC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+274MC;N;AA;X;Métallurgie de métaux non ferreux (Cr, Ni, Mn) (non compris les formes ferro-alliées);02;AA;007;AA;007;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+275AB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+275AB;N;AA;X;Fonderie de fonte ou fabrication d'articles en fonte;05;AA;008;AA;008;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+275AC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+275AC;N;AA;X;Fonderie de fonte ou fabrication d'articles en fonte. Fabrication de tubes en fonte;05;AA;008;AA;008;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+275CA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+275CA;N;AA;X;Fonderie d'acier moulé et fonte malléable;04;AA;009;AA;009;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+275EA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+275EA;N;AA;X;Fonderie des métaux légers (aluminium, magnésium et alliages);05;AA;010;AA;010;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+275EB;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+275EB;N;AA;X;Fonderie des métaux légers ou non ferreux.;5;AA;10;AA;10;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+275GC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+275GC;N;AA;X;Fonderie de métaux non ferreux autres que les métaux légers;05;AA;010;AA;010;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+281AC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+281AC;N;AA;X;Ateliers de constructions métalliques, y compris fabrication de charpentes;11;AA;011;AA;011;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+281AD;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+281AD;N;AA;X;Construction métallique, fabrication de charpentes,fournitures et armatures métalliques préparées pour le béton armé (préparation des armatures en ateliers hors;11;AA;11;AA;11;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+281CA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+281CA;N;AA;X;Fabrication de menuiseries métalliques;13;AA;013;AA;013;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+281CB;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+281CB;N;AA;X;Fabrication d'articles, de meubles et menuiseries, de fûts et emballages métalliques, de fils et câbles isolés. Fabrication de bouchage, d'emballage, de ferblan;13;AA;13;AA;13;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+282AB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+282AB;N;AA;X;Fabrication de réservoirs, citernes métalliques ou de bouteilles pour gaz comprimés;08;AA;021;AA;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+282DA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+282DA;N;AA;X;Fabrication de radiateurs et de chaudières pour le chauffage central et de cuisine, associée ou non à une activité de fonderie;04;AA;008;AA;008;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+283AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+284BF;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+284BF;N;AA;X;Découpage, emboutissage;03;AA;012;AA;012;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+284BG;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+284BG;N;AA;X;Sciage des métaux, graveurs - estampeurs;21;AA;012;AA;012;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+284BH;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+284BH;N;AA;X;Découpage, emboutissage. Sciage des métaux, graveurs - estampeurs;21;AA;012;AA;012;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+284BI;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+284BI;N;AA;X;Découpage, emboutissage. Sciage des métaux, graveurs-estampeurs. Décolletage.;21;AA;12;AA;12;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+284CA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+284CA;N;AA;X;Métallurgie des poudres et frittage;13;AA;025;AA;025;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+285AA;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+285AA;N;AA;X;Traitement et revêtement des métaux;21;AA;14;AA;14;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+285CA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+285CA;N;AA;X;Décolletage;24;AA;016;AA;016;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+285DA;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+285DA;N;AA;X;Mécanique industrielle;12;AA;15;AA;15;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+285DC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+285DC;N;AA;X;Reconstruction de moteurs (sauf pour l'aéronautique);12;AA;013;AA;013;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+285DF;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+285DF;N;AA;X;Usinage de précision ou réparation d'articles métalliques divers;22;AA;22;AA;22;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+285DG;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+285DG;N;AA;X;Travaux d'intervention, de montage, démontage et entretien de matériels divers dans les usines ' Réparateurs mécaniciens ' Fabrication de manèges pour fêtes for;13;AA;38;AA;38;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+286AC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+286AC;N;AA;X;Fabrication de couverts, couteaux ou rasoirs - Repassage de couteaux, ciseaux;22;AA;025;AA;025;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+286CA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+286CA;N;AA;X;Fabrication d'outillage à main. Fabrication d'outillage électroportatif;13;AA;019;AA;019;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+286DB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+286DB;N;AA;X;Fabrication de matrices et poinçons;12;AA;018;AA;018;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+286DD;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+283AA;N;AA;X;Fabrication de générateurs de vapeur et d'accessoires;07;AA;021;AA;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+283CB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+283CB;N;AA;X;Fabrication de chaudronnerie en acier inoxydable et en métaux non-ferreux;07;AA;036;AA;036;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+283CC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+283CC;N;AA;X;Fabrication de chaudronnerie courante;07;AA;037;AA;037;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+283CD;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+283CD;N;AA;X;Soudure;07;AA;038;AA;038;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+283CE;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+283CE;N;AA;X;Fabrication d'équipements généralement sous pression à partir de tôles d'épaisseur >= 50 mm ou fabrication de chaudronnerie nucléaire;08;AA;021;AA;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+283CF;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+283CF;N;AA;X;;08;AA;021;AA;021;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+283CG;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+283CG;N;AA;X;Chaudronnerie et soudure.;7;AA;37;AA;37;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+283CH;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+283CH;N;AA;X;Fabrication de tubes en acier ou de tubes isolateurs (sauf tubes en fonte). Fabrication de chaudronnerie de contenants (réservoirs, citernes, bouteilles pour ga;8;AA;21;AA;21;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+284AC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+284AC;N;AA;X;Forge, estampage, matriçage;03;AA;015;AA;015;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+284AD;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+284AD;N;AA;X;Forge, estampage, matriçage. Métallurgie des poudres et frittage;3;AA;15;AA;15;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+287AA;N;AA;X;Fabrication de fûts et emballages métalliques similaires;19;AA;026;AA;026;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+287CA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+287CA;N;AA;X;Fabrication de boîtes et d'emballages métalliques pour produits alimentaires, corps gras;13;AA;025;AA;025;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+287CD;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+287CD;N;AA;X;Fabrication de bouchages ou de conditionnement métallique;14;AA;025;AA;025;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+287CE;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+287CE;N;AA;X;Fabrication de bouchage, d'emballage ou de conditionnement métallique;14;AA;025;AA;025;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+287EA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+287EA;N;AA;X;Fabrication d'articles en fils métalliques;06;AA;004;AA;004;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+287EC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+287EC;N;AA;X;Entreprises de fournitures et armatures métalliques préparées pour le béton armé ( préparation des armatures en ateliers, à l'exclusion de la mise en place des é;12;AA;070;AA;070;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+287GA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+287GA;N;AA;X;Boulonnerie, visserie décolletées;20;AA;016;AA;016;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+287GB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+287GB;N;AA;X;Boulonnerie, visserie forgées;20;AA;023;AA;023;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+287HA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+287HA;N;AA;X;Fabrication de ressorts;13;AA;025;AA;025;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+287LD;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+287LD;N;AA;X;Fabrication d'articles métalliques ménagers et ferblanterie ' Repoussage des métaux en feuilles;21;AA;025;AA;025;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+287LE;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+287LE;N;AA;X;Fabrication d'articles métalliques divers et ferblanterie. Repoussage des métaux en feuilles.;21;AA;025;AA;025;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+287NB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+287NB;N;AA;X;Fabrication d'accessoires d'ameublement en bronze et fer forgé;24;AA;026;AA;026;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+204ZC;N;FF;X;Fabrication d'emballages légers, de tonnelets, d'emballages en bois déroulé et fûts d'emballage;04;FF;007;FF;007;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+204ZF;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+204ZF;N;FF;X;Fabrication de caisses en fardeaux, caisses montées, de palettes;03;FF;008;FF;008;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+204ZG;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+204ZG;N;FF;X;Fabrication d'emballages sur mesure, spéciaux en bois, d'articles de tonnellerie;04;FF;007;FF;007;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+204ZH;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+204ZH;N;FF;X;Fabrication d'emballages issus du bois et d'articles de tonnellerie;04;FF;007;FF;007;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+204ZI;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+204ZI;N;FF;X;Fabrication d'emballages issus du bois et d'articles de tonnellerie.;4;FF;44;FF;44;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+205AC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+205AC;N;FF;X;Fabrication de cercueils avec outillage mécanique;04;FF;006;FF;006;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+205AE;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+205AE;N;FF;X;Fabrication d'objets divers en bois, de sabots, d'articles en bois pour chaussure, de tabletterie;06;FF;004;FF;004;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+205CE;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+205CE;N;FF;X;Fabrication d'articles en liège, de vannerie, sparterie, articles en paille, réparateurs de sièges, canneurs, rempailleurs,empailleurs;06;FF;002;FF;002;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+211AD;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+211AD;N;FF;X;Fabrication de pâte à papier intégrée ou non;07;FF;028;FF;028;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+211CE;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+211CE;N;FF;X;Fabrication de papier associée ou non à une transformation;07;FF;028;FF;028;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+211CF;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+211CF;N;FF;X;Fabrication de papiers imprégnés, goudronnés, paraffinés, enduits, peints;09;FF;029;FF;029;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+211ED;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+211ED;N;FF;X;Fabrication de papiers ou articles à usage domestique;09;FF;029;FF;029;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+212AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+212AA;N;FF;X;Fabrication de carton ondulé et de produits en carton ondulé;08;FF;029;FF;029;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+212BB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+212BB;N;FF;X;Fabrication de cartonnage ou de sacs en papier;08;FF;029;FF;029;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+212BC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+212BC;N;FF;X;Fabrication de papiers imprégnés, goudronnés, paraffinés, enduits, peints. Fabrication de papiers ou articles à usage domestique. Fabrication de carton et cart;08;FF;029;FF;029;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+212BD;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+212BD;N;FF;X;Production et transformation des pâtes à papier et carton;7;FF;28;FF;28;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+212GA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+212GA;N;EE;X;Transformation du papier : papier carbone, stencils;11;EE;003;EE;003;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+212GB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+212GB;N;FF;X;Fabrication d'articles de papeterie;09;FF;030;FF;030;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+212LB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+212LB;N;FF;X;Fabrication d'articles divers en papier ou carton;09;FF;029;FF;029;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+221AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+221AA;N;CC;X;Edition de livres et d'ouvrages analogues, y compris images, cartes postales et musique;10;CC;001;CC;001;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+221CA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+221CA;N;CC;X;Journaux d'information : édition et impression;10;CC;002;CC;002;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+221CB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+221CB;N;CC;X;Journaux d'information : édition;10;CC;002;CC;002;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+221CC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+221CC;N;CC;X;Edition seule de journaux d'information. Agence de presse, y compris journalistes et photographes indépendants.;10;CC;002;CC;002;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+221EA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+221EA;N;CC;X;Edition de revues et périodiques;10;CC;001;CC;001;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+221EB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+221EB;N;CC;X;Edition à l'exception des journaux d'information. Fabrication et édition de supports d'enregistrements sonores. Studios et autres activités photographiques, la;10;CC;001;CC;001;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+221GA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+221GA;N;CC;X;Fabrication et édition de bandes, cassettes, disques et disquettes;10;CC;001;CC;001;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+221GB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+241EC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+241EC;N;EE;X;Fabrication de chlorure/soude électrolytique, lessive soude électrolytique. Fabrication de chlorure/sodium (électrolyse ignée);08;EE;003;EE;003;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+241ED;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+241ED;N;EE;X;Fabrication électrolytique de chlore, de potasse caustique. Fabrication de chlorate et perchlorates;08;EE;004;EE;004;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+241EF;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+241EF;N;EE;X;Fabrication de fluor, d'acide fluorhydrique. Fabrication de brome, d'acide bromhydrique;08;EE;004;EE;004;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+241EN;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+241EN;N;EE;X;Fabrication d'eau de Javel, de produits détergents;05;EE;002;EE;002;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+241EP;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+221GB;N;CC;X;Exploitation de studios d'enregistrement sonore reliés ou non à un poste de radiodiffusion (sauf les artistes);11;CC;039;CC;039;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+222AB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+222AB;N;CC;X;Imprimerie de presse;10;CC;002;CC;002;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+222CA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+222CA;N;CC;X;Imprimerie de labeur;10;CC;002;CC;002;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+222CB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+222CB;N;CC;X;Sérigraphie;10;CC;002;CC;002;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+222CC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+222CC;N;CC;X;Imprimerie. Sérigraphie. Reliure, brochure industrielle, brochage, pliage de revue. Edition et impression de journaux d'information;10;CC;002;CC;002;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+222CD;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+222CD;N;CC;X;Édition, imprimerie, Reprographie et activités connexes (reliure, dorure main, affiches, composition, photocomposition, gravure et photogravure). Routage.;10;CC;2;CC;2;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+222EA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+222EA;N;CC;X;Reliure main, dorure main, affiches peintes (pose exclue), coloriste, façonnier en imagerie, écrivains publics;10;CC;001;CC;001;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+222EB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+222EB;N;CC;X;Reliure, brochure industrielle, brochage, pliage de revue;10;CC;002;CC;002;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+222GA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+222GA;N;CC;X;Composition, photocomposition, gravure et photogravure;10;CC;001;CC;001;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+222GB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+222GB;N;CC;X;Composition, photocomposition, gravure et photogravure. Reprographie.;10;CC;001;CC;001;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+233ZA;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+233ZA;N;EE;X;Production et transformation de matières nucléaires;1;EE;2;EE;2;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+241AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+241AA;N;EE;X;Fabrication de gaz comprimés;11;EE;002;EE;002;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+241CC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+241CC;N;EE;X;Fabrication de matières colorantes de synthèse;04;EE;004;EE;004;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+241CD;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+241CD;N;EE;X;Fabrication de pigments minéraux, de compositions de base de pigments, de compositions et couleurs vitrifiables pour émaux;04;EE;003;EE;003;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+241EB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+241EB;N;EE;X;Soudières : fabrication de carbonate de soude, soude à la chaux, de bicarbonate de soude, de chlorure de calcium;08;EE;001;EE;001;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+241ER;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+241ER;N;EE;X;Fabrication de produits minéraux sodés ou calciques. Fabrication de produits minéraux non cités par ailleurs. Fabrication de produits photographiques et;08;EE;001;EE;001;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+241GD;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+241GD;N;EE;X;Carbonisation du bois usine fixe (alcool méthylique, méthylène). Fabrication de produits dérivés du bois, pâtes réglisse, glycyrrhisine/rhisate;06;EE;005;EE;005;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+241GJ;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+241GJ;N;EE;X;Fabrication de produits odoriférants et d'arômes de synthèse;10;EE;001;EE;001;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+241GK;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+241GK;N;EE;X;Fabrication et distillation d'hydrocarbures benzéniques et de goudrons. Fabrication de thérébentine, de colophane et dérivés;11;EE;002;EE;002;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+241GL;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+241GL;N;EE;X;Chimie organique de synthèse (de produits non désignés ailleurs). Dénaturation d'alcool éthylique. Fabrication d'acide tartrique, citrique et dérivés;11;EE;003;EE;003;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+241GM;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+241GM;N;EE;X;Chimie organique de synthèse (de produits non désignés ailleurs). Fabrication de pigments minéraux, de composition de base de pigments, de compositions et coul;11;EE;003;EE;003;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+241GN;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+241GN;N;EE;X;Fabrication de produits chimiques minéraux et inorganiques, organiques de synthèse ou dérivés du bois, de produits azotés et d'engrais, d'abrasifs, de pigments,;11;EE;9;EE;9;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+241JA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+241JA;N;EE;X;Fabrication d'engrais azotés et autres produits azotés;02;EE;002;EE;002;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+241JB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+241JB;N;EE;X;Fabrication d'engrais phosphatés;02;EE;004;EE;004;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+241JE;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+241JE;N;EE;X;Fabrication d'autres engrais minéraux et organiques;02;EE;004;EE;004;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+241LA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+241LA;N;EE;X;Fabrication de matières plastiques;15;EE;004;EE;004;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+241NA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+241NA;N;EE;X;Fabrication de caoutchouc synthétique et autres élastomères;14;EE;003;EE;003;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+242ZB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+242ZB;N;EE;X;Fabrication de produits insecticides, anticryptogamiques et désinfectants;05;EE;002;EE;002;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+242ZC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+242ZC;N;EE;X;Fabrication d'eau de javel, de produits détergents. Traitement chimique de corps gras. Fabrication de produits de base pour détergents. Fabrication de produits;05;EE;002;EE;002;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+243ZB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+243ZB;N;EE;X;Fabrication de peintures, vernis, couleurs fines et encres d'imprimerie;04;EE;003;EE;003;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+243ZC;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+243ZC;N;EE;X;Fabrication de peintures, vernis, colles, encres, mastics. Fabrication de gélatines et de leurs dérivés. Fabrication de produits d'entretien. Fabrication d'expl;4;EE;3;EE;3;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+244AC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+244AC;N;EE;X;Fabrication de produits de base pour la pharmacie, d'alcaloïdes, de glucosides et dérivés, de produits extraits des algues;09;EE;002;EE;002;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+244CA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+241EP;N;EE;X;Fabrication de certains métaux, métalloïdes et leurs dérivés, d'iode, de phosphore et leurs dérivés, d'eau oxygénée, de persels, de peroxydes, de silicates et d';08;EE;001;EE;001;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+241EQ;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+241EQ;N;EE;X;Fabrication de charbons actifs, de charbons pour filtres, de noir animal, de charbon animal, d'acide sulfurique et dérivés, de produits minéraux divers. Salines;06;EE;003;EE;003;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+930NA;N;II;X;Services personnels divers (autre que 93.0NB);07;II;018;II;018;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+930NB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+930NB;N;II;X;Cabinets de graphologie, agences matrimoniales;07;II;014;II;014;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+930NC;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+930NC;N;II;X;Services personnels divers (y compris cabinets de graphologie, agences matrimoniales).;7;II;18;II;18;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+950ZA;B;ZZ;X;;0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;1;0;0;0;1;0;1;0
+950ZA;N;ZZ;X;Toute personne occupée exclusivement au service de particuliers : employés de maison (femme de ménage, lingère, couturière, blanchisseuse à la journée, chauffeu;0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;1;0;0;0;1;0;1;0
+950ZB;B;ZZ;X;;0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;0;1;1;1;1;0;1;0
+950ZB;N;ZZ;X;Personne occupee a des taches d'interet general;0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;0;1;1;1;1;0;1;0
+950ZC;B;ZZ;;;0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;1;0;0;0;1;0;1;0
+950ZC;N;ZZ;;Toute personne effectuant des travaux de courte durée pour le compte de particuliers : travaux de bureaux ou assimilables;0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;1;0;0;0;1;0;1;0
+950ZD;B;ZZ;X;;0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;1;0;0;0;1;0;1;0
+950ZD;N;ZZ;X;Toute personne effectuant des travaux de courte durée pour le compte de particuliers : travaux industriels (relevant généralement de professions du bâtiment);0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;1;0;0;0;1;0;1;0
+990ZA;B;ZZ;;;00;ZZ;000;ZZ;000;*;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+990ZA;N;HH;;Représentation diplomatique étrangère en France. Organismes internationaux. - Service des armées alliées;02;HH;004;HH;004;*;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+999ZA;B;ZZ;X;;0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;0;0;0;0;1;0;1;0
+999ZA;N;ZZ;X;Non affecte par ailleurs;0;ZZ;0;ZZ;0;*;0;0;0;0;1;0;0;0;0;0;1;0;1;0
+IIIII;I;YY;;Valeur Inconnue;;;;;;;;;;;;;;;;;;;;1
+NNNNN;X;YY;;Non Précisé;;;;;;;;;;;;;;;;;;;;0
+XXXXX;X;XX;;Sans Objet;;;;;;;;;;;;;;;;;;;;2
+155AA;N;DD;X;Fabrication de lait liquide et de produits frais;10;DD;006;DD;006;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+155BA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+155BA;N;DD;X;Fabrication de beurre;10;DD;006;DD;006;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+155CA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+155CA;N;DD;X;Fabrication de fromages;10;DD;006;DD;006;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+155CB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+155CB;N;DD;X;Fabrication de produits laitiers, de glaces et de sorbets;06;DD;004;DD;004;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+155CC;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+155CC;N;DD;X;Autres Industries alimentaires non classées par ailleurs et transformation du tabac.;6;DD;4;DD;4;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+155DA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+155DA;N;DD;X;Fabrication d'autres produits laitiers;10;DD;006;DD;006;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+155FA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+155FA;N;DD;X;Fabrication de glaces et sorbets;20;DD;006;DD;006;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+156AB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+156AB;N;DD;X;Malterie et meunerie;11;DD;002;DD;002;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+156BA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+156BA;N;DD;X;Autres activités de travail de grains;11;DD;009;DD;009;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+156DA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+156DA;N;DD;X;Fabrication de produits amylacés;20;DD;009;DD;009;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+157AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+157AA;N;DD;X;Fabrication d'aliments pour animaux de ferme;14;DD;002;DD;002;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+157AB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+157AB;N;DD;X;Malterie, Meunerie, Fabrication de pâtes alimentaires et semoule;01;DD;001;DD;001;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+157CA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+157CA;N;DD;X;Fabrication d'aliments pour animaux de compagnie;14;DD;010;DD;010;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+158AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+158AA;N;DD;X;Fabrication industrielle de pain et de pâtisserie fraîche;07;DD;022;DD;022;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+158AB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+158AB;N;DD;X;Fabrication industrielle de produits de boulangerie, pâtisserie et pizza;14;DD;015;DD;015;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+158AC;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+158AC;N;DD;X;Transformation et conservation de légumes et de fruits. Fabrication industrielle de produits de boulangerie, pâtisserie et pizza.;14;DD;15;DD;15;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+158BA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+158BA;N;DD;X;Cuisson de produits de boulangerie;07;DD;022;DD;022;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+158CA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+158CA;N;DD;X;Boulangerie (seule ou avec vente de confiserie);07;DD;008;DD;008;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+158CB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+158CB;N;DD;X;Boulangerie-pâtisserie avec ou sans vente de confiserie;07;DD;008;DD;008;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+158CD;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+158CD;N;DD;X;Commerce de détail (avec ou sans fabrication) de pain, pâtisserie, confiserie et chocolats;8;DD;6;DD;6;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+158DA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+158DA;N;DD;X;Pâtisserie artisanale;07;DD;008;DD;008;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+158FA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+158FA;N;DD;X;Biscotterie, biscuiterie, pâtisserie de conservation;19;DD;009;DD;009;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+158HA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+158HA;N;DD;X;Fabrication de sucre;13;DD;012;DD;012;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+158HB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+158HB;N;DD;X;Fabrication de sucre de canne associée ou non à la culture de canne à sucre;13;DD;012;DD;012;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+158HC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+158HC;N;DD;X;Fabrication de sucre associée ou non à la culture de canne à sucre;11;DD;009;DD;009;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+158KA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+158KA;N;DD;X;Fabrication de confiserie, chocolaterie;16;DD;013;DD;013;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+158KB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+158KB;N;DD;X;Fabrication de confiture, de confiserie et chocolaterie;18;DD;030;DD;030;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+158MA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+158MA;N;DD;X;Semoulerie, fabrication de pâtes alimentaires, de couscous;11;DD;010;DD;010;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+158MB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+158MB;N;DD;X;Fabrication de pâtes farcies à cuire;11;DD;010;DD;010;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+158PA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+158PA;N;DD;X;Transformation du café, préparation de chicorée, thé et infusions;12;DD;014;DD;014;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+159TB;N;DD;X;Fabrication de boissons gazéifiées;06;DD;011;DD;011;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+160ZA;B;ZZ;;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+160ZA;N;FF;;Transformation du tabac. Fabrication d'allumettes;02;FF;038;FF;038;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+171AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+171AA;N;FF;X;Filature;10;FF;032;FF;032;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+158PB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+158PB;N;DD;X;Fabrication et transformation de café et épices;17;DD;029;DD;029;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+158RA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+158RA;N;DD;X;Trituration et conditionnement poivres, épices, safran;12;DD;014;DD;014;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+158RB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+158RB;N;DD;X;Fabrication de condiments et assaisonnements;12;DD;009;DD;009;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+158TA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+158TA;N;DD;X;Fabrication d'aliments adaptés à l'enfant et diététiques;12;DD;009;DD;009;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+158VA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+158VA;N;DD;X;Industries alimentaires nca;12;DD;009;DD;009;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+158VB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+158VB;N;DD;X;Industries alimentaires non classées par ailleurs;09;DD;007;DD;007;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+159AB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+159AB;N;DD;X;Vieillissement et traitement d'eau-de-vie naturelle;06;DD;011;DD;011;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+159AD;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+159AD;N;DD;X;Production d'alcool éthylique de fermentation, d'eaux de vie et distillerie de canne à sucre;06;DD;011;DD;011;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+159BA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+159BA;N;DD;X;Fabrication de spiritueux;06;DD;011;DD;011;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+159FA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+159FA;N;DD;X;Champagnisation;06;DD;011;DD;011;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+159GA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+159GA;N;DD;X;Vinification. - Production d'autres boissons fermentées;06;DD;011;DD;011;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+159NA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+159NA;N;DD;X;Brasserie;06;DD;001;DD;001;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+159SA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+159SA;N;DD;X;Industrie des eaux de table;06;DD;011;DD;011;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+159SB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+159SB;N;DD;X;Fabrication de boissons sauf produits laitiers;10;DD;008;DD;008;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+159SC;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+159SC;N;DD;X;Fabrication et transformation de café et épices. Fabrication de boissons sauf produits laitiers.;10;DD;8;DD;8;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+159TA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+159TA;N;DD;X;Fabrication de boissons non alcoolisées élaborées;06;DD;011;DD;011;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+159TB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+182JA;N;FF;X;Fabrication d'accessoires de l'habillement;11;FF;036;FF;036;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+191ZE;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+191ZE;N;FF;X;Cuirs et peaux;12;FF;039;FF;039;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+192ZH;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+192ZH;N;FF;X;Maroquinerie;13;FF;40;FF;40;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+193ZK;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+171EA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+171EA;N;FF;X;Préparation laine, fibres dures et ouates;10;FF;032;FF;032;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+171KA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+171KA;N;FF;X;Moulinage et retordage;10;FF;032;FF;032;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+171KB;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+171KB;N;FF;X;Travail des fibres textiles naturelles (filature, moulinage et retordage, préparation de la laine, fibres dures, ouates...).;10;FF;32;FF;32;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+172AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+172AA;N;FF;X;Tissage;10;FF;033;FF;033;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+172AB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+172AB;N;FF;X;Tissage. Fabrication de textiles non tissés, tapis, moquettes, feutres, élactiques,;10;FF;033;FF;033;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+172AC;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+172AC;N;FF;X;Fabrication de tissu et articles textiles;10;FF;33;FF;33;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+173ZA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+173ZA;N;FF;X;Ennoblissement textile;10;FF;034;FF;034;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+174CB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+174CB;N;FF;X;Fabrication d'articles en toile;11;FF;036;FF;036;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+174CC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+174CC;N;FF;X;Fabrication d'articles en toile forte;11;FF;037;FF;037;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+174CJ;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+174CJ;N;FF;X;Préparation, fabrication de petits articles de literie, de plumes, duvet et crin végétal, voilerie, gréement et pouliage;06;FF;003;FF;003;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+175AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+175AA;N;FF;X;Fabrication de tapis, feutres et non tissés;10;FF;033;FF;033;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+175GA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+175GA;N;EE;X;Enduction de tissus à base d'huiles siccatives et à base de dérivés de la cellulose ou de résines synthétiques thermoplastiques (toiles cirées, moleskine). Fabri;13;EE;006;EE;006;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+175GD;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+175GD;N;FF;X;Fabrication diverses à la main;10;FF;035;FF;035;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+177AA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+177AA;N;FF;X;Fabrication mécanique, maille, dentelle, ruban, produits élastiques;10;FF;035;FF;035;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+177AB;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+177AB;N;FF;X;Fabrication de mailles, dentelles, rubans, produits élastiques et d'articles divers;10;FF;35;FF;35;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+182CA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+182CA;N;FF;X;Confection, y compris découpage d'étoffes;11;FF;036;FF;036;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+182CB;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+182CB;N;FF;X;Confection. Fabrication d'accessoires de l'habillement et d'articles en toile.;11;FF;36;FF;36;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+182JA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+193ZK;N;FF;X;Chaussure;13;FF;041;FF;041;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+193ZL;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+193ZL;N;FF;X;Chaussure. Cuirs et peaux;13;FF;41;FF;41;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+201AC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+201AC;N;FF;X;Fabrication de parquets, moulures et baguettes, à partir de la grume;03;FF;006;FF;006;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+201AF;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+201AF;N;FF;X;Scieries y compris prestations de service, abattage et coupe de bois dans les DOM, fabrication de charbon de bois à usage domestique;1;FF;7;FF;7;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+201AG;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+201AG;N;FF;X;Fabrication parquet, moulure, baguettes à partir de bois débité, de fibres en bois, de sciures et de farine de bois;06;FF;006;FF;006;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+201BA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+201BA;N;FF;X;Traitement du bois;06;FF;008;FF;008;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+201BB;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+201BB;N;FF;X;Travail mécanique du bois, traitement et fabrication d'objets en bois;6;FF;8;FF;8;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+202ZA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+202ZA;N;FF;X;Tranchage et déroulage de bois, fabrication de contre-plaqués, de panneaux-lattés , de bois tranché et de bois de placage, bois améliorés;03;FF;004;FF;004;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+202ZB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+202ZB;N;FF;X;Fabrication de panneaux dits de particules à base de bois haché, broyé mais non défibré, panneaux en bois défibré et en végétaux divers défibrés et protection su;06;FF;005;FF;005;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+203ZA;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+203ZA;N;FF;X;Fabrication d'éléments de charpentes, ébauchage et façonnage divers (y compris bois de brosses);04;FF;006;FF;006;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+203ZB;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+203ZB;N;FF;X;Fabrication en série de menuiserie de bâtiment (sans pose);04;FF;005;FF;005;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+203ZC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+203ZC;N;FF;X;Fabrication de bâtiments préfabriqués légers;04;FF;006;FF;006;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+203ZD;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+203ZD;N;FF;X;Fabrication en série de menuiserie de bâtiment (sans pose). Fabrication de panneaux de particules;04;FF;005;FF;005;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+203ZE;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+203ZE;N;FF;X;Fabrication de parquet, moulures, baguettes à partir du bois. Fabrication de bâtiments préfabriqués légers, d'éléments de charpentes, ébauchage et façonnage di;04;FF;006;FF;006;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0
+203ZF;B;ZZ;X;;0;ZZ;0;ZZ;0;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+203ZF;N;FF;X;Menuiserie, charpentes et panneaux à base de bois et commerce menuiserie et panneaux;4;FF;6;FF;6;;1;0;0;0;0;0;1;1;1;0;0;0;0;0
+204ZC;B;ZZ;X;;00;ZZ;000;ZZ;000;;1;0;0;00000;0;0;1;1;1;0;0;0;0;0

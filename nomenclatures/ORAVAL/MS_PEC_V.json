@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "COD_PEC",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "PEC_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "MS_PEC_V",
+    "title": "Code de prise en charge",
+    "primaryKey": [
+        "COD_PEC"
+    ]
+}

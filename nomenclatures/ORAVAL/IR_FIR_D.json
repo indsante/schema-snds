@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "PRS_NAT",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "PRS_NAT_CB2",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "PRS_NAT_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_FIR_D",
+    "title": "Identification des prestations relevant du FIR",
+    "primaryKey": [
+        "PRS_NAT_CB2"
+    ]
+}

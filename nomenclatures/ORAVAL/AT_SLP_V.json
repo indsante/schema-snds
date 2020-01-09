@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "ATT_LEP_SGE",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "LES_SGP_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_SLP_V",
+    "title": "Siège Principal des Lésions",
+    "primaryKey": [
+        "ATT_LEP_SGE"
+    ]
+}

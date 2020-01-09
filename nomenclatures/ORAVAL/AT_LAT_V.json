@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "ATP_COD_PRF",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "ATP_LIB_PRF",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_LAT_V",
+    "title": "Code lieu",
+    "primaryKey": [
+        "ATP_COD_PRF"
+    ]
+}

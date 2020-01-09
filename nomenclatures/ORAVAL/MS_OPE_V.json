@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "OPE_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "OPE_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "MS_OPE_V",
+    "title": "Nature d'opération",
+    "primaryKey": [
+        "OPE_COD"
+    ]
+}

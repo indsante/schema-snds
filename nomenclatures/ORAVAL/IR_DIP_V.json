@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "DIP_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "DIP_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_DIP_V",
+    "title": "Dispositif de Prévention",
+    "primaryKey": [
+        "DIP_COD"
+    ]
+}

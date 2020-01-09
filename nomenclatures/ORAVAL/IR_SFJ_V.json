@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "SFJ_TYP",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "SFJ_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_SFJ_V",
+    "title": "Type de supplément forfait",
+    "primaryKey": [
+        "SFJ_TYP"
+    ]
+}

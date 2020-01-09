@@ -1,0 +1,32 @@
+{
+    "fields": [
+        {
+            "name": "SEE_COT_NAT",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "COT_NAT_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "COT_CGL_COD",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_NSE_V",
+    "title": "Nature du cotisant ( section ou autre )",
+    "primaryKey": "SEE_COT_NAT"
+}

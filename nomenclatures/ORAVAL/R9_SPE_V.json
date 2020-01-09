@@ -1,0 +1,41 @@
+{
+    "fields": [
+        {
+            "name": "PRA_SPE",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "PRA_SPE_RG1",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "PRA_SPE_RG2",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "PRA_SPE_RG3",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "PRA_SPE_RG4",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "primaryKey": "PRA_SPE",
+    "name": "R9_SPE_V",
+    "title": "regroupements Spécialité pour automatisation ARA"
+}

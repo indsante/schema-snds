@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "TYA_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "TYA_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_TYA_V",
+    "title": "Type d'acte",
+    "primaryKey": [
+        "TYA_COD"
+    ]
+}

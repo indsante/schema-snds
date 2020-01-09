@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "MED_CNV_TOP",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "MED_CNV_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "RM_RFM_V",
+    "title": "top convention (Suivi de la réforme)",
+    "primaryKey": [
+        "MED_CNV_TOP"
+    ]
+}

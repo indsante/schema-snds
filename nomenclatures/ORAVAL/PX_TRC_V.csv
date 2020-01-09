@@ -1,0 +1,10 @@
+TRC_COD;TRC_CNX_NB;TEC_COL
+1;1 seule;0
+2;de 2 à 5;0
+3;6 à 10;0
+4;11à 20;0
+5;21 à 30;0
+6;31 à 40;0
+7;41 à 50;0
+8;51 et plus;0
+99;Valeur inconnue;1

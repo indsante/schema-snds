@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "ITI_REC_LIC",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "ITI_REC_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_LIC_V",
+    "title": "Reclassement ou licenciement",
+    "primaryKey": [
+        "ITI_REC_LIC"
+    ]
+}

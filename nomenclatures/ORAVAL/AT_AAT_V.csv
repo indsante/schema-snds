@@ -1,0 +1,25 @@
+AAT_NAT_COD;AAT_NAT_LIB;TEC_COL
+IIIIIIIIII;Valeur inconnue;1
+XXXXXXXXXX;Sans objet;2
+AAS;Arrêt normal AS;0
+AAT;Arrêt normal AT;0
+ADO;Repos adoption;0
+ATQ;Quantum AT;0
+BAS;Bon à payer AS;0
+BAT;Bon à payer AT;0
+CAS;Repos cure thermale AS;0
+CAT;Repos cure thermale AT;0
+HAS;Hospitalisation AS;0
+HAT;Hospitalisation AT;0
+MAS;Mi-temps AS;0
+MAT;Mi-temps AT;0
+NAS;Période non indemnisée AS;0
+NAT;Période non indemnisée AT;0
+PAS;Prolongation AS;0
+PAT;Prolongation AT;0
+POS;Repos postnatal;0
+PRE;Repos prénatal;0
+RAS;Rééducation AS;0
+RAT;Rééducation AT;0
+RCH;Avis de rechute AT;0
+SMA;Repos supplémentaire mat.;0

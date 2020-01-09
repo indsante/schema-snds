@@ -1,0 +1,21 @@
+{
+  "fields": [
+    {
+      "name": "DTE_ANN",
+      "type": "integer",
+      "format": "default",
+      "role": "code"
+    },
+    {
+      "name": "TEC_COL",
+      "type": "integer",
+      "format": "default"
+    }
+  ],
+  "missingValues": [
+    ""
+  ],
+  "name": "IR_ANN_V",
+  "title": "Table des années",
+  "primaryKey": "DTE_ANN"
+}

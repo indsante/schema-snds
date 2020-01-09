@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "DTC_SRC_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "DTC_SRC_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "DW_DTC_V",
+    "title": "Source de détection ( projet GRECOT )",
+    "primaryKey": [
+        "DTC_SRC_COD"
+    ]
+}

@@ -1,0 +1,68 @@
+CPT_LFS_COD;CPT_LLD_COD;CPT_LFS_LIB;TEC_COL
+21D11;21D1;Prestations Invalidite;0
+21G11;21G1;Prestations Deces;0
+99999;9999;Valeur inconnue;1
+21H11;21H1;Prestations ASS;0
+11A11;11A1;Honoraires Medicaux-Omnipraticiens liberaux;0
+11A12;11A1;Honoraires Medicaux-Omnipraticiens salaries;0
+11A21;11A2;Honoraires Medicaux-Specialistes liberaux;0
+11A22;11A2;Honoraires Medicaux-Specialistes salaries;0
+11A31;11A3;Honoraires Medicaux des Sages-femmes liberales;0
+11A32;11A3;Honoraires Medicaux des Sages-femmes salariees;0
+11B11;11B1;Honoraires Paramedicaux Infirmiers Liberaux;0
+11B12;11B1;Honoraires Paramedicaux Infirmiers Salaries;0
+11B21;11B2;Honoraires Paramedicaux Masseurs Kinesitherapeutes Liberaux;0
+11B22;11B2;Honoraires Paramedicaux Masseurs Kinesitherapeutes Salaries;0
+11B31;11B3;Honoraires Paramedicaux Orthophonistes Liberaux;0
+11B32;11B3;Honoraires Paramedicaux Orthophonistes Salaries;0
+11B41;11B4;Honoraires Paramedicaux Orthoptistes Liberaux;0
+11B42;11B4;Honoraires Paramedicaux Orthoptistes Salaries;0
+11B51;11B5;Honoraires Paramedicaux Pedicures;0
+11B61;11B6;Honoraires Paramedicaux Sages-Femmes Liberales;0
+11B62;11B6;Honoraires Paramedicaux Sages-Femmes Salariees;0
+11C11;11C1;Honoraires des Dentistes Omnipraticiens liberaux;0
+11C12;11C1;Honoraires des Dentistes Omnipraticiens salaries;0
+11C21;11C2;Honoraires des Dentistes Specialistes liberaux;0
+11C22;11C2;Honoraires des Dentistes Specialistes salaries;0
+11D11;11D1;Honoraires du secteur public;0
+11G11;11G1;Forfaits option et contrat conv.;0
+11H11;11H1;Honoraires Autres professionnels;0
+11J11;11J1;Actes de laboratoire effectues par les laboratoires;0
+11J12;11J1;Actes de laboratoire effectues par les pharmacies;0
+11J13;11J1;Actes de laboratoire effectues par les centres de sante;0
+11J21;11J2;Actes de laboratoire hors OQN (dont Prelevements);0
+11J31;11J3;Actes  Hors OQN   des Directeurs de laboratoire;0
+11K11;11K1;Medicaments;0
+11L11;11L1;Produits humains - OQN Cliniques privees;0
+11L21;11L2;Produits humains - Hors OQN;0
+11M11;11M1;Appareils et materiels de traitement;0
+11N11;11N1;Optique medicale;0
+11P11;11P1;Ortheses et protheses externes - OQN Cliniques privees;0
+11P21;11P2;Ortheses et protheses externes - Hors OQN;0
+11Q11;11Q1;Protheses internes - OQN Cliniques privees;0
+11Q21;11Q2;Protheses internes - Hors OQN;0
+11R11;11R1;Vehicules pour handicapes physiques;0
+11S11;11S1;Autres frais;0
+11T11;11T1;Transports;0
+11U11;11U1;Cures thermales;0
+11U21;11U2;autres Prestations en nature - Autres;0
+11V11;11V1;Prestations en especes;0
+12A11;12A1;Dotation globale;0
+12A21;12A2;Autres frais d'hospitalisation Publique;0
+12A31;12A3;Honoraires du secteur public;0
+12A41;12A4;Remboursement IVG a l'acte - Etablissements publics I.V.G.;0
+12B11;12B1;Enfance inadaptee;0
+12B21;12B2;Adultes Handicapes;0
+12B31;12B3;Et. d'hebergement Personnes agees (medicalisation);0
+12B41;12B4;Autres Prestations Personnes agees;0
+12B51;12B5;Services de soins a domicile;0
+12B61;12B6;Centres d'action medico-sociale precoce;0
+12B81;12B8;Autres Prestations medico-sociales;0
+12C11;12C1;Cliniques privees sous OQN hors consommations intermediaires;0
+12C21;12C2;Cliniques privees Hors OQN;0
+12C31;12C3;Remboursement IVG a l'acte - Cliniques privees - I.V.G.;0
+12C41;12C4;Cliniques privees sous OQN - Urgence;0
+12D11;12D1;Experimentations;0
+21A11;21A1;Prestations Maternite en especes;0
+21B11;21B1;Incapacite permanente;0
+21C11;21C1;Autres charges techniques AT;0

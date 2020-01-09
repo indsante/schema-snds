@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "CAT_TLS_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "CAT_TLS_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "PX_CAT_V",
+    "title": "catégories télé-service",
+    "primaryKey": [
+        "CAT_TLS_COD"
+    ]
+}

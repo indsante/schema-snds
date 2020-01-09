@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "ETB_CAT_RG3",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "ETB_CR3_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_CE3_V",
+    "title": "Regroupement 3 des Catégories d'établissement",
+    "primaryKey": [
+        "ETB_CAT_RG3"
+    ]
+}

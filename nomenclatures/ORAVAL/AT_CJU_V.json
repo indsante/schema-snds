@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "CON_JUR_SAI",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "CON_JUR_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_CJU_V",
+    "title": "Contestation juridique ( Eurydice )",
+    "primaryKey": [
+        "CON_JUR_SAI"
+    ]
+}

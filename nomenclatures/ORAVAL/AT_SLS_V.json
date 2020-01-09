@@ -1,0 +1,32 @@
+{
+    "fields": [
+        {
+            "name": "ATT_LEP_SGE",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "ATT_LES_SGE",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "LES_SGE_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_SLS_V",
+    "title": "Siège Secondaire des lésions",
+    "primaryKey": ["ATT_LEP_SGE", "ATT_LES_SGE"]
+}

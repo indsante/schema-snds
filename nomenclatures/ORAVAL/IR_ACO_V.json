@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "ORG_ACO_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "ORG_ACO_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_ACO_V",
+    "title": "Codes ACOSS",
+    "primaryKey": [
+        "ORG_ACO_COD"
+    ]
+}

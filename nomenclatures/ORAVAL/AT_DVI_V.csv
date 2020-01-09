@@ -1,0 +1,54 @@
+DVI_LES_COD;DVI_LES_LIB;TEC_COL
+00;Pas d'information;0
+10;Déviation par problème électrique, explosion, feu - Non précisé;0
+11;Problème électrique par défaillance dans l'installation - entraînant un contact indirect;0
+12;Problème électrique - entraînant un contact direct;0
+13;Explosion;0
+14;Incendie, embrasement;0
+19;Autre Déviation connue du groupe 10 mais non listée ci-dessus;0
+20;Déviation par débordement, renversement, fuite, écoulement, vaporisation, dégagement - Non précisé;0
+21;A l'état de solide - débordement, renversement;0
+22;A l'état de liquide - fuite, suintement, écoulement, éclaboussure, aspersion;0
+23;A l'état gazeux - vaporisation, formation d'aérosol, formation de gaz;0
+24;Pulvérulent - génération de fumée, émission de poussières, particules;0
+29;Autre Déviation connue du groupe 20 mais non listée ci-dessus;0
+30;Rupture, bris, éclatement, glissade, chute, effondrement d'Agent matériel - Non précisé;0
+31;Rupture de matériel, aux joints, aux connexions;0
+32;Rupture, éclatement, causant des éclats (bois, verre, métal, pierre, plastique, autres);0
+33;Glissade, chute, effondrement d'Agent matériel - supérieur (tombant sur la victime);0
+34;Glissade, chute, effondrement d'Agent matériel - inférieur (entraînant la victime);0
+35;Glissade, chute, effondrement d'Agent matériel - de plain-pied;0
+39;Autre Déviation connue du groupe 30 mais non listée ci-dessus;0
+40;Perte, totale ou partielle, de contrôle de machine, moyen de transport - équipement de manutention, outil à main, objet, animal - Non précisé;0
+41;Perte, totale ou partielle, de contrôle - de machine (y compris le démarrage intempestif) ainsi que de la matière travaillée par la machine;0
+42;Perte, totale ou partielle, de contrôle de moyen de transport - d'équipement de manutention (motorisé ou non);0
+43;Perte, totale ou partielle, de contrôle d'outil à main (motorisé ou non) ainsi que de la matière travaillée par l'outil;0
+44;Perte, totale ou partielle, de contrôle d'objet (porté, déplacé, manipulé, etc.);0
+45;Perte, totale ou partielle, de contrôle d'animal;0
+49;Autre Déviation connue du groupe 40 mais non listée ci-dessus;0
+50;Glissade ou trébuchement avec chute, chute de personne - Non précisé;0
+51;Chute de personne - de hauteur;0
+52;Glissade ou trébuchement avec chute, chute de personne - de plain-pied;0
+59;Autre Déviation connue du groupe 50 mais non listée ci-dessus;0
+60;Mouvement du corps sans contrainte physique (conduisant généralement à une blessure externe) - Non précisé;0
+61;En marchant sur un objet coupant;0
+62;En s'agenouillant, s'asseyant, s'appuyant contre;0
+63;En étant attrapé, entraîné, par quelque chose ou par son élan;0
+64;Mouvements non coordonnés, gestes intempestifs, inopportuns;0
+69;Autre Déviation connue du groupe 60 mais non listée ci-dessus;0
+70;Mouvement du corps sous ou avec contrainte physique (conduisant généralement à une blessure interne) - Non précisé;0
+71;En soulevant, en portant, en se levant;0
+72;En poussant, en tractant;0
+73;En déposant, en se baissant;0
+74;En torsion, en rotation, en se tournant;0
+75;En marchant lourdement, faux pas, glissade - sans chute;0
+79;Autre Déviation connue du groupe 70 mais non listée ci-dessus;0
+80;Surprise, frayeur, violence, agression, menace, présence - Non précisé;0
+81;Surprise, frayeur;0
+82;Violence, agression, menace entre membres de l'entreprise soumis à l'autorité de l'employeur;0
+83;Violence, agression, menace - provenant de personnes externes à l'entreprise envers les victimes dans le cadre de leur fonction (attaque de banque, chauffeurs de bus, etc.);0
+84;Agression, bousculade - par animal;0
+85;Présence de la victime ou d'un tiers créant en soi un danger pour elle/lui-même et le cas échéant pour autrui;0
+89;Autre Déviation connue du groupe 80 mais non listée ci-dessus;0
+II;Valeur inconnue;1
+XX;Sans objet;2

@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "PRE_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "PRE_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "ZO_PRE_V",
+    "title": "Prestation  RESID-EHPAD",
+    "primaryKey": [
+        "PRE_COD"
+    ]
+}

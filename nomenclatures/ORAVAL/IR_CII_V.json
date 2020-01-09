@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "CTI_INF_NUM",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "CTI_INF_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_CII_V",
+    "title": "Centre de Traitement Informatique Informationnel (CTII)",
+    "primaryKey": [
+        "CTI_INF_NUM"
+    ]
+}

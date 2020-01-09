@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "MOD_MOD_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "MOD_COD_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_MPS_V",
+    "title": "Table des modificateurs (parcours de soin)",
+    "primaryKey": [
+        "MOD_MOD_COD"
+    ]
+}

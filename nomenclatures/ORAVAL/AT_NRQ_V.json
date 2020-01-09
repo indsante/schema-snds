@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "CON_REQ_NAT",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "CON_REQ_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_NRQ_V",
+    "title": "Nature requérant",
+    "primaryKey": [
+        "CON_REQ_NAT"
+    ]
+}

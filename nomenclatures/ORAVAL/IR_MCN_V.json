@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "MCN_VRS_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "MCN_VRS_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "string",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_MCN_V",
+    "title": "Vraisemblance des Coefficients / Montants / Dénombrements",
+    "primaryKey": [
+        "MCN_VRS_COD"
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "fields": [
+        {
+            "name": "CAI_IDE",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "GRG_COD",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "CAI_COD",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "CEN_COD",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "CAI_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "CAI_TYP",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "ZO_CAI_V",
+    "title": "Caisse  ( projet RESID-EHPAD )",
+    "primaryKey": [
+        "CAI_IDE"
+    ]
+}

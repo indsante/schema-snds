@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "RAT_BDO_BTI",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "RAT_BDO_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_TRI_V",
+    "title": "Type de rattachement individu",
+    "primaryKey": [
+        "RAT_BDO_BTI"
+    ]
+}

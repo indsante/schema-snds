@@ -1,0 +1,31 @@
+{
+    "fields": [
+        {
+            "name": "CTI_NUM",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "LSM_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "RSM_COD",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "primaryKey": "LSM_COD",
+    "name": "IR_CEE_V",
+    "title": "Table CTI ERSM ELSM"
+}

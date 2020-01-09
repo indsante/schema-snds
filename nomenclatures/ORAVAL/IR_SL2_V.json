@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "SLM_RGT2",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "SLM_LIB_RG2",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_SL2_V",
+    "title": "RGT Mutuelles affiliées",
+    "primaryKey": [
+        "SLM_RGT2"
+    ]
+}

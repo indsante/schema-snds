@@ -1,0 +1,9 @@
+SPO_STA_OLD;SPO_STA_PRO;SPO_STA_LIB;TEC_COL
+0;0;Situation non connue;0
+1;310;Salarié titulaire d'un emploi permanent;0
+2;320;Salarié titulaire d'un emploi non permanent;0
+3;320;Salarié titulaire d'un emploi non permanent;0
+5;500;Stagiaire / Apprenti;0
+9;900;Autres;0
+I;I;Valeur inconnue;1
+X;X;Sans objet;2

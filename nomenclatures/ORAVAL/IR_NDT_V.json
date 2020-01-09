@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "CGE_DET_NAT",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "DET_NAT_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_NDT_V",
+    "title": "Nature de la dette",
+    "primaryKey": [
+        "CGE_DET_NAT"
+    ]
+}

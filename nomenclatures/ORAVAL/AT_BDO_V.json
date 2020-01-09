@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "VIC_BDO_TOP",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "VIC_BDO_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_BDO_V",
+    "title": "TOP création BDO",
+    "primaryKey": [
+        "VIC_BDO_TOP"
+    ]
+}

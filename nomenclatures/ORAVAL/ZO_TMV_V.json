@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "TMV_TYP_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "TMV_TYP_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "ZO_TMV_V",
+    "title": "Type de mouvement  RESID-EHPAD",
+    "primaryKey": [
+        "TMV_TYP_COD"
+    ]
+}

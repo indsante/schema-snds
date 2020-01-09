@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "VIC_PAT_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "VIC_PAT_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_PAT_V",
+    "title": "code Profession de la victime en AT ou trajet  ( Version 1)",
+    "primaryKey": [
+        "VIC_PAT_COD"
+    ]
+}

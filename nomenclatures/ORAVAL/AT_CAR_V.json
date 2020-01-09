@@ -1,0 +1,34 @@
+{
+    "fields": [
+        {
+            "name": "EMP_CAR_SAT",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "EMP_CNA_COD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "EMP_CAR_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_CAR_V",
+    "title": "CARSAT  ( version 11 Orphée)",
+    "primaryKey": [
+        "EMP_CAR_SAT"
+    ]
+}

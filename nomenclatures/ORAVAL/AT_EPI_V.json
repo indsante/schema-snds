@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "EPI_NAT_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "EPI_NAT_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_EPI_V",
+    "title": "nature de l Episode",
+    "primaryKey": [
+        "EPI_NAT_COD"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "EPI_DMF_ORI",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "EPI_DMF_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_ODF_V",
+    "title": "origine de la  décision médicale finale",
+    "primaryKey": [
+        "EPI_DMF_ORI"
+    ]
+}

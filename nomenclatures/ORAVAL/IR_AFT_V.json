@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "TDM_NAT_AFF",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "NAT_AFF_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_AFT_V",
+    "title": "Type d'Affinage pour Regroupements TANDEM",
+    "primaryKey": [
+        "TDM_NAT_AFF"
+    ]
+}

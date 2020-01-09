@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "GEN_CNV_TOP",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "GEN_CNV_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "RM_CNV_V",
+    "title": "top répertoire conventionnel",
+    "primaryKey": [
+        "GEN_CNV_TOP"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "SIN_OLD_DAT",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "SIN_OLD_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_DTA_V",
+    "title": "TOP DAT tardive (O/N)",
+    "primaryKey": [
+        "SIN_OLD_DAT"
+    ]
+}

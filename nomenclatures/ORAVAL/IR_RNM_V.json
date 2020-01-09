@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "RNM_RNM_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "RNM_RNM_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_RNM_V",
+    "title": "indicateur du RNIAM",
+    "primaryKey": [
+        "RNM_RNM_COD"
+    ]
+}

@@ -1,0 +1,107 @@
+{
+    "fields": [
+        {
+            "name": "ETA_URS_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "ETA_URS_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "EDI_TOP_COD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "URS_DSN_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "NOM_VOI_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "COD_POS_COD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "NOM_VIL_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "CEN_RTI_NUM",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "CEN_RTI_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "CRA_COD_NUM",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "INS_DPT_CD1",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "INS_DPT_CD2",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "INS_DPT_CD3",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "INS_DPT_CD4",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "INS_DPT_CD5",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "INS_DPT_CD6",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "INS_DPT_CD7",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "INS_DPT_CD8",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_URS_V",
+    "title": "code URSSAF",
+    "primaryKey": "ETA_URS_COD"
+}

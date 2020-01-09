@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "MSB_SUB_MTF",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "MSB_SUB_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_MSB_V",
+    "title": "Motif de substitution du médicament",
+    "primaryKey": [
+        "MSB_SUB_MTF"
+    ]
+}

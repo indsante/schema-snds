@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "VIC_ANC_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "VIC_ANC_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_ANC_V",
+    "title": "Ancienneté de l accidenté lors de l  AT",
+    "primaryKey": [
+        "VIC_ANC_COD"
+    ]
+}

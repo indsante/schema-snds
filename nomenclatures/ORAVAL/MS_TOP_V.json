@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "TOP_NUM_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "TOP_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "MS_TOP_V",
+    "title": "Top Numérique ( oui / non )",
+    "primaryKey": [
+        "TOP_NUM_COD"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "MVT_MOT_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "MVT_MOT_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "ZO_MMV_V",
+    "title": "Motif de mouvement  RESID-EHPAD",
+    "primaryKey": [
+        "MVT_MOT_COD"
+    ]
+}

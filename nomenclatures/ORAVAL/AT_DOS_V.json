@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "SIN_ETA_MAT",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "SIN_ETA_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_DOS_V",
+    "title": "état du dossier ( code alpha )  ( version 11 Orphée)",
+    "primaryKey": [
+        "SIN_ETA_MAT"
+    ]
+}

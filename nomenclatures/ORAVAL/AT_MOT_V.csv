@@ -1,0 +1,23 @@
+CTX_MOT_CTN;CTX_MOT_LIB;TEC_COL
+APPNONJUST;Appareillage non justifié;0
+AVISCRRMP;Avis motivé du CRRMP;0
+CARENCONVOC;Carence à convocation;0
+CONCEXPERT;Conclusions d'expertise;0
+DOCETACIV;Documents d'état-civil non fournis;0
+DOCMED;Documents médicaux non fournis;0
+DTCONSOLID;Date de consolidation;0
+DTREPRTRAV;Date de reprise de travail;0
+IMPUTAB;Imputabilité;0
+MATERIA;Matérialité;0
+NONCONFNOMEN;Non conforme à la nomenclature;0
+NONCONFPRES;Non conforme à la prescription médicale;0
+NRCONTRAD;Non Respect du Contradictoire;0
+TAUXIP;Taux IP < 25%;0
+DTGUERISON;Date de guérison;0
+DUREEARRTRAV;Durée;0
+AUTRES;Autres;0
+DECNONMOTIV;Décisions non motivées;0
+DECPEUMOTIV;Décisions peu motivées;0
+RESNONCPTE;Réserves non prises en compte;0
+IIIIIIIIIIIIIII;Valeur inconnue;1
+XXXXXXXXXXXXXXX;Sans objet;2

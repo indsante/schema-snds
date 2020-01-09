@@ -1,0 +1,34 @@
+{
+    "fields": [
+        {
+            "name": "SIN_VAL_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "SIN_VAL_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "SIN_GRP_COD",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_VLI_V",
+    "title": "Validité de la DAT",
+    "primaryKey": [
+        "SIN_VAL_COD"
+    ]
+}

@@ -1,0 +1,14 @@
+BEN_NAT;BEN_NAT_LIB;TEC_COL
+VICT;Victime;0
+CJLE;Conjoint légitime;0
+CJDI;Conjoint divorcé;0
+CJSE;Conjoint séparé;0
+CJPO;Conjoint polygame;0
+CJDE;Conjoint déchu de l'autorité parentale;0
+ORPH;Orphelin;0
+ORPHD;Orphelin double;0
+CONC;Concubin;0
+PACS;Partenaire Pacs;0
+ASC;Ascendant;0
+NNNNN;Non Précisé;0
+IIIII;Inconnu;1

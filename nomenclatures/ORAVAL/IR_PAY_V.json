@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "GEO_PAY_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "GEO_PAY_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_PAY_V",
+    "title": "Pays",
+    "primaryKey": [
+        "GEO_PAY_COD"
+    ]
+}

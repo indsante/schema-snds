@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "DPT_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "DPT_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_DPT_V",
+    "title": "département  ( version 11 Orphée)",
+    "primaryKey": [
+        "DPT_COD"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "PFS_ACT_CAT",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "ACT_CAT_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_CAC_V",
+    "title": "Catégorie d'Activité PS",
+    "primaryKey": [
+        "PFS_ACT_CAT"
+    ]
+}

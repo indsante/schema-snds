@@ -1,0 +1,46 @@
+{
+    "fields": [
+        {
+            "name": "TLS_FCT_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "TLS_FCT_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "SER_SER_COD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "SER_SER_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GRP_SER_COD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GRP_SER_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "primaryKey": "TLS_FCT_COD",
+    "name": "PX_FSR_V",
+    "title": "services associées aux fonctionnalités"
+}

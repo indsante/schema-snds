@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "RSM_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "RSM_COD_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_RSM_V",
+    "title": "Table des codes ERSM",
+    "primaryKey": [
+        "RSM_COD"
+    ]
+}

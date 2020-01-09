@@ -1,0 +1,13 @@
+DMF_DEC_COD;DMF_DEC_PGS;TEC_COL
+A;Attente;0
+ATI;Avis technique impossible;0
+G;Guérison;0
+C;Consolidation avec séquelles non indemnisables;0
+CIP;Consolidation avec séquelles indemnisables;0
+RJ;Rejet de la décision du MT;0
+RDF;Report de la décision du MC à une date fixée;0
+RDU;Report de la décision du MC à une date ultérieure non fixée;0
+REA;Retour à l'état antérieur (pour un épisode Rechute);0
+GA;Guérison apparente;0
+XXX;Sans Objet;2
+III;Valeur inconnue;1

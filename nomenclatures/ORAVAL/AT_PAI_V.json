@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "RAT_GRP_PAI",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "GRP_PAI_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_PAI_V",
+    "title": "groupe de Paiement rente AT (périodicité)",
+    "primaryKey": [
+        "RAT_GRP_PAI"
+    ]
+}

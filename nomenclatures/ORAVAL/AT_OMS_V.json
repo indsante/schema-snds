@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "SIN_SYN_PAT",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "SYN_PAT_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_OMS_V",
+    "title": "code pathologie  ( pour MP OMS  ) codes CIM appli AT (limite à 10 600 lignes)",
+    "primaryKey": [
+        "SIN_SYN_PAT"
+    ]
+}

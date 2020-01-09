@@ -1,0 +1,214 @@
+TLS_FCT_COD;TLS_FCT_LIB;SER_SER_COD;SER_SER_LIB;GRP_SER_COD;GRP_SER_LIB;TEC_COL
+aat01;Transmission;SPA_A;Avis d Arrêt de Travail 5 clics;SPA;Service patient;0
+aat02;Impression;SPA_A;Avis d Arrêt de Travail 5 clics;SPA;Service patient;0
+aat03;Création formulaire;SPA_A;Avis d Arrêt de Travail 5 clics;SPA;Service patient;0
+aat04;Transmission WS;SPA_A;Avis d Arrêt de Travail 5 clics;SPA;Service patient;0
+ape01;Création APE entrée;SPA_B;Demande d accord préalable;SPA;Service patient;0
+ape02;Création APE sortie;SPA_B;Demande d accord préalable;SPA;Service patient;0
+ape03;Consultation APE entrée;SPA_B;Demande d accord préalable;SPA;Service patient;0
+ape04;Consultation APE sortie;SPA_B;Demande d accord préalable;SPA;Service patient;0
+boi01;Accès au service;BOI_A;Ameli.fr;BOI;Boîte à info;0
+boi02;Accès au service;BOI_B;Nomenclature des actes CCAM;BOI;Boîte à info;0
+boi03;Accès au service;BOI_C;Référentiels HAS;BOI;Boîte à info;0
+cmd01;Accès au service;CMD_A;Commande de Test de diagnostic rapide angine;CMD;Commande;0
+cmd02;Accès au service;CMD_B;Commander des imprimés;CMD;Commande;0
+cmd03;Accès au service;CMD_C;Déclarer un parc de véhicule;CMD;Commande;0
+cmd04;Accès au service;CMD_D;Formulaires en ligne;CMD;Commande;0
+cmd05;Consultation d une commande;CMD_E;Historique des commandes;CMD;Commande;0
+cmd06;Liste des commandes;CMD_E;Historique des commandes;CMD;Commande;0
+cnx01;Connexion avec CPS;CNX_A;Connexion;CNX;Connexion;0
+cnx02;Connexion avec identifiant / mot de passe;CNX_A;Connexion;CNX;Connexion;0
+cnx03;Accès à la page;CNX_B;Page de maintenance;CNX;Connexion;0
+cnx04;Demande de code professionnel;CNX_C;Page d inscription;CNX;Connexion;0
+cnx05;?;CNX_F;?;CNX;Connexion;0
+cnx06;?;CNX_E;?;CNX;Connexion;0
+cnx07;?;CNX_G;?;CNX;Connexion;0
+cnx08;Demande de code établissement;CNX_C;Page d inscription;CNX;Connexion;0
+cnx09;Accès à la page;CNX_D;Question secrète;CNX;Connexion;0
+cnx10;Accès à la page;CNX_J;Page de connexion;CNX;Connexion;0
+cnx11;Affichage de l'encart;CNX_J;Page de connexion;CNX;Connexion;0
+cnx12;Affichage de l'information sur le service;CNX_J;Page de connexion;CNX;Connexion;0
+cnx13;?;CNX_J;Page de connexion;CNX;Connexion;0
+cpt01;Accès à la page;CPT_A;Code d Accès;CPT;Gestion de compte;0
+cpt02;Echec;CPT_A;Code d Accès;CPT;Gestion de compte;0
+cpt03;Validation;CPT_A;Code d Accès;CPT;Gestion de compte;0
+cpt04;Accès à la page;CPT_B;Informations professionnelles;CPT;Gestion de compte;0
+cpt05;Accès à la page;CPT_C;Modification de son adresse électronique;CPT;Gestion de compte;0
+cpt06;Validation;CPT_C;Modification de son adresse électronique;CPT;Gestion de compte;0
+cpt07;Accès à la page;CPT_D;Question clé;CPT;Gestion de compte;0
+cpt08;Validation;CPT_D;Question clé;CPT;Gestion de compte;0
+cpt09;Confirmation de l inscription;CPT_E;Service info paiements;CPT;Gestion de compte;0
+cpt10;Page d inscription;CPT_E;Service info paiements;CPT;Gestion de compte;0
+cpt11;Code d'accès;CPT_F;Compte bloqué;CPT;Gestion de compte;0
+cpt12;Demande de code;CPT_F;Compte bloqué;CPT;Gestion de compte;0
+cpt13;Confirmation;CPT_F;Compte bloqué;CPT;Gestion de compte;0
+cpt14;Validation du courriel : demande de code d'accès;CPT_F;Compte bloqué;CPT;Gestion de compte;0
+dmt01;Accès au service;SPA_C;Déclaration de choix de médecin traitant;SPA;Service patient;0
+dmt02;Transmission WS;SPA_C;Déclaration de choix de médecin traitant;SPA;Service patient;0
+ech01;Accès à la page;ECH_A;Contacter l Assurance Maladie par courrier électro;ECH;Echanges;0
+ech03;?;ECH_B;Modification de son adresse électronique;ECH;Echanges;0
+ech04;?;ECH_C;Support technique;ECH;Echanges;0
+ech05;Accès à la page;ECH_C;Support technique;ECH;Echanges;0
+ech06;Accès à la page;ECH_D;Trouver un interlocuteur;ECH;Echanges;0
+ech07;?;ECH_C;Support technique;ECH;Echanges;0
+hre01;Consultation;SPA_D;Historique des remboursements;SPA;Service patient;0
+idp01;Identification du patient avec CPS;IDP_A;Identification du patient;IDE;Identification du patient;0
+idp02;Identification du patient avec NIR;IDP_A;Identification du patient;IDE;Identification du patient;0
+pcx01;?;CNX_H;Première connexion avec CPS;CNX;Connexion;0
+pcx02;?;CNX_I;Première connexion sans CPS;CNX;Connexion;0
+pcx03;Demande de code d Accés;CNX_H;Première connexion avec CPS;CNX;Connexion;0
+pcx04;?;CNX_I;Première connexion sans CPS;CNX;Connexion;0
+pcx05;?;CNX_I;Première connexion sans CPS;CNX;Connexion;0
+pcx06;Premiere connexion;CNX_I;Première connexion sans CPS;CNX;Connexion;0
+pmt01;Accès à la page;PMT_A;Aides à la télétransmission;PMT;Paiements;0
+pmt02;Accès à la page;PMT_B;Gardes et astreintes;PMT;Paiements;0
+pmt03;Recherche;PMT_C;Recherche des indus;PMT;Paiements;0
+pra01;Accès au service;PRA_A;Déclarer un décès à l INSERM;PRA;Pratique;0
+pra02;Accès à la page;PRA_B;Patienté le médecin traitant;PRA;Pratique;0
+pra03;Accès à la page;PRA_C;Relevé individuel d activité et de prescription;PRA;Pratique;0
+pra04;Patients traités par antihypertenseur;PRA_D;Vos pratiques / CAPI;PRA;Pratique;0
+pra05;Graphique Vaccination contre la grippe saisonnière;PRA_D;Vos pratiques / CAPI;PRA;Pratique;0
+pra06;Graphique Aspirine faible dos / Antia plaquetta;PRA_D;Vos pratiques / CAPI;PRA;Pratique;0
+pra07;Graphique Dépistage du cancer du sein;PRA_D;Vos pratiques / CAPI;PRA;Pratique;0
+pra08;Graphique Diabète à haut risque cardiovasculaire;PRA_D;Vos pratiques / CAPI;PRA;Pratique;0
+pra09;Graphique Diabète;PRA_D;Vos pratiques / CAPI;PRA;Pratique;0
+pra10;Graphique Iatrogénie;PRA_D;Vos pratiques / CAPI;PRA;Pratique;0
+pra11;Graphique IEC / IEC + sartans;PRA_D;Vos pratiques / CAPI;PRA;Pratique;0
+pra12;Graphique Prescription répertoire des génériques;PRA_D;Vos pratiques / CAPI;PRA;Pratique;0
+pra13;Patientel : Liste des patients;PRA_D;Vos pratiques / CAPI;PRA;Pratique;0
+pra14;Inscription et renseignement sur le CAPI;PRA_D;Vos pratiques / CAPI;PRA;Pratique;0
+pra15;Patientel Grippe saisonnière;PRA_D;Vos pratiques / CAPI;PRA;Pratique;0
+pra16;Patientel Traitement par benzodiazépines;PRA_D;Vos pratiques / CAPI;PRA;Pratique;0
+pra17;Patientel Traitement par vasodilatateurs;PRA_D;Vos pratiques / CAPI;PRA;Pratique;0
+pra18;Patientel du Dépistage du cancer du sein;PRA_D;Vos pratiques / CAPI;PRA;Pratique;0
+pra19;Impression;PRA_E;Vos pratiques / Referentiels et Memos;PRA;Pratique;0
+pra20;Accès au service;PRA_E;Vos pratiques / Referentiels et Memos;PRA;Pratique;0
+pra21;Indicateur : Antibio. (2 indicateurs);PRA_F;Vos pratiques / Convention;PRA;Pratique;0
+pra22;Indicateur : Antibiotiques;PRA_F;Vos pratiques / Convention;PRA;Pratique;0
+pra23;Indicateur : Antidepresseurs;PRA_F;Vos pratiques / Convention;PRA;Pratique;0
+pra24;Indicateur : Antihypertenseurs;PRA_F;Vos pratiques / Convention;PRA;Pratique;0
+pra25;Indicateur : Aspirine/Antiagregants pla;PRA_F;Vos pratiques / Convention;PRA;Pratique;0
+pra26;Indicateur : Benzodiazepines (2 indicateurs);PRA_F;Vos pratiques / Convention;PRA;Pratique;0
+pra27;Indicateur : Benzodiazepines 1/2 vie lo;PRA_F;Vos pratiques / Convention;PRA;Pratique;0
+pra28;Indicateur : Cancers (2 indicateurs);PRA_F;Vos pratiques / Convention;PRA;Pratique;0
+pra29;Indicateur : Cancer du sein;PRA_F;Vos pratiques / Convention;PRA;Pratique;0
+pra30;Indicateur : Depistage de la ret;PRA_F;Vos pratiques / Convention;PRA;Pratique;0
+pra31;Indicateur : Frequence dosages HbA1c;PRA_F;Vos pratiques / Convention;PRA;Pratique;0
+pra32;Indicateur : Horaires de consultation;PRA_F;Vos pratiques / Convention;PRA;Pratique;0
+pra33;Indicateur : IEC/IEC+Sartans;PRA_F;Vos pratiques / Convention;PRA;Pratique;0
+pra34;Indicateur : Indicateur Generique;PRA_F;Vos pratiques / Convention;PRA;Pratique;0
+pra35;Indicateur : IPP;PRA_F;Vos pratiques / Convention;PRA;Pratique;0
+pra36;Indicateur : Logiciel (3 indicateurs);PRA_F;Vos pratiques / Convention;PRA;Pratique;0
+pra37;Indicateur : Logiciel d informatisation du;PRA_F;Vos pratiques / Convention;PRA;Pratique;0
+pra38;Indicateur : Logiciel de teletra;PRA_F;Vos pratiques / Convention;PRA;Pratique;0
+pra39;Accès au service;PRA_F;Vos pratiques / Convention;PRA;Pratique;0
+pra40;Indicateur : Patients de +65 ans;PRA_F;Vos pratiques / Convention;PRA;Pratique;0
+pra41;Indicateur : Patients en ALD;PRA_F;Vos pratiques / Convention;PRA;Pratique;0
+pra42;Indicateur : Statines (2 indicateurs);PRA_F;Vos pratiques / Convention;PRA;Pratique;0
+pra43;Indicateur : Statines + anticoagulants;PRA_F;Vos pratiques / Convention;PRA;Pratique;0
+pra44;Indicateur : Synthese annuelle des pati;PRA_F;Vos pratiques / Convention;PRA;Pratique;0
+pra45;Indicateur : Vasodilatateurs;PRA_F;Vos pratiques / Convention;PRA;Pratique;0
+pra47;Indicateur : Patients diabetiques typeII - HbA1C 7;PRA_F;Vos pratiques / Convention;PRA;Pratique;0
+pra48;Indicateur : Patients diabetiques typeII - HbA1C 8;PRA_F;Vos pratiques / Convention;PRA;Pratique;0
+pra49;Indicateur : Patients diabetiques typeII - LDL 1.3;PRA_F;Vos pratiques / Convention;PRA;Pratique;0
+pra50;Indicateur : Patients diabetiques typeII - LDL 1.5;PRA_F;Vos pratiques / Convention;PRA;Pratique;0
+pra51;Indicateur : Patients hypertendus;PRA_F;Vos pratiques / Convention;PRA;Pratique;0
+pse01;Accès au service;SPA_E;Protocoles de soins du patient / ALD;SPA;Service patient;0
+pse02;Accès au service de consultation;SPA_E;Protocoles de soins du patient / ALD;SPA;Service patient;0
+pse03;Accès au service de création;SPA_F;Protocoles de soins du PS;SPA;Service patient;0
+pse04;Accès au service de gestion;SPA_F;Protocoles de soins du PS;SPA;Service patient;0
+ws01;getListeAld;WSS_A;ALDWS;WSS;Web service;0
+ws02;getListePse;WSS_B;PSEWS;WSS;Web service;0
+ws03;getListePss;WSS_C;PSSWS;WSS;Web service;0
+ws04;lireDetailPaiementTiersPayant;WSS_D;R5WS;WSS;Web service;0
+ws05;lireListeAideTeletransmission;WSS_D;R5WS;WSS;Web service;0
+ws06;lireListePaiementGEA;WSS_D;R5WS;WSS;Web service;0
+ws07;lireListePaiementIndu;WSS_D;R5WS;WSS;Web service;0
+ws08;lireListePaiementTiersPayantParActe;WSS_D;R5WS;WSS;Web service;0
+ws09;lireListePaiementTiersPayantParBeneficiaire;WSS_D;R5WS;WSS;Web service;0
+ws10;lireListePaiementTiersPayantParDate;WSS_D;R5WS;WSS;Web service;0
+ws11;lireListePaiementTiersPayantParDateEtOrganisme;WSS_D;R5WS;WSS;Web service;0
+ws12;lireListePaiementTiersPayantParNumero;WSS_D;R5WS;WSS;Web service;0
+ws13;lireListeReleveMensuel;WSS_D;R5WS;WSS;Web service;0
+ws14;lireListeRemALD;WSS_D;R5WS;WSS;Web service;0
+ws15;rechercheListePatients;WSS_D;R5WS;WSS;Web service;0
+ws16;recuperEditionReleveCompteMensuel;WSS_D;R5WS;WSS;Web service;0
+ws17;lireDetailPaiementTiersPayant;WSS_E;R5WSExterne;WSS;Web service;0
+ws18;lireListePaiementTiersPayantParActe;WSS_E;R5WSExterne;WSS;Web service;0
+ws19;lireListePaiementTiersPayantParBeneficiaire;WSS_E;R5WSExterne;WSS;Web service;0
+ws20;lireListePaiementTiersPayantParDate;WSS_E;R5WSExterne;WSS;Web service;0
+ws21;lireListePaiementTiersPayantParDateEtOrganisme;WSS_E;R5WSExterne;WSS;Web service;0
+ws22;lireListePaiementTiersPayantParNumero;WSS_E;R5WSExterne;WSS;Web service;0
+ws23;lireListeRemALD;WSS_E;R5WSExterne;WSS;Web service;0
+ws24;rechercheListePatients;WSS_E;R5WSExterne;WSS;Web service;0
+ws25;lireAnneesArchivePdfDispo;WSS_F;T7WS;WSS;Web service;0
+ws26;lireArchivePdf;WSS_F;T7WS;WSS;Web service;0
+ws27;lireDroitsCaisse;WSS_G;V2WS;WSS;Web service;0
+ws29;enregistrerMailPS;WSS_H;W3WS;WSS;Web service;0
+ws32;lireListeCabinetsFromAdeli;WSS_H;W3WS;WSS;Web service;0
+ws34;lireListeCategories;WSS_H;W3WS;WSS;Web service;0
+ws36;supprimerMailPS;WSS_H;W3WS;WSS;Web service;0
+ws38;lireEntreesPatientele;WSS_I;W4WS;WSS;Web service;0
+ws41;lirePatientele;WSS_I;W4WS;WSS;Web service;0
+ws42;lireSortiesPatientele;WSS_I;W4WS;WSS;Web service;0
+ws43;lireInfosOrganisme;WSS_J;W5WS;WSS;Web service;0
+ws44;lireReferentielOrganismes;WSS_J;W5WS;WSS;Web service;0
+ws45;getPdfPSS;WSS_C;PSSWS;WSS;Web service;0
+ws46;recupererContratRP;WSS_L;VQWS;WSS;Web service;0
+pmt04;Résultat de la recherche;PMT_C;Recherche des indus;PMT;Paiements;0
+pmt05;Accès à la page;PMT_D;Relevés d honoraires;PMT;Paiements;0
+pmt06;Accès à la page;PMT_E;Relevés mensuels de paiements;PMT;Paiements;0
+pmt07;Accès à la page : Recherche et résultat;PMT_F;Rémunération spécifique médecin traitant ALD;PMT;Paiements;0
+pmt08;Recherche par date d actes;PMT_G;Tiers Payant;PMT;Paiements;0
+pmt09;Recherche par date de paiements;PMT_G;Tiers Payant;PMT;Paiements;0
+ws47;recupererDonneeRefIndicateurRP;WSS_L;VQWS;WSS;Web service;0
+ws48;recupererTauxSuiviRP;WSS_L;VQWS;WSS;Web service;0
+ws49;lireListeCabinetsFromRpps;WSS_H;W3WS;WSS;Web service;0
+ws50;lireListeIdentitesFromListeNumPS;WSS_H;W3WS;WSS;Web service;0
+ws51;determinerCouvertureDesDroits;WSS_M;WDWS;WSS;Web service;0
+ws52;Demande;WSS_K;AutorisationVitale;WSS;Web service;0
+ws53;Verification;WSS_K;AutorisationVitale;WSS;Web service;0
+XXXXX;Valeur inconnue;XXXXX;XXX;XXXXX;XXX;1
+cnx14;Connexion avec CPE;CNX_A;Connexion;CNX;Connexion;0
+cnx15;Code d'accès perdu ou oublié;CNX_J;Page de connexion;CNX;Connexion;0
+pra46;Liste des patients;PRA_F;Vos pratiques / Convention;PRA;Pratique;0
+ape05;Consultation APE : Résultat d'une recherche;SPA_B;Demande d accord préalable;SPA;Service patient;0
+ape06;Consultation APE : Consultation d'une fiche;SPA_B;Demande d accord préalable;SPA;Service patient;0
+ape07;Création APE : Accès à la page;SPA_B;Demande d accord préalable;SPA;Service patient;0
+ape08;Création APE : Confirmation de la création;SPA_B;Demande d accord préalable;SPA;Service patient;0
+ape09;Création APE : Récapitulatif après création;SPA_B;Demande d accord préalable;SPA;Service patient;0
+ape10;Gestion APE : Accès à la page de gestion;SPA_B;Demande d accord préalable;SPA;Service patient;0
+ape11;"Gestion APE : Filtre sur ""Abandonné""";SPA_B;Demande d accord préalable;SPA;Service patient;0
+ape12;"Gestion APE : Filtre sur ""Avis SM""";SPA_B;Demande d accord préalable;SPA;Service patient;0
+ape13;"Gestion APE : Filtre sur ""Brouillon""";SPA_B;Demande d accord préalable;SPA;Service patient;0
+ape14;"Gestion APE : Filtre sur ""Concertation""";SPA_B;Demande d accord préalable;SPA;Service patient;0
+ape15;"Gestion APE : Filtre sur ""Dépot""";SPA_B;Demande d accord préalable;SPA;Service patient;0
+ape16;"Gestion APE : Filtre sur ""Récapitulatif""";SPA_B;Demande d accord préalable;SPA;Service patient;0
+ape17;"Gestion APE : Filtre sur ""Transmis""";SPA_B;Demande d accord préalable;SPA;Service patient;0
+ws59;getNumAdeliFromNumRpps;WSS_H;W3WS;WSS;Web service;0
+ws60;lireIndentitePSDepuisFiness;WSS_H;W3WS;WSS;Web service;0
+ws61;lireListeNumeroPSFromSiret;WSS_H;W3WS;WSS;Web service;0
+ws54;lireAdressePatient;WSS_N;M6WS;WSS;Web service;0
+ws55;lireContenuPieceJointe;WSS_N;M6WS;WSS;Web service;0
+ws56;lireListeActes;WSS_N;M6WS;WSS;Web service;0
+ws57;lireListeActesAllNatures;WSS_N;M6WS;WSS;Web service;0
+ws58;lireListeAllAvis;WSS_N;M6WS;WSS;Web service;0
+pra52;Accès au service ROSP Cardiologe;PRA_G;Vos pratiques / Convention Cordiologue;PRA;Pratique;0
+pra53;Indicateur : Antihypertenseurs;PRA_G;Vos pratiques / Convention Cordiologue;PRA;Pratique;0
+pra54;Indicateur : Antiplaquettaires : arre;PRA_G;Vos pratiques / Convention Cordiologue;PRA;Pratique;0
+pra55;Indicateur : Horaires et organisation du cabinet;PRA_G;Vos pratiques / Convention Cordiologue;PRA;Pratique;0
+pra56;Indicateur : HTA;PRA_G;Vos pratiques / Convention Cordiologue;PRA;Pratique;0
+pra57;Indicateur : Hypertension arterielle;PRA_G;Vos pratiques / Convention Cordiologue;PRA;Pratique;0
+pra58;Indicateur : Indicateur Generique;PRA_G;Vos pratiques / Convention Cordiologue;PRA;Pratique;0
+pra59;Indicateur : Insuffisance cardiaque;PRA_G;Vos pratiques / Convention Cordiologue;PRA;Pratique;0
+pra60;Indicateur : Insuffisance cardiaque : trait;PRA_G;Vos pratiques / Convention Cordiologue;PRA;Pratique;0
+pra61;Indicateur : LDL Cholesterol chez le;PRA_G;Vos pratiques / Convention Cordiologue;PRA;Pratique;0
+pra62;Indicateur : Logiciel d aide à la préscription;PRA_G;Vos pratiques / Convention Cordiologue;PRA;Pratique;0
+pra63;Indicateur : Log. informatisation dossier médical;PRA_G;Vos pratiques / Convention Cordiologue;PRA;Pratique;0
+pra64;Indicateur : Logiciel de télétransmission;PRA_G;Vos pratiques / Convention Cordiologue;PRA;Pratique;0
+pra65;Indicateur : Post infarctus du myocarde;PRA_G;Vos pratiques / Convention Cordiologue;PRA;Pratique;0
+pra66;Indicateur : Post infarctus du myocarde : t;PRA_G;Vos pratiques / Convention Cordiologue;PRA;Pratique;0
+pra67;Indicateur : Statines;PRA_G;Vos pratiques / Convention Cordiologue;PRA;Pratique;0
+pra68;Indicateur : Stents;PRA_G;Vos pratiques / Convention Cordiologue;PRA;Pratique;0
+pra69;Indicateur : Surveillance hypertension artérielle;PRA_G;Vos pratiques / Convention Cordiologue;PRA;Pratique;0
+pra70;Indicateur : Surveillance traitement diurétique;PRA_G;Vos pratiques / Convention Cordiologue;PRA;Pratique;0

@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "PTR_VIC_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "PTR_VIC_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_PTR_V",
+    "title": "Poste de travail",
+    "primaryKey": [
+        "PTR_VIC_COD"
+    ]
+}

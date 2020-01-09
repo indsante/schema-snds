@@ -1,0 +1,22 @@
+FFT_COD;FFT_LIB;TEC_COL
+000;sans objet;2
+D01;Hémodialyse en centre;0
+D02;Autodialyse (simple ou assistée);0
+D03;Entraînement à l'hémodialyse à domicile et à l'autodialyse;0
+D04;Entraînement à la DPA;0
+D05;Entraînement à la DPCA;0
+D06;Hémodialyse à domicile;0
+D07;Dialyse Péritonéale Automatisée (DPA);0
+D08;Dialyse Péritonéale Continue Ambulatoire (DPCA);0
+D09;Forfait d'hémodialyse en centre;0
+D10;Forfait d'hémodialyse en centre pour enfants;0
+D11;Forfait d'hémodialyse en unité de dialyse médicalisée;0
+D12;Forfait d'autodialyse simple;0
+D13;Forfait d'autodialyse assistée;0
+D14;Forfait d'hémodialyse à domicile;0
+D15;Forfait de dialyse péritonéale automatisée (DPA);0
+D16;Forfait de dialyse péritonéale continue ambulatoire (DPCA);0
+D17;Forfait d'entraînement à l'hémodialyse à domicile et à l'autodialyse;0
+D18;Forfait d'entraînement à la dialyse péritonéale automatisée;0
+D19;Forfait d'entraînement à la dialyse péritonéale continue ambulatoire;0
+999;valeur inconnue;1

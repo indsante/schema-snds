@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "CPL_MAJ_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "CPL_MAJ_TIP",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_CPM_V",
+    "title": "Regroupement complément d'acte/majorations",
+    "primaryKey": [
+        "CPL_MAJ_COD"
+    ]
+}

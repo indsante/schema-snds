@@ -1,0 +1,72 @@
+{
+    "fields": [
+        {
+            "name": "PFS_SPE_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "PFS_SPE_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "PFS_SPE_STA",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "SPE_STA_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "PFS_SPE_POS",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "SPE_POS_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "PFS_SPE_OMS",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "SPE_OMS_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "PFS_SPE_TDM",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "SPE_TDM_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "PFS_CAT_COD",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "PFS_CAT_LIB",
+            "type": "string",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "primaryKey": "PFS_SPE_COD",
+    "name": "IR_SPE_D",
+    "title": "Spécialités médicales (Dénormalisée)"
+}

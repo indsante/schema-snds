@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "RAT_DOS_ETA",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "DOS_ETA_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_EDO_V",
+    "title": "Etat du Dossier  ( code numérique ) ( Eurydice )",
+    "primaryKey": [
+        "RAT_DOS_ETA"
+    ]
+}

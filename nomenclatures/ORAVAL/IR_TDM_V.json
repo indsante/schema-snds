@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "PRS_NAT_TDM",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "NAT_TDM_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_TDM_V",
+    "title": "Regroupement de Prestation pour TANDEM",
+    "primaryKey": [
+        "PRS_NAT_TDM"
+    ]
+}

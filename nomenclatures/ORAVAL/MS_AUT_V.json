@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "AUT_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "AUT_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "MS_AUT_V",
+    "title": "Type d'UM autorisé",
+    "primaryKey": [
+        "AUT_COD"
+    ]
+}

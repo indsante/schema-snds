@@ -1,0 +1,8 @@
+RAT_GRP_PAI;GRP_PAI_LIB;TEC_COL
+1;paiement trimestriel : janvier , avril, juillet , octobre;0
+2;paiement trimestriel : février , mai, aout, novembre;0
+3;paiement trimestriel : mars, juin, septembre, décembre;0
+4;paiement mensuel;0
+8;Non Précisé;0
+0;Sans Objet;2
+9;Inconnu;1

@@ -1,0 +1,43 @@
+{
+    "fields": [
+        {
+            "name": "UCD_UCD_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "HCO_COU_DTD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "UCD_LIS_TOP",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "HCO_COU_DTF",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "UCD_DOC_DTE",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "UCD_DOC_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "NU_HCO_R",
+    "primaryKey": [
+        "UCD_UCD_COD"
+    ]
+}

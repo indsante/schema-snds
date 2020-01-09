@@ -1,0 +1,23 @@
+{
+    "fields": [
+        {
+            "name": "EPH_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "EPH_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_EPH_R",
+    "primaryKey": [
+        "EPH_COD"
+    ]
+}

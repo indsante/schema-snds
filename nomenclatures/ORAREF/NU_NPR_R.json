@@ -1,0 +1,30 @@
+{
+    "fields": [
+        {
+            "name": "UCD_TAU_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "PRS_TAU_DTE",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "UCD_HIS_DTF",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "NPR_PRS_NAT",
+            "type": "string",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "primaryKey": "UCD_TAU_COD",
+    "name": "NU_NPR_R"
+}

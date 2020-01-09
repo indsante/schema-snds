@@ -1,0 +1,52 @@
+CTP_COD;CTP_LIB
+0001;secteur 1 adhérent, Toutes specialites medicales
+0002;secteur 1, Toutes specialites medicales
+0003;secteur 1 OC avec ou sans DP, Toutes specialites medicales
+0004;secteur 1DP adhérent, Toutes specialites medicales
+0005;secteur 1DP, Toutes specialites medicales
+0006;secteur 2 OC, Toutes specialites medicales
+0007;secteur 2 adhérent, Toutes specialites medicales
+0008;secteur 2 ,Toutes specialites medicales
+0009;non conventionné, Toutes specialites medicales
+0010;conventionné, Chirurgiens dentistes
+0011;non conventionné, Chirurgiens dentistes
+0012;conventionné, Sage-Femme
+0013;non conventionné, Sage-Femme
+0014;secteur 1 OPTAM-CO, specialites de chirurgie et gyneco-obstetrique
+0015;secteur 1 DP OPTAM-CO,  specialites de chirurgie et gyneco-obstetrique
+0016;secteur 2 OPTAM-CO,  specialites de chirurgie et gyneco-obstetrique
+0017;secteur 1 OPTAM, specialites de chirurgie et gyneco-obstetrique
+0018;secteur 1 OPTAM, anesthésistes
+0019;secteur 1 OPTAM, pédiatres
+0020;secteur 1 OPTAM, généralistes
+0021;secteur 1 OPTAM, autres specialites medicales
+0022;secteur 1DP OPTAM, specialites de chirurgie et gyneco-obstetrique
+0023;secteur 1DP OPTAM, anesthésistes
+0024;secteur 1DP OPTAM, pédiatres
+0025;secteur 1DP OPTAM, généralistes
+0026;secteur 1DP OPTAM, autres specialites medicales
+0027;secteur 2 OPTAM, specialites de chirurgie et gyneco-obstetrique
+0028;secteur 2 OPTAM, anesthésistes
+0029;secteur 2 OPTAM, pédiatres
+0030;secteur 2 OPTAM, généralistes
+0031;secteur 2 OPTAM, autres specialites medicales
+0032;secteur 1, specialites de chirurgie et gyneco-obstetrique
+0033;secteur 1, anesthésistes
+0034;secteur 1, pédiatres
+0035;secteur 1, généralistes
+0036;secteur 1, autres specialites medicales
+0037;secteur 1DP, specialites de chirurgie et gyneco-obstetrique
+0038;secteur 1DP, anesthésistes
+0039;secteur 1DP, pédiatres
+0040;secteur 1DP, généralistes
+0041;secteur 1DP, autres specialites medicales
+0042;secteur 2, specialites de chirurgie et gyneco-obstetrique
+0043;secteur 2, anesthésistes
+0044;secteur 2, pédiatres
+0045;secteur 2, généralistes
+0046;secteur 2, autres specialites medicales
+0047;non conventionné, specialites de chirurgie et gyneco-obstetrique
+0048;non conventionné, anesthésistes
+0049;non conventionné, pédiatres
+0050;non conventionné, généralistes
+0051;non conventionné, autres specialites medicales

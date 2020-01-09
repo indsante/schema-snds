@@ -1,0 +1,51 @@
+{
+    "fields": [
+        {
+            "name": "PHA_CIP_C13",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "PTF_TAR_DTD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "PTF_TAR_DTF",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "PHA_PRS_IDE",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "PTF_PRI_UNI",
+            "type": "number",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "PHA_PRI_UND",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "PTF_TAU_COD",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "PHA_DAT_OPP",
+            "type": "string",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "primaryKey": ["PHA_CIP_C13", "PTF_TAR_DTD", "PTF_TAR_DTF"],
+    "name": "IR_PTF_R"
+}

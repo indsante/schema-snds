@@ -1,0 +1,23 @@
+{
+    "fields": [
+        {
+            "name": "CTP_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "CTP_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "XC_CTP_V",
+    "primaryKey": [
+        "CTP_COD"
+    ]
+}

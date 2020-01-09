@@ -1,0 +1,28 @@
+{
+    "fields": [
+        {
+            "name": "TRF_GRI",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "TRF_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TRF_DEF",
+            "type": "string",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "XC_TRF_R",
+    "primaryKey": [
+        "TRF_GRI"
+    ]
+}

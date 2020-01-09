@@ -1,0 +1,23 @@
+{
+    "fields": [
+        {
+            "name": "CSP_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "CSP_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "XC_CSP_V",
+    "primaryKey": [
+        "CSP_COD"
+    ]
+}

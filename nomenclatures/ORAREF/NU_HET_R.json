@@ -1,0 +1,49 @@
+{
+    "fields": [
+        {
+            "name": "UCD_UCD_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "ETB_TOP_DTE",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "UCD_LIS_TOP",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "IDE_ETA_TYP",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "ETB_TOP_DTF",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "UCD_DOC_DTE",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "UCD_DOC_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "NU_HET_R",
+    "primaryKey": [
+        "UCD_UCD_COD",
+        "IDE_ETA_TYP"
+    ]
+}

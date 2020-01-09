@@ -1,0 +1,7 @@
+ETM_COD;ETM_LIB
+1;Acte pouvant etre exonere par la regle du seuil et exonerant alors la facture
+2;Acte pouvant etre exonere par la regle du seuil mais n'exonerant pas la facture
+3;Acte exonere par nature et non exonerant pour la facture
+4;Acte exonere par nature et exonerant toute la facture
+5;Acte ne pouvant pas être exonéré par la règle du seuil
+7;Acte pouvant etre exonere par nature dans le cadre d'un dispositif de prevention

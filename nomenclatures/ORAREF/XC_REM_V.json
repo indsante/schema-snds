@@ -1,0 +1,23 @@
+{
+    "fields": [
+        {
+            "name": "REM_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "REM_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "XC_REM_V",
+    "primaryKey": [
+        "REM_COD"
+    ]
+}

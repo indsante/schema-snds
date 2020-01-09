@@ -1,0 +1,23 @@
+{
+    "fields": [
+        {
+            "name": "MOP_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "MOP_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "XC_MOP_R",
+    "primaryKey": [
+        "MOP_COD"
+    ]
+}

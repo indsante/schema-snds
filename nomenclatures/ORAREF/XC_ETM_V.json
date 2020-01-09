@@ -1,0 +1,23 @@
+{
+    "fields": [
+        {
+            "name": "ETM_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "ETM_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "XC_ETM_V",
+    "primaryKey": [
+        "ETM_COD"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "fields": [
+        {
+            "name": "CMD_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "CMD_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "XC_CMD_V",
+    "primaryKey": [
+        "CMD_COD"
+    ]
+}

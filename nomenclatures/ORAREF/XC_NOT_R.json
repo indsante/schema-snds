@@ -1,0 +1,23 @@
+{
+    "fields": [
+        {
+            "name": "NOT_TYP_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "NOT_TYP_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "XC_NOT_R",
+    "primaryKey": [
+        "NOT_TYP_COD"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "fields": [
+        {
+            "name": "FFT_CODI",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "FFT_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "XC_FFT_V",
+    "primaryKey": [
+        "FFT_CODI"
+    ]
+}

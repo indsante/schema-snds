@@ -1,0 +1,23 @@
+{
+    "fields": [
+        {
+            "name": "RGP_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "RGP_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "XC_RGP_V",
+    "primaryKey": [
+        "RGP_COD"
+    ]
+}

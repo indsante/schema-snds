@@ -1,0 +1,23 @@
+{
+    "fields": [
+        {
+            "name": "CTB_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "CTB_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "XC_CTB_V",
+    "primaryKey": [
+        "CTB_COD"
+    ]
+}

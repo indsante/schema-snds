@@ -32,16 +32,11 @@ DATA = 'data'
 BYPRODUCT_REPOSITORIES_DIR = pjoin(DATA, 'byproducts_repositories')
 
 SCHEMAS_DIR = 'schemas'
+NOMENCLATURES_DIR = 'nomenclatures'
 
 BYPRODUCTS_DIR = pjoin(DATA, 'byproducts')
 DICO_SNDS_DIR = pjoin(BYPRODUCTS_DIR, 'dico-snds')
 MARKDOWN_DIR = pjoin(BYPRODUCTS_DIR, 'documentation-snds', 'markdown')
-SYNTHETIC_SNDS_DIR = pjoin(BYPRODUCTS_DIR, "synthetic-snds")
-SCHEMAS_SYNTHETIC_SNDS_DIR = pjoin(SYNTHETIC_SNDS_DIR, "schemas")
-NOMENCLATURES_SYNTHETIC_SNDS_DIR = pjoin(SYNTHETIC_SNDS_DIR, "nomenclatures")
-
-NOMENCLATURES_DIR = 'nomenclatures'
-NOMENCLATURES_DICO_SNDS_DIR = pjoin(DICO_SNDS_DIR, NOMENCLATURES_DIR)
 
 NO_NOMENCLATURE = '-'
 

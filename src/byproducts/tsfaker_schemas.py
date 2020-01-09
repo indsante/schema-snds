@@ -11,18 +11,20 @@ import os
 import shutil
 import subprocess
 from os.path import join as pjoin
+from shutil import copyfile
 from typing import Dict
 
 from tableschema import Schema
 
-from src.constants import NO_NOMENCLATURE, SCHEMAS_DIR, NOMENCLATURES_DIR, SCHEMAS_SYNTHETIC_SNDS_DIR, \
-    NOMENCLATURES_SYNTHETIC_SNDS_DIR, ROOT_DIR
+from src.constants import NO_NOMENCLATURE, SCHEMAS_DIR, NOMENCLATURES_DIR, BYPRODUCTS_DIR, ROOT_DIR
 from src.constants import STRING, NUMBER, INTEGER, TYPE_CSV
-from src.utils import get_all_schema_path, get_all_nomenclatures_schema
+from src.utils import get_all_schema_path, get_all_nomenclatures_schema, get_used_nomenclatures
+
+SYNTHETIC_SNDS_DIR = pjoin(BYPRODUCTS_DIR, "synthetic-snds")
 
 
 def generate_synthetic_snds(work_dir):
-    rooted_schemas_synthetic_snds_dir = pjoin(work_dir, SCHEMAS_SYNTHETIC_SNDS_DIR)
+    rooted_schemas_synthetic_snds_dir = pjoin(work_dir, SYNTHETIC_SNDS_DIR, SCHEMAS_DIR)
 
     generate_tsfaker_schemas(rooted_schemas_synthetic_snds_dir, work_dir)
     copy_nomenclatures_for_tsfaker(work_dir)
@@ -47,13 +49,24 @@ def run_tsfaker(rooted_schemas_synthetic_snds_dir):
 
 
 def copy_nomenclatures_for_tsfaker(work_dir):
+    used_nomenclatures = get_used_nomenclatures(work_dir)
     rooted_nomenclatures_dir = pjoin(work_dir, NOMENCLATURES_DIR)
-    rooted_nomenclatures_synthetic_snds_dir = pjoin(work_dir, NOMENCLATURES_SYNTHETIC_SNDS_DIR)
+    rooted_nomenclatures_synthetic_snds_dir = pjoin(work_dir, SYNTHETIC_SNDS_DIR, NOMENCLATURES_DIR)
     logging.info("Copy nomenclatures for tsfaker in directory '{}'"
                  .format(rooted_nomenclatures_synthetic_snds_dir))
     if os.path.exists(rooted_nomenclatures_synthetic_snds_dir):
         shutil.rmtree(rooted_nomenclatures_synthetic_snds_dir)
-    shutil.copytree(rooted_nomenclatures_dir, rooted_nomenclatures_synthetic_snds_dir)
+
+    os.makedirs(rooted_nomenclatures_synthetic_snds_dir, exist_ok=True)
+    for root, dirs, files in os.walk(rooted_nomenclatures_dir):
+        for file in files:
+            if file[:-4] in used_nomenclatures or file[:-5] in used_nomenclatures:
+                source_file_path = pjoin(root, file)
+                target_dir_path = root.replace(rooted_nomenclatures_dir, rooted_nomenclatures_synthetic_snds_dir)
+                target_file_path = pjoin(target_dir_path, file)
+
+                os.makedirs(target_dir_path, exist_ok=True)
+                copyfile(source_file_path, target_file_path)
 
 
 def generate_tsfaker_schemas(rooted_schemas_synthetic_snds_dir, work_dir):
@@ -67,7 +80,7 @@ def generate_tsfaker_schemas(rooted_schemas_synthetic_snds_dir, work_dir):
         replace_nomenclatures_by_foreign_key_reference(schema, nomenclature_to_fk_reference)
         schema.commit(strict=True)
 
-        target_schema_path = source_schema_path.replace(SCHEMAS_DIR, SCHEMAS_SYNTHETIC_SNDS_DIR)
+        target_schema_path = source_schema_path.replace(SCHEMAS_DIR, pjoin(SYNTHETIC_SNDS_DIR, SCHEMAS_DIR))
         schema.save(target_schema_path, ensure_ascii=False)
 
 
@@ -143,4 +156,5 @@ def build_nomenclature_to_foreign_keys_reference() -> Dict[str, dict]:
 
 
 if __name__ == '__main__':
-    generate_synthetic_snds(ROOT_DIR)
+    copy_nomenclatures_for_tsfaker(ROOT_DIR)
+    # generate_synthetic_snds(ROOT_DIR)

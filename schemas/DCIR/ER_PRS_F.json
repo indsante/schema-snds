@@ -1671,7 +1671,7 @@
             "description": "Type de contrat complémentaire",
             "type": "number",
             "length": "3",
-            "nomenclature": "-",
+            "nomenclature": "IR_CTA_V",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],

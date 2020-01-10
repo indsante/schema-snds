@@ -1,0 +1,65 @@
+PRS_NAT_RGT;NAT_RGT_LIB;TEC_COL
+0;SANS OBJET;2
+10;FRAIS HOSPITALIERS;0
+11;PRESTATIONS NON INDIVIDUALISEES;0
+12;Rémunérations pharmacien;0
+13;PRESTATIONS EN ESPECES;0
+14;DECES;0
+15;INVALIDITE;0
+16;CHARGES TECHNIQUES (expertise);0
+17;RENTES;0
+18;IVG;0
+19;complément d'action sanitaire et sociale Optique et Audio-prothèses;0
+1;HONORAIRES MEDICAUX hors Rémunérations forfaitaires;0
+20;PREVENTION;0
+21;BUDGET GLOBAL;0
+22;Ticket Modérateur hors forfait optique CMU;0
+23;Autres modes de transport;0
+24;IJ thermale;0
+25;Actes CCAM;0
+26;Franchise et participation forfaitaire hors franchises sur médicaments et transport;0
+27;Forfait dentaire (CMU);0
+28;Pharmacie Vignette;0
+29;ACTES DE BIOLOGIE;0
+2;HONORAIRES DENTAIRES hors Rémunérations forfaitaires;0
+30;TRAITEMENT DE SUBSTITUTION;0
+31;Astreintes spécifiques caisse de retraite;0
+32;Actes infirmiers;0
+33;Actes Sages femmes (SF);0
+34;Soins conservateur dentaires (NGAP);0
+35;Actes prothèses dentaires (NGAP);0
+36;Actes d'orthondontie (NGAP);0
+37;Actes chirurgie dentaire (NGAP);0
+38;Complément action sociale Prothèses dentaires;0
+39;Complément Ticket Modérateur;0
+3;AUXILIAIRES MEDICAUX hors Rémunérations forfaitaires;0
+40;forfaits optique et audioprothèse CMU;0
+41;Soins conservateur dentaires (CCAM);0
+42;Actes prothèses dentaires (CCAM);0
+43;Actes d'orthopédie dentofaciale (CCAM);0
+44;Actes chirurgie CCAM;0
+45;Pharmacie non remboursable;0
+46;Rémunérations forfaitaires avec bénéficiaire identifié;0
+47;Rémunérations forfaitaires sans bénéficiaire identifié;0
+48;Responsabilité civile;0
+49;Compléments ou majorations identifiés avec un CCA_CPL_COD à null;0
+4;ANALYSES ET PRELEVEMENTS;0
+50;Activité Ambulance;0
+51;Activité VSL;0
+52;FRANCHISES SUR TRANSPORTS;0
+53;Franchises sur médicaments;0
+54;Participations forfaitaires non prescriptibles hors PAP (AMOS);0
+55;INDEMNITES KILOMETRIQUES (IK);0
+5;PHARMACIE;0
+60;Actes Hors Nomenclature;0
+6;LPP ( articles de prothese);0
+70;Majorations executables et prescriptibles (AMOS);0
+7;FRAIS DE DEPLACEMENT (HORS IK);0
+8;CURES THERMALES;0
+90;ambulance;0
+91;VSL;0
+92;Taxi;0
+93;Ambulance de garde;0
+99;VALEUR INCONNUE;1
+9;DEPENSES FORFAITAIRES;0
+56;Participation assuré en ambulatoire;0

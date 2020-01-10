@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "TAU_RGT",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "TAU_RGT_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_TRG_V",
+    "title": "Libellés regroupés TAU",
+    "primaryKey": [
+        "TAU_RGT"
+    ]
+}

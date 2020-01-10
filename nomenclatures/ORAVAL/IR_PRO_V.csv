@@ -1,0 +1,54 @@
+PRO_COD;PRO_LIB;TEC_COL
+0000;Sans objet;2
+0001;Secteur 1 avec Contrat d'Accès aux Soins, toutes spécialités médicales (date de fin 31/12/2016);0
+0002;Secteur 1, toutes spécialités médicales (sans CAS) (date de fin 31/12/2016);0
+0003;Secteur 1 avec Option de coordination, et avec ou sans droit au Dépassement Permanent, toutes spécialités médicales (date de fin 31/12/2016);0
+0004;Secteur 1 avec droit au Dépassement Permanent et Contrat d'Accès aux Soins, toutes spécialités médicales (date de fin 31/12/2016);0
+0005;Secteur 1 avec droit au Dépassement Permanent, toutes spécialités médicales (sans OC, ni CAS) (date de fin 31/12/2016);0
+0006;Secteur 2 avec Option de Coordination, toutes spécialités médicales (date de fin 31/12/2016);0
+0007;Secteur 2 avec Contrat d'Accés aux Soins, toutes spécialités médicales (date de fin 31/12/2016);0
+0008;Secteur 2, toutes spécialités médicales (conventionné honoraires libres), sans OC, ni CAS (date de fin 31/12/2016);0
+0009;Non conventionné, toutes spécialités médicale ( date de fin 31/12/2016);0
+0010;Conventionné, chirurgiens-dentistes;0
+0011;Non conventionné, chirurgiens-dentistes;0
+0012;Sages-femmes conventionnées;0
+0013;Sages-femmes non conventionnées;0
+0014;Secteur 1 OPTAM-CO Chirurgien & Gynéco-obstétrique (à compter du 01/01/2017);0
+0015;Secteur 1DP OPTAM-CO Chirurgien & Gynéco-obstétrique (à compter du 01/01/2017);0
+0016;Secteur 2 OPTAM-CO Chirurgien & Gynéco-obstétrique (à compter du 01/01/2017);0
+0017;Secteur 1 OPTAM Chirurgien & Gynéco-obstétrique (à compter du 01/01/2017);0
+0018;Secteur 1 OPTAM Anesthésie (à compter du 01/01/2017);0
+0019;Secteur 1 OPTAM Pédiatres (à compter du 01/01/2017);0
+0020;Secteur 1 OPTAM Généralistes (à compter du 01/01/2017);0
+0021;Secteur 1 OPTAM Autres professions médicales (à compter du 01/01/2017);0
+0022;Secteur 1DP OPTAM Chirurgien & Gynéco-obstétrique (à compter du 01/01/2017);0
+0023;Secteur 1DP OPTAM Anesthésie (à compter du 01/01/2017);0
+0024;Secteur 1DP OPTAM Pédiatres (à compter du 01/01/2017);0
+0025;Secteur 1DP OPTAM Généralistes (à compter du 01/01/2017);0
+0026;Secteur 1DP OPTAM Autres professions médicales (à compter du 01/01/2017);0
+0027;Secteur 2 OPTAM Chirurgien & Gynéco-obstétrique (à compter du 01/01/2017);0
+0028;Secteur 2 OPTAM Anesthésie (à compter du 01/01/2017);0
+0029;Secteur 2 OPTAM Pédiatres (à compter du 01/01/2017);0
+0030;Secteur 2 OPTAM Généralistes (à compter du 01/01/2017);0
+0031;Secteur 2 OPTAM Autres professions médicales (à compter du 01/01/2017);0
+0032;Secteur 1 Sans OPTAM/OPTAM-CO Chirurgien & Gynéco-obstétrique (à compter du 01/01/2017);0
+0033;Secteur 1 Sans OPTAM/OPTAM-CO Anesthésie (à compter du 01/01/2017);0
+0034;Secteur 1 Sans OPTAM/OPTAM-CO Pédiatres (à compter du 01/01/2017);0
+0035;Secteur 1 Sans OPTAM/OPTAM-CO Généralistes (à compter du 01/01/2017);0
+0036;Secteur 1 Sans OPTAM/OPTAM-CO Autres professions médicales (à compter du 01/01/2017);0
+0037;Secteur 1DP Sans OPTAM/OPTAM-CO Chirurgien & Gynéco-obstétrique (à compter du 01/01/2017);0
+0038;Secteur 1DP Sans OPTAM/OPTAM-CO Anesthésie (à compter du 01/01/2017);0
+0039;Secteur 1DP Sans OPTAM/OPTAM-CO Pédiatres (à compter du 01/01/2017);0
+0040;Secteur 1DP Sans OPTAM/OPTAM-CO Généralistes (à compter du 01/01/2017);0
+0041;Secteur 1DP Sans OPTAM/OPTAM-CO Autres professions médicales (à compter du 01/01/2017);0
+0042;Secteur 2 Sans OPTAM/OPTAM-CO Chirurgien & Gynéco-obstétrique (à compter du 01/01/2017);0
+0043;Secteur 2 Sans OPTAM/OPTAM-CO Anesthésie (à compter du 01/01/2017);0
+0044;Secteur 2 Sans OPTAM/OPTAM-CO Pédiatres (à compter du 01/01/2017);0
+0045;Secteur 2 Sans OPTAM/OPTAM-CO Généralistes (à compter du 01/01/2017);0
+0046;Secteur 2 Sans OPTAM/OPTAM-CO Autres professions médicales (à compter du 01/01/2017);0
+0047;Non conventionné Chirurgien & Gynéco-obstétrique  (à compter du 01/01/2017);0
+0048;Non conventionné Anesthésie (à compter du 01/01/2017);0
+0049;Non conventionné Pédiatres (à compter du 01/01/2017);0
+0050;Non conventionné Généralistes (à compter du 01/01/2017);0
+0051;Non conventionné Autres professions médicales (à compter du 01/01/2017);0
+9999;Valeur inconnue;1

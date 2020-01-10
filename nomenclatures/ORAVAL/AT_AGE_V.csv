@@ -1,0 +1,1062 @@
+AGE_COD;AGE_LIB;TEC_COL
+enregistrer_enq_adm_mp_aut;Enregistrer Enquête Adm. M.P. Autre Employeur;0
+enregistrer_enq_adm_mp;Enregistrer Enquête Adm. Maladie Professionnelle;0
+enregistrer_enq_adm;Enregistrer Enquête Administrative;0
+enregistrer_enq_ext_mp_aut;Enregistrer Enquête Ext. M.P. Autre Employeur;0
+enregistrer_enq_ext_mp;Enregistrer Enquête Externe Mal. Professionnelle;0
+enregistrer_enq_ext;Enregistrer Enquête Externe;0
+enregistrer_enq_leg_dcd;Enregistrer Enq. Légale décès;0
+enregistrer_enq_leg;Enregistrer Enquête Légale;0
+enregistrer_enq;Enregistrer Enquête;0
+enregistrer_ep;Enregistrer Entente Préalable;0
+enregistrer_eve;Enregistrer Evénement;0
+enregistrer_exa_com;Enregistrer examen compl. exigé par le tableau;0
+enregistrer_exp_dcd;Enregistrer Expertise Décès;0
+enregistrer_exp_dmf;Enregistrer Expertise Décision M. Finale;0
+enregistrer_exp_evtapr;Enregistrer Expertise Appareillage;0
+enregistrer_exp_evtarr;Enregistrer Expertise Arrêt de Travail;0
+informer_lm2a_gdr;Informer LM2A suite GDR;0
+informer_maj_bdo_rtt;Informer Centre Ratt. - Modification victime;0
+informer_maj_rgm_aff;Informer Régime Service Affiliation;0
+informer_med_leg_aut_ad;(*) Informer Ayant-Droit  Autopsie Méd. Légiste;0
+informer_modif_anc_cram;Informer Ancienne CRAM Suite Modification;0
+informer_mut_vic;Informer Mutation Victime;0
+informer_nouv_affil;Informer VIC Nouvelle Caisse Affiliation;0
+informer_pec_emp;Informer Emp. Décision de PEC;0
+informer_prestation_fraude;Informer service Prestation suite fraude;0
+informer_prol_instr_vic_at;(*) Informer Vic. Prol. Instruction AT;0
+informer_prol_instr_vic_mp;(*) Informer Vic. Prol. Instruction MP;0
+informer_pv_enq_leg;(*) Informer Clôture Enq. Légale Sin. Non Mortel;0
+informer_rct_mut_vic;Informer Sté Mut. Respons. Tiers;0
+informer_recept_cmi;Informer Reception CMI;0
+informer_rec_cdc_at;Informer Récept. Certif. Décès AT;0
+informer_rec_cdc_mp;Informer Récept. Certif. Décès MP;0
+informer_rec_cm_at;Informer Récept. RCH ou Nlle Lésion - AT;0
+informer_rec_cm_mp;Informer Récept. RCH ou Nlle Lésion - MP;0
+informer_rec_dat_dcd_decret;Informer Récept. Pièces Décès (DAT & CM);0
+informer_rec_dat_dcd;Informer Récept. DAT Décès;0
+informer_rec_dat_decret;Informer Recept. Pièces (DAT & CMI);0
+informer_rec_dat;Informer Récept. DAT;0
+informer_rec_dep_avis;(*) Informer Réc. DMP et Dem. Avis;0
+Informer_rec_dmp_avis_apdecret;Informer Emp . Récept. DMP Vic + Avis MED Trav. D;0
+informer_rec_dmp_avis;Informer Emp. Récept. DMP Vic. +  Avis Méd. Trav.;0
+informer_rec_dmp_dcd_apdecret;Informer Récept. DMP Décès D;0
+informer_rec_dmp_dcd;Informer Récept. DMP Décès;0
+informer_rec_dmp_emp_apdecret;Informer Emp. Récept. DMP Victime  D;0
+informer_rec_dmp_emp;Informer Emp. Récept. DMP Victime;0
+informer_rec_dmp;Informer Vic. Récept. DMP;0
+informer_ree_ass;Informer Serv. Social Rééducation;0
+informer_ref_adm_eve_epi_dmf;(*) Informer Refus Adm. Evt (pb DMF Episode );0
+informer_ref_adm_eve_epi_rej;Informer Refus Adm. Evt (Episode rejeté);0
+informer_ref_med_mp_crrmp_ad;Informer AD Refus M.P. Avis CRRMP (déjà Refusé);0
+informer_ref_med_mp_crrmp;Informer Refus M.P. Avis CRRMP (déjà refusé);0
+informer_ref_sus_hos;Informer Etab. Refus Suspensif Hospit.;0
+informer_rente_fraude;Informer service Rente suite fraude;0
+informer_rpec_at_cram;Informer Reprise en Charge AT CRAM;0
+informer_rpec_mp_cram;Informer Reprise en Charge M.P. CRAM;0
+informer_san_dat_tar_ctx;Informer CTX Sanction DAT Tardive;0
+informer_trs_dos_at;Informer Victime Trsft Dossier A.T.;0
+informer_trs_dos_fith;Informer Transm. Dos. SéroConv. Fonds Indemn.;0
+informer_trs_dos_mp_c3m;(*) Informer Transm. Dos.  M.P. Coll. 3 Méd.;0
+informer_trs_dos_mp_crrmp;(*) Informer Transm.  Dos. M.P. au CRRMP;0
+informer_vic_clot_dos_mp;Informer Victime Classement Dossier MP;0
+informer_vic_clot_dos_sans_dec;Informer Victime Classement Dossier sans décl.;0
+informer_vic_clot_dos_ss_exam;Informer Victime Classement Dossier sans examen;0
+Informer_vic_clot_dos;Informer Victime Classement Dossier;0
+informer_vih_vic;Informer Victime Procédure SéroConv.;0
+instruire_dat_tar;Instruire DAT Tardive;0
+instruire_dcd_at;Instruire Décès AT;0
+instruire_dcd_mp;Instruire Décès MP;0
+instruire_dossier_at;Instruire Dossier A.T.;0
+instruire_dossier_mp;Instruire Dossier M.P.;0
+instruire_nll_at;Instruire Nouvelle Lésion AT;0
+instruire_nll_mp;Instruire Nouvelle Lésion MP;0
+instruire_rch_at;Instruire Rechute AT;0
+instruire_rch_mp;Instruire Rechute MP;0
+modifier_app;Modifier Appareillage;0
+modifier_arr;Modifier Arrêt de Travail;0
+modifier_avi_dmf;Modifier Avis de la DMF;0
+modifier_avi_epiati;Modifier Avis de l'Episode A.T. Initial;0
+modifier_avi_epidcd;Modifier Avis de l'Episode Décès;0
+modifier_avi_epinll;Modifier Avis de l'Episode Nouvelle Lésion;0
+modifier_avi_epirch;Modifier Avis de l'Episode Rechute;0
+modifier_avi_epispc;Modifier Avis de l'Episode Soins Post-Consolid.;0
+modifier_avi_eveapr;Modifier Avis de l'Evènement Appareillage;0
+modifier_avi_evearr;Modifier Avis de l'Evènement Arrêt de Travail;0
+modifier_avi_evecur;Modifier Avis de l'Evènement Cure;0
+modifier_avi_evediv;Modifier Avis de l'Evènement  Divers;0
+modifier_avi_eveepr;Modifier Avis de l'Evènement Entente Préalable;0
+modifier_avi_evehos;Modifier Avis de l'Evènement Hospitalisation;0
+modifier_avi_eveper;Modifier Avis de l'Evènement Période;0
+modifier_avi_everee;Modifier Avis de l'Evènement Rééducation;0
+modifier_avi_evesoi;Modifier Avis de l'Evènement Soins;0
+modifier_avi_evespc;Modifier Avis de l'Evènement SPC;0
+modifier_avi;Modifier Avis;0
+modifier_bloc_note;Modifier Bloc Note;0
+modifier_contest2;Modifier Contestation;0
+modifier_contest;Enregistrer Décision;0
+modifier_cur;Modifier Cure;0
+modifier_date_episode;Modifier Date de l'épisode;0
+modifier_date_sin;Modifier Date du Sinistre;0
+modifier_dat_tar;Modifier DAT Tardive;0
+modifier_dat;Modifier Détail Accident;0
+modifier_dcd;Modifier Décès;0
+modifier_det_etr;Modifier Détachement à l'Etranger;0
+modifier_div;Modifier Evt Divers;0
+modifier_dmf;Modifier Décision Médicale Finale;0
+modifier_dos;Modifier Sinistre;0
+modifier_employeur_cram;Modifier CRAM dans employeur;0
+modifier_ep;Modifier Entente Préalable;0
+modifier_hos;Modifier Hospitalisation;0
+modifier_iti;Modifier Indemnité Temporaire d'Inaptitude;0
+modifier_les;Modifier Lésions;0
+modifier_mut;Modifier Mutation;0
+modifier_rct;Modifier Recours contre Tiers;0
+modifier_ree;Modifier Rééducation;0
+modifier_sal;Modifier Salaires;0
+modifier_san_dat_tar;Modifier Sanction DAT Tardive;0
+modifier_sinistre_cram;Modifier CRAM dans sinistre;0
+modifier_sinistre_date;Modifier date de sinistre dans sinistre;0
+modifier_sinistre_nir;Modifier NIR dans sinistre;0
+modifier_sinistre_risque;Modifier nature de risque dans sinistre;0
+modifier_soi;Modifier Soins;0
+modifier_victime_nir;Modifier NIR dans victime;0
+notifier_acc_app;Notifier Accord Appareillage;0
+notifier_acc_cure;Notifier Accord Cure;0
+notifier_acc_ep;Notifier Accord E.P.;0
+notifier_acc_hos;Notifier Accord Hospit.;0
+notifier_acc_mit;Notifier Accord Temps Partiel;0
+notifier_acc_part_ep;Notifier Accord Partiel E.P.;0
+notifier_acc_part_spc_duree;Notifier Accord SPC - Partiel Durée;0
+notifier_acc_part_spc_vic;Notifier Accord SPC - Partiel Soins;0
+notifier_acc_reed_emp;Notifier Accord Rééd. Employeur;0
+notifier_acc_reed;Notifier Accord Rééd. Etablissement;0
+notifier_ave_dat_tar;Notifier Avertissement DAT Tardive;0
+notifier_clo_delai_vih;(*) Notifier Cloture SéroConv. - Délai  Dépassé;0
+notifier_clo_vih_abs_1t;(*) Notifier Cloture SéroConv. - Absence 1er Test;0
+notifier_clo_vih_abs_suivi;(*) Notifier Cloture SéroConv. - Absence Suivi;0
+notifier_clo_vih;(*) Notifier Cloture SéroConv. - Tests Négatifs;0
+notifier_conso_mexp;Notifier Vic. Conso. Med. Expert;0
+Notifier_cons_dos_mp_emp;Informer Emp Consult Dossier MP;0
+notifier_cons_dos_mp_emp;Informer EMP Consult. Dossier MP;0
+Notifier_cons_dos_mp_nll_emp;(*) Informer EMP Consult. NLL MP;0
+Notifier_cons_dos_mp_rec_emp;(*) Informer EMP Consult. Rechute MP;0
+notifier_dec_ctx_san_emp;Notifier EMP Décision CTX Sanction;0
+notifier_del_cm_at_ad_rchnll;Notifier AD AT Délai Comp Suite RCH-Nlle Lésion;0
+notifier_del_cm_at_ad;Notifier AD Délai Compl. Suite CM Décès AT;0
+notifier_del_cm_at;Notifier Délai Compl. Suite RCH-Nlle Lésion - AT;0
+notifier_del_cm_mp_ad_rchnll;Notifier AD  MP Délai Comp Suite RCH-Nlle Lésion;0
+notifier_del_cm_mp_ad;Notifier AD Délai Compl. Suite CM Décès MP;0
+notifier_del_cm_mp;Notifier Délai Compl. Suite RCH-Nlle Lésion - MP;0
+notifier_del_dat_ad;Notifier AD Délai Compl. Suite DAT;0
+notifier_del_dat;Notifier Délai Compl. Suite DAT;0
+notifier_del_dmp_ad;Notifier AD Délai Compl. Suite DMP;0
+notifier_del_dmp;Notifier Délai Compl. Suite DMP;0
+notifier_dmf_acc_conso_cssi;Notifier Accord Conso Séq. NON Indemn.;0
+notifier_dmf_casi_mc;Notifier Conso M. Conseil Séq. Indemn.;0
+notifier_dmf_casi_mt;Notifier Conso M. Traitant Séq. Indemn.;0
+notifier_dmf_cssi_mc;Notifier Conso M. Conseil Séq. NON Indemn.;0
+notifier_dmf_cssi_mt;Notifier Conso M. Traitant Séq. NON Indemn.;0
+notifier_dmf_gue_mc;Notifier Guérison par M. Conseil;0
+notifier_dmf_gue_mt;Notifier Guérison par M. Traitant;0
+notifier_dmf_main_mc;Notifier Maintien Décison Médicale Finale MC;0
+notifier_dmf_rea_rch;Notifier Retour Etat Antérieur RCH;0
+notifier_dmf_rej_conso_gue;Notifier Rejet Conso. en Guérison;0
+notifier_dmf_rej_mt;Notifier Rejet Décision M.Finale MT (2ème notif);0
+notifier_dmf_rep_mc_fix;Notifier Report DMF M.C. Date Fixée;0
+notifier_dmf_rep_mc_ult;Notifier Report DMF M.C. Date Ultérieure;0
+notifier_emp_pec_mp;Notifier EMPL. PEC MP;0
+notifier_exp_def_ad;Notifier AD Expertise Défavorable;0
+notifier_exp_def_dmf;Notifier Expertise Défavorable DMF;0
+notifier_exp_def_hdelai;Notifier Expertise Defavorable Hors Delai;0
+notifier_exp_def;Notifier Expertise Défavorable;0
+notifier_exp_fav_ad;Notifier AD Expertise Favorable;0
+notifier_exp_fav_dcd;(*) Notifier Exp. Fav. Décès;0
+notifier_exp_fav_dmf;Notifier Expertise Favorable DMF;0
+notifier_exp_fav_epi;Notifier Exp. Fav. (Retour Statut D);0
+notifier_exp_fav;Notifier Expertise Favorable;0
+notifier_gue_vih_abs_1t;(*) Notifier Guérison SéroConv. - Absence 1er test;0
+notifier_gue_vih_abs_suivi;(*) Notifier Guérison SéroConv. - Absence Suivi;0
+notifier_gue_vih;(*) Notifier Guérison Définitive SéroConv.;0
+notifier_lev_res_nll;(*) Notifier Levée Réserves NLL;0
+notifier_lev_res;(*) Notifier Levée Réserves;0
+notifier_main_ref_adm_ad;Notifier AD Maintien Refus Adm.;0
+notifier_main_ref_adm_app;Notifier Maintien Refus Adm. Appareillage;0
+notifier_main_ref_adm_dcd;Notifier AD Maintien Refus Adm. Décès;0
+notifier_main_ref_adm_ep;(*) Notifier Maintien Refus Adm. EP;0
+notifier_main_ref_adm_mp_ad;Notifier AD Maintien Refus Adm. M.P.;0
+notifier_main_ref_adm_mp_dcd;Notifier AD Maint. Refus Adm. Décès MP;0
+notifier_main_ref_adm_mp;Notifier Maintien Refus Adm. M.P.;0
+notifier_main_ref_adm_vih;(*) Notifier Maintien Refus Adm. Séro conversion;0
+notifier_main_ref_adm;Notifier Maintien Refus Adm.;0
+notifier_pec_ad;Notifier AD accord PEC S. Mortel;0
+notifier_pec_dcd_aut_std;(*)Notifier PEC Décès S. Autopsie + Statut D;0
+notifier_pec_dcd_aut;Notifier AD PEC décès suite autopsie;0
+notifier_pec_dcd_std;(*)Notifier Prise En Charge Décès + Statut D;0
+notifier_pec_dcd;Notifier AD PEC Décès;0
+notifier_pec_emb;Notif Vic PEC AT avec réserv Non Motiv;0
+Notifier_pec_emp;Notifier PEC à l'Employeur;0
+notifier_pec_mortel_ad;Notifier AD PEC Sinistre Mortel;0
+notifier_pec_mortel_aut;Notifier AD PEC AT suite autopsie;0
+Notifier_pec_mortel_emp;Notifier PEC AT mortel - Emp;0
+notifier_pec_mortel_post_ad;Notifier AD PEC Sinistre;0
+Notifier_pec_mortel_ref_emp;Notifier PEC AT mortel apres refus - EMP;0
+notifier_pec_mp_2a_ad;Notifier AD PEC MP 2ème alinéa;0
+notifier_pec_mp_2a;Notifier victime PEC MP 2ème alinéa;0
+notifier_pec_mp_apdc;(*) Notifier EMPL. PEC MP Apres DC;0
+notifier_pec_mp_crrmp_dcd;Notifier AD PEC MP apres CRRMP;0
+notifier_pec_mp_crrmp;Notifier victime PEC MP CRRMP;0
+notifier_pec_mp_dcd;Notifier AD PEC Décès MP;0
+notifier_pec_nll_par;Notifier PEC partielle NLL;0
+notifier_pec_nll_tot;Notifier PEC Totale NLL;0
+notifier_pec_nll;(*) Notifier Prise En Charge NLL;0
+notifier_ref_med_mp_dcd;Notifier AD Refus Méd. Décès M.P.;0
+notifier_ref_med_mp_eta_nsta;Notifier Vic Refus M.P. Etat Non Stablisé;0
+notifier_ref_med_mp_et_nst_ad;Notifier AD Refus M.P. Etat Non Stabilisé;0
+notifier_ref_med_mp_ipp66_ad;Notifier AD Refus M.P. Taux IPP <25%;0
+notifier_ref_med_mp_ipp66;Notifier Vic Refus M.P. Taux IPP <25%;0
+notifier_ref_med_mp_mortel;Notifier AD Refus Méd. MP Mortelle;0
+notifier_ref_med_mp;Notifier Vic Refus Méd. M.P. (ou RCH MP);0
+notifier_ref_med_nll;Notifier Refus Médical NLL;0
+notifier_ref_med_part_spc;Notifier Refus Méd. Partiel SPC;0
+notifier_ref_med_rch;Notifier Refus Rechute Doc. Absents;0
+notifier_ref_med_rech_at_abs;Notifier Vic Ref Med Rechute AT (abs aggravation);0
+notifier_ref_med_rech_at;Notifier Vic Ref Med Rechute AT;0
+notifier_ref_med_ree;Notifier Refus Méd. Rééducation;0
+notifier_ref_med_soi;(*) Notifier Refus Méd. Soins;0
+notifier_ref_med_spc_apconso;Notifier Vic Refus SPC Doc Absents;0
+notifier_ref_med_spc;Notifier Refus Méd. SPC;0
+notifier_ref_med;Notifier Vic Refus Médical AT(ou trajet);0
+notifier_rep_tra;Notifier Reprise Travail;0
+notifier_res_car_pro_dcd;(*) Notifier Réserves Car. Pro. Décès;0
+notifier_res_car_pro;(*) Notifier Réserves Car. Prof.;0
+notifier_res_mp;(*) Notifier Réserves M.P.;0
+notifier_res_nll;(*) Notifier Réserves NLL;0
+notifier_res_rch_mp;(*) Notifier Réserves Rechute M.P.;0
+notifier_rpec_ad;Notifier AD reprise en charge;0
+notifier_rpec_app;Notifier Reprise En Charge Appareillage;0
+notifier_rpec_dcd_std;(*)Notifier RPEC Décès + Statut Définitif;0
+notifier_rpec_dcd;Notifier AD reprise en charge décès;0
+notifier_rpec_delai_ad;Notifier AD RPEC Suite Délai;0
+notifier_rpec_delai_ep;Notifier Reprise En Charge EP Suite Delai;0
+notifier_rpec_delai_mp_ad;Notifier AD RPEC MP Suite Délai;0
+notifier_rpec_delai_mp;(*) Notifier Vic RPEC MP Suite Délai;0
+notifier_rpec_delai;Notifier Vic RPEC Suite Delai;0
+notifier_rpec_ep;Notifier Reprise En Charge Entente Préalable;0
+notifier_rpec_mp_ad;Notifier AD reprise en charge MP;0
+notifier_rpec_mp_crrmp_ad;Notifier AD reprise en charge MP suite CRRMP;0
+notifier_rpec_mp_crrmp;Notifier VIC reprise en charge MP suite CRRMP;0
+notifier_rpec_mp_dcd;Notifier AD RPEC MP Décès;0
+notifier_rpec_mp;Notifier VIC reprise en charge MP;0
+notifier_rpec_nll;Notifier Reprise en charge NLL;0
+notifier_rpec_rch;Notifier Reprise En Charge Rechute;0
+notifier_rpec_vih;Notifier Reprise En Charge SéroConv.;0
+notifier_rpec;Notifier victime reprise en charge;0
+notifier_san_dat_tar;Notifier Sanction DAT Tardive;0
+not_rpec_apres_ref_empl;Notification EMPL PEC apres refus;0
+rappeler_acc_dem_dos;Rappeler Accord Demander Dossier;0
+rappeler_acc_dos_dem;Rappeler Accord Dossier Demandé;0
+rappeler_acc_dos_trs;Rappeler Attente Réponse Dos. Elect. Transmis;0
+rappeler_acc_etr;Rappeler Demande Accord Etranger;0
+rappeler_act_pro_mp;Rappeler Victime Quest. M.P. Activité Prof.;0
+rappeler_affil_up;Rappeler Dem. Affil. Unité Prod.;0
+rappeler_aff_aff;Rappeler Dem. Affil. Serv. Affil.;0
+rappeler_aff_imm;Rappeler Dem. Affil. Serv. Immat.;0
+rappeler_aff_vic;(*) Rappeler Docu Affil. Victime;0
+rappeler_assuj;Rappeler Qualité Assujettissement;0
+rappeler_at_benin_cram;Rappeler Accord CRAM Gestion AT Bénin;0
+rappeler_aut_ad;Rappeler AD  Autorisation Autopsie;0
+rappeler_avis_app;(*) Rappeler Avis Appareillage;0
+rappeler_avis_arr;Rappeler Avis Arrêt de Travail;0
+rappeler_avis_cot;Rappeler Avis Cdaph;0
+rappeler_avis_cur;(*) Rappeler Avis Cure;0
+rappeler_avis_dcd;Rappeler Avis Décès;0
+rappeler_avis_dmf;Rappeler Avis Décision Médicale Finale;0
+rappeler_avis_emp_aty;Rappeler Avis Emp. Atypique;0
+rappeler_avis_ep;(*) Rappeler Avis Entente Préalable;0
+rappeler_avis_evtspc;(*) Rappelet Avis Soins Post-Consolidation;0
+rappeler_avis_gue;(*) Rappeler Avis Guérison;0
+rappeler_avis_hos;(*) Rappeler Avis Hospitalisation;0
+rappeler_avis_ipp;Rappeler Avis IPP;0
+rappeler_avis_med_lib;Rappeler Avis Médical Colloque;0
+rappeler_avis_med;(*) Rappeler Avis Médical;0
+rappeler_avis_mit;Rappeler Avis Mi-Temps;0
+rappeler_avis_mp_2a;(*) Rappeler Avis M.P. 2ème Alinéa;0
+rappeler_avis_mp_3a;(*) Rappeler Avis M.P. 3ème Alinéa;0
+rappeler_avis_mp_4a;(*) Rappeler Avis M.P. 4ème Alinéa;0
+rappeler_avis_mp_med_tra;(*) Rappeler Avis M.P. Médecin Travail;0
+rappeler_avis_mp_nex;(*) Rappeler Avis M.P. Cond. Adm.Non Examinées;0
+rappeler_avis_mp_pneumo;(*) Rappeler Avis M.P. Méd. Pneumo.;0
+rappeler_avis_mp_trt;(*) Rappeler Avis Comp. Trait. M.P.;0
+rappeler_avis_mp;Rappeler Avis M.P.;0
+rappeler_avis_mtra;Rappeler Avis Médecin du Travail;0
+rappeler_avis_nll;Rappeler Avis Nouvelle Lésion;0
+rappeler_avis_rce;Rappeler Avis Imputabilité (RCE);0
+rappeler_avis_rch;Rappeler Avis Rechute;0
+rappeler_avis_ree;Rappeler Avis Rééducation;0
+rappeler_avis_soi;Rappeler Avis Soins;0
+rappeler_avis_spc;Rappeler Avis SPC;0
+rappeler_cmd_ad;Rappeler AD C.M. Décès;0
+rappeler_cmf;Rappeler C.M. Final;0
+rappeler_cmi_ad;Rappeler AD C.M.Initial;0
+rappeler_cmi;Rappeler C.M. Initial;0
+rappeler_cmnll;Rappeler C.M. Nouvelle Lésion;0
+rappeler_cmp;Rappeler C.M. Prolongation;0
+rappeler_cmr;Rappeler C.M. Rechute;0
+rappeler_cmspc;Rappeler C.M. Soins Post-Consolidation;0
+rappeler_comp_dat;Rappeler Compl. DAT;0
+rappeler_comp_dmp;Rappeler Compl. DMP;0
+rappeler_cont_acc_ctx;(*) Rappeler Contentieux - Contestation Accident;0
+rappeler_cont_app_ctx;(*) Rappeler Contentieux - Contestation APP;0
+rappeler_cont_dcd_ctx;(*) Rappeler Contentieux - Contestation Décès;0
+rappeler_cont_ep_ctx;(*) Rappeler Contentieux - Contestation E.P.;0
+rappeler_cont_mp_ctx;(*) Rappeler Contentieux - Contestation M.P.;0
+rappeler_cont_vih_ctx;(*) Rappeler Contentieux - Contestation VIH;0
+rappeler_convo_dcd;Rappeler AD Convocation Décès;0
+rappeler_cou_lib_ad;(*) Rappeler Courrier Libre Ayant-Droit;0
+rappeler_cou_lib_div;Rappeler Courrier Libre Divers;0
+rappeler_cou_lib_emp;Rappeler Courrier Libre Employeur;0
+rappeler_cou_lib_vic;Rappeler Courrier Libre Victime;0
+rappeler_cpl_aut_ad;Rappeler AD Compl. Autorisation Autopsie;0
+rappeler_dat_emp;Rappeler DAT à l'Employeur;0
+rappeler_dat_vic;Rappeler DAT à la Victime;0
+rappeler_dat;(*) Rappeler Déclaration A.T.;0
+rappeler_dem_avis_iti;Relancer Avis Médical ITI;0
+rappeler_dem_dos_man;Rappeler Demande Doss Papier Autre CPAM (hors SAS);0
+rappeler_dem_dos_pap;Rappeler Demande Dossier Papier Autre CPAM;0
+rappeler_dmp_ad;Rappeler AD DMP;0
+rappeler_dmp;Rappeler Déclaration M.P. Victime;0
+rappeler_doc_adm_ad;Rappeler AD Doc. Administratifs;0
+rappeler_doc_adm_vic;Rappeler Doc. Administratifs Victime;0
+rappeler_doc_ad;Rappeler AD Dem. Document;0
+rappeler_doc_vic;Rappeler Documents Victime;0
+rappeler_dos_cp;Rappeler Dossier CPAM;0
+rappeler_dos_mp_c3m;(*) Rappeler dossier MP transmis C3M;0
+rappeler_dos_mp_crrmp;Rappeler Dossier MP transmis au CRRMP;0
+rappeler_dos_mp_pne;(*) Rappeler dossier MP transmis à Méd. Pneumo.;0
+rappeler_enq_adm_mp_aut;Rappeler Enq. Adm. M.P. autre empl.;0
+rappeler_enq_adm_mp;Rappeler Enq. Adm. M.P.;0
+rappeler_enq_adm;Rappeler Enq. Adm.;0
+rappeler_enq_ext_mp_aut;Rappeler Enq. Ext. M.P. autre empl;0
+rappeler_enq_ext_mp;Rappeler Enquête Extérieure M.P.;0
+rappeler_enq_ext;Rappeler Enquête Extérieure;0
+rappeler_enq_leg_dcd;(*) Rappeler Enq. Légale Décès;0
+rappeler_enq_leg;(*) Rappeler Enq. Légale;0
+rappeler_exp_app;(*) Rappeler Expertise Appareillage;0
+rappeler_exp_arr;(*) Rappeler Expertise Arrêt de Travail;0
+rappeler_exp_cure;(*) Rappeler Expertise Cure;0
+rappeler_exp_dcd;(*) Rappeler Dem. Expertise Décès;0
+rappeler_exp_dmf;(*) Rappeler Expertise Décision Médicale Finale;0
+rappeler_exp_ep;(*) Rappeler Expertise Entente Préalable;0
+rappeler_exp_evtspc;(*) Rappeler Expertise Soins Post-Consolidation;0
+rappeler_exp_hos;(*) Rappeler Expertise Hospitalisation;0
+rappeler_exp_mp;(*) Rappeler Expertise M.P.;0
+rappeler_exp_nll;(*) Rappeler Expertise Nlle Lésion;0
+rappeler_exp_rce;(*) Rappeler Expertise Rel. Cause Effet;0
+rappeler_exp_rch;(*) Rappeler Expertise Rechute;0
+rappeler_exp_ree;(*) Rappeler Expertise Rééducation;0
+rappeler_exp_soi;(*) Rappeler Expertise Soins;0
+rappeler_exp_spc;(*) Rappeler Expertise Soins Post Conso.;0
+rappeler_exp_vih;(*) Rappeler Expertise SéroConv.;0
+rappeler_fix_c3m;(*) Rappeler Nlle Fix. Répar. Coll. 3 Méd.;0
+rappeler_fix_pneumo;(*) Rappeler Nlle Fix. Répar. Méd. Pneumo.;0
+rappeler_interv;(*) Rappeler Doc. Divers Intervenants;0
+rappeler_mot_dat_tar;Rappeler Motif DAT Tardive;0
+rappeler_pie_ree;(*) Rappeler Pièces Rééducation;0
+rappeler_prol_vic;(*) Rappeler Prolongation Victime;0
+rappeler_rapport_police;Rappeler Rapport de Police;0
+rappeler_rch_vic;(*) Rappeler Certif. Rechute Victime;0
+rappeler_rec_dmp_avis;Rappeler Emp. Récept. DMP Vic. + Avis Méd. Trav.;0
+rappeler_rec_dmp;Rappeler Vic. Récept. DMP + Quest. Compl.;0
+rappeler_rec_mp_ic;Rappeler Reconn. M.P. Ing. Conseil;0
+rappeler_rec_mp_it;Rappeler Reconn. M.P. Insp. Travail;0
+rappeler_rens_ad;Rappeler Dem. AD Renseignements;0
+rappeler_rens_emp;Rappeler Dem. Rens. Employeur;0
+rappeler_rens_inf_pre;(*) Rappeler Vic. - Rens. Infirm. Préexistantes;0
+rappeler_rens_med;Rappeler Rens. Autre Médecin;0
+rappeler_rens_mp_autre_emp;Rappeler Dem. Rens. M.P. Autre Employeur;0
+rappeler_rens_mp_emp_a;Rappeler Dem. Rens. MP Empl. Annexe A;0
+rappeler_rens_mp_emp;Rappeler Dem. Rens. M.P. Employeur;0
+rappeler_rens_mt;Rappeler Dem. Rens. M.Traitant;0
+rappeler_rens_tar_cpam;Rappeler Dem. Rens. CPAM Suivi Empl DAT Tardive;0
+rappeler_rens_tar_cram;Rappeler Dem. Rens. CRAM DAT tardive;0
+rappeler_rens_tem;Rappeler Dem. Rens. Témoin ou Tiers;0
+rappeler_rens_tie;Rappeler Dem. Rens. Tiers;0
+rappeler_rens_vic;Rappeler Dem. Rens. Victime;0
+rappeler_sal_ad;Rappeler AD Salaires;0
+rappeler_sal_aut_emp;Rappeler Dem. Salaires Autre Employeur;0
+rappeler_sal_emp;Rappeler Dem. Salaires Employeur;0
+rappeler_sal_vic;Rappeler Dem. Salaires Victime;0
+rappeler_spc_vic;(*) Rappeler Certificat SPC Victime;0
+rappeler_vih_sm;Rappeler Service Médical - Contamination VIH;0
+recevoir_dem_dos_sas;Recevoir Demande Dossier Autre CPAM;0
+recevoir_dos_dem_man;Recevoir Dossier Electronique (hors SAS);0
+recevoir_dos_dem_sas;Recevoir Dossier Demandé Autre CPAM;0
+recevoir_trs_dos_sas;Recevoir Dossier Transmis Autre CPAM;0
+rectifier_notif_accord;Rectifier Notifier Accord;0
+rectifier_notif_refus;Rectifier Notifier Refus;0
+rectifier_notif_reserves;(*) Rectifier Notifier Réserves;0
+rectifier_retour_accord;Rectifier Retour Accord;0
+rectifier_retour_attente;Rectifier Retour Attente;0
+rectifier_retour_date;Rectifier Date statut;0
+rectifier_retour_refus;Rectifier Retour Refus;0
+rectifier_retour_reserves;(*) Rectifier Retour Provisionnel;0
+refuser_dem_dos_sas;Refuser Demander Dossier Autre CPAM;0
+refuser_dos_dem_sas;Refuser Dossier Demandé Autre CPAM;0
+refuser_dos_trs_sas;Refuser Dossier Transmis Autre CPAM;0
+relancer_dem_avis_iti;Relancer Avis Médical ITI;0
+relancer_rens_ad;Rappeler Dem. AD Renseignements;0
+relancer_rens_emp;Rappeler Dem. Rens. Employeur;0
+relancer_rens_vic;Rappeler Dem. Rens. Victime;0
+relancer_volet_emp_iti_rch;Relancer Employeur Volet ITI(RCH);0
+relancer_volet_emp_iti;Relancer Employeur Volet ITI;0
+reouvrir_dossier;Ré-ouvrir Dossier;0
+reponse_rens_tar_cpam;(*)Répondre pour suivi employeur suite DAT tardive;0
+reprendre_app;Reprendre un Appareillage;0
+reprendre_avis_dmf;Reprendre Avis Décision Médicale Finale;0
+reprendre_avis_evtapr;Reprendre Avis Appareillage;0
+reprendre_avis_evtarr;Reprendre Avis Arrêt de Travail;0
+reprendre_avis_evtcur;Reprendre Avis Cure;0
+reprendre_avis_evtepr;Reprendre Avis Entente Préalable;0
+reprendre_avis_evthos;Reprendre Avis Hospitalisation;0
+reprendre_avis_evtree_cot;Reprendre Avis COTOREP;0
+reprendre_avis_evtree;Reprendre Avis Rééducation;0
+reprendre_avis_evtsoi;Reprendre Avis Soins;0
+reprendre_avis_evtspc;Reprendre Avis Soins Post-Consolidation;0
+reprendre_avis_ipp;Reprendre Avis IPP;0
+reprendre_avis_mp_2a;Reprendre Avis M.P. 2ème Alinéa;0
+reprendre_avis_mp_3a;Reprendre Avis M.P. 3ème Alinéa;0
+reprendre_avis_mp_4a;Reprendre Avis M.P. 4ème Alinéa;0
+reprendre_avis_mp_nex;Reprendre Avis M.P. 4ème Alinéa;0
+reprendre_avis_mp_pneumo;Reprendre Avis M.P. Médecin Pneumologue;0
+reprendre_avis_mp_trt;Reprendre Avis M.P. Complément Traitement;0
+reprendre_avis_mp;Reprendre Avis Maladie Professionnelle;0
+reprendre_avis_nll;Reprendre Avis Nouvelle Lésion;0
+reprendre_avis_rch;Reprendre Avis Rechute;0
+reprendre_avis_spc;Reprendre Avis Soins Post-Consolidation;0
+reprendre_avis;Reprendre un  Avis;0
+reprendre_cmf;Reprendre un CMF;0
+reprendre_cmi;Reprendre un CMI;0
+reprendre_cmnll;Reprendre un CMNLL;0
+reprendre_cmp;Reprendre un CMP;0
+reprendre_cmr;Reprendre un CMR;0
+reprendre_cmspc;Reprendre un CMSPC;0
+reprendre_contest;Reprendre une Contestation;0
+reprendre_ctx;Reprendre un Retour CTX;0
+reprendre_cur;Reprendre une Cure;0
+reprendre_dat;Reprendre la DAT;0
+reprendre_dcd;Reprendre une Pièce Décès;0
+reprendre_div;Reprendre une Pièce Divers;0
+reprendre_dmp;Reprendre la DMP;0
+reprendre_dossier;Reprendre un Dossier;0
+reprendre_enq_adm_mp;Reprendre Enquête Adm. Maladie Professionnelle;0
+reprendre_enq_adm;Reprendre Enquête Administrative;0
+reprendre_enq_ext_mp;Reprendre Enquête Externe Maladie Professionnelle;0
+reprendre_enq_ext;Reprendre Enquête Externe;0
+reprendre_enq_leg;Reprendre Enquête Légale;0
+reprendre_enq;Reprendre Enquête;0
+reprendre_ep;Reprendre une Entente Préalable;0
+reprendre_exp_arr;Reprendre Expertise Arrêt de Travail;0
+reprendre_exp_dmf;Reprendre Expertise Décision Médicale Finale;0
+reprendre_exp_evtapr;Reprendre Expertise Appareillage;0
+reprendre_exp_evtcur;Reprendre Expertise Cure;0
+reprendre_exp_evthos;Reprendre Expertise Hospitalisation;0
+reprendre_exp_evtree;Reprendre Expertise Rééducation;0
+reprendre_exp_evtsoi;Reprendre Expertise Soins;0
+reprendre_exp_evtspc;Reprendre Expertise Soins Post-Consolidation;0
+reprendre_exp_mp;Reprendre Expertise Maldie Professionnelle;0
+reprendre_exp_nll;Reprendre Expertise Nouvelle Lésion;0
+reprendre_exp_rce;Reprendre Expertise Imputabilité (RCE);0
+reprendre_exp_rch;Reprendre Expertise Rechute;0
+reprendre_exp_spc;Reprendre Expertise Soins Post-Consolidation;0
+reprendre_exp_vih;Reprendre Expertise Séroconversion;0
+reprendre_exp;Reprendre une Expertise;0
+reprendre_hos;Reprendre une Hospitalisation;0
+reprendre_quest_emp;Reprendre Questionnaire Employeur;0
+reprendre_quest_med;Reprendre Questionnaire Autre Médecin;0
+reprendre_quest_mp_aut_emp;Reprendre Questionnaire M.P Autre Employeur;0
+reprendre_quest_mp_emp;Reprendre Questionnaire M.P. Employeur;0
+reprendre_quest_mt;Reprendre Questionnaire Médecin Traitant;0
+reprendre_quest_ppa;Reprendre Questionnaire Première personne Avisée;0
+reprendre_quest_tem;Reprendre Questionnaire Témoin;0
+reprendre_quest_vic;Reprendre Questionnaire Victime;0
+reprendre_quest;Reprendre Questionnaire;0
+reprendre_rapport;Reprendre Rapport Police ou Gendarmerie;0
+reprendre_ree;Reprendre une Rééducation;0
+reprendre_rens;Reprendre un Renseignement;0
+reprendre_salaire_emp;Reprendre Salaires employeur;0
+reprendre_salaire_vic;Reprendre Salaire Victime;0
+reprendre_salaire;Reprendre Salaires;0
+reprendre_vih;Reprendre une Pièce SéroConv.;0
+signaler_acc_dem_dos;Sign. CPAM Demander Dossier;0
+signaler_acc_dos_dem_sas;Sign. CPAM Accepter Dossier Demandé;0
+signaler_acc_dos_dem;Sign. CPAM Accepter Dossier Demandé;0
+signaler_acc_dos_trs_sas;Sign. CPAM Dossier Transmis Accepté;0
+signaler_acc_dos_trs;Sign. CPAM Accepter Dossier Transmis;0
+signaler_ann_dcd_rtt;Signaler Annulation Décès;0
+signaler_ann_dmf;Signaler Annulation DMF;0
+signaler_ann_sin_cram;Signaler CRAM - Annul. Sinistre;0
+signaler_app;Signaler Appareillage;0
+signaler_arr_finij_car_convo;Signaler ARR Fin IJ Carence Convocation;0
+signaler_arr;Signaler Arrêt de Travail;0
+signaler_ati;Signaler Accident Initial;0
+signaler_at_nimp_cram_fraude;Signaler AT non imputable CRAM suite fraude;0
+signaler_at_nimp_cram;Signaler AT Non Imputable CRAM;0
+signaler_chg_rch;Signaler RTT Modif. Date Rechute;0
+signaler_chg_sin_cram;Signaler Chgt Num. Sinistre CRAM;0
+signaler_chg_sin_emp;Signaler Chgt Num. Sinistre Employeur;0
+signaler_chg_sin_vic;Signaler Chgt Num. Sinistre Victime;0
+signaler_chg_vic-cram;(*) Signaler Chgt Ident. Victime CRAM;0
+signaler_dat_tar_ctx;Signaler Déclaration Tardive Contentieux;0
+signaler_dcd_cram;Signaler Décès CRAM;0
+signaler_dcd_rtt;Signaler Décès centre de rattachement;0
+signaler_dem_dos;Sign. CPAM Demander Dossier;0
+signaler_dmf_ctx;Signaler Décision M. Finale CTX;0
+signaler_dmf;Signaler Décision Médicale Finale;0
+signaler_ep;Signaler Entente Préalable;0
+signaler_etiq;Signaler Etiquette;0
+signaler_etr;(*) Signaler Refus A.T. Etranger;0
+signaler_fich_remp;Signaler Fiche de Remplacement;0
+signaler_grave;Signaler Présomption d'IPP;0
+signaler_ipp;Signaler IPP;0
+signaler_iti_ren;Signaler Indemnité Tempo Inaptitude - Serv. RENTES;0
+signaler_iti_rtt;Signaler Indemnité Tempo Inaptitude - Centre RATT;0
+signaler_modifnns;Signaler Modification NNS;0
+signaler_mp_cram;Signaler M.P. CRAM;0
+signaler_mut_sas;Sign. Genéral pour Action SAS sur Mutation;0
+signaler_nir_cram;Signaler Changt NIR CRAM;0
+signaler_rch_nimp_cram;Signaler CRAM-IPP suite  à une rechute;0
+signaler_rch_ren;Signaler Rechute Service Rentes;0
+signaler_rch;Signaler Rechute;0
+signaler_rct_cram;Signaler RCT CRAM;0
+signaler_rct_ctx;Signaler RCT au CTX;0
+signaler_rechute_nimp_cram;(*) Signaler Rechute Non Imputable CRAM;0
+signaler_ree;Signaler Rééducation;0
+signaler_ref_cram_mp;Signaler Refus M.P. CRAM;0
+signaler_ref_cram;Signaler Refus A.T. CRAM;0
+signaler_ref_dem_dos_sas;Sign. CPAM Refuser Demander Dossier Autre CPAM;0
+signaler_ref_dem_dos;Sign. CPAM Refuser Demander Dossier;0
+signaler_ref_dos_dem_sas;Sign. CPAM Refuser Dossier Demandé;0
+signaler_ref_dos_dem;Sign. CPAM Refuser Dossier Demandé;0
+signaler_ref_dos_trs_sas;Sign. CPAM Dossier Transmis Refusé;0
+signaler_ref_dos_trs;Sign. CPAM_Refuser Dossier Transmis;0
+signaler_ref_mp_cram;Signaler Refus M.P. CRAM;0
+signaler_regul;Signaler Régularisation AT/AS;0
+signaler_ris_cram;Signaler Risque Sinistre CRAM;0
+signaler_rpec_at_cram;(*) Signaler Reprise en Charge A.T. CRAM;0
+signaler_rpec_mp_cram;(*) Signaler Reprise en Charge M.P. CRAM;0
+signaler_san_ctx;Signaler Sanction CTX;0
+signaler_soi;Signaler Soins;0
+signaler_spc_mp;Signaler Centre Ratt. SPC _MP;0
+signaler_spc;Signaler SPC;0
+signaler_trs_dos;Sign. CPAM Transmettre Dossier;0
+signaler;Signaler;0
+statuer_dcd_at;Statuer Décès AT;0
+statuer_dcd_mp;Statuer Décès MP;0
+statuer_dossier_at;Statuer Dossier A.T.;0
+statuer_dossier_mp;Statuer Dossier M.P.;0
+statuer_nll_at;Statuer Nouvelle Lésion AT;0
+statuer_nll_mp;Statuer Nouvelle Lésion MP;0
+statuer_rch_at;Statuer Rechute AT;0
+statuer_rch_mp;Statuer Rechute MP;0
+supprimer_app;Supprimer Appareillage;0
+supprimer_arr;Supprimer Arrêt de Travail;0
+supprimer_ave_tar;Supprimer Avertissement Déclaration Tardive;0
+supprimer_avi_dmf;Supprimer Avis de la DMF;0
+supprimer_avi_epiati;Supprimer Avis de l'Episode A.T. Initial;0
+supprimer_avi_epidcd;Supprimer Avis de l'Episode Décès;0
+supprimer_avi_epinll;Supprimer Avis de l'Episode Nouvelle Lésion;0
+supprimer_avi_epirch;Supprimer Avis de l'Episode Rechute;0
+supprimer_avi_epispc;Supprimer Avis de l'Episode Soins Pos-Consolid.;0
+supprimer_avi_eveapr;Supprimer Avis de l'Evènement Appareillage;0
+supprimer_avi_evearr;Supprimer Avis de l'Evènement Arrêt de Travail;0
+supprimer_avi_evecur;Supprimer Avis de l'Evènement Cure;0
+supprimer_avi_evediv;Supprimer Avis de l'Evènement Divers;0
+supprimer_avi_eveepr;Supprimer Avis de l'Evènement Entente Préalable;0
+supprimer_avi_evehos;Supprimer Avis de l'Evènement Hospitalisation;0
+supprimer_avi_eveiti;Supprimer Avis de l'Evènement ITI;0
+supprimer_avi_eveper;Supprimer Avis de l'Evènement Période;0
+supprimer_avi_everee;Supprimer Avis de l'Evènement Rééducation;0
+supprimer_avi_evesoi;Supprimer Avis de l'Evènement Soins;0
+supprimer_avi_evespc;Supprimer Avis de l'Evènement SPC;0
+supprimer_contest;Supprimer Contestation;0
+supprimer_cur;Supprimer Cure;0
+supprimer_dat_tar;Supprimer Déclaration Tardive;0
+supprimer_dcd;Supprimer Décès;0
+supprimer_div;Supprimer Evt Divers;0
+supprimer_dmf;Supprimer Décision Médicale Finale;0
+supprimer_ech_reg;Supprimer une échéance règlementaire;0
+supprimer_epidcd;Supprimer Episode DCD;0
+supprimer_epinll;Supprimer Episode NLL;0
+supprimer_epirch;Supprimer Episode RCH;0
+supprimer_epispc;Supprimer Episode SPC;0
+supprimer_ep;Supprimer Entente Préalable;0
+supprimer_hos;Supprimer Hospitalisation;0
+supprimer_iti;Supprimer Indemnité Temporaire d'Inaptitude;0
+supprimer_ree;Supprimer Rééducation;0
+supprimer_san_tar;Supprimer Sanction Déclaration Tardive;0
+supprimer_soi;Supprimer Soin;0
+supprimer_spc;Supprimer Soin Post-C;0
+traiter_annot_bloc_note;Traiter Annotation Bloc Note;0
+traiter_dat_tar;Traiter DAT tardive;0
+traiter_notif_dcd;Traiter Notif. Décès Suite Consultation;0
+traiter_notif_nll;Traiter Notif. NLL Suite Consultation;0
+traiter_notif_rch;Traiter Notif. Rechute Suite Consultation;0
+traiter_notif;Traiter Notif. Suite Délai Consultation;0
+transmettre_avis_cur_as_rtt;(*) Transmettre Avis Cure Centre Ratt.;0
+transmettre_avis_hos_rtt;Transmettre Avis Hospit. à Centre Ratt.;0
+transmettre_avis_ree_rtt;(*) Transmettre Avis Rééducation Unité Production;0
+transmettre_comp_at_cram;Transmettre Compl. Info. A.T. CRAM;0
+transmettre_cont_acc_ctx;Transmettre Contest. Accident;0
+transmettre_cont_app_ctx;Transmettre Contest. Appareillage;0
+transmettre_cont_dcd_ctx;Transmettre Contest. AD;0
+transmettre_cont_emp_ctx;Transmettre Contest. Emp. sur Matérialité;0
+transmettre_cont_emp_tar_ctx;Transmettre Contest. DAT Tardive EMP;0
+transmettre_cont_ep_ctx;Transmettre Contest. Entente Préalable;0
+transmettre_cont_mp_ctx;(*) Transmettre Contest. M.P.;0
+transmettre_cont_vih;Transmettre Contest. SéroConv.;0
+transmettre_cou_rectif_ad;Transmettre Courrier rectificatif Ayant-Droit;0
+transmettre_cou_rectif_vic;Transmettre Courrier Rectificatif;0
+transmettre_ctx;Transmettre Docu. Contentieux;0
+transmettre_dat_cpam;Transmettre DAT autre CPAM;0
+transmettre_dat_cram;Transmettre DAT CRAM;0
+transmettre_dem_cdc;Transmettre Demande Capital Décès;0
+transmettre_dem_cure_up;(*) Transmettre Demande Cure Unité Production;0
+transmettre_docu;(*) Transmettre Documents;0
+transmettre_dos_man;Transmettre Dossier Electronique (hors SAS);0
+transmettre_dos_mp_c3m;(*) Demander avis M.P. Collège 3 Méd.;0
+transmettre_dos_mp_crrmp_ad;(*) Demander Avis M.P. Au CRRMP (Ayant-droit);0
+transmettre_dos_mp_crrmp;Demander Avis M.P. Au CRRMP;0
+transmettre_dos_mp_ic;(*) Transmettre Dossier M.P. Ingénieur Conseil;0
+transmettre_dos_mp_pne;(*) Demander avis M.P. Méd. Expert Pneumo.;0
+transmettre_dos_mut_cpam;Transmettre Dossier Mutation à autre CPAM;0
+transmettre_dos_pap;Transmettre Dossier Papier;0
+transmettre_dos_sas;Transmettre Dossier Electronique;0
+transmettre_dos_vih_fith;Transmettre Dossier SéroConv. à Fonds Indemn.;0
+transmettre_insp;Transmettre DAT Insp. Travail;0
+transmettre_org;Transmettre Document à autre Organisme;0
+transmettre_sal_rtt;Transmettre Salaires à Centre Ratt.;0
+transmettre_vih_sm;Transmettre S.M. Dossier Suivi Sérologique;0
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX;Sans objet;2
+notifier_pec_rch;(*) Informer Prise en charge rechute;0
+notifier_pec_rech_par_ad;Notifier AD. PEC rechute reconnue partiellement;0
+notifier_pec_rech_par;Notifier Vic. PEC rechute reconnue partiellement;0
+notifier_pec_rech_tot_ad;Notifier AD. PEC rechute reconnue totalement;0
+notifier_pec_rech_tot;Notifier Vic. PEC rechute reconnue totalement;0
+notifier_pec_spc;Notifier Prise En Charge SPC;0
+notifier_pec_vih;Notifier Prise En Charge SéroConv.;0
+notifier_pec;Notifier victime PEC accident;0
+notifier_prop_gue_delai_vih;(*) Notifier Propos. Guérison SéroConv. - Délai D.;0
+notifier_prop_gue_vih;(*) Notifier Propos. Guérison  SéroConv.- Tests N;0
+notifier_rec_pec_par;Notifier PEC Rechute reconnue Partiellement;0
+notifier_rec_res_emp_nm;Signaler Empl. Recept. Cou. Reserves non motivées;0
+notifier_rec_res_emp;Signaler Empl. Recept. Courrier Reserves;0
+notifier_refusmed_iti_rch;Notifier Refus Médical ITI (RCH);0
+notifier_refusmed_iti;Notifier Refus Médical ITI (ATI);0
+notifier_ref_abs_cm_hos;Notifier Refus Adm. Hospit. Abs. CM Descriptif;0
+notifier_ref_adm_app;Notifier Refus Adm. Appareillage;0
+notifier_ref_adm_at_ad;Notifier AD Refus Adm. AT;0
+notifier_ref_adm_at_mortel_ad;Notifier AD Refus Adm. AT Mortel;0
+notifier_ref_adm_at;Notifier VIC . Refus Adm. AT;0
+notifier_ref_adm_dcd_aut;Notifier AD Refus Adm. Décès Renonc. Autopsie;0
+notifier_ref_adm_dcd_mp;Notifier AD Refus Adm Décès MP;0
+notifier_ref_adm_dcd_str;(*)Notifier Refus Adm. Décès + Statut Refus;0
+notifier_ref_adm_dcd;Notifier AD Refus Adm. Décès AT;0
+notifier_ref_adm_delai_at_ad;(*)Notifier Refus Délai  AT Décès;0
+notifier_ref_adm_delai_at_vic;(*) Notifier Refus Délai AT;0
+notifier_ref_adm_delai_mp_ad;Notifier AD Refus Délai MP Attente CRRMP;0
+notifier_ref_adm_delai_mp_vic;Notifier Vic Refus Délai MP Attente CRRMP;0
+notifier_ref_adm_ep;Notifier Refus Adm. E.P.;0
+notifier_ref_adm_gue_vih;(*) Notifier Refus Adm. SéroConv. - Notif. Guéri.;0
+notifier_ref_adm_hep_g;Notifier Refus Adm. Hep - G + 1er Test Positif;0
+notifier_ref_adm_hep;(*) Notifier Refus Adm. Hep - 1er Test Positif;0
+notifier_ref_adm_mortel_aut;Notifier AD Refus Adm. S. Mortel Renonc. Autopsie;0
+notifier_ref_adm_mp_2a_ad;Notifier AD Refus Adm. M.P. 2ème Alinéa;0
+notifier_ref_adm_mp_2a;Notifier Vic Refus Adm. M.P. 2ème Alinéa;0
+notifier_ref_adm_mp_nins;(*) Notifier Refus M.P. Non Inscrite Tableau;0
+notifier_ref_adm_nll_trsf;Notifier Refus Med. NLL (Transfert Autre Accident);0
+notifier_ref_adm_nll;Notifier Refus Adm. NLL;0
+notifier_ref_adm_rch;Notifier Refus Adm. Rechute;0
+notifier_ref_adm_spc;Notifier Refus Adm. SPC;0
+notifier_ref_adm_tr_ad;Notifier AD Refus Adm. Trajet;0
+notifier_ref_adm_tr_dcd_str;(*)Notifier Refus Adm. Décès Trajet + Statut R;0
+notifier_ref_adm_tr_dcd;Notifier AD Refus Adm. Décès Trajet;0
+notifier_ref_adm_tr_mortel_ad;Notifier AD Refus Adm. Trajet Mortel;0
+notifier_ref_adm_tr;Notifier Vic Refus Adm. Trajet;0
+notifier_ref_adm_vih;Notifier Refus Adm. VIH - G + 1er Test Positif;0
+notifier_ref_carid_app;Notifier Refus Car. Identite Appareillage;0
+notifier_ref_carid_arr;Notifier Refus Car. Identite Arrêt;0
+notifier_ref_carid_cur;Notifier Refus Car. Identite Cure;0
+notifier_ref_carid_ep;Notifier Refus Car. Identite EP;0
+notifier_ref_carid_hos;Notifier Refus Car. Identite Hospitalisation;0
+notifier_ref_carid_mit;Notifier Refus Car. Identite Mi-Temps;0
+notifier_ref_carid_nll;Notifier Refus Car. Identite Nouvelle Lésion;0
+notifier_ref_carid_rch;Notifier Refus Car. Identite Rechute;0
+notifier_ref_carid_ree;Notifier Refus Car. Identite Rééducation;0
+notifier_ref_carid_soi;Notifier Refus Car. Identite Soins;0
+notifier_ref_carid_spc;Notifier Refus Car. Identite SPC;0
+notifier_ref_car_app;Notifier Refus Car. Convo. Appareillage;0
+notifier_ref_car_arr;Notifier Refus ARR Carence Convocation;0
+notifier_ref_car_cmf;Notifier Refus Car. Convo. CMF;0
+notifier_ref_car_cur;Notifier Refus Car. Convo. Cure;0
+notifier_ref_car_ep;Notifier Refus Car. Convo. E.P.;0
+notifier_ref_car_exp;Notifier Refus Car. Convo. Med. Expert;0
+notifier_ref_car_hos;Notifier Refus Adm. Hospit.;0
+notifier_ref_car_imp;Notifier Refus Car Imp Convo Serv Méd;0
+notifier_ref_car_mit;Notifier Refus Car. Convo. Mi-temps;0
+notifier_ref_car_nll;Notifier Refus Car. Convo. NLL;0
+notifier_ref_car_rch;Notifier Refus Car. Convo. Rechute;0
+notifier_ref_car_ree;Notifier Refus Car. Convo. Rééducation;0
+notifier_ref_car_soi;Notifier Refus Car. Convo. Soins;0
+notifier_ref_car_spc;Notifier Refus Car. Convo. Soins Post-Conso;0
+notifier_ref_conso_exp;Notifier Vic Refus Conso Convo Med. Expert;0
+notifier_ref_dcd_abs_dcd_str;(*)Notifier Refus Décès S.Renonc. Aut. + Statut R;0
+notifier_ref_dcd_abs_dcd;(*)Notifier Refus Décès Suite Renonc. Autopsie;0
+notifier_ref_dcd_aut_str;(*)Notifier Refus Décès S. Autopsie + Statut Refus;0
+notifier_ref_dcd_aut;(*)Notifier Refus Décès Suite Autopsie;0
+notifier_ref_docabs_arr;Notifier Refus ARR Doc. Absents;0
+notifier_ref_docabs_nll;Notifier Refus NLL Doc. Absents;0
+notifier_ref_etr;(*) Notifier Refus A.T. Etranger;0
+notifier_ref_imp_exp;Notifier Vic  - Refus Imp Convo Med. Expert;0
+notifier_ref_med_ad;Notifier AD Refus Medical;0
+notifier_ref_med_agg;Notifier Refus Méd. Abs.  Aggravation;0
+notifier_ref_med_app;Notifier Refus Méd. Appareillage;0
+notifier_ref_med_arr;Notifier Refus Méd. Arrêt de Travail;0
+notifier_ref_med_cur_acc_as;Notifier Refus Méd. Cure AT Accord AS;0
+notifier_ref_med_cur_as_at;Notifier Refus Méd. Cure AT et AS;0
+notifier_ref_med_cur;Notifier Refus Méd. Cure;0
+notifier_ref_med_dcd_aut;Notifier AD Refus Méd. Décès Suite Autopsie;0
+notifier_ref_med_dcd_str;(*)Notifier Refus Méd. Décès + Statut Refus;0
+notifier_ref_med_dcd;Notifier AD Refus Méd. Décès;0
+notifier_ref_med_ep;Notifier Refus Méd. E.P.;0
+notifier_ref_med_hos;Notifier Refus Méd. Hospit.;0
+notifier_ref_med_mit;Notifier Refus Méd. Mi-temps;0
+notifier_ref_med_mortel_aut;Notifier AD Refus Méd. S. Mortel Suite Autopsie;0
+notifier_ref_med_mortel;Notifier AD Refus Méd. S. Mortel;0
+notifier_ref_med_mp_2a_ad;Notifier AD Refus Méd. M.P. 2ème Alinéa;0
+notifier_ref_med_mp_2a;Notifier Vic Refus Méd. M.P. 2ème alinéa;0
+notifier_ref_med_mp_ad;Notifier AD Refus Méd. M.P   (ou Rch M.P.);0
+notifier_ref_med_mp_crrmp_ad;Notifier AD Refus Méd. M.P. Avis CRRMP;0
+notifier_ref_med_mp_crrmp_dcd;Notifier Refus M.P. Décès après CRRMP;0
+notifier_ref_med_mp_crrmp;Notifier Vic Refus Méd. M.P. Avis CRRMP;0
+enregistrer_exp_evtcur;Enregistrer Expertise Cure;0
+enregistrer_exp_evtepr;Enregistrer Expertise Entente Préalable;0
+enregistrer_exp_evthos;Enregistrer Expertise Hospitalisation;0
+enregistrer_exp_evtree;Enregistrer Expertise Rééducation;0
+enregistrer_exp_evtsoi;Enregistrer Expertise Soins;0
+enregistrer_exp_evtspc;Enregistrer Expertise Soins Post-Consolidation;0
+enregistrer_exp_mp;Enregistrer Expertise Maladie Professionnelle;0
+enregistrer_exp_nll;Enregistrer Expertise Nouvelle Lésion;0
+enregistrer_exp_rce;Enregistrer Expertise Imputabilité (RCE);0
+enregistrer_exp_rch;Enregistrer Expertise Rechute;0
+enregistrer_exp_spc;Enregistrer Expertise Soins Post-Consolidation;0
+enregistrer_exp_vih;Enregistrer Expertise Séroconversion;0
+enregistrer_exp;Enregistrer Expertise;0
+enregistrer_fraude;Enregistrer Fraude;0
+enregistrer_hos;Enregistrer Hospitalisation;0
+enregistrer_mut_acc_dos_dem;Enregistrer Mutation : Dossier Demandé Accepté;0
+enregistrer_mut_acc_dos_trs;Enregistrer Mutation : Dossier Transmis Accepté;0
+enregistrer_mut_dem_vic_ent;Enregistrer Demande Victime : Entrée de Dossier;0
+enregistrer_mut_dem_vic_sor;Enregistrer Demande Victime : Sortie de Dossier;0
+enregistrer_mut_ent;Enregistrer Mutation : Entrée de Dossier;0
+enregistrer_mut_rec_dem_dos;Enregistrer Mutation : Dossier Envoyé;0
+enregistrer_mut_rec_dos_dem;Enregistrer Mutation : Dossier Demandé Reçu;0
+enregistrer_mut_rec_trs_dos;Enregistrer Mutation : Recevoir Dossier;0
+enregistrer_mut_ref_dem_dos_re;Enregistrer Mutation : Demande Dossier Refusée;0
+enregistrer_mut_ref_dem_dos;Enregistrer Mutation : Demande Dossier Refusée;0
+enregistrer_mut_ref_dos_dem_re;Enregistrer Mutation : Dossier Demandé Refusé;0
+enregistrer_mut_ref_dos_dem;Enregistrer Mutation : Dossier Demandé Refusé;0
+enregistrer_mut_ref_dos_trs;Enregistrer Mutation : Dossier Transmis Refusé;0
+enregistrer_mut_ref_trs_dos;Enregistrer Mutation : Refuser Dossier Transmis;0
+enregistrer_mut_sor;Enregistrer Mutation : Sortie de Dossier;0
+enregistrer_quest_ad;Enregistrer Questionnaire Ayant-droit;0
+enregistrer_quest_div;Enregistrer Questionnaire divers;0
+enregistrer_quest_emp;Enregistrer Questionnaire Employeur;0
+enregistrer_quest_med;Enregistrer Questionnaire Autre Médecin;0
+enregistrer_quest_mp_aut_emp;Enregistrer Questionnaire M.P. Autre Employeur;0
+enregistrer_quest_mp_emp;Enregistrer Questionnaire M.P. Employeur;0
+enregistrer_quest_mp_medtra;Enregistrer Questionnaire M.P. Méd. Trav.;0
+enregistrer_quest_mp_vic;Enregistrer Questionnaire M.P. Victime;0
+enregistrer_quest_mt;Enregistrer Questionnaire Médecin Traitant;0
+enregistrer_quest_ppa;Enregistrer Questionnaire Première Personne Avisée;0
+enregistrer_quest_tem;Enregistrer Questionnaire Témoin;0
+enregistrer_quest_vic;Enregistrer Questionnaire Victime;0
+enregistrer_quest;Enregistrer Questionnaire;0
+enregistrer_rapport;Enregistrer Rapport Police ou Gendarmerie;0
+enregistrer_ree;Enregistrer Rééducation;0
+enregistrer_rens;Enregistrer Renseignement Divers;0
+enregistrer_reserve;Enregistrer Réserves Employeur;0
+enregistrer_resmot;Enregistrer Réserves motivées;0
+enregistrer_resnmot;Enregistrer Réserves non motivées;0
+enregistrer_salaire_emp_aut;Enregistrer Salaires (Autre employeur);0
+enregistrer_salaire_emp;Enregistrer Salaires (Employeur);0
+enregistrer_salaire_vic;Enregistrer Salaires (Victime);0
+enregistrer_salaire;Enregistrer Salaires;0
+enregistrer_vih;Enregistrer Pièce SéroConv.;0
+enregistrer_volet_emp_rch;Enregistrer Volet Employeur (RCH);0
+enregistrer_volet_emp;Enregistrer Volet Employeur;0
+epurer_dossier;Epurer Dossier;0
+etablir_fic_coll_mp;Etablir fiche colloque MP;0
+IIIIIIIIIIIIIIIIIIIIIIIIIIIIII;Valeur inconnue;1
+importer_dossier;Importer Dossier (reprise historique);0
+import_suite_fus;Dossier importé suite fusion;0
+infirmer_san_dat_tar;Infirmer Sanction DAT Tardive;0
+informer_acc_ree_ass;(*) Informer Sce Social - Acc. Rééducation;0
+informer_acc_ree;Informer Accord Rééducation;0
+informer_alloc_amiante;Informer Vic. Alloc. Amiante (T.N° 30 et 30 bis);0
+informer_ann_san_dat_tar_ctx;Informer CTX Annul. Sanction DAT Tardive;0
+informer_arr_ass;Informer Sce. Social - Arrêt de Travail L.Durée;0
+informer_aut_ad;(*) Informer A. D. Autopsie;0
+informer_aut_pf;(*) Informer P. F.  Autopsie;0
+informer_chg_vic_cram;Informer Chgt Ident Victime CRAM;0
+informer_compl_at_cram;(*) Transmettre Compl. Info. A.T. CRAM;0
+informer_cons_dcd_ad;Informer AD Consult. Dossier Décès;0
+informer_cons_dcd_emp;Informer Emp. Consult. Dossier Décès;0
+informer_cons_dos_ad;Informer AD Consult. Dossier;0
+informer_cons_dos_emp;Informer Emp. Consult. Dossier AT;0
+Informer_cons_dos_mp_nll_vic;(*) Transmettre Contest. M.P.;0
+Informer_cons_dos_mp_rch_vic;(*) Informer Vic. Consult. Rechute MP;0
+Informer_cons_dos_mp_vic;Informer Vic. Consult Dossier MP;0
+informer_cons_dos_poss;Informer Consult. Dossier Possible;0
+informer_cons_dos_vic;Informer Vic Consult. Dossier Possible;0
+informer_cons_el;(*) Notifier Enq. Légale;0
+informer_cons_nll_emp;(*) Informer Emp. Consult.Dos. NLL AT;0
+informer_cons_nll_vic;(*) Informer Vic. Consult. Nouvelle Lésion possibl;0
+informer_cons_rch_ad;(*) Informer AD Consult. Rechute Possible;0
+informer_cons_rch_emp;(*) Informer Emp. Consult.Dos. Rechute AT;0
+informer_cons_rch_vic;(*) Informer Vic. Consult. Rechute Possible;0
+informer_cons_res_enq_leg;(*) Informer Consult. Résultat Enq. Légale;0
+informer_convo_dcd_ad;Informer AD Convocation;0
+informer_dat_tar_cpam;Informer CPAM Rens. DAT Tardive;0
+informer_dat_tar_dos;(*)Informer CPAM Rens. DAT Tardives (Dossier);0
+informer_dat_tar_emp;(*)Informer CPAM Rens. DAT Tardives (tous);0
+informer_dcd_ass;Informer Service Social A.T. Mortel;0
+informer_dcd_ren;Informer Serv. Rentes Décès;0
+informer_dec_ctx_san_emp_cpam;Informer CPAM Déc. CTX Sanction Employeur;0
+informer_dec_dat_tar_cpam;Informer CPAM Décision DAT Tardive;0
+informer_dec_dcd_ren;Informer S. Rentes Décision Décès;0
+informer_doc_ad_at;Transmettre AD Documents Souhaités AT;0
+informer_doc_ad_mp;Transmettre AD Documents Souhaités MP;0
+informer_doc_emp_at;Transmettre EMP Documents Souhaités AT;0
+informer_doc_emp_mp;Transmettre EMP Documents Souhaités MP;0
+informer_doc_emp;Transmettre EMP Documents Souhaités;0
+informer_doc_vic_at;Transmettre VIC Documents Souhaités AT;0
+informer_doc_vic_mp;Transmettre VIC Documents Souhaités MP;0
+informer_doc_vic;Transmettre VIC Documents Souhaités;0
+Informer_emp_clot_dos;Informer Employeur Classement Dossier;0
+informer_emp_reprise_dos;Informer Employeur Reprise Dossier;0
+informer_lm2a_fraude;Informer LM2A suite fraude;0
+accepter_dos_dem_sas;Accepter Dossier Demandé CPAM;0
+accepter_dos_trs_sas;Accepter Dossier Transmis CPAM;0
+accuser_reception_iti_att_rch;Accuser Réception Demande ITI (attente) (RCH);0
+accuser_reception_iti_att;Accuser Réception Demande ITI (attente);0
+accuser_reception_iti_rch;Accuser Réception Demande ITI (après PEC)(RCH);0
+accuser_reception_iti;Accuser Réception Demande ITI (après PEC);0
+annuler_dat_tar;Annuler Déclaration Tardive;0
+annuler_dossier;Annuler Dossier;0
+annuler_san_tar;Annuler Sanction DAT Tardive;0
+archiver_dossier;Archiver Dossier;0
+attendre_acc_dem_dos_man;Attendre Accord Demander Dossier  CPAM (hors SAS);0
+attendre_acc_dem_dos;Attendre Accord Demander Dossier Autre CPAM;0
+attendre_acc_dos_dem;Attendre Accord Dossier Demandé;0
+attendre_acc_dos_trs;Attendre Réponse Dos. Elect. Transmis;0
+cloturer_dossier;Clôturer Dossier;0
+confirmer_san_dat_tar;Confirmer Sanction DAT Tardive;0
+consulter_avant_crrmp;Consulter_avant_crrmp;0
+consulter_avant_crrmp_ad;Consulter_avant_crrmp_ad;0
+consulter;Consulter;0
+creer_dcd;Créer Décès;0
+creer_dossier_aminima;Créer Dossier A Minima;0
+creer_dossier;Créer Dossier;0
+decider_dat_tar;Décider Déclaration Tardive;0
+delivrer_volet_soins;Délivrer Feuille AT ou MP;0
+demander_acc_etr_sri;Demander Sce Rel. Intern. - Acc. Préalable ETR;0
+demander_act_pro_mp;Demander Vic. - Activité Professionnelle M.P.;0
+demander_affil;Demander Sce Affil. - Affiliation;0
+demander_aff_vic;(*) Demander Vic. - Docu. Affiliation;0
+demander_assuj_affil;Demander Sce Affil. - Qualité Assujetti;0
+demander_aut_ad;Demander AD Autorisation Autopsie;0
+demander_aut_med_leg;(*) Demander M.Légiste - Autopsie;0
+demander_aut_trib;Demander Tribunal - Autopsie;0
+demander_avis_app;(*) Demander Avis Appareillage;0
+demander_avis_arr;Demander Avis Arrêt de Travail;0
+demander_avis_cot;Demander Avis Cdaph;0
+demander_avis_cur;(*) Demander Avis Cure;0
+demander_avis_dcd;Demander Avis Décès;0
+demander_avis_dmf;Demander Avis Décision Médicale Finale;0
+demander_avis_emp_aty;Demander Avis Employeur Atypique;0
+demander_avis_ep;(*) Demander Avis EP;0
+demander_avis_gue;(*) Demander avis guérison;0
+demander_avis_hos;(*) Demander Avis Hospit.;0
+demander_avis_ipp;Demander Avis IPP;0
+demander_avis_med_iti_rch;Demander Avis ITI (RCH);0
+demander_avis_med_iti;Demander Avis ITI (ATI);0
+demander_avis_med_lib;Demander Avis Médical Colloque;0
+demander_avis_med;(*) Demander Avis Médical;0
+demander_avis_mit;Demander Avis Mi-temps;0
+demander_avis_mp_2a;(*) Demander Avis M.P. 2ème alinéa;0
+demander_avis_mp_3a;(*) Demander Avis M.P. 3ème Alinéa;0
+demander_avis_mp_4a;(*) Demander Avis M.P. 4ème Alinéa;0
+demander_avis_mp_adm_nex;(*) Demander Avis M.P. Cond. Adm. Non Examinées;0
+demander_avis_mp_med_tra;Demander Avis M.P. Médecin du Travail;0
+demander_avis_mp_pneumo;(*) Demander Avis M.P. Méd. Pneumo.;0
+demander_avis_mp_trt;(*) Demander Avis M.P. Compl. Traitement;0
+demander_avis_mp;Demander Avis M.P.;0
+demander_avis_mtra;(*) Demander Avis Médecin du Travail;0
+demander_avis_nll;Demander Avis NLL;0
+demander_avis_rce;Demander Avis Imputabilité (RCE);0
+demander_avis_rch;Demander Avis Rechute;0
+demander_avis_ree;Demander Avis Rééducation;0
+demander_avis_soi;Demander Avis Soins;0
+demander_avis_spc;Demander Avis SPC;0
+demander_cmd_ad;Demander AD C.M. Décès;0
+demander_cmf;Demander C.M. Final;0
+demander_cmi_ad;Demander AD C.M.Initial;0
+demander_cmi_r441_mp;Demander C.M. Initial (MP);0
+demander_cmi_r441;Demander C M Initial (decret);0
+demander_cmi;Demander C.M. Initial;0
+demander_cmnll;(*) Demander C.M. Nouvelle Lésion;0
+demander_cmp;Demander C.M. Prolongation;0
+demander_cmr;Demander C.M. Rechute;0
+demander_cmspc;Demander C.M. Soins Post-Consolidation;0
+demander_compl_dat;Demander Compl. DAT (retour employeur);0
+demander_compl_dmp;Demander Info. Compl. DMP;0
+demander_cpl_aut_ad;Demander AD Compl. Autorisation Autopsie;0
+demander_dat_emp;Demander Déclaration A.T. à l'Employeur;0
+demander_dat_vic;Demander Déclaration A.T. à la Victime;0
+demander_dat;Demander Déclaration A.T.;0
+demander_dmp_ad;Demander AD DMP;0
+demander_dmp;Demander Déclaration M.P.;0
+demander_doc_adm_ad;Demander AD Doc. Adm.;0
+demander_doc_adm_vic;Demander Doc. Adm. Victime;0
+demander_doc_ad;Demander AD Doc. Médicaux;0
+demander_doc_vic;Demander Doc. Méd. Victime;0
+demander_dossier;Demander Transfert Dossier;0
+demander_dos_man;Demander Dossier Electronique (hors sas);0
+demander_dos_pap;Demander Dossier Papier (Mutation);0
+demander_dos_sas;Demander Dossier SAS (Mutation);0
+demander_enq_adm_mp_aut;Demander Enquête Adm. M.P. autre empl.;0
+demander_enq_adm_mp;Demander Enquête Adm. M.P.;0
+demander_enq_adm;Demander Enquête Adm.;0
+demander_enq_ext_mp_aut;Demander Enquête Extérieure M.P. autre empl.;0
+demander_enq_ext_mp;Demander Enquête Extérieure M.P.;0
+demander_enq_ext;Demander Enquête Extérieure;0
+demander_enq_leg_dcd;(*) Demander Enquête Légale Décès;0
+demander_enq_leg;(*) Demander Enquête Légale;0
+demander_exh_aut_pf;(*) Demander Exhumation P.F. Pour  Autopsie;0
+demander_exp_app;Demander Expertise Appareillage;0
+demander_exp_arr;Demander Expertise Arrêt de Travail;0
+demander_exp_cure;Demander Expertise Cure;0
+demander_exp_dcd;Demander Expertise Décès;0
+demander_exp_dmf;Demander Expertise Décision Médicale Finale;0
+demander_exp_ep;Demander Expertise Entente Préalable;0
+demander_exp_hos;Demander Expertise Hospitalisation;0
+demander_exp_mp;Demander Expertise Maladie Prof.;0
+demander_exp_nll;Demander Expertise Nouvelle Lésion;0
+demander_exp_rce;Demander Expertise Imputabilité (RCE);0
+demander_exp_rch;Demander Expertise Rechute;0
+demander_exp_ree;Demander Expertise Rééducation;0
+demander_exp_soi;Demander Expertise Soins;0
+demander_exp_spc;Demander Expertise Soins Post Conso.;0
+demander_exp_vih;Demander Expertise SéroConv.;0
+demander_interv;(*) Demander Doc. Divers Intervenant;0
+demander_int_dom_am;Demander Interv. Dom.  Agt Mandaté;0
+demander_mot_dat_tar;Demander Motif DAT Tardive;0
+demander_nouv_fix_rep_c3m;(*) Demander Exam. Nlle Fixation Répar. Coll. 3 M;0
+demander_nouv_fix_rep_pneumo;(*) Demander Exam. Nlle Fixation Répar. Méd. Pn.;0
+demander_pie_ree;(*) Demander Salaire Rééducation;0
+demander_rapport_police;Demander Rapport  Police;0
+demander_rec_mp_ic;Demander Reconn. M.P. Ingénieur Conseil;0
+demander_rec_mp_it;Demander Reconn. M.P. Insp. Travail;0
+demander_rens_ad;Demander AD Renseignements;0
+demander_rens_dat_tar;Demander CPAM Suivi Emp. DAT Tardive;0
+demander_rens_emp;Demander Rens. Employeur;0
+demander_rens_inf_pre;(*) Demander Rens. Infirm. Pré-existantes;0
+demander_rens_int;Demander Rens. Témoin;0
+demander_rens_med;Demander Rens. Autre Médecin;0
+demander_rens_mp_autre_emp;Demander Rens. M.P. Autres Emp.;0
+demander_rens_mp_emp;Demander Rens. M.P. Employeur;0
+demander_rens_mt;Demander Rens. Médecin Traitant;0
+demander_rens_tar_cpam;Demander Rens. CPAM suivi empl. DAT tardive;0
+demander_rens_tar_cram;Demander CRAM Suivi Emp. AT Bénins;0
+demander_rens_tiers;Demander Rens. 1ère Pers. Avisée;0
+demander_rens_vic;Demander Rens. Victime;0
+demander_sal_ad;Demander AD Salaires;0
+demander_sal_aut_emp;Demander Salaires Autre Employeur;0
+demander_sal_emp_aut;Demander Salaires Autres Employeurs;0
+demander_sal_emp;Demander Salaires Employeur;0
+demander_sal_vic;Demander Salaires Victime;0
+demander_spc_vic;(*) Demander Certificat SPC Victime;0
+ecrire_lib_ad;Ecrire AD Courrier Libre;0
+ecrire_lib_div;Ecrire Courrier Libre Divers Intervenants;0
+ecrire_lib_emp;Ecrire Courrier Libre Employeur;0
+ecrire_lib_vic;Ecrire Courrier Libre Victime;0
+editer_rens_pos_tra;Editer Fiches Postes de Travail;0
+enregistrer_adc;Enregistrer Acte de Décès;0
+enregistrer_affil;Enregistrer Affiliation;0
+enregistrer_app;Enregistrer Appareillage;0
+enregistrer_arr_F;Enregistrer Arrêt de Travail Final;0
+enregistrer_arr_I;Enregistrer Arrêt de Travail Initial;0
+enregistrer_arr_NLL;Enregistrer Arrêt de Travail Nouvelles Lésions;0
+enregistrer_arr_P;Enregistrer Arrêt de Travail Prolongation;0
+enregistrer_arr_R;Enregistrer Arrêt de Travail Rechute;0
+enregistrer_assuj;Enregistrer Assujettissemnent;0
+enregistrer_avismed_iti_rch;Enregistrer Avis Médical ITI (RCH);0
+enregistrer_avismed_iti;Enregistrer Avis Médical ITI;0
+enregistrer_avis_crrmp;Enregistrer Avis CRRMP;0
+enregistrer_avis_dcd;Enregistrer Avis Décès;0
+enregistrer_avis_dmf;Enregistrer Avis Décision Médicale Finale;0
+enregistrer_avis_emp_aty;Enregistrer Avis Employeur Atypique;0
+enregistrer_avis_evtapr;Enregistrer Avis Appareillage;0
+enregistrer_avis_evtarr_mit;Enregistrer Avis Mi-temps;0
+enregistrer_avis_evtarr;Enregistrer Avis Arrêt de Travail;0
+enregistrer_avis_evtcur;Enregistrer Avis Cure;0
+enregistrer_avis_evtepr;Enregistrer Avis Entente Préalable;0
+enregistrer_avis_evthos;Enregistrer Avis Hospitalisation;0
+enregistrer_avis_evtiti;Enregistrer Avis ITI;0
+enregistrer_avis_evtree_cot;Enregistrer Avis COTOREP;0
+enregistrer_avis_evtree;Enregistrer Avis Rééducation;0
+enregistrer_avis_evtsoi;Enregistrer Avis Soins;0
+enregistrer_avis_evtspc;Enregistrer Avis Soins Post-Consolidation;0
+enregistrer_avis_ipp;Enregistrer Avis IPP;0
+enregistrer_avis_libre;Enregistrer Avis Medical Colloque;0
+enregistrer_avis_mp_2a;Enregistrer Avis M.P. 2ème Alinéa;0
+enregistrer_avis_mp_3a;Enregistrer Avis M.P. 3ème Alinéa;0
+enregistrer_avis_mp_4a;Enregistrer Avis M.P. 4ème Alinéa;0
+enregistrer_avis_mp_crrmp;Enregistrer Avis M.P. CRRMP;0
+enregistrer_avis_mp_nex;Enregistrer Avis M.P. Cond. Adm. Non Examinées;0
+enregistrer_avis_mp_pneumo;Enregistrer Avis M.P. Médecin Pneumologue;0
+enregistrer_avis_mp_trt;Enregistrer Avis M.P. Complément Traitement;0
+enregistrer_avis_mp;Enregistrer Avis Maladie Professionnelle;0
+enregistrer_avis_nll;Enregistrer Avis Nouvelle Lésion;0
+enregistrer_avis_rce;Enregistrer Avis Imputabilité (RCE);0
+enregistrer_avis_rch;Enregistrer Avis Rechute;0
+enregistrer_avis_spc;Enregistrer Avis Soins Post-Consolidation;0
+enregistrer_avis_vih_at;Enregistrer Avis VIH et AT;0
+enregistrer_avis;Enregistrer Avis;0
+enregistrer_bloc_sui;Enregistrer Nouveau Bloc Suit;0
+enregistrer_cmd;Enregistrer Certificat Médical de Décès;0
+enregistrer_cmf;Enregistrer Certificat Final;0
+enregistrer_cmi;Enregistrer Certificat Initial;0
+enregistrer_cmnll;Enregistrer Certificat Nouvelle Lésion;0
+enregistrer_cmp;Enregistrer Certificat Prolongation;0
+enregistrer_cmr;Enregistrer Certificat Rechute;0
+enregistrer_cmspc;Enregistrer Certificat Soins Post-Conso.;0
+enregistrer_contest;Enregistrer Contestation;0
+enregistrer_ctx;Enregistrer Retour Contentieux;0
+enregistrer_cur;Enregistrer Cure;0
+enregistrer_dat_tar_con_emp;Enregistrer Contestation Employeur Sanction;0
+enregistrer_dat_tar_cpam;Enregistrer Réponse CPAM DAT Tardive;0
+enregistrer_dat_tar_cram;Enregistrer Réponse CRAM DAT Tardive;0
+enregistrer_dat_tar_dec_ctx;Enregistrer Info. Décision Contentieux DAT Tardive;0
+enregistrer_dat_tar_dec_emp;Enregistrer Décision Contentieux EMP;0
+enregistrer_dat_tar_dec;Enregistrer Info. Décision DAT Tardive;0
+enregistrer_dat_tar_emp;Enregistrer Réponse Employeur DAT Tardive;0
+enregistrer_dat_tar;Enregistrer Déclaration Tardive;0
+enregistrer_dat;Enregistrer Déclaration A.T.;0
+enregistrer_dcd;Enregistrer Pièce Décès;0
+enregistrer_demande_iti_rch;Enregistrer Demande ITI(RCH);0
+enregistrer_demande_iti;Enregistrer Demande ITI;0
+enregistrer_div;Enregistrer Evénement Divers;0
+enregistrer_dmp;Enregistrer Déclaration M.P.;0
+enregistrer_dos_pap;Enregistrer Dossier Papier Reçu;0

@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "EMP_EMP_GES",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "EMP_EMP_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_EMP_V",
+    "title": "Gestion par employeur",
+    "primaryKey": [
+        "EMP_EMP_GES"
+    ]
+}

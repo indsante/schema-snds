@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "PIE_PIE_TYP",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "PIE_PIE_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_PIE_V",
+    "title": "Type de pièce , nature des certificats médicaux",
+    "primaryKey": [
+        "PIE_PIE_TYP"
+    ]
+}

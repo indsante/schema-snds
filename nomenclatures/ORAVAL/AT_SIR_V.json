@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "EMP_SIR_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "EMP_SIR_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_SIR_V",
+    "title": "top SIRET",
+    "primaryKey": [
+        "EMP_SIR_COD"
+    ]
+}

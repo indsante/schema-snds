@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "MDL_BLE_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "MDL_BLE_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_MDL_V",
+    "title": "Contact ou modalité de la blessure",
+    "primaryKey": [
+        "MDL_BLE_COD"
+    ]
+}

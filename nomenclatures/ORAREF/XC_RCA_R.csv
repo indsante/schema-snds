@@ -1,0 +1,1717 @@
+RCA_COD;RCA_RNG;RCA_LIB;RCA_PER_COD
+1390;9;Résection de l'articulation de la cheville;1381
+1391;10;Reconstruction de l'articulation de la cheville;1381
+1392;11;Libération mobilisatrice de l'articulation [Arthrolyse] de la cheville;1381
+1393;12;Actes thérapeutiques sur l'appareil capsuloligamentaire de l'articulation de la cheville;1381
+1394;5;Actes thérapeutiques sur les articulations du pied;1350
+1395;1;Mobilisation et manipulation du pied;1394
+1396;2;Arthrodèse et arthrorise du pied;1394
+1397;3;Arthroplastie du pied;1394
+1398;4;Libération mobilisatrice des articulations [Arthrolyse] du pied;1394
+1399;5;Synovectomie des articulations du pied;1394
+1400;6;Actes thérapeutiques sur l'appareil capsuloligamentaire des articulations du pied;1394
+1401;6;Autres actes thérapeutiques sur les articulations du membre inférieur;1350
+1402;4;ACTES THÉRAPEUTIQUES SUR LES MUSCLES, TENDONS ET TISSUS MOUS DU MEMBRE INFÉRIEUR;1304
+1403;1;Actes thérapeutiques sur la hanche et la cuisse;1402
+1404;1;Transfert de muscle et de tendon à la hanche et à la cuisse;1403
+1405;2;Section de tendon [Ténotomie] à la hanche et à la cuisse;1403
+1406;3;Exérèse d'ossification des tissus mous de la hanche et de la cuisse;1403
+1407;2;Actes thérapeutiques sur le genou;1402
+1408;1;Suture et réinsertion de muscle et de tendon au genou;1407
+1409;2;Allongement et transfert de tendon au genou;1407
+1410;3;Libération de tendon [Ténolyse], ténosynovectomie et peignage de tendon au genou;1407
+1411;4;Raccourcissement de tendon au genou;1407
+1412;5;Autres actes thérapeutiques sur les tissus mous au genou;1407
+1413;3;Actes thérapeutiques sur la jambe, la cheville et le pied;1402
+1414;1;Suture et réinsertion de muscle et de tendon à la jambe et au pied;1413
+1415;2;Allongement de tendon à la jambe et au pied;1413
+1416;3;Libération de tendon [Ténolyse], ténosynovectomie et peignage de tendon à la jambe et au pied;1413
+1417;4;Transfert de muscle et de tendon à la jambe et au pied;1413
+1418;5;Section de tendon [Ténotomie] à la jambe et au pied;1413
+1419;6;Exérèse de kyste synovial et de bourse séreuse à la jambe et au pied;1413
+1420;7;Libération des tissus mous à la jambe et au pied;1413
+1421;8;Autres actes thérapeutiques sur les tissus mous au pied;1413
+1422;9;Correction des malformations congénitales du pied;1413
+1423;4;Correction complexe d'attitude vicieuse du membre inférieur;1402
+1424;5;AUTRES ACTES THÉRAPEUTIQUES SUR LE MEMBRE INFÉRIEUR;1304
+1425;1;Confection d'appareillage du membre inférieur;1424
+1426;2;Confection d'orthèse du membre inférieur;1424
+1427;3;Mise en traction du membre inférieur, pour lésion non traumatique;1424
+1428;4;Amputation et désarticulation au membre inférieur;1424
+1429;5;Réimplantation au membre inférieur;1424
+1430;15;APPAREIL OSTÉOARTICULAIRE ET MUSCULAIRE, SANS PRÉCISION TOPOGRAPHIQUE;1
+1431;1;ACTES DIAGNOSTIQUES SUR L'APPAREIL OSTÉOARTICULAIRE ET MUSCULAIRE, SANS PRÉCISION TOPOGRAPHIQUE;1430
+1432;1;Échographie de l'appareil ostéoarticulaire et musculaire, sans précision topographique;1431
+1433;2;Radiographie de l'appareil ostéoarticulaire et musculaire, sans précision topographique;1431
+1434;3;Scintigraphie de l'appareil ostéoarticulaire et musculaire, sans précision topographique;1431
+1435;4;Autres actes d'imagerie de l'appareil ostéoarticulaire et musculaire, sans précision topographique;1431
+1436;5;Explorations fonctionnelles de l'appareil ostéoarticulaire et musculaire, sans précision topographique;1431
+1437;6;Biopsie de l'appareil ostéoarticulaire et musculaire, sans précision topographique;1431
+1438;2;ACTES THÉRAPEUTIQUES SUR LES OS ET LES ARTICULATIONS, SANS PRÉCISION TOPOGRAPHIQUE;1430
+1439;1;Perforation et forage osseux, sans précision topographique;1438
+1440;2;Prélèvement d'os, sans précision topographique;1438
+1441;3;Fixation osseuse, sans précision topographique;1438
+1442;4;Ostéotomie, sans précision topographique;1438
+1443;5;Évidement osseux, sans précision topographique;1438
+1444;6;Résection osseuse, sans précision topographique;1438
+1445;7;Ablation, changement et modification de matériel d'ostéosynthèse, sans précision topographique;1438
+1446;8;Autres actes thérapeutiques sur les os et les articulations, sans précision topographique;1438
+1447;9;Appareillage ostéoarticulaire, sans précision topographique;1438
+1448;3;ACTES THÉRAPEUTIQUES SUR LES TISSUS MOUS, SANS PRÉCISION TOPOGRAPHIQUE;1430
+1449;1;Injection dans les tissus mous, sans précision topographique;1448
+1450;2;Suture et plastie de muscle et de tendon, sans précision topographique;1448
+1451;3;Transfert et lambeau musculotendineux pour réanimation motrice, sans précision topographique;1448
+1452;4;Libération de muscle et de tendon, sans précision topographique;1448
+1453;5;Section de tendon et de fascia, sans précision topographique;1448
+1454;6;Autres actes thérapeutiques sur les tissus mous, sans précision topographique;1448
+1455;7;Réfection de moignon d'amputation de membre;1448
+1456;16;SYSTÈME TÉGUMENTAIRE - GLANDE MAMMAIRE;1
+1457;1;ACTES DIAGNOSTIQUES SUR LA PEAU ET LES TISSUS MOUS;1456
+1458;1;Échographie de la peau et des tissus mous;1457
+1459;2;Scanographie de la peau et des tissus mous;1457
+1460;3;Remnographie [IRM] de la peau et des tissus mous;1457
+1461;4;Épreuves fonctionnelles sur la peau et les tissus mous;1457
+1462;5;Ponction et biopsie de la peau et des tissus mous;1457
+1463;7;Autres actes diagnostiques sur la peau et les tissus mous;1457
+1464;2;ACTES DIAGNOSTIQUES SUR LE SEIN;1456
+1465;1;Échographie du sein;1464
+1466;2;Radiographie du sein;1464
+1467;3;Scanographie du sein;1464
+1468;4;Remnographie [IRM] du sein;1464
+1469;5;Ponction et biopsie du sein;1464
+1470;7;Autres actes diagnostiques sur le sein;1464
+1471;3;ACTES THÉRAPEUTIQUES SUR LA PEAU ET LES TISSUS MOUS;1456
+1472;1;Évacuation de collection de la peau et des tissus mous;1471
+1473;2;Excision de lésion infectieuse diffuse de la peau et des tissus mous;1471
+1474;3;Parage et/ou suture de plaie de la peau et des tissus mous;1471
+1475;1;Parage et/ou suture de plaie superficielle de la peau et du tissu cellulaire souscutané;1474
+1476;2;Parage et/ou suture de plaie profonde de la peau et des tissus mous;1474
+1477;4;Ablation de corps étranger de la peau et des tissus mous;1471
+1478;5;Détersion mécanique d'ulcération trophique de la peau et des tissus mous;1471
+1479;6;Destruction de lésion de la peau et des tissus mous;1471
+1480;1;Dermabrasion [Destruction mécanique de lésion cutanée superficielle];1479
+1481;2;Destruction thermique ou chimique de lésion cutanée superficielle;1479
+1482;3;Destruction de lésion cutanée avec laser [Laserbrasion];1479
+1483;4;Exfoliation du visage;1479
+1484;7;Exérèse de lésion de la peau et des tissus mous;1471
+1485;1;Exérèse de lésion superficielle de la peau et du tissu cellulaire souscutané;1484
+1486;2;Exérèse de lésion profonde de la peau et des tissus mous;1484
+1487;8;Couverture de perte de substance par autogreffe de peau;1471
+1488;9;Autres autogreffes au niveau des téguments;1471
+1489;10;Réparation de perte de substance par lambeau local ou régional;1471
+1490;1;Réparation de perte de substance par lambeau pédiculé, en dehors de l'extrémité céphalique;1489
+1491;2;Réparation de perte de substance par lambeau pédiculé spécifique de l'extrémité céphalique;1489
+1492;3;Réparation de perte de substance par lambeau libre, avec anastomoses vasculaires;1489
+1493;4;Autres actes en rapport avec la réalisation d'un lambeau;1489
+1494;11;Pose et ablation de dispositif d'expansion de la peau et du tissu cellulaire souscutané ou d'implant souscutané définitif;1471
+1495;12;Lissage cutané [Déridage] [Lifting];1471
+1496;13;Dermolipectomie;1471
+1497;14;Lipoaspiration;1471
+1498;15;Exérèse de lésion congénitale de la peau et des tissus mous de la face et du cou;1471
+1499;16;Autres actes thérapeutiques sur les téguments;1471
+1500;4;ACTES THÉRAPEUTIQUES SUR LES PHANÈRES;1456
+1501;1;Actes thérapeutiques sur les poils;1500
+1502;2;Actes thérapeutiques sur les ongles;1500
+1503;3;Actes thérapeutiques sur les glandes sudoripares et sébacées;1500
+1504;5;ACTES THÉRAPEUTIQUES SUR LES BRÛLURES DE LA PEAU ET DES TISSUS MOUS;1456
+1505;1;Pansement chirurgical initial de brûlure;1504
+1506;1;Pansement chirurgical initial de brûlure, en dehors de l'extrémité céphalique et des mains;1505
+1507;2;Pansement chirurgical initial de brûlure de l'extrémité céphalique et des mains;1505
+1508;2;Pansement chirurgical secondaire de brûlure;1504
+1509;1;Pansement chirurgical secondaire de brûlure, en dehors de l'extrémité céphalique et des mains;1508
+1510;2;Pansement chirurgical secondaire de brûlure de l'extrémité céphalique et des mains;1508
+1511;3;Escarrotomie de décharge;1504
+1512;4;Excision de brûlure;1504
+1513;1;Excision de brûlure, en dehors de l'extrémité céphalique et des mains;1512
+1514;2;Excision de brûlure de l'extrémité céphalique et des mains;1512
+1515;5;Greffe de peau pour brûlure;1504
+1516;1;Greffe de peau pour brûlure, en dehors de l'extrémité céphalique et des mains;1515
+1517;2;Greffe de peau pour brûlure de l'extrémité céphalique et des mains;1515
+1518;6;Greffe cutanée en sandwich;1504
+1519;7;Greffe de culture de kératinocytes pour brûlure;1504
+1520;8;Ablation de support de culture cellulaire [Take down];1504
+1521;6;ACTES THÉRAPEUTIQUES SUR LE SEIN;1456
+1522;1;Évacuation de collection de la glande mammaire;1521
+1523;2;Exérèse partielle de la glande mammaire;1521
+1524;3;Mastectomie totale;1521
+1525;4;Mastectomie totale élargie;1521
+1526;5;Mastoplastie de réduction ou d'augmentation;1521
+1527;6;Mastopexie;1521
+1528;7;Reconstruction du sein;1521
+1529;8;Ablation et changement d'implant prothétique mammaire;1521
+1530;9;Actes thérapeutiques sur le mamelon;1521
+1531;10;Actes thérapeutiques sur la plaque aréolomamelonnaire;1521
+1532;17;ACTES SANS PRÉCISION TOPOGRAPHIQUE;1
+1533;1;ACTES DIAGNOSTIQUES, SANS PRÉCISION TOPOGRAPHIQUE;1532
+1534;1;Échographie, sans précision topographique;1533
+1535;2;Radiographie, sans précision topographique;1533
+1536;3;Scanographie, sans précision topographique;1533
+1537;4;Remnographie [IRM], sans précision topographique;1533
+1538;5;Scintigraphie, sans précision topographique;1533
+1539;6;Ponction et cytoponction, sans précision topographique;1533
+1540;7;Biopsie, sans précision topographique;1533
+1541;3;ACTES THÉRAPEUTIQUES, SANS PRÉCISION TOPOGRAPHIQUE;1532
+1542;1;Évacuation de collection, sans précision topographique;1541
+1543;2;Drainage de collection, sans précision topographique;1541
+1544;3;Injection d'agent pharmacologique, par voie transcutanée avec guidage;1541
+1545;4;Administration d'agent pharmacologique anticancéreux;1541
+1546;5;Transport intrahospitalier;1541
+1547;6;Autres actes thérapeutiques, sans précision topographique;1541
+1548;4;RADIOTHÉRAPIE EXTERNE;1532
+1549;1;Préparation à une irradiation externe;1548
+1550;1;Préparation sans dosimétrie;1549
+1551;2;Préparation avec dosimétrie bidimensionnelle;1549
+1552;6;Autres actes de préparation à une irradiation externe;1549
+1553;3;Préparation avec dosimétrie tridimensionnelle sans histogramme dose-volume [HDV];1549
+1554;4;Préparation avec dosimétrie tridimensionnelle avec histogramme dose-volume [HDV];1549
+1555;5;Préparations spécifiques à une irradiation externe;1549
+1556;7;Reprises de préparation à une irradiation externe, en cours de traitement;1549
+1557;2;Irradiation externe;1548
+1558;1;Séances d'irradiation externe;1557
+1559;4;Techniques spéciales d'irradiation externe;1557
+1560;5;CURIETHÉRAPIE;1532
+1561;1;Curiethérapie intracavitaire utérovaginale;1560
+1562;2;Curiethérapie intracavitaire vaginale [Curiethérapie du fond vaginal];1560
+1563;3;Curiethérapie intraluminale;1560
+1564;4;Curiethérapie interstitielle superficielle;1560
+1565;5;Curiethérapie interstitielle profonde;1560
+1566;6;Techniques spéciales de curiethérapie;1560
+1567;18;ANESTHÉSIES COMPLÉMENTAIRES ET GESTES COMPLÉMENTAIRES;1
+1568;1;"GESTES D'ANESTHÉSIE GÉNÉRALE OU LOCORÉGIONALE, COMPLÉMENTAIRE D'UN ACTE DIAGNOSTIQUE OU THÉRAPEUTIQUE ; ANESTHESIE RACHIDIENNE POUR ACCOUCHEMENT";1567
+1569;2;GESTES COMPLÉMENTAIRES;1567
+1570;1;Gestes complémentaires sur le système nerveux;1569
+1571;1;Surveillances électroencéphalographique et électrocorticographique peropératoires;1570
+1572;2;Potentiels évoqués peropératoires;1570
+1573;3;Autres gestes complémentaires sur le système nerveux;1570
+1574;2;Gestes complémentaires sur l'oeil et ses annexes;1569
+1575;3;Gestes complémentaires sur l'oreille;1569
+1576;4;Gestes complémentaires sur l'appareil circulatoire;1569
+1577;1;Échographie peropératoire du coeur et des vaisseaux intrathoraciques;1576
+1578;2;Autres gestes complémentaires diagnostiques sur l'appareil circulatoire;1576
+1579;3;Prélèvement peropératoire d'autogreffe vasculaire;1576
+1580;4;Assistance circulatoire peropératoire;1576
+1581;5;Rétablissement peropératoire de la circulation;1576
+1582;6;Occlusion et résection peropératoires de vaisseau;1576
+1583;7;Autres gestes complémentaires thérapeutiques sur l'appareil circulatoire;1576
+1584;5;Gestes complémentaires sur les systèmes immunitaire et hématopoïétique;1569
+1585;6;Gestes complémentaires sur l'appareil respiratoire;1569
+1586;1;Gestes complémentaires au cours d'exploration fonctionnelle respiratoire;1585
+1587;2;Lambeau intrathoracique au cours d'une intervention intrathoracique;1585
+1588;3;Autres gestes complémentaires sur l'appareil respiratoire;1585
+1589;7;Gestes complémentaires sur l'appareil digestif;1569
+1590;1;Radiographie peropératoire de la bouche ou de l'appareil digestif;1589
+1591;2;Endoscopie peropératoire de l'appareil digestif;1589
+1592;3;Prélèvement au cours d'une endoscopie du tube digestif;1589
+1593;4;Exploration peropératoire de la cavité abdominale;1589
+1594;5;Gestes complémentaires sur les dents et les arcades dentaires;1589
+1595;6;Soins prothétiques - Gestes complémentaires en prothèse plurale fixée;1589
+1596;7;Autres gestes complémentaires sur l'appareil digestif;1589
+1597;8;Gestes complémentaires sur l'appareil urinaire et génital;1569
+1598;9;Gestes complémentaires liés à la grossesse et à l'accouchement;1569
+1599;10;Gestes complémentaires sur les glandes endocrines;1569
+1600;11;Gestes complémentaires sur l'appareil ostéoarticulaire et musculaire de la tête;1569
+1601;12;Gestes complémentaires sur l'appareil ostéoarticulaire et musculaire du cou et du tronc;1569
+1602;13;Gestes complémentaires sur l'appareil ostéoarticulaire et musculaire du membre supérieur;1569
+1603;14;Gestes complémentaires sur l'appareil ostéoarticulaire et musculaire du membre inférieur;1569
+1030;1;Suture immédiate de lésions obstétricales maternelles;1029
+1031;2;Actes thérapeutiques pour hémorragie du post-partum;1029
+1032;3;Autres actes thérapeutiques obstétricaux;1029
+1033;4;ACTES THÉRAPEUTIQUES CHEZ LE FOETUS;1014
+1034;5;ACTES THÉRAPEUTIQUES CHEZ LE NOUVEAU-NÉ À LA NAISSANCE;1014
+1035;10;GLANDES ENDOCRINES ET MÉTABOLISME;1
+1036;1;ACTES DIAGNOSTIQUES SUR LES GLANDES ENDOCRINES ET LE MÉTABOLISME;1035
+1037;1;Échographie des glandes endocrines;1036
+1038;2;Scintigraphie des glandes endocrines;1036
+1039;4;Ponction, biopsie et prélèvement des glandes endocrines;1036
+1040;2;ACTES THÉRAPEUTIQUES SUR LES GLANDES ENDOCRINES;1035
+1041;1;Actes thérapeutiques sur l'hypophyse;1040
+1042;2;Actes thérapeutiques sur le corps pinéal [l'épiphyse];1040
+1043;3;Actes thérapeutiques sur la glande thyroïde;1040
+1044;1;Évacuation de collection de la glande thyroïde;1043
+1045;2;Exérèse de la glande thyroïde;1043
+1046;3;Destruction de la glande thyroïde;1043
+1047;4;Actes thérapeutiques sur les glandes parathyroïdes;1040
+1048;1;Exploration des sites parathyroïdiens;1047
+1049;2;Parathyroïdectomie;1047
+1050;3;Autres actes thérapeutiques sur les parathyroïdes;1047
+1051;5;Actes thérapeutiques sur les glandes surrénales;1040
+1052;6;Actes thérapeutiques sur les tumeurs endocriniennes intraabdominales ectopiques;1040
+1053;11;APPAREIL OSTÉOARTICULAIRE ET MUSCULAIRE DE LA TÊTE;1
+1054;1;ACTES DIAGNOSTIQUES SUR LES OS, LES ARTICULATIONS ET LES TISSUS MOUS DE LA TÊTE;1053
+1055;1;Explorations électrophysiologiques et fonctionnelles de la tête;1054
+1056;2;Photographies de la tête;1054
+1057;3;Radiographie de la tête;1054
+1058;4;Scanographie de la tête;1054
+1059;5;Remnographie [IRM] de la tête;1054
+1060;6;Ponction, biopsie et prélèvement de la tête;1054
+1061;2;ACTES THÉRAPEUTIQUES SUR LE SQUELETTE DU CRÂNE ET DE LA FACE;1053
+1062;1;Actes thérapeutiques sur la voûte du crâne [calvaria];1061
+1063;1;Ostéosynthèse de la voûte du crâne;1062
+1064;2;Craniectomie;1062
+1065;3;Plastie de la voûte du crâne;1062
+1066;4;Autres actes thérapeutiques sur la voûte du crâne;1062
+1067;2;Actes thérapeutiques sur le squelette de la base du crâne et de l'étage supérieur de la face;1061
+1068;1;Ostéosynthèse de fracture craniofaciale;1067
+1069;2;Résection osseuse de la base du crâne;1067
+1070;3;Ostéotomie frontofaciale;1067
+1071;4;Autres actes thérapeutiques sur l'étage supérieur de la face;1067
+1072;3;Actes thérapeutiques sur le squelette de l'étage moyen de la face;1061
+1073;1;Réduction orthopédique de fracture de l'étage moyen de la face;1072
+1074;2;Réduction orthopédique de fracture occlusofaciale;1072
+1075;3;Traitement chirurgical des fractures de l'étage moyen de la face;1072
+1076;4;Décompression et agrandissement de l'orbite;1072
+1077;5;Ostéotomie maxillaire;1072
+1078;6;Autres ostéotomies de l'étage moyen de la face;1072
+1079;7;Maxillectomie;1072
+1080;8;Autres résections osseuses de l'étage moyen de la face;1072
+1081;9;Apposition modelante et comblement osseux de l'étage moyen de la face;1072
+1082;10;Autres réparations du squelette de l'étage moyen de la face;1072
+1083;4;Actes thérapeutiques sur la mandibule;1061
+1084;1;Réduction orthopédique de fracture de la mandibule;1083
+1085;2;Ostéosynthèse de la mandibule;1083
+1086;3;Comblement de perte de substance de la mandibule;1083
+1087;4;Ostéotomie de la mandibule;1083
+1088;5;Résection osseuse de la mandibule;1083
+1089;6;Autres actes thérapeutiques sur la mandibule;1083
+1090;5;Autres actes thérapeutiques sur le crâne et la face;1061
+1091;1;Évacuation et drainage de collection du crâne et de la face;1090
+1092;2;Pose d'implant osseux sur le crâne et la face;1090
+1093;3;Pose de moyen de liaison sur implant intraosseux intrabuccal;1090
+1094;4;Dégagement et activation d'implant osseux du crâne et de la face;1090
+1095;5;Ablation de matériel osseux sur le crâne et la face;1090
+1096;3;ACTES THÉRAPEUTIQUES SUR L'ARTICULATION TEMPOROMANDIBULAIRE;1053
+1097;1;Infiltration de l'articulation temporomandibulaire;1096
+1098;2;Réduction de luxation de l'articulation temporomandibulaire;1096
+1099;3;Résection de l'articulation temporomandibulaire;1096
+1100;4;Plastie et reconstruction de l'articulation temporomandibulaire;1096
+1101;5;Actes thérapeutiques sur le disque de l'articulation temporomandibulaire;1096
+1102;6;Résection de bloc d'ankylose temporomandibulaire;1096
+1103;7;Autres actes thérapeutiques sur l'articulation temporomandibulaire;1096
+1104;4;ACTES THÉRAPEUTIQUES SUR LES MUSCLES DE LA TÊTE;1053
+1105;5;APPAREILLAGES SUR LE CRÂNE ET LA FACE;1053
+1106;1;Appareillage d'orthopédie maxillofaciale;1105
+1107;2;Autres appareillages sur le crâne et la face;1105
+1108;12;APPAREIL OSTÉOARTICULAIRE ET MUSCULAIRE DU COU ET DU TRONC;1
+1109;1;ACTES DIAGNOSTIQUES SUR LES OS, LES ARTICULATIONS ET LES TISSUS MOUS DU COU ET DU TRONC;1108
+1110;1;Électromyographie [EMG] du cou et du tronc;1109
+1111;2;Mesure de pression sur le tronc;1109
+1112;3;Radiographie des os et des articulations du cou et du tronc;1109
+1113;1;Radiographie de la colonne vertébrale;1112
+1114;2;Radiographie du thorax osseux;1112
+1115;4;Scanographie des os et des articulations du cou et du tronc;1109
+1116;5;Remnographie [IRM] des os et des articulations du cou et du tronc;1109
+1117;6;Ponction et biopsie des os et des articulations du cou et du tronc;1109
+1118;7;Infiltration diagnostique des articulations du cou et du tronc;1109
+1119;2;ACTES THÉRAPEUTIQUES SUR LA COLONNE VERTÉBRALE;1108
+1120;1;Actes thérapeutiques sur les vertèbres;1119
+1121;1;Spondyloplastie [Vertébroplastie];1120
+1122;2;Infiltration thérapeutique et destruction articulaires postérieures de la colonne vertébrale;1120
+1123;3;Ostéosynthèse et arthrodèse de la colonne vertébrale par voie postérieure ou postérolatérale;1120
+1124;4;Ostéosynthèse et arthrodèse de la colonne vertébrale par voie antérieure;1120
+1125;5;Ostéosynthèse et arthrodèse de la colonne vertébrale par voies combinées;1120
+1126;6;Arthrodèse de spondylolisthésis lombal;1120
+1127;7;Correction instrumentale de déformation souple de la colonne vertébrale;1120
+1128;8;Correction de déformation rigide de la colonne vertébrale;1120
+1129;9;Décompression de la moelle épinière de la jonction occipitocervicale;1120
+1130;10;Laminoplastie et laminotomie vertébrales par abord postérieur;1120
+1131;11;Laminectomie vertébrale;1120
+1132;12;Laminarthrectomie [Laminoarthrectomie] vertébrale;1120
+1133;13;Recalibrage de la colonne vertébrale par abord postérieur;1120
+1134;14;Autres décompressions médullaires cervicales;1120
+1135;15;Exérèse de l'arc postérieur et corporectomie vertébrale;1120
+1136;16;Spondylectomie [Vertébrectomie];1120
+1137;17;Ablation de matériel d'ostéosynthèse de la colonne vertébrale;1120
+1138;18;Autres actes thérapeutiques sur les vertèbres;1120
+1139;2;Actes thérapeutiques sur les disques intervertébraux;1119
+1140;1;Exérèse et destruction transcutanées de disque intervertébral;1139
+1141;2;Exérèse de hernie discale de la colonne vertébrale par abord postérieur;1139
+1142;3;Exérèse de hernie discale de la colonne vertébrale par abord antérieur;1139
+1143;4;Autres actes thérapeutiques sur les disques intervertébraux;1139
+1144;3;Actes orthopédiques sur la colonne vertébrale;1119
+1145;1;Traitement orthopédique de lésion de la colonne vertébrale;1144
+1146;2;Confection d'un appareil de contention de la colonne vertébrale;1144
+1147;3;Autres actes thérapeutiques sur la colonne vertébrale;1144
+1148;3;ACTES THÉRAPEUTIQUES SUR LA PAROI THORACIQUE;1108
+1149;1;Infiltration de la paroi thoracique;1148
+1150;2;Évacuation de collection de la paroi thoracique;1148
+1151;3;Fermeture secondaire de la paroi thoracique;1148
+1152;4;Ostéosynthèse de la paroi thoracique;1148
+1153;5;Résection osseuse du thorax;1148
+1154;6;Thoracoplastie;1148
+1155;7;Ablation de matériel d'ostéosynthèse du thorax;1148
+1156;8;Correction des malformations congénitales de la cage thoracique;1148
+1157;4;ACTES THÉRAPEUTIQUES SUR LES MUSCLES DU COU ET DU TRONC;1108
+1158;1;Actes thérapeutiques sur les muscles du cou;1157
+1159;2;Actes thérapeutiques sur le diaphragme;1157
+1160;1;Exérèse partielle du diaphragme;1159
+1161;2;Suture du diaphragme;1159
+1162;3;Plastie du diaphragme pour éventration;1159
+1163;4;Cure de hernie hiatale;1159
+1164;5;Autres cures de hernie du diaphragme;1159
+1165;6;Correction des malformations congénitales du diaphragme;1159
+1166;3;Actes thérapeutiques sur la paroi abdominale;1157
+1167;1;Exérèse de lésion de la paroi abdominale antérieure;1166
+1168;2;Cure de hernie de l'aine;1166
+1169;3;Cure de hernie de la paroi abdominale antérieure;1166
+1170;4;Cure d'éventration postopératoire de la paroi abdominale antérieure;1166
+1171;5;Autres réparations de la paroi abdominale;1166
+1172;6;Ablation de prothèse de la paroi abdominale;1166
+1173;7;Correction des malformations congénitales de la paroi abdominale;1166
+1174;13;APPAREIL OSTÉOARTICULAIRE ET MUSCULAIRE DU MEMBRE SUPÉRIEUR;1
+1175;1;ACTES DIAGNOSTIQUES SUR LES OS, LES ARTICULATIONS ET LES TISSUS MOUS DU MEMBRE SUPÉRIEUR;1174
+1176;1;Radiographie du membre supérieur;1175
+1177;2;Scanographie du membre supérieur;1175
+1178;3;Remnographie [IRM] du membre supérieur;1175
+1179;4;Bilan fonctionnel d'une articulation du membre supérieur;1175
+1180;5;Ponction et biopsie d'un os ou d'une articulation du membre supérieur;1175
+1181;6;Arthroscopie du membre supérieur à visée diagnostique;1175
+1182;2;ACTES THÉRAPEUTIQUES SUR LES OS DU MEMBRE SUPÉRIEUR;1174
+1183;1;Actes thérapeutiques sur la scapula [l'omoplate];1182
+1184;1;Réduction orthopédique de fracture de la scapula;1183
+1185;2;Ostéosynthèse de la scapula;1183
+1186;3;Ostéotomie de la scapula;1183
+1187;4;Excision de la scapula;1183
+1188;5;Ablation de matériel d'ostéosynthèse de la scapula;1183
+1189;2;Actes thérapeutiques sur la clavicule;1182
+1190;1;Réduction orthopédique de fracture de la clavicule;1189
+1191;2;Ostéosynthèse de la clavicule;1189
+1192;3;Ostéotomie de la clavicule;1189
+1193;4;Excision de la clavicule;1189
+1194;3;Actes thérapeutiques sur l'humérus;1182
+1195;1;Réduction orthopédique de fracture de l'humérus;1194
+1196;2;Ostéosynthèse de l'humérus;1194
+1197;3;Ostéotomie de l'humérus;1194
+1198;4;Excision de l'humérus;1194
+1199;5;Reconstruction de l'humérus;1194
+1200;4;Actes thérapeutiques sur les os de l'avant-bras;1182
+1201;1;Réduction orthopédique de fracture des os de l'avant-bras;1200
+1202;2;Ostéosynthèse des os de l'avant-bras;1200
+1203;3;Ostéotomie des os de l'avant-bras;1200
+1204;4;Excision des os de l'avant-bras;1200
+1205;5;Reconstruction des os de l'avant-bras;1200
+1206;6;Autres actes thérapeutiques sur les os de l'avant-bras;1200
+1207;5;Actes thérapeutiques sur les os du carpe;1182
+1208;1;Réduction orthopédique de fracture du carpe;1207
+1209;2;Ostéosynthèse du carpe;1207
+1210;3;Excision des os du carpe;1207
+1211;4;Greffe osseuse du carpe;1207
+1212;6;Actes thérapeutiques sur les os de la main;1182
+1213;1;Réduction orthopédique de fracture des os de la main;1212
+1214;2;Ostéosynthèse de la main;1212
+1215;3;Ostéotomie de la main;1212
+1216;4;Excision osseuse de la main;1212
+1217;5;Reconstruction osseuse de la main;1212
+1218;6;Ablation de matériel d'ostéosynthèse de la main;1212
+1219;7;Autres actes thérapeutiques sur le métacarpe et les phalanges des doigts;1212
+1220;7;Autres actes thérapeutiques sur les os du membre supérieur;1182
+1221;1;Allongement osseux du membre supérieur;1220
+1222;2;Excision osseuse du membre supérieur;1220
+1223;3;ACTES THÉRAPEUTIQUES SUR LES ARTICULATIONS DU MEMBRE SUPÉRIEUR;1174
+1224;1;Actes thérapeutiques sur les articulations de la ceinture scapulaire;1223
+1225;1;Réduction orthopédique de luxation de la ceinture scapulaire;1224
+1226;2;Réduction de luxation de la ceinture scapulaire par arthrotomie;1224
+1227;3;Arthroplastie de la ceinture scapulaire;1224
+1228;2;Actes thérapeutiques sur l'articulation scapulohumérale;1223
+1229;1;Mobilisation de l'articulation scapulohumérale;1228
+1230;2;Réduction orthopédique de luxation scapulohumérale;1228
+1231;3;Réduction de luxation scapulohumérale par arthrotomie;1228
+1232;4;Nettoyage de l'articulation [Debridement] scapulohumérale;1228
+1233;5;Arthrodèse et arthrorise scapulohumérale;1228
+1234;6;Arthroplastie scapulohumérale;1228
+1235;7;Ablation et changement de prothèse scapulohumérale;1228
+1236;8;Résection de l'articulation scapulohumérale;1228
+1237;9;Reconstruction de l'articulation scapulohumérale;1228
+1238;10;Libération mobilisatrice de l'articulation [Arthrolyse] scapulohumérale;1228
+1239;11;Synovectomie de l'articulation scapulohumérale;1228
+1240;12;Actes thérapeutiques sur l'appareil capsuloligamentaire de l'articulation scapulohumérale;1228
+1241;13;Actes thérapeutiques sur le bourrelet glénoïdal scapulohuméral;1228
+1242;3;Actes thérapeutiques sur l'articulation du coude;1223
+1243;1;Mobilisation du coude;1242
+1244;2;Réduction orthopédique de luxation du coude;1242
+1245;3;Réduction de luxation du coude par arthrotomie;1242
+1246;4;Nettoyage articulaire [Debridement] du coude;1242
+1247;5;Arthrodèse et arthrorise du coude;1242
+1248;6;Arthroplastie du coude;1242
+1249;7;Ablation et changement de prothèse du coude;1242
+1250;8;Résection de l'articulation du coude;1242
+1251;9;Reconstruction de l'articulation du coude;1242
+1252;10;Libération mobilisatrice de l'articulation [Arthrolyse] du coude;1242
+1253;11;Synovectomie de l'articulation du coude;1242
+1254;12;Actes thérapeutiques sur l'appareil capsuloligamentaire de l'articulation du coude;1242
+1255;4;Actes thérapeutiques sur les articulations du poignet;1223
+1256;1;Mobilisation du poignet;1255
+1257;2;Réduction de luxation du poignet par arthrotomie;1255
+1258;3;Nettoyage articulaire [Debridement] du poignet;1255
+1259;4;Arthrodèse et arthrorise du poignet;1255
+1260;5;Arthroplastie du poignet;1255
+1261;6;Ablation et changement de prothèse du poignet;1255
+1262;7;Résection de l'articulation du poignet;1255
+1263;8;Reconstruction du poignet;1255
+1264;9;Libération mobilisatrice de l'articulation [Arthrolyse] du poignet;1255
+1265;10;Synovectomie articulaire du poignet;1255
+1266;11;Actes thérapeutiques sur l'appareil capsuloligamentaire de l'articulation du poignet;1255
+1267;5;Actes thérapeutiques sur les articulations de la main;1223
+1268;1;Évacuation de collection articulaire de la main;1267
+1269;2;Réduction orthopédique de luxation de la main;1267
+1270;3;Réduction de luxation de la main par arthrotomie;1267
+1271;4;Arthrodèse et arthrorise de la main;1267
+1272;5;Arthroplastie de la main;1267
+1273;6;Reconstruction d'articulation de la main;1267
+1274;7;Libération mobilisatrice d'articulation [Arthrolyse] de la main;1267
+1275;8;Synovectomie articulaire de la main;1267
+1276;9;Actes thérapeutiques sur l'appareil capsuloligamentaire d'articulation de la main;1267
+1277;6;Autres actes thérapeutiques sur les articulations du membre supérieur;1223
+1278;4;ACTES THÉRAPEUTIQUES SUR LES MUSCLES, TENDONS ET TISSUS MOUS DU MEMBRE SUPÉRIEUR;1174
+1279;1;Actes thérapeutiques sur la ceinture scapulaire et le bras;1278
+1280;1;Suture et réinsertion de muscle et de tendon à la ceinture scapulaire et au bras;1279
+1281;2;Désinsertion de tendon à la ceinture scapulaire et au bras;1279
+1282;3;Transfert de muscle et de tendon à la ceinture scapulaire et au bras;1279
+1283;4;Exérèse de corps étranger des tissus mous de la ceinture scapulaire et du bras;1279
+1284;5;Autres actes thérapeutiques sur les muscles et tissus mous de la ceinture scapulaire et du bras;1279
+1285;2;Actes thérapeutiques sur l'avant-bras et la main;1278
+1286;1;Réparation de tendon au poignet et à la main;1285
+1287;2;Allongement de tendon à l'avant-bras et à la main;1285
+1288;3;Libération de tendon [Ténolyse] et ténosynovectomie à l'avant-bras et à la main;1285
+1289;4;Transfert de muscle et de tendon à l'avant-bras et à la main;1285
+1290;3;Autres actes thérapeutiques sur les muscles, les tendons et les tissus mous de la main;1278
+1291;1;Actes thérapeutiques pour infection de la main;1290
+1292;2;Réparation de lésion traumatique multitissulaire palmaire du poignet et de la main;1290
+1293;3;Réparation de lésion traumatique multitissulaire dorsale du poignet et de la main;1290
+1294;4;Libération des tissus mous du premier espace interosseux métacarpien de la main;1290
+1295;5;Fasciotomie et fasciectomie palmaire;1290
+1296;6;Actes thérapeutiques sur les gaines fibreuses digitales;1290
+1297;7;Reconstruction et translocation de doigt;1290
+1298;8;Correction des malformations congénitales de la main;1290
+1299;5;AUTRES ACTES THÉRAPEUTIQUES SUR LE MEMBRE SUPÉRIEUR;1174
+1300;1;Confection d'appareillage du membre supérieur;1299
+1301;2;Confection d'une orthèse du membre supérieur;1299
+1302;3;Amputation et désarticulation au membre supérieur;1299
+1303;4;Réimplantation au membre supérieur;1299
+1304;14;APPAREIL OSTÉOARTICULAIRE ET MUSCULAIRE DU MEMBRE INFÉRIEUR;1
+1305;1;ACTES DIAGNOSTIQUES SUR LES OS, LES ARTICULATIONS ET LES TISSUS MOUS DU MEMBRE INFÉRIEUR;1304
+1306;1;Échographie du membre inférieur;1305
+1307;2;Radiographie du membre inférieur;1305
+1308;3;Scanographie du membre inférieur;1305
+1309;4;Remnographie [IRM] du membre inférieur;1305
+1310;5;Bilan fonctionnel d'une articulation du membre inférieur;1305
+1311;6;Ponction et biopsie d'un os et d'une articulation du membre inférieur;1305
+1312;7;Arthroscopie du membre inférieur à visée diagnostique;1305
+1313;2;ACTES THÉRAPEUTIQUES SUR LES OS DU MEMBRE INFÉRIEUR;1304
+1314;1;Actes thérapeutiques sur l'os coxal;1313
+1315;1;Réduction orthopédique de fracture de l'os coxal;1314
+1316;2;Ostéosynthèse de l'os coxal;1314
+1317;3;Ostéotomie de l'os coxal;1314
+1318;4;Excision de l'os coxal;1314
+1319;5;Reconstruction de l'os coxal;1314
+1320;6;Ablation de matériel de l'os coxal;1314
+1321;2;Actes thérapeutiques sur le fémur;1313
+1322;1;Réduction orthopédique de fracture du fémur;1321
+1323;2;Ostéosynthèse du fémur;1321
+1324;3;Ostéotomie du fémur;1321
+1325;4;Excision du fémur;1321
+1326;5;Reconstruction du fémur;1321
+1327;6;Épiphysiodèse et désépiphysiodèse du fémur et du tibia;1321
+1328;7;Autres actes thérapeutiques sur le fémur;1321
+1329;3;Actes thérapeutiques sur la patelle [rotule];1313
+1330;4;Actes thérapeutiques sur les os de la jambe;1313
+1331;1;Réduction orthopédique de fracture des os de la jambe;1330
+1332;2;Ostéosynthèse des os de la jambe;1330
+1333;3;Ostéotomie des os de la jambe;1330
+1334;4;Excision des os de la jambe;1330
+1335;5;Reconstruction des os de la jambe;1330
+1336;6;Autres actes thérapeutiques sur les os de la jambe;1330
+1337;5;Actes thérapeutiques sur les os du tarse;1313
+1338;1;Ostéosynthèse de fracture du tarse;1337
+1339;2;Ostéotomie du tarse;1337
+1340;3;Exérèse osseuse du tarse;1337
+1341;6;Actes thérapeutiques sur les os de l'avant-pied;1313
+1342;1;Réduction orthopédique de fracture de l'avant-pied;1341
+1343;2;Ostéosynthèse de l'avant-pied;1341
+1344;3;Ostéotomie de l'avant-pied;1341
+1345;4;Reconstruction osseuse de l'avant-pied;1341
+1346;7;Autres actes thérapeutiques sur les os du membre inférieur;1313
+1347;1;Allongement osseux au membre inférieur;1346
+1348;2;Exérèse osseuse du pied;1346
+1349;3;Autres actes thérapeutiques sur les os du pied;1346
+1350;3;ACTES THÉRAPEUTIQUES SUR LES ARTICULATIONS DU MEMBRE INFÉRIEUR;1304
+1351;1;Actes thérapeutiques sur les articulations de la ceinture pelvienne [du bassin];1350
+1352;1;Évacuation de collection articulaire de la ceinture pelvienne [du bassin];1351
+1353;2;Arthrodèse et arthrorise de la ceinture pelvienne [du bassin];1351
+1354;3;Résection d'articulation de la ceinture pelvienne [du bassin];1351
+1355;4;Reconstruction d'articulation de la ceinture pelvienne [du bassin];1351
+1356;2;Actes thérapeutiques sur l'articulation coxofémorale;1350
+1357;1;Évacuation de collection de l'articulation coxofémorale;1356
+1358;2;Réduction orthopédique de luxation coxofémorale;1356
+1359;3;Réduction de luxation coxofémorale par arthrotomie;1356
+1360;4;Nettoyage de l'articulation [Debridement] coxofémorale;1356
+1361;5;Arthrodèse et arthrorise coxofémorale;1356
+1362;6;Arthroplastie coxofémorale;1356
+1363;7;Ablation, changement et repose de prothèse coxofémorale;1356
+1364;8;Résection de l'articulation coxofémorale;1356
+1365;9;Reconstruction de l'articulation coxofémorale;1356
+1366;10;Libération mobilisatrice de l'articulation [Arthrolyse] coxofémorale;1356
+1367;11;Synovectomie de l'articulation coxofémorale;1356
+1368;3;Actes thérapeutiques sur l'articulation du genou;1350
+1369;1;Mobilisation du genou;1368
+1370;2;Évacuation de collection de l'articulation du genou;1368
+1371;3;Réduction orthopédique de luxation du genou;1368
+1372;4;Nettoyage articulaire [Debridement] du genou;1368
+1373;5;Arthrodèse et arthrorise du genou;1368
+1374;6;Arthroplastie du genou;1368
+1375;7;Ablation, changement et repose de prothèse du genou;1368
+1376;8;Reconstruction de l'articulation du genou;1368
+1377;9;Libération mobilisatrice de l'articulation [Arthrolyse] du genou;1368
+1378;10;Synovectomie de l'articulation du genou;1368
+1379;11;Actes thérapeutiques sur l'appareil capsuloligamentaire de l'articulation du genou;1368
+1380;12;Méniscectomie du genou;1368
+1381;4;Actes thérapeutiques sur l'articulation de la cheville;1350
+1382;1;Mobilisation de la cheville;1381
+1383;2;Évacuation de collection de l'articulation de la cheville;1381
+1384;3;Réduction orthopédique de luxation de la cheville;1381
+1385;4;Réduction de luxation de la cheville par arthrotomie;1381
+1386;5;Nettoyage articulaire [Debridement] tibiotalien;1381
+1387;6;Arthrodèse et arthrorise de la cheville;1381
+1388;7;Arthroplastie de la cheville;1381
+1389;8;Ablation de prothèse de la cheville;1381
+717;8;Réparation primaire d'une fente orofaciale;709
+718;9;Réparation secondaire d'une fente orofaciale;709
+719;10;Autres actes thérapeutiques pour fente orofaciale;709
+720;11;Autres actes thérapeutiques sur la cavité orale;709
+721;7;Actes thérapeutiques sur les glandes salivaires;672
+722;1;Cathétérisme et dilatation de conduit salivaire;721
+723;2;Plastie de conduit salivaire;721
+724;3;Évacuation de collection salivaire;721
+725;4;Extraction et destruction de calcul salivaire;721
+726;5;Exérèse de glande salivaire;721
+727;8;Actes thérapeutiques sur le pharynx;672
+728;1;Évacuation de collection du pharynx;727
+729;2;Extraction de corps étranger de l'oropharynx;727
+730;3;Myotomie du faisceau cricopharyngien du muscle constricteur inférieur du pharynx [muscle cricopharyngien];727
+731;4;Plastie de l'oropharynx;727
+732;5;Destruction et exérèse de lésion du pharynx;727
+733;6;Résection de sténose et de diverticule du pharynx;727
+734;7;Pharyngectomie et pharyngectomie élargie;727
+735;8;Autres actes thérapeutiques sur le pharynx;727
+736;3;ACTES THÉRAPEUTIQUES SUR LE TUBE DIGESTIF;648
+737;1;Actes thérapeutiques sur l'oesophage;736
+738;1;Dilatation de l'oesophage;737
+739;2;Pose, ablation et changement d'une endoprothèse de l'oesophage;737
+740;3;Autres actes thérapeutiques sur l'oesophage, par endoscopie;737
+741;4;Suture de plaie de l'oesophage;737
+742;5;Fermeture de fistule de l'oesophage;737
+743;6;OEsophagostomie;737
+744;7;OEso-cardio-myotomie extramuqueuse;737
+745;8;Traitement du diverticule de l'oesophage;737
+746;9;Excision de tumeur de l'oesophage;737
+747;10;OEsophagectomie sans thoracotomie;737
+748;11;OEsophagectomie par thoracotomie;737
+749;12;Plastie de l'oesophage;737
+750;13;Transsection de l'oesophage;737
+751;14;Correction des malformations congénitales de l'oesophage;737
+752;2;Actes thérapeutiques sur l'estomac et le duodénum;736
+753;1;Dilatation de l'estomac et du duodénum;752
+754;2;Pose, ablation et changement d'une endoprothèse de l'estomac et du duodénum;752
+755;3;Suture de l'estomac et du duodénum;752
+756;4;Gastrostomie;752
+757;5;Confection d'une valve tubérositaire gastrique;752
+758;6;Dérivation de l'estomac et du duodénum;752
+759;7;Gastrotomie et duodénotomie;752
+760;8;Pyloroplastie et duodénoplastie;752
+761;9;Actes thérapeutiques sur l'estomac pour obésité morbide;752
+762;10;Gastropexie;752
+763;11;Gastrectomie;752
+764;12;Correction des malformations congénitales de l'estomac et du duodénum;752
+765;13;Autres actes thérapeutiques sur l'estomac et le duodénum;752
+766;3;Autres actes thérapeutiques sur la partie haute du tube digestif;736
+767;1;Destruction endoscopique de lésion de la partie haute du tube digestif;766
+768;2;Exérèse endoscopique de lésion de la partie haute du tube digestif;766
+769;3;Hémostase endoscopique de lésion de la partie haute du tube digestif;766
+770;4;Autres actes thérapeutiques sur la partie haute du tube digestif;766
+771;4;Actes thérapeutiques sur l'intestin grêle;736
+772;1;Dilatation de l'intestin grêle;771
+773;2;Exérèse endoscopique de lésion de l'intestin grêle;771
+774;3;Hémostase endoscopique de lésion de l'intestin grêle;771
+775;4;Suture de plaie de l'intestin grêle;771
+776;5;Entérostomie;771
+777;6;Dérivation de l'intestin grêle;771
+778;7;Entérotomie;771
+779;8;Réduction d'une invagination intestinale aigüe;771
+780;9;Résection de l'intestin grêle;771
+781;10;Transplantation de l'intestin grêle;771
+1;0;ARBORESCENCE CCAM;0
+2;1;SYSTÈME NERVEUX CENTRAL, PÉRIPHÉRIQUE ET AUTONOME;1
+3;1;ACTES DIAGNOSTIQUES SUR LE SYSTÈME NERVEUX;2
+4;1;Explorations électrophysiologiques du système nerveux;3
+5;1;Électromyographie [EMG];4
+6;2;Mesure des vitesses de conduction;4
+7;3;Étude des latences et des réflexes;4
+8;4;Électroencéphalographie [EEG];4
+9;5;Surveillances électrocorticographique et électroencéphalographique;4
+10;6;Polysomnographie;4
+11;7;Autres explorations électrophysiologiques du système nerveux;4
+12;2;Étude des pressions du système nerveux;3
+13;1;Pose et ablation de dispositif de mesure des pressions du système nerveux;12
+14;2;Surveillance continue de la pression intracrânienne;12
+15;3;Échographie du système nerveux;3
+16;4;Radiographie du système nerveux;3
+17;5;Scanographie du système nerveux;3
+18;6;Remnographie [IRM] du système nerveux;3
+19;7;Spectroscopie du système nerveux par résonance magnétique [SRM];3
+20;8;Scintigraphie du système nerveux;3
+21;9;Épreuves fonctionnelles du système nerveux;3
+22;1;Potentiels évoqués visuels [PEV];21
+23;2;Potentiels évoqués auditifs [PEA] et vestibulaires;21
+24;3;Potentiels évoqués somesthésiques cérébraux [PESc];21
+25;4;Autres potentiels évoqués;21
+26;10;Endoscopie du système nerveux;3
+27;11;Ponction, biopsie et prélèvement du système nerveux;3
+28;1;Ponction de liquide cérébrospinal;27
+29;2;Ponction et biopsie du système nerveux;27
+30;12;Injection anesthésique au niveau du système nerveux à visée diagnostique;3
+31;1;Injection au niveau du système nerveux central à visée diagnostique;30
+32;2;Infiltration de nerf crânien à visée diagnostique;30
+33;3;Infiltration de nerf spinal [rachidien] à visée diagnostique;30
+34;4;Infiltration du système nerveux autonome à visée diagnostique;30
+35;13;Tests neuropsychologiques;3
+36;15;Autres actes diagnostiques sur le système nerveux;3
+37;2;ACTES THÉRAPEUTIQUES SUR LE SYSTÈME NERVEUX CENTRAL INTRACRÂNIEN;2
+38;1;Actes thérapeutiques sur le cerveau;37
+39;1;Destruction de tissu cérébral;38
+40;2;Section du tissu cérébral;38
+41;3;Exérèse de tissu cérébral;38
+42;4;Évacuation de collection intracérébrale;38
+43;2;Actes thérapeutiques sur le cervelet et le tronc cérébral;37
+44;1;Exérèse de tissu du cervelet et du tronc cérébral;43
+45;2;Évacuation de collection intracérébelleuse;43
+46;3;Autres actes thérapeutiques sur l'encéphale;37
+47;4;Actes thérapeutiques sur les méninges, les ventricules et le liquide cérébrospinal [LCS] intracrâniens;37
+48;1;Évacuation du liquide cérébrospinal [LCS] intracrânien;47
+49;2;Injection dans le liquide cérébrospinal [LCS] intracrânien;47
+50;3;Dérivation du liquide cérébrospinal [LCS] intracrânien;47
+51;4;Fermeture de fistule de liquide cérébrospinal [LCS] et de méningocèle crâniens;47
+52;5;Exérèse et fermeture de méningoencéphalocèle;47
+53;6;Évacuation de collection intracrânienne extraencéphalique;47
+54;5;Exérèse de tumeur intracrânienne extraencéphalique;37
+55;6;Exérèse de lésion des ventricules encéphaliques;37
+56;3;ACTES THÉRAPEUTIQUES SUR LE SYSTÈME NERVEUX CENTRAL SPINAL [RACHIDIEN];2
+57;1;Actes thérapeutiques sur la moelle épinière et la portion intrarachidienne des nerfs spinaux [rachidiens];56
+58;1;Destruction de tissu spinal [médullaire];57
+59;2;Section et libération de la moelle épinière et des racines nerveuses;57
+60;3;Exérèse de tissu de la moelle épinière et des racines nerveuses;57
+61;4;Parage et fermeture de plaie pénétrante vertébrospinale [du rachis et de la moelle épinière] [vertébromédullaire];57
+65;1;Pose de cathéter d'accès aux espaces méningés spinaux;64
+66;2;Injection épidurale et intrathécale spinale;64
+67;3;Évacuation de collection des méninges spinales;64
+68;4;Dérivation du liquide cérébrospinal [LCS] rachidien;64
+69;5;Autres actes thérapeutiques sur les méninges et le liquide cérébrospinal [LCS] rachidiens;64
+70;3;Exérèse de tumeur extraspinale [extramédullaire] du canal vertébral;56
+71;4;Autres actes thérapeutiques sur le système nerveux central et le liquide cérébrospinal;56
+72;4;STIMULATION DU SYSTÈME NERVEUX CENTRAL;2
+73;1;Implantation d'électrode ou de générateur de stimulation du système nerveux central;72
+74;2;Réglage et reprogrammation d'un système de stimulation du système nerveux central;72
+75;3;Ablation ou changement d'électrode ou de générateur de stimulation du système nerveux central;72
+76;5;ACTES THÉRAPEUTIQUES SUR LES NERFS CRÂNIENS ET LES NERFS SPINAUX;2
+77;1;Actes thérapeutiques sur les nerfs crâniens;76
+78;1;Actes thérapeutiques sur le nerf optique [II];77
+79;2;Actes thérapeutiques sur le nerf trijumeau [V] et ses branches;77
+80;3;Actes thérapeutiques sur le nerf facial [VII];77
+81;4;Actes thérapeutiques sur le nerf vestibulocochléaire [VIII];77
+82;5;Actes thérapeutiques sur le nerf vague [X];77
+83;6;Actes thérapeutiques sur les autres nerfs crâniens;77
+84;7;Autres actes thérapeutiques sur les nerfs crâniens;77
+85;2;Actes thérapeutiques sur les nerfs du cou;76
+86;1;Infiltration thérapeutique et destruction de nerf du cou par voie transcutanée;85
+87;2;Exérèse de tumeur nerveuse du cou;85
+88;3;Réparation de plaie de nerf du cou;85
+89;3;Actes thérapeutiques sur le plexus brachial;76
+90;1;Infiltration thérapeutique et bloc anesthésique du plexus brachial;89
+91;2;Suture, autogreffe et neurotisation du plexus brachial;89
+92;3;Libération du plexus brachial;89
+93;4;Autres actes thérapeutiques sur le plexus brachial;89
+94;4;Actes thérapeutiques sur les nerfs du membre supérieur;76
+95;1;Infiltration thérapeutique de nerf du membre supérieur;94
+96;2;Suture de plaie de nerf du membre supérieur;94
+97;3;Autogreffe de nerf du membre supérieur;94
+98;4;Libération de nerf du membre supérieur;94
+99;5;Autres actes thérapeutiques sur les nerfs du membre supérieur;94
+100;5;Actes thérapeutiques sur les nerfs du tronc;76
+101;1;Actes thérapeutiques sur les nerfs de la paroi du tronc;100
+102;2;Actes thérapeutiques sur le nerf phrénique;100
+103;3;Actes thérapeutiques sur les nerfs abdominopelviens;100
+104;6;Actes thérapeutiques sur le plexus lombosacral et les nerfs du membre inférieur;76
+105;1;Infiltration thérapeutique et bloc anesthésique du plexus lombosacral;104
+106;2;Suture du plexus lombosacral et de nerf du membre inférieur;104
+107;3;Autogreffe de nerf du membre inférieur;104
+108;4;Libération du plexus lombosacral et de nerf du membre inférieur;104
+109;5;Autres actes thérapeutiques sur le plexus lombosacral et les nerfs du membre inférieur;104
+110;7;Autres actes thérapeutiques sur les nerfs spinaux;76
+111;1;Infiltration thérapeutique de nerf spinal à son émergence rachidienne;110
+112;2;Destruction du rameau dorsal d'un nerf spinal;110
+113;3;Bloc anesthésique continu de nerf spinal à son émergence rachidienne;110
+114;4;Infiltration thérapeutique de nerf des membres;110
+115;5;Réparation de nerf spinal;110
+116;6;Exérèse de tumeur de nerf spinal;110
+117;7;Autres actes thérapeutiques sur les nerfs spinaux;110
+118;6;ACTES THÉRAPEUTIQUES SUR LE SYSTÈME NERVEUX AUTONOME;2
+119;1;Infiltration thérapeutique du système nerveux autonome;118
+120;2;Bloc anesthésique continu du système nerveux autonome;118
+121;3;Destruction de nerf du système autonome;118
+122;4;Sympathectomie;118
+123;7;AUTRES ACTES THÉRAPEUTIQUES SUR LE SYSTÈME NERVEUX;2
+124;2;OEIL ET ANNEXES;1
+125;1;ACTES DIAGNOSTIQUES SUR L'OEIL ET SES ANNEXES;124
+126;1;Explorations électrophysiologiques de l'oeil;125
+127;2;Échographie de l'oeil;125
+128;3;Radiographie de l'oeil;125
+129;4;Photographie de l'oeil;125
+130;5;Autres actes d'imagerie de l'oeil;125
+131;6;Épreuves fonctionnelles sur l'oeil;125
+132;1;Étude des angles et des pressions oculaires;131
+133;2;Examen de la vision;131
+134;3;Autres épreuves fonctionnelles sur l'oeil;131
+135;7;Endoscopie des voies lacrymales;125
+136;8;Ponction et prélèvement de l'oeil et de l'orbite;125
+137;9;Biopsie de l'oeil et de l'orbite;125
+138;11;Autres actes diagnostiques sur l'oeil et ses annexes;125
+139;2;ACTES THÉRAPEUTIQUES SUR LES SOURCILS ET LES PAUPIÈRES;124
+140;1;Suture de plaie du sourcil et de la paupière;139
+141;2;Destruction de lésion de paupière;139
+142;3;Exérèse de lésion du sourcil et de la paupière;139
+143;4;Résection de paupière;139
+144;5;Réparation de perte de substance de la paupière;139
+145;6;Reconstruction du sourcil et de la paupière;139
+146;7;Canthotomie, canthopexie et canthoplastie;139
+147;8;Tarsorraphie et blépharorraphie;139
+148;9;Autres plasties du sourcil et de la paupière;139
+149;10;Autres actes thérapeutiques sur le sourcil et la paupière;139
+150;3;ACTES THÉRAPEUTIQUES SUR L'APPAREIL LACRYMAL;124
+151;1;Manoeuvres instrumentales thérapeutiques sur les voies lacrymales;150
+152;2;Réparation des voies lacrymales;150
+153;3;Ouverture des voies lacrymales;150
+154;4;Incision de l'appareil lacrymal;150
+155;5;Exérèse de l'appareil lacrymal;150
+156;6;Autres actes thérapeutiques sur les voies lacrymales;150
+157;4;ACTES THÉRAPEUTIQUES SUR LE BULBE [GLOBE] OCULAIRE;124
+158;1;Actes thérapeutiques sur la conjonctive bulbaire [oculaire];157
+159;1;Injection dans la conjonctive;158
+160;2;Destruction de lésion de la conjonctive;158
+161;3;Incision et suture de la conjonctive;158
+162;4;Exérèse de lésion de la conjonctive;158
+163;5;Réparation de la conjonctive;158
+164;2;Actes thérapeutiques sur la cornée;157
+165;1;Destruction de lésion de la cornée;164
+166;2;Suture de la cornée;164
+167;3;Extraction de corps étranger de la cornée;164
+168;4;Exérèse de lésion de la cornée;164
+169;5;Kératoplastie et kératoprothèse;164
+170;6;Correction de troubles réfractifs;164
+171;7;Autres actes thérapeutiques sur la cornée;164
+172;3;Actes thérapeutiques sur l'iris, le corps ciliaire et la chambre antérieure de l'oeil;157
+173;1;Destruction de lésion du segment antérieur de l'oeil;172
+174;2;Évacuation et injection de la chambre antérieure de l'oeil;172
+175;8;Actes thérapeutiques sur la sclère;182
+176;3;Incision du segment antérieur de l'oeil;172
+177;4;Extraction, ablation, résection, exérèse du segment antérieur de l'oeil;172
+178;5;Réparation du segment antérieur de l'oeil;172
+179;4;Actes thérapeutiques sur le cristallin;157
+180;1;Extraction du cristallin;179
+181;2;Implantation de cristallin artificiel;179
+182;5;Actes thérapeutiques sur la rétine, la choroïde, le corps vitré, la sclère [sclérotique] et le segment postérieur de l'oeil;157
+183;1;Évacuation et injection dans le segment postérieur de l'oeil;182
+184;2;Photocoagulation, cryoapplication et autres destructions du segment postérieur de l'oeil;182
+185;3;Rétinotomie;182
+186;4;Exérèse de lésion de la choroïde;182
+187;5;Vitrectomie;182
+188;6;Ablation de matériel et de corps étranger du segment postérieur de l'oeil;182
+189;7;Traitement du décollement de rétine;182
+190;9;Autres actes thérapeutiques sur la rétine, la choroïde et le corps vitré;182
+191;6;Actes thérapeutiques sur le bulbe oculaire [globe oculaire];157
+192;1;Suture du bulbe oculaire [globe oculaire];191
+193;2;Éviscération du bulbe oculaire [globe oculaire];191
+194;3;Énucléation du bulbe oculaire [globe oculaire];191
+195;7;Prélèvement de tissu au niveau du bulbe oculaire;157
+196;5;ACTES THÉRAPEUTIQUES SUR L'ORBITE ET LES ORGANES ACCESSOIRES DE L'OEIL;124
+197;1;Actes thérapeutiques sur les muscles oculomoteurs;196
+198;1;Suture et réinsertion de muscle oculomoteur;197
+199;2;Plastie de muscle oculomoteur;197
+200;2;Actes thérapeutiques sur le contenu de l'orbite;196
+201;1;Injection intraorbitaire;200
+202;2;Évacuation de collection de l'orbite;200
+203;3;Extraction de corps étranger de l'orbite;200
+204;4;Exérèse de lésion de l'orbite;200
+205;5;Réparation après énucléation et exentération de l'orbite;200
+206;6;Insertion, ablation et changement d'implant intraorbitaire;200
+207;7;Autres actes thérapeutiques sur l'orbite et son contenu;200
+208;6;AUTRES ACTES THÉRAPEUTIQUES SUR L'OEIL ET L'ORBITE;124
+209;1;Rééducation de la vision;208
+210;2;Adaptation de lentille de contact ou de verre scléral;208
+211;3;OREILLE;1
+212;1;ACTES DIAGNOSTIQUES SUR L'OREILLE;211
+213;1;Épreuves fonctionnelles sur l'oreille;212
+214;1;Audiométrie, impédancemétrie;213
+215;2;Audiométrie objective;213
+216;3;Épreuves d'électrostimulation de l'oreille interne;213
+217;4;Autres explorations de l'audition;213
+218;5;Examen vestibulaire clinique et instrumental;213
+219;6;Examen vestibulaire instrumental;213
+220;2;Endoscopie de l'oreille;212
+221;3;Ponction, biopsie et prélèvement de l'oreille;212
+222;4;Exploration chirurgicale de l'oreille;212
+223;2;ACTES THÉRAPEUTIQUES SUR L'OREILLE EXTERNE;211
+224;1;Incision et extraction de l'oreille externe;223
+225;2;Exérèse de lésion du méat acoustique externe;223
+226;3;Suture de l'auricule;223
+227;4;Exérèse de l'oreille externe;223
+228;5;Réparation de plaie et de perte de substance partielle de l'auricule;223
+229;6;Plastie d'oreille décollée;223
+230;7;Reconstruction de l'auricule;223
+231;8;Reconstruction du méat acoustique externe;223
+232;9;Autres actes thérapeutiques sur l'oreille externe;223
+233;3;ACTES THÉRAPEUTIQUES SUR L'OREILLE MOYENNE;211
+234;1;Actes thérapeutiques sur le tympan;233
+235;1;Myringotomie. Pose et ablation d'aérateur transtympanique;234
+236;2;Myringoplastie et tympanoplastie;234
+237;3;Exérèse de tympanosclérose;234
+238;2;Actes thérapeutiques sur le cavum tympanique et les cavités de l'oreille moyenne;233
+239;1;Soins de l'oreille moyenne;238
+240;2;Exérèse de cholestéatome de l'oreille moyenne;238
+241;3;Autres exérèses de lésion de l'oreille moyenne;238
+242;4;Actes thérapeutiques sur les osselets de l'oreille moyenne;238
+243;5;Pose, ablation et changement d'implant de l'oreille moyenne;238
+244;6;Autres actes thérapeutiques sur l'oreille moyenne;238
+245;4;ACTES THÉRAPEUTIQUES SUR L'OREILLE INTERNE;211
+246;1;Actes thérapeutiques sur le labyrinthe et le vestibule;245
+247;2;Implants cochléaires;245
+248;3;Autres actes thérapeutiques sur l'oreille interne;245
+249;4;APPAREIL CIRCULATOIRE;1
+250;1;ACTES DIAGNOSTIQUES SUR L'APPAREIL CIRCULATOIRE;249
+251;1;Explorations électrophysiologiques de l'appareil circulatoire;250
+252;1;Électrocardiographie [ECG];251
+253;2;Surveillance continue de l'électrocardiogramme;251
+254;3;Autres explorations électrophysiologiques cardiaques;251
+255;2;Étude des pressions et des débits de l'appareil circulatoire;250
+256;1;Mesure des pressions et débits du coeur et des vaisseaux supracardiaques;255
+257;2;Mesure des pressions intravasculaires périphériques par méthode non effractive;255
+258;3;Mesure des pressions intravasculaires périphériques par voie vasculaire;255
+259;4;Surveillance continue des pressions et débits intravasculaires;255
+260;3;Échographie de l'appareil circulatoire;250
+261;1;Échographie du coeur et des vaisseaux intrathoraciques [Échocardiographie];260
+262;2;Échocardiographie de stress;260
+263;3;Échographie des artères cervicocéphaliques [artères de la tête et du cou];260
+264;4;Échographie des artères du membre supérieur;260
+265;5;Échographie de l'aorte abdominale;260
+266;6;Échographie des artères du membre inférieur;260
+267;7;Échographie des veines;260
+268;8;Autres échographies de l'appareil circulatoire;260
+269;4;Radiographie de l'appareil circulatoire;250
+270;1;Artériographie coronaire [Coronarographie];269
+271;2;Artériographie de l'aorte [Aortographie];269
+272;3;Artériographie pulmonaire;269
+273;4;Artériographie des artères intrathoraciques à destination pariétale ou viscérale;269
+274;5;Artériographie des axes cervicocéphaliques;269
+275;6;Artériographie du membre supérieur;269
+276;7;Artériographie de la moelle épinière;269
+277;8;Artériographie des branches de l'aorte abdominale ou de l'artère iliaque interne;269
+278;9;Artériographie du membre inférieur;269
+279;10;Phlébographie des axes cervicocéphaliques;269
+280;11;Phlébographie du membre supérieur;269
+281;12;Phlébographie de la veine cave supérieure;269
+282;13;Phlébographie du membre inférieur;269
+283;14;Phlébographie de la veine cave inférieure;269
+284;15;Angiographie de l'oeil;269
+285;16;Autres angiographies;269
+286;5;Scanographie de l'appareil circulatoire;250
+287;6;Remnographie [IRM] de l'appareil circulatoire;250
+288;7;Scintigraphie de l'appareil circulatoire;250
+289;8;Épreuves fonctionnelles de l'appareil circulatoire;250
+290;9;Ponction, biopsie et prélèvement de l'appareil circulatoire;250
+291;2;ACTES THÉRAPEUTIQUES SUR LE COEUR ET SES VAISSEAUX;249
+292;1;Actes thérapeutiques sur les parois, les cavités et les cloisons du coeur;291
+293;1;Dilatation de la voie d'éjection du coeur;292
+294;2;Ablation de corps étranger et de néoformation intracardiaques ou intravasculaires;292
+295;3;Résection des parois du coeur;292
+296;4;Plastie ventriculaire cardiaque;292
+297;5;Autres actes thérapeutiques sur les parois du coeur;292
+298;2;Actes thérapeutiques sur les valves cardiaques;291
+299;1;Dilatation des orifices du coeur;298
+300;2;Commissurotomie orificielle [Valvulotomie] ou valvectomie [valvulectomie] cardiaque;298
+301;3;Annuloplastie et valvoplastie [valvuloplastie] cardiaques;298
+302;4;Remplacement des valves cardiaques;298
+303;5;Reconstruction des anneaux fibreux du coeur;298
+304;6;Reconstruction de la voie aortique;298
+305;7;Autres actes sur les orifices du coeur;298
+306;3;Actes thérapeutiques sur le système de conduction de l'excitation du coeur;291
+307;1;Pose d'électrode et de sonde de stimulation cardiaque;306
+308;2;Implantation de stimulateur cardiaque;306
+309;3;Implantation de défibrillateur cardiaque;306
+310;4;Repositionnement de sonde et de générateur de stimulation ou de défibrillation cardiaque;306
+1604;15;Gestes complémentaires sur l'appareil ostéoarticulaire et musculaire, sans précision topographique;1569
+1605;16;Gestes complémentaires sur le système tégumentaire;1569
+1606;17;Autres gestes complémentaires;1569
+1607;1;Autres gestes complémentaires diagnostiques;1606
+1608;2;Autres gestes complémentaires thérapeutiques;1606
+1609;3;MODIFICATEURS;1611
+1611;19;ADAPTATIONS POUR LA CCAM TRANSITOIRE;1
+1612;1;FORFAITS ET ACTES TRANSITOIRES;1611
+1613;1;Surveillance post opératoire;1612
+1614;2;Cardiologie;1612
+1615;3;Chirurgie;1612
+1616;4;Échographie;1612
+1617;5;Médecine hyperbare;1612
+1618;6;Médecine d'urgence;1612
+1619;7;Néonatalogie;1612
+1620;8;Pneumologie;1612
+1621;9;Radiologie;1612
+1622;1;Radiologie, scanographie, remnographie;1621
+1623;2;Radiologie vasculaire et imagerie interventionnelle;1621
+1624;10;Radiothérapie;1612
+1625;1;Champs fixes de moins de 300 cm²;1624
+1626;2;Irradiation segmentaire par champs fixes par faisceaux de 300 cm² ou plus à l'entrée;1624
+1627;3;Cyclothérapie partielle ou totale;1624
+1629;11;Réanimation;1612
+1630;2;SUPPLÉMENTS;1611
+1631;1;Anesthésie;1630
+1632;3;Chirurgie - Obstétrique;1630
+1633;2;Cardiologie;1630
+1634;4;Dermatologie;1630
+1635;5;Neurologie;1630
+1636;6;Pneumologie;1630
+1637;7;Radiologie;1630
+1638;8;Radiothérapie;1630
+1640;1;Urgence;1609
+1641;2;Age du patient;1609
+1642;3;Chirurgie itérative;1609
+1643;4;Autres modificateurs;1609
+1644;4;Autres actes de radiothérapie;1624
+1645;12;Assistance médicale à la procréation (AMP);1612
+1646;9;Médecine d'urgence;1630
+1647;3;Tentative d'angioplastie;1621
+1648;3;Immobilisation initiale de fracture du membre supérieur sans réduction;1220
+1649;4;Immobilisation initiale de fracture du membre inférieur sans réduction;1346
+1652;11;Autres actes diagnostiques sur l'appareil circulatoire;250
+1653;2;EXAMEN ANATOMOPATHOLOGIQUE DES TISSUS;1532
+1654;2;Séances d'irradiation externe avec modulation d'intensité;1557
+1655;3;Irradiation externe en conditions stéréotaxiques;1557
+1656;1;Examen cytopathologique;1653
+1657;1;Examen cytopathologique de prélèvement;1656
+1658;2;Examen cytopathologique en phase liquide [technique monocouche];1656
+1659;2;Examen histopathologique;1653
+1660;1;Examen anatomopathologique de prélèvement biopsique de structure anatomique;1659
+1661;2;Examen anatomopathologique de prélèvement biopsique de muqueuse;1659
+1662;3;Examen anatomopathologique extemporané;1659
+1663;3;Examen cytopathologique et/ou histopathologique extemporané;1653
+1664;1;Examen anatomopathologique de fragment de résection de structure anatomique;1663
+1665;2;Examen anatomopathologique de pièce d'exérèse;1663
+1666;4;Examen histopathologique de fragment d'exérèse de structure anatomique;1653
+1667;1;Examen immunohistochimique de prélèvement tissulaire;1666
+1668;2;Autres examens particuliers de tissu;1666
+1669;5;Examen anatomopathologique de pièce d'exérèse;1653
+1670;13;Anatomocytopathologie;1612
+1671;10;Anatomocytopathologie;1630
+1672;3;Explorations fonctionnelles des glandes endocrines et du métabolisme;1036
+1673;3;Oxygénothérapie hyperbare;643
+1674;14;Néphrologie;1612
+1675;15;Correction de trouble occlusal;679
+1676;7;Réparation de prothèse dentaire;694
+1677;8;Ablation de matériel dentaire scellé ou implanté;694
+1678;6;Autres actes thérapeutiques sur le squelette du crâne et de la face;1090
+1679;11;Soins prothétiques - Suppléments pour prothèse amovible;1630
+1680;10;Examen anatomopathologique de l'oeil et ses annexes;125
+1681;10;Examen anatomopathologique de l'appareil cardiovasculaire;250
+1682;8;Examen anatomopathologique des systèmes immunitaire et hématopoïétique;534
+1683;1;Examen histopathologique de biopsie de structure anatomique des systèmes immunitaire et hématopoïétique;1682
+1684;2;Examen anatomopathologique de pièce d'exérèse d'organe du système lymphatique;1682
+1685;3;Examen anatomopathologique de pièce d'exérèse d'autres organes des systèmes immunitaire et hématopoïétique;1682
+1686;11;Examen anatomopathologique de l'appareil respiratoire;570
+1687;1;Examen cytopathologique de prélèvement de l'appareil respiratoire;1686
+1688;2;Examen histopathologique de biopsie de l'appareil respiratoire;1686
+1689;3;Examen anatomopathologique de pièce d'exérèse du haut appareil respiratoire;1686
+1690;4;Examen anatomopathologique de pièce d'exérèse de l'appareil respiratoire intrathoracique;1686
+1691;13;Examen anatomopathologique de l'appareil digestif;649
+1692;1;Examen histopathologique de biopsie de l'appareil digestif;1691
+1693;2;Examen anatomopathologique de pièce d'exérèse de la bouche ou du pharynx;1691
+1694;3;Examen anatomopathologique de pièce d'exérèse du tube digestif;1691
+1695;4;Examen anatomopathologique de pièce d'exérèse du foie, pancréas ou péritoine;1691
+1696;9;Examen anatomopathologique de l'appareil urinaire et génital;859
+1697;1;Examen cytopathologique du col de l'utérus;1696
+1698;2;Examen histopathologique de l'appareil urinaire et génital;1696
+1699;3;Examen anatomopathologique de pièce d'exérèse de l'appareil urinaire;1696
+1700;4;Examen anatomopathologique de pièce d'exérèse de l'appareil génital masculin;1696
+1701;5;Examen anatomopathologique de pièce d'exérèse de l'appareil génital féminin;1696
+1702;6;Examen anatomopathologique de pièce d'exérèse du pelvis;1696
+1703;7;Examen anatomopathologique de l'embryon, du foetus et du placenta;1015
+1704;5;Examen anatomopathologique des glandes endocrines;1036
+1705;7;Examen anatomopathologique de l'appareil ostéoarticulaire et musculaire;1431
+1706;1;Examen anatomopathologique de pièce d'amputation de membre;1705
+1707;2;Examen anatomopathologique de pièce d'exérèse de l'appareil ostéoarticulaire et musculaire, sans précision topographique;1705
+1708;6;Examen anatomopathologique de la peau et des tissus mous;1457
+1709;1;Examen cytopathologique de prélèvement de la peau ou de muqueuse;1708
+1710;2;Examen histopathologique de biopsie de la peau et des tissus mous;1708
+1711;3;Examen anatomopathologique de pièce d'exérèse de la peau et des tissus mous;1708
+1712;6;Examen anatomopathologique du sein;1464
+1713;1;Examen histopathologique de biopsie du sein;1712
+1714;2;Examen anatomopathologique du sein;1712
+1715;6;Examens particuliers de tissu;1653
+1716;1;Examen immunologique de prélèvement cellulaire ou tissulaire;1715
+1717;2;Autres examens particuliers de tissu;1715
+1718;14;Examen anatomopathologique du système nerveux;3
+1719;3;Autres gestes complémentaires d'anesthésie;1606
+1720;5;Destruction de lésion cutanée par photothérapie dynamique après application topique de produit photosensibilisant;1479
+1721;5;Échoendoscopie de la trachée et des bronches;583
+782;11;Correction des malformations congénitales de l'intestin grêle;771
+783;12;Autres actes thérapeutiques sur l'intestin grêle;771
+784;5;Actes thérapeutiques sur l'appendice vermiforme [appendice];736
+785;6;Actes thérapeutiques sur le côlon;736
+786;1;Exsufflation et détorsion du côlon;785
+787;2;Dilatation et pose d'endoprothèse du côlon;785
+788;3;Destruction endoscopique de lésion du côlon;785
+789;4;Exérèse endoscopique de lésion du côlon;785
+790;5;Hémostase endoscopique de lésion du côlon;785
+791;6;Suture de plaie du côlon;785
+792;7;Colostomie;785
+793;8;Dérivation du côlon;785
+794;9;Colotomie;785
+795;10;Colectomie;785
+796;11;Rétablissement de la continuité du côlon après colectomie;785
+797;12;Correction des malformations congénitales du côlon;785
+798;7;Actes thérapeutiques sur le rectum;736
+799;1;Destruction et exérèse de lésion du rectum;798
+800;2;Ablation de corps étranger du rectum;798
+801;3;Suture de plaie du rectum;798
+802;4;Rectopexie;798
+803;5;Traitement de fistule du rectum;798
+804;6;Résection du rectum;798
+805;7;Résection de prolapsus rectal et de rectocèle;798
+806;8;Correction des malformations congénitales du rectum;798
+807;9;Autres actes thérapeutiques sur le rectum;798
+808;8;Actes thérapeutiques sur l'anus;736
+809;1;Injection au niveau de l'anus;808
+810;2;Dilatation anale;808
+811;3;Suture de plaie de l'anus;808
+812;4;Réparation anopérinéale pour prolapsus rectal;808
+813;5;Traitement des abcès et fistules anorectales;808
+814;6;Sphinctérotomie anale;808
+815;7;Excision de fissure anale;808
+816;8;Destruction et excision d'autre lésion de l'anus;808
+817;9;Réparation et reconstruction du muscle sphincter externe de l'anus;808
+818;10;Correction des malformations anorectales congénitales;808
+819;11;Rééducation anorectale;808
+820;12;Autres actes thérapeutiques sur l'anus;808
+821;9;Autres actes thérapeutiques sur le tube digestif;736
+822;4;ACTES THÉRAPEUTIQUES SUR LE FOIE ET LES VOIES BILIAIRES;648
+823;1;Cholécystostomie;822
+824;2;Dilatation des conduits biliaires;822
+825;3;Drainage des conduits biliaires;822
+826;4;Pose d'endoprothèse biliaire;822
+827;5;Ablation et changement de drain et d'endoprothèse biliaire;822
+828;6;Évacuation de collection hépatique;822
+829;7;Dérivation des voies biliaires;822
+830;8;Ablation de calcul des voies biliaires;822
+831;9;Lithotritie biliaire;822
+832;10;Cholécystectomie;822
+833;11;Résection de la voie biliaire principale;822
+834;12;Destruction de tumeur hépatique;822
+835;13;Hépatectomie et résection hépatique;822
+836;14;Prélèvement et transplantation de foie;822
+837;15;Autres actes thérapeutiques sur le foie et les conduits biliaires;822
+838;5;ACTES THÉRAPEUTIQUES SUR LE PANCRÉAS;648
+839;1;Dilatation du conduit pancréatique et pose d'endoprothèse;838
+840;2;Drainage du conduit pancréatique;838
+841;3;Ablation et destruction de calcul pancréatique;838
+842;4;Évacuation et drainage de collection pancréatique;838
+843;5;Suture de plaie du pancréas;838
+844;6;Anastomose pancréaticojéjunale;838
+845;7;Exérèse du pancréas;838
+846;8;Prélèvement et transplantation du pancréas;838
+847;6;ACTES THÉRAPEUTIQUES SUR LE PÉRITOINE ET LA CAVITÉ ABDOMINALE;648
+848;1;Injection intrapéritonéale;847
+849;2;Pose de cathéter péritonéal pour dialyse;847
+850;3;Pose de système diffuseur implantable pour insulinothérapie intrapéritonéale;847
+851;4;Pose de ballon intrapéritonéal;847
+852;5;Évacuation de collection intraabdominale;847
+853;6;Sclérose de kyste et de tumeur intraabdominaux;847
+854;7;Libération et section d'adhérences et de brides péritonéales;847
+855;8;Destruction et exérèse de lésion du péritoine;847
+856;9;Autres actes thérapeutiques sur le péritoine et les replis péritonéaux;847
+857;7;SUPPLÉANCE NUTRITIONNELLE;648
+858;8;APPAREIL URINAIRE ET GÉNITAL;1
+859;1;ACTES DIAGNOSTIQUES SUR L'APPAREIL URINAIRE ET GÉNITAL;858
+860;1;Explorations électrophysiologiques de l'appareil urinaire et génital;859
+861;2;Échographie de l'appareil urinaire et génital;859
+862;3;Radiographie de l'appareil urinaire et génital;859
+863;4;Scintigraphie de l'appareil urinaire et génital;859
+864;5;Épreuves fonctionnelles de l'appareil urinaire et génital;859
+865;1;Étude de la fonction rénale;864
+866;2;Épreuves urodynamiques;864
+867;3;Épreuves fonctionnelles de l'appareil génital masculin;864
+868;4;Autres épreuves fonctionnelles de l'appareil urinaire et génital;864
+869;6;Endoscopie de l'appareil urinaire et génital;859
+870;1;Endoscopie de l'appareil urinaire et de l'appareil génital masculin;869
+871;2;Endoscopie de l'appareil génital féminin;869
+872;7;Ponction, biopsie et prélèvements de l'appareil urinaire et génital;859
+873;1;Biopsie de l'appareil urinaire, par endoscopie;872
+874;2;Autres ponctions, biopsies et prélèvements de l'appareil urinaire;872
+875;3;Ponction, biopsie et prélèvement de l'appareil génital masculin;872
+876;4;Ponction, biopsie et prélèvement de l'appareil génital féminin;872
+877;8;Exploration chirurgicale de l'appareil urinaire et génital;859
+878;10;Autres actes à visée diagnostique sur l'appareil urinaire et génital;859
+879;2;ACTES THÉRAPEUTIQUES SUR L'APPAREIL URINAIRE;858
+880;1;Actes thérapeutiques sur le rein;879
+881;1;Évacuation et sclérose de collection du rein;880
+882;2;Résection partielle du rein;880
+883;3;Néphrectomie totale;880
+884;4;Néphrectomie totale élargie;880
+885;5;Réparation de traumatisme du rein;880
+886;6;Prélèvement et transplantation de rein;880
+887;7;Autres actes thérapeutiques sur le rein;880
+888;2;Actes thérapeutiques sur les voies urinaires supérieures;879
+889;1;Suture de l'uretère;888
+890;2;Pose de sonde et de prothèse de l'uretère;888
+891;3;Ablation et changement de sonde et d'endoprothèse des voies urinaires supérieures;888
+892;4;Dérivation externe sur les voies urinaires supérieures;888
+893;5;Dérivation interne et réimplantation de l'uretère;888
+894;6;Fragmentation extracorporelle de calcul des voies urinaires supérieures [Lithotritie extracorporelle];888
+895;7;Ablation de calcul du rein;888
+896;8;Ablation et fragmentation de calcul de l'uretère;888
+897;9;Incision des voies urinaires supérieures;888
+898;10;Plastie du bassinet et de la jonction pyélo-urétérale;888
+899;11;Destruction de lésion des voies urinaires supérieures;888
+900;12;Exérèse de lésion de l'uretère;888
+901;13;Résection-anastomose des voies urinaires supérieures;888
+902;14;Urétérectomie totale;888
+903;15;Remplacement de l'uretère;888
+904;16;Dilatation de l'uretère;888
+905;17;Libération de l'uretère [Urétérolyse];888
+906;18;Fermeture de fistule de l'uretère;888
+907;19;Autres actes thérapeutiques sur les voies urinaires supérieures;888
+908;3;Actes thérapeutiques sur la vessie;879
+909;1;Pose de sonde et évacuation de la vessie;908
+910;2;Cystostomie;908
+911;3;Changement de sonde vésicale;908
+912;4;Ablation et fragmentation de calcul de la vessie;908
+913;5;Destruction, résection et exérèse de lésion de la vessie;908
+914;6;Cystectomie partielle;908
+915;7;Cystectomie totale;908
+916;8;Fixation et soutènement de la vessie;908
+917;9;Suture et plastie de la vessie;908
+918;10;Fermeture de fistule de la vessie;908
+919;11;Correction des malformations congénitales de la vessie;908
+920;12;Autres actes thérapeutiques sur la vessie;908
+921;4;Actes thérapeutiques sur l'urètre;879
+922;1;Pose de prothèse sphinctérienne urinaire;921
+923;2;Ablation et changement de prothèse sphinctérienne urinaire;921
+924;3;Pose, ablation et changement de prothèse de l'urètre;921
+925;4;Dilatation de l'urètre;921
+926;5;Ablation de corps étranger de l'urètre;921
+927;6;Incision de l'urètre;921
+928;7;Destruction de lésion de l'urètre;921
+929;8;Résection de lésion de l'urètre;921
+930;9;Urétrectomie;921
+931;10;Réparation et plastie de l'urètre;921
+932;11;Injection périurétrale;921
+933;12;Fermeture de fistule urétrale;921
+934;13;Autres actes thérapeutiques sur l'urètre;921
+935;14;Correction des malformations congénitales de l'urètre;921
+936;3;ACTES THÉRAPEUTIQUES SUR L'APPAREIL GÉNITAL MASCULIN;858
+937;1;Actes thérapeutiques sur la prostate et les vésicules séminales;936
+938;1;Destruction de lésion de la prostate;937
+939;2;Évacuation de collection de la prostate;937
+940;3;Exérèse de la prostate et des vésicules séminales;937
+941;4;Vésiculoprostatectomie;937
+942;2;Actes thérapeutiques sur le scrotum et le contenu scrotal;936
+943;1;Exérèse du testicule;942
+944;2;Autres exérèses du contenu scrotal;942
+945;3;Pose, changement et ablation de prothèse de testicule;942
+946;4;Suture du testicule et de ses annexes;942
+947;5;Détorsion du cordon spermatique;942
+948;6;Fixation et transposition du testicule;942
+949;7;Ligature du conduit déférent;942
+950;8;Évacuation d'hydrocèle vaginale;942
+951;9;Plastie de la tunique vaginale du testicule et du scrotum;942
+952;10;Autres actes thérapeutiques sur le scrotum et le contenu scrotal;942
+953;11;Correction des anomalies de position du testicule;942
+954;3;Actes thérapeutiques sur le pénis;936
+955;1;Plastie du pénis;954
+956;2;Destruction de lésion du pénis;954
+957;3;Exérèse de lésion du pénis;954
+958;4;Injection au niveau du pénis;954
+959;5;Réparation de plaie du pénis;954
+960;6;Anastomose spongiocaverneuse;954
+961;7;Pose de prothèse pénienne;954
+962;8;Ablation et changement de prothèse pénienne;954
+963;9;Correction des malformations du pénis;954
+964;4;ACTES THÉRAPEUTIQUES SUR L'APPAREIL GÉNITAL FÉMININ;858
+965;1;Actes thérapeutiques sur les annexes de l'utérus;964
+966;1;Évacuation de collection des annexes de l'utérus;965
+967;2;Ligature et section de la trompe utérine;965
+968;3;Exérèse de l'ovaire;965
+969;4;Autres exérèses des annexes de l'utérus;965
+970;5;Plastie de la trompe utérine;965
+971;6;Transposition de l'ovaire;965
+972;7;Détorsion des annexes de l'utérus;965
+973;8;Autres actes thérapeutiques sur les annexes de l'utérus;965
+974;2;Actes thérapeutiques sur le paramètre;964
+975;3;Actes thérapeutiques sur l'utérus;964
+976;1;Destruction et exérèse de lésion du corps de l'utérus;975
+977;2;Destruction de lésion du col de l'utérus;975
+978;3;Exérèse de lésion du col de l'utérus;975
+979;4;Hystérectomie subtotale;975
+980;5;Hystérectomie totale;975
+981;6;Hystérectomie totale élargie aux paramètres;975
+982;7;Section et résection de malformations intra-utérines;975
+983;8;Plastie du corps de l'utérus;975
+984;9;Plastie du col de l'utérus;975
+985;10;Hystéropexie [Fixation de l'utérus];975
+986;11;Pose et ablation de dispositif intra-utérin [D.I.U.] [stérilet];975
+987;12;Extraction de corps étranger intra-utérin;975
+988;4;Actes thérapeutiques sur le vagin;964
+989;1;Évacuation de collection du vagin;988
+990;2;Destruction et exérèse de lésion du vagin;988
+991;3;Colposuspension [Suspension du vagin];988
+992;4;Colpopérinéorraphie;988
+993;5;Correction des malformations congénitales du vagin;988
+994;6;Plastie du vagin;988
+995;7;Autres actes thérapeutiques sur le vagin;988
+996;5;Actes thérapeutiques sur la vulve et le périnée féminin;964
+997;1;Incision de la vulve et du périnée;996
+998;2;Exérèse de lésion de la vulve et du périnée;996
+999;3;Vulvectomie;996
+1000;4;Plastie de la vulve et du périnée;996
+1001;5;ACTES THÉRAPEUTIQUES SUR LE PÉRINÉE MASCULIN ET FÉMININ;858
+1002;6;ACTES THÉRAPEUTIQUES SUR L'ESPACE RÉTROPÉRITONÉAL ET L'ESPACE PELVIEN;858
+1003;1;Actes thérapeutiques sur l'espace rétropéritonéal;1002
+1004;1;Évacuation de collection périrénale;1003
+1005;2;Exérèse de lésion de l'espace rétropéritonéal;1003
+1006;2;Actes thérapeutiques sur l'espace pelvien;1002
+1007;1;Exérèse de lésion endométriosique profonde de l'espace pelvien;1006
+1008;2;Exérèse d'autre lésion de l'espace pelvien;1006
+1009;3;Pelvectomie;1006
+1010;7;MODIFICATION DE LA MORPHOLOGIE SEXUELLE;858
+1011;1;Correction des ambigüités sexuelles;1010
+1012;2;Opérations pour transsexualisme;1010
+1013;8;ÉPURATION EXTRARÉNALE;858
+1014;9;ACTES CONCERNANT LA PROCRÉATION, LA GROSSESSE ET LE NOUVEAU-NÉ;1
+1015;1;ACTES DIAGNOSTIQUES CHEZ LA MÈRE ET LE FOETUS;1014
+1016;1;Explorations électrophysiologiques du foetus;1015
+1017;2;Échographie de l'utérus gravide;1015
+1018;3;Radiographie du bassin au cours de la grossesse;1015
+1019;4;Scanographie du bassin au cours de la grossesse;1015
+1020;5;Endoscopie de l'utérus gravide;1015
+1021;6;Ponction, biopsie et prélèvement sur le foetus et l'utérus gravide;1015
+1022;2;ASSISTANCE MÉDICALE À LA PROCRÉATION;1014
+1023;3;ACTES LIÉS À LA GROSSESSE, CHEZ LA MÈRE;1014
+1024;1;Actes liés à une grossesse se terminant par un avortement;1023
+1025;2;Actes obstétricaux pendant la période prénatale;1023
+1026;3;Actes obstétricaux pendant le travail et l'accouchement;1023
+1027;1;Accouchement par voie naturelle;1026
+1028;2;Accouchement par césarienne;1026
+1029;4;Traitement des complications immédiates de l'accouchement;1023
+438;1;Suture de plaie de veine cervicocéphalique et de veine du membre supérieur;437
+439;2;Dilatation intraluminale de veine cervicocéphalique et de veine du membre supérieur;437
+440;3;Désobstruction de veine cervicocéphalique et de veine du membre supérieur;437
+441;4;Occlusion et exérèse de veine cervicocéphalique et de veine du membre supérieur;437
+442;5;Autres actes thérapeutiques sur les veines cervicocéphaliques et les veines du membre supérieur;437
+443;2;Actes thérapeutiques sur la veine cave supérieure;436
+444;1;Dilatation intraluminale de la veine cave supérieure;443
+445;2;Désobstruction de la veine cave supérieure;443
+446;3;Actes thérapeutiques sur les veines du membre inférieur;436
+447;1;Suture de veine du membre inférieur;446
+448;2;Dilatation intraluminale de veine du membre inférieur;446
+449;3;Désobstruction de veine du membre inférieur;446
+450;4;Pontage de veine du membre inférieur;446
+451;5;Autres restaurations de veine du membre inférieur;446
+452;6;Exérèse des veines saphènes;446
+453;7;Autres exérèses de veine du membre inférieur;446
+454;8;Occlusion de veine du membre inférieur;446
+455;9;Autres actes thérapeutiques sur les veines des membres;446
+456;4;Actes thérapeutiques sur la veine cave inférieure;436
+457;1;Suture de plaie de la veine cave inférieure;456
+458;2;Dilatation intraluminale de la veine cave inférieure;456
+459;3;Désobstruction de la veine cave inférieure;456
+460;4;Résection de la veine cave inférieure;456
+461;5;Occlusion de la veine cave inférieure;456
+462;6;Ablation de filtre de la veine cave inférieure;456
+463;5;Actes thérapeutiques sur la veine génitale;436
+464;1;Anastomose de veine génitale;463
+465;2;Résection et ligature de veine génitale;463
+466;3;Embolisation de veine génitale;463
+467;6;Actes thérapeutiques sur la veine rénale;436
+468;1;Dilatation intraluminale de la veine rénale;467
+469;2;Reperméation de veine rénale;467
+470;7;Actes thérapeutiques sur les veines hémorroïdales;436
+471;1;Hémorroïdectomie;470
+472;2;Autres traitements des hémorroïdes;470
+473;8;Actes thérapeutiques sur la veine porte et les veines digestives;436
+474;1;Suture de plaie de la veine porte;473
+475;2;Dilatation intraluminale de la veine porte;473
+476;3;Désobstruction de la veine porte;473
+477;4;Dérivation portale;473
+478;5;Hémostase de varices oesogastriques;473
+479;6;Pose d'un système diffuseur relié à la veine porte;473
+480;9;Accès vasculaire veineux;436
+481;10;Autres actes thérapeutiques sur les veines;436
+482;1;Suture de veine;481
+483;2;Désobstruction de veine;481
+484;3;Exérèse de malformation veineuse;481
+485;4;Occlusion de veine;481
+486;5;Autres actes thérapeutiques sur les veines;481
+487;5;AUTRES ACTES THÉRAPEUTIQUES SUR LES VAISSEAUX;249
+488;1;Actes thérapeutiques sur les vaisseaux du cou et les vaisseaux extracrâniens de la tête;487
+489;2;Actes thérapeutiques sur les vaisseaux intracrâniens;487
+490;1;Exérèse de malformation vasculaire intracrânienne;489
+491;2;Exérèse de chémodectome tympanojugulaire;489
+492;3;Embolisation et occlusion intraluminale de vaisseau intracrânien;489
+493;4;Exclusion de fistule artérioveineuse intracrânienne;489
+494;3;Actes thérapeutiques sur les vaisseaux du membre supérieur;487
+495;4;Actes thérapeutiques sur les vaisseaux pulmonaires;487
+496;1;Suture de vaisseau pulmonaire;495
+497;2;Embolisation de vaisseau pulmonaire;495
+498;3;Exérèse de tumeur des vaisseaux pulmonaires;495
+499;5;Actes thérapeutiques sur les vaisseaux de la colonne vertébrale et de son contenu;487
+500;6;Actes thérapeutiques sur les vaisseaux génitaux;487
+501;7;Actes thérapeutiques sur les vaisseaux des membres inférieurs;487
+502;8;Accès vasculaire pour circulation extracorporelle;487
+503;1;Pose de cathéter vasculaire pour circulation extracorporelle;502
+504;2;Création d'un accès vasculaire artérioveineux;502
+505;3;Dilatation intraluminale d'un accès vasculaire artérioveineux;502
+506;4;Désobstruction d'un accès vasculaire artérioveineux;502
+507;5;Adaptation d'un accès vasculaire artérioveineux;502
+508;6;Exérèse d'un accès vasculaire artérioveineux;502
+509;7;Réduction de débit et fermeture d'un accès vasculaire artérioveineux;502
+510;9;Autres actes thérapeutiques sur les vaisseaux;487
+511;6;ACTES THÉRAPEUTIQUES POUR MALFORMATION CONGÉNITALE DU COEUR ET DES VAISSEAUX SUPRACARDIAQUES;249
+512;1;Actes thérapeutiques sur les cloisons du coeur pour malformation congénitale;511
+513;1;Actes thérapeutiques sur les cloisons du coeur, à l'étage atrial;512
+514;2;Actes thérapeutiques sur les cloisons du coeur, à l'étage ventriculaire;512
+515;3;Actes thérapeutiques sur les cloisons du coeur, à l'étage atrioventriculaire;512
+516;2;Correction des malformations congénitales des valves et des parois du coeur;511
+517;3;Correction des cardiopathies congénitales complexes avec communication [shunt] droite-gauche;511
+518;4;Correction des malformations congénitales des vaisseaux coronaires;511
+519;5;Correction des malformations congénitales de l'aorte;511
+520;6;Interruption du conduit [canal] artériel;511
+521;7;Correction des malformations congénitales de l'artère pulmonaire;511
+522;8;Correction des malformations congénitales des veines pulmonaires;511
+523;9;Autres actes thérapeutiques palliatifs pour cardiopathie congénitale;511
+524;10;Correction d'autres malformations congénitales des vaisseaux;511
+525;11;Autres actes thérapeutiques pour cardiopathie congénitale;511
+526;7;ASSISTANCE CIRCULATOIRE;249
+527;1;Suppléance hémodynamique non mécanique;526
+528;2;Assistance circulatoire mécanique;526
+529;1;Contrepulsion diastolique intraaortique [Pose de ballon intraaortique];528
+530;2;Circulation extracorporelle [CEC] pour assistance circulatoire;528
+531;3;Assistance circulatoire mécanique ventriculaire;528
+532;4;Autre technique d'assistance circulatoire;528
+533;5;SYSTÈME IMMUNITAIRE ET SYSTÈME HÉMATOPOÏÉTIQUE;1
+534;1;ACTES DIAGNOSTIQUES SUR LE SYSTÈME IMMUNITAIRE ET LE SYSTÈME HÉMATOPOÏÉTIQUE;533
+535;1;Radiographie des systèmes immunitaire et hématopoïétique;534
+536;2;Scanographie des systèmes immunitaire et hématopoïétique;534
+537;3;Remnographie [IRM] des systèmes immunitaire et hématopoïétique;534
+538;4;Scintigraphie des systèmes immunitaire et hématopoïétique;534
+539;5;Épreuves fonctionnelles des systèmes immunitaire et hématopoïétique;534
+540;1;Tests allergologiques cutanés;539
+541;2;Tests allergologiques de provocation;539
+542;6;Ponction, biopsie et prélèvement des systèmes immunitaire et hématopoïétique;534
+543;1;Ponction de noeud [ganglion] lymphatique;542
+544;2;Ponction et biopsie de moelle osseuse;542
+545;3;Prélèvement de sang;542
+546;7;Exploration chirurgicale des systèmes immunitaire et hématopoïétique;534
+547;2;ACTES THÉRAPEUTIQUES SUR LE SYSTÈME IMMUNITAIRE;533
+548;1;Actes thérapeutiques sur les organes de l'immunité;547
+549;1;Actes thérapeutiques sur les tonsilles pharyngiennes [végétations adénoïdes];548
+550;2;Actes thérapeutiques sur les tonsilles palatines [amygdales pharyngiennes];548
+551;3;Actes thérapeutiques sur le thymus;548
+552;2;Actes thérapeutiques sur les vaisseaux et noeuds [ganglions] lymphatiques;547
+553;1;Actes thérapeutiques sur le conduit [canal] thoracique;552
+554;2;Actes thérapeutiques sur les vaisseaux et noeuds [ganglions] lymphatiques de la tête et du cou;552
+555;3;Actes thérapeutiques sur les vaisseaux et noeuds [ganglions] lymphatiques du thorax;552
+556;4;Actes thérapeutiques sur les vaisseaux et noeuds [ganglions] lymphatiques de l'abdomen;552
+557;5;Actes thérapeutiques sur les vaisseaux et noeuds [ganglions] lymphatiques des membres;552
+558;6;Autres actes thérapeutiques sur les vaisseaux et les noeuds lymphatiques;552
+559;3;Actes thérapeutiques d'allergologie;547
+560;3;ACTES THÉRAPEUTIQUES SUR LE SYSTÈME HÉMATOPOÏÉTIQUE;533
+561;1;Actes thérapeutiques sur la rate;560
+562;1;Évacuation de collection splénique;561
+563;2;Splénectomie;561
+564;3;Autres actes thérapeutiques sur la rate;561
+565;2;Actes thérapeutiques concernant l'hématopoïèse;560
+566;1;Actes thérapeutiques sur la moelle osseuse;565
+567;2;Actes thérapeutiques sur le sang;565
+568;3;Autres actes thérapeutiques sur les systèmes immunitaire et hématopoïétique;560
+569;6;APPAREIL RESPIRATOIRE;1
+570;1;ACTES DIAGNOSTIQUES SUR L'APPAREIL RESPIRATOIRE;569
+571;1;Explorations électrophysiologiques de l'appareil respiratoire;570
+572;2;Échographie de l'appareil respiratoire;570
+573;3;Radiographie de l'appareil respiratoire;570
+574;4;Scanographie de l'appareil respiratoire;570
+575;5;Remnographie [IRM] de l'appareil respiratoire;570
+576;6;Scintigraphie de l'appareil respiratoire;570
+577;7;Épreuves fonctionnelles de l'appareil respiratoire;570
+578;1;Épreuves fonctionnelles sur le nez;577
+579;2;Épreuves fonctionnelles sur le larynx;577
+580;3;Étude des pressions de l'appareil respiratoire;577
+581;4;Explorations fonctionnelles de la respiration;577
+582;5;Surveillance continue de l'appareil respiratoire;577
+583;8;Endoscopie et échoendoscopie de l'appareil respiratoire;570
+584;1;Endoscopie de la cavité nasale;583
+585;2;Endoscopie des sinus paranasaux;583
+586;3;Endoscopie du larynx;583
+587;4;Endoscopie de la trachée et des bronches;583
+588;9;Ponction, biopsie et prélèvement de l'appareil respiratoire;570
+589;10;Exploration chirurgicale de l'appareil respiratoire;570
+590;2;ACTES THÉRAPEUTIQUES SUR LES VOIES RESPIRATOIRES;569
+591;1;Actes thérapeutiques sur le nez;590
+592;1;Suture de plaie du nez;591
+593;2;Exérèse de lésion du nez;591
+594;3;Réparation de perte de substance du nez;591
+595;4;Rhinoplastie, septoplastie et rhinoseptoplastie;591
+596;5;Autres plasties du nez;591
+597;6;Autres actes thérapeutiques sur le nez;591
+598;2;Actes thérapeutiques sur la cavité nasale [les fosses nasales];590
+599;1;Exérèse et destruction de lésion de la cavité nasale;598
+600;2;Plastie de la cavité nasale;598
+601;3;Hémostase de la cavité nasale;598
+602;4;Autres actes thérapeutiques sur la cavité nasale;598
+603;3;Actes thérapeutiques sur les sinus paranasaux;590
+604;1;Actes thérapeutiques sur le sinus maxillaire;603
+605;2;Actes thérapeutiques sur le sinus ethmoïdal;603
+606;3;Actes thérapeutiques sur le sinus sphénoïdal;603
+607;4;Actes thérapeutiques sur le sinus frontal;603
+608;5;Autres actes thérapeutiques sur les sinus paranasaux;603
+609;4;Actes thérapeutiques sur le rhinopharynx et la fosse infratemporale;590
+610;1;Exérèse de lésion du rhinopharynx [partie nasale du pharynx] [cavum] [épipharynx] [arrière-cavité des fosses nasales];609
+611;2;Plastie du rhinopharynx;609
+612;5;Actes thérapeutiques sur le larynx;590
+613;1;Désobstruction et destruction de lésion du larynx;612
+614;2;Exérèse partielle du larynx;612
+615;3;Résection du larynx;612
+616;4;Réparation et plastie du larynx;612
+617;5;Réparation de lésion congénitale du larynx;612
+618;6;Autres actes thérapeutiques sur le larynx;612
+619;6;Actes thérapeutiques sur la trachée et l'arbre bronchique;590
+620;1;Suture de plaie trachéobronchique;619
+621;2;Trachéotomie;619
+622;3;Intubation et pose de dispositif médical trachéobronchique;619
+623;4;Ablation de corps étranger;619
+624;5;Plastie de l'arbre trachéobronchique;619
+625;6;Destruction de lésion de l'arbre trachéobronchique;619
+626;7;Résection de l'arbre trachéobronchique;619
+627;8;Injection et aspiration intratrachéobronchiques;619
+628;9;Implant phonatoire;619
+629;10;Rééducation;619
+630;3;ACTES THÉRAPEUTIQUES SUR LE POUMON, LA PLÈVRE ET LE MÉDIASTIN;569
+631;1;Exérèse partielle non anatomique du poumon;630
+632;2;Lobectomie pulmonaire;630
+633;3;Bilobectomie pulmonaire;630
+634;4;Pneumonectomie;630
+635;5;Transplantation du poumon;630
+636;6;Évacuation de collection pleurale;630
+637;7;Injection intrapleurale;630
+638;8;Exérèse de la plèvre;630
+639;9;Pleurostomie;630
+640;10;Exérèse de malformation congénitale de l'appareil respiratoire;630
+641;11;Autres actes thérapeutiques sur la plèvre et les poumons;630
+642;12;Actes thérapeutiques sur le médiastin;630
+643;4;ASSISTANCE RESPIRATOIRE;569
+644;1;Adaptation d'une ventilation non effractive;643
+645;2;Suppléance ventilatoire;643
+646;4;Rééducation respiratoire;643
+647;5;Appareillage de l'appareil respiratoire;643
+648;7;APPAREIL DIGESTIF;1
+649;1;ACTES DIAGNOSTIQUES SUR L'APPAREIL DIGESTIF;648
+650;1;Explorations électrophysiologiques de l'appareil digestif;649
+651;2;Étude des pressions dans l'appareil digestif;649
+652;3;Échographie de l'appareil digestif;649
+653;4;Radiographie de l'appareil digestif;649
+654;1;Radiographie de la bouche;653
+655;2;Radiographie de l'abdomen et du tube digestif;653
+656;3;Radiographie des conduits biliaires et pancréatiques;653
+657;5;Scanographie de l'appareil digestif;649
+658;6;Remnographie [IRM] de l'appareil digestif;649
+659;7;Scintigraphie de l'appareil digestif;649
+660;8;Épreuves fonctionnelles de l'appareil digestif;649
+661;1;Épreuves fonctionnelles au niveau de la cavité orale;660
+662;2;Épreuves fonctionnelles au niveau du tube digestif;660
+663;9;Endoscopie de l'appareil digestif;649
+664;1;Endoscopie du tube digestif;663
+665;2;Endoscopie des conduits biliaires et pancréatiques;663
+666;10;Échoendoscopie de l'appareil digestif;649
+667;11;Ponction, biopsie et prélèvement de l'appareil digestif;649
+668;1;Ponction et biopsie hépatique;667
+669;2;Autres ponctions, biopsies et prélèvements de l'appareil digestif;667
+670;12;Exploration chirurgicale de l'appareil digestif;649
+671;14;Autres actes diagnostiques sur l'appareil digestif;649
+672;2;ACTES THÉRAPEUTIQUES SUR LA BOUCHE ET L'OROPHARYNX;648
+673;1;Actes thérapeutiques sur les lèvres;672
+674;1;Parage et suture de plaie de lèvre;673
+675;2;Destruction et exérèse de lésion de lèvre;673
+676;3;Réparation de perte de substance de lèvre;673
+677;4;Plastie de l'orifice buccal pour traitement palliatif de la paralysie faciale;673
+678;5;Autres plasties de lèvre;673
+679;2;Actes thérapeutiques sur les dents;672
+680;1;Pose et ablation de moyen de contention au maxillaire ou à la mandibule;679
+681;2;Réduction de fracture et de luxation de dent;679
+682;3;Réimplantation de dent et autogreffe de germe;679
+683;4;Prophylaxie buccodentaire;679
+684;5;Restauration des tissus durs de la dent;679
+685;6;Exérèse de la pulpe et du contenu canalaire de la dent;679
+686;7;Désobturation endodontique;679
+687;8;Autres actes thérapeutiques sur la racine de la dent;679
+688;9;Dégagement de dent retenue ou incluse;679
+689;10;Avulsion de dents temporaires;679
+690;11;Avulsion de dents permanentes;679
+691;12;Autres avulsions de dents ou racines;679
+692;13;Cosmétologie dentaire;679
+693;14;Pose de mainteneur d'espace interdentaire;679
+694;3;Soins prothétiques - Prothèses dentaires;672
+695;1;Pose d'infrastructure coronaire [faux moignon];694
+696;2;Pose d'une couronne dentaire prothétique;694
+697;3;Pose de prothèse dentaire amovible;694
+698;4;Pose de prothèse dentaire fixée dentoportée ou implantoportée;694
+699;5;Adjonction ou changement d'élément de prothèse dentaire;694
+700;6;Adjonction ou changement d'élément soudé de prothèse dentaire;694
+701;4;Appareillages orthopédiques dentofaciaux;672
+702;1;Correction de malocclusion et de malposition par traitement orthodontique;701
+703;2;Contention des arcades dentaires après traitement orthodontique;701
+704;5;Actes thérapeutiques sur le parodonte;672
+705;1;Curetage périapical dentaire;704
+706;2;Actes thérapeutiques sur le parodonte par soustraction;704
+707;3;Actes thérapeutiques sur le parodonte par addition;704
+708;4;Autres actes thérapeutiques sur le parodonte;704
+709;6;Actes thérapeutiques sur la cavité orale [cavité buccale];672
+710;1;Traitement de plaie intrabuccale;709
+711;2;Évacuation de collection intrabuccale;709
+712;3;Plastie de la cavité orale;709
+713;4;Destruction et exérèse de lésion de la bouche et de l'oropharynx;709
+714;5;Uvulectomie;709
+715;6;Glossectomie et pelvectomie orale;709
+716;7;Fermeture de fistule buccale;709
+62;5;Correction des malformations congénitales de la moelle épinière;57
+63;6;Autres actes thérapeutiques sur la moelle épinière;57
+64;2;Actes thérapeutiques sur les méninges, les ventricules et le liquide cérébrospinal [LCS] spinaux;56
+311;5;Ablation d'électrode et de sonde de stimulation ou de défibrillation cardiaque;306
+312;6;Pose de sonde supplémentaire de stimulation ou de défibrillation cardiaque;306
+313;7;Implantation, ablation et changement de générateur de stimulation ou de défibrillation cardiaque, ablation de stimulateur cardiaque;306
+314;8;Contrôle et réglage de générateur de stimulation ou de défibrillation cardiaque;306
+315;9;Interruption de voie cardionectrice;306
+316;10;Destruction et exérèse de foyer arythmogène;306
+317;11;Stimulation et défibrillation cardiaques;306
+318;4;Actes thérapeutiques sur les vaisseaux coronaires;291
+319;1;Dilatation intraluminale des vaisseaux coronaires;318
+320;2;Revascularisation coronaire par pontage;318
+321;3;Autres actes thérapeutiques sur les artères coronaires;318
+322;5;Actes thérapeutiques sur le péricarde;291
+323;6;Transplantation du coeur;291
+324;1;Prélèvement du coeur;323
+325;2;Transplantation du coeur;323
+326;3;Exérèse de greffon cardiaque;323
+327;7;Rééducation cardiaque;291
+328;3;ACTES THÉRAPEUTIQUES SUR LES ARTÈRES;249
+329;1;Actes thérapeutiques sur l'aorte thoracique;328
+330;1;Suture de plaie de l'aorte thoracique;329
+331;2;Dilatation intraluminale et pose de prothèse de l'aorte thoracique;329
+332;3;Désobstruction de l'aorte thoracique;329
+333;4;Pontage de l'aorte thoracique;329
+334;5;Angioplastie d'élargissement de l'aorte thoracique;329
+335;6;Résection-anastomose de l'aorte thoracique;329
+336;7;Remplacement de l'aorte thoracique;329
+337;8;Remplacement de l'aorte thoracique pour rupture d'anévrisme;329
+338;2;Actes thérapeutiques sur l'artère pulmonaire;328
+339;1;Dilatation intraluminale de l'artère pulmonaire;338
+340;2;Désobstruction de l'artère pulmonaire;338
+341;3;Autres actes thérapeutiques sur l'artère pulmonaire;338
+342;3;Actes thérapeutiques sur le tronc artériel brachiocéphalique;328
+343;1;Suture de plaie du tronc artériel brachiocéphalique;342
+344;2;Dilatation intraluminale et pose de prothèse du tronc artériel brachiocéphalique;342
+345;3;Désobstruction du tronc artériel brachiocéphalique;342
+346;4;Pontage et remplacement du tronc artériel brachiocéphalique;342
+347;5;Occlusion du tronc artériel brachiocéphalique;342
+348;4;Actes thérapeutiques sur l'artère carotide commune;328
+349;1;Suture de plaie de l'artère carotide commune;348
+350;2;Dilatation intraluminale de l'artère carotide commune;348
+351;3;Désobstruction de l'artère carotide commune;348
+352;4;Pontage et réimplantation de l'artère carotide commune;348
+353;5;Remplacement de l'artère carotide commune;348
+354;6;Résection-anastomose de l'artère carotide commune;348
+355;7;Occlusion de l'artère carotide commune;348
+356;5;Actes thérapeutiques sur la bifurcation carotidienne;328
+357;1;Dilatation intraluminale de la bifurcation carotidienne;356
+358;2;Thromboendartériectomie de la bifurcation carotidienne;356
+359;3;Autres actes sur la bifurcation carotidienne;356
+360;6;Actes thérapeutiques sur les artères carotide interne extracrânienne et carotide externe;328
+361;1;Suture de plaie de l'artère carotide extracrânienne;360
+362;2;Dilatation intraluminale de l'artère carotide extracrânienne;360
+363;3;Pontage de l'artère carotide extracrânienne;360
+364;4;Résection de l'artère carotide interne;360
+365;5;Occlusion de l'artère carotide extracrânienne;360
+366;6;Autres actes thérapeutiques sur l'artère carotide extracrânienne;360
+367;7;Actes thérapeutiques sur les artères vertébrale et basilaire;328
+368;1;Suture de plaie de l'artère vertébrale;367
+369;2;Dilatation intraluminale des artères vertébrale et basilaire;367
+370;3;Pontage et réimplantation de l'artère vertébrale;367
+371;4;Occlusion de l'artère vertébrale;367
+372;5;Autres actes thérapeutiques sur l'artère vertébrale;367
+373;8;Actes thérapeutiques sur les artères intracrâniennes;328
+374;1;Inversion du flux d'un anévrisme artériel intracrânien;373
+375;2;Dilatation intraluminale d'artère intracrânienne;373
+376;3;Désobstruction d'artère intracrânienne;373
+377;4;Embolisation distale de l'artère carotide interne;373
+378;5;Occlusion et exclusion d'anévrisme artériel intracrânien;373
+379;9;Actes thérapeutiques sur les artères du membre supérieur;328
+380;1;Suture de plaie d'artère du membre supérieur;379
+381;2;Dilatation intraluminale et pose de prothèse d'artère du membre supérieur;379
+382;3;Désobstruction d'artère du membre supérieur;379
+383;4;Pontage d'artère du membre supérieur;379
+384;5;Résection-anastomose d'artère du membre supérieur;379
+385;6;Reconstruction et remplacement d'artère du membre supérieur;379
+386;7;Occlusion d'artère du membre supérieur;379
+387;8;Chimiothérapie anticancéreuse intraartérielle au membre supérieur;379
+388;10;Autres actes thérapeutiques sur les troncs supraaortiques;328
+389;11;Actes thérapeutiques sur l'aorte abdominale et les artères iliaque commune et ilaque externe;328
+390;1;Suture de plaie de l'aorte abdominale et des artères iliaque commune et iliaque externe;389
+391;2;Dilatation intraluminale de l'aorte abdominale et des artères iliaque commune et iliaque externe;389
+392;3;Désobstruction de l'aorte abdominale et des artères iliaque commune et iliaque externe;389
+393;4;Pontage de l'aorte abdominale et de l'artère iliaque commune;389
+394;5;Mise à plat d'anévrisme et remplacement de l'aorte abdominale et de l'artère iliaque commune;389
+395;6;Résection-anastomose et remplacement de l'aorte abdominale et de l'artère iliaque commune;389
+396;7;Ablation de prothèse de l'aorte abdominale;389
+397;8;Pose d'endoprothèse dans l'aorte abdominale et l'artère iliaque commune;389
+398;9;Fermeture de fistule aortique abdominale;389
+399;10;Autres actes thérapeutiques sur l'aorte abdominale et les artères iliaque commune et iliaque externe;389
+400;12;Actes thérapeutiques sur les artères digestives;328
+401;1;Suture de plaie des artères digestives;400
+402;2;Dilatation intraluminale des artères digestives;400
+403;3;Désobstruction des artères digestives;400
+404;4;Remplacement et réimplantation des artères digestives;400
+405;5;Pose d'endoprothèse couverte dans les artères digestives;400
+406;6;Occlusion des artères digestives;400
+407;7;Chimiothérapie anticancéreuse intraartérielle hépatique;400
+408;8;Autres actes thérapeutiques sur les artères digestives;400
+409;13;Actes thérapeutiques sur l'artère rénale;328
+410;1;Suture de plaie de l'artère rénale;409
+411;2;Dilatation intraluminale de l'artère rénale;409
+412;3;Désobstruction de l'artère rénale;409
+413;4;Revascularisation rénale;409
+414;5;Occlusion de l'artère rénale;409
+415;6;Chimiothérapie anticancéreuse intraartérielle rénale;409
+416;7;Autres actes thérapeutiques sur l'artère rénale;409
+417;14;Actes thérapeutiques sur l'artère iliaque interne [hypogastrique] et les branches extradigestives de l'aorte abdominale;328
+418;1;Dilatation intraluminale de l'artère iliaque interne;417
+419;2;Désobstruction de l'artère iliaque interne;417
+420;3;Occlusion de l'artère iliaque interne;417
+421;4;Anastomose de branche de l'artère iliaque interne;417
+422;5;Autres actes thérapeutiques sur l'artère iliaque interne;417
+423;15;Actes thérapeutiques sur les artères du membre inférieur;328
+424;1;Suture de plaie d'artère du membre inférieur;423
+425;2;Dilatation intraluminale et pose de prothèse d'artère du membre inférieur;423
+426;3;Désobstruction d'artère du membre inférieur;423
+427;4;Pontage d'artère du membre inférieur;423
+428;5;Ablation de prothèse artérielle du membre inférieur;423
+429;6;Occlusion d'artère du membre inférieur;423
+430;7;Chimiothérapie anticancéreuse intraartérielle au membre inférieur;423
+431;8;Autres actes thérapeutiques sur les artères du membre inférieur;423
+432;16;Autres actes thérapeutiques sur les artères;328
+433;1;Dilatation intraluminale de pontage artériel des membres;432
+434;2;Désobstruction de pontage artériel des membres;432
+435;3;Autres actes thérapeutiques sur les artères;432
+436;4;ACTES THÉRAPEUTIQUES SUR LES VEINES;249
+437;1;Actes thérapeutiques sur les veines cervicocéphaliques et les veines du membre supérieur;436

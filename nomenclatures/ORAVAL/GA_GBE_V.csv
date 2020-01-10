@@ -1,0 +1,11 @@
+BEN_GEN_COD;BEN_GEN_LIB;TEC_COL
+1;Invitations grippeA issues des régimes, pour lequel l'utilisateur est un homme;0
+2;Invitations grippeA issues des régimes, pour lequel l'utilisateur est une femme;0
+3;Invitations grippeA saisies sur le site ameli-coupon, pour lequel l'utilisateur a indiqué qu'il s'agit d'un homme;0
+4;Invitations grippeA saisies sur le site ameli-coupon, pour lequel l'utilisateur a indiqué qu'il s'agit d'une femme;0
+5;Homme migrant de passage;0
+6;Femme migrant de passage;0
+7;Homme NIR provisoire;0
+8;Femme NIR provisoire;0
+9;NIR doublon technique (quand même NIR présent dans même BDO);0
+0;Code inconnu;1

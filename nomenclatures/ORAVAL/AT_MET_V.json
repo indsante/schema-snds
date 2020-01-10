@@ -1,0 +1,35 @@
+{
+    "fields": [
+        {
+            "name": "SIN_ACT_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "SIN_ACT_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "SIN_ACT_TYP",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_MET_V",
+    "title": "profession en AT et MP ( version 11 Orphée) en CHAR(10) ( MAJ à contrôler, parmi 58 tables Orphée)",
+    "primaryKey": [
+        "SIN_ACT_COD",
+        "SIN_ACT_TYP"
+    ]
+}

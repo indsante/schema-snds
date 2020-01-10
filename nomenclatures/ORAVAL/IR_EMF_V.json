@@ -1,0 +1,37 @@
+{
+    "fields": [
+        {
+            "name": "TYT_COD",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "EMT_NUM",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "EMT_ORD",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "EMT_ORD_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "primaryKey": ["TYT_COD", "EMT_NUM", "EMT_ORD"],
+    "name": "IR_EMF_V",
+    "title": "Nomenclature des émetteurs fins"
+}

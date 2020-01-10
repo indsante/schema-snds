@@ -1,0 +1,21 @@
+{
+    "fields": [
+        {
+            "name": "ENT_TYP",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "ENR_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "primaryKey": "ENR_COD",
+    "name": "MS_ENT_ENR_C",
+    "title": "Compatibilité mode d Entrée du champ - type d Enregistrement"
+}

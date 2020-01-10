@@ -1,0 +1,14 @@
+SIN_VAL_COD;SIN_VAL_LIB;SIN_GRP_COD;TEC_COL
+0;En cours;1;0
+1;Rejet;2;0
+2;Remis en cours;1;0
+3;Non imputable (apprentis, eleves);1;0
+4;Non imputable (decision contentieuse);1;0
+5;AT/rente fractionnee (ETT et EUT region);1;0
+6;AT/rente fractionnee (ETT region, EUT hors region);1;0
+7;DAT hors region (suite a avis CPAM);2;0
+8;DAT avec numero de sinistre modifié;2;0
+9;Fusion DAT;2;0
+A;AT/rente fractionnee (ETT hors region, EUT region);1;0
+B;AT/rente fractionnee  EUT  (ETT et EUT region);1;0
+I;Valeur inconnue;1;1

@@ -1,0 +1,30 @@
+CPT_GLF_COD;CPT_LVE_COD;CPT_GLF_LIB;TEC_COL
+21H;11;Prestations ASS;0
+11A;11;Honoraires Medicaux;0
+11B;11;Honoraires Paramedicaux;0
+11C;11;Honoraires dentaires;0
+11D;11;Honoraires du secteur public;0
+11G;11;Forfaits option et contrat conv.;0
+11H;11;Honoraires Autres professionnels sante;0
+11J;11;Biologie et prelevements;0
+11K;11;Medicaments;0
+11L;11;Produits humains;0
+11M;11;Appareils et materiels de traitement;0
+11N;11;Optique medicale;0
+11P;11;Ortheses et protheses externes;0
+11Q;11;Protheses internes;0
+11R;11;Vehicules pour handicapes physiques;0
+11S;11;Autres frais;0
+11T;11;Transports;0
+11U;11;Autres Prestations en nature;0
+11V;11;Prestations en especes;0
+12A;12;Etablissements sanitaires publics;0
+12B;12;Etablissements medico-sociaux;0
+12C;12;Cliniques privees;0
+12D;12;Experimentations;0
+21A;21;Prestations Maternite en especes;0
+21B;21;Incapacite permanente;0
+21C;21;Autres charges techniques AT;0
+21D;21;Prestations Invalidite;0
+21G;21;Prestations Deces;0
+999;99;Inconnue;1

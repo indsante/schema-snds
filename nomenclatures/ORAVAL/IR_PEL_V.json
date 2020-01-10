@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "PEL_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "PEL_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_PEL_V",
+    "title": "\"\"\"Indicateur \"\"\"\"Prescription en ligne\"\"\"\"\"\"\"",
+    "primaryKey": [
+        "PEL_COD"
+    ]
+}

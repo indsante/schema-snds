@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "ATT_MOI",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "ATT_MOI_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_MOI_V",
+    "title": "Mois - DM ATMP",
+    "primaryKey": [
+        "ATT_MOI"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "VIC_NNI_NIR",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "VIC_NNI_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_NNI_V",
+    "title": "TOP NIR ou NNP de la victime ( code alpha ) ( version 11 Orphée)",
+    "primaryKey": [
+        "VIC_NNI_NIR"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "DEM_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "DEM_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_DEM_V",
+    "title": "Options Démographie",
+    "primaryKey": [
+        "DEM_COD"
+    ]
+}

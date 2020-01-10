@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "MED_EXP_TOP",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "MED_EXP_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "RM_EXP_V",
+    "title": "top exception",
+    "primaryKey": [
+        "MED_EXP_TOP"
+    ]
+}

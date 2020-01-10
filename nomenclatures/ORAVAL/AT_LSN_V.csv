@@ -1,0 +1,39 @@
+LSN_LES_COD;LSN_LES_LIB;TEC_COL
+000;Nature de la blessure inconnue ou non précisée;0
+011;Blessures superficielles;0
+012;Plaies ouvertes;0
+019;Autres types de plaies et de blessures superficielles;0
+021;Fractures fermées;0
+022;Fractures ouvertes;0
+029;Autres types de fractures osseuses;0
+031;Luxations et sub-luxations;0
+032;Entorses et foulures;0
+039;Autres types de luxations, d'entorses et de foulures;0
+040;Amputations traumatiques (perte de parties du corps);0
+051;Commotions et traumatismes internes;0
+052;Traumatismes internes;0
+059;Autres types de commotions et de traumatismes internes;0
+061;Brûlures et brûlures par exposition à un liquide bouillant (thermiques);0
+062;Brûlures chimiques (corrosions);0
+063;Gelures;0
+069;Autres types de brûlures, de brûlures par exposition à un liquide bouillant et de gelures;0
+071;Empoisonnements aigus;0
+072;Infections aiguës;0
+079;Autres types d'empoisonnements et d'infections;0
+081;Asphyxies;0
+082;Noyades et submersions non mortelles;0
+089;Autres types de noyades et d'asphyxies;0
+091;Perte auditive aiguë;0
+092;Effets de la pression (barotrauma);0
+099;Autres effets du bruit, des vibrations et de la pression;0
+101;Chaleur et coups de soleil;0
+102;Effets des radiations (non thermiques);0
+103;Effets du froid;0
+109;Autres effets des extrêmes de température, de la lumière et des radiations;0
+111;Chocs consécutifs à des agressions et menaces;0
+112;Chocs traumatiques;0
+119;Autres types de chocs;0
+120;Blessures multiples;0
+999;Autres blessures déterminées non classées sous d'autres rubriques;0
+III;Valeur inconnue;1
+XXX;Sans objet;2

@@ -1,0 +1,27 @@
+{
+    "fields": [
+        {
+            "name": "TRC_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "TRC_CNX_NB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "primaryKey": "TRC_COD",
+    "name": "PX_TRC_V",
+    "title": "tranches de connexions"
+}

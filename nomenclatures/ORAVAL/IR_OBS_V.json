@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "BDG_OBS_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "BDG_OBS_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_OBS_V",
+    "title": "Code Observation",
+    "primaryKey": [
+        "BDG_OBS_COD"
+    ]
+}

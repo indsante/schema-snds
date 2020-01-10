@@ -1,0 +1,38 @@
+LES_LES_SIE;LES_SIE_LIB;TEC_COL
+00;Localisation de la blessure non déterminée;0
+10;Non précisé;0
+11;Tête (caput), cerveau, nerfs crâniens et vaisseaux cérébraux;0
+12;Zone faciale;0
+13;OEil / yeux;0
+14;Oreille(s);0
+15;Dentition;0
+18;Tête, multiples endroits affectés;0
+19;Autres parties de la tête;0
+21;Cou, y compris colonne vertébrale et vertèbres du cou;0
+29;Autres parties du cou;0
+31;Dos, y compris colonne vertébrale et vertèbres du dos;0
+39;Autres parties du dos;0
+41;Cage thoracique, côtes y compris omoplates et articulations;0
+42;Poitrine, y compris organes;0
+43;Abdomen et pelvis, y compris organes;0
+48;Torse, multiples endroits affectés;0
+49;Autres parties du torse;0
+51;Épaule et articulations de l'épaule;0
+52;Bras, y compris coude;0
+53;Main;0
+54;Doigt(s);0
+55;Poignet;0
+58;Membres supérieurs, multiples endroits affectés;0
+59;Autres parties des membres supérieurs;0
+61;Hanche et articulation de la hanche;0
+62;Jambe, y compris genou;0
+63;Cheville;0
+64;Pied;0
+65;Orteil(s);0
+68;Membres inférieurs, multiples endroits affectés;0
+69;Autres parties des membres inférieurs;0
+71;Ensemble du corps (effets systémiques);0
+78;Multiples endroits du corps affectés;0
+99;Autres parties du corps blessées;0
+IIIIIIIIII;Valeur inconnue;1
+XXXXXXXXXX;Sans objet;2

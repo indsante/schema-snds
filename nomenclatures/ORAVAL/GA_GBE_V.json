@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "BEN_GEN_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "BEN_GEN_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "GA_GBE_V",
+    "title": "Genre du bénéficiaire",
+    "primaryKey": [
+        "BEN_GEN_COD"
+    ]
+}

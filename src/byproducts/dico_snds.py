@@ -15,8 +15,8 @@ import pandas as pd
 from tableschema import Schema, Table
 
 from src.constants import DICO_SNDS_DIR, NO_NOMENCLATURE, DATE_CREATED, DATE_DELETED, DATE_MISSING, \
-    NOMENCLATURE, TYPE_ORACLE, NOMENCLATURES_DICO_SNDS_DIR, NOMENCLATURES_DIR, ROOT_DIR
-from src.utils import get_all_schema, get_all_nomenclatures_csv_schema_path
+    NOMENCLATURE, TYPE_ORACLE, NOMENCLATURES_DIR, ROOT_DIR
+from src.utils import get_all_schema, get_all_nomenclatures_csv_schema_path, get_used_nomenclatures
 
 DICO_EDGES_CSV = "snds_links.csv"
 DICO_NODES_CSV = "snds_nodes.csv"
@@ -62,8 +62,10 @@ def generate_dico_snds(work_dir):
 
 
 def cp_nomenclatures(work_dir):
+    used_nomenclatures = get_used_nomenclatures(work_dir)
+
     rooted_nomenclatures_dir = pjoin(work_dir, NOMENCLATURES_DIR)
-    rooted_nomenclatures_dico_snds_dir = pjoin(work_dir, NOMENCLATURES_DICO_SNDS_DIR)
+    rooted_nomenclatures_dico_snds_dir = pjoin(work_dir, DICO_SNDS_DIR, NOMENCLATURES_DIR)
     logging.info(" - copy the csv in {} subdirectories into {}".format(
         rooted_nomenclatures_dir,
         rooted_nomenclatures_dico_snds_dir
@@ -71,13 +73,15 @@ def cp_nomenclatures(work_dir):
     os.makedirs(rooted_nomenclatures_dico_snds_dir, exist_ok=True)
     for root, dirs, files in os.walk(rooted_nomenclatures_dir):
         for file in files:
-            source_file_path = pjoin(root, file)
-            target_file_path = pjoin(rooted_nomenclatures_dico_snds_dir, file)
-            if source_file_path.endswith('.csv'):
+            if file.endswith('.csv') and file[:-4] in used_nomenclatures:
+                source_file_path = pjoin(root, file)
+                target_file_path = pjoin(rooted_nomenclatures_dico_snds_dir, file)
                 copyfile(source_file_path, target_file_path)
 
 
 def table_schema_to_snds_nomenclatures(work_dir):
+    used_nomenclatures = get_used_nomenclatures(work_dir)
+
     logging.info(" - create a table with all nomenclatures title's : {}".format(DICO_NOMENCLATURES_CSV))
     nomenclature_dict = defaultdict(set)
     for schema in get_all_schema(work_dir):
@@ -92,12 +96,15 @@ def table_schema_to_snds_nomenclatures(work_dir):
     nomenclature_list = []
     for csv_path, schema_path in get_all_nomenclatures_csv_schema_path(pjoin(work_dir, NOMENCLATURES_DIR)):
         schema = Schema(schema_path)
+        nomenclature = schema.descriptor['name']
+        if nomenclature not in used_nomenclatures:
+            continue
+
         table = Table(csv_path, schema=schema_path)
         n_rows = 0
         for row in table.iter():
             n_rows += 1
 
-        nomenclature = schema.descriptor['name']
         variables_liees = ', '.join(sorted(list(nomenclature_dict[nomenclature])))
         if not variables_liees:
             variables_liees = 'Aucune variable liée'
@@ -242,5 +249,6 @@ def create_join_str(source_fields: Union[str, List[str]], referenced_fields: Uni
 
 
 if __name__ == '__main__':
-    table_schema_to_snds_variables(ROOT_DIR)
+    cp_nomenclatures(ROOT_DIR)
+    # table_schema_to_snds_variables(ROOT_DIR)
     # generate_dico_snds(ROOT_DIR)

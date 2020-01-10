@@ -1,0 +1,32 @@
+{
+    "fields": [
+        {
+            "name": "ETB_CAT_RG2",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "ETB_CAT_RG3",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "ETB_CR2_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "primaryKey": "ETB_CAT_RG2",
+    "name": "IR_CE2_V",
+    "title": "Regroupement 2 des Catégories d'établissement"
+}

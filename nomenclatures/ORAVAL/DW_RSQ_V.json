@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "RSQ_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "RSQ_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "DW_RSQ_V",
+    "title": "nature de risque     ( projet GRECOT )",
+    "primaryKey": [
+        "RSQ_COD"
+    ]
+}

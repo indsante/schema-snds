@@ -1,0 +1,42 @@
+RGP_COD;RGP_LIB
+ACO;Acte d obstetrique
+ADA;Acte d anesthesie
+ADC;Actes de chirurgie
+ADE;Acte d echographie
+ADI;Acte d imagerie
+ATM;Acte technique medical
+AXI;Actes de Prophylaxie et Prévention
+BR1;Bridge RAC modéré
+CAM;Code Interne
+CM0;Prothèse fixe métallique RAC 0
+CT0;Couronne transitoire RAC 0
+CT1;Couronne transitoire RAC modéré
+CZ0;Couronne zircone RAC 0
+CZ1;Couronne zircone RAC modéré
+DEN;Acte dentaire
+END;actes d endodontie
+IC0;Inlay core RAC 0
+IC1;Inlay core RAC modéré
+ICO;Inlay-core Tarif libre
+IMP;Pose d implants ou de matériel pour implantologie
+IN1;Inlay onlay RAC modéré
+INO;Actes Inlay-Onlay Tarif libre
+PA0;Prothèse amovible RAC 0
+PA1;Prothèse amovible RAC modéré
+PAM;Prothèse amovible métallique Tarif libre
+PAR;Prothèse amovible résine Tarif libre
+PDT;Couronne transitoire Tarif libre
+PF0;Prothèse fixe RAC 0
+PF1;Prothèse fixe RAC modéré
+PFC;Prothèse fixe céramique Tarif libre
+PFM;Prothèse fixe métallique Tarif libre
+PT0;Prothèse amovible de transition RAC 0
+RA0;Réparation Adjonction RAC 0
+RE1;Réparation prothèse RAC modéré
+RF0;Réparation facette prothèse amovible RAC 0
+RPN;Réparation prothèse Tarif libre
+RS0;Réparation prothèse adjointe simple RAC 0
+SDE;Soins Dentaires
+SU0;Supplément prothèse résine RAC 0
+SU1;Supplément prothèse métallique RAC modéré
+TDS;Parodontologie (actes sur tissus de soutien de la dent)

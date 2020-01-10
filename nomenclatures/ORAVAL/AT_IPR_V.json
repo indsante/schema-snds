@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "TA3_RGP_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "TA3_RGP_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_IPR_V",
+    "title": "Regroupements des taux d IPP - DM ATMP",
+    "primaryKey": [
+        "TA3_RGP_COD"
+    ]
+}

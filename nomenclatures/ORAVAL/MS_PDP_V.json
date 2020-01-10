@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "PDP_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "PDP_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "MS_PDP_V",
+    "title": "Position du Diagnostic Principal",
+    "primaryKey": [
+        "PDP_COD"
+    ]
+}

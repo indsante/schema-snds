@@ -1,0 +1,20 @@
+IND_FOR;IND_FOR_LIB;TEC_COL
+A;Saisie ou prolongation exo ALD;0
+D;Modification période ou garanties de la complémentaire;0
+G;D + S;0
+H;N + S;0
+III;Valeur inconnue;1
+I;A + D;0
+J;A + N;0
+M;Modification de la date de fin de droits à l'exo mat;0
+N;Saisie ou modification du numéro de mutuelle;0
+O;D + M;0
+P;M + N;0
+R;M + S;0
+S;Saisie ou prolongation droits à complémentaire;0
+T;Modification table parcours de soins;0
+U;Modification d'une table régimes à taux particuliers;0
+W;Modification d'une table nature d'assurance AT ou accidents vie privée;0
+Y;Tiers Payant RO malgré droits de base fermés;0
+ZZZ;Sans objet;2
+Z;Modification d'une table liée à la nature d'assurance SMG (CNMSS);0

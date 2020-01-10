@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "ARC_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "ARC_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_ARC_V",
+    "title": "Options Archivage",
+    "primaryKey": [
+        "ARC_COD"
+    ]
+}

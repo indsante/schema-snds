@@ -1,0 +1,21 @@
+{
+    "fields": [
+        {
+            "name": "CPT_EXC_RTC",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "primaryKey": "CPT_EXC_RTC",
+    "name": "IR_EXR_V",
+    "title": "Exercice de Rattachement ( MAJ annuelle à contrôler , à faire dans l'année )"
+}

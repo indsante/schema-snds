@@ -1,0 +1,34 @@
+{
+    "fields": [
+        {
+            "name": "CPT_LFS_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "CPT_LLD_COD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "CPT_LFS_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_LFS_V",
+    "title": "Postes LFSS",
+    "primaryKey": [
+        "CPT_LFS_COD"
+    ]
+}

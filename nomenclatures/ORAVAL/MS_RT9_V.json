@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "RET_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "RET_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "MS_RT9_V",
+    "title": "Resultat du groupage (version de groupage_CMD_GHM_Code retour) RT9",
+    "primaryKey": [
+        "RET_COD"
+    ]
+}

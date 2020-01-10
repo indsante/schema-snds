@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "PFS_MEP_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "PFS_MEP_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_MEP_V",
+    "title": "Mode d'exercice Particulier (Omnipraticiens)",
+    "primaryKey": [
+        "PFS_MEP_COD"
+    ]
+}

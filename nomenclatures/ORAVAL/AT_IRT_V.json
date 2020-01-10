@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "PCE_RIC_IND",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "RIC_IND_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_IRT_V",
+    "title": "Indicateur Rente / indemnité en capital",
+    "primaryKey": [
+        "PCE_RIC_IND"
+    ]
+}

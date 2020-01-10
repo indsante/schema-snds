@@ -1,0 +1,66 @@
+TLY_LIE_COD;TLY_LIE_LIB;TEC_COL
+000;Pas d'information;0
+010;Site industriel - Non précisé;0
+011;Lieu de production, usine, atelier;0
+012;Aire de maintenance, atelier de réparation;0
+013;Lieu dédié principalement au stockage, chargement, déchargement;0
+019;Autre Type de lieu connu du groupe 010 mais non listé ci-dessus;0
+020;Chantier, construction, carrière, mine à ciel ouvert - Non précisé;0
+021;Chantier - bâtiment en construction;0
+022;Chantier - bâtiment en démolition, en rénovation, entretien;0
+023;Carrière, mine à ciel ouvert, excavation, tranchée (y compris les mines à ciel ouvert et carrière en exploitation;0
+024;Chantier - souterrain;0
+025;Chantier - sur l'eau;0
+026;Chantier - en milieu hyperbare;0
+029;Autre Type de lieu connu du groupe 020 mais non listé ci-dessus;0
+030;Lieu pour l'agriculture, l'élevage, la pisciculture, zone forestière - Non précisé;0
+031;Lieu d'élevage;0
+032;Lieu agricole - culture du sol;0
+033;Lieu agricole - culture sur arbre, arbuste;0
+034;Zone forestière;0
+035;Zone piscicole, pêche, aquaculture (pas sur un bateau);0
+036;Jardin, parc, jardin floral, parc zoologique;0
+039;Autre Type de lieu connu du groupe 030 mais non listé ci-dessus;0
+040;Lieu d'activité tertiaire, bureau, divertissement, divers - Non précisé;0
+041;Bureau, salle de réunion, bibliothèque, etc.;0
+042;Établissement d'enseignement, école, lycée, collège, université, crèche, garderie;0
+043;Lieu de vente, petit ou grand (y compris la vente dans la rue);0
+044;Restaurant, lieu récréatif, lieu d'hébergement (y compris musée, lieu de spectacle, foire.;0
+049;Autre Type de lieu connu du groupe 040 mais non listé ci-dessus;0
+050;Établissement de soins - Non précisé;0
+051;Établissement de soins, clinique, hôpital, nurserie;0
+059;Autre Type de lieu connu du groupe 050 mais non listé ci-dessus;0
+060;Lieu public - Non précisé;0
+061;Lieu ouvert en permanence au déplacement du public (voies d'accès, de circulatio;0
+062;Moyen de transport terrestre: route, rail - privé ou public (quel qu'il soit:;0
+063;Zone connexe aux lieux publics à accès réservé au personnel autorisé: voie de ch;0
+069;Autre Type de lieu connu du groupe 060 mais non listé ci-dessus;0
+070;Domicile - Non précisé;0
+071;Domicile privé;0
+072;Parties communes, annexes, jardin attenant privé;0
+079;Autre Type de lieu connu du groupe 070 mais non listé ci-dessus;0
+080;Lieu d'activité sportive - Non précisé;0
+081;En intérieur - salle d'activité sportive, gymnase, piscine couverte;0
+082;En extérieur - terrain de sport, piscine, piste de ski;0
+089;Autre Type de lieu connu du groupe 080 mais non listé ci-dessus;0
+090;En l'air, en hauteur - à l'exclusion des chantiers - Non précisé;0
+091;En hauteur - sur un plan fixe (toiture, terrasse...);0
+092;En hauteur - mât, pylône, plate-forme suspendue;0
+093;En l'air - à bord d'un aéronef, etc.;0
+099;Autre Type de lieu connu du groupe 090, à l'exclusion des chantiers, mais non listé ci-dessus;0
+100;Sous terre - à l'exclusion des chantiers - Non précisé;0
+101;Sous terre - tunnel (route, train, métro, etc.);0
+102;Sous terre - mine;0
+103;Sous terre - égout;0
+109;Autre Type de lieu connu du groupe 100, à l'exclusion des chantiers, non listé ci-dessus;0
+110;Sur l'eau - à l'exclusion des chantiers - Non précisé;0
+111;Mer ou océan - à bord de tout type de vaisseau, plate-forme, navire, bateau, barge;0
+112;Lac, rivière, fleuve, port - à bord de tout type de vaisseau, plate-forme, navire, bateau, barge;0
+119;Autre Type de lieu connu du groupe 110, à l'exclusion des chantiers, mais non listé ci-dessus;0
+120;En milieu hyperbare - à l'exclusion des chantiers - Non précisé;0
+121;En milieu hyperbare - sous l'eau (plongée...);0
+122;En milieu hyperbare - caisson;0
+129;Autre Type de lieu connu du groupe 120, à l'exclusion des chantiers, mais non listé ci-dessus;0
+999;Autre Type de lieu non listé dans cette classification;0
+III;Valeur inconnue;1
+XXX;Sans objet;2

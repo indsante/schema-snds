@@ -1,0 +1,34 @@
+{
+    "fields": [
+        {
+            "name": "TA3_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "TA3_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TA3_RGP_COD",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_TAU_V",
+    "title": "Taux - DM ATMP",
+    "primaryKey": [
+        "TA3_COD"
+    ]
+}

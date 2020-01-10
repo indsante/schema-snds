@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "ATM_MTF_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "ATM_MTF_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_MAM_V",
+    "title": "Code motif alineas MP",
+    "primaryKey": [
+        "ATM_MTF_COD"
+    ]
+}

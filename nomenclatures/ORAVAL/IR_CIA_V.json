@@ -1,0 +1,34 @@
+{
+    "fields": [
+        {
+            "name": "AFF_PEN_CAT",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "INV_PEN_CAT",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "AFF_PEN_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_CIA_V",
+    "title": "Catégorie Affinée de Pension d'Invalidité",
+    "primaryKey": [
+        "AFF_PEN_CAT"
+    ]
+}

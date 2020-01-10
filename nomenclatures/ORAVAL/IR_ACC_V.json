@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "ACC_PRS_IND",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "ACC_PRS_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_ACC_V",
+    "title": "Indication accident",
+    "primaryKey": [
+        "ACC_PRS_IND"
+    ]
+}

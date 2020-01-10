@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "CUR_CUR_VIL",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "CUR_VIL_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_VIL_V",
+    "title": "ville de la cure thermale.",
+    "primaryKey": [
+        "CUR_CUR_VIL"
+    ]
+}

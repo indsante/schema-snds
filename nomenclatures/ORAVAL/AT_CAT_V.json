@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "SEE_TRF_CAT",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "SEE_CAT_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_CAT_V",
+    "title": "Catégorie de Tarification",
+    "primaryKey": [
+        "SEE_TRF_CAT"
+    ]
+}

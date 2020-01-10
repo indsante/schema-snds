@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "COD_PHA",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "PHA_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "MS_PHA_V",
+    "title": "Phase de l'acte CCAM",
+    "primaryKey": [
+        "COD_PHA"
+    ]
+}

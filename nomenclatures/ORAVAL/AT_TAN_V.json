@@ -1,0 +1,34 @@
+{
+    "fields": [
+        {
+            "name": "PRS_ANO_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "RAN_COD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "PRS_ANO_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_TAN_V",
+    "title": "Type d'Anomalie / Signalement / Rejet ( en AT )",
+    "primaryKey": [
+        "PRS_ANO_COD"
+    ]
+}

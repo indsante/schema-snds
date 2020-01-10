@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "RAT_FIE_MOD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "RAT_FIE_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_MRC_V",
+    "title": "Mode de récupération",
+    "primaryKey": [
+        "RAT_FIE_MOD"
+    ]
+}

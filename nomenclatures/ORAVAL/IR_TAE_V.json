@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "ETB_ACT_TYP",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "ETB_ACT_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_TAE_V",
+    "title": "Type d'activité établissement",
+    "primaryKey": [
+        "ETB_ACT_TYP"
+    ]
+}

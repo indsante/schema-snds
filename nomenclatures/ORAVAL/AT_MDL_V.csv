@@ -1,0 +1,47 @@
+MDL_BLE_COD;MDL_BLE_LIB;TEC_COL
+00;Non renseigné;0
+10;Contact avec courant électrique, température, substance dangereuse - Non précisé;0
+11;Contact indirect avec un arc électrique, foudre (passif);0
+12;Contact direct avec l'électricité, recevoir une décharge électrique dans le corps;0
+13;Contact avec flamme nue ou objet, environnement - chaud ou en feu;0
+14;Contact avec objet, environnement - froid ou glacé;0
+15;Contact avec des substances dangereuses - via nez, bouche, par inhalation de;0
+20;Noyade, ensevelissement, enveloppement - Non précisé;0
+21;Noyade dans liquide;0
+22;Ensevelissement sous solide;0
+23;Enveloppement par, entouré de gaz ou de particules en suspension;0
+29;Autre Contact - Modalité de la blessure connu du groupe 20 mais non listé ci-dessus;0
+30;Écrasement en mouvement vertical ou horizontal sur, contre un objet immobile (la victime est  en mouvement) - Non précisé;0
+31;Mouvement vertical, écrasement sur, contre (résultat d'une chute);0
+32;Mouvement horizontal, écrasement sur, contre;0
+39;Autre Contact - Modalité de la blessure connu du groupe 30 mais non listé ci-dessus;0
+40;Heurt par objet en mouvement, collision avec - Non précisé;0
+41;Heurt - par objet projeté;0
+42;Heurt - par objet qui chute;0
+43;Heurt - par objet en balancement;0
+44;Heurt par objet y compris les véhicules - en rotation, mouvement, déplacement;0
+45;Collision avec un objet y compris les véhicules - collision avec une personne (la victime est en mouvement);0
+49;Autre Contact - Modalité de la blessure connu du groupe 40 mais non listé ci-dessus;0
+50;Contact avec Agent matériel coupant, pointu, dur, rugueux - Non précisé;0
+51;Contact avec Agent matériel coupant (couteau, lame);0
+52;Contact avec Agent matériel pointu (clou, outil acéré);0
+53;Contact avec Agent matériel dur ou rugueux;0
+59;Autre Contact - Modalité de la blessure connu du groupe 50 mais non listé ci-dessus;0
+60;Coincement, écrasement, etc. - Non précisé;0
+61;Coincement, écrasement - dans;0
+62;Coincement, écrasement - sous;0
+63;Coincement, écrasement - entre;0
+64;Arrachement, sectionnement d'un membre, d'une main, d'un doigt;0
+69;Autre Contact - Modalité de la blessure connu du groupe 60 mais non listé ci-dessus;0
+70;Contrainte physique du corps, contrainte psychique - Non précisé;0
+71;Contrainte physique - sur le système musculo-squelettique;0
+72;Contrainte physique - causée par des radiations, par le bruit, la lumière, la pression;0
+73;Contrainte psychique, choc mental;0
+79;Autre Contact - Modalité de la blessure connu du groupe 70 mais non listé ci-dessus;0
+80;Morsure, coup de pied, etc., (animal ou humain) - Non précisé;0
+81;Morsure;0
+82;Piqûre par un insecte, un poisson;0
+83;Coup, coup de pied, coup de tête, étranglement;0
+89;Autre contact - modalité de la blessure connu du groupe 80 mais non listé ci-dessus;0
+II;Valeur inconnue;1
+XX;Sans objet;2

@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "BEN_FIC_NIR",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "BEN_FIC_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "GA_TNI_V",
+    "title": "Top NIR fictif",
+    "primaryKey": [
+        "BEN_FIC_NIR"
+    ]
+}

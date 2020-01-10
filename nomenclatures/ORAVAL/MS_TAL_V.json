@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "TAL_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "TAL_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "MS_TAL_V",
+    "title": "Type d'autorisation de lit dédié fréquenté par le patient",
+    "primaryKey": [
+        "TAL_COD"
+    ]
+}

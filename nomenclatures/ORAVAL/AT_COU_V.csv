@@ -1,0 +1,738 @@
+COU_COD;COU_LIB;TEC_COL
+Not_cons_dos_mp_nll_emp_r;(*)Info. EMP consultation dossier NLL MP;0
+Not_cons_dos_mp_nll_emp;(*)Info. EMP consultation dossier NLL MP;0
+not_cons_dos_mp_nll_vic;(*)Notif. Vic RPEC MP Suite CRRMP;0
+not_cons_dos_mp_rch_vic;(*)Notif. Vic RPEC MP Suite CRRMP;0
+Not_cons_dos_mp_rec_emp_ls;(*)Info. LS Emp. Consultation Dossier Rechute MP;0
+Not_cons_dos_mp_rec_emp_r;(*)Info. EMP. Consultation dossier rechute MP;0
+Not_cons_dos_mp_rec_emp;(*)Info. EMP. Consultation dossier rechute MP;0
+not_cons_dos_mp_vic;(*)Notif. Vic RPEC MP Suite CRRMP;0
+not_cssi_mc_ad;Notif. AD Conso. Séq. Non Ind. M.Conseil;0
+not_cssi_mc;Notif. Vic. Conso. Séq. Non Ind. M.Conseil;0
+not_cssi_mt_ad;Notif. AD Conso. Seq. Non Ind. M.Traitant;0
+not_cssi_mt;Notif. Vic. Conso. Seq. Non Ind. M.Traitant;0
+not_dec_ctx_san_emp;Notif. Emp. Décis. Suite Contest. Sanction;0
+not_del_cdc_at_ad;Notif. AD Délai Comp. CM Décès AT;0
+not_del_cdc_at_emp_ls;Notif. LS Emp. Délai Compl. CM Décès AT;0
+not_del_cdc_at_emp_r;Notif. Emp. Délai Compl. CM Décès AT;0
+not_del_cdc_at_emp;Notif. Emp. Délai Comp. CM Décès AT;0
+not_del_cdc_mp_ad;Notif. AD Délai Comp. CM Décès MP;0
+not_del_cdc_mp_emp_ls;Notif. LS Emp. Délai Compl. CM Décès MP;0
+not_del_cdc_mp_emp_r;Notif. Emp. Délai Compl. CM Décès MP;0
+not_del_cdc_mp_emp;Notif. Emp. Délai Comp. CM Décès MP;0
+not_del_cm_at_ad;Notif. AD Délai Comp Certif. RCH/Nlle Lés;0
+not_del_cm_at_emp_ls;(*)Notif. LS Emp. Délai Compl. Certif. RCH/NLL;0
+not_del_cm_at_emp_r;(*)Notif. Emp. Délai Comp. Certif. RCH/Nlle Lés;0
+not_del_cm_at_emp;Notif. Emp. Délai Comp. Certif. RCH/Nlle Lés;0
+not_del_cm_at_vic;Notif. Vic. Délai Comp. Certif. RCH/Nlle Lés;0
+not_del_cm_mp_ad;Notif. AD Délai Comp Certif. RCH/Nlle Lés MP;0
+not_del_cm_mp_emp_ls;(*)Notif. LS Emp. Délai Compl. Certif. RCH/NLL MP;0
+not_del_cm_mp_emp_r;(*)Notif. Emp. Délai Compl. Certif. RCH/NLL MP;0
+not_del_cm_mp_emp;Notif. Emp. Délai Comp. Certif. RCH/Nlle Lés MP;0
+not_del_cm_mp_vic;Notif. Vic. Délai Comp. Certif. RCH/Nlle Lés MP;0
+not_del_dat_ad;Notif. AD Délai Compl. DAT;0
+not_del_dat_dcd_emp_ls;Notif. LS Emp. Délai Compl. DAT;0
+not_del_dat_dcd_emp_r;Notif. Emp. Délai Compl. DAT;0
+not_del_dat_dcd_emp;Notif. Emp Délai Compl. DAT;0
+not_del_dat_emp_ls;Notif. LS Emp. Délai Compl. DAT;0
+not_del_dat_emp_r;Notif. Emp. Délai Compl. DAT;0
+not_del_dat_emp;Notif. Emp. Délai Compl. DAT;0
+not_del_dat_vic;Notif. Vic. Délai Compl. DAT;0
+not_del_dcd_dmp_ad;Notif. AD Délai Compl. DMP;0
+not_del_dcd_dmp_emp;Notif. Emp. Délai Compl. DMP;0
+not_del_dmp_emp_ls;Notif. LS Emp. Délai Compl. DMP;0
+not_del_dmp_emp_r;Notif. Emp. Délai Compl. DMP;0
+not_del_dmp_emp;Notif. Emp. Délai Compl. DMP;0
+not_del_dmp_vic;Notif. Vic. Délai Compl. DMP;0
+not_exp_def_ad;Notif. AD Expertise Défavorable;0
+not_exp_def_dmf;Notif. Vic. Expertise Défavorable DMF;0
+not_exp_def_hdelai;Notifier expertise defavorable hors delai;0
+not_exp_def;Notif. Vic. Expertise Défavorable;0
+not_exp_fav_ad;Notif. AD Expertise Favorable;0
+not_exp_fav_dmf;Notif. Vic. Expertise Favorable DMF;0
+not_exp_fav;Notif. Vic. Expertise Favorable;0
+not_gue_mc_ad;Notif. AD Guérison M. Conseil;0
+not_gue_mc;Notif. Vic. Guérison M. Conseil;0
+not_gue_mt_ad;Notif. AD Guérison M. Traitant;0
+not_gue_mt;Notif. Vic. Guérison M. Traitant;0
+not_gue_vih_abs_1t;Notif. Vic. - Guérison VIH - Absence 1er Test;0
+not_gue_vih_abs_suivi;Notif. Vic. - Guérison VIH - Absence Suivi;0
+not_gue_vih;Notif. Vic. - Guérison VIH;0
+not_lev_res_emp;Notif. Emp. - Levée Réserves;0
+not_lev_res_nll;Notif. Vic. - Levée Réserves NLL;0
+not_lev_res_vic;Notif. Vic. - Levée Réserves;0
+not_main_dmf_mc;Notif. Vic. Maintien DMF M. Conseil;0
+not_main_ref_adm_ad;Notif. AD Maintien Refus Adm.;0
+not_main_ref_adm_app;Notif. Vic. Maintien Refus Adm. Appareillage;0
+not_main_ref_adm_dcd;Notif. AD Maintien Refus Adm. Décès;0
+not_main_ref_adm_ep;Notif. Vic. Maintien Refus Adm. E.P.;0
+not_main_ref_adm_mp_ad;Notif. AD Maintien refus Adm. MP;0
+not_main_ref_adm_mp_dcd;Notif. AD Maintien Refus Adm. Décès MP;0
+not_main_ref_adm_mp;Notif. Vic. Maintien Refus Adm. MP;0
+not_main_ref_adm_vih;Notif. Vic. - Maintien Refus Adm. Sero conversion;0
+not_main_ref_adm;Notif. Vic. Maintien Refus Administratif;0
+not_pec_ad_apd;Notif. AD décision d'accord de PEC d'un AT mortel;0
+not_pec_ad;Notif. AD décision d'accord de PEC d'un AT mortel;0
+not_pec_dcd_apd;Notif. AD décision d'accord de PEC d'un décès;0
+not_pec_dcd_aut_apd;Notif. AD PEC Décès Suite Autopsie;0
+not_pec_dcd_aut;Notif. AD PEC Décès Suite Autopsie;0
+not_pec_dcd_emp;(*)Notif. Emp. PEC Décès;0
+not_pec_dcd;Not. AD d'une décision d'accord de PEC d'un décès;0
+not_pec_dc_emp_non_topé;Notif. EMPL . PEC DC ( employeur non topé);0
+not_pec_dc_emp_topé;Notif. EMPL . PEC DC ( employeur topé);0
+not_pec_emb_nontop;Notification PEC emp. réserv. non motiv. (pas topé;0
+not_pec_emb_top;Notification PEC emp. réserv. non motiv. (topé);0
+not_pec_emp;Notification PEC à l'employeur;0
+not_pec_mortel_ad;Notif. AD PEC Accident Mortel;0
+not_pec_mortel_aut_apd;Notif. AD PEC Mortel suite Autopsie;0
+not_pec_mortel_aut;Notif. AD PEC Mortel suite Autopsie;0
+Not_pec_mor_emp;Notif. EMP décision d'accord de PEC AT mortel;0
+not_pec_mp_2a_ad_apd;Notif. AD  PEC MP dans le cadre des tableaux;0
+not_pec_mp_2a_ad;Notif. AD  PEC MP dans le cadre des tableaux;0
+not_pec_mp_2a_emp;Notif. EMPL PEC MP dans le cadre des tableaux;0
+not_pec_mp_2a_vic_apd;Notif. VIC PEC MP dans le cadre des tableaux;0
+not_pec_mp_2a_vic;Notif. VIC PEC MP dans le cadre des tableaux;0
+not_pec_mp_crrmp_ad_apd;Notif. AD PEC  d'une MP après  CRRMP;0
+not_pec_mp_crrmp_ad;Notif. AD PEC  d'une MP après  CRRMP;0
+not_pec_mp_crrmp_emp;Notif.EMPL Pec d'une MP après CRRMP;0
+not_pec_mp_crrmp_vic_apd;Notif. VIC .Pec d'une MP après CRRMP;0
+not_pec_mp_crrmp_vic;Notif. VIC .Pec d'une MP après CRRMP;0
+not_pec_mp_dcd;Notif. AD PEC Décès MP;0
+not_pec_nll_emp_par;Notification EMPL PEC partielle NLL;0
+Not_pec_nll_emp;(*)Notif. EMPL PEC totale  NLL;0
+not_pec_nll;Notification d'accord  d'une PEC NLL;0
+not_pec_rch_emp;(*)Notif. Emp. PEC Rechute;0
+not_pec_rch_vic;Info.VIC accord de PEC d'une rechute;0
+Not_pec_rec_emp_b;Notif.accord de PEC d'une rechute;0
+not_pec_rec_partielle;Notif. EMP. PEC Rechute Partielle;0
+not_pec_rec_par_ad;Notif. AD PEC Rechute Partiellement;0
+not_pec_rec_par_vic;Notif. VIC PEC Rechute Partiellement;0
+not_pec_rec_totale;Notif. EMPL. PEC Rechute Totale;0
+not_pec_rec_tot_ad;Notif. AD PEC rechute en totalité;0
+not_pec_rec_tot_vic_apd;Notif VIC PEC rechute en totalité;0
+not_pec_rec_tot_vic;Notif.VIC PEC rechute en totalité;0
+not_pec_vic_apd;Notif. VIC décision de PEC;0
+not_pec_vic;Notif. VIC décision de PEC;0
+not_pec_vih;Notif. Vic. PEC VIH;0
+not_prop_gue_delai_vih;(*)Notif. Vic. - Prop. Guérison VIH Délai Dépassé;0
+not_prop_gue_vih;(*)Notif. Vic. - Propos. Guérison VIH;0
+not_rea_rch;Notif. Vic. Retour Etat Antérieur;0
+not_rec_res_emp_nm;Notif Emp.Recept.Reserves non motivées;0
+not_rec_res_emp;Notif. Emp. Recept. Reserves;0
+not_ref_abs_cm_hos;Notif. Vic Refus Absence Cert. Descrip. Hospit.;0
+not_ref_adm_app;Notif. Vic. Refus Adm. Appareillage;0
+not_ref_adm_attrmpdc_dcd_emp;Notif. EMPL. Refus administratif DC;0
+not_ref_adm_attrmp_dcd_emp;Notif. EMPL. Refus administratif AT/TR/MP;0
+not_ref_adm_at_ad;Notif. AD Refus Adm AT;0
+not_ref_adm_at_emp_apd;Notif . EMPL.Refus administratif AT (après décret);0
+not_ref_adm_at_emp;Notif. Emp. Refus Administratif;0
+not_ref_adm_at_mortel_ad;Notif. AD Refus Adm. AT Mortel;0
+not_ref_adm_at_vic;Notif. Vic. Refus AT;0
+not_ref_adm_dcd_aut;Notif. Refus Adm. Décès Renonc. Autopsie;0
+not_ref_adm_dcd_emp;Notif . EMPL. Refus Administratif Décés;0
+not_ref_adm_dcd_mp;Notif. AD Refus Adm Décès MP;0
+not_ref_adm_dcd;Notif. AD Refus Adm. Décès AT;0
+not_ref_adm_ep_vic;Notif. Vic. - Refus EP;0
+not_ref_adm_hep_gue;Notif. Vic. - Refus Adm.Hep - G + 1er Test Positif;0
+not_ref_adm_hep;(*)Notif. Vic. - Refus Adm. Hep - 1er Test Positif;0
+not_ref_adm_mortel_aut;Notif. AD Refus Adm. Sin. Mortel Renonc. Autopsie;0
+not_ref_adm_mp_2a_ad;Notif. AD Refus MP 2ème Alinéa;0
+not_ref_adm_mp_2a_emp_apd;Notif .EMPL refus administratif de PEC pour une MP;0
+not_ref_adm_mp_2a_emp;Notif .EMPL refus administratif de PEC pour une MP;0
+not_ref_adm_mp_2a_vic;Notif. VIC  refus administratif de PEC pour une MP;0
+not_ref_adm_mp_nins_emp;(*)Notif. Emp. - Refus M.P. Non Insc. Tab.;0
+not_ref_adm_mp_nins_vic;(*)Notif. Vic. - Refus M.P. Non Insc. Tab;0
+not_ref_adm_nll;Notif. Vic. - Refus Med. NLL;0
+not_ref_adm_rec_at_emp;Notif . EMPL. Refus Adm. Rech ou NLL AT;0
+not_ref_adm_tr_ad;Notif. AD Refus Adm Trajet;0
+not_ref_adm_tr_dcd;Notif. AD Refus Adm. Décès Trajet;0
+Not_ref_adm_tr_emp_apd;Notif.Emp. -refus Trajet;0
+not_ref_adm_tr_emp;Notif.Emp. -refus Trajet;0
+not_ref_adm_tr_mortel_ad;Notif. AD  Refus Adm. Trajet Mortel;0
+not_ref_adm_tr_vic;Notif. Vic. Refus Trajet;0
+not_ref_adm_vih_gue;(*)Notif. Vic. Refus VIH et Notif. Guérison;0
+not_ref_adm_vih;Notif. Vic. - Refus Adm. VIH;0
+not_ref_carid_app;Notif Vic - Refus Car. Identité Appareillage;0
+not_ref_carid_arr;Notif Vic - Refus Car. Identité Arrêt;0
+not_ref_carid_cur;Notif Vic - Refus Car. Identité Cure;0
+not_ref_carid_ep;Notif Vic - Refus Car. Identité EP;0
+not_ref_carid_hos;Notif Vic - Refus Car. Identité Hospitalisation;0
+not_ref_carid_mit;Notif Vic - Refus Car. Identité Mi-temps;0
+not_ref_carid_nll;Notif Vic - Refus Car Identité NLL;0
+not_ref_carid_rch;Notif Vic - Refus Car. Identité Rechute;0
+not_ref_carid_ree;Notif Vic - Refus Car. Identité Rééducation;0
+not_ref_carid_soi;Notif Vic - Refus Car. Identité Soins;0
+not_ref_carid_spc;Notif Vic - Refus Car. Identité SPC;0
+not_ref_car_app;Notif. Vic. - Refus Car. Convo. Appareillage;0
+not_ref_car_arr;Notif. Vic. Refus ARR Car. Convocation;0
+not_ref_car_cmf;Notif. Vic. - Refus Car. Convo. CMF;0
+not_ref_car_cur;Notif. Vic. - Refus Car. Convo. Cure;0
+not_ref_car_ep;Notif. Vic. - Refus Car. Convo. EP;0
+not_ref_car_exp;Notif. Vic. - Refus Car. Convo. Med. Expert;0
+not_ref_car_hos;Notif. Vic. - Refus Car. Convo. Hospitalisation;0
+not_ref_car_imp_emp;Notif. EMP. - Refus Car IMP Convo Serv Méd;0
+not_ref_car_imp;Notif. Vic. - Refus Car IMP Convo Serv Méd;0
+not_ref_car_mit;Notif. Vic. - Refus Car. Convo. Mi-temps;0
+not_ref_car_nll;Notif. Vic. - Refus Carence NLL;0
+not_ref_car_rch;Notif. Vic. - Refus Car. Convo. Rechute;0
+not_ref_car_rec;Notif. EMPL. Refus Car. Convo.NLL Rechute;0
+not_ref_car_ree;Notif. Vic. - Refus Car. Convo. Rééducation;0
+not_ref_car_soi;Notif. Vic. - Refus Car. Convo. Soins;0
+not_ref_car_spc;Notif. Vic. - Refus Car. Convo. SPC;0
+not_ref_conso_exp;Notif. Vic. - Refus Conso Convo Med. Expert;0
+not_ref_dcd_abs_aut;(*)Notif. AD Refus PEC AT Renonc.Autopsie;0
+not_ref_dcd_aut;(*)Notif. AD Refus PEC A.T. suite Autopsie;0
+not_ref_docabs_arr_vic;Notif Vic Refus ARR Doc. Absents;0
+not_ref_etr;(*)Notif. Vic. Refus A.T. Etranger;0
+not_ref_imp_exp;Notif. Vic. - Refus Imp Convo Med. Expert;0
+not_ref_iti_ati_vic;Notifier Vic. Refus ITI ATI;0
+not_ref_iti_emp;Notifier Emp. Refus ITI ATI;0
+not_ref_iti_rch_vic;Notifier VIC Refus ITI (RCH);0
+not_ref_med_abs_les_vic;(*)Notif. Vic. Refus Méd. Absence CMI;0
+not_ref_med_ad;Notif. AD Refus Médical;0
+not_ref_med_agg;Notif. Vic. Refus Méd. Abs. Aggravation;0
+not_ref_med_app_vic;Notif. Vic. Refus Méd. App.;0
+not_ref_med_arr;Notif. Vic. Refus Méd. Arrêt de Travail;0
+not_ref_med_attr_dcd_emp;Notif. EMPL. Refus medical AT/TR;0
+not_ref_med_cur_at_acc_as_vic;Notif. Vic. Refus Méd. Cure AT Accord AS;0
+not_ref_med_cur_at_as_vic;Notif. Vic. Refus Méd. Cure AT et AS;0
+not_ref_med_cur_vic;Notif. Vic. Refus Méd. Cure AT;0
+not_ref_med_dcd_aut;Notif. AD Refus Méd. Décès Suite Autopsie;0
+not_ref_med_dcd_emp;Notif . EMPL. Refus Medical Décés;0
+not_ref_med_dcd;Notif. AD Refus Médical Décès;0
+not_ref_med_emp;Notif. Emp. Refus Médical;0
+not_ref_med_ep_vic;Notif. Vic. Refus Méd. EP;0
+sign_dcd_rtt;Sign. Centre Ratt. - Décès;0
+sign_dem_dos;Sign. CPAM Demander Dossier Autre CPAM;0
+sign_dmf_ctx;Sign. CTX - Décision Méd. Finale;0
+sign_dmf_rch;Sign. Centre Ratt. - D.M.F.  rechute;0
+sign_dmf;Sign. Centre Ratt. - D.M.F.;0
+sign_ep;Sign. Centre Ratt. - Entente Préalable;0
+sign_etiquette;Sign. Edition Etiquette;0
+sign_etr;(*)Sign. Centre Ratt. A.T. Etranger;0
+sign_fiche_rempl;Sign. Demande de fiche de remplacement;0
+sign_fraude_courrier;(*)Sign. Service rentes Fraude;0
+sign_fraude;Sign. Service rentes Fraude;0
+sign_grave;Sign. Présomption d'IPP;0
+sign_ipp;Sign. Service rentes;0
+sign_iti_rtt;Sign. Centre Ratt. - ITI;0
+sign_iti;Sign. Serv. Rentes - ITI;0
+sign_lm2a_fraude;Sign. LM2A suite Fraude;0
+sign_lm2a_gdr;Sign. LM2A suite GDR;0
+sign_mp_cram;Sign. CRAM - M.P.;0
+sign_mut_acc_dem_dos;Sign. SAS Accepter Demander Dossier;0
+sign_mut_acc_dos_dem;Sign. SAS Accepter Dossier Demandé;0
+sign_mut_acc_dos_trs;Sign. SAS Accepter Dossier Transmis;0
+sign_mut_dem_dos;Sign. SAS Demander Dossier;0
+sign_mut_ref_dem_dos;Sign. SAS Refuser Demander Dossier;0
+sign_mut_ref_dos_dem;Sign. SAS Refuser Dossier Demandé;0
+sign_mut_ref_dos_trs;Sign. SAS Refuser Dossier Transmis;0
+sign_mut_trs_dos;Sign. SAS Transmettre Dossier;0
+sign_nir_cram;Sign. CRAM - Modif. NIR;0
+sign_nns;Signaler modification NNS;0
+sign_pec_dcd;Sign. RENTES PEC Décès;0
+sign_rch_nimp_cram;Sign. CRAM_IPP Suite  à une rechute;0
+sign_rch_qpr_creer;Sign QPR Rechute en création;0
+sign_rch_qpr_suppr;Sign QPR Rechute en suppression;0
+sign_rch_ren;Sign. Sce Rentes - Rechute;0
+sign_rch;Sign. Centre Ratt. - Rechute;0
+sign_rct_cram;Sign. CRAM - Recours contre tiers;0
+sign_rct_ctx;Sign. CTX - Recours contre tiers;0
+sign_ree;Sign. Centre Ratt. - Rééducation;0
+sign_ref_cram;Sign. CRAM - Refus AT;0
+sign_ref_dem_dos_ret;Sign. CPAM Demander Dossier Refusé en Retour;0
+sign_ref_dem_dos;Sign. CPAM Refuser Demander Dossier;0
+sign_ref_dos_dem_ret;Sign. CPAM Dossier Demandé Refusé en Retour;0
+sign_ref_dos_dem;Sign. CPAM Refuser Dossier Elect. Demandé;0
+sign_ref_dos_trs_ret;Sign. CPAM Dossier Transmis Refusé en Retour;0
+sign_ref_dos_trs;Sign. CPAM Refuser Dossier Transmis;0
+sign_ref_mp_cram;Sign. CRAM - Refus M.P.;0
+sign_regul;Sign. Centre Ratt. - Régul. AT/AS;0
+sign_ris_cram;Sign. CRAM - Risque Sinistre;0
+sign_rpec_at_cram;Sign. CRAM - Reprise En Charge A.T.;0
+sign_rpec_mp_cram;Sign. CRAM - Reprise En Charge M.P.;0
+sign_san_ctx;Sign. CTX - Sanction Emp.;0
+sign_soi;Sign. Centre Ratt. - Soins;0
+sign_spc_mp;Sign. Centre Ratt. - SPC-MP;0
+sign_spc_rch;Sign. Centre Ratt. - SPC Rechute;0
+sign_spc;Sign. Centre Ratt. - SPC;0
+sign_trs_dos;Sign. CPAM Transm. Dossier Electronique;0
+transm_pec_cur_vic;Transm. Vic. - Volets prise en charge de cure;0
+trs_acc_pec_eta;Transm. Etab. - Accord PEC;0
+trs_avis_cur_as_rtt;Transm. Centre Ratt. - Avis Cure;0
+trs_avis_hos_rtt;Transm. Centre Ratt. - Avis Hospitalisation;0
+trs_avis_ree_rtt;Transm. Centre Ratt. - Avis Rééducation;0
+trs_bloc_sal_rtt;Transm. Centre Ratt. - Bloc Note Salaires;0
+trs_cont_acc_ctx;Transm. CTX - Contest. Accident;0
+trs_cont_app_ctx;Transm. CTX - Contest. Appareillage;0
+trs_cont_dcd_ctx;Transm. CTX - Contest. AD;0
+trs_cont_emp_ctx;Transm. CTX - Contest Emp.;0
+trs_cont_emp_tar_ctx;Transm. CTX - Contest. DAT Tardive;0
+trs_cont_ep_ctx;Transm. CTX - Contest. Entente Préalable;0
+trs_cont_mp_ctx;(*)Transm. CTX - Contest. M.P.;0
+trs_cont_vih_ctx;Transm. CTX - Contest. VIH;0
+trs_cou_rectif_vic;Transm. Vic. - Courrier rectificatif;0
+trs_dat_ad_emp_decret_ls;Transm. Empl.  - DAT établie par AD (Décret);0
+trs_dat_ad_emp_decret;Transm. Empl.  - DAT établie par AD (Décret);0
+trs_dat_ad_emp;Transm. Empl.  - DAT établie par AD;0
+trs_dat_cpam;Transm. autre CPAM - DAT;0
+trs_dat_cram;Transm. CRAM - DAT;0
+trs_dat_ddte;Transm. Insp. Travail - DAT;0
+trs_dat_medtra;Transm. M. Trav. - DAT établie par victime;0
+trs_dat_vic_emp_decret_ls;Transm. Empl. - DAT établie par la victime(Décret);0
+trs_dat_vic_emp_decret;Transm. Empl. - DAT établie par la victime(Décret);0
+trs_dat_vic_emp;Transm. Empl. - DAT établie par la victime;0
+trs_dem_cdc;Transm. Centre Ratt. - Dem.Capital Décès;0
+trs_dem_cur_up;Transm. Centre Ratt. - Dem. Cure;0
+trs_dmp_ad_emp_apd_non;Transm. Empl. DMP établie par AD (après décret);0
+trs_dmp_ad_emp_avd;Transm. Empl. DMP établie par AD (avant décret);0
+trs_dmp_ad_emp_ls;(*)Notif. Vic RPEC MP Suite CRRMP;0
+trs_dmp_ad_emp;Transm. Empl. DMP établie par AD(après décret);0
+trs_dmp_emp_medtra_apd_cs;Trans  EMP DMP VIC + Dem  AVIS M.TRA (décret-cs);0
+trs_dmp_emp_medtra_apd_rar;Trans  EMP DMP VIC + Dem  AVIS M.TRA (décret-rar);0
+trs_dmp_emp_medtra;Transm. Empl. DMP Vic. + Dem. Avis M.Travail;0
+trs_dmp_medtra;Transm. M. Trav. - DMP pour avis;0
+trs_dmp_vic_emp_ls;Transm. Empl. et Méd. Travail de la DMP;0
+trs_dmp_vic_emp;(*)Transm. Empl. et Méd.Travail de la DMP;0
+trs_doc_ctx;Transm. CTX - Documents;0
+trs_doc_org;Transm. Docu. Autres Organismes;0
+trs_dos_man;Transm. CPAM Dossier Electronique (hors SAS);0
+trs_dos_mp_c3m;Transm. Col. 3 Médecins - Dossier M.P.;0
+trs_dos_mp_crrmp;Transm. CRRMP - Dossier M.P.;0
+trs_dos_mp_ic;Transm. Ing. Conseil - Dossier M.P.;0
+trs_dos_mp_pne;Transm. Méd. Pneumo - Dossier M.P.;0
+trs_dos_pap_cpam;Transm. CPAM Dossier Papier;0
+trs_dos_sas;Transm. CPAM Dossier Electronique;0
+trs_dos_vih_fith;Transm. Fonds Indemnisation - Dossier VIH;0
+trs_mut_cpam;Transm. Autre CPAM - Mutation Dossier;0
+trs_sal_rtt;Transm. Centre Ratt. - Salaires;0
+trs_vih_sm;Transm. S.M. - Dossier pour Suivi Sérologique;0
+trs_vol0_soi_vic;Transm. Volet de Soins;0
+trs_vol1_soi_vic;Transm. Volet n°1;0
+trs_vol2_soi_vic;Transm. Volet n°2;0
+trs_vol3_soi_vic;Transm. Volet n°3;0
+trs_vol_soi_vic_f;Feuille AT ou MP;0
+trs_vol_soi_vic;Transm. feuille AT ou MP;0
+IIIIIIIIIIIIIIIIIIIIIIIIIIIIII;Valeur inconnue;1
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX;Sans objet;2
+not_ref_med_hos;Notif. Vic. Refus Méd. Hospitalisation;0
+not_ref_med_mit;Notif. Vic. Refus Méd. Mi-temps;0
+not_ref_med_mortel_aut;Notif. AD Refus Méd. S. Mortel Suite Autopsie;0
+not_ref_med_mortel;Notif. AD Refus Médical Sin. Mortel;0
+not_ref_med_mp_2a_ad;Notif. AD Refus Méd. MP 2ème Alinéa;0
+not_ref_med_mp_2a_emp;Notif. EMPL refus medical de PEC pour une MP;0
+not_ref_med_mp_2a_vic;Notif. VIC refus medical de PEC pour une MP;0
+not_ref_med_mp_ad;Notif. AD Refus Méd. MP (ou RC H MP);0
+not_ref_med_mp_crrmp_ad;Notif. AD Refus Méd. MP Avis CRRMP;0
+not_ref_med_mp_crrmp_emp_apd;Not. EMPL.  refus PEC pour une MP après avis CRRMP;0
+not_ref_med_mp_crrmp_emp;Not. EMPL.  refus PEC pour une MP aprs avis CRRMP;0
+not_ref_med_mp_crrmp_vic;Notif. VIC refus de PEC pour MP après avis CRRMP;0
+not_ref_med_mp_dcd_emp;Notif.EMPL. Refus Medical MP DC;0
+not_ref_med_mp_dcd;Notif. AD Refus Méd. Décès MP;0
+not_ref_med_mp_emp;(*)Notif. EMPL. Refus Médical MP;0
+not_ref_med_mp_eta_nsta_ad;Notif. AD Refus Méd. MP Etat Non Stab.;0
+not_ref_med_mp_eta_nsta_emp;Not. EMP refus PEC  MP non ins.ds tab+etat non st;0
+not_ref_med_mp_eta_nsta_vic;Not. VIC Ref. PEC  MP non insc ds tab+état non sta;0
+not_ref_med_mp_ipp66_ad;Notif. AD Refus Méd. MP IPP < 25%;0
+not_ref_med_mp_ipp66_emp;Notif. EMP refus de PEC pour une MP taux IP < 25%;0
+not_ref_med_mp_ipp66_vic;Notif. VIC refus de PEC pour une MP taux IP< 25%;0
+not_ref_med_mp_mortel;Notif. AD Refus Méd. MP Mortelle;0
+not_ref_med_mp;Notif. Vic. Refus Méd. MP (ou RCH);0
+not_ref_med_nll;Notif. Vic. Refus Méd. NLL;0
+not_ref_med_rch;Notif Vic Refus Med RCH ou NLL;0
+not_ref_med_rech_at_vic;(*)Notif. VIC . Refus Medical Rechute AT;0
+not_ref_med_rec_at_emp;Notif. Empl.refus medical Rech ou NLL  AT;0
+not_ref_med_ree_vic;Notif. Vic. Refus Méd. Rééd.;0
+not_ref_med_soi;Notif. Vic. Refus Méd. Soins;0
+not_ref_med_spc_apconso;Notif Vic Refus Med SPC Après Conso;0
+not_ref_med_spc_vic;Notif. Vic. Refus Méd. SPC;0
+not_ref_med;Notif. Vic. Refus Médical AT (ou RCH);0
+not_ref_mp_apres_crrmp;Notif. Empl.refus MP après avis CRRMP;0
+not_rej_adm_at_ad;(*)Notif. AD Rejet Délai AT;0
+not_rej_adm_at_vic;(*)Notif. Vic. Rejet Délai AT;0
+not_rej_adm_mp_ad;Notif. AD Rejet Délai MP Attente CRRMP;0
+not_rej_adm_mp_vic;Notif. Vic. Rejet Délai MP Attente CRRMP;0
+not_rej_conso_gue;Notif. Vic. - Rejet Conso. en Guérison;0
+not_rej_dmf_mt;Notif. Vic. - Rejet DMF M. Traitant;0
+not_rep_dmf_mc_fix;Notif. Vic. - Report DMF MC date fixée;0
+not_rep_dmf_mc_ult;Notif. Vic. - Report DMF MC date ultérieure;0
+not_res_car_pro_dcd_emp;Notif. Emp. - Rés. Car. Pro. Décès;0
+not_res_car_pro_dcd;(*)Notif. AD Rés. Car. Pro.  Décès;0
+not_res_car_pro_emp;Notif. Emp. - Réserves Car. Prof.;0
+not_res_car_pro_vic;Notif. Vic. - Réserves Car. Prof.;0
+not_res_mp_emp;Notif. Emp. - Réserves M.P.;0
+not_res_mp_vic;Notif. Vic. - Réserves M.P.;0
+not_res_nll;Notif. Vic. - Réserves NLL;0
+not_res_rch_mp_emp;Notif. Emp. - Rés. Car. Pro. Rch M.P.;0
+not_res_rch_mp_vic;Notif. Vic. - Rés. Car. Pro. Rch M.P.;0
+not_rpec_ad;Notif. AD décision PEC AT mortel après refus;0
+not_rpec_app;Notif. Vic. - Reprise en Charge Appareillage;0
+not_rpec_dcd;Notif. VIC. accord  de PEC décès après refus;0
+not_rpec_delai_vic;Notif. Vic. RPEC Accident après Délai;0
+not_rpec_emp;(*)Notif. Emp. - Reprise en Charge;0
+not_rpec_ep_delai_vic;Notif. Vic. Reprise en Charge EP après délai;0
+not_rpec_ep;Notif. Vic. Reprise en Charge EP;0
+not_rpec_mp_ad;Notif. AD décision d'accord de PEC MP après refus;0
+not_rpec_mp_crrmp_ad;Notif. AD d'une nouvelle décision après avis CRRMP;0
+not_rpec_mp_crrmp_emp;Notif.EMPL nouvelle décision après CRRMP;0
+not_rpec_mp_crrmp_vic;(*)Notif. Vic RPEC MP Suite CRRMP;0
+not_rpec_mp_dcd;Notif. AD Reprise en Charge MP Décès;0
+not_rpec_mp_dec_vic;Notification VIC nouvelle décision;0
+not_rpec_mp_delai_vic;Notif. Vic. Reprise en Charge MP après délai;0
+not_rpec_mp_emp;Notification EMPL nouvelle décision;0
+not_rpec_mp_vic;(*)Notif. Vic. Reprise en Charge M.P.;0
+not_rpec_vic;Notif .VIC accord de PEC après refus;0
+not_rpec_vih_emp;(*)Notif. Emp. Reprise En Charge VIH;0
+not_rpec_vih;Notif. Vic. Reprise en Charge VIH;0
+not_san_dat_tar;Notif. Emp. Sanction DAT Tardive;0
+not_vic_pec_nll_par;Notification VIC PEC Partielle NLL;0
+prep_reco;Préparation du fichier des recommandés;0
+rep_rens_tar_cpam;Rép. CPAM Suivi Emp. DAT tardive;0
+rest_trt_cloar;Résultat traitement cloturation échéance;0
+sign_acc_dem_dos;Sign. CPAM Accepter Demander Dossier;0
+sign_acc_dos_dem_ret;Sign. CPAM Dossier Demandé Accepté en Retour;0
+sign_acc_dos_dem;Sign. CPAM Accepter Dossier Demandé;0
+sign_acc_dos_trs_ret;Sign. CPAM Dossier Transmis Accepté en Retour;0
+sign_acc_dos_trs;Sign. SAS Accepter Dossier Transmis;0
+sign_ann_arr;Sign. Centre Ratt. - Annulation Arrêt de travail;0
+sign_ann_dcd;Sign. Centre Ratt. - Annulation Décès;0
+sign_ann_dmf_rch;Sign. Centre Ratt. - Annulation D.M.F. Rechute;0
+sign_ann_dmf;Sign. Centre Ratt. - Annulation D.M.F.;0
+sign_ann_sin_cram;Sign. CRAM - Annulation dossier Sin;0
+sign_app;Sign. Centre Ratt. - Appareillage;0
+sign_arr_finij_car_convo;Sign. ARR Fin IJ Car Convo. Doc Abs;0
+sign_arr_pgs;Sign. Centre Ratt. - Arrêt de Travail Progres;0
+sign_arr;Sign. Centre Ratt. - Arrêt de Travail;0
+sign_atib;Sign centre RATT - ATI  Classement;0
+sign_ati;Sign. Centre Ratt. - A.T. Initial;0
+sign_at_nimp_cram;Sign. CRAM AT Non Imputable;0
+sign_avi_arr;Sign. Centre Ratt. - Avis sur Arret;0
+sign_chg_ati;Sign. Centre Ratt. - Modification A.T. Initial;0
+sign_chg_mat;Sign. Centre Ratt. - Chgt Matricule;0
+sign_chg_rch;Sign. Centre Ratt. - Modif. Date  Rechute;0
+sign_chg_sin_cram;Sign. CRAM - Chgt Num. Sinistre;0
+sign_chg_sin_emp;Sign. Emp. - Chgt Num. Sinistre;0
+sign_chg_sin_vic;Sign. Vic. - Chgt Num. Sinistre;0
+sign_chg_vic_cram;(*)Sign. CRAM - Chgt Ident. Victime;0
+sign_dat_tar_ctx;Sign. CTX - DAT Tardive;0
+sign_dcd_cram;Sign. CRAM - Décès;0
+coll_med_adm_mp;Colloque médico-adm. M.P.;0
+cou_lib_ad;Courrier Libre Ayant-Droit;0
+cou_lib_div;Courrier Libre Divers;0
+cou_lib_emp;Courrier Libre Employeur;0
+cou_lib_vic;Courrier Libre Victime;0
+dem_acc_ddos_cpam_man;Dem. CPAM Accord Demander Dossier (hors SAS);0
+dem_acc_ddos_cpam;Dem. CPAM Accord Demander Dossier;0
+dem_acc_dosd_cpam;Dem. CPAM Accord Dossier Demandé;0
+dem_acc_etr_sri;Dem. Sce Rel.Intern. - Accord Détach. Etranger;0
+dem_acc_tdos_cpam;Dem.  CPAM Réponse Dos. Elect. Transmis;0
+dem_act_pro_mp;Dem. Vic. - Quest. Activité Prof. pour MP;0
+dem_affil_up;Dem. Centre Ratt. - Affiliation;0
+dem_aff_aff;Dem. Sce Affil. - Affiliation;0
+dem_aff_imm;Dem. Sce Immat. - Affiliation;0
+dem_assuj_affil;Dem. Sce Affil. - Vérif. Qualité Assujetti;0
+dem_aut_ad;Dem. AD Autorisation Autopsie;0
+dem_aut_ti;Dem. Trib. Instance - Ordonnance Autopsie;0
+dem_avis_app;(*)Dem. Avis Appareillage;0
+dem_avis_arr;Dem. Avis Arrêt de Travail;0
+dem_avis_cot;Dem. Avis Cdaph;0
+dem_avis_cur;(*)Dem. Avis Cure;0
+dem_avis_dcd;Dem. Avis décès;0
+dem_avis_dmf;Dem. Avis DMF - Consolidation;0
+dem_avis_emp_aty;Dem. Avis Emp. Atypique;0
+dem_avis_ep;(*)Dem. Avis E.P.;0
+dem_avis_gue;(*)Dem. Avis DMF - Guérison;0
+dem_avis_hos;(*)Dem. Avis Hospitalisation;0
+dem_avis_ipp;Dem. Avis IPP;0
+dem_avis_iti_rch;Demander avis ITI (RCH);0
+dem_avis_iti;Dem. Avis ITI;0
+dem_avis_med_lib;Dem. Avis Colloque;0
+dem_avis_med;Demande Avis Médical - Arrêt de Travail mi-temps;0
+dem_avis_mp_adm_2a;(*)Dem. Avis M.P. Cond. Adm. Remplies 2è Alinéa;0
+dem_avis_mp_adm_3a;(*)Dem. Avis M.P. Cond. Adm. Non Remplies 2è Aliné;0
+dem_avis_mp_adm_4a;(*)Dem. Avis M.P. Hors Tableau Examen 4è Alinéa;0
+dem_avis_mp_adm_nex;Dem. Avis M.P. Cond. Adm. Non Examinées;0
+dem_avis_mp_med_tra;Dem. Avis M.P. à Médecin Travail;0
+dem_avis_mp_pneumo;Dem. Avis M.P. Orient. Pneumoconiose;0
+dem_avis_mp_trt;(*)Dem. Avis Compl. Traitement M.P.;0
+dem_avis_mp;Dem. Avis M.P.;0
+dem_avis_nll;Dem. Avis NLL;0
+dem_avis_rce;Dem. Avis Imputabilité (RCE);0
+dem_avis_rch;Dem. Avis Rechute;0
+dem_avis_ree;Dem. Avis Rééducation;0
+dem_avis_soi;Dem. Avis Soins;0
+dem_avis_spc;Dem. Avis SPC;0
+dem_cmd_ad;Dem. AD Cert. Med. Descr. Décès;0
+dem_cmf_vic;Dem. Vic. - Cert. Méd. Final;0
+dem_cmi_ad;Dem. AD Cert. Méd. Initial;0
+dem_cmi_vic_b_mp;Demander Victime Certif. Médical Initial;0
+dem_cmi_vic_b;Dem .Vic .Cert.Med.Initial (après décret);0
+dem_cmi_vic;Dem. Vic. - Cert..Méd. Initial;0
+dem_cou_test1;Test courrier N°1;0
+dem_cou_test2;Test courrier N°2;0
+dem_cou_test3;Test courrier N°3;0
+dem_cou_test4;Test courrier N°4;0
+dem_cou_test5;Test courrier N°5;0
+dem_cou_test6;Test courrier N°6;0
+dem_cou_test7;Test courrier N°7;0
+dem_cou_test;Dem. pour tester courrier;0
+dem_cpl_aut_ad;Dem. AD Compl. Autoris. Autopsie;0
+dem_dat_emp;Dem. Emp. - DAT;0
+dem_dat_vic;Dem. Vic. - DAT;0
+dem_dmp_ad;Dem. AD DMP;0
+dem_dmp_vic;Dem. Vic. - DMP;0
+dem_doc_adm_ad;Dem. AD Doc. Administratifs;0
+dem_doc_adm_vic;Dem. Victime - Doc. Administratifs;0
+dem_doc_ad;Dem. AD Doc. Médicaux;0
+dem_doc_vic;Dem. Victime - Doc. Médicaux;0
+dem_dos_cpam;Dem. CPAM Dossier Papier;0
+dem_dos_man;Demander Dossier Electronique (hors SAS);0
+dem_dos_pap_cpam;Dem. CPAM Dossier Papier (mutation);0
+dem_dos_sas;Dem. CPAM Dossier SAS (mutation);0
+dem_enq_adm_mp_aut;Dem.Enq. Adm. M.P. (autres empl.);0
+dem_enq_adm_mp;Dem. Enq. Administrative M.P.;0
+dem_enq_adm;Dem. Enq. Administrative;0
+dem_enq_ext_mp_aut;Dem.Enq.Extérieure M.P. autres empl.;0
+dem_enq_ext_mp;Dem. Enq. Extérieure M.P.;0
+dem_enq_ext;Dem. Enq. Administrative extérieure;0
+dem_enq_leg_dcd_iaa;(*)Dem. Enq. Légale Décès Agent Assermenté;0
+dem_enq_leg_iaa;(*)Dem. Enq. Légale Agt Assermenté;0
+dem_exe_aut_ml;Dem. Méd.Légiste - Exécution Autopsie;0
+dem_exh_aut_pf;Dem. P.Funèbres - Exhumation pour Autopsie;0
+dem_exp_app;Dem. Expertise Appareillage;0
+dem_exp_arr;Dem. Expertise Arrêt de Travail;0
+dem_exp_cure;Dem. Expertise Cure;0
+dem_exp_dcd;Dem. Expertise Décès;0
+dem_exp_dmf;Dem. Expertise Décision Médicale Finale;0
+dem_exp_ep;Dem. Expertise Entente Préalable;0
+dem_exp_hos;Dem. Expertise Hospitalisation;0
+dem_exp_mp;Dem. Expertise Maladie Prof.;0
+dem_exp_nll;Dem. Expertise Nouvelle Lésion;0
+dem_exp_rce;Dem. Expertise Imputabilité (RCE);0
+dem_exp_rch;Dem. Expertise Rechute;0
+dem_exp_ree;Dem. Expertise Rééducation;0
+dem_exp_soi;Dem. Expertise Soins;0
+dem_exp_spc;Dem. Expertise Soins Post Conso.;0
+dem_exp_vih;Dem. Expertise VIH;0
+dem_form_iti_ati_emp;Dem. Emp. Formulaire ITI ATI;0
+dem_form_iti_rch_emp;Dem. Emp. Formulaire ITI RCH;0
+dem_info_dat_emp;Dem. Emp. - Compl. info DAT incomplete;0
+dem_info_dmp_emp;Dem. Emp. - Info. Compl. DMP;0
+dem_info_dmp_vic;Dem. Vic. - Info. Compl. DMP;0
+dem_interv;Dem. Doc. Divers Intervenant;0
+dem_int_dom_am;Dem. Agt Mandaté - Interv. à domicile;0
+dem_mot_dat_tar_emp;Dem. Emp. Motif Déclaration Tardive;0
+dem_nouv_fix_rep_c3m;Dem. Collège 3 Médecins - Nlle Fixation Répar.;0
+dem_nouv_fix_rep_pneumo;Dem. Méd.Pneumo. - Examen Nlle Fixation Répar.;0
+dem_pie_ree_ddte;Dem. Insp.Travail - Salaire Rééducation;0
+dem_prol_vic;Dem. Vic. - Certificat Prolongation;0
+dem_rap_police;Dem. Rapport de Police;0
+dem_rch_vic;Dem. Vic. - Certificat Rechute;0
+dem_rec_mp_ic;Dem. Ingénieur Conseil - Reconnais. M.P.;0
+dem_rec_mp_it;Dem. Inspect. Travail - Reconnais. M.P.;0
+dem_rens_ad_r;Dem. AD Renseignements;0
+dem_rens_ad;Dem. AD Renseignements;0
+dem_rens_emp_r;Dem. Emp. - Renseignements;0
+dem_rens_emp;Dem. Emp. - Renseignements;0
+dem_rens_inf_pre;Dem. Vic. Rens. Infirmités Pré-existantes;0
+dem_rens_med;Dem. Médecin - Renseignements;0
+dem_rens_mp_aut_emp_a;Infections microbiennes;0
+dem_rens_mp_aut_emp_b;(*)Gestes et postures de travail;0
+dem_rens_mp_aut_emp_c;Environnement physique;0
+dem_rens_mp_aut_emp_d;Environnement chimique;0
+dem_rens_mp_aut_emp_e;(*)Environnement de travail;0
+dem_rens_mp_aut_emp;Dem. Autres Emp. - Rens. Compl. M.P.;0
+dem_rens_mp_emp_a;Infections microbiennes;0
+dem_rens_mp_emp_b;(*)Gestes et postures de travail;0
+dem_rens_mp_emp_c;Environnement physique;0
+dem_rens_mp_emp_d;Environnement chimique;0
+dem_rens_mp_emp_e;(*)Environnement de travail;0
+dem_rens_mp_emp;Dem. Emp. - Rens Compl. M.P.;0
+dem_rens_mt;Dem. M.Traitant - Renseignements;0
+dem_rens_tar_cpam;Dem. CPAM Rens. Suivi Emp. DAT tardive;0
+dem_rens_tar_cram;Dem. CRAM Rens Suivi Emp. AT Bénins;0
+dem_rens_tem;Dem. Témoin ou Tiers - Renseignements;0
+dem_rens_tiers;Dem. 1ère Pers. Avisée - Renseignements;0
+dem_rens_vic_r;Dem. Victime - Renseignements;0
+dem_rens_vic;Dem. Victime - Renseignements;0
+dem_sal_ad;Dem. AD Eléments de salaires;0
+dem_sal_aut_emp;Dem. Autre Employeur - Salaires;0
+dem_sal_emp;Dem. Employeur - Salaires;0
+dem_sal_vic;Dem. Victime - Salaires;0
+dem_spc_vic;Dem. Victime - Cert Soins Post-Conso.;0
+info_acc_app_four;Info. Fournisseur - Accord Appar.;0
+info_acc_ree_ass;Info. Sce Social - Accord Rééducation;0
+info_acc_ree_emp;Info. Emp. - Accord Rééducation;0
+info_acc_ree_eta;Info. Etab. - Accord Rééducation;0
+info_acc_ree_rtt;Info. Centre Ratt. - Accord Rééducation;0
+info_amiante_vic;Info. Vic. Allocation Amiante (T. N°30 et 30 bis);0
+info_ann_san_dat_tar_ctx;Info. CTX Annul. Sanction DAT Tardive;0
+info_arr_ass;Info. Sce Social - Arrêt de Travail longue durée;0
+info_chg_vic_cram;Info. CRAM - Chgt Ident. Victime;0
+info_compl_at_cram;Info. CRAM - Compl. AT;0
+info_conso_mc;Info. M.Traitant - Conso par M. Conseil;0
+info_cons_dcd_ad;Info. AD Consult. Doss. Décès;0
+info_cons_dcd_emp_ls;Info. LS Emp. Consultation Dossier Décès;0
+info_cons_dcd_emp_r;Info. Emp. Consultation Dossier Décès;0
+info_cons_dcd_emp;Info. Emp. Consult. Doss. Décès;0
+info_cons_dos_ad;Info AD Consultation Dossier;0
+info_cons_dos_emp_ls;Info. LS Emp. Consultation Dossier;0
+info_cons_dos_emp_r;Info. Emp. Consultation Dossier;0
+info_cons_dos_emp;Info. Emp. Consultation Dossier;0
+info_cons_dos_mp_nll_vic;(*)Info. Vic. consultation dossier NLL MP;0
+info_cons_dos_mp_rch_vic;(*)Info. Vic. Consultation dossier rechute MP;0
+info_cons_dos_mp_vic;Info. VIC. Consultation dossier MP;0
+info_cons_dos_vic;Info. Vic. Consultation Dossier;0
+info_cons_el_ad;Notif. AD P.V. Enq. Légale;0
+info_cons_el_emp;Notif. Emp - P.V. Enq. Légale;0
+info_cons_nll_emp_ls;(*)Info. LS Emp. Consultation Dossier Nouvelle Lés;0
+info_cons_nll_emp_r;(*)Info. Emp. Consultation Dossier Nouvelle Lésion;0
+info_cons_nll_emp;(*)Info.Emp. Consultation Dossier Nouvelle Lésion;0
+info_cons_nll_vic;(*)Info. Vic. Consultation Dossier Nouvelle Lésion;0
+info_cons_rch_ad;(*)Info. AD Consultation Dossier Rechute;0
+info_cons_rch_emp_ls;(*)Info. LS Emp. Consultation Dossier Rechute;0
+info_cons_rch_emp_r;(*)Info. Emp. Consultation Dossier Rechute;0
+info_cons_rch_emp;(*)Info. Emp. Consultation Dossier Rechute;0
+info_cons_rch_vic;(*)Info. Vic. Consultation Dossier Rechute;0
+info_cons_res_enq_leg_vic;(*)Info. Vic. - Consultation Résultat Enq. Légale;0
+info_convo_dcd_ad;Info. AD Convocation;0
+info_dat_tar_cpam;Info. CPAM Rens. DAT Tardives;0
+info_dat_tar_dos;Info. CPAM Rens. DAT Tardives (Dossier);0
+info_dat_tar_emp;Info. CPAM Rens. DAT Tardives (tous);0
+info_dcd_ass;Info. Sce Social - A.T. Mortel;0
+info_dcd_ren;Info. Serv. Rentes Décès;0
+info_dec_ctx_san_emp_cpam;Info. CPAM Décis. Suite  Contest. Sanction Emp.;0
+info_dec_dat_tar_cpam;Info. CPAM Décision DAT Tardive Emp.;0
+info_dec_dcd_ren;Info. Serv. Rentes Décision décès;0
+info_dmf_cram_rch;Informer CRAM   - DMF rechute;0
+info_dmf_cram;Informer CRAM - DMF;0
+info_doc_ad_at;Transm. AD Documents Souhaités;0
+info_doc_ad_mp;Transm. AD Documents Souhaités;0
+info_doc_emp_at;Transm. EMP Documents Souhaités;0
+info_doc_emp_a;Transm. EMP Liste Documents;0
+info_doc_emp_mp;Transm. EMP Documents Souhaités;0
+info_doc_emp;Transm. EMP Documents Souhaités;0
+info_doc_vic_at;Transm. VIC Documents Souhaités;0
+info_doc_vic_mp;Transm. VIC Documents Souhaités;0
+info_doc_vic;Transm. VIC Documents Souhaités;0
+Info_emp_clot_dos;Info EMP Classement dossier accident;0
+info_emp_reprise_dos;Info. EMP de la reprise du dossier;0
+info_gue_mc;Info. M. Traitant - Guérison MC;0
+info_maj_bdo_rtt;Info. Centre Ratt. - Modification victime;0
+info_maj_rgm_affil;Info. Sce Affil. - MAJ Régime;0
+info_med_leg_aut_ad;(*)Info. AD Autopsie et méd. légiste;0
+info_modif_anc_cram;Info. ancienne CRAM suite modification;0
+info_mut_vic;Info. Victime - demande de mutation;0
+info_nouv_affil;Info. Vic. Nouvelle Caisse Affiliation;0
+info_pec_emp_avd;Notif. Emp. Décision de Prise en Charge;0
+info_pec_emp;Notification PEC à l'employeur;0
+info_pv_enq_leg_emp;Info. Emp. PV Enq. Légale;0
+info_rct_mut_vic;Info. Vic. - Quest.pour Sté mutual. Acc.avec Tiers;0
+info_rec_cdc_at_ad;Info. AD Récept. Certif. Décès AT;0
+info_rec_cdc_at_emp;Info. Emp. - Récept. Certif. Décès AT;0
+info_rec_cdc_mp_ad;Info. AD Récept. Certif. Décès MP;0
+info_rec_cdc_mp_emp;Info. Emp. - Récept. Certif. Décès MP;0
+info_rec_cm_at_emp;Info. Emp. - Récept. Certif. RCH ou Nlle Lésion;0
+info_rec_cm_at_vic;Info. Vic. - Récept. Certif. RCH ou Nlle Lésion;0
+info_rec_cm_mp_emp;Info. Emp. - Récept. Certif. RCH ou Nlle Lésion;0
+info_rec_cm_mp_vic;Info. Vic. - Récept. Certif. RCH ou Nlle Lésion;0
+info_rec_dat_ad_decret;Info. AD Récept. Pièces (DAT & CMI);0
+info_rec_dat_ad;Info. AD Récept. DAT;0
+info_rec_dat_vic_decret;Info. Vic. - Récept. Pièces (DAT & CMI);0
+info_rec_dat_vic;Info. Vic. - Récept. DAT;0
+info_rec_dmp_ad;Info. AD Récept. DMP;0
+info_rec_dmp_vic;Info. Vic. - Récept. DMP;0
+info_rec_iti_ati_att_vic;Informer Victime Réception Dem ITI ATI Att;0
+info_rec_iti_ati_emp;Informer Emp. Réception Dem ITI ATI;0
+info_rec_iti_ati_vic;Informer victime réception Dem ITI (ATI);0
+info_rec_iti_rch_att_vic;Informer Victime Réception Dem ITI RCH Att;0
+info_rec_iti_rch_emp;Informer Emp. Réception Dem ITI RCH;0
+info_rec_iti_rch_vic;Informer victime réception Dem ITI (RCH);0
+info_rec_res_emp;(*)Informer Empl. Recept. Reserves;0
+info_ree_ass;Info. Serv.Social - Rééducation;0
+info_ref_adm_epi;Notif. Vic. - Refus Adm. Episode (AT rejeté);0
+info_ref_adm_ep_pro;Info. Prof.Santé - Refus Adm. E.P.;0
+info_ref_adm_eve_epi_dmf;(*)Info. Vic. - Refus Adm. Evt (pb DMF Episode);0
+info_ref_adm_eve_epi_rej_eta;Info. Etab. - Refus Adm. Evt (Episode rejeté);0
+info_ref_adm_eve_epi_rej;Info. Vic. - Refus Adm. Evt (Episode rejeté);0
+info_ref_adm_mt;Info. M.Traitant - Refus;0
+info_ref_app_four;Info. Fournisseur - Refus Appar.;0
+info_ref_hos_eta;Info. Etab. - Refus Hospit.;0
+info_ref_med_ep_pro;Info. Prof.Santé - Refus Méd. E.P.;0
+info_ref_med_nll_mt;Info. M.Traitant - Refus Méd. NLL;0
+info_ref_med_ree_emp;Info. Emp. - Refus Méd. Rééduc.;0
+info_ref_med_ree_eta;Info. Etab. - Refus Méd. Rééduc.;0
+info_ref_sus_hos;Info. Etab. - Refus Suspensif Hospit.;0
+info_rej_dmf_mt;Info. M.Traitant - Rejet DMF par M.C.;0
+info_rep_dmf_mc_fix;Info. M.Traitant - Report DMF MC date fixée;0
+info_rep_dmf_mc_ult;Info. M.Traitant - Report DMF MC date ultérieure;0
+info_rep_tra_mc_emp;Info. Emp - Reprise travail par M.Conseil;0
+info_rep_tra_mc_mt;Info. M.Traitant - Reprise travail par M.Conseil;0
+info_rpec_at_cram;Info. CRAM - Reprise en charge A.T.;0
+info_rpec_mp_cram;Info CRAM - Reprise en Charge M.P.;0
+info_san_dat_tar_ctx;Info. CTX Sanction DAT Tardive;0
+info_trs_dos_fith;Info. Fonds Indemnisation - Transm. Dossier VIH;0
+info_trs_dos_mp_c3m;(*)Info. Vic. - Transm. Dossier Collège 3 Médecins;0
+info_trs_dos_mp_crrmp_ad;Info AD Consult dossier MP avant CRRMP;0
+info_trs_dos_mp_crrmp_emp;Info Emp. Consult dossier MP avant CRRMP;0
+info_trs_dos_mp_crrmp;Info VIC. Consult dossier MP avant CRRMP;0
+info_trs_dos_mp_ic;Info. Ingénieur Conseil - Transm.Dossier M.P.;0
+info_trs_dos_mp_pneumo;(*)Info. Vic. - Transm. Dossier Med. Pneumo.;0
+info_trs_vic;Info. Vic. Transfert Dossier;0
+info_vic_clot_dos_mp;Info. VIC classement dossier MP;0
+info_vic_clot_dos_sans_decl;Info. VIC classement du dossier (sans DAT/DMP);0
+Info_vic_clot_dos;Info VIC Classement dossier accident;0
+info_vih_vic;Info. Vic. - Procédure VIH;0
+Inf_pec_apr_ref_emp_b;Notif. EMP  PEC après refus;0
+Inf_pec_mor_emp;NotiF. EMPL  décision d'accord de PEC AT mortel;0
+Inf_pec_mor_ref_emp;Notif. EMPL . PEC AT mortel  après refus;0
+Inf_pec_mp_2a_emp;Notif. Empl. PEC MP dans le cadre des tableaux;0
+inf_pec_mp_crrmp_emp;Notif. EMPL. Pec d'une MP après CRRMP;0
+inf_pec_nll_emp_par;Notif. EMPL PEC NLL partielle;0
+inf_pec_nll_emp;Notif. EMPL  PEC Totale NLL;0
+Inf_pec_rec_emp_b;(*)Info .EMPL. accord de PEC d'une rechute;0
+Inf_pec_rec_partielle;Notif. EMPL PEC Rechute Partielle;0
+Inf_pec_rec_totale;Notif. EMPL PEC Rechute Totale;0
+inf_rpec_mp_crrmp_emp;Notif. EMPL. nouvelle décision après avis CRRMP;0
+inf_rpec_mp_crrmp_vic_apd;Notif. VIC nouvelle décision après avis CRRMP;0
+inf_rpec_mp_crrmp_vic;Notif. VIC nouvelle décision après avis CRRMP;0
+inf_vic_pec_nll_tot;Notif.VIC PEC totale NLL;0
+mut_acc_dem_dos_cpam;Acc. Demander Dossier Autre CPAM (13);0
+mut_acc_dos_dem_cpam_man;Acc. Dossier Electronique Demandé (hors SAS);0
+mut_acc_dos_dem_cpam;Acc. Dossier Electronique Demandé;0
+mut_acc_dos_trs_cpam;Acc. Dossier Electronique Transmis;0
+mut_ref_dem_dos_cpam;Refus Demander Dossier Autre CPAM (15);0
+mut_ref_dos_dem_cpam;Refus Dossier Electronique Demandé;0
+mut_ref_dos_trs_cpam;Refus Dossier Electronique Transmis;0
+Notice_info_conso;Notice info conso séquelle indemnisables;0
+notif_emp_pec_mp_nontop;Notification EMPL.(non topé) PEC MP;0
+notif_emp_pec_mp_top;Notification EMPL.(topé) PEC MP;0
+not_acc_app_vic;Notif. Vic. Accord Appareillage;0
+not_acc_conso_cssi;Notif. Vic. Accord Conso. mais SSI;0
+not_acc_cure_vic;Notif. Vic. Accord Cure;0
+not_acc_ep_pro;Info. Prof. Santé - Accord E.P.;0
+not_acc_ep;Notif. Vic. Accord E.P.;0
+not_acc_hos;Notif. Vic. Accord Hospit.;0
+not_acc_med_part_spc_vic;Notif. Vic. Accord SPC - Partiel Soins;0
+not_acc_mit;Notif. Vic. Accord Mi-Temps;0
+not_acc_part_ep;Notif. Vic. Accord Partiel E.P.;0
+not_acc_ree_emp_vic;Notif. Vic. Accord Rééd.Employeur;0
+not_acc_ree_vic_not;Notice Pour Accord Rééducation;0
+not_acc_ree_vic;Notif. Vic. Accord Rééd. Etablissement;0
+not_acc_spc_partiel_duree;Notif. VIC Accord SPC - Partiel Durée;0
+not_acc_spc_vic;Notif. Vic. Accord SPC;0
+not_apt_rep_vic;Notif. Vic. Reprise Travail;0
+not_ave_dat_tar;Notif. Emp. Avertissement DAT Tardive;0
+not_clo_delai_vih;Notif. Vic. - Cloture VIH Délai Dépassé;0
+not_clo_vih_abs_1t;Notif. Vic. - Cloture VIH - Absence 1er Test;0
+not_clo_vih_abs_suivi;Notif. Vic. - Cloture VIH  Absence Suivi;0
+not_clo_vih;Notif. Vic. - Cloture Dossier VIH;0
+not_conso_mc_ad;Notif. AD Conso. M. Conseil;0
+not_conso_mc;Notif. Vic. Conso. M. Conseil;0
+not_conso_mexp;Notifier Vic. - Conso. Med. Expert;0
+not_conso_mt_ad;Notif. AD Conso. M. Traitant;0
+not_conso_mt;Notif. Vic. Conso. M. Traitant;0
+Not_cons_dos_mp_emp_ls;Info. LS Emp. Consultation Dossier MP;0
+Not_cons_dos_mp_emp_r;Info. Emp. Consultation Dossier MP;0
+Not_cons_dos_mp_emp;Info. EMP. Consultation dossier MP;0
+Not_cons_dos_mp_nll_emp_ls;(*)Info. LS Emp. Consultation Dossier NLL MP;0

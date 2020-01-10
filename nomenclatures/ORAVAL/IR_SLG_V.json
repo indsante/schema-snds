@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "SLM_RGT",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "SLM_RGT_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_SLG_V",
+    "title": "Regroupement SLM",
+    "primaryKey": [
+        "SLM_RGT"
+    ]
+}

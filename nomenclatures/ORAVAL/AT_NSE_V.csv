@@ -1,0 +1,11 @@
+SEE_COT_NAT;COT_NAT_LIB;COT_CGL_COD;TEC_COL
+0;Sans Objet;1;2
+1;Section d' etablissement;0;0
+2;Assure Volontaire AT;0;0
+3;Compte Global Apprenti;1;0
+4;Compte Global Silicose;1;0
+5;Compte Global Maladie Professionnelle non imputable a une section d'etablissement;1;0
+6;Compte Global Autre;1;0
+7;Compte Global AT;1;0
+9;Inconnu;1;1
+X;Cotisant Fictif;0;0

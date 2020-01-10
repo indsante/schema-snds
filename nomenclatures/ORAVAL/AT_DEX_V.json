@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "SIN_EXP_DUR",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "SIN_EXP_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_DEX_V",
+    "title": "code Durée d Exposition",
+    "primaryKey": [
+        "SIN_EXP_DUR"
+    ]
+}

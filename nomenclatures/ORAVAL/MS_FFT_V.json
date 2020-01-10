@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "FFT_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "FFT_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "MS_FFT_V",
+    "title": "Forfait Dialyse",
+    "primaryKey": [
+        "FFT_COD"
+    ]
+}

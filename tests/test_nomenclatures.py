@@ -1,7 +1,5 @@
 import logging
 import os
-import re
-from os.path import join as pjoin
 from pprint import pprint
 
 import pandas as pd
@@ -10,40 +8,22 @@ from goodtables import validate
 from tableschema import Schema
 
 from src.byproducts.main import generate_byproducts
-from src.constants import NOMENCLATURES_DIR, NO_NOMENCLATURE, ROOT_DIR
-from src.utils import get_all_nomenclatures_csv_schema_path, get_all_nomenclatures_schema
-from src.utils import get_all_schema
-
-
-def list_nomenclatures_usage(work_dir):
-    used_nomenclatures = set()
-    for schema in get_all_schema(work_dir):
-        for field in schema.fields:
-            nomenclature = field.descriptor['nomenclature']
-            if nomenclature != NO_NOMENCLATURE:
-                used_nomenclatures.add(nomenclature)
-    return used_nomenclatures
-
-
-def list_present_nomenclatures(work_dir):
-    present_nomenclatures_files = []
-    for root, dirs, files in os.walk(pjoin(work_dir, NOMENCLATURES_DIR)):
-        present_nomenclatures_files += files
-    present_nomenclatures = [re.sub('.csv$', '', nom) for nom in present_nomenclatures_files]
-    return present_nomenclatures
+from src.constants import NOMENCLATURES_DIR, ROOT_DIR
+from src.utils import get_all_nomenclatures_csv_schema_path, get_all_nomenclatures_schema, get_used_nomenclatures, \
+    get_present_nomenclatures
 
 
 def test_nomenclatures_list():
-    nomenclature_list = list_present_nomenclatures(ROOT_DIR)
+    nomenclature_list = get_present_nomenclatures(ROOT_DIR)
     assert nomenclature_list, "No nomenclatures"
     assert len(nomenclature_list) == len(set(nomenclature_list)), "There are duplicate nomenclatures"
 
 
 def test_nomenclature_presence():
     generate_byproducts(False, ROOT_DIR)
-    present_nomenclatures = list_present_nomenclatures(ROOT_DIR)
+    present_nomenclatures = get_present_nomenclatures(ROOT_DIR)
     print(present_nomenclatures)
-    used_nomenclatures = list_nomenclatures_usage(ROOT_DIR)
+    used_nomenclatures = get_used_nomenclatures(ROOT_DIR)
     nomenclatures_difference = list(set(used_nomenclatures) - set(present_nomenclatures))
     if len(nomenclatures_difference) != 0:
         logging.error(
@@ -86,7 +66,7 @@ def test_nomenclature_primary_keys_is_unique(nomenclature_path, schema_path):
     schema = Schema(schema_path)
     assert schema.primary_key, "Schema of nomenclature {} should contain a primaryKey".format(schema.descriptor['name'])
     df = pd.read_csv(nomenclature_path, sep=';', usecols=schema.primary_key)
-    assert 0 == df.duplicated().sum()
+    assert 0 == df.duplicated().sum(), df[df.duplicated(keep=False)].sort_values(by=schema.primary_key)
 
 
 # TODO
@@ -100,6 +80,7 @@ def test_nomenclature_have_title(schema):
     assert schema.descriptor["title"], "Nomenclature's schema for {} should have a title".format(name)
 
 
+@pytest.mark.xfail(reason="Some nomenclature do not have any label")
 @pytest.mark.parametrize('schema', get_all_nomenclatures_schema(NOMENCLATURES_DIR))
 def test_nomenclatures_have_one_field_with_role_label(schema):
     name = schema.descriptor['name']

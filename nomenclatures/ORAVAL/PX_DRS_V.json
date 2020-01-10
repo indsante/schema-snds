@@ -1,0 +1,35 @@
+{
+    "fields": [
+        {
+            "name": "CAI_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "DRS_COD",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "DRS_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "PX_DRS_V",
+    "title": "table d'association entre les Caisses et les DRSM",
+    "primaryKey": [
+        "CAI_COD",
+        "DRS_COD"
+    ]
+}

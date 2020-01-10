@@ -1,0 +1,140 @@
+{
+    "fields": [
+        {
+            "name": "SEE_RSQ_NUM",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "SEE_BUR_NUM",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "SEE_CTN_NUM",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "ATV_COD_STR",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "SEE_RSQ_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "GRT_ACT_NUM",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "CTN_COD_FIN",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GFI_COD_FIN",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "CTN_COD_CAL",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GFC_NUM_CAL",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "TOP_TAR_IND",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "RSQ_BUR_IND",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "RSQ_BEN_IND",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "RSQ_DOC_IND",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "TAU_ECR_RDO",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "RSQ_CGL_IND",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "RSQ_ETT_IND",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "RSQ_SAL_IND",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "RSQ_EFF_IND",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "RSQ_HRE_IND",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "RSQ_COT_IND",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "RSQ_EFF_NGL",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "RSQ_BAT_IND",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "RSQ_EXC_IND",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_RSQ_V",
+    "title": "numéro de Risque",
+    "primaryKey": [
+        "SEE_RSQ_NUM",
+        "SEE_BUR_NUM"
+    ]
+}

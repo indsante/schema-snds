@@ -1,11 +1,12 @@
 import logging
 import os
+import re
 from os.path import join as pjoin
 from typing import List, Union, Tuple
 
 from tableschema import Schema
 
-from src.constants import SCHEMAS_DIR, NOMENCLATURES_DIR
+from src.constants import SCHEMAS_DIR, NOMENCLATURES_DIR, NO_NOMENCLATURE
 
 
 def get_all_schema(work_dir) -> List[Schema]:
@@ -88,6 +89,24 @@ def add_foreign_key(schema: Schema, fields: Union[str, List[str]], referenced_ta
         foreign_key_descriptor['description'] = description
     schema.descriptor['foreignKeys'].append(foreign_key_descriptor)
     schema.commit(strict=True)
+
+
+def get_used_nomenclatures(work_dir):
+    used_nomenclatures = set()
+    for schema in get_all_schema(work_dir):
+        for field in schema.fields:
+            nomenclature = field.descriptor['nomenclature']
+            if nomenclature != NO_NOMENCLATURE:
+                used_nomenclatures.add(nomenclature)
+    return used_nomenclatures
+
+
+def get_present_nomenclatures(work_dir):
+    present_nomenclatures_files = []
+    for root, dirs, files in os.walk(pjoin(work_dir, NOMENCLATURES_DIR)):
+        present_nomenclatures_files += files
+    present_nomenclatures = [re.sub('.csv$', '', nom) for nom in present_nomenclatures_files]
+    return present_nomenclatures
 
 
 if __name__ == '__main__':

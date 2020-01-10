@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "DCT_CTL_IND",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "CTL_IND_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_ICL_V",
+    "title": "Indicateur de Contrôle",
+    "primaryKey": [
+        "DCT_CTL_IND"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "CUR_TOP_PAC",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "CUR_TOP_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_PAC_V",
+    "title": "TOP personne accompagnante",
+    "primaryKey": [
+        "CUR_TOP_PAC"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "LES_CMI_TOP",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "LES_CMI_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_CMI_V",
+    "title": "TOP lien CM",
+    "primaryKey": [
+        "LES_CMI_TOP"
+    ]
+}

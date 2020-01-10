@@ -1,0 +1,34 @@
+{
+    "fields": [
+        {
+            "name": "VIC_ATT_NAT",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "VIC_ATT_OLD",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "VIC_NAT_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_NAT_V",
+    "title": "code Nationalité",
+    "primaryKey": [
+        "VIC_ATT_NAT"
+    ]
+}

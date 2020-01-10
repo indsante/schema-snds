@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "VIC_PMP_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "VIC_PMP_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_PMP_V",
+    "title": "code Profession de la victime en MP   ( Version 1)",
+    "primaryKey": [
+        "VIC_PMP_COD"
+    ]
+}

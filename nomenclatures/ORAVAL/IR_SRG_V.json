@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "SJP_RGT",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "SJP_RGT_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_SRG_V",
+    "title": "Libellés regroupés SJP",
+    "primaryKey": [
+        "SJP_RGT"
+    ]
+}

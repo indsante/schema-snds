@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "LES_NAT_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "LES_NAT_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_LES_V",
+    "title": "nature de la lésion ( version 11 Orphée) en CHAR(10)",
+    "primaryKey": [
+        "LES_NAT_COD"
+    ]
+}

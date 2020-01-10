@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "REV_IPR_DET",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "RAT_IPR_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_DPS_V",
+    "title": "Détail de la pièce saisie",
+    "primaryKey": [
+        "REV_IPR_DET"
+    ]
+}

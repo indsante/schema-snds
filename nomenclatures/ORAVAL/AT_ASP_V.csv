@@ -1,0 +1,43 @@
+ASP_APS_COD;ASP_APS_LIB;TEC_COL
+00;Pas d'information;0
+10;Opération de machine - Non précisé;0
+11;Démarrer la machine, arrêter la machine;0
+12;Alimenter la machine, désalimenter la machine;0
+13;Contrôler la machine, faire fonctionner - conduire la machine;0
+19;Autre Activité physique spécifique connue du groupe 10 mais non listée ci-dessus;0
+20;Travail avec des outils à main - Non précisé;0
+21;Travailler avec des outils à main - manuels;0
+22;Travailler avec des outils à main - motorisés;0
+29;Autre Activité physique spécifique connue du groupe 20 mais non listée ci-dessus;0
+30;Conduite/présence à bord d'un moyen de transport - équipement de manutention - N;0
+31;Conduire un moyen de transport ou un équipement de manutention - mobile et motorisé;0
+32;Conduire un moyen de transport ou un équipement de manutention - mobile et non motorisé;0
+33;Être passager à bord d'un moyen de transport;0
+39;Autre Activité physique spécifique connue du groupe 30 mais non listée ci-dessus;0
+40;Manipulation d'objets - Non précisé;0
+41;Prendre en main, agripper, saisir, tenir à la main, poser - sur un plan horizontal;0
+42;Ligaturer, lier, arracher, défaire, presser, dévisser, visser, tourner;0
+43;Fixer, pendre, élever, installer - sur un plan vertical;0
+44;Lancer, projeter au loin;0
+45;Ouvrir, fermer, (caisse, emballage, colis);0
+46;Verser, verser dedans, remplir, arroser, vider, écoper;0
+47;Tirer (un tiroir), pousser (une porte de hangar, de bureau, d'armoire);0
+49;Autre Activité physique spécifique connue du groupe 40 mais non listée ci-dessus;0
+50;Transport manuel - Non précisé;0
+51;Transporter verticalement - soulever, lever, abaisser, ... un objet;0
+52;Transporter horizontalement - tirer, pousser, rouler, ... un objet;0
+53;Transporter une charge (port) - par une personne;0
+59;Autre Activité physique spécifique connue du groupe 50 mais non listée ci-dessus;0
+60;Mouvement - Non précisé;0
+61;Marcher, courir, monter, descendre, etc.;0
+62;Entrer, sortir;0
+63;Sauter, s'élancer, etc.;0
+64;Ramper, grimper, etc.;0
+65;Se lever, s'asseoir, etc.;0
+66;Nager, plonger;0
+67;Faire des mouvements sur place.;0
+69;Autre Activité physique spécifique connue du groupe 60 mais non listée ci-dessus;0
+70;Présence - Non précisé;0
+99;Autre Activité physique spécifique non listée dans cette classification;0
+II;Valeur inconnue;1
+XX;Sans objet;2

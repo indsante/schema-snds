@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "HOS_DMT_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "HOS_DMT_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_DMT_V",
+    "title": "Discipline Médico-Tarifaire",
+    "primaryKey": [
+        "HOS_DMT_COD"
+    ]
+}

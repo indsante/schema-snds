@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "PRS_NAT_RGT",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "NAT_RGT_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_RGT_V",
+    "title": "Regroupement de prestations",
+    "primaryKey": [
+        "PRS_NAT_RGT"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "SIN_1IJ_IND",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "SIN_1IJ_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_1IJ_V",
+    "title": "Indicateur premier règlement de l'AT",
+    "primaryKey": [
+        "SIN_1IJ_IND"
+    ]
+}

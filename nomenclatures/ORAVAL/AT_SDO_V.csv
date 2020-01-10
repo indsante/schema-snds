@@ -1,0 +1,9 @@
+RAT_DOS_STA;DOS_STA_LIB;TEC_COL
+ENCOU;En cours d'instruction;0
+ACTIF;Actif;0
+INACT;Inactif;0
+ANNUL;Annule;0
+TRANS;Transféré;0
+NNNNN;Non Précisé;0
+XXXXX;Sans Objet;2
+IIIII;Inconnu;1

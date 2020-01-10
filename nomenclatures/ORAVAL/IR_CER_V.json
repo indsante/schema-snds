@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "TRS_DIS_NIV",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "DIS_NIV_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_CER_V",
+    "title": "niveau de certification",
+    "primaryKey": [
+        "TRS_DIS_NIV"
+    ]
+}

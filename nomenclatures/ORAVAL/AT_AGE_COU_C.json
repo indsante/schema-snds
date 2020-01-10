@@ -1,0 +1,22 @@
+{
+    "fields": [
+        {
+            "name": "AGE_COD",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "COU_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_AGE_COU_C",
+    "title": "actes de gestion et types de courrier associés",
+    "primaryKey": ["AGE_COD", "COU_COD"]
+}

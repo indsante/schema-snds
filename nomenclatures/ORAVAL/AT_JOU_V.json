@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "SIN_ATT_JOU",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "ATT_JOU_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_JOU_V",
+    "title": "Jours  - DM ATMP",
+    "primaryKey": [
+        "SIN_ATT_JOU"
+    ]
+}

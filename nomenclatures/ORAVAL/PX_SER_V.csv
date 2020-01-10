@@ -1,0 +1,39 @@
+TLS_FCT_COD;SER_SER_CPS;TLS_FCT_LIB;TEC_COL
+aat03;O;Accéder au service de création d'un Avis d'arrêt de travail;0
+ape01;O;Accéder au service de création d'un accord préalable;0
+ape03;O;Consulter les accords préalables en ligne;0
+boi01;N;Accéder à Ameli.fr;0
+boi02;N;Accéder à la nomenclature des actes CCAM;0
+boi03;N;Accéder aux référentiels HAS;0
+cmd01;N;Accéder au service de commandes de TDR angine;0
+cmd02;N;Accéder au service de commande d'imprimés;0
+cmd03;N;Accéder au service de déclaration de parc de véhicules;0
+cmd04;N;Accéder au service de saisie de formulaire en ligne;0
+cmd06;N;Consulter l'historique des commandes;0
+dmt01;O;Accéder au service de création d'une Déclaration Médecin Traitant;0
+ech01;N;Contacter l'Assurance Maladie par courrier électronique;0
+ech05;N;Contacter le support technique;0
+ech06;N;Trouver un interlocuteur;0
+hre01;O;Consulter l'Historique des remboursements;0
+idp01;O;Identifier un patient avec Carte Vitale;0
+idp02;N;Identifier un patient avec NIR;0
+pmt01;N;Consulter les paiements Aides à la télétransmission;0
+pmt02;N;Consulter les paiements Gardes et astreintes;0
+pmt03;N;Consulter les indus;0
+pmt05;N;Consulter les relevés d'honoraires;0
+pmt06;N;Consulter les relevés mensuels de paiements;0
+pmt07;N;Consulter les rémunérations spécifiques médecin traitant;0
+pmt08;N;Consulter les paiements par date d'actes;0
+pmt09;N;Consulter les paiements par date de paiement;0
+pra01;N;Accéder au service de déclaration de decès INSERM;0
+pra02;N;Consulter la patientèle médecin traitant;0
+pra03;N;Consulter le relevé individuel d'avtivité et de prescriptions;0
+pra11;N;Consulter les indicateurs Vos pratiques / CAPI;0
+pra20;N;Consulter les Référentiels et Mémos;0
+pra39;N;Consulter les indicateurs Votre convention;0
+pse01;O;Consulter les Protocoles de soins du patient;0
+pse02;O;Consulter les ALD du patient;0
+pse03;O;Accéder au service de création d'un Protocole de soins;0
+pse04;O;Gérer les protocoles de soins du patient;0
+pra52;N;Consultation convention Cardiologue;0
+XXXXX;X;Valeur inconnue;1

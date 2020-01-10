@@ -1,0 +1,23 @@
+{
+    "fields": [
+        {
+            "name": "EXT_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "EXT_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "XC_EXT_V",
+    "primaryKey": [
+        "EXT_COD"
+    ]
+}

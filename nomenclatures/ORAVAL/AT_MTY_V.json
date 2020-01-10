@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "SIN_MET_TYP",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "SIN_MET_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_MTY_V",
+    "title": "TOP codification profession (Ancienne ou nouvelle).",
+    "primaryKey": [
+        "SIN_MET_TYP"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "EMP_MOD_TAR",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "EMP_MOD_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_TAR_V",
+    "title": "mode de tarification  ( version 11 Orphée)",
+    "primaryKey": [
+        "EMP_MOD_TAR"
+    ]
+}

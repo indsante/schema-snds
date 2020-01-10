@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "MTT_ORI_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "MTT_ORI_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_ORI_V",
+    "title": "origine de la saisie ou de la mise à jour de la déclaration de médecin traitant",
+    "primaryKey": [
+        "MTT_ORI_COD"
+    ]
+}

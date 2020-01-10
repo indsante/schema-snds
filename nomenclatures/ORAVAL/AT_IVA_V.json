@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "SEE_COR_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "SEE_COR_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_IVA_V",
+    "title": "Indicateur de Validation ( AT ou section )",
+    "primaryKey": [
+        "SEE_COR_COD"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "ORI_THE_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "ORI_THE_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_THE_V",
+    "title": "orientation thérapeutique accordée.",
+    "primaryKey": [
+        "ORI_THE_COD"
+    ]
+}

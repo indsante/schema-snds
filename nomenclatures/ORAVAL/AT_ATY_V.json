@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "EMP_ATY_TOP",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "EMP_ATY_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_ATY_V",
+    "title": "TOP employeur atypique",
+    "primaryKey": [
+        "EMP_ATY_TOP"
+    ]
+}

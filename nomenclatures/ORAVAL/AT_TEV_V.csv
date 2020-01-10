@@ -1,0 +1,36 @@
+RAT_SUP_AFF;SUP_MTF_LIB;TEC_COL
+NNNNN;Non Précisé;0
+XXXXX;Sans Objet;2
+IIIII;Inconnu;1
+ATT;Attribution initiale;0
+REVIP;Révision;0
+REOIN;Inclusion (dans REO ou ICO);0
+REOMO;Modification (REO ou ICO);0
+RF;Rachat facultatif;0
+RVS;Réversion;0
+RO;Rachat obligatoire;0
+SUSDC;Suspension - décès présumé;0
+SUSEX;Suspension - contrôle existence;0
+SUSRE;Suspension - réimputé;0
+SUSCA;Suspension - carence contrôle médical;0
+SUSJU;Suspension - absence justificatif de droit;0
+SUSCL;Suspension - clôture en cours;0
+SUSCG;Suspension - exclusion contrôle globalisé;0
+CLOTR;Clôture - transfert vers Organisation Spéciale O3S;0
+CLODC;Clôture - décès;0
+CLODP;Clôture - départ à l'étranger;0
+CLOFD;Clôture - fin de droit;0
+ADDET;Détermination des AD;0
+ADMOD;Modification des AD;0
+ADATT;Attribution initiale rente AD;0
+ADMOR;Modification rente AD;0
+ADREC;Recalcul des rentes AD;0
+ATTRV;Attribution initiale rente réversion;0
+TRCDC;Transfert depuis Organisation Spéciale CDC;0
+TRO3S;Transfert depuis Organisation Spéciale O3S;0
+TRINT;Transfert interne CNAM;0
+MTPSU;Suspension MTP;0
+MTPRE;Remise en paiement MTP;0
+SUSAD;Suspension - justificatif AD manquant;0
+CLOAD;clôture anticipée;0
+CLOAI;clôture anticipée;0

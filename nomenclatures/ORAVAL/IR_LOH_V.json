@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "CPT_LOH_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "CPT_LOH_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_LOH_V",
+    "title": "Regroupement de Postes LFSS / ONDAM / Hors ONDAM",
+    "primaryKey": [
+        "CPT_LOH_COD"
+    ]
+}

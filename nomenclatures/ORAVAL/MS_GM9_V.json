@@ -1,0 +1,32 @@
+{
+    "fields": [
+        {
+            "name": "GM9_GHM_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "CMD_COD",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "GHM_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "primaryKey": "GM9_GHM_COD",
+    "name": "MS_GM9_V",
+    "title": "Groupe Homogene de Malade (GHM) V9"
+}

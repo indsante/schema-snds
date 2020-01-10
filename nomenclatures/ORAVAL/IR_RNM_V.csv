@@ -1,0 +1,12 @@
+RNM_RNM_COD;RNM_RNM_LIB;TEC_COL
+C;Etat civil et NIR certifiés;0
+D;Etat civil et NIR certifiés, bénéficiaire décédé;0
+E;Etat civil et NIR certifiés, bénéficiaire rattaché à l'organisme dans le RNIAM;0
+F;Demande de rattachement en cours suite à la certification de l'état civil et du NIR;0
+H;Etat civil et NIR certifiés, bénéficiaire décédé rattaché à l'organisme dans le RNIAM;0
+I;Demande d'identification en cours;0
+N;Etat civil et NIR certifiés, bénéficiaire décédé, organisme cédant;0
+O;Etat civil et NIR certifiés, organisme cédant;0
+R;Demande d'immatriculation en cours pour un bénéficiaire né hors de France, N° d'identification d'attente NIA;0
+W;Etat civil et NIR certifiés, bénéficiaire créé pour ordre;0
+X;Demande d'identification en cours pour un bénéficiaire créé pour ordre;0

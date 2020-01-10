@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "TRE_TYP_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "TRE_TYP_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_TRE_V",
+    "title": "Type de Rente",
+    "primaryKey": [
+        "TRE_TYP_COD"
+    ]
+}

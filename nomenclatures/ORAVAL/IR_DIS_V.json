@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "TRS_DIS_USG",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "DIS_USG_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_DIS_V",
+    "title": "utilisation du distancier",
+    "primaryKey": [
+        "TRS_DIS_USG"
+    ]
+}

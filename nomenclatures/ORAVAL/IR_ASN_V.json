@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "AGE_SEP_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "AGE_SEP_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_ASN_V",
+    "title": "Tranche d'Age SNIREP",
+    "primaryKey": [
+        "AGE_SEP_COD"
+    ]
+}

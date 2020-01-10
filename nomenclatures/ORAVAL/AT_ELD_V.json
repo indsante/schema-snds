@@ -1,0 +1,40 @@
+{
+    "fields": [
+        {
+            "name": "ATT_ELE_MAT",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "ATT_ELD_MAT",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "ATT_ELP_MAT",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "ATT_ELD_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_ELD_V",
+    "title": "Elément matériel  Détaillé   ou précis",
+    "primaryKey": [
+        "ATT_ELE_MAT",
+        "ATT_ELD_MAT"
+    ]
+}

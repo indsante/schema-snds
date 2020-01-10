@@ -1,0 +1,52 @@
+{
+    "fields": [
+        {
+            "name": "ETB_CAT_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "ETB_CAT_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "ETB_CAT_RG1",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "ETB_CR1_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "ETB_CAT_RG2",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "ETB_CR2_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "ETB_CAT_RG3",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "ETB_CR3_LIB",
+            "type": "string",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "primaryKey": "ETB_CAT_COD",
+    "name": "IR_CET_D",
+    "title": "Catégorie d'établissement (Dénormalisée)"
+}

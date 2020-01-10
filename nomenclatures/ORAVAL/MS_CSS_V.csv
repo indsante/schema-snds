@@ -1,0 +1,8 @@
+CSS_CTL_COD;CSS_CTL_LIB;TEC_COL
+9;valeur inconnue;1
+8;sans objet;2
+0;pas de problème à signaler;0
+1;longueur incorrecte (différente de 13);0
+2;renseigné avec la valeur manquante (i.e. `XXXXXXXXXXXXX¿);0
+3;présence de caractères non numériques;0
+4;format incorrect (i.e. ne commençant pas par `1¿ ou `2¿);0

@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "RAT_DOS_STA",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "DOS_STA_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_SDO_V",
+    "title": "Statut du Dossier",
+    "primaryKey": [
+        "RAT_DOS_STA"
+    ]
+}

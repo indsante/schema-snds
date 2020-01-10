@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "CTX_TYP_CTN",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "CTX_TYP_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_CON_V",
+    "title": "type de contestation (juridiction). ( Orphée  V11)",
+    "primaryKey": [
+        "CTX_TYP_CTN"
+    ]
+}

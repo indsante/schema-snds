@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "RAT_MPL_ALI",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "RAT_MLP_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_CRE_V",
+    "title": "Code de reconnaissance MP",
+    "primaryKey": [
+        "RAT_MPL_ALI"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "DCT_OPL_NAT",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "OPL_NAT_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_OPL_V",
+    "title": "Nature d'opération de liquidation",
+    "primaryKey": [
+        "DCT_OPL_NAT"
+    ]
+}

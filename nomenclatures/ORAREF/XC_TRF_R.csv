@@ -1,0 +1,18 @@
+TRF_GRI;TRF_LIB;TRF_DEF
+000;Tous secteurs;
+001;Secteur 1 / adhérent / SF;
+002;Hors secteur 1 / hors adhérent;
+003;Spé chir et gynéco-obst, s1 /  s1 OPTAM / s1 OPTAMCO / s2-1DP OPTAMCO;
+004;Spé chir et gynéco-obst, s2-1DP;
+005;Spé chir et gynéco-obst, s2-1DP OPTAM;
+006;Spé chir et gynéco-obst, non conventionné;
+007;Anesthésistes, s1 / s1-1DP-2 OPTAM;
+008;Anesthésistes, s2-1DP / non conventionné;
+009;Généralistes, s1 / s1-1DP-2 OPTAM;
+010;Généralistes, s2-1DP / non conventionné;
+011;Pédiatres, s1 / s1-1DP-2 OPTAM;
+012;Pédiatres, s2-1DP / non conventionné;
+013;Chirurgiens-dentistes;
+014;Autres spécialités médicales,  s2-1DP / non conventionné;
+015;Sages-femmes;
+016;Autres spécialités médicales,  s1 / s1-1DP-2 OPTAM;

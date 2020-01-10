@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "AMA_DVI_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "AMA_DVI_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_AMA_V",
+    "title": "Agent matériel de la déviation 1 & 2",
+    "primaryKey": [
+        "AMA_DVI_COD"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "ACD_REQ_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "ACD_REQ_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_REQ_V",
+    "title": "nature requérant",
+    "primaryKey": [
+        "ACD_REQ_COD"
+    ]
+}

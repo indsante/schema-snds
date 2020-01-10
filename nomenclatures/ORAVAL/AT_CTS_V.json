@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "CTX_NAT_DEC",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "CTX_NAT_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_CTS_V",
+    "title": "nature de la décision de contestation",
+    "primaryKey": [
+        "CTX_NAT_DEC"
+    ]
+}

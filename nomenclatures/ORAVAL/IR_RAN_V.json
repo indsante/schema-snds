@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "RAN_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "RAN_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_RAN_V",
+    "title": "Regroupement type anomalie",
+    "primaryKey": [
+        "RAN_COD"
+    ]
+}

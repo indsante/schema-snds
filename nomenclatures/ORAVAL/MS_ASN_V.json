@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "ASN_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "ASN_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "MS_ASN_V",
+    "title": "Nature d'assurance PMSI",
+    "primaryKey": [
+        "ASN_COD"
+    ]
+}

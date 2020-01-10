@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "CNT_LES_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "CNT_LES_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_CNT_V",
+    "title": "Contexte des lésions",
+    "primaryKey": [
+        "CNT_LES_COD"
+    ]
+}

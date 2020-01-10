@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "CPT_CMF_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "CPT_CMF_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_CMF_V",
+    "title": "Regroupement Postes Comptables CMU / Participation / Forfait",
+    "primaryKey": [
+        "CPT_CMF_COD"
+    ]
+}

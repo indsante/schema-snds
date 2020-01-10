@@ -1,0 +1,34 @@
+{
+    "fields": [
+        {
+            "name": "CAT_PSH_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "CAT_PSH_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "CAT_TLS_COD",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "PX_ETA_V",
+    "title": "codes catégories télé-service par établissement",
+    "primaryKey": [
+        "CAT_PSH_COD"
+    ]
+}

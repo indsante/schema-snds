@@ -1,0 +1,25 @@
+{
+    "fields": [
+        {
+            "name": "NMED_HIS_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "NMED_CRE_FIC",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "NMED_PHA_CHR",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "primaryKey": ["NMED_HIS_COD", "NMED_CRE_FIC"],
+    "name": "IR_PVR_R"
+}

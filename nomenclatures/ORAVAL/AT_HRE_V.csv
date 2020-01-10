@@ -1,0 +1,27 @@
+SIN_ATT_HRE;ATT_HRE_LIB;TEC_COL
+01;Une heure;0
+02;Deux heures;0
+03;Trois heures;0
+04;Quatre heures;0
+05;Cinq heures;0
+06;Six heures;0
+07;Sept heures;0
+08;Huit heures;0
+09;Neuf heures;0
+10;Dix heures;0
+11;Onze heures;0
+12;Douze heures;0
+13;Treize heures;0
+14;Quatorze heures;0
+15;Quinze heures;0
+16;Seize heures;0
+17;Dix sept heures;0
+18;Dix huit heures;0
+19;Dix neuf heures;0
+20;Vingt heures;0
+21;Vingt et une heures;0
+22;Vingt deux heures;0
+23;Vingt trois heures;0
+24;Vingt quatre heures;0
+00;Non précisé;0
+99;Valeur inconnue;1

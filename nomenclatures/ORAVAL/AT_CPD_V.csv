@@ -1,0 +1,170 @@
+SIN_CAT_PRD;PDT_CAT_LIB;TEC_COL
+XX;Sans Objet;2
+II;Valeur inconnue;1
+00;categorie de produit inconnue;0
+10;categories a usage generaux;0
+11;absorbants filtrants;0
+12;agents extincteurs;0
+13;ignifugeants;0
+14;anti-gel;0
+15;anti-mousse;0
+16;detartrants;0
+17;fluides caloporteurs;0
+18;anti-condensation;0
+19;ajusteurs de viscosite;0
+1A;odoriferants;0
+1B;propulseurs d'aerosols;0
+1C;tensio-actifs;0
+1D;cires;0
+1E;fluides hydrauliques;0
+1F;agglomerants;0
+1G;abrasifs;0
+1H;agents de blanchiment (sauf optique);0
+1J;adjuvants additifs;0
+1K;anti-adhesif agent de demoulage de decoffrage;0
+1L;plastifiants adoucissants;0
+1M;charges;0
+1N;colorants;0
+1P;teintures;0
+1Q;pigments mineraux;0
+1R;pigments organiques;0
+1S;peintures vernis;0
+1T;colles adhesifs;0
+1U;solvants;0
+1V;diluants;0
+1W;degraissants solvants;0
+1X;detergents lessives;0
+1Y;agents de blanchiment decolorants (eau de Javel);0
+21;savons;0
+22;cosmetiques et capillaires;0
+23;azurants optiques;0
+24;decapants mordants;0
+25;d'impregnation;0
+26;durcisseurs;0
+27;poussieres minerales;0
+28;poussieres metalliques;0
+29;poussieres animales;0
+2A;poussieres vegetales;0
+2B;poussieres papier carton;0
+2C;fibres minerales;0
+2D;fibres animales;0
+2E;fibres vegetales;0
+2F;fibres synthetiques (matieres plastiques);0
+2G;resines naturelles;0
+2H;matieres vegetales;0
+2J;animaux domestiques;0
+2K;animaux sauvages;0
+2L;plantes;0
+2M;engrais;0
+2N;biocides bactericides desinfectants;0
+2P;pesticides insecticides rodenticides;0
+2Q;fongicides herbicides;0
+2R;helicides molluscicides;0
+2S;radioactifs;0
+2T;outils tranchants coupants blessants;0
+2U;pour jointoyer joints;0
+2V;pour isolation thermique et phonique;0
+A0;pour la metallurgie;0
+A1;inhibiteur de corrosion passivant;0
+A2;pour traitement thermique et trempe;0
+A3;pour fonderie (sauf agglomerants);0
+A4;decalaminants;0
+A5;phosphatants;0
+A6;fluides de coupe;0
+A7;pour traitement de surface;0
+A8;solution de placage;0
+A9;flux protecteurs pour soudure;0
+AA;de friction;0
+AB;lubrifiants et additifs huiles graisses;0
+AC;pour soudures;0
+AD;detecteurs de criques;0
+AE;fumees de soudage;0
+B0;pour le batiment TP;0
+B1;materiaux de construction;0
+B2;ciment platre etc....;0
+B3;produits prefabriques panneaux couverture;0
+B4;produit d'etancheite;0
+B5;pour traitement de la pierre;0
+B6;ciment-colle;0
+B7;enduits;0
+B8;mastics;0
+B9;produits routiers;0
+BA;produits d'injection des sols;0
+C0;pour l'industrie du bois;0
+C1;pour traitement des bois;0
+C2;bouche pores;0
+D0;pour l'industrie chimique et petrochimique;0
+D1;complexants;0
+D2;explosifs;0
+D3;intermediaires (de synthese);0
+D4;produits pour laboratoires chimie;0
+D5;regulateurs de pH;0
+D6;pharmaceutiques;0
+D7;regulateurs de process (catalyseur...);0
+D8;agents reducteurs;0
+D9;agents oxydants;0
+DA;enzymes;0
+DB;produits extraction(hydrocarbures naturels houille lignite);0
+E0;pour l'industrie des pierres et terres a feu;0
+E1;anti-poussieres;0
+E2;pour flotation;0
+E3;emaux;0
+E4;produits d'extraction (pierres);0
+E5;minerais non metalliques;0
+E6;minerais metalliques;0
+F0;pour l'industrie du caoutchouc des plastiques;0
+F1;caoutchouc;0
+F2;thermoplastiques;0
+F3;thermodurcissables;0
+F4;agents moussants agents gonflants;0
+F5;stabilisants;0
+F6;vulcanisants;0
+F7;accelerateurs;0
+F8;antioxygenes;0
+F9;mousses;0
+FA;monomeres;0
+FB;latex;0
+G0;pour l'industrie du livre;0
+G1;pour photographie;0
+G2;pour reprographie toners;0
+G3;encres;0
+G4;produits offset;0
+G5;pour photogravure;0
+H0;pour l'industrie textile;0
+H1;fixants pour colorants;0
+H2;d'ensimage;0
+H3;apprets;0
+H4;detachants;0
+H5;d'encollage;0
+J0;pour l'industrie du cuir et des fourrures;0
+J1;tannants;0
+K0;pour l'industrie alimentaire;0
+K1;aliments;0
+K2;additifs alimentaires;0
+L0;pour l'industrie des transports;0
+L1;carburants;0
+L2;additifs pour carburants;0
+L3;gaz d'echappement;0
+M0;pour les industries eau gaz electricite;0
+M1;d'isolation electrique;0
+M2;conducteurs de l'electricite;0
+M3;semi-conducteurs;0
+M4;anti-statique;0
+M5;pour traitement de l'eau;0
+M6;eaux usees eaux d'egout;0
+N0;pour les professions de sante;0
+N1;gaz medicaux dont anesthesiques;0
+N2;materiel de soin piquant;0
+N3;materiel de soin coupant;0
+N4;materiel de soin cassant (en verre);0
+N5;produits pour laboratoires de bacteriologie biologie;0
+N6;malades;0
+N7;liquides produits biologiques;0
+P0;pour les industries agricoles et forestieres;0
+P1;produits de l'elevage;0
+P2;produits de la peche et de l'aquaculture;0
+P3;produits des industries agricoles et alimentaires;0
+P4;produits agrochimiques;0
+Q0;produits de l'industrie nucleaire;0
+Z0;autres categories non designees par ailleurs;0
+ZZ;autres;0

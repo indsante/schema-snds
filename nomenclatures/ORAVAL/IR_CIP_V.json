@@ -1,0 +1,31 @@
+{
+    "fields": [
+        {
+            "name": "PHA_PRS_IDE",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "PHA_ATC_CLA",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GRP_GRP_COD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "primaryKey": "PHA_PRS_IDE",
+    "name": "IR_CIP_V",
+    "title": "Table des classes thérapeutiques ATC par code CIP"
+}

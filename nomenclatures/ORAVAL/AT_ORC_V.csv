@@ -1,0 +1,18 @@
+SEE_CRD_ORI;CRD_ORI_LIB;TEC_COL
+0;Information provenant de la reprise;0
+1;Information provenant de la DADS normale (Papier);0
+2;Information provenant de la DADS simplifiee;0
+3;Information provenant de la DADS TDS;0
+4;Information provenant de l'URSSAF;0
+5;DADS-U support magnétique;0
+6;Information provenant de l'employeur;0
+7;Information provenant de plusieurs fractions de DADS;0
+8;Information provenant de credits reportes suite a transfert ou fusion (uniquement);0
+9;DADS-U support papier;0
+A;DADS-NET;0
+D;DSN;0
+M;Crédit mixte (DADS-U et DSN);0
+N;Non Precisé;0
+R;Report;0
+I;Valeur inconnue;1
+X;Sans Objet;2

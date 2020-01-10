@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "ENP_NOT_URG",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "ENP_NOT_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_URG_V",
+    "title": "Notion d'urgence",
+    "primaryKey": [
+        "ENP_NOT_URG"
+    ]
+}

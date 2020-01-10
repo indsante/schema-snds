@@ -1,0 +1,8 @@
+MVT_MOT_COD;MVT_MOT_LIB;TEC_COL
+1;Congé;0
+2;Hospitalisation;0
+4;Décès;0
+3;Retour à domicile;0
+5;Changement d'établissement;0
+99;Valeur inconnue;1
+0;Sans objet;2

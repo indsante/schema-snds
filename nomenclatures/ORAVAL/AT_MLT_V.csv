@@ -1,0 +1,121 @@
+SIN_MLP_TAB;SIN_MLP_BTR;MLP_TAB_LIB;MLP_TAB_LBC;TEC_COL
+019;A;Spirochétoses (à l'exception des tréponématoses);Spirochetoses;0
+020;A;Affections provoquées par l'arsenic et ses composés minéraux;Arsenic;0
+020;B;Cancer bronchique primitif provoqué par l'inhalation de poussières ou de vapeurs arsenicales;Cancer/arsenic;0
+020;T;Cancer bronchique primitif provoqué par l'inhalation de poussières ou de vapeurs renfermant des arseno-pyrites aurifères;Cancer/inhalation de poussières;0
+021;A;Intoxication professionnel par l'hydrogène arsénié;Hydrogène arsénié;0
+022;A;Sulfocarbonisme professionnel;Sulfocarbonisme;0
+024;A;Brucelloses professionnelles;Brucelloses;0
+025;A;Affections consécutives à l'inhalation de poussières minérales renfermant de la silice cristalline (quartz cristobalite tridymite) des silicates cristallins (kaolin talc) du graphite ou de la houille;Pneumoconioses dues à la silice;0
+025;B;TABLEAU N° 25B : Ce tableau est annulé au bénéfice du TABLEAU N° 25A;TABLEAU N° 25B remplacé par le TABLEAU N° 25A;0
+026;A;Intoxication professionnelle par le bromure de méthyle;Bromure de méthyle;0
+027;A;Intoxication professionnelle par le chlorure de méthyle;Chlorure de méthyle;0
+028;A;Ankylostomose professionnelle Anémie engendrée par l'ankylostome duodénal;Ankylostomose;0
+029;A;Lésions provoquées par des travaux effectués dans des milieux où la pression est supérieure à la pression atmosphérique;Lésions/travaux ou pression>pression atmos.;0
+030;A;Affections professionnelles consécutives à l'inhalation de poussières d'amiante;Affections / amiante;0
+030;B;Cancer broncho-pulmonaire provoqué par l'inhalation de poussières d'amiante;Cancer broncho-pulm./ amiante;0
+031;A;Maladies professionnelles engendrées par les aminoglycosides, notamment par la streptomycine, la néomycine et leurs sels;MP /aminoglycosides;0
+032;A;Affections professionnelles provoquées par le fluor, l'acide fluorhydrique et ses sels minéraux;Fluor, acide fluorhydrique;0
+033;A;Maladies professionnelles dues au béryllium et à ses composés;Béryllium;0
+034;A;Affections provoquées par les phosphates, pyrophospha., et thiophopha. d'alcoyle ou d'alcoylaryle et autres organophosp. anticholinestér. ainsi que par les phosphoram et carbamates hétérocyc anticholi;Phosphates, pyrophosphates etc;0
+036;A;Affections provoquées par les huiles et graisses d'origine minérale ou de synthèse;Huiles et graisses minérales ou de synthèse;0
+036;B;Affecti cutanées cancér provoquées par les dérivés suivant du pétrole : extraits aromatiq, huiles minér.utilisées à hte températ ds les opérati d'usina et de traitem des métaux suies;Affections cancéreuses/dérivés du pétrole;0
+037;A;Affections cutanées professionnelles causées par les oxydes et sels de nickel;Aff.cutanées/oxydes et nickel;0
+037;B;Affections respiratoires causées par les oxydes et les sels de nickel;Affections respiratoires/oxydes de nickel;0
+037;T;Cancers provoqués par les opérations de grillage des mattes de nickel;Affections cancereuse/oxydes de nickel;0
+038;A;Maladies professionnelles engendrées par la chlorpromazine;Chlorpromazine;0
+039;A;Maladies profgessionnelles engendrées par le bioxyde de manganèse;Bioxyde de manganèse;0
+040;A;Maladies dues aux bacilles tuberculeux et à certaines mycobactéries atypiques;Bacilles tuberculeux;0
+041;A;Maladies engendrées par bétalactamines (notamment pénicillines et leurs sels) et les céphalosporines;Pénicillines et céphalospornes;0
+042;A;Atteinte auditive provoquée par les bruits lésionnels;Surdité;0
+043;A;Affections provoquées par l'aldéhyde formique et ses polymères;Aff/aldéhyde et ses polymères;0
+043;B;Carcinome du nasopharynx;Carcinome du nasopharynx;0
+044;A;Affections consécutives à l'inhalation de poussières ou de fumées d'oxyde de fer;Affections/inhalation d'oxyde de fer;0
+044;B;cancers/inhalation d oxyde de fer;Cancers/inhalation d'oxyde de fer;0
+045;A;Infections d'origine professionnelle par les virus des hépatites A, B, C, D et E;Hépatites virales;0
+046;A;Mycoses cutanées;Mycoses cutanées;0
+023;A;Nystagmus professionnel;Nystagmus;0
+049;B;Affections respiratoires provoquées par les amines aliphatiques, les éthanolamines ou l'isophoronédiamine;Affections provoquées par les amines aliphatiques;0
+050;A;Affections provoquées par la phénylhydrazine;Phénylhydrazine;0
+051;A;Maladies professionnelles provoquées par les résines époxydiques et leurs constituants;Résines époxydiques;0
+052;A;Affections provoquées par le chlorure de vinyle monomère;Chlorure de vinyle monomère;0
+053;A;Affections dues aux rickettsies;Affections dues aux rickettsies;0
+054;A;Poliomyelite;Poliomyélite;0
+055;A;Affections professionnelles dues aux amibes;Amibes;0
+056;A;Rage professionnelle;Rage;0
+057;A;Affections periarticulaires provoquées par certains gestes et postures de travail;Affections périarticulaires;0
+058;A;Affections professionnelles provoquées par le travail à haute température;Affections/travail à haute température;0
+059;A;Intoxications professionnelles par l'hexane;Intoxications/hexane;0
+061;A;Maladies professionnelles provoquées par le cadmium et ses composés;Cadmium et ses composés;0
+061;B;Cancer broncho-pulmonaire primitif;Cancer broncho-pulmonaire primitif;0
+062;A;Affections professionnelles provoquées par les isocyanates organiques;Isocyanates organiques;0
+063;A;Affections provoquées par les enzymes;Affections/enzymes;0
+064;A;Intoxication professionnelle par l'oxyde de carbone;Intoxication par CO;0
+065;A;Lésions eczématiformes de mécanisme allergique;Eczéma allergique;0
+066;A;Rhinites et asthmes professionnels;Affections respiratoires /allergie;0
+066;B;Pneumopathies d'hypersensibilité;Pneumopathies d'hypersensibilité;0
+067;A;Lésions de la cloison nasale provoquées par les poussières de chlorure de potassium dans les mines de potasse et leurs dépendances;Lésions chlorure de potassium;0
+068;A;Tularémie;Tularémie;0
+069;A;Affections provoquées par les vibrations et chocs transmis par certaines machines-outils, outils et objets et par les chocs itératifs du talon de la main sur des éléments fixes;Vibrations et chocs/machine;0
+070;A;Affections professionnelles provoquées par le cobalt et ses composés;Cobalt;0
+070;B;Affections respiratoires dues aux poussières de carbures métalliques frittés ou fondus contenant du cobalt;Carbures métalliques frittées;0
+070;T;Affections cancéreuses broncho-pulmonaires primitives causées par l'inhalation de poussières de cobalt associées au carbure de tungstène avant frittage;Affections cancéreuses;0
+071;A;Affections oculaires dues au rayonnement thermique;Affections oculaire/rayonnement thermique;0
+071;B;Affections oculaires dues au rayonnement thermique associé aux poussières;Affections oculaires /rayonnt thermiq et poussière;0
+047;A;Affections professionnelles provoquées par les poussières de bois;Bois;0
+049;A;Affections cutanées provoquées par les amines aliphatiques, alicycliques ou les éthanolamines;Amines aliphatiques et alicycliques;0
+078;A;Affections provoquées par le chlorure de sodium dans les mines de sel et leurs dépendance;Chlorure de sodium dans les mines de sel;0
+079;A;Lésions chroniques du ménisque;Lésions chroniques du ménisque;0
+080;A;Kératoconjonctivites virales;Kératoconjonctivites virales;0
+081;A;Affections malignes provoquées par le bis (chlorométhyle) éther;Affections malignes /bis (chlorométhyle) éther;0
+082;A;Affections provoquées par le méthacrylate de méthyle;Affections/le méthacrylate de méthyle;0
+083;A;Lésions provoquées par les travaux effectués dans un milieu où la pression est inférieure à la pression atmosphérique et soumise à variations;Lésions/travaux où pression<pression atmos.;0
+084;A;Affections engendrées par les solvants organiques liquides à usage professionnel;Affections/solvants organiques liquides;0
+085;A;Affection engendrée  par l'un ou l'autre de ces produits : N-méthyl, N'nitro N-nitrosoguanidine N-éthyl N'nitro N-nitrosoguanidine N-méthyl N-nitrosourée N-éthyl N-nitrosourée;N-méthyl N-nitro;0
+086;A;Pasteurelloses;Pasteurelloses;0
+087;A;Ornithose-Psittacose;Ornithose-Psittacose;0
+088;A;Rouget du porc;Rouget du porc (ErysipéloÏde de Baker-Rosenbach);0
+089;A;Affection provoquée par l'halothane;Halothane;0
+090;A;Affections respiratoires consécutives à l'inhalation de poussières textiles végétales;Affection respiratoire textile végétal;0
+091;A;Bronchopneumopathie chronique obstructive du mineur de charbon;BPCO du mineur de charbon;0
+092;A;Infections professionnelles à Streptococcus suis;Streptococcus suis;0
+093;A;Lésions chroniques du segment antérieur de l'oeil provoquées par l'exposition à des particules en circulation dans les puits de mine de charbon;Lesions chronique de l'oeil /particules dans mines;0
+094;A;Broncho-pneumopathie chronique obstructive du mineur de fer;BPCO du mineur de fer;0
+095;A;Affections professionnelles de mécanisme allergique provoquées par les protéines du latex (ou caoutchouc naturel);Affections allergiques / latex;0
+096;A;Fièvres hémorragiques avec syndrome rénal dues aux agents infectieux du groupe hantavirus;Hantavirus;0
+097;A;Affections chroniques du rachis lombaire provoquées par des vibrations de basses et moyennes fréquences transmises au corps entier;Affections du rachis lombaire/vibrations;0
+098;A;Affections chroniques du rachis lombaire provoquées par la manutention manuelle de charges lourdes;Aff. rachis lombaire/manutention charges lourdes;0
+777;I;Valeur Inconnue;Valeur Inconnue;1
+888;N;Non Précisé;Non Précisé;0
+052;B;Carcinome hépatocellulaire provoqué par l'exposition au chlorure de vinyle de monomère (CVM);Carcinome hépatocellulaire / (CVM);0
+072;A;Maladies résultant de l'exposition aux dérivés nitrés des glycols et du glycérol;Dérivés du nitrol et du glycérol;0
+073;A;Maladies professionnelles causées par l'antimoine et ses dérivés;Antimoine et ses dérivés;0
+074;A;Affections professionnelles provoquées par le furfural et l'alcool furfurylique;Furfural et alcool furfurylique;0
+075;A;Affections professionnelles résultant de l'exposition au sélénium et à ses dérivés minéraux;Sélénium et dérivés;0
+076;A;Maladies liées à des agents infectieux ou parasitaires contractées en milieu d'hospitalisation et d'hospitalisation à domicile;Maladies nosocomiales;0
+077;A;Périonyxis et onyxis;Périonyxis et onyxis;0
+099;A;Hémopathies provoquées par le 1.3 butadiène et tous les produits en renfermant;Hémopathies /1.3 butadiène, produits en renfermant;0
+000;Y;Sans Objet;Sans Objet;2
+001;A;Affections dues au plomb et à ses composés;plomb;0
+002;A;Maladies causées par le mercure et ses composés;mercure;0
+003;A;Intoxication par le tetrachlorethane;tetrachlorethane;0
+004;A;Hémopathies dues au benzène et tous les produits en renfermant;benzene;0
+004;B;Affections gastro-intestinales dues au benzène, toluène, xilène et tous produits en renfermant;Affections/benzène toluène;0
+005;A;Affections liées au contact avec le phosphore et ses minéraux;Phosphore;0
+006;A;Affections dues aux rayonnements ionisants;Rayonnements ionisants;0
+007;A;Tetanos professionnel;Tétanos;0
+008;A;Affections causées par les ciments;Ciments;0
+009;A;Affections dues aux dérivés halogénés des hydrocarbures;Dérivés des hydrocarbures;0
+010;A;Ulcérations et dermites dues à l'acide chromique, les chromates, chromates alcalins;Dermites par acide chromique;0
+010;B;Affections respiratoires dues à l'acide chromique;Acide chromique;0
+010;T;Affections cancereuses causées par l'acide chromique;Cancer chromique;0
+011;A;Intoxication par le tétrachlorure de carbone;Intoxication / tétrachlorure de carbone;0
+012;A;Affections provoquées par les dérivés halogénés suivant des hydrocarbures aliphatiques;Dérivés hydrocarbures aliphatiques;0
+013;A;Intoxication par les dérivés nitrés et chloronitrés des carbures benzéniques;Hydrocarbures benzéniques;0
+014;A;Affections dues aux dérivés altérés de phénol par le pentachlorophénol;Dérivés phénol/pentachlorophénol;0
+015;A;Affections provoquées par les amines aromatiques et leurs dérivés hydroxylés;Aff/amines aromatiques/sels/dérivés;0
+015;B;Affections provoquées par les amines aromatiques et les produits à l'état libre;Allergies /amines hydroxydes;0
+015;T;Lésions prolifératives de la vessie provoquées par les amines aromatiques et leurs sels;Lésions de la vessie;0
+016;A;Affections cutanées ou affections des muqueuses provoquées par les goudrons de houille, les huiles de houille, les brais de houille et les suies de combustion du charbon;Goudron houille;0
+016;B;Affections cancéreuses par les goudrons ou huiles de houille , les brais de houille et les suies de combustion du charbon;Cancers/les goudrons, huile de houille;0
+018;A;Charbon;Charbon;0

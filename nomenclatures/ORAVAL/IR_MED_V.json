@@ -1,0 +1,34 @@
+{
+    "fields": [
+        {
+            "name": "MED_NCL_IDT",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "MED_MTF_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "MED_MTF_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_MED_V",
+    "title": "Informations Médicales",
+    "primaryKey": [
+        "MED_MTF_COD"
+    ]
+}

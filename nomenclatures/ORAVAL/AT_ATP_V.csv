@@ -1,0 +1,46 @@
+ATP_COD_PRF;ATP_LIB_PRF;TEC_COL
+01;Officiers des forces armées;0
+02;Sous-officiers des forces armées;0
+03;Autres membres des forces armées;0
+11;Directeurs généraux, cadres supérieurs et membres de l'Exécutif et des corps législatifs;0
+12;Directeurs de services administratifs et commerciaux;0
+13;Directeurs et cadres de direction, production et services spécialisés;0
+14;Directeurs et gérants de l'hôtellerie, la restauration, le commerce et autres services;0
+21;Spécialistes des sciences techniques;0
+22;Spécialistes de la santé;0
+23;Spécialistes de l'enseignement;0
+24;Spécialistes en administration d'entreprises;0
+25;Spécialistes des technologies de l'information et des communications;0
+26;Spécialistes de la justice, des sciences sociales et de la culture;0
+31;Professions intermédiaires des sciences et techniques;0
+32;Professions intermédiaires de la santé;0
+33;Professions intermédiaires, finance et administration;0
+34;Professions intermédiaires des services juridiques, des services sociaux et assimilés;0
+35;Techniciens de l'information et des communications;0
+41;Employés de bureau;0
+42;Employés de réception, guichetiers et assimilés;0
+43;Employés des services comptables et d'approvisionnement;0
+44;Autres employés de type administratif;0
+51;Personnel des services directs aux particuliers;0
+52;Commerçants et vendeurs;0
+53;Personnel soignant;0
+54;Personnel des services de protection et de sécurité;0
+61;Agriculteurs et ouvriers qualifiés de l'agriculture commerciale;0
+62;Professions commerciales qualifiées de la sylviculture, de la pêche et de la chasse;0
+63;Agriculteurs, pêcheurs, chasseurs et cueilleurs de subsistance;0
+71;Métiers qualifiés du bâtiment et assimilés, sauf électriciens;0
+72;Métiers qualifiés de la métallurgie, de la construction mécanique et assimilés;0
+73;Métiers qualifiés de l'artisanat et de l'imprimerie;0
+74;Métiers de l'électricité et de l'électrotechnique;0
+75;Métiers de l'alimentation, du travail sur bois, de l'habillement et autres métiers qualifiés de l'industrie et de l'artisanat;0
+81;Conducteurs de machines et d'installations fixes;0
+82;Ouvriers de l'assemblage;0
+83;Conducteurs de véhicules et d'engins lourds de levage et de man½uvre;0
+91;Aides de ménage;0
+92;Manoeuvres de l'agriculture, de la pêche et de la sylviculture;0
+93;Manoeuvres des mines, du bâtiment et des travaux publics, des industries manufacturières et des transports;0
+94;Assistants de fabrication de l'alimentation;0
+95;Vendeurs ambulants et autres travailleurs des petits métiers des rues et assimilés;0
+96;Eboueurs et autres travailleurs non qualifiés;0
+II;Valeur inconnue;1
+XX;Sans objet;2

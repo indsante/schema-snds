@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "GHS_CMD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "CMD_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_CMD_V",
+    "title": "Regroupement GHS",
+    "primaryKey": [
+        "GHS_CMD"
+    ]
+}

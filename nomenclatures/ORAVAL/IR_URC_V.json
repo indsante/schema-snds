@@ -1,0 +1,32 @@
+{
+    "fields": [
+        {
+            "name": "URC_ARH_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "URC_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "ARH_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "primaryKey": "URC_ARH_COD",
+    "name": "IR_URC_V",
+    "title": "URCAM / ARH ( région )"
+}

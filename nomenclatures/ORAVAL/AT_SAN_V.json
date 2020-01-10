@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "SIN_SAN_ETA",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "SIN_SAN_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_SAN_V",
+    "title": "TOP Sanction (O/N)",
+    "primaryKey": [
+        "SIN_SAN_ETA"
+    ]
+}

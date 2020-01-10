@@ -1,0 +1,23 @@
+{
+    "fields": [
+        {
+            "name": "COD_TYPE",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "LIBELLE",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "XC_TYP_R",
+    "primaryKey": [
+        "COD_TYPE"
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "fields": [
+        {
+            "name": "DEV_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "DEV_SIG",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "DEV_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_DEV_V",
+    "title": "Devise",
+    "primaryKey": [
+        "DEV_COD"
+    ]
+}

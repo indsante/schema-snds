@@ -1,0 +1,33 @@
+VIC_PAT_COD;VIC_PAT_LIB;TEC_COL
+II;Valeur inconnue;1
+00;Non precisee;0
+01;Forces armees;0
+11;Membres de l'executif et corps legisl cadres sup admin pub;0
+12;Directeurs de societe;0
+13;Dirigeants et gerants;0
+21;Specialistes des sciences physiques mathematiques et techniq;0
+22;Specialistes des sciences de la vie et de la sante;0
+23;Specialistes de l'enseignement;0
+24;Autres specialistes des professions intellectuelles et scien;0
+31;Professions intermediaires des sciences physiques et techniq;0
+32;Professions intermediaires des sciences de la vie et de la s;0
+33;Professions intermediaires de l'enseignement;0
+34;Autres professions intermediaires;0
+41;Employes de bureau;0
+42;Employes de reception caissiers guichetiers et assimiles;0
+51;Personnel services directs aux part,  protect et de securite;0
+52;Modeles vendeurs et demonstrateurs;0
+61;Agriculteurs ouvriers qualif de l'agri, peche pour marches;0
+62;Agriculteurs et ouvriers de l'agri et de la peche de subsist;0
+71;Artisans et ouvriers des metiers de l'extraction et du batim;0
+72;Artisans ouvriers metiers metall construct mecan et assimi;0
+73;Artisans ouvriers mecan precis metiers art imprim et assim;0
+74;Autres artisans et ouvriers des metiers de type artisanal;0
+81;Conducteurs d'installations et de materiels fixes et assimil;0
+82;Conducteurs de machines et ouvriers de l'assemblage;0
+83;Conducteurs vehicules et engins lourds levage et manoeuvre;0
+91;Employes non qualifies des services et de la vente;0
+92;Manoeuvres de l'agriculture de la peche et assimiles;0
+93;Manoeuvres des mines du bat travx publ indust manufact trans;0
+98;Personnes en formation eleves stagiaires;0
+99;REPRISE;0

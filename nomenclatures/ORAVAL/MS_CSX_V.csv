@@ -1,0 +1,6 @@
+CSX_CTL_COD;CSX_CTL_LIB;TEC_COL
+9;valeur inconnue;1
+8;sans objet;2
+0;pas de problème à signaler;0
+1;renseigné avec la valeur manquante (i.e. `X¿);0
+2;valeur illicite (i.e. n¿appartenant pas à {1, 2});0

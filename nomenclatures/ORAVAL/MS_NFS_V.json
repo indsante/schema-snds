@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "NFS_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "NFS_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "MS_NFS_V",
+    "title": "Nature d'interruption ou de fin de séjour",
+    "primaryKey": [
+        "NFS_COD"
+    ]
+}

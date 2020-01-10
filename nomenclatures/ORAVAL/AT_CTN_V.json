@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "SEE_CTN_NUM",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "SEE_CTN_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_CTN_V",
+    "title": "code CTN",
+    "primaryKey": [
+        "SEE_CTN_NUM"
+    ]
+}

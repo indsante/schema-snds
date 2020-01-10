@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "COD_RES",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "RES_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "MS_RES_V",
+    "title": "Code géographique de résidence",
+    "primaryKey": [
+        "COD_RES"
+    ]
+}

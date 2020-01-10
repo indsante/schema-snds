@@ -1,0 +1,31 @@
+MOD_MOD_COD;MOD_COD_LIB;TEC_COL
+0;Valeur inconnue;1
+6;Intervention iterative glaucome..., voies biliaires ou urinaires;0
+7;Presence permanente anesthesiste durant intervention;0
+8;Anesthesie intervention iterative glaucome..., voies biliaires ou urinaires;0
+9;Modificateur transitoire de convergence vers la cible, valeur 2 (date de fin 31/12/2014);0
+A;Anesthesie patient < 4 ans ou > 80 ans;0
+B;Radio. au bloc operatoire, unite de rea. ou lit du patient intransportable;0
+C;Radio. comparative des membres;0
+D;Controle radio. segment squelette immobilisé par contention rigide;0
+E;Radiologie conventionnelle ou scanographie patient < 5 ans;0
+F;Actes en urgence dimanche ou jour ferie;0
+G;"Glaucome... patient < 1 an ; Extraction oeso ou bronch. patient < 3 ans ; Med. nuc. patient < 3 ans";0
+H;Radiotherapie niveau 1;0
+I;Modificateur transitoire de convergence vers la cible, valeur 3 (date de fin 31/12/2014);0
+J;Majoration transitoire de chirurgie;0
+K;Majoration forfaits modulables accouchements gyneco. et chir sect. 1 ou 2 adherant, pour actes avec J jusqu'au 14 juin 2017, puis à partir du 15 juin 2017, Majoration forfaits modulables pour actes accouchements des gyneco. et pour actes avec J des chirurgiens en secteur 1 et adhérant OPTAM;0
+L;Traitement fracture ou luxation ouverte;0
+M;Urgence cabinet médecin généraliste ou du pédiatre, après examen en urgence d un patient;0
+O;Modificateur transitoire de convergence vers la cible valeur 1 (date de fin 31/12/2014) Depuis le 01/01/2018 :  URGENCE DIURNE;0
+P;Acte réalisé en urgence par les pédiatres et médecins généralistes de 20h à 00h;0
+Q;Radiotherapie niveau 2;0
+R;Chirurgie plastique téguments face, cou, main et doigts;0
+S;Urgence nuit 00h-08h pediatres et med. gen. ou autres med. pr acte thérapeutique sous anesthésie;0
+T;Bilateral, hors radiologie conventionnelle et chirurgie sur les membres jusqu'au 14 juin 2017, et à partir du 15 juin 2017, Majoration forfaits modulables pour actes accouchement des sages-femmes et des gyneco. adherant OPTAM et pour actes avec J des chirurgiens adherant OPTAM;0
+U;Urgence hors pediatres et omnipraticiens nuit 20 h - 8 h;0
+V;Radiotherapie niveau 3;0
+W;Radiotherapie niveau 4;0
+X;Modificateur transitoire de convergence vers la cible, valeur 4 (date de fin 31/12/2014);0
+Y;Radiographie réalisée par pneumologue ou rhumatologue jusqu'au 27/04/2017 en date de soins, Radiographie réalisée par un radiologue, un pneumologue ou un rhumatologue à partir du 28/04/2017 en date de soins;0
+Z;Radiographie réalisée par radiologue (fermeture en date de soins du 28/04/2017);0

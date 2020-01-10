@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "LES_LES_SIE",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "LES_SIE_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_SIE_V",
+    "title": "siège de la lésion  ( version 11 Orphée) en CHAR(10)",
+    "primaryKey": [
+        "LES_LES_SIE"
+    ]
+}

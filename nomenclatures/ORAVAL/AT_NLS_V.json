@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "ATT_LES_NAT",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "ATT_LES_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_NLS_V",
+    "title": "Nature des Lésions  en CHAR(2)  ( version 1 )",
+    "primaryKey": [
+        "ATT_LES_NAT"
+    ]
+}

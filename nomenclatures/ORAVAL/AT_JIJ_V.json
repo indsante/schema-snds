@@ -1,0 +1,34 @@
+{
+    "fields": [
+        {
+            "name": "JIJ_NBR_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "JIJ_CLA_COD",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "JIJ_NBR_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_JIJ_V",
+    "title": "nb de Jours IJ avec tranche",
+    "primaryKey": [
+        "JIJ_NBR_COD"
+    ]
+}

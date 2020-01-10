@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "SAN_CEN_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "SAN_CEN_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_SAN_V",
+    "title": "Centre de Santé",
+    "primaryKey": [
+        "SAN_CEN_COD"
+    ]
+}

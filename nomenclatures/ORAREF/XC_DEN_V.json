@@ -1,0 +1,23 @@
+{
+    "fields": [
+        {
+            "name": "DEN_NUM",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "DEN_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "XC_DEN_V",
+    "primaryKey": [
+        "DEN_NUM"
+    ]
+}

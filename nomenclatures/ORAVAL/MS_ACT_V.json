@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "RBC_COD_ACT",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "RBC_LIB_ACT",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "MS_ACT_V",
+    "title": "code Acte",
+    "primaryKey": [
+        "RBC_COD_ACT"
+    ]
+}

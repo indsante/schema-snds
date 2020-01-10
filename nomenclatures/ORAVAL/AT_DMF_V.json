@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "DMF_DEC_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "DMF_DEC_PGS",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_DMF_V",
+    "title": "nature de la Décision Médicale Finale",
+    "primaryKey": [
+        "DMF_DEC_COD"
+    ]
+}

@@ -1,0 +1,140 @@
+{
+    "fields": [
+        {
+            "name": "UCD_UCD_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "UCD_ETA_COD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "RSV_HOS_COD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "PRE_HOS_COD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "PHA_MED_PIH",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "UCD_SVP_COD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "UCD_PSP_TOP",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "UCD_SPE_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "UCD_RCP_LI1",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "UCD_RCP_LI2",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "UCD_RCP_LI3",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "PHA_FRM_COD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "PHA_FRM_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "PHA_FRC_COD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "PHA_FRC_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "PHA_SUB_DOS",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "PHA_DOS_UNI",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "UCD_VOI_ADM",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "PHA_ATC_CLA",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "PHA_ATC_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "PHA_EPH_COD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "PHA_EPH_LIB",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "UCD_INS_DTD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "UCD_INS_DTF",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "UCD_LIS_TOP",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "INS_MTF_LIB",
+            "type": "string",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "primaryKey": "UCD_UCD_COD",
+    "name": "NU_ITE_R"
+}

@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "AAT_NAT_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "AAT_NAT_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_AAT_V",
+    "title": "Nature de l'arrêt de travail",
+    "primaryKey": [
+        "AAT_NAT_COD"
+    ]
+}

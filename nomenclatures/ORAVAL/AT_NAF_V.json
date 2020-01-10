@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "NAF_NAF_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "NAF_COD_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_NAF_V",
+    "title": "code NAF",
+    "primaryKey": [
+        "NAF_NAF_COD"
+    ]
+}

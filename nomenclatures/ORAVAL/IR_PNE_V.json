@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "PRS_NAT_PNE",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "NAT_PNE_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_PNE_V",
+    "title": "Prestation en Nature / Espèce et Autre",
+    "primaryKey": [
+        "PRS_NAT_PNE"
+    ]
+}

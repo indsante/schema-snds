@@ -1,0 +1,31 @@
+{
+    "fields": [
+        {
+            "name": "GEO_DPT_COD",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "GEO_COM_COD",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "GEO_POS_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "primaryKey": ["GEO_POS_COD", "GEO_DPT_COD", "GEO_COM_COD"],
+    "name": "IR_POS_V",
+    "title": "Code Postal"
+}

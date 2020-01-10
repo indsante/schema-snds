@@ -1,0 +1,23 @@
+{
+    "fields": [
+        {
+            "name": "CGE_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "CGE_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "XC_CGE_V",
+    "primaryKey": [
+        "CGE_COD"
+    ]
+}

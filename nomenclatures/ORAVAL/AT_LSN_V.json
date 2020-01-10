@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "LSN_LES_COD",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "LSN_LES_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_LSN_V",
+    "title": "Nature des lésions (version 212 SGE)  en CHAR(3)",
+    "primaryKey": [
+        "LSN_LES_COD"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "fields": [
+        {
+            "name": "PFS_SPE_TDM",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "PFS_CAT_COD",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "SPE_TDM_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_SPT_V",
+    "primaryKey": "PFS_SPE_TDM",
+    "title": "Regroupement de Spécialité pour TANDEM"
+}

@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "SIN_DEC_RCT",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "RCT_DEC_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_DEC_V",
+    "title": "décision recours contre tiers ( code alpha ) ( version 11 Orphée)",
+    "primaryKey": [
+        "SIN_DEC_RCT"
+    ]
+}

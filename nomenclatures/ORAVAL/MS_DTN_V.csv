@@ -1,0 +1,8 @@
+DTN_CTL_COD;DTN_CTL_LIB;TEC_COL
+9;valeur inconnue;1
+8;sans objet;2
+0;pas de problème à signaler;0
+1;longueur incorrecte (différente de 8);0
+2;renseignée avec la valeur manquante (i.e. `XXXXXXXX¿);0
+3;présence de caractères non numériques;0
+4;date incorrecte (i.e. ne peut être interprétée en tant que date au format jj/mm/aaaa);0

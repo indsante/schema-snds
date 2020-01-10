@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "RAT_SUP_AFF",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "SUP_MTF_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "AT_TEV_V",
+    "title": "Type d  Evènement ( dont Motif de clôture de la rente du bénéficiaire (rachat, décès) )",
+    "primaryKey": [
+        "RAT_SUP_AFF"
+    ]
+}

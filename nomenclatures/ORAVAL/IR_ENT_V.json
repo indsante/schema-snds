@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "BDG_ENT_MOD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "BDG_ENT_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_ENT_V",
+    "title": "Mode d'entrée",
+    "primaryKey": [
+        "BDG_ENT_MOD"
+    ]
+}

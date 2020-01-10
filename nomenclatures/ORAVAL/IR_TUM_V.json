@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "CAT_TUM_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "CAT_TUM_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_TUM_V",
+    "title": "codes de regroupement de tumeurs pour les codes cim10 relevant de l'ald numéro 30",
+    "primaryKey": [
+        "CAT_TUM_COD"
+    ]
+}

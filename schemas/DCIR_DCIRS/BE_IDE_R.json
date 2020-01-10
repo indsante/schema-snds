@@ -1034,6 +1034,7 @@
         "dateDeleted": "",
         "dateMissing": []
     },
+    "primaryKey": ["IDE_ETA_NU8" ],
     "champ": "",
     "observation": ""
 }

@@ -229,7 +229,7 @@
             "description": "Code de l'organisme de liquidation",
             "type": "string",
             "nomenclature": "IR_ORG_V",
-            "length": "3",
+            "length": "9",
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",

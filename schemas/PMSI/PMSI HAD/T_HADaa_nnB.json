@@ -871,7 +871,7 @@
         {
             "name": "ETA_GRP_RET",
             "description": "Groupage établissement : code retour",
-            "type": "string",
+            "type": "boolean",
             "length": "3",
             "dateCreated": "2005",
             "dateDeleted": "2010",

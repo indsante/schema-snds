@@ -339,7 +339,7 @@
         {
             "name": "GRC_RET",
             "description": "Groupage établissement Code Retour",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "3",
             "format": "default",
@@ -381,7 +381,7 @@
         {
             "name": "GRG_RET",
             "description": "Code retour obtenu par GENRSA",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "3",
             "format": "default",

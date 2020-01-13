@@ -25,7 +25,7 @@ def change_field(
     Description: Change all fields in given filtered products when variables names match a given regex
     """
     new_schemas = []
-    schemas = get_all_schema(schemas_dir=schemas_dir)
+    schemas = get_all_schema(schemas_dir)
 
     for schema in schemas:
         table_name = schema.descriptor['name']
@@ -45,9 +45,9 @@ def change_field(
         new_schemas.append(schema)
         if save:
             if re.search('PMSI', table_produit) is not None:
-                save_path = os.path.join(schemas_dir, 'PMSI', table_produit, table_name) + '.json'
+                save_path = os.path.join(schemas_dir, 'schemas', 'PMSI', table_produit, table_name) + '.json'
             else:
-                save_path = os.path.join(schemas_dir, table_produit, table_name) + '.json'
+                save_path = os.path.join(schemas_dir, 'schemas', table_produit, table_name) + '.json'
             schema.save(save_path, ensure_ascii=False)
     return new_schemas
 
@@ -55,8 +55,8 @@ schemas_dir = path2schemas
 
 filtered_in_produits = ['PMSI MCO', 'PMSI HAD', 'PMSI SSR', 'PMSI RIM-P']
 var_name_regex = '_RET$'
-replacing_field_content = 'boolean'
-replaced_field_name = 'type'
+replacing_field_content = '1' #'boolean'
+replaced_field_name = 'length' #'type'
 
 schemas_w_good_ret = change_field(
     schemas_dir=schemas_dir,
@@ -67,4 +67,6 @@ schemas_w_good_ret = change_field(
     save=False)
 
 # check for MCO_C
-schemas_w_good_ret[65].descriptor
+schemas_w_good_ret[100].descriptor
+
+

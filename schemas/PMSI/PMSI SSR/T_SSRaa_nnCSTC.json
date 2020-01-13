@@ -17,7 +17,7 @@
         {
             "name": "NIR_RET",
             "description": "Code retour contrôle « n° sécurité sociale »",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -31,7 +31,7 @@
         {
             "name": "NAI_RET",
             "description": "Code retour contrôle « date de naissance »",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -45,7 +45,7 @@
         {
             "name": "SEX_RET",
             "description": "Code retour contrôle « sexe »",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -59,7 +59,7 @@
         {
             "name": "IAS_RET",
             "description": "Code retour contrôle « n° d’identification administratif de séjour",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -73,7 +73,7 @@
         {
             "name": "ENT_DAT_RET",
             "description": "Code retour contrôle « date de référence» (date d’entrée)",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -241,7 +241,7 @@
         {
             "name": "RAC_MNT_PAT_RET",
             "description": "Code retour contrôle « Montant total du séjour facturé au patient «",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -255,7 +255,7 @@
         {
             "name": "NBR_REJET_AMO_RET",
             "description": "Code retour contrôle « Rejet AMO «",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -269,7 +269,7 @@
         {
             "name": "FAC_AMO_DT_RET",
             "description": "Code retour contrôle « Date de facturation AMO «",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -283,7 +283,7 @@
         {
             "name": "FAC_AMC_DT_RET",
             "description": "Code retour contrôle « Date de facturation AMC «",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -297,7 +297,7 @@
         {
             "name": "FAC_RAC_DT_RET",
             "description": "Code retour contrôle « Date de facturation patient «",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -311,7 +311,7 @@
         {
             "name": "PAI_AMO_DT_RET",
             "description": "Code retour contrôle « Date de paiement AMO «",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -325,7 +325,7 @@
         {
             "name": "PAI_AMC_DT_RET",
             "description": "Code retour contrôle « Date de paiement AMC «",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -339,7 +339,7 @@
         {
             "name": "PAI_RAC_DT_RET",
             "description": "Code retour contrôle « Date de paiement patient «",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -353,7 +353,7 @@
         {
             "name": "VALID_FAC_AMO_RET",
             "description": "Code retour contrôle « Statut FT AMO «",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -367,7 +367,7 @@
         {
             "name": "VALID_FAC_AMC_RET",
             "description": "Code retour contrôle « Statut FT AMC «",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -381,7 +381,7 @@
         {
             "name": "VALID_FAC_RAC_RET",
             "description": "Code retour contrôle « Statut FT patient «",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -395,7 +395,7 @@
         {
             "name": "PAYS_ASS_PAT_RET",
             "description": "Code retour contrôle « Pays d’assurance social «",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": null,
             "format": "default",

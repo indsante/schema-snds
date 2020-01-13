@@ -124,7 +124,7 @@
             "type_oracle": "string"
         }
     ],
-        "foreignKeys": [
+    "foreignKeys": [
         {
             "fields": [
                 "ETA_NUM_ePMSI",

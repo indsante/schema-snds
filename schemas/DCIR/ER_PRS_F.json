@@ -1844,6 +1844,17 @@
                     "BEN_RNG_GEM"
                 ]
             }
+        },
+        {
+            "fields": [
+                "ETB_PRE_FIN"
+            ],
+            "reference": {
+                "resource": "BE_IDE_R",
+                "fields": [
+                    "IDE_ETA_NU8"
+                ]
+            }
         }
     ],
     "history": {

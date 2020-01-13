@@ -1467,6 +1467,28 @@
                     "BEN_IDT_ANO"
                 ]
             }
+        },
+        {
+            "fields": [
+                "ETB_PRE_FIN"
+            ],
+            "reference": {
+                "resource": "BE_IDE_R",
+                "fields": [
+                    "IDE_ETA_NU8"
+                ]
+            }
+        },
+        {
+            "fields": [
+                "ETB_EXE_FIN"
+            ],
+            "reference": {
+                "resource": "BE_IDE_R",
+                "fields": [
+                    "IDE_ETA_NU8"
+                ]
+            }
         }
     ],
     "history": {

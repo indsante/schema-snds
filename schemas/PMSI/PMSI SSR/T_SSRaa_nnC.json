@@ -355,7 +355,7 @@
             "description": "Code retour contrôle «N° FINESS d’inscription e-PMSI«",
             "type": "boolean",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "2017",

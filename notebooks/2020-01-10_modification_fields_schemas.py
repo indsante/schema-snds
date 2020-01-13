@@ -64,7 +64,7 @@ schemas_w_good_ret = change_field(
     replacing_field_content=replacing_field_content,
     replaced_field_name=replaced_field_name,
     filtered_in_produits=filtered_in_produits,
-    save=False)
+    save=True)
 
 # check for MCO_C
 schemas_w_good_ret[100].descriptor

@@ -100,7 +100,7 @@
             "description": "Groupage PAPRICA : code retour",
             "type": "boolean",
             "nomenclature": "-",
-            "length": "3",
+            "length": "1",
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",

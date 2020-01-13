@@ -521,7 +521,7 @@
         {
             "name": "DAT_RET",
             "description": "Code retour contrôle « date de référence» (date d'entrée)",
-            "type": "string",
+            "type": "boolean",
             "length": "1",
             "dateCreated": "2007",
             "dateDeleted": "2008",
@@ -549,7 +549,7 @@
         {
             "name": "NIAS_RET",
             "description": "Code retour contrôle « n° d’identification administratif de séjour »",
-            "type": "string",
+            "type": "boolean",
             "length": "1",
             "dateCreated": "2007",
             "dateDeleted": "2008",
@@ -563,7 +563,7 @@
         {
             "name": "SEX_RET",
             "description": "Code retour contrôle « sexe »",
-            "type": "string",
+            "type": "boolean",
             "length": "1",
             "dateCreated": "2007",
             "dateDeleted": "2008",
@@ -577,7 +577,7 @@
         {
             "name": "NIR_RET",
             "description": "Code retour contrôle « n° sécurité sociale »",
-            "type": "string",
+            "type": "boolean",
             "length": "1",
             "dateCreated": "2007",
             "dateDeleted": "2008",

@@ -73,9 +73,9 @@
         {
             "name": "GRC_RET",
             "description": "Code retour GME Etablissement",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
-            "length": "3",
+            "length": "1",
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
@@ -129,9 +129,9 @@
         {
             "name": "GRG_RET",
             "description": "Code retour GME GENRHA",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
-            "length": "3",
+            "length": "1",
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",

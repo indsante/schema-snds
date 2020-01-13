@@ -98,7 +98,7 @@
         {
             "name": "NIR_RET",
             "description": "Code retour contrôle \" n° sécurité sociale \"",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -112,7 +112,7 @@
         {
             "name": "NAI_RET",
             "description": "Code retour contrôle \" date de naissance \"",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -126,7 +126,7 @@
         {
             "name": "SEX_RET",
             "description": "Code retour contrôle \" sexe \"",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -140,7 +140,7 @@
         {
             "name": "SEJ_RET",
             "description": "Code retour contrôle \" n° d’identification administratif de séjour \"",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -154,7 +154,7 @@
         {
             "name": "FHO_RET",
             "description": "Code retour \"fusion ANO_HOSP et HOSP-PMSI\"",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -168,7 +168,7 @@
         {
             "name": "PMS_RET",
             "description": "Code retour \"fusion ANO-PMSI et fichier PMSI \"",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -182,7 +182,7 @@
         {
             "name": "DAT_RET",
             "description": "Contrôle de cohérence de date",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -196,7 +196,7 @@
         {
             "name": "COH_NAI_RET",
             "description": "Code retour controle date de naissance",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -210,7 +210,7 @@
         {
             "name": "COH_SEX_RET",
             "description": "code retour controle coherence sexe",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -350,7 +350,7 @@
         {
             "name": "RNG_NAI_RET",
             "description": "Code retour contrôle « Rang de naissance »",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -364,7 +364,7 @@
         {
             "name": "RNG_BEN_RET",
             "description": "Code retour contrôle « Rang du bénéficiaire »",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -406,7 +406,7 @@
         {
             "name": "NUM_DAT_AT_RET",
             "description": "Code retour contrôle \" Numéro accident du travail ou date d’accident de droit commun\"",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -420,7 +420,7 @@
         {
             "name": "ORG_CPL_NUM_RET",
             "description": "Code retour contrôle \" N° d’organisme complémentaire\"",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -434,7 +434,7 @@
         {
             "name": "ETA_NUM_RET",
             "description": "Code retour contrôle \"N° FINESS d’inscription e-PMSI\"",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "1",
             "format": "default",

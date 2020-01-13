@@ -98,9 +98,9 @@
         {
             "name": "PAP_GRP_RET",
             "description": "Groupage PAPRICA : code retour",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
-            "length": "3",
+            "length": "1",
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",

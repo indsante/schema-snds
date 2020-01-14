@@ -12,7 +12,7 @@
             "dateMissing": [],
             "type_oracle": "string",
             "constraints": {
-                "maximum": 64
+                "maxLength": 64
             }
         },
         {
@@ -43,7 +43,7 @@
             "dateMissing": [],
             "type_oracle": "string",
             "constraints": {
-                "maximum": 18
+                "maxLength": 18
             }
         },
         {
@@ -74,7 +74,7 @@
             "dateMissing": [],
             "type_oracle": "string",
             "constraints": {
-                "maximum": 17
+                "maxLength": 17
             }
         },
         {
@@ -89,7 +89,7 @@
             "dateMissing": [],
             "type_oracle": "string",
             "constraints": {
-                "maximum": 4
+                "maxLength": 4
             }
         },
         {
@@ -136,7 +136,7 @@
             "dateMissing": [],
             "type_oracle": "string",
             "constraints": {
-                "maximum": 100
+                "maxLength": 100
             }
         },
         {
@@ -151,7 +151,7 @@
             "dateMissing": [],
             "type_oracle": "string",
             "constraints": {
-                "maximum": 4
+                "maxLength": 4
             }
         },
         {
@@ -178,7 +178,7 @@
             "dateMissing": [],
             "type_oracle": "string",
             "constraints": {
-                "maximum": 6
+                "maxLength": 6
             }
         }
     ],

@@ -1200,6 +1200,9 @@
             "nomenclature": "-",
             "length": "8",
             "format": "default",
+            "constraints": {
+                "minLength": 8
+            },
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
@@ -1214,6 +1217,9 @@
             "nomenclature": "-",
             "length": "9",
             "format": "default",
+            "constraints": {
+                "minLength": 9
+            },
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
@@ -1242,6 +1248,9 @@
             "nomenclature": "-",
             "length": "9",
             "format": "default",
+            "constraints": {
+                "minLength": 9
+            },
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
@@ -1270,6 +1279,9 @@
             "nomenclature": "-",
             "length": "9",
             "format": "default",
+            "constraints": {
+                "minLength": 9
+            },
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
@@ -1399,6 +1411,9 @@
             "nomenclature": "-",
             "length": "9",
             "format": "default",
+            "constraints": {
+                "minLength": 9
+            },
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
@@ -1639,6 +1654,9 @@
             "type": "string",
             "length": "4",
             "nomenclature": "-",
+            "constraints": {
+                "minLength": 4
+            },
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
@@ -1667,6 +1685,9 @@
             "type": "string",
             "length": "4",
             "nomenclature": "-",
+            "constraints": {
+                "minLength": 4
+            },
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],

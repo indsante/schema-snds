@@ -57,6 +57,9 @@
             "nomenclature": "-",
             "length": "3",
             "format": "default",
+            "constraints": {
+                "minLength": 3
+            },
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],

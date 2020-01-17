@@ -31,7 +31,7 @@ def update_all_byproducts(local, work_dir) -> None:
     update_errors += update_byproduct_repository(
         byproduct_repository='documentation-snds',
         local_to_byproduct_directories=[
-            ('markdown', 'tables')],
+            ('schemas', pjoin('tables', '.schemas'))],
         local_to_byproduct_files=[],
         last_commit_id_str=last_commit_id_str,
         byproduct_project_id=11935953,

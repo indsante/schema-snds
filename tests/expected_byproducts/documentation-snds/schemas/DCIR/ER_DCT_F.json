@@ -1,0 +1,321 @@
+{
+    "fields": [
+        {
+            "name": "DCT_ARC_DTE",
+            "description": "Date liquidation",
+            "type": "date",
+            "nomenclature": "IR_DTE_V",
+            "length": "8",
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "type_oracle": "date"
+        },
+        {
+            "name": "DCT_ARR_DTE",
+            "description": "Date arrivée du dossier",
+            "type": "date",
+            "nomenclature": "IR_DTE_V",
+            "length": "8",
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "type_oracle": "date"
+        },
+        {
+            "name": "DCT_CTL_COD",
+            "description": "Code du contrôle",
+            "type": "number",
+            "nomenclature": "IR_CLC_V",
+            "length": "2",
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "type_oracle": "number"
+        },
+        {
+            "name": "DCT_LOT_TCR",
+            "description": "Type certification du lot",
+            "type": "string",
+            "nomenclature": "IR_TCR_V",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "type_oracle": "string"
+        },
+        {
+            "name": "DCT_CTL_TYP",
+            "description": "Type de contrôle",
+            "type": "string",
+            "nomenclature": "IR_CTL_V",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "type_oracle": "string"
+        },
+        {
+            "name": "DCT_EMT_IDT",
+            "description": "Identification de l'émetteur",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "15",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "type_oracle": "string"
+        },
+        {
+            "name": "DCT_ENT_SUP",
+            "description": "Type de saisie affinée",
+            "type": "number",
+            "nomenclature": "IR_SAF_V",
+            "length": "2",
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "type_oracle": "number"
+        },
+        {
+            "name": "DCT_INT_VER",
+            "description": "Type de version interface tiers",
+            "type": "string",
+            "nomenclature": "IR_INT_V",
+            "length": "2",
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "type_oracle": "string"
+        },
+        {
+            "name": "DCT_MAN_DTD",
+            "description": "Date de mandatement Initial",
+            "type": "date",
+            "nomenclature": "IR_DTE_V",
+            "length": "8",
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "type_oracle": "date"
+        },
+        {
+            "name": "DCT_MUT_CMP",
+            "description": "Part mutuelle complémentaire décompte",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "type_oracle": "string"
+        },
+        {
+            "name": "DCT_MVT_SYS",
+            "description": "Type de saisie",
+            "type": "number",
+            "nomenclature": "IR_SAI_V",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "type_oracle": "number"
+        },
+        {
+            "name": "DCT_REM_DTD",
+            "description": "Date de remboursement / recyclage",
+            "type": "date",
+            "nomenclature": "IR_DTE_V",
+            "length": "8",
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "type_oracle": "date"
+        },
+        {
+            "name": "DCT_RGU_SNS",
+            "description": "Sens de la régularisation",
+            "type": "string",
+            "nomenclature": "IR_RGU_V",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "type_oracle": "string"
+        },
+        {
+            "name": "ORG_CLE_NEW",
+            "description": "Organisme de liquidation (après fusion des caisses)",
+            "type": "string",
+            "nomenclature": "IR_ORG_V",
+            "length": "9",
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "type_oracle": "string"
+        },
+        {
+            "name": "DCT_ORD_NUM",
+            "description": "N° ordre décompte dans caisse                      1",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "8",
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "type_oracle": "number"
+        },
+        {
+            "name": "FLX_DIS_DTD",
+            "description": "Date de mise à disposition des données dans SI     2",
+            "type": "date",
+            "nomenclature": "IR_DTE_V",
+            "length": "8",
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "type_oracle": "date"
+        },
+        {
+            "name": "FLX_EMT_NUM",
+            "description": "N° émetteur du flux                                                  3",
+            "type": "number",
+            "nomenclature": "IR_NEM_V",
+            "length": "8",
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "type_oracle": "number"
+        },
+        {
+            "name": "FLX_EMT_ORD",
+            "description": "N° séquence du flux                                               4",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "8",
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "type_oracle": "number"
+        },
+        {
+            "name": "FLX_EMT_TYP",
+            "description": "Type d'émetteur                                                      5",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "8",
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "type_oracle": "number"
+        },
+        {
+            "name": "FLX_TRT_DTD",
+            "description": "Date de traitement des données dans SI                   6",
+            "type": "date",
+            "nomenclature": "IR_DTE_V",
+            "length": "8",
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "type_oracle": "date"
+        },
+        {
+            "name": "ORG_CLE_NUM",
+            "description": "Ancien concept de l'organisme de liquidation (avant fusion, jusqu’au jour J de la fusion)          7",
+            "type": "string",
+            "nomenclature": "IR_ORG_V",
+            "length": "9",
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "type_oracle": "string"
+        },
+        {
+            "name": "PRS_ORD_NUM",
+            "description": "N° ordre prestation dans décompte                 8",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "8",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "type_oracle": "number"
+        },
+        {
+            "name": "REM_TYP_AFF",
+            "description": "Type de remboursement affiné                                 9",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "8",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "type_oracle": "number"
+        }
+    ],
+    "name": "ER_DCT_F",
+    "title": "Décomptes",
+    "description": "",
+    "produit": "DCIR",
+    "missingValues": [
+        ""
+    ],
+    "foreignKeys": [
+        {
+            "fields": [
+                "DCT_ORD_NUM",
+                "FLX_DIS_DTD",
+                "FLX_EMT_NUM",
+                "FLX_EMT_ORD",
+                "FLX_EMT_TYP",
+                "FLX_TRT_DTD",
+                "ORG_CLE_NUM",
+                "PRS_ORD_NUM",
+                "REM_TYP_AFF"
+            ],
+            "reference": {
+                "resource": "ER_PRS_F",
+                "fields": [
+                    "DCT_ORD_NUM",
+                    "FLX_DIS_DTD",
+                    "FLX_EMT_NUM",
+                    "FLX_EMT_ORD",
+                    "FLX_EMT_TYP",
+                    "FLX_TRT_DTD",
+                    "ORG_CLE_NUM",
+                    "PRS_ORD_NUM",
+                    "REM_TYP_AFF"
+                ]
+            }
+        }
+    ],
+    "history": {
+        "dateCreated": "",
+        "dateDeleted": "",
+        "dateMissing": []
+    }
+}

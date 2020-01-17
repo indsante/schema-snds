@@ -1,20 +1,19 @@
 import logging
 import os
 
-import table_schema_to_markdown
-
-from src.constants import ROOT_DIR, SCHEMAS_DIR, MARKDOWN_DIR
-from src.utils import get_all_schema_path
+from src.constants import ROOT_DIR, SCHEMAS_DIR, SCHEMAS_DOCUMENTATION_SNDS_DIR
+from os.path import join as pjoin
+import shutil
 
 
 def generate_documentation_snds(work_dir) -> None:
-    logging.info("Génération des fichiers markdown pour la documentation VuePress")
-    logging.getLogger('table_schema_to_markdown').setLevel(logging.WARNING)
-    for schema_path in get_all_schema_path(work_dir):
-        markdown_path = schema_path.replace(SCHEMAS_DIR, MARKDOWN_DIR).replace('.json', '.md')
-        os.makedirs(os.path.dirname(markdown_path), exist_ok=True)
-        with open(markdown_path, 'w', encoding='utf8') as out:
-            table_schema_to_markdown.convert_source(schema_path, out)
+    rooted_schemas_dir = pjoin(work_dir, SCHEMAS_DIR)
+    rooted_schemas_documentation_snds_dir = pjoin(work_dir, SCHEMAS_DOCUMENTATION_SNDS_DIR)
+    logging.info("Copy schemas for documentation in directory '{}'"
+                 .format(rooted_schemas_documentation_snds_dir))
+    if os.path.exists(rooted_schemas_documentation_snds_dir):
+        shutil.rmtree(rooted_schemas_documentation_snds_dir)
+    shutil.copytree(rooted_schemas_dir, rooted_schemas_documentation_snds_dir)
 
 
 if __name__ == '__main__':

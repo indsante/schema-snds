@@ -1,0 +1,187 @@
+{
+    "fields": [
+        {
+            "name": "BEN_NIR_PSA",
+            "description": "Pseudonyme du bénéficiaire",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "17",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "type_oracle": "string"
+        },
+        {
+            "name": "BEN_RNG_GEM",
+            "description": "Rang gémellaire",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "8",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "type_oracle": "number"
+        },
+        {
+            "name": "IMB_ALD_DTD",
+            "description": "Date de début du cadre de prestation",
+            "type": "date",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "type_oracle": "date"
+        },
+        {
+            "name": "IMB_ALD_DTF",
+            "description": "Date de fin du cadre de prestation",
+            "type": "date",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "type_oracle": "date"
+        },
+        {
+            "name": "IMB_ALD_NUM",
+            "description": "Numéro d'ALD sur la liste",
+            "type": "number",
+            "nomenclature": "IR_ALD_V",
+            "length": "8",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "type_oracle": "number"
+        },
+        {
+            "name": "IMB_ETM_NAT",
+            "description": "Type de PEC (ALD, Invalidité ou ATMP)",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "8",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "type_oracle": "number"
+        },
+        {
+            "name": "IMB_MLP_BTR",
+            "description": "Numéro de tableau maladies professionnelles",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "type_oracle": "string"
+        },
+        {
+            "name": "IMB_MLP_TAB",
+            "description": "Tableau MP (A, B=bis, T=ter)",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "3",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "type_oracle": "string"
+        },
+        {
+            "name": "IMB_SDR_LOP",
+            "description": "Localisation, paragraphe, syndrome",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "type_oracle": "string"
+        },
+        {
+            "name": "INS_DTE",
+            "description": "Date d'insertion dans le référentiel",
+            "type": "date",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "type_oracle": "date"
+        },
+        {
+            "name": "MED_MTF_COD",
+            "description": "Motif médical ou pathologie (Code CIM10)",
+            "type": "string",
+            "nomenclature": "IR_CIM_V",
+            "length": "6",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "type_oracle": "string"
+        },
+        {
+            "name": "MED_NCL_IDT",
+            "description": "Nomenclature médicale (CIM10)",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "10",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "type_oracle": "string"
+        },
+        {
+            "name": "UPD_DTE",
+            "description": "Date de mise à jour",
+            "type": "date",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "type_oracle": "date"
+        }
+    ],
+    "name": "IR_IMB_R",
+    "title": "Référentiel médicalisé des bénéficiaires (ALD)",
+    "description": "",
+    "produit": "DCIR_DCIRS",
+    "missingValues": [
+        ""
+    ],
+    "foreignKeys": [
+        {
+            "fields": [
+                "BEN_NIR_PSA",
+                "BEN_RNG_GEM"
+            ],
+            "reference": {
+                "resource": "IR_BEN_R",
+                "fields": [
+                    "BEN_NIR_PSA",
+                    "BEN_RNG_GEM"
+                ]
+            }
+        }
+    ],
+    "history": {
+        "dateCreated": "",
+        "dateDeleted": "",
+        "dateMissing": []
+    }
+}

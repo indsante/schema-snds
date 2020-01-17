@@ -36,7 +36,7 @@ NOMENCLATURES_DIR = 'nomenclatures'
 
 BYPRODUCTS_DIR = pjoin(DATA, 'byproducts')
 DICO_SNDS_DIR = pjoin(BYPRODUCTS_DIR, 'dico-snds')
-MARKDOWN_DIR = pjoin(BYPRODUCTS_DIR, 'documentation-snds', 'markdown')
+SCHEMAS_DOCUMENTATION_SNDS_DIR = pjoin(BYPRODUCTS_DIR, 'documentation-snds', 'schemas')
 
 NO_NOMENCLATURE = '-'
 

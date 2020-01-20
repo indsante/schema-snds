@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import pandas as pd
 import numpy as np
 import re
@@ -26,7 +27,7 @@ def change_field(
     """
     new_schemas = []
     schemas = get_all_schema(schemas_dir)
-
+    cas_identifies=0
     for schema in schemas:
         table_name = schema.descriptor['name']
         table_produit = schema.descriptor['produit']
@@ -39,6 +40,7 @@ def change_field(
                 if re.search(var_name_regex, var['name']) is not None:
                     if verbose >= 1:
                         print(table_name + '__' + var['name'])
+                        cas_identifies+=1
                     replacing_field = {replaced_field_name: replacing_field_content}
                     schema.update_field(var['name'], replacing_field)
                     schema.commit()
@@ -49,14 +51,15 @@ def change_field(
             else:
                 save_path = os.path.join(schemas_dir, 'schemas', table_produit, table_name) + '.json'
             schema.save(save_path, ensure_ascii=False)
+    print("cas identifiées :",cas_identifies)
     return new_schemas
 
 schemas_dir = path2schemas
 
-filtered_in_produits = ['PMSI MCO', 'PMSI HAD', 'PMSI SSR', 'PMSI RIM-P']
-var_name_regex = '_RET$'
-replacing_field_content = '1' #'boolean'
-replaced_field_name = 'length' #'type'
+filtered_in_produits = [] #['PMSI MCO', 'PMSI HAD', 'PMSI SSR', 'PMSI RIM-P']
+var_name_regex = '_NBJ$'
+replacing_field_content = 'integer' #'boolean'
+replaced_field_name = 'type' #'type'
 
 schemas_w_good_ret = change_field(
     schemas_dir=schemas_dir,

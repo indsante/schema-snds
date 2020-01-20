@@ -44,7 +44,7 @@
             "dateMissing": [],
             "type_oracle": "string",
             "constraints": {
-                "maximum": 9
+                "maxLength": 9
             }
         },
         {
@@ -179,7 +179,7 @@
             "dateMissing": [],
             "type_oracle": "string",
             "constraints": {
-                "maximum": 14
+                "maxLength": 14
             }
         },
         {
@@ -282,7 +282,7 @@
             "dateMissing": [],
             "type_oracle": "string",
             "constraints": {
-                "maximum": 9
+                "maxLength": 9
             }
         },
         {

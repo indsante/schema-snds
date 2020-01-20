@@ -8,7 +8,7 @@
             "length": "18",
             "format": "default",
             "constraints": {
-                "maximum": 18
+                "maxLength": 18
             },
             "dateCreated": "",
             "dateDeleted": "",
@@ -27,7 +27,7 @@
             "dateMissing": [],
             "type_oracle": "string",
             "constraints": {
-                "maximum": 17
+                "maxLength": 17
             }
         },
         {
@@ -58,7 +58,7 @@
             "dateMissing": [],
             "type_oracle": "string",
             "constraints": {
-                "maximum": 2
+                "maxLength": 2
             }
         }
     ],

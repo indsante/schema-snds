@@ -28,7 +28,7 @@
             "dateMissing": [],
             "type_oracle": "string",
             "constraints": {
-                "maximum": 9
+                "maxLength": 9
             }
         },
         {
@@ -43,7 +43,7 @@
             "dateMissing": [],
             "type_oracle": "string",
             "constraints": {
-                "maximum": 11
+                "maxLength": 11
             }
         },
         {
@@ -58,7 +58,7 @@
             "dateMissing": [],
             "type_oracle": "string",
             "constraints": {
-                "maximum": 32
+                "maxLength": 32
             }
         },
         {
@@ -73,7 +73,7 @@
             "dateMissing": [],
             "type_oracle": "string",
             "constraints": {
-                "maximum": 11
+                "maxLength": 11
             }
         },
         {
@@ -88,7 +88,7 @@
             "dateMissing": [],
             "type_oracle": "string",
             "constraints": {
-                "maximum": 32
+                "maxLength": 32
             }
         },
         {
@@ -103,7 +103,7 @@
             "dateMissing": [],
             "type_oracle": "string",
             "constraints": {
-                "maximum": 5
+                "maxLength": 5
             }
         },
         {
@@ -118,7 +118,7 @@
             "dateMissing": [],
             "type_oracle": "string",
             "constraints": {
-                "maximum": 5
+                "maxLength": 5
             }
         },
         {
@@ -165,7 +165,7 @@
             "dateMissing": [],
             "type_oracle": "string",
             "constraints": {
-                "maximum": 9
+                "maxLength": 9
             }
         },
         {
@@ -180,7 +180,7 @@
             "dateMissing": [],
             "type_oracle": "string",
             "constraints": {
-                "maximum": 32
+                "maxLength": 32
             }
         },
         {
@@ -283,7 +283,7 @@
             "dateMissing": [],
             "type_oracle": "string",
             "constraints": {
-                "maximum": 9
+                "maxLength": 9
             }
         },
         {

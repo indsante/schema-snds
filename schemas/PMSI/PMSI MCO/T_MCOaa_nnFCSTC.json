@@ -31,7 +31,7 @@
         {
             "name": "ACT_DNB",
             "description": "Dénombrement",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "2",
             "format": "default",
@@ -115,7 +115,7 @@
         {
             "name": "DEL_DAT_ENT",
             "description": "Délai par rapport à la date d'entrée",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -269,7 +269,7 @@
         {
             "name": "REM_TAU",
             "description": "Taux applicable à la prestation",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "3",
             "format": "default",

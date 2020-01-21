@@ -3,7 +3,7 @@
         {
             "name": "AGE_ANN",
             "description": "Age en années",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "3",
             "format": "default",
@@ -17,7 +17,7 @@
         {
             "name": "AGE_GES",
             "description": "Age gestationnel",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "2",
             "format": "default",
@@ -31,7 +31,7 @@
         {
             "name": "AGE_JOU",
             "description": "Age en jours",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "3",
             "format": "default",
@@ -157,7 +157,7 @@
         {
             "name": "DEL_REG_ENT",
             "description": "Délai de la date des dernières règles par rapport à la date d'entrée",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "3",
             "format": "default",
@@ -255,7 +255,7 @@
         {
             "name": "ETE_GHS_NUM",
             "description": "Numéro de GHS (du GHM GENRSA)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "4",
             "format": "default",
@@ -283,7 +283,7 @@
         {
             "name": "GHS_9615_ACT",
             "description": "Nombre d'actes menant dans le GHS 9615",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "3",
             "format": "default",
@@ -437,7 +437,7 @@
         {
             "name": "NBR_ACT",
             "description": "Nombre de zones d'actes (nA) dans ce RSA",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -451,7 +451,7 @@
         {
             "name": "NBR_DGN",
             "description": "Nombre de diagnostics associés significatifs (nDAS) dans ce RSA",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "4",
             "format": "default",
@@ -465,7 +465,7 @@
         {
             "name": "NBR_RUM",
             "description": "Nombre de RUM composant le RSS d'origine (NbRUM)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "2",
             "format": "default",
@@ -479,7 +479,7 @@
         {
             "name": "NBR_SEA",
             "description": "Nombre de séances",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "2",
             "format": "default",
@@ -493,7 +493,7 @@
         {
             "name": "NBR_SUP_NN1",
             "description": "Nombre de suppléments NN1",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "3",
             "format": "default",
@@ -507,7 +507,7 @@
         {
             "name": "NBR_SUP_NN2",
             "description": "Nombre de suppléments NN2",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "3",
             "format": "default",
@@ -521,7 +521,7 @@
         {
             "name": "NBR_SUP_NN3",
             "description": "Nombre de suppléments NN3",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "3",
             "format": "default",
@@ -535,7 +535,7 @@
         {
             "name": "NBR_SUP_REA",
             "description": "Nombre de suppléments pour REA (réanimation)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "3",
             "format": "default",
@@ -549,7 +549,7 @@
         {
             "name": "NBR_SUP_REP",
             "description": "Nombre de suppléments REP (réanimation pédiatrique)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "3",
             "format": "default",
@@ -563,7 +563,7 @@
         {
             "name": "NBR_SUP_SOI",
             "description": "Nombre de suppléments soins intensifs provenant de la réanimation",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "3",
             "format": "default",
@@ -577,7 +577,7 @@
         {
             "name": "NBR_SUP_SRC",
             "description": "Nombre de suppléments pour SRC (surveillance continue)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "3",
             "format": "default",
@@ -591,7 +591,7 @@
         {
             "name": "NBR_SUP_STF",
             "description": "Nombre de suppléments pour STF (soins intensifs)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "3",
             "format": "default",
@@ -633,7 +633,7 @@
         {
             "name": "POI_NAI",
             "description": "Poids d'entrée (en grammes)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "4",
             "format": "default",
@@ -801,7 +801,7 @@
         {
             "name": "SUP_ENT_DPA",
             "description": "Nombre de suppléments pour les entraînements à la dialyse péritonéale automatisée hors séances",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "3",
             "format": "default",
@@ -815,7 +815,7 @@
         {
             "name": "SUP_ENT_DPC",
             "description": "Nombre de suppléments pour les entraînements à la dialyse péritonéale continue ambulatoire hors séances",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "3",
             "format": "default",
@@ -829,7 +829,7 @@
         {
             "name": "SUP_ENT_HEM",
             "description": "Nombre de suppléments pour les entraînements à l'hémodialyse hors séances",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "3",
             "format": "default",
@@ -843,7 +843,7 @@
         {
             "name": "SUP_HEM_HS",
             "description": "Nombre de suppléments pour hémodialyse hors séances",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "3",
             "format": "default",
@@ -857,7 +857,7 @@
         {
             "name": "SUP_RAD_PED",
             "description": "Nombre de suppléments radiothérapie pédiatrique",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "3",
             "format": "default",

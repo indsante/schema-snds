@@ -108,8 +108,7 @@ def replace_length_by_bounds_and_number_by_integer(schema):
         if tstype == NUMBER:
             assert length <= 19, "field '{}' of schema '{}' is of length '{}', bigger than maximal value of 19" \
                 .format(field.name, schema.descriptor["name"], length)
-            assert schema.update_field(field.name,
-                                       {TYPE_CSV: INTEGER, 'constraints': {'minimum': 0, 'maximum': 10 ** length}})
+            assert schema.update_field(field.name, {'constraints': {'minimum': 0, 'maximum': 10 ** length}})
 
 
 def replace_nomenclatures_by_foreign_key_reference(schema, nomenclature_to_fk_reference):

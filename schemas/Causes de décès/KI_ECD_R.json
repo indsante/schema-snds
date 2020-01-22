@@ -73,7 +73,7 @@
         {
             "name": "FLX_PER_ANN",
             "description": "Année de décès",
-            "type": "string",
+            "type": "year",
             "nomenclature": "-",
             "length": "4",
             "format": "default",

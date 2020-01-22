@@ -31,7 +31,7 @@
         {
             "name": "ben_nai_ann",
             "description": "Année de naissance du bénéficiaire",
-            "type": "string",
+            "type": "year",
             "nomenclature": "-",
             "length": "4",
             "format": "default",
@@ -171,7 +171,7 @@
         {
             "name": "ben_dcd_dte",
             "description": "Date de décés du bénéficiaire",
-            "type": "number",
+            "type": "date",
             "nomenclature": "-",
             "length": "8",
             "format": "default",

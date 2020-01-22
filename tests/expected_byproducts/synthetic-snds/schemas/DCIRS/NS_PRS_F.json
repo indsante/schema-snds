@@ -1792,60 +1792,12 @@
         },
         {
             "fields": [
-                "EXE_SOI_DTD"
-            ],
-            "reference": {
-                "resource": "IR_DTE_V",
-                "fields": [
-                    "DTE_DTE"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
-                "EXE_SOI_DTF"
-            ],
-            "reference": {
-                "resource": "IR_DTE_V",
-                "fields": [
-                    "DTE_DTE"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
                 "EXO_MTF"
             ],
             "reference": {
                 "resource": "IR_EXO_V",
                 "fields": [
                     "EXO_MTF"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
-                "FLX_DIS_DTD"
-            ],
-            "reference": {
-                "resource": "IR_DTE_V",
-                "fields": [
-                    "DTE_DTE"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
-                "FLX_TRT_DTD"
-            ],
-            "reference": {
-                "resource": "IR_DTE_V",
-                "fields": [
-                    "DTE_DTE"
                 ]
             },
             "description": "Nomenclature"
@@ -1894,42 +1846,6 @@
                 "resource": "IR_MTM_V",
                 "fields": [
                     "MTM_NAT"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
-                "PRE_PRE_DTD"
-            ],
-            "reference": {
-                "resource": "IR_DTE_V",
-                "fields": [
-                    "DTE_DTE"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
-                "PRS_GRS_DTD"
-            ],
-            "reference": {
-                "resource": "IR_DTE_V",
-                "fields": [
-                    "DTE_DTE"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
-                "PRS_HOS_DTD"
-            ],
-            "reference": {
-                "resource": "IR_DTE_V",
-                "fields": [
-                    "DTE_DTE"
                 ]
             },
             "description": "Nomenclature"

@@ -128,7 +128,7 @@
         {
             "name": "BEN_NAI_ANN",
             "description": "Année de naissance du bénéficiaire",
-            "type": "string",
+            "type": "year",
             "length": "4",
             "nomenclature": "-",
             "dateCreated": "",

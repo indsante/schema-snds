@@ -473,60 +473,12 @@
         },
         {
             "fields": [
-                "EXE_SOI_DTD"
-            ],
-            "reference": {
-                "resource": "IR_DTE_V",
-                "fields": [
-                    "DTE_DTE"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
-                "EXE_SOI_DTF"
-            ],
-            "reference": {
-                "resource": "IR_DTE_V",
-                "fields": [
-                    "DTE_DTE"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
                 "PRS_NAT_REF"
             ],
             "reference": {
                 "resource": "IR_NAT_V",
                 "fields": [
                     "PRS_NAT"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
-                "FLX_TRT_DTD"
-            ],
-            "reference": {
-                "resource": "IR_DTE_V",
-                "fields": [
-                    "DTE_DTE"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
-                "FLX_DIS_DTD"
-            ],
-            "reference": {
-                "resource": "IR_DTE_V",
-                "fields": [
-                    "DTE_DTE"
                 ]
             },
             "description": "Nomenclature"
@@ -563,18 +515,6 @@
                 "resource": "IR_EIN_V",
                 "fields": [
                     "INV_PEN_ETA"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
-                "INV_ATR_DTD"
-            ],
-            "reference": {
-                "resource": "IR_DTE_V",
-                "fields": [
-                    "DTE_DTE"
                 ]
             },
             "description": "Nomenclature"

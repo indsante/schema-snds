@@ -423,7 +423,7 @@
         {
             "name": "TRS_DTD_AMD",
             "description": "Date de départ (année et mois) du transport",
-            "type": "string",
+            "type": "yearmonth",
             "nomenclature": "-",
             "length": "6",
             "format": "default",

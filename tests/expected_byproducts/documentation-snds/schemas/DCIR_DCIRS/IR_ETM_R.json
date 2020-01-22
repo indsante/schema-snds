@@ -15,7 +15,7 @@
         {
             "name": "BEN_RNG_GEM",
             "description": "Code rang gémellaire du bénéficiaire",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -51,7 +51,7 @@
         {
             "name": "BEN_EXO_MTF",
             "description": "Motif d’exonération du ticket modérateur",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",

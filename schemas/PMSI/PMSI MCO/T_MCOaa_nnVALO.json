@@ -2005,7 +2005,7 @@
         {
             "name": "MNT_TJP20_AME",
             "description": "Valorisation 20% TJP (uniquement pour les séjours AME)",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2012",
             "dateDeleted": "2013",
@@ -2019,7 +2019,7 @@
         {
             "name": "MNT_IVGFJS_AM",
             "description": "Valorisation Forfait Journalier de Sortie (uniquement pour les séjours AME)",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2011",
             "dateDeleted": "2014",
@@ -2033,7 +2033,7 @@
         {
             "name": "NB_9611",
             "description": "Nombre d’actes menant dans le GHS 9611",
-            "type": "number",
+            "type": "integer",
             "length": "5",
             "dateCreated": "2011",
             "dateDeleted": "2012",
@@ -2047,7 +2047,7 @@
         {
             "name": "GHSMIN",
             "description": "Nb séjours avec minoration forfaitaire liste en sus",
-            "type": "number",
+            "type": "integer",
             "length": "5",
             "dateCreated": "2015",
             "dateDeleted": "",
@@ -2061,7 +2061,7 @@
         {
             "name": "MNT_9624_AM",
             "description": "Valorisation AM actes menant dans le GHS 9624",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2011",
             "dateDeleted": "2013",
@@ -2075,7 +2075,7 @@
         {
             "name": "NB_9624",
             "description": "Nombre d’actes menant dans le GHS 9624",
-            "type": "number",
+            "type": "integer",
             "length": "5",
             "dateCreated": "2011",
             "dateDeleted": "2013",
@@ -2089,7 +2089,7 @@
         {
             "name": "MNT_FJS_AME",
             "description": "Valorisation Forfait Journalier de Sortie (uniquement pour les séjours AME)",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2012",
             "dateDeleted": "2013",
@@ -2103,7 +2103,7 @@
         {
             "name": "MNT_9612_AM",
             "description": "Valorisation AM actes menant dans le GHS 9612",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2011",
             "dateDeleted": "2012",
@@ -2117,7 +2117,7 @@
         {
             "name": "MNT_9611_AM",
             "description": "Valorisation AM actes menant dans le GHS 9611",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2011",
             "dateDeleted": "2012",
@@ -2131,7 +2131,7 @@
         {
             "name": "NB_9612",
             "description": "Nombre d’actes menant dans le GHS 9612",
-            "type": "number",
+            "type": "integer",
             "length": "5",
             "dateCreated": "2011",
             "dateDeleted": "2012",

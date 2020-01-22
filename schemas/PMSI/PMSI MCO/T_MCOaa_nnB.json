@@ -969,7 +969,7 @@
         {
             "name": "NBR_NAIS_ANT",
             "description": "Nombres de naissances vivantes antérieures",
-            "type": "number",
+            "type": "integer",
             "length": "2",
             "dateCreated": "2015",
             "dateDeleted": "2017",
@@ -983,7 +983,7 @@
         {
             "name": "GHS_9512_ACT",
             "description": "Nombre d'actes menant dans le GHS 9512",
-            "type": "number",
+            "type": "integer",
             "length": "8",
             "dateCreated": "2008",
             "dateDeleted": "2009",
@@ -997,7 +997,7 @@
         {
             "name": "GHS_9515_ACT",
             "description": "Nombre d'actes menant dans le GHS 9515",
-            "type": "number",
+            "type": "integer",
             "length": "8",
             "dateCreated": "2008",
             "dateDeleted": "2009",
@@ -1011,7 +1011,7 @@
         {
             "name": "GHS_9511_ACT",
             "description": "Nombre d'actes menant dans le GHS 9511",
-            "type": "number",
+            "type": "integer",
             "length": "8",
             "dateCreated": "2008",
             "dateDeleted": "2009",
@@ -1025,7 +1025,7 @@
         {
             "name": "GHS_9619_ACT",
             "description": "Nombre d'actes menant dans le GHS 9619",
-            "type": "number",
+            "type": "integer",
             "length": "8",
             "dateCreated": "2009",
             "dateDeleted": "2011",
@@ -1039,7 +1039,7 @@
         {
             "name": "GHS_9610_ACT",
             "description": "Nombre d'actes menant dans le GHS 9610",
-            "type": "number",
+            "type": "integer",
             "length": "8",
             "dateCreated": "2009",
             "dateDeleted": "2011",
@@ -1053,7 +1053,7 @@
         {
             "name": "NBR_IVG_ANT",
             "description": "Nombre d’IVG antérieures",
-            "type": "number",
+            "type": "integer",
             "length": "2",
             "dateCreated": "2015",
             "dateDeleted": "2017",
@@ -1067,7 +1067,7 @@
         {
             "name": "GHS_9620_ACT",
             "description": "Nombre d'actes menant dans le GHS 9620",
-            "type": "number",
+            "type": "integer",
             "length": "8",
             "dateCreated": "2009",
             "dateDeleted": "2011",
@@ -1081,7 +1081,7 @@
         {
             "name": "NBR_SUP_SSC",
             "description": "Nombre de suppléments pour SSC (surveillance continue)",
-            "type": "number",
+            "type": "integer",
             "length": "8",
             "dateCreated": "2006",
             "dateDeleted": "2009",
@@ -1095,7 +1095,7 @@
         {
             "name": "GHS_9622_ACT",
             "description": "Nombre d'actes menant dans le GHS 9622",
-            "type": "number",
+            "type": "integer",
             "length": "8",
             "dateCreated": "2010",
             "dateDeleted": "2011",
@@ -1109,7 +1109,7 @@
         {
             "name": "GHM_24707Z_ACT",
             "description": "Nombre d'actes menant dans le GHM 24Z07Z ou 28Z13Z",
-            "type": "number",
+            "type": "integer",
             "length": "3",
             "dateCreated": "2005",
             "dateDeleted": "2008",
@@ -1123,7 +1123,7 @@
         {
             "name": "GHS_9621_ACT",
             "description": "Nombre d'actes menant dans le GHS 9621",
-            "type": "number",
+            "type": "integer",
             "length": "8",
             "dateCreated": "2009",
             "dateDeleted": "2011",
@@ -1137,7 +1137,7 @@
         {
             "name": "NBR_SEA_SROS",
             "description": "Nombre de séances avant SROS",
-            "type": "number",
+            "type": "integer",
             "length": "8",
             "dateCreated": "2006",
             "dateDeleted": "2009",
@@ -1151,7 +1151,7 @@
         {
             "name": "GHM_24706Z_ACT",
             "description": "Nombre d'actes menant dans le GHM 24Z06Z ou 28Z12Z",
-            "type": "number",
+            "type": "integer",
             "length": "3",
             "dateCreated": "2005",
             "dateDeleted": "2008",
@@ -1165,7 +1165,7 @@
         {
             "name": "GHM_24705Z_ACT",
             "description": "Nombre d'actes menant dans le GHM 24Z05Z ou 28Z11Z",
-            "type": "number",
+            "type": "integer",
             "length": "3",
             "dateCreated": "2005",
             "dateDeleted": "2008",
@@ -1193,7 +1193,7 @@
         {
             "name": "GHS_9611_ACT",
             "description": "Nombre d'actes menant dans le GHS 9611",
-            "type": "number",
+            "type": "integer",
             "length": "8",
             "dateCreated": "2009",
             "dateDeleted": "2011",
@@ -1207,7 +1207,7 @@
         {
             "name": "GHS_9612_ACT",
             "description": "Nombre d'actes menant dans le GHS 9612",
-            "type": "number",
+            "type": "integer",
             "length": "8",
             "dateCreated": "2009",
             "dateDeleted": "2011",
@@ -1221,7 +1221,7 @@
         {
             "name": "GHS_9510_ACT",
             "description": "Nombre d'actes menant dans le GHS 9510",
-            "type": "number",
+            "type": "integer",
             "length": "8",
             "dateCreated": "2008",
             "dateDeleted": "2009",
@@ -1235,7 +1235,7 @@
         {
             "name": "GHS_9524_ACT",
             "description": "Nombre d'actes menant dans le GHS 9524",
-            "type": "number",
+            "type": "integer",
             "length": "8",
             "dateCreated": "2008",
             "dateDeleted": "2009",
@@ -1263,7 +1263,7 @@
         {
             "name": "GHS_6523_ACT",
             "description": "Nombre d'actes menant dans le GHS 6523",
-            "type": "number",
+            "type": "integer",
             "length": "8",
             "dateCreated": "2009",
             "dateDeleted": "2011",
@@ -1277,7 +1277,7 @@
         {
             "name": "NBR_SUP_SRA",
             "description": "Nombre de suppléments pour SRA (réanimation)",
-            "type": "number",
+            "type": "integer",
             "length": "8",
             "dateCreated": "2006",
             "dateDeleted": "2009",

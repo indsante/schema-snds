@@ -227,7 +227,7 @@
         {
             "name": "LPP_QUA1",
             "description": "Quantité 1",
-            "type": "number",
+            "type": "integer",
             "length": "3",
             "dateCreated": "2005",
             "dateDeleted": "2008",
@@ -269,7 +269,7 @@
         {
             "name": "LPP_QUA2",
             "description": "Quantité 2",
-            "type": "number",
+            "type": "integer",
             "length": "3",
             "dateCreated": "2005",
             "dateDeleted": "2008",

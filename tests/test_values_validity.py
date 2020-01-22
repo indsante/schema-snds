@@ -25,6 +25,8 @@ def test_date_type_values_are_valid(schema_path):
     schema_to_validate = Schema(schema_path)
     for field in schema_to_validate.fields:
         tstype = field.descriptor.get(TYPE_CSV)
+        name = field.descriptor.get('name')
         nomenclature = field.descriptor.get('nomenclature')
-        if nomenclature == IGNORED_DATE_NOMENCLATURE:
+        if nomenclature == IGNORED_DATE_NOMENCLATURE or 'MOI' in name:
             assert tstype == 'date' or tstype == 'yearmonth'
+

@@ -450,7 +450,7 @@
         {
             "name": "PRE_PRE_AMD",
             "description": "Date (année et mois) de prescription",
-            "type": "string",
+            "type": "yearmonth",
             "length": "6",
             "nomenclature": "IR_DTE_V",
             "dateCreated": "",
@@ -1388,7 +1388,7 @@
         {
             "name": "EXE_SOI_AMF",
             "description": "Date (année et mois) de fin d'exécution des soins",
-            "type": "string",
+            "type": "yearmonth",
             "length": "6",
             "nomenclature": "IR_DTE_V",
             "dateCreated": "",

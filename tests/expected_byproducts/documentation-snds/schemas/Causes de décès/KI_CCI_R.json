@@ -15,7 +15,7 @@
         {
             "name": "DCD_IDT_TOP",
             "description": "Top apparié avec IR_BEN_R",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -39,7 +39,7 @@
         {
             "name": "BEN_IDT_TOP",
             "description": "TOP Identifiant synthétique SNDS",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -123,7 +123,7 @@
         {
             "name": "TYP_VOL_COD",
             "description": "Type de volet",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "DS_SUP_V",
             "length": "1",
             "format": "default",
@@ -207,7 +207,7 @@
         {
             "name": "DCD_LIE_COD",
             "description": "Lieu du décès",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "DS_LIE_V",
             "length": "1",
             "format": "default",
@@ -243,7 +243,7 @@
         {
             "name": "BEN_SEX_COD",
             "description": "Sexe",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_SEX_V",
             "length": "1",
             "format": "default",
@@ -255,7 +255,7 @@
         {
             "name": "PFV_ACP_COD",
             "description": "Activité professionnelle",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "DS_ACP_V",
             "length": "1",
             "format": "default",
@@ -279,7 +279,7 @@
         {
             "name": "ETA_MAR_COD",
             "description": "Etat matrimonial",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "DS_MAR_V",
             "length": "1",
             "format": "default",
@@ -303,7 +303,7 @@
         {
             "name": "DCD_CAU_COD",
             "description": "Recherche de la cause de décès",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "DS_CAU_V",
             "length": "1",
             "format": "default",
@@ -315,7 +315,7 @@
         {
             "name": "DCD_GRS_COD",
             "description": "La grossesse a contribué au décès",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "DS_GRS_V",
             "length": "1",
             "format": "default",
@@ -351,7 +351,7 @@
         {
             "name": "DCD_ATT_COD",
             "description": "Accident du travail",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "DS_ATT_V",
             "length": "1",
             "format": "default",
@@ -363,7 +363,7 @@
         {
             "name": "NEO_APG_SCO",
             "description": "Apgar à une minute",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "2",
             "format": "default",
@@ -375,7 +375,7 @@
         {
             "name": "NEO_GES_AGE",
             "description": "Age gestationnel en semaines révoleus d'amenhorrées",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "2",
             "format": "default",
@@ -399,7 +399,7 @@
         {
             "name": "RNG_NAI_TYP",
             "description": "Type de naissance",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "DS_NAI_V",
             "length": "1",
             "format": "default",
@@ -411,7 +411,7 @@
         {
             "name": "GRS_ORD_NU",
             "description": "Numéro d'ordre de l'enfant si grossesse multiple",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -423,7 +423,7 @@
         {
             "name": "ACC_LIA_COD",
             "description": "Lieu d'accouchement",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "DS_LIA_V",
             "length": "1",
             "format": "default",
@@ -435,7 +435,7 @@
         {
             "name": "ACC_PST_COD",
             "description": "Présentation de l'enfant",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "DS_PST_V",
             "length": "1",
             "format": "default",
@@ -447,7 +447,7 @@
         {
             "name": "ACC_DEB_COD",
             "description": "Début du travail",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "DS_DEB_V",
             "length": "1",
             "format": "default",
@@ -459,7 +459,7 @@
         {
             "name": "MOD_ACC_COD",
             "description": "Mode d'accouchement",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "DS_ACC_V",
             "length": "1",
             "format": "default",
@@ -471,7 +471,7 @@
         {
             "name": "HOS_TRF_TOP",
             "description": "Transfert de l'hospitalisation particulière de l'enfant",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "DS_TRF_V",
             "length": "1",
             "format": "default",
@@ -495,7 +495,7 @@
         {
             "name": "MER_PFS_COD",
             "description": "Activité professionnelle de la mère",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "DS_PFS_V",
             "length": "1",
             "format": "default",
@@ -519,7 +519,7 @@
         {
             "name": "MER_MAR_CO",
             "description": "Etat matrimonial de la mère",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "DS_MAR_V",
             "length": "1",
             "format": "default",
@@ -531,7 +531,7 @@
         {
             "name": "MER_SIT_TOP",
             "description": "La mère vit-elle en couple ?",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "DS_SIT_V",
             "length": "1",
             "format": "default",
@@ -543,7 +543,7 @@
         {
             "name": "TOT_GRS_NBR",
             "description": "Nombre total de grossesses",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "2",
             "format": "default",
@@ -555,7 +555,7 @@
         {
             "name": "TOT_ACC_NBR",
             "description": "Nombre total d'accouchements",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "2",
             "format": "default",
@@ -567,7 +567,7 @@
         {
             "name": "PER_PFS_COD",
             "description": "Activité professionnelle du père",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "DS_PFS_V",
             "length": "1",
             "format": "default",

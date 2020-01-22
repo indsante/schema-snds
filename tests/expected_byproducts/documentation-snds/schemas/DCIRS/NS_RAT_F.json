@@ -27,7 +27,7 @@
         {
             "name": "BEN_IDT_TOP",
             "description": "Top identifiant bénéficiaire Anonymisé",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -135,7 +135,7 @@
         {
             "name": "PRS_NAT_REF",
             "description": "Code de la prestation de référence",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_NAT_V",
             "length": "4",
             "format": "default",
@@ -243,7 +243,7 @@
         {
             "name": "FLX_EMT_TYP",
             "description": "Type d'émetteur",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "2",
             "format": "default",
@@ -315,7 +315,7 @@
         {
             "name": "RAT_SEQ_NUM",
             "description": "Numéro séquentiel",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -339,7 +339,7 @@
         {
             "name": "ATT_NAT",
             "description": "Nature de l'accident du travail",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_ATT_V",
             "length": "2",
             "format": "default",

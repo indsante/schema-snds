@@ -30,7 +30,7 @@
         {
             "name": "ben_rng_gem",
             "description": "Rang de naissance",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",

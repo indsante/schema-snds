@@ -15,7 +15,7 @@
         {
             "name": "CAM_ACT_PRU",
             "description": "Prix unitaire de la prestation affinée CCAM",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "7",
             "format": "default",
@@ -75,7 +75,7 @@
         {
             "name": "CAM_ORD_NUM",
             "description": "N° ordre prestation affinée CCAM",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "2",
             "format": "default",
@@ -111,7 +111,7 @@
         {
             "name": "CAM_REM_BSE",
             "description": "Base de remboursement de la CCAM",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "7",
             "format": "default",
@@ -135,7 +135,7 @@
         {
             "name": "CAM_TRT_PHA",
             "description": "Phase de traitement (0 = phase par défaut, 1 = phase 1, 2 = phase 2, 3 = phase 3)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -159,7 +159,7 @@
         {
             "name": "DCT_ORD_NUM",
             "description": "N° ordre décompte dans caisse                      1",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -183,7 +183,7 @@
         {
             "name": "FLX_EMT_NUM",
             "description": "N° émetteur du flux                                                  3",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_NEM_V",
             "length": "8",
             "format": "default",
@@ -195,7 +195,7 @@
         {
             "name": "FLX_EMT_ORD",
             "description": "N° séquence du flux                                               4",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -207,7 +207,7 @@
         {
             "name": "FLX_EMT_TYP",
             "description": "Type d'émetteur                                                      5",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -243,7 +243,7 @@
         {
             "name": "PRS_ORD_NUM",
             "description": "N° ordre prestation dans décompte                 8",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -255,7 +255,7 @@
         {
             "name": "REM_TYP_AFF",
             "description": "Type de remboursement affiné                                 9",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",

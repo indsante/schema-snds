@@ -105,7 +105,7 @@ def replace_length_by_bounds_and_number_by_integer(schema):
         length = int(length)
         if tstype == STRING:
             assert schema.update_field(field.name, {'constraints': {'maxLength': length}})
-        if tstype == NUMBER:
+        if tstype == INTEGER:
             assert length <= 19, "field '{}' of schema '{}' is of length '{}', bigger than maximal value of 19" \
                 .format(field.name, schema.descriptor["name"], length)
             assert schema.update_field(field.name, {'constraints': {'minimum': 0, 'maximum': 10 ** length}})

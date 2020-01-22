@@ -15,7 +15,7 @@
         {
             "name": "BEN_RNG_GEM",
             "description": "Rang gémellaire",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -51,7 +51,7 @@
         {
             "name": "IMB_ALD_NUM",
             "description": "Numéro d'ALD sur la liste",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_ALD_V",
             "length": "8",
             "format": "default",
@@ -63,7 +63,7 @@
         {
             "name": "IMB_ETM_NAT",
             "description": "Type de PEC (ALD, Invalidité ou ATMP)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",

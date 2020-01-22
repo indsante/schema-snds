@@ -15,7 +15,7 @@
         {
             "name": "BEN_RNG_GEM",
             "description": "Code rang gémellaire du bénéficiaire",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "1",
             "format": "default",

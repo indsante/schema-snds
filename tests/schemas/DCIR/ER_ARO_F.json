@@ -135,7 +135,7 @@
         {
             "name": "ARO_REM_PRU",
             "description": "Prix unitaire de l'acte",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "12",
             "format": "default",

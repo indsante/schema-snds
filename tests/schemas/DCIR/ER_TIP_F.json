@@ -3,7 +3,7 @@
         {
             "name": "LPP_ECT_MNT",
             "description": "Montant total de l'écart indemnisable",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "17",
             "format": "default",
@@ -15,7 +15,7 @@
         {
             "name": "LPP_ECU_MNT",
             "description": "Montant unitaire de l'écart indemnisable",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "17",
             "format": "default",
@@ -63,7 +63,7 @@
         {
             "name": "TIP_ACT_PRU",
             "description": "Prix unitaire de la prestation affinée LPP",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "10",
             "format": "default",
@@ -99,7 +99,7 @@
         {
             "name": "TIP_PRS_IDE",
             "description": "Code prestation affinée dispositif médical LPP",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "NT_LPP",
             "length": "13",
             "format": "default",

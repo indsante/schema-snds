@@ -381,7 +381,7 @@
         {
             "name": "TRS_PRS_IDE",
             "description": "Code affiné du transport (forfait, km, majoration, supplément)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_DTR_V",
             "length": "13",
             "format": "default",

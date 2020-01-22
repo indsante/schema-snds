@@ -521,7 +521,7 @@
         {
             "name": "FLT_ACT_QTE",
             "description": "Quantité de la prestation",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "12",
             "format": "default",

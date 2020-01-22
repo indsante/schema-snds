@@ -17,7 +17,7 @@
         {
             "name": "TRS_ACT_PRU",
             "description": "Prix unitaire de la prestation affinée transport",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "10",
             "format": "default",

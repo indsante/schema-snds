@@ -327,7 +327,7 @@
         {
             "name": "PHA_PRS_C13",
             "description": "Code CIP de la pharmacie de ville (13 caractères)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_PHA_R",
             "length": "13",
             "format": "default",

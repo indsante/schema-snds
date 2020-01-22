@@ -115,7 +115,7 @@
         {
             "name": "TIP_PRS_IDE",
             "description": "Code LPP du produit ou de la Prestations",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "NT_LPP",
             "length": "13",
             "format": "default",

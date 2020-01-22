@@ -363,7 +363,7 @@
         {
             "name": "BSE_REM_PRU",
             "description": "Prix unitaire (acte de base)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "12",
             "format": "default",
@@ -411,7 +411,7 @@
         {
             "name": "CPL_REM_PRU",
             "description": "Prix unitaire (complément d'acte)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "12",
             "format": "default",

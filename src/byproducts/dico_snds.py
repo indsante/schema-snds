@@ -131,7 +131,7 @@ def table_schema_to_snds_variables(work_dir):
             length = descriptor.get('length', '')
             length = ' ({})'.format(length) if length else ''
             format_variable = descriptor[TYPE_ORACLE] + length
-            nomenclature = str(descriptor.get(NOMENCLATURE, ''))
+            nomenclature = str(descriptor.get(NOMENCLATURE, '')).split(':')[0]
             nomenclature = nomenclature if (nomenclature.strip() != 'nan') else NO_NOMENCLATURE
 
             variables_list.append({

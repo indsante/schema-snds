@@ -39,6 +39,7 @@ DICO_SNDS_DIR = pjoin(BYPRODUCTS_DIR, 'dico-snds')
 SCHEMAS_DOCUMENTATION_SNDS_DIR = pjoin(BYPRODUCTS_DIR, 'documentation-snds', 'schemas')
 
 NO_NOMENCLATURE = '-'
+IGNORED_DATE_NOMENCLATURE = 'IR_DTE_V'
 
 # https://frictionlessdata.io/specs/table-schema/#types-and-formats
 STRING = 'string'

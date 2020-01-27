@@ -95,7 +95,7 @@ def get_used_nomenclatures(work_dir):
     used_nomenclatures = set()
     for schema in get_all_schema(work_dir):
         for field in schema.fields:
-            nomenclature = field.descriptor['nomenclature']
+            nomenclature = field.descriptor['nomenclature'].split(':')[0]
             if nomenclature != NO_NOMENCLATURE:
                 used_nomenclatures.add(nomenclature)
     return used_nomenclatures

@@ -115,8 +115,7 @@ def replace_nomenclatures_by_foreign_key_reference(schema, nomenclature_to_fk_re
     for field in schema.fields:
         nom_col = field.descriptor.get('nomenclature').split(':')
         nomenclature = nom_col[0]
-
-        if nomenclature == NO_NOMENCLATURE:  # or nomenclature == IGNORED_DATE_NOMENCLATURE:
+        if nomenclature == NO_NOMENCLATURE or nomenclature == IGNORED_DATE_NOMENCLATURE:
             continue
         if nomenclature not in nomenclature_to_fk_reference:
             raise ValueError("Nomenclature {} is referenced in schemas, but missing in nomenclatures' folder."

@@ -16,7 +16,7 @@ from typing import Dict
 
 from tableschema import Schema
 
-from src.constants import NO_NOMENCLATURE, SCHEMAS_DIR, NOMENCLATURES_DIR, BYPRODUCTS_DIR, ROOT_DIR
+from src.constants import NO_NOMENCLATURE, IGNORED_DATE_NOMENCLATURE, SCHEMAS_DIR, NOMENCLATURES_DIR, BYPRODUCTS_DIR, ROOT_DIR
 from src.constants import STRING, NUMBER, INTEGER, TYPE_CSV
 from src.utils import get_all_schema_path, get_all_nomenclatures_schema, get_used_nomenclatures
 
@@ -114,7 +114,7 @@ def replace_length_by_bounds_and_number_by_integer(schema):
 def replace_nomenclatures_by_foreign_key_reference(schema, nomenclature_to_fk_reference):
     for field in schema.fields:
         nomenclature = field.descriptor.get('nomenclature')
-        if nomenclature == NO_NOMENCLATURE:
+        if nomenclature == NO_NOMENCLATURE or nomenclature == IGNORED_DATE_NOMENCLATURE:
             continue
         if nomenclature not in nomenclature_to_fk_reference:
             raise ValueError("Nomenclature {} is referenced in schemas, but missing in nomenclatures' folder."

@@ -9,7 +9,7 @@ import pytest
 from tableschema import Schema
 
 from src.constants import HISTORY, DATE_CREATED, DATE_MISSING, DATE_DELETED, NOMENCLATURE, OBSERVATION, \
-    CHAMP, REGLE_GESTION, TYPE_CSV, TYPE_ORACLE, ROOT_DIR
+    CHAMP, REGLE_GESTION, TYPE_CSV, TYPE_ORACLE, ROOT_DIR, TRUE_VALUES, FALSE_VALUES
 from src.utils import get_all_schema_path
 
 
@@ -50,6 +50,6 @@ def test_tableschema_contains_all_fields(schema_path):
     assert set(descriptor[HISTORY].keys()) == set([DATE_CREATED, DATE_DELETED, DATE_MISSING])
 
     for field in descriptor['fields']:
-        assert sorted(list(set(field.keys()) - set(["constraints"]))) == \
+        assert sorted(list(set(field.keys()) - set(["constraints", TRUE_VALUES, FALSE_VALUES]))) == \
                sorted(["name", "description", TYPE_CSV, NOMENCLATURE, "length", "format", OBSERVATION, REGLE_GESTION,
                        DATE_CREATED, DATE_DELETED, DATE_MISSING, TYPE_ORACLE])

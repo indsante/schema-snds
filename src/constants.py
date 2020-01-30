@@ -16,6 +16,9 @@ DATE_CREATED = 'dateCreated'
 DATE_DELETED = 'dateDeleted'
 DATE_MISSING = 'dateMissing'
 
+TRUE_VALUES = "trueValues"
+FALSE_VALUES = "falseValues"
+
 # Product groups
 PMSI = 'PMSI'
 

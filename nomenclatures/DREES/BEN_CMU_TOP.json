@@ -1,0 +1,23 @@
+{
+    "fields": [
+        {
+            "name": "BEN_CMU_COD",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "BEN_CMU_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "BEN_CMU_TOP",
+    "primaryKey": [
+        "BEN_CMU_COD"
+    ]
+}

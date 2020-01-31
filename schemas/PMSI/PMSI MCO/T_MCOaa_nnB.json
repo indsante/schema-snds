@@ -94,7 +94,7 @@
             "name": "BDI_COD",
             "description": "Code géographique de résidence",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "MS_RES_V:COD_RES",
             "length": "5",
             "format": "default",
             "dateCreated": "2005",

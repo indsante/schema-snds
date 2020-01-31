@@ -60,13 +60,9 @@
             "name": "BEN_CMU_TOP",
             "description": "Top bénéficiaire de la CMU complémentaire",
             "type": "integer",
-            "nomenclature": "-",
+            "nomenclature": "BEN_CMU_TOP:BEN_CMU_COD",
             "length": "1",
             "format": "default",
-            "constraints": {
-                "minimum": 0,
-                "maximum": 2
-            },
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
@@ -779,7 +775,7 @@
             "name": "CPL_MAJ_TOP",
             "description": "Top complément - majoration",
             "type": "integer",
-            "nomenclature": "-",
+            "nomenclature": "IR_CPM_V:CPL_MAJ_COD",
             "length": "1",
             "format": "default",
             "dateCreated": "2006",

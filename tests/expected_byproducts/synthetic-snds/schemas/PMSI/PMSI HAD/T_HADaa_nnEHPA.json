@@ -3,46 +3,52 @@
         {
             "name": "ANN",
             "description": "Année période",
-            "type": "string",
+            "type": "year",
             "nomenclature": "-",
-            "length": null,
+            "length": "4",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [
                 "2012",
                 "2013"
             ],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
             "name": "DAT_DEB_CON",
             "description": "Date de début de la convention",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
-            "length": null,
+            "length": "8",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [
                 "2012",
                 "2013"
             ],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
             "name": "DAT_FIN_CON",
             "description": "Date de fin de la convention",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
-            "length": null,
+            "length": "8",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [
                 "2012",
                 "2013"
             ],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -55,6 +61,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -62,56 +70,73 @@
             "description": "N° FINESS e-PMSI",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [
                 "2012",
                 "2013"
             ],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 9
+            }
         },
         {
             "name": "FFT_COD",
             "description": "Code forfait de soins",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [
                 "2012",
                 "2013"
             ],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
         },
         {
             "name": "FIC_TYP",
             "description": "Type de fichier",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "3",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [
                 "2012",
                 "2013"
             ],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 3
+            }
         },
         {
             "name": "MOI",
             "description": "N° période (mois)",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
-            "length": null,
-            "format": "default",
+            "length": "2",
+            "format": "%m",
             "dateCreated": "2014",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -119,28 +144,80 @@
             "description": "Type d'établissement",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
             "dateCreated": "2015",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 2
+            }
+        },
+        {
+            "name": "MOIS",
+            "description": "N° période (mois)",
+            "type": "date",
+            "length": "2",
+            "dateCreated": "2010",
+            "dateDeleted": "2012",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "%m",
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
+        },
+        {
+            "name": "ETA_NUM_EHPA",
+            "description": "N° FINESS ESMS",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2010",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 9
+            }
         }
     ],
     "name": "T_HADaa_nnEHPA",
     "title": "Table des conventions HAD-EHPA",
-    "description": "Champ : Public et Privé",
     "produit": "PMSI HAD",
     "missingValues": [
         ""
     ],
-    "primaryKey": "ETA_NUM_EPMSI",
+    "foreignKeys": [
+        {
+            "fields": "ETA_NUM_EPMSI",
+            "reference": {
+                "resource": "T_HADaa_nnE",
+                "fields": "ETA_NUM"
+            }
+        },
+        {
+            "fields": "ETA_NUM_EHPA",
+            "reference": {
+                "resource": "T_HADaa_nnE",
+                "fields": "ETA_NUM"
+            }
+        }
+    ],
     "history": {
-        "dateCreated": "2011",
-        "dateDeleted": "2017",
+        "dateCreated": "2010",
+        "dateDeleted": "",
         "dateMissing": [
-            "2013",
-            "2014"
+            "2012",
+            "2013"
         ]
-    }
+    },
+    "champ": "Public et Privé",
+    "observation": "table non transmise en 2012 et 2013"
 }

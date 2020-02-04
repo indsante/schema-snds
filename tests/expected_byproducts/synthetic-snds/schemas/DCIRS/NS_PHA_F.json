@@ -3,14 +3,20 @@
         {
             "name": "CLE_DCI_JNT",
             "description": "Clé technique de jointure",
-            "type": "string",
+            "type": "integer",
             "nomenclature": "-",
-            "length": null,
+            "length": "8",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 99999999
+            }
         },
         {
             "name": "BEN_IDT_ANO",
@@ -22,6 +28,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 18
@@ -37,6 +45,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
@@ -48,11 +58,13 @@
             "description": "Date de début d'exécution des soins",
             "type": "date",
             "nomenclature": "IR_DTE_V",
-            "length": null,
+            "length": "8",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "date"
         },
         {
@@ -60,42 +72,42 @@
             "description": "Date de fin d'exécution des soins",
             "type": "date",
             "nomenclature": "IR_DTE_V",
-            "length": null,
+            "length": "8",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "date"
         },
         {
             "name": "EXE_SOI_AMD",
             "description": "Date (année et mois) de début d'exécution des soins",
-            "type": "string",
-            "nomenclature": "-",
+            "type": "yearmonth",
+            "nomenclature": "IR_DTE_V",
             "length": "6",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 6
-            }
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "EXE_SOI_AMF",
             "description": "Date (année et mois) de fin d'exécution des soins",
-            "type": "string",
-            "nomenclature": "-",
+            "type": "yearmonth",
+            "nomenclature": "IR_DTE_V",
             "length": "6",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 6
-            }
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "PFS_EXE_NUM",
@@ -107,6 +119,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 8
@@ -122,6 +136,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 8
@@ -129,7 +145,7 @@
         },
         {
             "name": "GRG_LIQ_COD",
-            "description": "Code du grand régime de liquidation",
+            "description": "Grand régime de liquidation",
             "type": "string",
             "nomenclature": "-",
             "length": "3",
@@ -137,6 +153,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 3
@@ -146,12 +164,14 @@
             "name": "CAI_LIQ_COD",
             "description": "Code de la caisse de liquidation",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_CAI_V",
             "length": "3",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 3
@@ -159,7 +179,7 @@
         },
         {
             "name": "PRS_NAT_REF",
-            "description": "Code de la prestation de référence",
+            "description": "Code de la Prestations de référence",
             "type": "integer",
             "nomenclature": "IR_NAT_V",
             "length": "4",
@@ -167,6 +187,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
@@ -183,6 +205,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 8
@@ -198,6 +222,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 8
@@ -213,6 +239,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
@@ -230,6 +258,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 3
@@ -239,12 +269,14 @@
             "name": "CAI_AFF_COD",
             "description": "Code de la caisse d'affiliation",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_CAI_V",
             "length": "3",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 3
@@ -254,12 +286,14 @@
             "name": "SLM_AFF_COD",
             "description": "Code de la SLM",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_SLM_V",
             "length": "3",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 3
@@ -270,11 +304,13 @@
             "description": "Date d'entrée des données dans le système d'information",
             "type": "date",
             "nomenclature": "IR_DTE_V",
-            "length": null,
+            "length": "8",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "date"
         },
         {
@@ -282,23 +318,27 @@
             "description": "Date de mise à disposition des données",
             "type": "date",
             "nomenclature": "IR_DTE_V",
-            "length": null,
+            "length": "8",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "date"
         },
         {
             "name": "FLX_EMT_TYP",
             "description": "Type d'émetteur",
             "type": "integer",
-            "nomenclature": "-",
+            "nomenclature": "IR_TYT_V",
             "length": "2",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
@@ -309,12 +349,14 @@
             "name": "EXE_INS_DPT",
             "description": "Département du professionnel de santé exécutant",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_DPT_V",
             "length": "3",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 3
@@ -324,12 +366,14 @@
             "name": "PRE_INS_DPT",
             "description": "Département du professionnel de santé prescripteur",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_DPT_V",
             "length": "3",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 3
@@ -339,12 +383,14 @@
             "name": "ETE_DPT_COD",
             "description": "Département de l'établissement exécutant",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_DPT_V",
             "length": "3",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 3
@@ -354,12 +400,14 @@
             "name": "ETP_DPT_COD",
             "description": "Departement de l'établissement prescripteur",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_DPT_V",
             "length": "3",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 3
@@ -375,6 +423,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 3
@@ -390,6 +440,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
@@ -398,7 +450,7 @@
         },
         {
             "name": "PHA_PRS_C13",
-            "description": "Code CIP de la pharmacie de ville (13 caractères)",
+            "description": "Code CIP de la pharmacie de ville (13 Caractères)",
             "type": "integer",
             "nomenclature": "IR_PHA_R",
             "length": "13",
@@ -406,6 +458,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
@@ -414,7 +468,7 @@
         },
         {
             "name": "PHA_PRS_IDE",
-            "description": "Code CIP de la pharmacie de ville (ancien code sur 7 caractères)",
+            "description": "Code CIP de la pharmacie de ville (ancien code sur 7 Caractères)",
             "type": "integer",
             "nomenclature": "IR_PHA_R",
             "length": "7",
@@ -422,6 +476,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
@@ -438,6 +494,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
@@ -446,7 +504,7 @@
             }
         },
         {
-            "name": "PHA_CPA_PCP ",
+            "name": "PHA_CPA_PCP",
             "description": "Condition particulière de prise en charge",
             "type": "string",
             "nomenclature": "-",
@@ -455,13 +513,15 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 3
             }
         },
         {
-            "name": "PHA_DEC_PRU ",
+            "name": "PHA_DEC_PRU",
             "description": "Prix unitaire de l'unité délivrée",
             "type": "number",
             "nomenclature": "-",
@@ -470,6 +530,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
@@ -481,12 +543,14 @@
             "name": "PHA_DEC_TOP",
             "description": "Top déconditionnement",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_TDU_V",
             "length": "1",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 1
@@ -502,6 +566,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
@@ -512,12 +578,14 @@
             "name": "PHA_MOD_PRN",
             "description": "Mode de prescription",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_MDP_V",
             "length": "1",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 1
@@ -533,6 +601,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
@@ -549,6 +619,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
@@ -559,12 +631,14 @@
             "name": "PHA_ACT_QSC",
             "description": "Nombre de conditionnements (boite, etc.)",
             "type": "integer",
-            "nomenclature": "-",
+            "nomenclature": "IR_SUB_V",
             "length": "5",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
@@ -572,7 +646,7 @@
             }
         },
         {
-            "name": "PHA_DEC_QSD ",
+            "name": "PHA_DEC_QSD",
             "description": "Nombre d'unités délivrées (comprimés, etc.) si déconditionnement",
             "type": "integer",
             "nomenclature": "-",
@@ -581,6 +655,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
@@ -589,8 +665,7 @@
         }
     ],
     "name": "NS_PHA_F",
-    "title": "affinage des actes de pharmacie (officine de ville)",
-    "description": "",
+    "title": "Table simplifiée des données de codage de pharmacie",
     "produit": "DCIRS",
     "missingValues": [
         ""
@@ -620,12 +695,108 @@
         },
         {
             "fields": [
+                "CAI_LIQ_COD"
+            ],
+            "reference": {
+                "resource": "IR_CAI_V",
+                "fields": [
+                    "ORG_BSE_NUM"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
                 "PRS_NAT_REF"
             ],
             "reference": {
                 "resource": "IR_NAT_V",
                 "fields": [
                     "PRS_NAT"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "CAI_AFF_COD"
+            ],
+            "reference": {
+                "resource": "IR_CAI_V",
+                "fields": [
+                    "ORG_BSE_NUM"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "SLM_AFF_COD"
+            ],
+            "reference": {
+                "resource": "IR_SLM_V",
+                "fields": [
+                    "SLM_NUM"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "FLX_EMT_TYP"
+            ],
+            "reference": {
+                "resource": "IR_TYT_V",
+                "fields": [
+                    "TYT_COD"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "EXE_INS_DPT"
+            ],
+            "reference": {
+                "resource": "IR_DPT_V",
+                "fields": [
+                    "GEO_DPT_COD"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "PRE_INS_DPT"
+            ],
+            "reference": {
+                "resource": "IR_DPT_V",
+                "fields": [
+                    "GEO_DPT_COD"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "ETE_DPT_COD"
+            ],
+            "reference": {
+                "resource": "IR_DPT_V",
+                "fields": [
+                    "GEO_DPT_COD"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "ETP_DPT_COD"
+            ],
+            "reference": {
+                "resource": "IR_DPT_V",
+                "fields": [
+                    "GEO_DPT_COD"
                 ]
             },
             "description": "Nomenclature"
@@ -668,6 +839,30 @@
         },
         {
             "fields": [
+                "PHA_DEC_TOP"
+            ],
+            "reference": {
+                "resource": "IR_TDU_V",
+                "fields": [
+                    "PHA_DEC_TOP"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "PHA_MOD_PRN"
+            ],
+            "reference": {
+                "resource": "IR_MDP_V",
+                "fields": [
+                    "PHA_MOD_PRN"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
                 "PHA_SEQ_RNV"
             ],
             "reference": {
@@ -689,11 +884,25 @@
                 ]
             },
             "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "PHA_ACT_QSC"
+            ],
+            "reference": {
+                "resource": "IR_SUB_V",
+                "fields": [
+                    "PHA_SUB_MTF"
+                ]
+            },
+            "description": "Nomenclature"
         }
     ],
     "history": {
         "dateCreated": "",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "",
+    "observation": ""
 }

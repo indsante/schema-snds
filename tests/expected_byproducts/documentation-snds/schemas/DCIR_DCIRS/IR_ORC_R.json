@@ -2,7 +2,7 @@
     "fields": [
         {
             "name": "BEN_NIR_PSA",
-            "description": "Pseudo NIR du bénéficiaire anonymisé",
+            "description": "Identifiant anonyme du patient dans le SNIIRAM",
             "type": "string",
             "nomenclature": "-",
             "length": "17",
@@ -10,23 +10,27 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
             "name": "BEN_RNG_GEM",
-            "description": "Code rang gémellaire du bénéficiaire",
+            "description": "rang de naissance du bénéficiaire",
             "type": "integer",
-            "nomenclature": "-",
-            "length": "1",
+            "nomenclature": "IR_BER_V",
+            "length": "2",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "La règle de calcul du rang du bénéficiaire dans le SNIIRAM est la suivante :\n- le rang de louvreur de droits est toujours égal à 1,\n- si un ayant droit a la même date de naissance que louvreur de droits, son rang est égal à 2,\n- un enfant né dune naissance unique a un rang égal à 1,\n- lorsquil y a des naissances multiples, chaque enfant est différencié par son rang (1 pour le 1er, 2 pour le second, ).",
             "type_oracle": "number"
         },
         {
             "name": "BEN_NIR_ANO",
-            "description": "NIR anonymisé du bénéficiaire",
+            "description": "NIR pseudonymisé du bénéficiaire",
             "type": "string",
             "nomenclature": "-",
             "length": "17",
@@ -34,11 +38,13 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
             "name": "BEN_IDT_ANO",
-            "description": "Identifiant synthétique pseudonymisé du bénéficiaire",
+            "description": "Identifiant bénéficiaire anonymisé",
             "type": "string",
             "nomenclature": "-",
             "length": "18",
@@ -46,6 +52,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -53,23 +61,27 @@
             "description": "Type de contrat complémentaire",
             "type": "integer",
             "nomenclature": "IR_CTA_V",
-            "length": "8",
+            "length": "3",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
             "name": "BEN_CMU_ORG",
-            "description": "N° de l’organisme complémentaire",
+            "description": "Code de l'organisme complémentaire",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_ORG_V",
             "length": "9",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -82,6 +94,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "date"
         },
         {
@@ -94,6 +108,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "date"
         },
         {
@@ -106,12 +122,13 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         }
     ],
     "name": "IR_ORC_R",
-    "title": "Affiliations à un organisme complémentaire",
-    "description": "",
+    "title": "Table historique des affiliations à un organisme complémentaire",
     "produit": "DCIR_DCIRS",
     "missingValues": [
         ""
@@ -146,5 +163,7 @@
         "dateCreated": "",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "",
+    "observation": ""
 }

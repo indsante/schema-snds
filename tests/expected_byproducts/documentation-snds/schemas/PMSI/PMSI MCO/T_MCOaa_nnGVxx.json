@@ -5,23 +5,27 @@
             "description": "Numéro FINESS e-PMSI",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
-            "dateCreated": "2017",
-            "dateDeleted": "2017",
+            "dateCreated": "2005",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
             "name": "ETE_GHS_NUM",
             "description": "Regroupage en GHS (format numérique de GHS_NUM)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
-            "length": null,
+            "length": "4",
             "format": "default",
-            "dateCreated": "2017",
-            "dateDeleted": "2017",
+            "dateCreated": "2009",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -29,11 +33,13 @@
             "description": "Regroupage en GHM",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "6",
             "format": "default",
-            "dateCreated": "2017",
-            "dateDeleted": "2017",
+            "dateCreated": "2005",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -41,11 +47,13 @@
             "description": "Regroupage en GHS (utilisé pour la valorisation)",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "4",
             "format": "default",
-            "dateCreated": "2017",
-            "dateDeleted": "2017",
+            "dateCreated": "2009",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -53,29 +61,32 @@
             "description": "Regroupage en GHS (GHS correspond au GHM)",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "4",
             "format": "default",
-            "dateCreated": "2017",
-            "dateDeleted": "2017",
+            "dateCreated": "2013",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
             "name": "RSA_NUM",
-            "description": "N° d'index du RSA ",
+            "description": "N° d'index du RSA",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "10",
             "format": "default",
-            "dateCreated": "2017",
-            "dateDeleted": "2017",
+            "dateCreated": "2005",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         }
     ],
-    "name": "T_MCOaa_nnGV2018",
-    "title": "Table de passage en version de GHM à partir de mars de l'année suivante",
-    "description": "Champ : Public et Privé",
+    "name": "T_MCOaa_nnGVxx",
+    "title": "Table de passage en version de GHM",
     "produit": "PMSI MCO",
     "missingValues": [
         ""
@@ -96,8 +107,10 @@
         }
     ],
     "history": {
-        "dateCreated": "2017",
-        "dateDeleted": "2017",
+        "dateCreated": "2005",
+        "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public et Privé",
+    "observation": "Version GV10 : création 2005, suppression 2007\nVersion GV9 : création 2005, suppression 2008\nVersion GV10B : création 2007, suppression 2008\nVersion GV10C : création 2008, suppression 2010\nVersion GV11 : création 2008, suppression 2010\nVersion GV11B : création 2009, suppression 2011\nVersion GV11C : création 2010, suppression 2012\nVersion GV11D : création 2011, suppression 2013\nVersion GV11E : création 2012, suppression 2014\nVersion GV11F : création 2013, suppression 2015\nVersion GV11G : création 2014, suppression 2016\nVersion GV2016 : création 2015, suppression 2017\nVersion GV2017 : création 2016\nVersion GV2018 : création 2017"
 }

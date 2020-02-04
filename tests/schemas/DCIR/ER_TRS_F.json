@@ -2,19 +2,21 @@
     "fields": [
         {
             "name": "ITR_ORD_NUM",
-            "description": "N° ordre information détaillée transport",
+            "description": "Numéro d'ordre de l'information détaillée du transport",
             "type": "integer",
             "nomenclature": "-",
-            "length": "3",
+            "length": "4",
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
             "name": "ORG_CLE_NEW",
-            "description": "Organisme de liquidation (après fusion des caisses)",
+            "description": "Code de l'organisme de liquidation",
             "type": "string",
             "nomenclature": "IR_ORG_V",
             "length": "9",
@@ -22,6 +24,8 @@
             "dateCreated": "2007",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -34,6 +38,8 @@
             "dateCreated": "2007",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -46,6 +52,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -58,6 +66,8 @@
             "dateCreated": "2007",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -70,6 +80,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -82,6 +94,8 @@
             "dateCreated": "2007",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -94,11 +108,13 @@
             "dateCreated": "2007",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
             "name": "TRS_TRP_HRA",
-            "description": "L’heure d’arrivée du transport (format hhmm)",
+            "description": "Heure d'arrivée du transport",
             "type": "integer",
             "nomenclature": "-",
             "length": "4",
@@ -106,11 +122,13 @@
             "dateCreated": "2007",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
             "name": "TRS_TRP_HRD",
-            "description": "L’heure de départ du transport (format hhmm)",
+            "description": "Heure de départ du transport",
             "type": "integer",
             "nomenclature": "-",
             "length": "4",
@@ -118,6 +136,8 @@
             "dateCreated": "2007",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -130,6 +150,8 @@
             "dateCreated": "2007",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -142,23 +164,27 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
             "name": "DCT_ORD_NUM",
-            "description": "N° ordre décompte dans caisse                      1",
+            "description": "numéro d'ordre du décompte dans l'organisme",
             "type": "integer",
             "nomenclature": "-",
-            "length": "8",
+            "length": "9",
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
             "name": "FLX_DIS_DTD",
-            "description": "Date de mise à disposition des données dans SI     2",
+            "description": "Date de mise à disposition des données",
             "type": "date",
             "nomenclature": "IR_DTE_V",
             "length": "8",
@@ -166,47 +192,55 @@
             "dateCreated": "2007",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "date"
         },
         {
             "name": "FLX_EMT_NUM",
-            "description": "N° émetteur du flux                                                  3",
+            "description": "numéro d'émetteur du flux",
             "type": "integer",
-            "nomenclature": "IR_NEM_V",
-            "length": "8",
+            "nomenclature": "IR_NEM_T",
+            "length": "4",
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
             "name": "FLX_EMT_ORD",
-            "description": "N° séquence du flux                                               4",
+            "description": "numéro de séquence du flux",
             "type": "integer",
             "nomenclature": "-",
-            "length": "8",
+            "length": "4",
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
             "name": "FLX_EMT_TYP",
-            "description": "Type d'émetteur                                                      5",
+            "description": "Type d'émetteur",
             "type": "integer",
-            "nomenclature": "-",
-            "length": "8",
+            "nomenclature": "IR_TYT_V",
+            "length": "2",
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
             "name": "FLX_TRT_DTD",
-            "description": "Date de traitement des données dans SI                   6",
+            "description": "Date d'entrée des données dans le système d'information",
             "type": "date",
             "nomenclature": "IR_DTE_V",
             "length": "8",
@@ -214,11 +248,13 @@
             "dateCreated": "2007",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "date"
         },
         {
             "name": "ORG_CLE_NUM",
-            "description": "Ancien concept de l'organisme de liquidation (avant fusion, jusqu’au jour J de la fusion)          7",
+            "description": "organisme de liquidation des prestations (avant fusion des caisses)",
             "type": "string",
             "nomenclature": "IR_ORG_V",
             "length": "9",
@@ -226,23 +262,27 @@
             "dateCreated": "2007",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
             "name": "PRS_ORD_NUM",
-            "description": "N° ordre prestation dans décompte                 8",
+            "description": "Numéro d'ordre de la prestation dans le décompte",
             "type": "integer",
             "nomenclature": "-",
-            "length": "8",
+            "length": "5",
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
             "name": "REM_TYP_AFF",
-            "description": "Type de remboursement affiné                                 9",
+            "description": "type de remboursement affiné",
             "type": "integer",
             "nomenclature": "-",
             "length": "8",
@@ -250,12 +290,69 @@
             "dateCreated": "2007",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
+        },
+        {
+            "name": "TRS_DTF_DTE",
+            "description": "Date d'arrivée du transport",
+            "type": "date",
+            "length": "8",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "date"
+        },
+        {
+            "name": "TRS_DTD_AME",
+            "description": "Année et mois de départ du transport (format AAAAMM)",
+            "type": "yearmonth",
+            "length": "6",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "TRS_DTD_DTE",
+            "description": "Date de départ du transport",
+            "type": "date",
+            "length": "8",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "date"
+        },
+        {
+            "name": "TRS_DTF_AME",
+            "description": "Année et mois d'arrivée du transport (format AAAAMM)",
+            "type": "yearmonth",
+            "length": "6",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
         }
     ],
     "name": "ER_TRS_F",
-    "title": "affinage des actes détaillés de transport ",
-    "description": "",
+    "title": "Table des données détaillées de transport",
     "produit": "DCIR",
     "missingValues": [
         ""
@@ -293,5 +390,7 @@
         "dateCreated": "",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "",
+    "observation": ""
 }

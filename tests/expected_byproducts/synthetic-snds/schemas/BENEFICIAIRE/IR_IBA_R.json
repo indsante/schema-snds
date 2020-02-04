@@ -10,6 +10,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 18
@@ -25,6 +27,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
@@ -41,6 +45,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 17
@@ -48,14 +54,16 @@
         },
         {
             "name": "BEN_CDI_NIR",
-            "description": "Qualité du matricule de l'ouvreur de droits",
+            "description": "Code d'identification du NIR",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_NIR_V",
             "length": "2",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 2
@@ -64,43 +72,43 @@
         {
             "name": "BEN_NAI_ANN",
             "description": "Année de naissance du bénéficiaire",
-            "type": "string",
+            "type": "year",
             "nomenclature": "-",
             "length": "4",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 4
-            }
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "BEN_NAI_MOI",
             "description": "Mois de naissance du bénéficiaire",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
             "length": "2",
-            "format": "default",
+            "format": "%m",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 2
-            }
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "BEN_SEX_COD",
             "description": "Code sexe du bénéficiaire",
             "type": "integer",
-            "nomenclature": "-",
+            "nomenclature": "IR_SEX_V",
             "length": "1",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
@@ -111,39 +119,42 @@
             "name": "BEN_DCD_DTE",
             "description": "Date de décès du bénéficiaire",
             "type": "date",
-            "nomenclature": "-",
-            "length": null,
+            "nomenclature": "IR_DTE_V",
+            "length": "8",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "date"
         },
         {
             "name": "BEN_DCD_AME",
             "description": "Année et mois de décès du bénéficiaire",
-            "type": "string",
+            "type": "yearmonth",
             "nomenclature": "-",
             "length": "6",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 6
-            }
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "ORG_AFF_BEN",
-            "description": "Organisme d'affiliation",
+            "description": "Code de l'organisme d'affiliation",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_ORG_V",
             "length": "9",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 9
@@ -151,14 +162,16 @@
         },
         {
             "name": "BEN_RES_DPT",
-            "description": "Département de résidence du destinataire du règlement",
+            "description": "Département de résidence du bénéficiaire",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_DPT_V",
             "length": "3",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 3
@@ -168,12 +181,14 @@
             "name": "BEN_RES_COM",
             "description": "commune de résidence du destinataire du règlement",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_GEO_V",
             "length": "3",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 3
@@ -181,7 +196,7 @@
         },
         {
             "name": "BEN_TOP_CNS",
-            "description": "top consommant / non consommant",
+            "description": "top consommant - non consommant",
             "type": "integer",
             "nomenclature": "-",
             "length": "1",
@@ -189,6 +204,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
@@ -197,7 +214,7 @@
         },
         {
             "name": "MAX_TRT_DTD",
-            "description": "date maximale de traitement d'une prestation",
+            "description": "Date maximale de traitement d'une Prestations",
             "type": "date",
             "nomenclature": "-",
             "length": null,
@@ -205,18 +222,22 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "date"
         },
         {
             "name": "ORG_CLE_NEW",
-            "description": "organisme de liquidation",
+            "description": "Code de l'organisme de liquidation",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_ORG_V",
             "length": "9",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 9
@@ -224,32 +245,35 @@
         },
         {
             "name": "BEN_DTE_INS",
-            "description": "date d'insertion dans le référentiel",
+            "description": "Date d'insertion dans le référentiel",
             "type": "date",
-            "nomenclature": "-",
-            "length": null,
+            "nomenclature": "IR_DTE_V",
+            "length": "8",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "date"
         },
         {
             "name": "BEN_DTE_MAJ",
-            "description": "date de mise à jour",
+            "description": "Date de mise à jour",
             "type": "date",
-            "nomenclature": "-",
-            "length": null,
+            "nomenclature": "IR_DTE_V",
+            "length": "8",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "date"
         }
     ],
     "name": "IR_IBA_R",
-    "title": "Référentiel des bénéficiaires (DCIRS)",
-    "description": "",
+    "title": "Référentiel des bénéficiaires de DCIRS",
     "produit": "BENEFICIAIRE",
     "missingValues": [
         ""
@@ -269,11 +293,85 @@
                 ]
             },
             "description": "Bidirectionnel"
+        },
+        {
+            "fields": [
+                "BEN_CDI_NIR"
+            ],
+            "reference": {
+                "resource": "IR_NIR_V",
+                "fields": [
+                    "BEN_NIR_COD"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "BEN_SEX_COD"
+            ],
+            "reference": {
+                "resource": "IR_SEX_V",
+                "fields": [
+                    "SEX_COD"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "ORG_AFF_BEN"
+            ],
+            "reference": {
+                "resource": "IR_ORG_V",
+                "fields": [
+                    "ORG_NUM"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "BEN_RES_DPT"
+            ],
+            "reference": {
+                "resource": "IR_DPT_V",
+                "fields": [
+                    "GEO_DPT_COD"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "BEN_RES_COM"
+            ],
+            "reference": {
+                "resource": "IR_GEO_V",
+                "fields": [
+                    "GEO_COM_COD"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "ORG_CLE_NEW"
+            ],
+            "reference": {
+                "resource": "IR_ORG_V",
+                "fields": [
+                    "ORG_NUM"
+                ]
+            },
+            "description": "Nomenclature"
         }
     ],
     "history": {
         "dateCreated": "",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "",
+    "observation": ""
 }

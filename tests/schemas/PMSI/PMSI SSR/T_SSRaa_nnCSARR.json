@@ -5,11 +5,13 @@
             "description": "N° FINESS de l'établisement",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
-            "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateCreated": "2014",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -17,11 +19,13 @@
             "description": "N° version du format du RHA",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "3",
             "format": "default",
-            "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateCreated": "2014",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -29,11 +33,13 @@
             "description": "N° Séquentiel du séjour",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "7",
             "format": "default",
-            "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateCreated": "2014",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -41,35 +47,41 @@
             "description": "Numéro séquentiel du RHS",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "3",
             "format": "default",
-            "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateCreated": "2014",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
             "name": "CSARR_COD",
             "description": "Code principal",
             "type": "string",
-            "nomenclature": "-",
-            "length": null,
+            "nomenclature": "CSARR",
+            "length": "7",
             "format": "default",
-            "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateCreated": "2014",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
             "name": "APP_SUP",
-            "description": "Code supplémentaire «appareillage«",
+            "description": "Code supplémentaire \"appareillage\"",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "3",
             "format": "default",
-            "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateCreated": "2014",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -77,35 +89,41 @@
             "description": "Code modulateur de lieu",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
-            "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateCreated": "2014",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
             "name": "MOD_PAT_1",
-            "description": "Code «modulateur de patient« n°1",
+            "description": "Code \"modulateur de patient\" n°1",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
-            "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateCreated": "2014",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
             "name": "MOD_PAT_2",
-            "description": "Code «modulateur de patient« n°2",
+            "description": "Code \"modulateur de patient\" n°2",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
-            "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateCreated": "2014",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -113,11 +131,13 @@
             "description": "Code de l'intervenant",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
-            "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateCreated": "2014",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -127,9 +147,11 @@
             "nomenclature": "-",
             "length": null,
             "format": "default",
-            "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateCreated": "2014",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -139,9 +161,11 @@
             "nomenclature": "-",
             "length": null,
             "format": "default",
-            "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateCreated": "2014",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -149,11 +173,13 @@
             "description": "Acte compatible avec  la semaine",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
-            "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateCreated": "2014",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -163,9 +189,11 @@
             "nomenclature": "-",
             "length": null,
             "format": "default",
-            "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateCreated": "2014",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -175,9 +203,11 @@
             "nomenclature": "-",
             "length": null,
             "format": "default",
-            "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateCreated": "2014",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -187,9 +217,11 @@
             "nomenclature": "-",
             "length": null,
             "format": "default",
-            "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateCreated": "2014",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -197,17 +229,18 @@
             "description": "Extension documentaire",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
-            "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateCreated": "2014",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         }
     ],
     "name": "T_SSRaa_nnCSARR",
     "title": "actes du Catalogue spécifique des actes de rééducation et réadaptation",
-    "description": "Champ : Public et Privé",
     "produit": "PMSI SSR",
     "missingValues": [
         ""
@@ -216,20 +249,24 @@
         {
             "fields": [
                 "ETA_NUM",
-                "RHA_NUM"
+                "RHA_NUM",
+                "RHS_NUM"
             ],
             "reference": {
                 "resource": "T_SSRaa_nnB",
                 "fields": [
                     "ETA_NUM",
-                    "RHA_NUM"
+                    "RHA_NUM",
+                    "RHS_NUM"
                 ]
             }
         }
     ],
     "history": {
         "dateCreated": "2014",
-        "dateDeleted": "2017",
+        "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public et Privé",
+    "observation": "A partir de 2014 - remplace la table CCAR (nv nomenclature)"
 }

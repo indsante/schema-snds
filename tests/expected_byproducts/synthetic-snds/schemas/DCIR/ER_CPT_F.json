@@ -2,7 +2,7 @@
     "fields": [
         {
             "name": "CPT_DEP_PER",
-            "description": "Période comptable",
+            "description": "Periode comptable",
             "type": "string",
             "nomenclature": "IR_PCT_V",
             "length": "6",
@@ -10,6 +10,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 6
@@ -20,15 +22,17 @@
             "description": "Exercice de rattachement",
             "type": "integer",
             "nomenclature": "-",
-            "length": "4",
+            "length": "5",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "La donnée CPT_EXC_RTC (exercice comptable de rattachement) est calculée de la manière suivante :\nSi l'année de début de soins et l'année de remboursement sont les mêmes, alors CPT_EXC_RTC = l'année de remboursement.\nSinon, si la date de remboursement est comprise dans les 7 ou 8 premiers jours ouvrés de l'année, CPT_EXC_RTC = l'année de remboursement - 1.\nSinon CPT_EXC_RTC = l'année de remboursement.\n\nExemple pour début 2013 :\nDébut de soins et remboursement en 2012 : Exercice 2012\nDébut de soins et remboursement en 2013 : Exercice 2013\nDébut de soins antérieurs à 2013 et remboursement du 1 au 1 Janvier 2013 : Exercice 2012\nDébut de soins antérieurs à 2013 et remboursement à partir du 11 Janvier 2013 : Exercice 2013",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 9999
+                "maximum": 99999
             }
         },
         {
@@ -36,30 +40,35 @@
             "description": "N° compte MIRCOSS",
             "type": "string",
             "nomenclature": "-",
-            "length": "20",
+            "length": "2",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maxLength": 20
+                "maxLength": 2
             }
         },
         {
             "name": "CPT_MVT_MNT",
             "description": "Montant (signé) du mouvement comptable",
-            "type": "integer",
+            "type": "number",
             "nomenclature": "-",
-            "length": "9",
+            "length": "11,2",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 999999999
+                "maximum": 99999999999,
+                "decimals": 2
             }
         },
         {
@@ -67,20 +76,22 @@
             "description": "Signe du mouvement comptable",
             "type": "integer",
             "nomenclature": "-",
-            "length": "1",
+            "length": "2",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 9
+                "maximum": 99
             }
         },
         {
             "name": "CPT_MVT_SNS",
-            "description": "Sens du mouvement comptable",
+            "description": "Sens du Mouvement comptable",
             "type": "string",
             "nomenclature": "IR_SNS_V",
             "length": "1",
@@ -88,6 +99,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 1
@@ -98,15 +111,17 @@
             "description": "N° ordre ventilation comptable",
             "type": "integer",
             "nomenclature": "-",
-            "length": "2",
+            "length": "3",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 99
+                "maximum": 999
             }
         },
         {
@@ -114,42 +129,48 @@
             "description": "N° de compte régime",
             "type": "string",
             "nomenclature": "-",
-            "length": "20",
-            "format": "default",
-            "dateCreated": "",
-            "dateDeleted": "",
-            "dateMissing": [],
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 20
-            }
-        },
-        {
-            "name": "CPT_VEN_TYP",
-            "description": "Type de ventilation comptable",
-            "type": "integer",
-            "nomenclature": "-",
             "length": "2",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 2
+            }
+        },
+        {
+            "name": "CPT_VEN_TYP",
+            "description": "type de ventilation",
+            "type": "integer",
+            "nomenclature": "-",
+            "length": "3",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 99
+                "maximum": 999
             }
         },
         {
             "name": "GES_CPT_COD",
             "description": "Code gestion comptable mnemonique",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_GES_V",
             "length": "5",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 5
@@ -159,21 +180,23 @@
             "name": "GES_GRG_COD",
             "description": "Grand régime de gestion comptable",
             "type": "integer",
-            "nomenclature": "-",
-            "length": "2",
+            "nomenclature": "IR_GES_V",
+            "length": "3",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 99
+                "maximum": 999
             }
         },
         {
             "name": "ORG_CLE_NEW",
-            "description": "Organisme de liquidation (après fusion des caisses)",
+            "description": "Code de l'organisme de liquidation",
             "type": "string",
             "nomenclature": "IR_ORG_V",
             "length": "9",
@@ -181,6 +204,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 9
@@ -196,6 +221,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
@@ -204,7 +231,7 @@
         },
         {
             "name": "FLX_DIS_DTD",
-            "description": "Date de mise à disposition des données dans SI     2",
+            "description": "Date de mise à disposition des données",
             "type": "date",
             "nomenclature": "IR_DTE_V",
             "length": "8",
@@ -212,59 +239,67 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "date"
         },
         {
             "name": "FLX_EMT_NUM",
-            "description": "N° émetteur du flux                                                  3",
+            "description": "numéro d'émetteur du flux",
             "type": "integer",
-            "nomenclature": "IR_NEM_V",
-            "length": "8",
+            "nomenclature": "IR_NEM_T",
+            "length": "4",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 99999999
+                "maximum": 9999
             }
         },
         {
             "name": "FLX_EMT_ORD",
-            "description": "N° séquence du flux                                               4",
+            "description": "numéro de séquence du flux",
             "type": "integer",
             "nomenclature": "-",
-            "length": "8",
+            "length": "4",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 99999999
+                "maximum": 9999
             }
         },
         {
             "name": "FLX_EMT_TYP",
-            "description": "Type d'émetteur                                                      5",
+            "description": "Type d'émetteur",
             "type": "integer",
-            "nomenclature": "-",
-            "length": "8",
+            "nomenclature": "IR_TYT_V",
+            "length": "2",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 99999999
+                "maximum": 99
             }
         },
         {
             "name": "FLX_TRT_DTD",
-            "description": "Date de traitement des données dans SI                   6",
+            "description": "Date d'entrée des données dans le système d'information",
             "type": "date",
             "nomenclature": "IR_DTE_V",
             "length": "8",
@@ -272,11 +307,13 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "date"
         },
         {
             "name": "ORG_CLE_NUM",
-            "description": "Ancien concept de l'organisme de liquidation (avant fusion, jusqu’au jour J de la fusion)          7",
+            "description": "organisme de liquidation des prestations (avant fusion des caisses)",
             "type": "string",
             "nomenclature": "IR_ORG_V",
             "length": "9",
@@ -284,6 +321,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 9
@@ -291,23 +330,25 @@
         },
         {
             "name": "PRS_ORD_NUM",
-            "description": "N° ordre prestation dans décompte                 8",
+            "description": "Numéro d'ordre de la prestation dans le décompte",
             "type": "integer",
             "nomenclature": "-",
-            "length": "8",
+            "length": "5",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 99999999
+                "maximum": 99999
             }
         },
         {
             "name": "REM_TYP_AFF",
-            "description": "Type de remboursement affiné                                 9",
+            "description": "type de remboursement affiné",
             "type": "integer",
             "nomenclature": "-",
             "length": "8",
@@ -315,6 +356,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
@@ -323,8 +366,7 @@
         }
     ],
     "name": "ER_CPT_F",
-    "title": "Données comptables",
-    "description": "",
+    "title": "Table des données comptables",
     "produit": "DCIR",
     "missingValues": [
         ""
@@ -383,6 +425,30 @@
         },
         {
             "fields": [
+                "GES_CPT_COD"
+            ],
+            "reference": {
+                "resource": "IR_GES_V",
+                "fields": [
+                    "GES_CPT_COD"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "GES_GRG_COD"
+            ],
+            "reference": {
+                "resource": "IR_GES_V",
+                "fields": [
+                    "GES_CPT_COD"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
                 "ORG_CLE_NEW"
             ],
             "reference": {
@@ -398,9 +464,21 @@
                 "FLX_EMT_NUM"
             ],
             "reference": {
-                "resource": "IR_NEM_V",
+                "resource": "IR_NEM_T",
                 "fields": [
-                    "EMT_NUM"
+                    "EMT_NUM_RES"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "FLX_EMT_TYP"
+            ],
+            "reference": {
+                "resource": "IR_TYT_V",
+                "fields": [
+                    "TYT_COD"
                 ]
             },
             "description": "Nomenclature"
@@ -422,5 +500,7 @@
         "dateCreated": "",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "",
+    "observation": ""
 }

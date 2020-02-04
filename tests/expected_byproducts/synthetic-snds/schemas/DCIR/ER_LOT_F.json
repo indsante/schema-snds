@@ -2,54 +2,60 @@
     "fields": [
         {
             "name": "LOT_ORD_NUM",
-            "description": "Numéro d'ordre du lot de la prestation affinée pharmacie",
+            "description": "N° Ordre Lot Prestation Affinee pharmacie",
             "type": "integer",
+            "nomenclature": "-",
+            "length": "3",
+            "format": "default",
+            "dateCreated": "2008",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 999
+            }
+        },
+        {
+            "name": "LOT_PHA_NUM",
+            "description": "N° Lot",
+            "type": "string",
             "nomenclature": "-",
             "length": "2",
             "format": "default",
             "dateCreated": "2008",
             "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "number",
-            "constraints": {
-                "minimum": 0,
-                "maximum": 99
-            }
-        },
-        {
-            "name": "LOT_PHA_NUM",
-            "description": "Nunméro du lot",
-            "type": "string",
-            "nomenclature": "-",
-            "length": "20",
-            "format": "default",
-            "dateCreated": "2008",
-            "dateDeleted": "",
-            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maxLength": 20
+                "maxLength": 2
             }
         },
         {
             "name": "LOT_PHA_QSN",
-            "description": "Quantité conditionnement signé appartenant au même lot",
+            "description": "Quantité signée conditionnement appartenant au même lot",
             "type": "integer",
             "nomenclature": "-",
-            "length": "8",
+            "length": "3",
             "format": "default",
             "dateCreated": "2008",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 99999999
+                "maximum": 999
             }
         },
         {
             "name": "LOT_PHA_TOP",
-            "description": "Top déconditionnement du lot",
+            "description": "Top déconditionnement lot",
             "type": "string",
             "nomenclature": "-",
             "length": "1",
@@ -57,6 +63,8 @@
             "dateCreated": "2008",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 1
@@ -64,22 +72,24 @@
         },
         {
             "name": "LOT_SER_NUM",
-            "description": "Numéro de série",
+            "description": "N° Série",
             "type": "string",
             "nomenclature": "-",
-            "length": "20",
+            "length": "2",
             "format": "default",
             "dateCreated": "2008",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maxLength": 20
+                "maxLength": 2
             }
         },
         {
             "name": "ORG_CLE_NEW",
-            "description": "Organisme de liquidation (après fusion des caisses)",
+            "description": "Code de l'organisme de liquidation",
             "type": "string",
             "nomenclature": "IR_ORG_V",
             "length": "9",
@@ -87,6 +97,8 @@
             "dateCreated": "2008",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 9
@@ -94,23 +106,25 @@
         },
         {
             "name": "DCT_ORD_NUM",
-            "description": "N° ordre décompte dans caisse                      1",
+            "description": "numéro d'ordre du décompte dans l'organisme",
             "type": "integer",
             "nomenclature": "-",
-            "length": "8",
+            "length": "9",
             "format": "default",
             "dateCreated": "2008",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 99999999
+                "maximum": 999999999
             }
         },
         {
             "name": "FLX_DIS_DTD",
-            "description": "Date de mise à disposition des données dans SI     2",
+            "description": "Date de mise à disposition des données",
             "type": "date",
             "nomenclature": "IR_DTE_V",
             "length": "8",
@@ -118,59 +132,67 @@
             "dateCreated": "2008",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "date"
         },
         {
             "name": "FLX_EMT_NUM",
-            "description": "N° émetteur du flux                                                  3",
+            "description": "numéro d'émetteur du flux",
             "type": "integer",
-            "nomenclature": "IR_NEM_V",
-            "length": "8",
+            "nomenclature": "IR_NEM_T",
+            "length": "4",
             "format": "default",
             "dateCreated": "2008",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 99999999
+                "maximum": 9999
             }
         },
         {
             "name": "FLX_EMT_ORD",
-            "description": "N° séquence du flux                                               4",
+            "description": "numéro de séquence du flux",
             "type": "integer",
             "nomenclature": "-",
-            "length": "8",
+            "length": "4",
             "format": "default",
             "dateCreated": "2008",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 99999999
+                "maximum": 9999
             }
         },
         {
             "name": "FLX_EMT_TYP",
-            "description": "Type d'émetteur                                                      5",
+            "description": "Type d'émetteur",
             "type": "integer",
-            "nomenclature": "-",
-            "length": "8",
+            "nomenclature": "IR_TYT_V",
+            "length": "2",
             "format": "default",
             "dateCreated": "2008",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 99999999
+                "maximum": 99
             }
         },
         {
             "name": "FLX_TRT_DTD",
-            "description": "Date de traitement des données dans SI                   6",
+            "description": "Date d'entrée des données dans le système d'information",
             "type": "date",
             "nomenclature": "IR_DTE_V",
             "length": "8",
@@ -178,11 +200,13 @@
             "dateCreated": "2008",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "date"
         },
         {
             "name": "ORG_CLE_NUM",
-            "description": "Ancien concept de l'organisme de liquidation (avant fusion, jusqu’au jour J de la fusion)          7",
+            "description": "organisme de liquidation des prestations (avant fusion des caisses)",
             "type": "string",
             "nomenclature": "IR_ORG_V",
             "length": "9",
@@ -190,6 +214,8 @@
             "dateCreated": "2008",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 9
@@ -197,23 +223,25 @@
         },
         {
             "name": "PRS_ORD_NUM",
-            "description": "N° ordre prestation dans décompte                 8",
+            "description": "Numéro d'ordre de la prestation dans le décompte",
             "type": "integer",
             "nomenclature": "-",
-            "length": "8",
+            "length": "5",
             "format": "default",
             "dateCreated": "2008",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 99999999
+                "maximum": 99999
             }
         },
         {
             "name": "REM_TYP_AFF",
-            "description": "Type de remboursement affiné                                 9",
+            "description": "type de remboursement affiné",
             "type": "integer",
             "nomenclature": "-",
             "length": "8",
@@ -221,6 +249,8 @@
             "dateCreated": "2008",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
@@ -229,8 +259,7 @@
         }
     ],
     "name": "ER_LOT_F",
-    "title": "Lot et numéro de série des prestations affinnées pharmacie",
-    "description": "",
+    "title": "Table des données de lot",
     "produit": "DCIR",
     "missingValues": [
         ""
@@ -280,9 +309,21 @@
                 "FLX_EMT_NUM"
             ],
             "reference": {
-                "resource": "IR_NEM_V",
+                "resource": "IR_NEM_T",
                 "fields": [
-                    "EMT_NUM"
+                    "EMT_NUM_RES"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "FLX_EMT_TYP"
+            ],
+            "reference": {
+                "resource": "IR_TYT_V",
+                "fields": [
+                    "TYT_COD"
                 ]
             },
             "description": "Nomenclature"
@@ -304,5 +345,7 @@
         "dateCreated": "",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "",
+    "observation": ""
 }

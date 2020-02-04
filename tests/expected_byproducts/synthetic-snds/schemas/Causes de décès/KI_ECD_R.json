@@ -8,8 +8,10 @@
             "length": "64",
             "format": "default",
             "dateCreated": "2013",
-            "dateDeleted": "2015",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 64
@@ -23,8 +25,10 @@
             "length": "1",
             "format": "default",
             "dateCreated": "2013",
-            "dateDeleted": "2015",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
@@ -33,14 +37,16 @@
         },
         {
             "name": "BEN_IDT_ANO",
-            "description": "Identifiant synthétique SNDS",
+            "description": "Identifiant bénéficiaire anonymisé",
             "type": "string",
             "nomenclature": "-",
             "length": "18",
             "format": "default",
             "dateCreated": "2013",
-            "dateDeleted": "2015",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 18
@@ -48,14 +54,16 @@
         },
         {
             "name": "BEN_IDT_TOP",
-            "description": "TOP Identifiant synthétique SNDS",
+            "description": "Top identifiant bénéficiaire Anonymisé",
             "type": "integer",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
             "dateCreated": "2013",
-            "dateDeleted": "2015",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
@@ -64,14 +72,16 @@
         },
         {
             "name": "BEN_NIR_ANO",
-            "description": "NIR pseudonymisé du bénéficiaires",
+            "description": "NIR pseudonymisé du bénéficiaire",
             "type": "string",
             "nomenclature": "-",
             "length": "17",
             "format": "default",
             "dateCreated": "2013",
-            "dateDeleted": "2015",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 17
@@ -79,29 +89,30 @@
         },
         {
             "name": "FLX_PER_ANN",
-            "description": "Année du décès",
-            "type": "string",
+            "description": "Année de décès",
+            "type": "year",
             "nomenclature": "-",
             "length": "4",
             "format": "default",
             "dateCreated": "2013",
-            "dateDeleted": "2015",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 4
-            }
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "CER_LIG_NUM",
-            "description": "Numéro de ligne du certificat de décès",
+            "description": "N° de ligne du certificat de décès",
             "type": "integer",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
             "dateCreated": "2013",
-            "dateDeleted": "2015",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
@@ -116,8 +127,10 @@
             "length": "3",
             "format": "default",
             "dateCreated": "2013",
-            "dateDeleted": "2015",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
@@ -132,8 +145,10 @@
             "length": "100",
             "format": "default",
             "dateCreated": "2013",
-            "dateDeleted": "2015",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 100
@@ -147,8 +162,10 @@
             "length": "4",
             "format": "default",
             "dateCreated": "2013",
-            "dateDeleted": "2015",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 4
@@ -156,35 +173,35 @@
         },
         {
             "name": "BEN_DCD_DTE",
-            "description": "Date du décès",
+            "description": "Date de décès du bénéficiaire",
             "type": "date",
-            "nomenclature": "-",
-            "length": null,
+            "nomenclature": "IR_DTE_V",
+            "length": "8",
             "format": "default",
             "dateCreated": "2013",
-            "dateDeleted": "2015",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "date"
         },
         {
             "name": "BEN_DCD_AME",
-            "description": "Année et mois du décès",
-            "type": "string",
+            "description": "Année et mois de décès du bénéficiaire",
+            "type": "yearmonth",
             "nomenclature": "-",
             "length": "6",
             "format": "default",
             "dateCreated": "2013",
-            "dateDeleted": "2015",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 6
-            }
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
         }
     ],
     "name": "KI_ECD_R",
-    "title": "Causes de décès",
-    "description": "",
+    "title": "Table de lensemble des causes de décès",
     "produit": "Causes de décès",
     "missingValues": [
         ""
@@ -227,7 +244,9 @@
     ],
     "history": {
         "dateCreated": "2013",
-        "dateDeleted": "2015",
+        "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "",
+    "observation": ""
 }

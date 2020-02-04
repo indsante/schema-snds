@@ -2,242 +2,278 @@
     "fields": [
         {
             "name": "ARO_ASU_NAT",
-            "description": "Nature d'assurance du régime non obligatoire",
+            "description": "Nature d'assurance (autre que régime obligatoire)",
             "type": "integer",
             "nomenclature": "IR_ASU_V",
-            "length": "2",
+            "length": "3",
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "La ligne de prestation contient des informations concernant le remboursement de la part complémentaire (autre que le régime obligatoire)",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100
+                "maximum": 999
             }
         },
         {
             "name": "ARO_CPL_COD",
-            "description": "Code complément d'acte initial",
+            "description": "Complément d'acte (autre que régime obligatoire)",
             "type": "integer",
             "nomenclature": "IR_CPA_V",
-            "length": "1",
+            "length": "2",
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "La ligne de prestation contient des informations concernant le remboursement de la part complémentaire (autre que le régime obligatoire)",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 10
+                "maximum": 99
             }
         },
         {
             "name": "ARO_ENV_TYP",
-            "description": "Type d'enveloppe",
+            "description": "Type d'enveloppe (autre que régime obligatoire)",
             "type": "integer",
             "nomenclature": "IR_ENV_V",
-            "length": "2",
+            "length": "3",
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "La ligne de prestation contient des informations concernant le remboursement de la part complémentaire (autre que le régime obligatoire)",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100
+                "maximum": 999
             }
         },
         {
             "name": "ARO_FJH_TYP",
-            "description": "Type de prise en charge du forfait Journalier",
+            "description": "Type de prise en charge du forfait Journalier (autre que régime obligatoire)",
             "type": "integer",
             "nomenclature": "IR_FJH_V",
-            "length": "1",
+            "length": "2",
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "La ligne de prestation contient des informations concernant le remboursement de la part complémentaire (autre que le régime obligatoire)",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 10
+                "maximum": 99
             }
         },
         {
             "name": "ARO_FTA_COD",
-            "description": "Code forçage du taux (hors parcours de soins)",
+            "description": "Code forçage du taux (hors parcours de soins) autre que régime obligatoire",
             "type": "integer",
             "nomenclature": "IR_FOR_V",
-            "length": "1",
+            "length": "2",
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "La ligne de prestation contient des informations concernant le remboursement de la part complémentaire (autre que le régime obligatoire)",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 10
+                "maximum": 99
             }
         },
         {
             "name": "ARO_MIN_TAU",
-            "description": "Taux modulé (hors parcours de Soins) du remboursement",
-            "type": "integer",
+            "description": "Taux modulé (hors parcours de Soins) du remboursement (autre que régime obligatoire)",
+            "type": "number",
             "nomenclature": "-",
-            "length": "5",
+            "length": "7,2",
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "La ligne de prestation contient des informations concernant le remboursement de la part complémentaire (autre que le régime obligatoire)",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000
+                "maximum": 9999999,
+                "decimals": 2
             }
         },
         {
             "name": "ARO_MOD_MNT",
-            "description": "Montant de la majoration de la participation de l'assuré",
-            "type": "integer",
+            "description": "Montant de la majoration de la participation de l'assuré (autre que régime obligatoire)",
+            "type": "number",
             "nomenclature": "-",
-            "length": "9",
+            "length": "11,2",
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "La ligne de prestation contient des informations concernant le remboursement de la part complémentaire (autre que le régime obligatoire)",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 1000000000
+                "maximum": 99999999999,
+                "decimals": 2
             }
         },
         {
             "name": "ARO_ORD_NUM",
-            "description": "N° ordre remboursement",
+            "description": "Numéro d'ordre du remboursement autre que régime obligatoire",
             "type": "integer",
             "nomenclature": "-",
-            "length": "2",
+            "length": "3",
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "La ligne de prestation contient des informations concernant le remboursement de la part complémentaire (autre que le régime obligatoire)",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100
+                "maximum": 999
             }
         },
         {
             "name": "ARO_PRS_NAT",
-            "description": "Nature de prestation",
+            "description": "Nature de la prestation (autre que régime obligatoire)",
             "type": "integer",
             "nomenclature": "IR_NAT_V",
-            "length": "4",
-            "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "",
-            "dateMissing": [],
-            "type_oracle": "number",
-            "constraints": {
-                "minimum": 0,
-                "maximum": 10000
-            }
-        },
-        {
-            "name": "ARO_REM_BSE",
-            "description": "Base de remboursement",
-            "type": "integer",
-            "nomenclature": "-",
-            "length": "9",
-            "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "",
-            "dateMissing": [],
-            "type_oracle": "number",
-            "constraints": {
-                "minimum": 0,
-                "maximum": 1000000000
-            }
-        },
-        {
-            "name": "ARO_REM_MNT",
-            "description": "Montant versé/remboursé",
-            "type": "integer",
-            "nomenclature": "-",
-            "length": "9",
-            "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "",
-            "dateMissing": [],
-            "type_oracle": "number",
-            "constraints": {
-                "minimum": 0,
-                "maximum": 1000000000
-            }
-        },
-        {
-            "name": "ARO_REM_PRU",
-            "description": "Prix unitaire de l'acte",
-            "type": "integer",
-            "nomenclature": "-",
-            "length": "12",
-            "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "",
-            "dateMissing": [],
-            "type_oracle": "number",
-            "constraints": {
-                "minimum": 0,
-                "maximum": 1000000000000
-            }
-        },
-        {
-            "name": "ARO_REM_SGN",
-            "description": "Signe Remboursement",
-            "type": "integer",
-            "nomenclature": "IR_SGN_V",
-            "length": "1",
-            "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "",
-            "dateMissing": [],
-            "type_oracle": "number",
-            "constraints": {
-                "minimum": 0,
-                "maximum": 10
-            }
-        },
-        {
-            "name": "ARO_REM_TAU",
-            "description": "Taux réel de remboursement",
-            "type": "integer",
-            "nomenclature": "-",
             "length": "5",
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "La ligne de prestation contient des informations concernant le remboursement de la part complémentaire (autre que le régime obligatoire)",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000
+                "maximum": 99999
             }
         },
         {
-            "name": "ARO_REM_TYP",
-            "description": "Type de remboursement",
+            "name": "ARO_REM_BSE",
+            "description": "Base de remboursement (autre que régime obligatoire)",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "11,2",
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "La ligne de prestation contient des informations concernant le remboursement de la part complémentaire (autre que le régime obligatoire)",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 99999999999,
+                "decimals": 2
+            }
+        },
+        {
+            "name": "ARO_REM_MNT",
+            "description": "Montant versé-remboursé (autre que régime obligatoire)",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "11,2",
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "La ligne de prestation contient des informations concernant le remboursement de la part complémentaire (autre que le régime obligatoire)",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 99999999999,
+                "decimals": 2
+            }
+        },
+        {
+            "name": "ARO_REM_PRU",
+            "description": "Prix unitaire de l'acte (autre que régime obligatoire)",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "14,5",
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "La ligne de prestation contient des informations concernant le remboursement de la part complémentaire (autre que le régime obligatoire)",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 99999999999999,
+                "decimals": 5
+            }
+        },
+        {
+            "name": "ARO_REM_SGN",
+            "description": "Signe du remboursement (autre que régime obligatoire)",
             "type": "integer",
-            "nomenclature": "IR_TYR_V",
+            "nomenclature": "IR_SGN_V",
             "length": "2",
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "La ligne de prestation contient des informations concernant le remboursement de la part complémentaire (autre que le régime obligatoire)",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100
+                "maximum": 99
+            }
+        },
+        {
+            "name": "ARO_REM_TAU",
+            "description": "Taux réel de remboursement (autre que régime obligatoire)",
+            "type": "number",
+            "nomenclature": "IR_TAU_V",
+            "length": "7,2",
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "La ligne de prestation contient des informations concernant le remboursement de la part complémentaire (autre que le régime obligatoire)",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 9999999,
+                "decimals": 2
+            }
+        },
+        {
+            "name": "ARO_REM_TYP",
+            "description": "Type de remboursement (autre que régime obligatoire)",
+            "type": "integer",
+            "nomenclature": "IR_TYR_V",
+            "length": "3",
+            "format": "default",
+            "dateCreated": "2006",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "La ligne de prestation contient des informations concernant le remboursement de la part complémentaire (autre que le régime obligatoire)",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 999
             }
         },
         {
@@ -250,15 +286,17 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000
+                "maximum": 99999
             }
         },
         {
             "name": "ORG_CLE_NEW",
-            "description": "Organisme de liquidation (après fusion des caisses)",
+            "description": "Code de l'organisme de liquidation",
             "type": "string",
             "nomenclature": "IR_ORG_V",
             "length": "9",
@@ -266,6 +304,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 9
@@ -281,15 +321,17 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000
+                "maximum": 99999999
             }
         },
         {
             "name": "FLX_DIS_DTD",
-            "description": "Date de mise à disposition des données dans SI     2",
+            "description": "Date de mise à disposition des données",
             "type": "date",
             "nomenclature": "IR_DTE_V",
             "length": "8",
@@ -297,59 +339,67 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "date"
         },
         {
             "name": "FLX_EMT_NUM",
-            "description": "N° émetteur du flux                                                  3",
+            "description": "numéro d'émetteur du flux",
             "type": "integer",
-            "nomenclature": "IR_NEM_V",
-            "length": "8",
+            "nomenclature": "IR_NEM_T",
+            "length": "4",
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000
+                "maximum": 9999
             }
         },
         {
             "name": "FLX_EMT_ORD",
-            "description": "N° séquence du flux                                               4",
+            "description": "numéro de séquence du flux",
             "type": "integer",
             "nomenclature": "-",
-            "length": "8",
+            "length": "4",
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000
+                "maximum": 9999
             }
         },
         {
             "name": "FLX_EMT_TYP",
-            "description": "Type d'émetteur                                                      5",
+            "description": "Type d'émetteur",
             "type": "integer",
-            "nomenclature": "-",
-            "length": "8",
+            "nomenclature": "IR_TYT_V",
+            "length": "2",
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000
+                "maximum": 99
             }
         },
         {
             "name": "FLX_TRT_DTD",
-            "description": "Date de traitement des données dans SI                   6",
+            "description": "Date d'entrée des données dans le système d'information",
             "type": "date",
             "nomenclature": "IR_DTE_V",
             "length": "8",
@@ -357,11 +407,13 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "date"
         },
         {
             "name": "ORG_CLE_NUM",
-            "description": "Ancien concept de l'organisme de liquidation (avant fusion, jusqu’au jour J de la fusion)          7",
+            "description": "organisme de liquidation des prestations (avant fusion des caisses)",
             "type": "string",
             "nomenclature": "IR_ORG_V",
             "length": "9",
@@ -369,6 +421,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 9
@@ -376,23 +430,25 @@
         },
         {
             "name": "PRS_ORD_NUM",
-            "description": "N° ordre prestation dans décompte                 8",
+            "description": "Numéro d'ordre de la prestation dans le décompte",
             "type": "integer",
             "nomenclature": "-",
-            "length": "8",
+            "length": "5",
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000
+                "maximum": 99999
             }
         },
         {
             "name": "REM_TYP_AFF",
-            "description": "Type de remboursement affiné                                 9",
+            "description": "type de remboursement affiné",
             "type": "integer",
             "nomenclature": "-",
             "length": "8",
@@ -400,16 +456,17 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000
+                "maximum": 99999999
             }
         }
     ],
     "name": "ER_ARO_F",
-    "title": "Autre remboursement que régime obligatoire (partie complémentaire CMU-C, Alsace moselle, FNASS,…)",
-    "description": "",
+    "title": "Table des données de remboursements complémentaires",
     "produit": "DCIR",
     "missingValues": [
         ""
@@ -528,6 +585,18 @@
         },
         {
             "fields": [
+                "ARO_REM_TAU"
+            ],
+            "reference": {
+                "resource": "IR_TAU_V",
+                "fields": [
+                    "TAU_COD"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
                 "ARO_REM_TYP"
             ],
             "reference": {
@@ -567,9 +636,21 @@
                 "FLX_EMT_NUM"
             ],
             "reference": {
-                "resource": "IR_NEM_V",
+                "resource": "IR_NEM_T",
                 "fields": [
-                    "EMT_NUM"
+                    "EMT_NUM_RES"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "FLX_EMT_TYP"
+            ],
+            "reference": {
+                "resource": "IR_TYT_V",
+                "fields": [
+                    "TYT_COD"
                 ]
             },
             "description": "Nomenclature"
@@ -591,5 +672,7 @@
         "dateCreated": "",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "",
+    "observation": ""
 }

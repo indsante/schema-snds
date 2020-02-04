@@ -2,14 +2,16 @@
     "fields": [
         {
             "name": "CAM_ACT_COD",
-            "description": "Code activité (1, 2 et 3 = activité chir/med, 4 = anesthésie, 5 = circulation extracorporelle)",
+            "description": "Code activite",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "XC_ATE_V",
             "length": "1",
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 1
@@ -17,30 +19,35 @@
         },
         {
             "name": "CAM_ACT_PRU",
-            "description": "Prix unitaire de la prestation affinée CCAM",
-            "type": "integer",
+            "description": "Prix unitaire CCAM de l'acte médical",
+            "type": "number",
             "nomenclature": "-",
-            "length": "7",
+            "length": "7,2",
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 10000000
+                "maximum": 9999999,
+                "decimals": 2
             }
         },
         {
             "name": "CAM_ASS_COD",
-            "description": "Code association non prévue (1=acte de tarif le plus élevé, geste complémentaire, supplément, toujours facturés à taux plein, 2=acte associé facturé à 50 % de sa valeur, 3=acte associé facturé à 75 % de sa valeur, 4=acte spécifique facturé à 100 % de sa valeur, 5=acte facturé à 100 % de sa valeur - cas particulier actes à des moments non continus de même journée)",
+            "description": "Code association",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_ASS_V",
             "length": "1",
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 1
@@ -56,6 +63,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 1
@@ -71,6 +80,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 1
@@ -78,7 +89,7 @@
         },
         {
             "name": "CAM_MOD_COD",
-            "description": "Codes modificateur",
+            "description": "Codes modificateurs",
             "type": "string",
             "nomenclature": "-",
             "length": "4",
@@ -86,6 +97,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 4
@@ -93,23 +106,25 @@
         },
         {
             "name": "CAM_ORD_NUM",
-            "description": "N° ordre prestation affinée CCAM",
+            "description": "Numéro d'ordre de la prestation affinée CCAM",
             "type": "integer",
             "nomenclature": "-",
-            "length": "2",
+            "length": "3",
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100
+                "maximum": 999
             }
         },
         {
             "name": "CAM_PRS_IDE",
-            "description": "Code prestation affinée CCAM",
+            "description": "Code CCAM de l'acte médical",
             "type": "string",
             "nomenclature": "IR_CCAM_V54",
             "length": "13",
@@ -117,6 +132,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 13
@@ -124,7 +141,7 @@
         },
         {
             "name": "CAM_QUA_DEN",
-            "description": "N° de la dent (non renseigné)",
+            "description": "Localisation dentaire",
             "type": "string",
             "nomenclature": "-",
             "length": "32",
@@ -132,6 +149,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 32
@@ -140,17 +159,20 @@
         {
             "name": "CAM_REM_BSE",
             "description": "Base de remboursement de la CCAM",
-            "type": "integer",
+            "type": "number",
             "nomenclature": "-",
-            "length": "7",
+            "length": "7,2",
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 10000000
+                "maximum": 9999999,
+                "decimals": 2
             }
         },
         {
@@ -163,6 +185,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 1
@@ -170,23 +194,25 @@
         },
         {
             "name": "CAM_TRT_PHA",
-            "description": "Phase de traitement (0 = phase par défaut, 1 = phase 1, 2 = phase 2, 3 = phase 3)",
+            "description": "Phase de traitement",
             "type": "integer",
-            "nomenclature": "-",
+            "nomenclature": "XC_PHA_V",
             "length": "1",
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 10
+                "maximum": 9
             }
         },
         {
             "name": "ORG_CLE_NEW",
-            "description": "Organisme de liquidation (après fusion des caisses)",
+            "description": "Code de l'organisme de liquidation",
             "type": "string",
             "nomenclature": "IR_ORG_V",
             "length": "9",
@@ -194,6 +220,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 9
@@ -209,15 +237,17 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000
+                "maximum": 99999999
             }
         },
         {
             "name": "FLX_DIS_DTD",
-            "description": "Date de mise à disposition des données dans SI     2",
+            "description": "Date de mise à disposition des données",
             "type": "date",
             "nomenclature": "IR_DTE_V",
             "length": "8",
@@ -225,59 +255,67 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "date"
         },
         {
             "name": "FLX_EMT_NUM",
-            "description": "N° émetteur du flux                                                  3",
+            "description": "numéro d'émetteur du flux",
             "type": "integer",
-            "nomenclature": "IR_NEM_V",
-            "length": "8",
+            "nomenclature": "IR_NEM_T",
+            "length": "4",
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000
+                "maximum": 9999
             }
         },
         {
             "name": "FLX_EMT_ORD",
-            "description": "N° séquence du flux                                               4",
+            "description": "numéro de séquence du flux",
             "type": "integer",
             "nomenclature": "-",
-            "length": "8",
+            "length": "4",
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000
+                "maximum": 9999
             }
         },
         {
             "name": "FLX_EMT_TYP",
-            "description": "Type d'émetteur                                                      5",
+            "description": "Type d'émetteur",
             "type": "integer",
-            "nomenclature": "-",
-            "length": "8",
+            "nomenclature": "IR_TYT_V",
+            "length": "2",
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000
+                "maximum": 99
             }
         },
         {
             "name": "FLX_TRT_DTD",
-            "description": "Date de traitement des données dans SI                   6",
+            "description": "Date d'entrée des données dans le système d'information",
             "type": "date",
             "nomenclature": "IR_DTE_V",
             "length": "8",
@@ -285,11 +323,13 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "date"
         },
         {
             "name": "ORG_CLE_NUM",
-            "description": "Ancien concept de l'organisme de liquidation (avant fusion, jusqu’au jour J de la fusion)          7",
+            "description": "organisme de liquidation des prestations (avant fusion des caisses)",
             "type": "string",
             "nomenclature": "IR_ORG_V",
             "length": "9",
@@ -297,6 +337,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 9
@@ -304,23 +346,25 @@
         },
         {
             "name": "PRS_ORD_NUM",
-            "description": "N° ordre prestation dans décompte                 8",
+            "description": "Numéro d'ordre de la prestation dans le décompte",
             "type": "integer",
             "nomenclature": "-",
-            "length": "8",
+            "length": "5",
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000
+                "maximum": 99999
             }
         },
         {
             "name": "REM_TYP_AFF",
-            "description": "Type de remboursement affiné                                 9",
+            "description": "type de remboursement affiné",
             "type": "integer",
             "nomenclature": "-",
             "length": "8",
@@ -328,16 +372,262 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000
+                "maximum": 99999999
+            }
+        },
+        {
+            "name": "CAM_MI4_MNT",
+            "description": "Montant Minoration due à association sur Modificateur4",
+            "type": "number",
+            "length": "9,2",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 999999999,
+                "decimals": 2
+            }
+        },
+        {
+            "name": "CAM_MM4_MNT",
+            "description": "Montant Majoration Modificateur4",
+            "type": "number",
+            "length": "9,2",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 999999999,
+                "decimals": 2
+            }
+        },
+        {
+            "name": "CAM_GRI_TAR",
+            "description": "Grille tarifaire",
+            "type": "string",
+            "length": "3",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 3
+            }
+        },
+        {
+            "name": "CAM_SUP_MNT",
+            "description": "Montant supplément de Charge en Cabinet",
+            "type": "number",
+            "length": "9,2",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 999999999,
+                "decimals": 2
+            }
+        },
+        {
+            "name": "CAM_MI1_MNT",
+            "description": "Montant Minoration due à association sur Modificateur1",
+            "type": "number",
+            "length": "9,2",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 999999999,
+                "decimals": 2
+            }
+        },
+        {
+            "name": "CAM_NRM_MNT",
+            "description": "Montant Non Rmb du à annulation du tarif pr acte non rmb",
+            "type": "number",
+            "length": "9,2",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 999999999,
+                "decimals": 2
+            }
+        },
+        {
+            "name": "CAM_MI3_MNT",
+            "description": "Montant Minoration due à association sur Modificateur3",
+            "type": "number",
+            "length": "9,2",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 999999999,
+                "decimals": 2
+            }
+        },
+        {
+            "name": "CAM_MM2_MNT",
+            "description": "Montant Majoration Modificateur2",
+            "type": "number",
+            "length": "9,2",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 999999999,
+                "decimals": 2
+            }
+        },
+        {
+            "name": "CAM_MM3_MNT",
+            "description": "Montant Majoration Modificateur3",
+            "type": "number",
+            "length": "9,2",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 999999999,
+                "decimals": 2
+            }
+        },
+        {
+            "name": "CAM_RED_MNT",
+            "description": "Montant réduction Tarif due à praticien non conventionné",
+            "type": "number",
+            "length": "9,2",
+            "nomenclature": "IR_FOR_V",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 999999999,
+                "decimals": 2
+            }
+        },
+        {
+            "name": "CAM_MPU_MNT",
+            "description": "Montant Minoration due à association sur PU de l' Acte",
+            "type": "number",
+            "length": "9,2",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 999999999,
+                "decimals": 2
+            }
+        },
+        {
+            "name": "CAM_MM1_MNT",
+            "description": "Montant Majoration Modificateur1",
+            "type": "number",
+            "length": "9,2",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 999999999,
+                "decimals": 2
+            }
+        },
+        {
+            "name": "CAM_MI2_MNT",
+            "description": "Montant Minoration due à association sur Modificateur2",
+            "type": "number",
+            "length": "9,2",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 999999999,
+                "decimals": 2
             }
         }
     ],
     "name": "ER_CAM_F",
-    "title": "affinage des actes médicaux (codage CCAM)",
-    "description": "",
+    "title": "Table des données de codage de la Classification Commune des Actes Médicaux",
     "produit": "DCIR",
     "missingValues": [
         ""
@@ -372,12 +662,48 @@
         },
         {
             "fields": [
+                "CAM_ACT_COD"
+            ],
+            "reference": {
+                "resource": "XC_ATE_V",
+                "fields": [
+                    "ATE_COD"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "CAM_ASS_COD"
+            ],
+            "reference": {
+                "resource": "IR_ASS_V",
+                "fields": [
+                    "ASS_ASS_COD"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
                 "CAM_PRS_IDE"
             ],
             "reference": {
                 "resource": "IR_CCAM_V54",
                 "fields": [
                     "CAM_PRS_IDE_COD"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "CAM_TRT_PHA"
+            ],
+            "reference": {
+                "resource": "XC_PHA_V",
+                "fields": [
+                    "PHA_COD"
                 ]
             },
             "description": "Nomenclature"
@@ -399,9 +725,21 @@
                 "FLX_EMT_NUM"
             ],
             "reference": {
-                "resource": "IR_NEM_V",
+                "resource": "IR_NEM_T",
                 "fields": [
-                    "EMT_NUM"
+                    "EMT_NUM_RES"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "FLX_EMT_TYP"
+            ],
+            "reference": {
+                "resource": "IR_TYT_V",
+                "fields": [
+                    "TYT_COD"
                 ]
             },
             "description": "Nomenclature"
@@ -417,11 +755,25 @@
                 ]
             },
             "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "CAM_RED_MNT"
+            ],
+            "reference": {
+                "resource": "IR_FOR_V",
+                "fields": [
+                    "FOR_TAU_COD"
+                ]
+            },
+            "description": "Nomenclature"
         }
     ],
     "history": {
         "dateCreated": "",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "",
+    "observation": ""
 }

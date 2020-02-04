@@ -8,41 +8,47 @@
             "length": null,
             "format": "default",
             "dateCreated": "2014",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [
                 "2015",
                 "2016"
             ],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
             "name": "ENT_ANN",
             "description": "Année de la date début de séjour",
-            "type": "string",
+            "type": "year",
             "nomenclature": "-",
-            "length": null,
+            "length": "4",
             "format": "default",
             "dateCreated": "2014",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [
                 "2015",
                 "2016"
             ],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
             "name": "ENT_MOI",
             "description": "Mois de la date début de séjour",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
-            "length": null,
-            "format": "default",
+            "length": "2",
+            "format": "%m",
             "dateCreated": "2014",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [
                 "2015",
                 "2016"
             ],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -50,14 +56,16 @@
             "description": "N° FINESS ePMSI",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
             "dateCreated": "2014",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [
                 "2015",
                 "2016"
             ],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -65,11 +73,13 @@
             "description": "Numéro FINESS  géographique",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
             "dateCreated": "2017",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -80,11 +90,13 @@
             "length": null,
             "format": "default",
             "dateCreated": "2014",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [
                 "2015",
                 "2016"
             ],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -92,14 +104,16 @@
             "description": "N° séquentiel de facture (idem RAPSS)",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "5",
             "format": "default",
             "dateCreated": "2014",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [
                 "2015",
                 "2016"
             ],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -107,14 +121,16 @@
             "description": "Code référence LPP",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "13",
             "format": "default",
             "dateCreated": "2014",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [
                 "2015",
                 "2016"
             ],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -125,11 +141,13 @@
             "length": null,
             "format": "default",
             "dateCreated": "2014",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [
                 "2015",
                 "2016"
             ],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -140,11 +158,13 @@
             "length": null,
             "format": "default",
             "dateCreated": "2014",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [
                 "2015",
                 "2016"
             ],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -155,11 +175,13 @@
             "length": null,
             "format": "default",
             "dateCreated": "2014",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [
                 "2015",
                 "2016"
             ],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -170,11 +192,13 @@
             "length": null,
             "format": "default",
             "dateCreated": "2014",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [
                 "2015",
                 "2016"
             ],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -182,14 +206,16 @@
             "description": "Numéro séquentiel d'entrée (idem RAPSS)",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "5",
             "format": "default",
             "dateCreated": "2014",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [
                 "2015",
                 "2016"
             ],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -200,11 +226,13 @@
             "length": null,
             "format": "default",
             "dateCreated": "2014",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [
                 "2015",
                 "2016"
             ],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -215,32 +243,49 @@
             "length": null,
             "format": "default",
             "dateCreated": "2014",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [
                 "2015",
                 "2016"
             ],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
             "name": "TYP_ART",
             "description": "Type d'enregistrement",
             "type": "string",
-            "nomenclature": "-",
-            "length": null,
+            "nomenclature": "MS_ENR_V",
+            "length": "1",
             "format": "default",
             "dateCreated": "2014",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [
                 "2015",
                 "2016"
             ],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ETA_NUM_TWO",
+            "description": "Numéro FINESS de l’établissement (site géographique)",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2014",
+            "dateDeleted": "2017",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         }
     ],
     "name": "T_HADaa_nnFP",
     "title": "Table FP : Table des RSFA des LPP/DMI en sus des établissements ex-OQN",
-    "description": "Champ : Privé",
     "produit": "PMSI HAD",
     "missingValues": [
         ""
@@ -261,8 +306,10 @@
         }
     ],
     "history": {
-        "dateCreated": "2017",
-        "dateDeleted": "2017",
+        "dateCreated": "2014",
+        "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Privé",
+    "observation": ""
 }

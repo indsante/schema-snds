@@ -2,7 +2,7 @@
     "fields": [
         {
             "name": "BEN_NIR_PSA",
-            "description": "Pseudonyme du bénéficiaire",
+            "description": "Identifiant anonyme du patient dans le SNIIRAM",
             "type": "string",
             "nomenclature": "-",
             "length": "17",
@@ -10,6 +10,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 17
@@ -17,79 +19,89 @@
         },
         {
             "name": "BEN_RNG_GEM",
-            "description": "Rang gémellaire",
+            "description": "rang de naissance du bénéficiaire",
             "type": "integer",
-            "nomenclature": "-",
-            "length": "8",
+            "nomenclature": "IR_BER_V",
+            "length": "2",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "La règle de calcul du rang du bénéficiaire dans le SNIIRAM est la suivante :\n- le rang de louvreur de droits est toujours égal à 1,\n- si un ayant droit a la même date de naissance que louvreur de droits, son rang est égal à 2,\n- un enfant né dune naissance unique a un rang égal à 1,\n- lorsquil y a des naissances multiples, chaque enfant est différencié par son rang (1 pour le 1er, 2 pour le second, ).",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000
+                "maximum": 99
             }
         },
         {
             "name": "IMB_ALD_DTD",
-            "description": "Date de début du cadre de prestation",
+            "description": "Date de début d'exonération du ticket modérateur attribuée par les services médicaux (ALD, AT, MP)",
             "type": "date",
-            "nomenclature": "-",
-            "length": null,
+            "nomenclature": "IR_DTE_V",
+            "length": "8",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "date"
         },
         {
             "name": "IMB_ALD_DTF",
-            "description": "Date de fin du cadre de prestation",
+            "description": "Date de fin de l'exonération attribuée par les services médicaux (ALD, AT, MP)",
             "type": "date",
-            "nomenclature": "-",
-            "length": null,
+            "nomenclature": "IR_DTE_V",
+            "length": "8",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "date"
         },
         {
             "name": "IMB_ALD_NUM",
-            "description": "Numéro d'ALD sur la liste",
+            "description": "Numéro d'ALD",
             "type": "integer",
             "nomenclature": "IR_ALD_V",
-            "length": "8",
+            "length": "2",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000
+                "maximum": 99
             }
         },
         {
             "name": "IMB_ETM_NAT",
-            "description": "Type de PEC (ALD, Invalidité ou ATMP)",
+            "description": "Motif d'exonération du bénéficiaire",
             "type": "integer",
-            "nomenclature": "-",
-            "length": "8",
+            "nomenclature": "IR_ETM_V",
+            "length": "2",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000
+                "maximum": 99
             }
         },
         {
             "name": "IMB_MLP_BTR",
-            "description": "Numéro de tableau maladies professionnelles",
+            "description": "Tableau des maladies professionnelles (bis, ter)",
             "type": "string",
             "nomenclature": "-",
             "length": "1",
@@ -97,6 +109,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 1
@@ -104,14 +118,16 @@
         },
         {
             "name": "IMB_MLP_TAB",
-            "description": "Tableau MP (A, B=bis, T=ter)",
+            "description": "Numéro de tableau des maladies professionnelles (MP)",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "AT_MLP_V",
             "length": "3",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 3
@@ -119,7 +135,7 @@
         },
         {
             "name": "IMB_SDR_LOP",
-            "description": "Localisation, paragraphe, syndrome",
+            "description": "Localisation - paragraphe syndrome",
             "type": "string",
             "nomenclature": "-",
             "length": "1",
@@ -127,6 +143,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 1
@@ -134,41 +152,47 @@
         },
         {
             "name": "INS_DTE",
-            "description": "Date d'insertion dans le référentiel",
+            "description": "Date d'insertion",
             "type": "date",
             "nomenclature": "-",
-            "length": null,
+            "length": "8",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "date"
         },
         {
             "name": "MED_MTF_COD",
-            "description": "Motif médical ou pathologie (Code CIM10)",
+            "description": "Motif médical ou pathologie (code CIM10)",
             "type": "string",
             "nomenclature": "IR_CIM_V",
-            "length": "6",
+            "length": "5",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maxLength": 6
+                "maxLength": 5
             }
         },
         {
             "name": "MED_NCL_IDT",
-            "description": "Nomenclature médicale (CIM10)",
+            "description": "Nomenclature médicale",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_NMD_V",
             "length": "10",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 10
@@ -176,20 +200,21 @@
         },
         {
             "name": "UPD_DTE",
-            "description": "Date de mise à jour",
+            "description": "Date de la dernière sélection des bénéficiaires de l'EGB",
             "type": "date",
             "nomenclature": "-",
-            "length": null,
+            "length": "8",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "Dans la table IR_IMB_R, la variable UPD_DTE correspond à la date du dernier chargement.  Deux cas de figures :     1. Si création => nouvel enregistrement créé avec date d'insertion INS_DTE renseignée et date de mise à jour UPD_DTE manquante lors de la création initiale de l'enregistrement puis UPD_DTE renseignée à chaque nouveau chargement à l'identique (la date du dernier chargement écrase la précédente) ;     2. Si modification => insertion d'un nouvel enregistrement avec nouvelle date d'insertion INS_DTE et date de mise à jour UPD_DTE manquante à la création puis UPD_DTE renseignée à chaque nouveau chargement à l'identique.",
             "type_oracle": "date"
         }
     ],
     "name": "IR_IMB_R",
     "title": "Référentiel médicalisé des bénéficiaires (ALD)",
-    "description": "",
     "produit": "DCIR_DCIRS",
     "missingValues": [
         ""
@@ -210,12 +235,48 @@
         },
         {
             "fields": [
+                "BEN_RNG_GEM"
+            ],
+            "reference": {
+                "resource": "IR_BER_V",
+                "fields": [
+                    "BEN_RNG_GEM"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
                 "IMB_ALD_NUM"
             ],
             "reference": {
                 "resource": "IR_ALD_V",
                 "fields": [
                     "ALD_030_COD"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "IMB_ETM_NAT"
+            ],
+            "reference": {
+                "resource": "IR_ETM_V",
+                "fields": [
+                    "ETM_NAT"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "IMB_MLP_TAB"
+            ],
+            "reference": {
+                "resource": "AT_MLP_V",
+                "fields": [
+                    "SIN_MLP_TAB"
                 ]
             },
             "description": "Nomenclature"
@@ -231,11 +292,25 @@
                 ]
             },
             "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "MED_NCL_IDT"
+            ],
+            "reference": {
+                "resource": "IR_NMD_V",
+                "fields": [
+                    "MED_NCL_IDT"
+                ]
+            },
+            "description": "Nomenclature"
         }
     ],
     "history": {
         "dateCreated": "",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "",
+    "observation": ""
 }

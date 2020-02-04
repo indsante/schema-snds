@@ -5,65 +5,89 @@
             "description": "N° FINESS de l'établisement",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
             "dateCreated": "2009",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 9
+            }
         },
         {
             "name": "RHA_VER",
             "description": "N° version du format du RHA",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "3",
             "format": "default",
             "dateCreated": "2009",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 3
+            }
         },
         {
             "name": "RHA_NUM",
             "description": "N° Séquentiel du séjour",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "7",
             "format": "default",
             "dateCreated": "2009",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 7
+            }
         },
         {
             "name": "RHS_NUM",
             "description": "Numéro séquentiel du RHS",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "3",
             "format": "default",
             "dateCreated": "2009",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 3
+            }
         },
         {
             "name": "DGN_COD",
-            "description": "DAS ",
+            "description": "DAS",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "6",
             "format": "default",
             "dateCreated": "2009",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 6
+            }
         }
     ],
     "name": "T_SSRaa_nnD",
     "title": "diagnostic associé",
-    "description": "Champ : Public et Privé",
     "produit": "PMSI SSR",
     "missingValues": [
         ""
@@ -72,20 +96,24 @@
         {
             "fields": [
                 "ETA_NUM",
-                "RHA_NUM"
+                "RHA_NUM",
+                "RHS_NUM"
             ],
             "reference": {
                 "resource": "T_SSRaa_nnB",
                 "fields": [
                     "ETA_NUM",
-                    "RHA_NUM"
+                    "RHA_NUM",
+                    "RHS_NUM"
                 ]
             }
         }
     ],
     "history": {
         "dateCreated": "2009",
-        "dateDeleted": "2017",
+        "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public et Privé",
+    "observation": ""
 }

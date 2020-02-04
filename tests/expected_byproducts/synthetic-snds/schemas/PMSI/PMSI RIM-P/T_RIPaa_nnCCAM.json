@@ -10,6 +10,8 @@
             "dateCreated": "2017",
             "dateDeleted": "2017",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -22,6 +24,8 @@
             "dateCreated": "2017",
             "dateDeleted": "2017",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -34,6 +38,8 @@
             "dateCreated": "2017",
             "dateDeleted": "2017",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -46,6 +52,8 @@
             "dateCreated": "2017",
             "dateDeleted": "2017",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -58,6 +66,8 @@
             "dateCreated": "2017",
             "dateDeleted": "2017",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -70,18 +80,22 @@
             "dateCreated": "2017",
             "dateDeleted": "2017",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
             "name": "CDC_ACT",
             "description": "Code CCAM",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_CCAM_V54",
             "length": null,
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "2017",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -94,6 +108,8 @@
             "dateCreated": "2017",
             "dateDeleted": "2017",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -106,6 +122,8 @@
             "dateCreated": "2017",
             "dateDeleted": "2017",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -118,6 +136,8 @@
             "dateCreated": "2017",
             "dateDeleted": "2017",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -130,24 +150,32 @@
             "dateCreated": "2017",
             "dateDeleted": "2017",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
             "name": "NBR_EXE_ACT",
             "description": "Nombre de réalisations",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
-            "length": null,
+            "length": "5",
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "2017",
             "dateMissing": [],
-            "type_oracle": "number"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 99999
+            }
         }
     ],
     "name": "T_RIPaa_nnCCAM",
     "title": "Actes CCAM",
-    "description": "Champ : Public et Privé",
+    "champ": "Public et Privé",
     "produit": "PMSI RIM-P",
     "missingValues": [
         ""
@@ -165,11 +193,24 @@
                     "RIP_NUM"
                 ]
             }
+        },
+        {
+            "fields": [
+                "CDC_ACT"
+            ],
+            "reference": {
+                "resource": "IR_CCAM_V54",
+                "fields": [
+                    "CAM_PRS_IDE_COD"
+                ]
+            },
+            "description": "Nomenclature"
         }
     ],
     "history": {
         "dateCreated": "2017",
         "dateDeleted": "2017",
         "dateMissing": []
-    }
+    },
+    "observation": ""
 }

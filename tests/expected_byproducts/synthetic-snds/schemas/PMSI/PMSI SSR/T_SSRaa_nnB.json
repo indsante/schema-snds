@@ -5,71 +5,98 @@
             "description": "N° FINESS d'inscription e-PMSI",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
+            "dateCreated": "2005",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 9
+            }
         },
         {
             "name": "RHA_VER",
             "description": "N° version du format du RHA",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "3",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
+            "dateCreated": "2005",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 3
+            }
         },
         {
             "name": "GEN_VER",
             "description": "N° version de GENRHA",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "3",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
+            "dateCreated": "2005",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 3
+            }
         },
         {
             "name": "GRC_VER",
             "description": "Version de groupage Etablissement",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
+            "dateCreated": "2005",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 2
+            }
         },
         {
             "name": "GRC_GME",
             "description": "Groupage GME Etablissement",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "6",
             "format": "default",
             "dateCreated": "2013",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 6
+            }
         },
         {
             "name": "GRC_RET",
             "description": "Code retour GME Etablissement",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
+            "dateCreated": "2005",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -77,47 +104,64 @@
             "description": "Indicateur d’erreur GME Etablissement",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2013",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
         },
         {
             "name": "GRG_VER",
             "description": "Version de groupage GENRHA",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
+            "dateCreated": "2005",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 2
+            }
         },
         {
             "name": "GRG_GME",
             "description": "Groupage GME GENRHA",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "6",
             "format": "default",
             "dateCreated": "2013",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 6
+            }
         },
         {
             "name": "GRG_RET",
             "description": "Code retour GME GENRHA",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
+            "dateCreated": "2005",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -125,48 +169,68 @@
             "description": "Indicateur d’erreur GME GENRHA",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2013",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
         },
         {
             "name": "TYP_GEN_RHA",
             "description": "Type de génération automatique du RHA",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2015",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
         },
         {
             "name": "RHA_NUM",
             "description": "N° Séquentiel du séjour",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "7",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
+            "dateCreated": "2005",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 7
+            }
         },
         {
             "name": "RHS_NUM",
             "description": "Numéro séquentiel du RHS",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "3",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
+            "dateCreated": "2005",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 3
+            }
         },
         {
             "name": "AGE_ANN",
@@ -175,9 +239,11 @@
             "nomenclature": "-",
             "length": null,
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
+            "dateCreated": "2005",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -185,36 +251,51 @@
             "description": "Sexe",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
+            "dateCreated": "2005",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
         },
         {
             "name": "BDI_COD",
             "description": "Code géographique de résidence",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "5",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
+            "dateCreated": "2005",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 5
+            }
         },
         {
             "name": "BDI_DEP",
             "description": "Code département de résidence",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
+            "dateCreated": "2005",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 2
+            }
         },
         {
             "name": "RHS_ANT_SEJ_ENT",
@@ -224,20 +305,24 @@
             "length": null,
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
             "name": "MOI_ANN_SOR_SEJ",
             "description": "Mois/ Année de sortie du séjour",
-            "type": "string",
+            "type": "yearmonth",
             "nomenclature": "-",
-            "length": null,
+            "length": "6",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -245,108 +330,153 @@
             "description": "Type d’hospitalisation UM",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2009",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
         },
         {
             "name": "AUT_TYP_UM",
             "description": "Type d'autorisation d’UM",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "3",
             "format": "default",
             "dateCreated": "2009",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 3
+            }
         },
         {
             "name": "ETA_NUM_GEO",
             "description": "N° FINESS géographique",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
             "dateCreated": "2013",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 9
+            }
         },
         {
             "name": "ENT_MOD",
             "description": "Mode d’entrée UM",
             "type": "string",
             "nomenclature": "MS_SOR_V",
-            "length": null,
+            "length": "1",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
+            "dateCreated": "2005",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
         },
         {
             "name": "ENT_PRV",
             "description": "Provenance",
             "type": "string",
             "nomenclature": "MS_PRV_V",
-            "length": null,
+            "length": "1",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
+            "dateCreated": "2005",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
         },
         {
             "name": "SOR_MOD",
             "description": "Mode de sortie UM",
             "type": "string",
             "nomenclature": "MS_SOR_V",
-            "length": null,
+            "length": "1",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
+            "dateCreated": "2005",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
         },
         {
             "name": "SOR_DES",
-            "description": "Destination ",
+            "description": "Destination",
             "type": "string",
             "nomenclature": "MS_PRV_V",
-            "length": null,
+            "length": "1",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
+            "dateCreated": "2005",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
         },
         {
             "name": "DEB_SEM",
             "description": "Semaine de début de séjour SSR",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
+            "dateCreated": "2005",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
         },
         {
             "name": "DEB_FIN",
             "description": "Semaine de fin de séjour SSR",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
+            "dateCreated": "2005",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
         },
         {
             "name": "SEJ_ANT",
@@ -355,21 +485,25 @@
             "nomenclature": "-",
             "length": null,
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
+            "dateCreated": "2005",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
             "name": "MOI_ANN",
             "description": "Mois Année du RHS",
-            "type": "string",
+            "type": "yearmonth",
             "nomenclature": "-",
-            "length": null,
+            "length": "6",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
+            "dateCreated": "2005",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -377,24 +511,34 @@
             "description": "Jours de présence hors week-end",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "5",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
+            "dateCreated": "2005",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 5
+            }
         },
         {
             "name": "JP_WE",
             "description": "Jours de présence en week-end",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
+            "dateCreated": "2005",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 2
+            }
         },
         {
             "name": "ANC_CHI",
@@ -403,118 +547,165 @@
             "nomenclature": "-",
             "length": null,
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
+            "dateCreated": "2005",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
             "name": "FP_PEC",
             "description": "Finalité principale de prise en charge",
             "type": "string",
-            "nomenclature": "-",
-            "length": null,
+            "nomenclature": "IR_CIM_V",
+            "length": "6",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
+            "dateCreated": "2005",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 6
+            }
         },
         {
             "name": "MOR_PRP",
             "description": "Manifestation morbide principale",
             "type": "string",
-            "nomenclature": "-",
-            "length": null,
+            "nomenclature": "IR_CIM_V",
+            "length": "6",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
+            "dateCreated": "2005",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 6
+            }
         },
         {
             "name": "ETL_AFF",
             "description": "Affection étiologique",
             "type": "string",
-            "nomenclature": "-",
-            "length": null,
+            "nomenclature": "IR_CIM_V",
+            "length": "6",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
+            "dateCreated": "2005",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 6
+            }
         },
         {
             "name": "HAB_DEP",
-            "description": "Dépendance à l’habillage ou à la toilette",
+            "description": "Dépendance à l’habillage",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
+            "dateCreated": "2005",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
         },
         {
             "name": "DPL_DEP",
             "description": "Dépendance au déplacement",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
+            "dateCreated": "2005",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
         },
         {
             "name": "ALI_DEP",
             "description": "Dépendance à l’alimentation",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
+            "dateCreated": "2005",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
         },
         {
             "name": "CON_DEP",
             "description": "Dépendance à la continence",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
+            "dateCreated": "2005",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
         },
         {
             "name": "CPT_DEP",
             "description": "Dépendance au comportement",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
+            "dateCreated": "2005",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
         },
         {
             "name": "REL_DEP",
             "description": "Dépendance à la relation",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
+            "dateCreated": "2005",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
         },
         {
             "name": "NBR_DGN",
@@ -524,8 +715,10 @@
             "length": null,
             "format": "default",
             "dateCreated": "2009",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -536,8 +729,10 @@
             "length": null,
             "format": "default",
             "dateCreated": "2014",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -548,8 +743,10 @@
             "length": null,
             "format": "default",
             "dateCreated": "2009",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -557,12 +754,17 @@
             "description": "Poursuite du même projet thérapeutique",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2015",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
         },
         {
             "name": "GMT_NUM",
@@ -574,6 +776,8 @@
             "dateCreated": "2017",
             "dateDeleted": "2017",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -586,31 +790,45 @@
             "dateCreated": "2017",
             "dateDeleted": "2017",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
             "name": "EXB_NBJ",
             "description": "Nombre de journées du supplément zone basse",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
-            "length": null,
+            "length": "5",
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "2017",
             "dateMissing": [],
-            "type_oracle": "number"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 99999
+            }
         },
         {
             "name": "EXH_NBJ",
             "description": "Nombre de journées en zone haute",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
-            "length": null,
+            "length": "5",
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "2017",
             "dateMissing": [],
-            "type_oracle": "number"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 99999
+            }
         },
         {
             "name": "LIT_DEDIE",
@@ -622,6 +840,8 @@
             "dateCreated": "2017",
             "dateDeleted": "2017",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -634,6 +854,8 @@
             "dateCreated": "2017",
             "dateDeleted": "2017",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -646,19 +868,676 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
+        },
+        {
+            "name": "ASS_DGN_3",
+            "description": "Diagnostic associé n° 3",
+            "type": "string",
+            "length": "6",
+            "dateCreated": "2005",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 6
+            }
+        },
+        {
+            "name": "ASS_DGN_13",
+            "description": "Diagnostic associé n° 13",
+            "type": "string",
+            "length": "6",
+            "dateCreated": "2007",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 6
+            }
+        },
+        {
+            "name": "ASS_DGN_10",
+            "description": "Diagnostic associé n° 10",
+            "type": "string",
+            "length": "6",
+            "dateCreated": "2007",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 6
+            }
+        },
+        {
+            "name": "ASS_DGN_2",
+            "description": "Diagnostic associé n° 2",
+            "type": "string",
+            "length": "6",
+            "dateCreated": "2005",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 6
+            }
+        },
+        {
+            "name": "PHY",
+            "description": "Physiothérapie",
+            "type": "number",
+            "length": null,
+            "dateCreated": "2005",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "BAL",
+            "description": "Balnéothérapie",
+            "type": "number",
+            "length": null,
+            "dateCreated": "2005",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "ASS_DGN_8",
+            "description": "Diagnostic associé n° 8",
+            "type": "string",
+            "length": "6",
+            "dateCreated": "2007",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 6
+            }
+        },
+        {
+            "name": "URO_SPH_RED",
+            "description": "Rééducation uro-sphinctérienne",
+            "type": "number",
+            "length": null,
+            "dateCreated": "2005",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "ASS_DGN_7",
+            "description": "Diagnostic associé n° 7",
+            "type": "string",
+            "length": "6",
+            "dateCreated": "2007",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 6
+            }
+        },
+        {
+            "name": "FR_UTL",
+            "description": "Utilisation d’un fauteuil roulant",
+            "type": "string",
+            "length": "1",
+            "dateCreated": "2005",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
+        },
+        {
+            "name": "BIL",
+            "description": "Bilans",
+            "type": "number",
+            "length": null,
+            "dateCreated": "2005",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "ASS_DGN_17",
+            "description": "Diagnostic associé n° 17",
+            "type": "string",
+            "length": "6",
+            "dateCreated": "2007",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 6
+            }
+        },
+        {
+            "name": "REI_RED",
+            "description": "Réadaptation-réinsertion",
+            "type": "number",
+            "length": null,
+            "dateCreated": "2005",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "ASS_DGN_5",
+            "description": "Diagnostic associé n° 5",
+            "type": "string",
+            "length": "6",
+            "dateCreated": "2005",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 6
+            }
+        },
+        {
+            "name": "COL_RED",
+            "description": "Rééducation collective",
+            "type": "number",
+            "length": null,
+            "dateCreated": "2005",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "ASS_DGN_1",
+            "description": "Diagnostic associé n° 1",
+            "type": "string",
+            "length": "6",
+            "dateCreated": "2005",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 6
+            }
+        },
+        {
+            "name": "NEU_PSY_RED",
+            "description": "Rééducation neuro-psychologique",
+            "type": "number",
+            "length": null,
+            "dateCreated": "2005",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "ASS_DGN_16",
+            "description": "Diagnostic associé n° 16",
+            "type": "string",
+            "length": "6",
+            "dateCreated": "2007",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 6
+            }
+        },
+        {
+            "name": "MEC_RED",
+            "description": "Rééducation mécanique",
+            "type": "number",
+            "length": null,
+            "dateCreated": "2005",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "GRC_CMC",
+            "description": "CMC de l'établissement",
+            "type": "string",
+            "length": "2",
+            "dateCreated": "2005",
+            "dateDeleted": "2013",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 2
+            }
+        },
+        {
+            "name": "NUT_RED",
+            "description": "Rééducation nutritionnelle",
+            "type": "number",
+            "length": null,
+            "dateCreated": "2005",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "ASS_DGN_18",
+            "description": "Diagnostic associé n° 18",
+            "type": "string",
+            "length": "6",
+            "dateCreated": "2007",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 6
+            }
+        },
+        {
+            "name": "NBR_ACT",
+            "description": "Nombre d’actes (n) médicaux",
+            "type": "number",
+            "length": null,
+            "dateCreated": "2005",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "GRC_GHJ",
+            "description": "GHJ de l'établissement",
+            "type": "string",
+            "length": "3",
+            "dateCreated": "2005",
+            "dateDeleted": "2013",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 3
+            }
+        },
+        {
+            "name": "NBR_CCAR",
+            "description": "Nombre d'actes CdARR dans ce RHS (n2)",
+            "type": "number",
+            "length": null,
+            "dateCreated": "2009",
+            "dateDeleted": "2014",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "GRG_GHJ",
+            "description": "GHJ du GENRHA",
+            "type": "string",
+            "length": "3",
+            "dateCreated": "2005",
+            "dateDeleted": "2013",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 3
+            }
+        },
+        {
+            "name": "ASS_DGN_11",
+            "description": "Diagnostic associé n° 11",
+            "type": "string",
+            "length": "6",
+            "dateCreated": "2007",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 6
+            }
+        },
+        {
+            "name": "ASS_DGN_14",
+            "description": "Diagnostic associé n° 14",
+            "type": "string",
+            "length": "6",
+            "dateCreated": "2007",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 6
+            }
+        },
+        {
+            "name": "ASS_DGN_9",
+            "description": "Diagnostic associé n° 9",
+            "type": "string",
+            "length": "6",
+            "dateCreated": "2007",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 6
+            }
+        },
+        {
+            "name": "ASS_DGN_19",
+            "description": "Diagnostic associé n° 19",
+            "type": "string",
+            "length": "6",
+            "dateCreated": "2007",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 6
+            }
+        },
+        {
+            "name": "RHS_NBR_IVA",
+            "description": "Nombre total de points IVA  du RHS",
+            "type": "string",
+            "length": "5",
+            "dateCreated": "2009",
+            "dateDeleted": "2014",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 5
+            }
+        },
+        {
+            "name": "ASS_DGN_12",
+            "description": "Diagnostic associé n° 12",
+            "type": "string",
+            "length": "6",
+            "dateCreated": "2007",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 6
+            }
+        },
+        {
+            "name": "APP_ADP",
+            "description": "Adaptation d’appareillage",
+            "type": "number",
+            "length": null,
+            "dateCreated": "2005",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "GRG_CMC",
+            "description": "CMC du GENRHA",
+            "type": "string",
+            "length": "2",
+            "dateCreated": "2005",
+            "dateDeleted": "2013",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 2
+            }
+        },
+        {
+            "name": "ASS_DGN_20",
+            "description": "Diagnostic associé n° 20",
+            "type": "string",
+            "length": "6",
+            "dateCreated": "2007",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 6
+            }
+        },
+        {
+            "name": "ASS_DGN_6",
+            "description": "Diagnostic associé n° 6",
+            "type": "string",
+            "length": "6",
+            "dateCreated": "2007",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 6
+            }
+        },
+        {
+            "name": "SEN_MOT_RED",
+            "description": "Rééducation sensori-motrice",
+            "type": "number",
+            "length": null,
+            "dateCreated": "2005",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "ASS_DGN_15",
+            "description": "Diagnostic associé n° 15",
+            "type": "string",
+            "length": "6",
+            "dateCreated": "2007",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 6
+            }
+        },
+        {
+            "name": "ASS_DGN_4",
+            "description": "Diagnostic associé n° 4",
+            "type": "string",
+            "length": "6",
+            "dateCreated": "2005",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 6
+            }
+        },
+        {
+            "name": "CAR_RSP_RED",
+            "description": "Rééducation cardio-respiratoire",
+            "type": "number",
+            "length": null,
+            "dateCreated": "2005",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "ACT_TYP",
+            "description": "Type d’activité",
+            "type": "string",
+            "length": "1",
+            "dateCreated": "2005",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
         }
     ],
     "name": "T_SSRaa_nnB",
     "title": "Description du Séjour",
-    "description": "Champ : Public et Privé",
     "produit": "PMSI SSR",
     "missingValues": [
         ""
     ],
     "primaryKey": [
         "ETA_NUM",
-        "RHA_NUM"
+        "RHA_NUM",
+        "RHS_NUM"
     ],
     "foreignKeys": [
         {
@@ -715,11 +1594,49 @@
                 ]
             },
             "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "FP_PEC"
+            ],
+            "reference": {
+                "resource": "IR_CIM_V",
+                "fields": [
+                    "CIM_COD"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "MOR_PRP"
+            ],
+            "reference": {
+                "resource": "IR_CIM_V",
+                "fields": [
+                    "CIM_COD"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "ETL_AFF"
+            ],
+            "reference": {
+                "resource": "IR_CIM_V",
+                "fields": [
+                    "CIM_COD"
+                ]
+            },
+            "description": "Nomenclature"
         }
     ],
     "history": {
-        "dateCreated": "2006",
-        "dateDeleted": "2017",
+        "dateCreated": "2005",
+        "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public et Privé",
+    "observation": ""
 }

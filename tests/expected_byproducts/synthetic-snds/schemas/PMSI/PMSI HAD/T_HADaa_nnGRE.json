@@ -5,22 +5,27 @@
             "description": "N° FINESS e-PMSI",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
-            "dateCreated": "",
+            "dateCreated": "2007",
             "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 9
+            }
         },
         {
             "name": "ETA_NUM_GEO",
             "description": "Numéro FINESS de l’établissement (code géographique)",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
+            "dateCreated": "2017",
+            "dateDeleted": "",
             "dateMissing": [
                 "2007",
                 "2008",
@@ -33,7 +38,12 @@
                 "2015",
                 "2016"
             ],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 9
+            }
         },
         {
             "name": "ETE_GHS_NUM",
@@ -42,69 +52,94 @@
             "nomenclature": "-",
             "length": null,
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
+            "dateCreated": "2005",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
             "name": "GHT_NBJ",
             "description": "Groupage Etablissement : nombre de jours",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
-            "length": null,
+            "length": "5",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
+            "dateCreated": "2005",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "number"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 99999
+            }
         },
         {
             "name": "GHT_NUM",
             "description": "Groupage Etablissement : n° du GHT",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
+            "dateCreated": "2005",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 2
+            }
         },
         {
             "name": "GRE_GRP_ETB",
             "description": "Groupage Etablissement : nombre de zones tarifaires établissement (1 à 4)",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 2
+            }
         },
         {
             "name": "GRE_GRP_GHPC",
             "description": "Groupage Etablissement : n° du GHPC",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "4",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 4
+            }
         },
         {
             "name": "GRE_GRP_RET",
             "description": "Groupage Etablissement : code retour",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -112,53 +147,120 @@
             "description": "Groupage établissement version de la classification",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "3",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 3
+            }
         },
         {
             "name": "RHAD_NUM",
             "description": "N° séquentiel de séjour d'HAD",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "5",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
+            "dateCreated": "2005",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 5
+            }
         },
         {
             "name": "SEQ_NUM",
             "description": "N° de la séquence dans le séjour",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "4",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 4
+            }
         },
         {
             "name": "SSEQ_NUM",
             "description": "N° de la sous-séquence",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "4",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
+            "dateCreated": "2005",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 4
+            }
+        },
+        {
+            "name": "SEQ_SEJ",
+            "description": "Numéro de la séquence dans le séjour",
+            "type": "string",
+            "length": "2",
+            "dateCreated": "2005",
+            "dateDeleted": "2010",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 2
+            }
+        },
+        {
+            "name": "ETA_NUM_JUR",
+            "description": "N° FINESS de l’établissement (code géographique)",
+            "type": "string",
+            "length": null,
+            "dateCreated": "2005",
+            "dateDeleted": "2007",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
+        },
+        {
+            "name": "ETA_NUM_TWO",
+            "description": "Numéro FINESS de l’établissement (code géographique)",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2007",
+            "dateDeleted": "2017",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 9
+            }
         }
     ],
     "name": "T_HADaa_nnGRE",
     "title": "Table des GHT (groupage établissement)",
-    "description": "Champ : Public et Privé",
     "produit": "PMSI HAD",
     "missingValues": [
         ""
@@ -179,8 +281,10 @@
         }
     ],
     "history": {
-        "dateCreated": "2006",
-        "dateDeleted": "2017",
+        "dateCreated": "2005",
+        "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public et Privé",
+    "observation": ""
 }

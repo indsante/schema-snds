@@ -4,32 +4,36 @@
             "name": "ACC_TIE_IND",
             "description": "Top tiers responsable accident",
             "type": "integer",
-            "nomenclature": "-",
+            "nomenclature": "TOP_TIER_ACC",
             "length": "1",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 10
+                "maximum": 9
             }
         },
         {
             "name": "AR1_ASU_NAT",
             "description": "Nature d'assurance autre régime que régime obligatoire (ARO) - 1ère occurrence",
             "type": "integer",
-            "nomenclature": "-",
+            "nomenclature": "IR_ASU_V",
             "length": "2",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100
+                "maximum": 99
             }
         },
         {
@@ -42,10 +46,12 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 1000000000,
+                "maximum": 999999999,
                 "decimals": 2
             }
         },
@@ -59,10 +65,12 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 1000000000,
+                "maximum": 999999999,
                 "decimals": 2
             }
         },
@@ -70,32 +78,36 @@
             "name": "AR1_REM_TYP",
             "description": "Type de remboursement autre régime que régime obligatoire (ARO) - 1ère occurrence",
             "type": "integer",
-            "nomenclature": "-",
+            "nomenclature": "IR_TYR_V",
             "length": "2",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100
+                "maximum": 99
             }
         },
         {
             "name": "AR2_ASU_NAT",
             "description": "Nature d'assurance autre régime que régime obligatoire (ARO) - 2ème occurrence",
             "type": "integer",
-            "nomenclature": "-",
+            "nomenclature": "IR_ASU_V",
             "length": "2",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100
+                "maximum": 99
             }
         },
         {
@@ -108,10 +120,12 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 1000000000,
+                "maximum": 999999999,
                 "decimals": 2
             }
         },
@@ -125,10 +139,12 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 1000000000,
+                "maximum": 999999999,
                 "decimals": 2
             }
         },
@@ -136,32 +152,36 @@
             "name": "AR2_REM_TYP",
             "description": "Type de remboursement autre régime que régime obligatoire (ARO) - 2ème occurrence",
             "type": "integer",
-            "nomenclature": "-",
+            "nomenclature": "IR_TYR_V",
             "length": "2",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100
+                "maximum": 99
             }
         },
         {
             "name": "AR3_ASU_NAT",
             "description": "Nature d'assurance autre régime que régime obligatoire (ARO) - 3ème occurrence",
             "type": "integer",
-            "nomenclature": "-",
+            "nomenclature": "IR_ASU_V",
             "length": "2",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100
+                "maximum": 99
             }
         },
         {
@@ -174,10 +194,12 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 1000000000,
+                "maximum": 999999999,
                 "decimals": 2
             }
         },
@@ -191,10 +213,12 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 1000000000,
+                "maximum": 999999999,
                 "decimals": 2
             }
         },
@@ -202,16 +226,18 @@
             "name": "AR3_REM_TYP",
             "description": "Type de remboursement autre régime que régime obligatoire (ARO) - 3ème occurrence",
             "type": "integer",
-            "nomenclature": "-",
+            "nomenclature": "IR_TYR_V",
             "length": "2",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100
+                "maximum": 99
             }
         },
         {
@@ -224,10 +250,12 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000000,
+                "maximum": 99999999999,
                 "decimals": 2
             }
         },
@@ -241,10 +269,12 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 10000
+                "maximum": 9999
             }
         },
         {
@@ -257,6 +287,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 2
@@ -272,6 +304,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 9
@@ -287,6 +321,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 1
@@ -296,28 +332,32 @@
             "name": "BEN_CTA_TYP",
             "description": "Type de contrat complémentaire",
             "type": "integer",
-            "nomenclature": "-",
+            "nomenclature": "IR_CTA_V",
             "length": "3",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 1000
+                "maximum": 999
             }
         },
         {
             "name": "BEN_EHP_TOP",
             "description": "Identification hospitalisation en EHPAD ou en EMS",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_HAD_V",
             "length": "1",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 1
@@ -333,6 +373,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 18
@@ -348,10 +390,12 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 10
+                "maximum": 9
             }
         },
         {
@@ -364,10 +408,12 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100
+                "maximum": 99
             }
         },
         {
@@ -380,6 +426,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 3
@@ -395,6 +443,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 3
@@ -410,10 +460,12 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000000,
+                "maximum": 99999999999,
                 "decimals": 2
             }
         },
@@ -427,10 +479,12 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000000,
+                "maximum": 99999999999,
                 "decimals": 2
             }
         },
@@ -438,12 +492,14 @@
             "name": "CAI_AFF_COD",
             "description": "Code de la caisse d'affiliation",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_CAI_V",
             "length": "3",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 3
@@ -453,12 +509,14 @@
             "name": "CAI_LIQ_COD",
             "description": "Code de la caisse de liquidation",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_CAI_V",
             "length": "3",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 3
@@ -467,14 +525,20 @@
         {
             "name": "CLE_DCI_JNT",
             "description": "Clé technique de jointure",
-            "type": "string",
+            "type": "integer",
             "nomenclature": "-",
-            "length": null,
+            "length": "8",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 99999999
+            }
         },
         {
             "name": "CPM_REM_BSE",
@@ -486,10 +550,12 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000000,
+                "maximum": 99999999999,
                 "decimals": 2
             }
         },
@@ -503,16 +569,18 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000000,
+                "maximum": 99999999999,
                 "decimals": 2
             }
         },
         {
             "name": "DDP_COD",
-            "description": "Code de la discipline de prestation (ou discipline médico tarifaire)",
+            "description": "Code de la discipline de Prestations (ou discipline médico tarifaire)",
             "type": "integer",
             "nomenclature": "IR_DDP_V",
             "length": "3",
@@ -520,10 +588,12 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 1000
+                "maximum": 999
             }
         },
         {
@@ -536,10 +606,12 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100
+                "maximum": 99
             }
         },
         {
@@ -552,6 +624,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 2
@@ -567,22 +641,26 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100
+                "maximum": 99
             }
         },
         {
             "name": "DRT_ACS_TOP",
             "description": "Top bénéficiaire ACS",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_BAC_V",
             "length": "1",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 1
@@ -598,6 +676,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 8
@@ -613,6 +693,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 8
@@ -628,22 +710,26 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 1000
+                "maximum": 999
             }
         },
         {
             "name": "ETE_DPT_COD",
             "description": "Département de l'établissement exécutant",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_DPT_V",
             "length": "3",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 3
@@ -659,10 +745,12 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 10000
+                "maximum": 9999
             }
         },
         {
@@ -675,10 +763,12 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 10
+                "maximum": 9
             }
         },
         {
@@ -691,6 +781,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 1
@@ -706,22 +798,26 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100
+                "maximum": 99
             }
         },
         {
             "name": "ETP_DPT_COD",
             "description": "Departement de l'établissement prescripteur",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_DPT_V",
             "length": "3",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 3
@@ -737,6 +833,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 4
@@ -744,7 +842,7 @@
         },
         {
             "name": "EXE_CTX_PFS",
-            "description": "Contexte Professionnel de Santé",
+            "description": "Contexte Professionnels de santé",
             "type": "string",
             "nomenclature": "-",
             "length": "4",
@@ -752,6 +850,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 4
@@ -761,12 +861,14 @@
             "name": "EXE_INS_DPT",
             "description": "Département du professionnel de santé exécutant",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_DPT_V",
             "length": "3",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 3
@@ -775,43 +877,43 @@
         {
             "name": "EXE_SOI_AMD",
             "description": "Date (année et mois) de début d'exécution des soins",
-            "type": "string",
-            "nomenclature": "-",
+            "type": "yearmonth",
+            "nomenclature": "IR_DTE_V",
             "length": "6",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 6
-            }
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "EXE_SOI_AMF",
             "description": "Date (année et mois) de fin d'exécution des soins",
-            "type": "string",
-            "nomenclature": "-",
+            "type": "yearmonth",
+            "nomenclature": "IR_DTE_V",
             "length": "6",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 6
-            }
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "EXE_SOI_DTD",
             "description": "Date de début d'exécution des soins",
             "type": "date",
             "nomenclature": "IR_DTE_V",
-            "length": null,
+            "length": "8",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "date"
         },
         {
@@ -819,11 +921,13 @@
             "description": "Date de fin d'exécution des soins",
             "type": "date",
             "nomenclature": "IR_DTE_V",
-            "length": null,
+            "length": "8",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "date"
         },
         {
@@ -836,10 +940,12 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100
+                "maximum": 99
             }
         },
         {
@@ -847,27 +953,31 @@
             "description": "Date de mise à disposition des données",
             "type": "date",
             "nomenclature": "IR_DTE_V",
-            "length": null,
+            "length": "8",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "date"
         },
         {
             "name": "FLX_EMT_TYP",
             "description": "Type d'émetteur",
             "type": "integer",
-            "nomenclature": "-",
+            "nomenclature": "IR_TYT_V",
             "length": "2",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100
+                "maximum": 99
             }
         },
         {
@@ -875,11 +985,13 @@
             "description": "Date d'entrée des données dans le système d'information",
             "type": "date",
             "nomenclature": "IR_DTE_V",
-            "length": null,
+            "length": "8",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "date"
         },
         {
@@ -892,6 +1004,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 3
@@ -907,6 +1021,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 3
@@ -922,6 +1038,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 2
@@ -937,10 +1055,12 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100
+                "maximum": 99
             }
         },
         {
@@ -953,10 +1073,12 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100
+                "maximum": 99
             }
         },
         {
@@ -969,10 +1091,12 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 10
+                "maximum": 9
             }
         },
         {
@@ -985,6 +1109,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 8
@@ -1000,6 +1126,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 8
@@ -1009,12 +1137,14 @@
             "name": "PRE_INS_DPT",
             "description": "Département du professionnel de santé prescripteur",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_DPT_V",
             "length": "3",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 3
@@ -1023,28 +1153,29 @@
         {
             "name": "PRE_PRE_AMD",
             "description": "Date (année et mois) de prescription",
-            "type": "string",
-            "nomenclature": "-",
+            "type": "yearmonth",
+            "nomenclature": "IR_DTE_V",
             "length": "6",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 6
-            }
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "PRE_PRE_DTD",
             "description": "Date de prescription",
             "type": "date",
             "nomenclature": "IR_DTE_V",
-            "length": null,
+            "length": "8",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "date"
         },
         {
@@ -1057,10 +1188,12 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 1000000000,
+                "maximum": 999999999,
                 "decimals": 2
             }
         },
@@ -1074,10 +1207,12 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000
+                "maximum": 99999
             }
         },
         {
@@ -1090,10 +1225,12 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000
+                "maximum": 99999
             }
         },
         {
@@ -1106,10 +1243,12 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000000,
+                "maximum": 99999999999,
                 "decimals": 2
             }
         },
@@ -1123,6 +1262,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 2
@@ -1131,55 +1272,57 @@
         {
             "name": "PRS_DRA_AME",
             "description": "Date réelle (année et mois) de l'accouchement",
-            "type": "string",
+            "type": "yearmonth",
             "nomenclature": "-",
             "length": "6",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 6
-            }
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "PRS_GRS_DTD",
             "description": "Date présumée de Grossesse",
             "type": "date",
             "nomenclature": "IR_DTE_V",
-            "length": null,
+            "length": "8",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "date"
         },
         {
             "name": "PRS_HOS_AMD",
             "description": "Date (année et mois) de début d'hospitalisation",
-            "type": "string",
-            "nomenclature": "-",
+            "type": "yearmonth",
+            "nomenclature": "IR_DTE_V",
             "length": "6",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 6
-            }
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "PRS_HOS_DTD",
             "description": "Date de début d'hospitalisation",
             "type": "date",
             "nomenclature": "IR_DTE_V",
-            "length": null,
+            "length": "8",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "date"
         },
         {
@@ -1192,6 +1335,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 8
@@ -1199,7 +1344,7 @@
         },
         {
             "name": "PRS_NAT_REF",
-            "description": "Code de la prestation de référence",
+            "description": "Code de la Prestations de référence",
             "type": "integer",
             "nomenclature": "IR_NAT_V",
             "length": "4",
@@ -1207,10 +1352,12 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 10000
+                "maximum": 9999
             }
         },
         {
@@ -1223,10 +1370,12 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000000,
+                "maximum": 99999999999,
                 "decimals": 2
             }
         },
@@ -1240,15 +1389,17 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100
+                "maximum": 99
             }
         },
         {
             "name": "PRS_PPU_SEC",
-            "description": "Code privé / public de la prestation",
+            "description": "Code privé - public de la Prestations",
             "type": "integer",
             "nomenclature": "IR_PPU_V",
             "length": "1",
@@ -1256,10 +1407,12 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 10
+                "maximum": 9
             }
         },
         {
@@ -1272,10 +1425,12 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 10
+                "maximum": 9
             }
         },
         {
@@ -1288,26 +1443,30 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100
+                "maximum": 99
             }
         },
         {
             "name": "PSE_ACT_SPE",
             "description": "Spécialité ou nature d'activité du professionnel de santé exécutant",
             "type": "integer",
-            "nomenclature": "IR_SPE_V",
+            "nomenclature": "IR_SPA_D",
             "length": "2",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100
+                "maximum": 99
             }
         },
         {
@@ -1320,10 +1479,12 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 10
+                "maximum": 9
             }
         },
         {
@@ -1336,10 +1497,12 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100
+                "maximum": 99
             }
         },
         {
@@ -1352,10 +1515,12 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100
+                "maximum": 99
             }
         },
         {
@@ -1368,26 +1533,30 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100
+                "maximum": 99
             }
         },
         {
             "name": "PSP_ACT_SPE",
             "description": "Spécialité ou nature d'activité du professionnel de santé prescripteur",
             "type": "integer",
-            "nomenclature": "IR_SPE_V",
+            "nomenclature": "IR_SPA_D",
             "length": "2",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100
+                "maximum": 99
             }
         },
         {
@@ -1400,10 +1569,12 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 10
+                "maximum": 9
             }
         },
         {
@@ -1416,6 +1587,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 10
@@ -1431,10 +1604,12 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100
+                "maximum": 99
             }
         },
         {
@@ -1447,10 +1622,12 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100
+                "maximum": 99
             }
         },
         {
@@ -1463,10 +1640,12 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 1000
+                "maximum": 999
             }
         },
         {
@@ -1479,10 +1658,12 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100
+                "maximum": 99
             }
         },
         {
@@ -1495,10 +1676,12 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100
+                "maximum": 99
             }
         },
         {
@@ -1511,10 +1694,12 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000,
+                "maximum": 99999,
                 "decimals": 2
             }
         },
@@ -1522,12 +1707,14 @@
             "name": "SLM_AFF_COD",
             "description": "Code de la SLM",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_SLM_V",
             "length": "3",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 3
@@ -1535,7 +1722,7 @@
         },
         {
             "name": "TOT_REM_BSE",
-            "description": "Base totale de remboursement de l'acte (base et compléments/majo hors PAF)",
+            "description": "Base totale de remboursement de l'acte (base et compléments-majo hors PAF)",
             "type": "number",
             "nomenclature": "-",
             "length": "11,2",
@@ -1543,16 +1730,18 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000000,
+                "maximum": 99999999999,
                 "decimals": 2
             }
         },
         {
             "name": "TOT_REM_MNT",
-            "description": "Montant total remboursé pour l'acte (base et compléments/majo et participations de l'assuré)",
+            "description": "Montant total remboursé pour l'acte (base et compléments-majo et participations de l'assuré)",
             "type": "number",
             "nomenclature": "-",
             "length": "11,2",
@@ -1560,17 +1749,18 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000000,
+                "maximum": 99999999999,
                 "decimals": 2
             }
         }
     ],
     "name": "NS_PRS_F",
-    "title": "prestations",
-    "description": "",
+    "title": "Table des prestations",
     "produit": "DCIRS",
     "missingValues": [
         ""
@@ -1624,6 +1814,112 @@
         },
         {
             "fields": [
+                "ETB_PRE_FIN"
+            ],
+            "reference": {
+                "resource": "BE_IDE_R",
+                "fields": [
+                    "IDE_ETA_NU8"
+                ]
+            }
+        },
+        {
+            "fields": [
+                "ETB_EXE_FIN"
+            ],
+            "reference": {
+                "resource": "BE_IDE_R",
+                "fields": [
+                    "IDE_ETA_NU8"
+                ]
+            }
+        },
+        {
+            "fields": [
+                "ACC_TIE_IND"
+            ],
+            "reference": {
+                "resource": "TOP_TIER_ACC",
+                "fields": [
+                    "TOP_TIER_COD"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "AR1_ASU_NAT"
+            ],
+            "reference": {
+                "resource": "IR_ASU_V",
+                "fields": [
+                    "ASU_NAT"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "AR1_REM_TYP"
+            ],
+            "reference": {
+                "resource": "IR_TYR_V",
+                "fields": [
+                    "PRS_REM_TYP"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "AR2_ASU_NAT"
+            ],
+            "reference": {
+                "resource": "IR_ASU_V",
+                "fields": [
+                    "ASU_NAT"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "AR2_REM_TYP"
+            ],
+            "reference": {
+                "resource": "IR_TYR_V",
+                "fields": [
+                    "PRS_REM_TYP"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "AR3_ASU_NAT"
+            ],
+            "reference": {
+                "resource": "IR_ASU_V",
+                "fields": [
+                    "ASU_NAT"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "AR3_REM_TYP"
+            ],
+            "reference": {
+                "resource": "IR_TYR_V",
+                "fields": [
+                    "PRS_REM_TYP"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
                 "BEN_AMA_COD"
             ],
             "reference": {
@@ -1654,6 +1950,30 @@
                 "resource": "IR_ORG_V",
                 "fields": [
                     "ORG_NUM"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "BEN_CTA_TYP"
+            ],
+            "reference": {
+                "resource": "IR_CTA_V",
+                "fields": [
+                    "BEN_CTA_TYP"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "BEN_EHP_TOP"
+            ],
+            "reference": {
+                "resource": "IR_HAD_V",
+                "fields": [
+                    "BEN_EHP_TOP"
                 ]
             },
             "description": "Nomenclature"
@@ -1696,6 +2016,30 @@
         },
         {
             "fields": [
+                "CAI_AFF_COD"
+            ],
+            "reference": {
+                "resource": "IR_CAI_V",
+                "fields": [
+                    "ORG_BSE_NUM"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "CAI_LIQ_COD"
+            ],
+            "reference": {
+                "resource": "IR_CAI_V",
+                "fields": [
+                    "ORG_BSE_NUM"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
                 "DDP_COD"
             ],
             "reference": {
@@ -1732,12 +2076,36 @@
         },
         {
             "fields": [
+                "DRT_ACS_TOP"
+            ],
+            "reference": {
+                "resource": "IR_BAC_V",
+                "fields": [
+                    "TOP_DRT_COD"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
                 "ETE_CAT_COD"
             ],
             "reference": {
                 "resource": "IR_CET_V",
                 "fields": [
                     "ETB_CAT_COD"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "ETE_DPT_COD"
+            ],
+            "reference": {
+                "resource": "IR_DPT_V",
+                "fields": [
+                    "GEO_DPT_COD"
                 ]
             },
             "description": "Nomenclature"
@@ -1792,12 +2160,48 @@
         },
         {
             "fields": [
+                "ETP_DPT_COD"
+            ],
+            "reference": {
+                "resource": "IR_DPT_V",
+                "fields": [
+                    "GEO_DPT_COD"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "EXE_INS_DPT"
+            ],
+            "reference": {
+                "resource": "IR_DPT_V",
+                "fields": [
+                    "GEO_DPT_COD"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
                 "EXO_MTF"
             ],
             "reference": {
                 "resource": "IR_EXO_V",
                 "fields": [
                     "EXO_MTF"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "FLX_EMT_TYP"
+            ],
+            "reference": {
+                "resource": "IR_TYT_V",
+                "fields": [
+                    "TYT_COD"
                 ]
             },
             "description": "Nomenclature"
@@ -1846,6 +2250,18 @@
                 "resource": "IR_MTM_V",
                 "fields": [
                     "MTM_NAT"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "PRE_INS_DPT"
+            ],
+            "reference": {
+                "resource": "IR_DPT_V",
+                "fields": [
+                    "GEO_DPT_COD"
                 ]
             },
             "description": "Nomenclature"
@@ -1915,9 +2331,9 @@
                 "PSE_ACT_SPE"
             ],
             "reference": {
-                "resource": "IR_SPE_V",
+                "resource": "IR_SPA_D",
                 "fields": [
-                    "PFS_SPE_COD"
+                    "PFS_SPA_COD"
                 ]
             },
             "description": "Nomenclature"
@@ -1975,9 +2391,9 @@
                 "PSP_ACT_SPE"
             ],
             "reference": {
-                "resource": "IR_SPE_V",
+                "resource": "IR_SPA_D",
                 "fields": [
-                    "PFS_SPE_COD"
+                    "PFS_SPA_COD"
                 ]
             },
             "description": "Nomenclature"
@@ -2053,11 +2469,25 @@
                 ]
             },
             "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "SLM_AFF_COD"
+            ],
+            "reference": {
+                "resource": "IR_SLM_V",
+                "fields": [
+                    "SLM_NUM"
+                ]
+            },
+            "description": "Nomenclature"
         }
     ],
     "history": {
         "dateCreated": "",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "",
+    "observation": ""
 }

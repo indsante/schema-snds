@@ -8,6 +8,8 @@
             "length": "17",
             "format": "default",
             "constraints": {
+                "unique": true,
+                "description": "Unicité fausse sans le rang gémellaire. Contrainte nécessaire pour les clés étrangère du PMSI, qui n'a pas le rang gémellaire",
                 "maxLength": 17
             },
             "dateCreated": "",
@@ -54,6 +56,7 @@
             "length": "18",
             "format": "default",
             "constraints": {
+                "unique": true,
                 "maxLength": 18
             },
             "dateCreated": "",

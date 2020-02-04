@@ -8,6 +8,7 @@
             "length": "18",
             "format": "default",
             "constraints": {
+                "unique": true,
                 "maxLength": 18
             },
             "dateCreated": "",

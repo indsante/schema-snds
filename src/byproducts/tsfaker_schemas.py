@@ -77,7 +77,6 @@ def generate_tsfaker_schemas(rooted_schemas_synthetic_snds_dir, work_dir):
     for source_schema_path in get_all_schema_path(work_dir):
         schema = Schema(source_schema_path)
         replace_length_by_bounds(schema)
-        get_enum_constraints(schema)
         replace_nomenclatures_by_foreign_key_reference(schema, nomenclature_to_fk_reference)
         schema.commit(strict=True)
 
@@ -98,35 +97,36 @@ def replace_length_by_bounds(schema):
             assert tstype == NUMBER, "field '{}' of schema '{}' is of lenght '{}' and type '{}'" \
                 .format(field.name, schema.descriptor["name"], length, tstype)
             length, decimals = length.split(',')
-            assert schema.update_field(field.name,
-                                       {'constraints': {'minimum': 0, 'maximum': 10 ** int(length),
-                                                        'decimals': int(decimals)}})
+            if field.constraints:
+                minimum = field.constraints.get('minimum') if field.constraints.get('minimum') else 0
+                maximum = field.constraints.get('maximum') if field.constraints.get('maximum') else \
+                    (10 ** int(length)) - 1
+                field.constraints.update({'minimum': minimum, 'maximum': maximum, 'decimals': int(decimals)})
+                assert schema.update_field(field.name, field.descriptor)
+            else:
+                assert schema.update_field(field.name, {'constraints': {'minimum': 0, 'maximum': (10 ** int(length)) - 1,
+                                                                        'decimals': int(decimals)}})
             continue
 
         length = int(length)
-        constraints = field.descriptor.get('constraints')
         if tstype == STRING:
-            minlength = constraints.get('minLength') if constraints and constraints.get('minLength') else None
-            if minlength:
-                assert schema.update_field(field.name, {'constraints': {'minLength': minlength, 'maxLength': length}})
+            if field.constraints:
+                field.constraints.update({'maxLength': length})
+                assert schema.update_field(field.name, field.descriptor)
             else:
                 assert schema.update_field(field.name, {'constraints': {'maxLength': length}})
+
         if tstype == INTEGER:
             assert length <= 19, "field '{}' of schema '{}' is of length '{}', bigger than maximal value of 19" \
                 .format(field.name, schema.descriptor["name"], length)
-            if constraints:
-                minimum = constraints.get('minimum') if constraints.get('minimum') else 0
-                maximum = constraints.get('maximum') if constraints.get('maximum') else 10 ** length
+            if field.constraints:
+                minimum = field.constraints.get('minimum') if field.constraints.get('minimum') else 0
+                maximum = field.constraints.get('maximum') if field.constraints.get('maximum') else (10 ** length) - 1
+                field.constraints.update({'minimum': minimum, 'maximum': maximum})
+                assert schema.update_field(field.name, field.descriptor)
             else:
-                minimum, maximum = 0, 10 ** length
-            assert schema.update_field(field.name, {'constraints': {'minimum': minimum, 'maximum': maximum}})
-
-
-def get_enum_constraints(schema):
-    for field in schema.fields:
-        constraints = field.descriptor.get('constraints')
-        if constraints and constraints.get('enum'):
-            assert schema.update_field(field.name, {'constraints': {'enum': constraints.get('enum')}})
+                minimum, maximum = 0, (10 ** length) - 1
+                assert schema.update_field(field.name, {'constraints': {'minimum': minimum, 'maximum': maximum}})
 
 
 def replace_nomenclatures_by_foreign_key_reference(schema, nomenclature_to_fk_reference):

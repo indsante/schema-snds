@@ -4,108 +4,141 @@
             "name": "TYP_ART",
             "description": "Type d'enregistrement",
             "type": "string",
-            "nomenclature": "-",
-            "length": null,
+            "nomenclature": "MS_ENR_V",
+            "length": "1",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
         },
         {
             "name": "ETA_NUM_EPMSI",
             "description": "Numéro FINESS de l’entité juridique",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 9
+            }
         },
         {
             "name": "ETA_NUM_TWO",
             "description": "Numéro FINESS de l’établissement (site géographique)",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 9
+            }
         },
         {
             "name": "RIP_NUM",
             "description": "Numéro séquentiel de séjour (idem RPSA)",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "6",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 6
+            }
         },
         {
             "name": "FAC_NUM",
             "description": "N° séquentiel de facture",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "3",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 3
+            }
         },
         {
             "name": "ENT_MOI",
             "description": "Mois de la date d'entrée",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
-            "length": null,
-            "format": "default",
+            "length": "2",
+            "format": "%m",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
             "name": "ENT_ANN",
             "description": "Année de la date d'entrée",
-            "type": "string",
+            "type": "year",
             "nomenclature": "-",
-            "length": null,
+            "length": "4",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
             "name": "SOR_MOI",
             "description": "Mois de la date de sortie",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
-            "length": null,
-            "format": "default",
+            "length": "2",
+            "format": "%m",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
             "name": "SOR_ANN",
             "description": "Année de la date de sortie",
-            "type": "string",
+            "type": "year",
             "nomenclature": "-",
-            "length": null,
+            "length": "4",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -116,8 +149,10 @@
             "length": null,
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -125,12 +160,17 @@
             "description": "Sexe",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
         },
         {
             "name": "AGE_ANN",
@@ -140,117 +180,164 @@
             "length": null,
             "format": "default",
             "dateCreated": "2014",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
             "name": "COD_CIV",
-            "description": "Code civilité ",
+            "description": "Code civilité",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
         },
         {
             "name": "RNG_BEN",
             "description": "Rang de bénéficiaire",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "3",
             "format": "default",
             "dateCreated": "2016",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 3
+            }
         },
         {
             "name": "OPE_NAT",
             "description": "Nature opération",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
         },
         {
             "name": "NAT_ASS",
             "description": "Nature assurance",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 2
+            }
         },
         {
             "name": "CON_TYP",
             "description": "Type de contrat souscrit auprès d'un organisme complémentaire",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 2
+            }
         },
         {
             "name": "EXO_TM",
             "description": "Justification d'exonération du TM",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
         },
         {
             "name": "COD_PEC",
             "description": "Code de prise en charge",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
         },
         {
             "name": "NOE_RGM",
             "description": "Code Gd régime",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 2
+            }
         },
         {
             "name": "RNG_NAI",
             "description": "Rang de naissance",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2016",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
         },
         {
             "name": "PH_BRM",
@@ -260,8 +347,10 @@
             "length": null,
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -272,8 +361,10 @@
             "length": null,
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -284,8 +375,10 @@
             "length": null,
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -296,8 +389,10 @@
             "length": null,
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -308,8 +403,10 @@
             "length": null,
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -320,8 +417,10 @@
             "length": null,
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -332,8 +431,10 @@
             "length": null,
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -344,8 +445,10 @@
             "length": null,
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -353,53 +456,72 @@
             "description": "Etat de liquidation de la facture",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
         },
         {
             "name": "BEN_CMU",
             "description": "Patient bénéficiaire de la CMU",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
         },
         {
             "name": "ORG_CPL_NUM",
             "description": "N° d’organisme complémentaire",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "10",
             "format": "default",
             "dateCreated": "2015",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 10
+            }
         },
         {
             "name": "NUM_DAT_AT",
             "description": "Numéro accident du travail ou date d’accident de droit commun",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
             "dateCreated": "2015",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 9
+            }
         }
     ],
     "name": "T_RIPaa_nnFA",
     "title": "debut facture",
-    "description": "Champ : Privé",
     "produit": "PMSI RIM-P",
     "missingValues": [
         ""
@@ -417,11 +539,25 @@
                     "RIP_NUM"
                 ]
             }
+        },
+        {
+            "fields": [
+                "TYP_ART"
+            ],
+            "reference": {
+                "resource": "MS_ENR_V",
+                "fields": [
+                    "ENR_COD"
+                ]
+            },
+            "description": "Nomenclature"
         }
     ],
     "history": {
         "dateCreated": "2010",
-        "dateDeleted": "2017",
+        "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Privé",
+    "observation": ""
 }

@@ -9,7 +9,7 @@ pytest
 pytest-env
 requests
 SQLAlchemy
-tsfaker
+tsfaker>=0.12
 tableschema
 -e git+https://github.com/pajachiet/table-schema-to-markdown@change-format-for-documentation-snds#egg=table-schema-to-markdown
 tableschema-sql

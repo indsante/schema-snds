@@ -3,13 +3,15 @@
         {
             "name": "ANN",
             "description": "Année période",
-            "type": "string",
+            "type": "year",
             "nomenclature": "-",
-            "length": null,
+            "length": "4",
             "format": "default",
             "dateCreated": "2009",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -17,89 +19,139 @@
             "description": "N° FINESS",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
             "dateCreated": "2009",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 9
+            }
         },
         {
             "name": "ETA_NUM_ENT",
             "description": "N° FINESS du fichier d'entrée",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
             "dateCreated": "2017",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 9
+            }
         },
         {
             "name": "MOI",
             "description": "N° période (mois)",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
-            "length": null,
-            "format": "default",
+            "length": "2",
+            "format": "%m",
             "dateCreated": "2009",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
             "name": "NBR_PRS",
             "description": "Nombre de suppléments DIP",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
-            "length": null,
+            "length": "10",
             "format": "default",
             "dateCreated": "2011",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "number"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 9999999999
+            }
         },
         {
             "name": "PRS_COD",
             "description": "Code Prestation",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "3",
             "format": "default",
             "dateCreated": "2009",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 3
+            }
         },
         {
             "name": "PRS_TYP",
             "description": "Type de prestation",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
             "dateCreated": "2009",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 2
+            }
         },
         {
             "name": "RSA_NUM",
             "description": "N° d'index du RSA",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "10",
             "format": "default",
             "dateCreated": "2009",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 10
+            }
+        },
+        {
+            "name": "FAC_SEM_NBR",
+            "description": "Nombre de semaine facturées",
+            "type": "integer",
+            "length": "3",
+            "dateCreated": "2009",
+            "dateDeleted": "2011",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 999
+            }
         }
     ],
     "name": "T_MCOaa_nnDIALP",
     "title": "Fich comp dialyse péritonéale en sus",
-    "description": "Champ : Public",
     "produit": "PMSI MCO",
     "missingValues": [
         ""
@@ -121,7 +173,9 @@
     ],
     "history": {
         "dateCreated": "2009",
-        "dateDeleted": "2017",
+        "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public",
+    "observation": ""
 }

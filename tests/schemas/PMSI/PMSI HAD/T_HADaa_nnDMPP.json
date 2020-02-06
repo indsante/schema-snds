@@ -5,11 +5,13 @@
             "description": "Diagnostic lié au MPP",
             "type": "string",
             "nomenclature": "MS_CIM_V",
-            "length": null,
+            "length": "6",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -17,11 +19,13 @@
             "description": "N° FINESS e-PMSI",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
-            "dateCreated": "",
+            "dateCreated": "2012",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -29,11 +33,13 @@
             "description": "Numéro FINESS de l’établissement (code géographique)",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
             "dateCreated": "2017",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -41,11 +47,13 @@
             "description": "N° séquentiel de séjour d'HAD",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "5",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -53,11 +61,13 @@
             "description": "N° de la séquence dans le séjour",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "4",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -65,17 +75,32 @@
             "description": "N° de la sous-séquence",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "4",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ETA_NUM_TWO",
+            "description": "Numéro FINESS de l’établissement (code géographique)",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2012",
+            "dateDeleted": "2017",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         }
     ],
     "name": "T_HADaa_nnDMPP",
     "title": "Table des diagnostics liés au MPP (mode de prise en charge principal)",
-    "description": "Champ : Public et Privé",
     "produit": "PMSI HAD",
     "missingValues": [
         ""
@@ -97,7 +122,9 @@
     ],
     "history": {
         "dateCreated": "2012",
-        "dateDeleted": "2017",
+        "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public et Privé",
+    "observation": ""
 }

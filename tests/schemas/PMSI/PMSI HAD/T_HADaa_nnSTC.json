@@ -5,11 +5,13 @@
             "description": "N° FINESS e-PMSI",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
             "dateCreated": "2007",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -17,11 +19,13 @@
             "description": "Numéro FINESS de l’établissement (code géographique)",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
             "dateCreated": "2017",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -29,11 +33,13 @@
             "description": "N° séquentiel de séjour d'HAD",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "5",
             "format": "default",
             "dateCreated": "2007",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -41,11 +47,13 @@
             "description": "Contrôle code grand régime",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2008",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -53,11 +61,13 @@
             "description": "Code retour controle «code gestion»",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2014",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -65,11 +75,13 @@
             "description": "Contrôle code justification d'exonération du TM",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2007",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -77,11 +89,13 @@
             "description": "Contrôle code prise en charge forfait journalier",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2007",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -89,11 +103,13 @@
             "description": "Contrôle code nature d'assurance",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2007",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -101,11 +117,13 @@
             "description": "Contrôle type de contrat souscrit auprès d'un organisme complémentaire",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2008",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -113,11 +131,13 @@
             "description": "Contrôle code séjour facturable à l'AM",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2007",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -125,11 +145,13 @@
             "description": "Code retour contrôle « motif de la non facturation à l'assurance maladie »",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2009",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -137,11 +159,13 @@
             "description": "Contrôle code facturation des 18 euros",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2007",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -149,11 +173,13 @@
             "description": "Contrôle format nombre de venues",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2007",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -161,11 +187,13 @@
             "description": "Contrôle format montant à facturer au titre du TM",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2007",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -173,11 +201,13 @@
             "description": "Contrôle format montant à facturer au titre du FJ",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2007",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -185,11 +215,13 @@
             "description": "Contrôle format montant total remboursable par AM",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2007",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -197,11 +229,13 @@
             "description": "Contrôle format montant majoration parcours de soins",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2007",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -209,11 +243,13 @@
             "description": "Contrôle montant base remboursement",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2008",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -221,11 +257,13 @@
             "description": "Contrôle taux de remboursement",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2008",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -233,11 +271,13 @@
             "description": "Code retour contrôle « Patient bénéficiaire de la CMU »",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2011",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -245,11 +285,13 @@
             "description": "code retour controlme identifiant anonyme hosp",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2013",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -257,11 +299,13 @@
             "description": "Code retour contrôle « Montant total du séjour remboursable pour l'AMC »",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -269,11 +313,13 @@
             "description": "Code retour contrôle « Code participation assuré »",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2014",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -281,107 +327,125 @@
             "description": "Code retour contrôle « N° d’entrée »",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2014",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
             "name": "PEC_SOI_URG_CTL",
-            "description": "Code retour contrôle «Confirmation de la prise en charge dans le cadre du dispositif des soins urgents« ",
+            "description": "Code retour contrôle \"Confirmation de la prise en charge dans le cadre du dispositif des soins urgents\"",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2015",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
             "name": "NAT_PJ_DT_CTL",
-            "description": "Code retour contrôle «Nature de la pièce justificative des droits«",
+            "description": "Code retour contrôle \"Nature de la pièce justificative des droits\"",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2017",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
             "name": "DAT_PEC_CTL",
-            "description": "Code retour contrôle «Prise en charge établie le«",
+            "description": "Code retour contrôle \"Prise en charge établie le\"",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2017",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
             "name": "CAI_NUM_CTL",
-            "description": "Code retour contrôle «Délivrée par«",
+            "description": "Code retour contrôle \"Délivrée par\"",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2017",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
             "name": "REG_PEC_ASS_CTL",
-            "description": "Code retour contrôle «Régime de prestation de l’assuré«",
+            "description": "Code retour contrôle \"Régime de prestation de l’assuré\"",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2017",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
             "name": "TOP_ECL_FLX_CTL",
-            "description": "Code retour contrôle «Top éclatement des flux par l’établissement«",
+            "description": "Code retour contrôle \"Top éclatement des flux par l’établissement\"",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2017",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
             "name": "DAT_DEB_FAC_CTL",
-            "description": "Code retour contrôle «Date d’entrée«",
+            "description": "Code retour contrôle \"Date d’entrée\"",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2017",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
             "name": "DAT_FIN_FAC_CTL",
-            "description": "Code retour contrôle «Date de sortie«",
+            "description": "Code retour contrôle \"Date de sortie\"",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2017",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -389,11 +453,13 @@
             "description": "Code retour contrôle « N° caisse gestionnaire »",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2014",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -401,11 +467,13 @@
             "description": "Code retour contrôle « N° centre gestionnaire »",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2014",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -413,11 +481,13 @@
             "description": "Code grand régime",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
             "dateCreated": "2008",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -425,11 +495,13 @@
             "description": "Code gestion",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
             "dateCreated": "2014",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -437,11 +509,13 @@
             "description": "Code justification d’exonération du ticket modérateur",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2007",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -449,11 +523,13 @@
             "description": "Code de prise en charge du forfait journalier",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2007",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -461,11 +537,13 @@
             "description": "Nature d’assurance",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
             "dateCreated": "2007",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -473,11 +551,13 @@
             "description": "Type de contrat souscrit auprès d'un organisme complémentaire",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
             "dateCreated": "2008",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -485,11 +565,13 @@
             "description": "Séjour facturable à l’assurance maladie",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2007",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -497,11 +579,13 @@
             "description": "Motif de la non facturation à l'assurance maladie",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2009",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -509,23 +593,27 @@
             "description": "Facturation du 18 euros",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2007",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
             "name": "FAC_NBR_VEN",
             "description": "Nombre de venues de la facture",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
-            "length": null,
+            "length": "5",
             "format": "default",
             "dateCreated": "2007",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -536,8 +624,10 @@
             "length": null,
             "format": "default",
             "dateCreated": "2007",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -548,8 +638,10 @@
             "length": null,
             "format": "default",
             "dateCreated": "2007",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -560,8 +652,10 @@
             "length": null,
             "format": "default",
             "dateCreated": "2007",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -572,8 +666,10 @@
             "length": null,
             "format": "default",
             "dateCreated": "2007",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -584,8 +680,10 @@
             "length": null,
             "format": "default",
             "dateCreated": "2008",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -596,8 +694,10 @@
             "length": null,
             "format": "default",
             "dateCreated": "2008",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -605,11 +705,13 @@
             "description": "Patient bénéficiaire de la CMU",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2011",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -617,11 +719,13 @@
             "description": "Date de l’hospitalisation cryptee",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "8",
             "format": "default",
             "dateCreated": "2013",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -632,20 +736,24 @@
             "length": null,
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
             "name": "PA_COD",
-            "description": "Code participation assuré ",
+            "description": "Code participation assuré",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2014",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -653,11 +761,13 @@
             "description": "N° d’entrée",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
             "dateCreated": "2014",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -665,35 +775,41 @@
             "description": "N° caisse gestionnaire",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "3",
             "format": "default",
             "dateCreated": "2014",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
             "name": "CENT_GES",
-            "description": "N° centre gestionnaire ",
+            "description": "N° centre gestionnaire",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "4",
             "format": "default",
             "dateCreated": "2014",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
             "name": "PEC_SOI_URG",
-            "description": "Confirmation de la prise en charge dans le cadre du dispositif des soins urgents ",
+            "description": "Confirmation de la prise en charge dans le cadre du dispositif des soins urgents",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2015",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -701,23 +817,27 @@
             "description": "Nature de la pièce justificative des droits",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2017",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
             "name": "DAT_PEC",
             "description": "Prise en charge établie le",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
-            "length": null,
+            "length": "8",
             "format": "default",
             "dateCreated": "2017",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -725,11 +845,13 @@
             "description": "Délivrée par",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "3",
             "format": "default",
             "dateCreated": "2017",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -737,11 +859,13 @@
             "description": "Régime de prestation de l’assuré",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "3",
             "format": "default",
             "dateCreated": "2017",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -749,35 +873,41 @@
             "description": "Top éclatement des flux par l’établissement",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2017",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
             "name": "DAT_DEB_FAC",
             "description": "Date d’entrée",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
-            "length": null,
+            "length": "8",
             "format": "default",
             "dateCreated": "2017",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
             "name": "DAT_FIN_FAC",
             "description": "Date de sortie",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
-            "length": null,
+            "length": "8",
             "format": "default",
             "dateCreated": "2017",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -790,6 +920,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -797,11 +929,13 @@
             "description": "Code retour contrôle « Rejet AMO «",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "5",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -814,6 +948,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -826,6 +962,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -838,6 +976,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -850,6 +990,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -862,6 +1004,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -874,6 +1018,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -886,6 +1032,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -898,6 +1046,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -910,6 +1060,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -922,6 +1074,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -934,6 +1088,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -941,11 +1097,13 @@
             "description": "Rejet AMO",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "5",
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -958,6 +1116,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -970,6 +1130,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -982,6 +1144,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -994,6 +1158,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -1006,6 +1172,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -1018,6 +1186,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -1030,6 +1200,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -1042,6 +1214,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -1054,6 +1228,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -1066,12 +1242,83 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "RNG_NAI",
+            "description": "Rang de naissance",
+            "type": "string",
+            "length": "1",
+            "dateCreated": "2014",
+            "dateDeleted": "2015",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "RNG_BEN",
+            "description": "Rang du bénéficiaire",
+            "type": "string",
+            "length": "3",
+            "dateCreated": "2014",
+            "dateDeleted": "2015",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ETA_NUM_TWO",
+            "description": "Numéro FINESS de l’établissement (code géographique)",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2007",
+            "dateDeleted": "2017",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "RNG_NAI_CTL",
+            "description": "Code retour contrôle « Rang de naissance »",
+            "type": "string",
+            "length": "1",
+            "dateCreated": "2014",
+            "dateDeleted": "2015",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "RNG_BEN_CTL",
+            "description": "Code retour contrôle « Rang du bénéficiaire »",
+            "type": "string",
+            "length": "1",
+            "dateCreated": "2014",
+            "dateDeleted": "2015",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         }
     ],
     "name": "T_HADaa_nnSTC",
-    "title": "Prise en charge par l'AM de chaque séjour, pour les établissements valorisés STC ",
-    "description": "Champ : Public",
+    "title": "Prise en charge par l'AM de chaque séjour, pour les établissements valorisés STC",
     "produit": "PMSI HAD",
     "missingValues": [
         ""
@@ -1093,7 +1340,9 @@
     ],
     "history": {
         "dateCreated": "2007",
-        "dateDeleted": "2017",
+        "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public",
+    "observation": ""
 }

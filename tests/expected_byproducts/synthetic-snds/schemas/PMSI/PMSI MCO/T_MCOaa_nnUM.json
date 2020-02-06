@@ -3,223 +3,452 @@
         {
             "name": "ACT_RUM_NBR",
             "description": "Nombre de zones d'actes du RUM (Nb_Act_R_1)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
-            "length": null,
+            "length": "3",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "number"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 999
+            }
         },
         {
             "name": "AGE_GES",
             "description": "Age gestationnel du RUM",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
             "dateCreated": "2014",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "number"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 99
+            }
         },
         {
             "name": "AUT_TYP1_UM",
             "description": "Premier type d'autorisation d'UM",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "4",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 4
+            }
         },
         {
             "name": "AUT_TYP2_UM",
             "description": "Deuxième type d'autorisation d'UM",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "4",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 4
+            }
         },
         {
             "name": "DGN_ASS_NBR",
             "description": "Nombre de diagnostics associés du RUM (Nb_DA_R_1)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "number"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 99
+            }
         },
         {
             "name": "DGN_PAL",
             "description": "DP",
             "type": "string",
             "nomenclature": "MS_CIM_V",
-            "length": null,
+            "length": "6",
             "format": "default",
             "dateCreated": "2008",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 6
+            }
         },
         {
             "name": "DGN_REL",
             "description": "DR",
             "type": "string",
             "nomenclature": "MS_CIM_V",
-            "length": null,
+            "length": "6",
             "format": "default",
             "dateCreated": "2008",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 6
+            }
         },
         {
             "name": "ETA_NUM",
             "description": "Numéro FINESS e-PMSI",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
             "dateCreated": "2006",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 9
+            }
         },
         {
             "name": "ETA_NUM_GEO",
             "description": "Premier numéro FINESS géographique",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
             "dateCreated": "2013",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 9
+            }
         },
         {
             "name": "IGS2_COD",
             "description": "IGS2",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "3",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 3
+            }
         },
         {
             "name": "PAR_DUR_SEJ",
             "description": "Durée séjour partielle",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
-            "length": null,
+            "length": "4",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "number"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 9999
+            }
         },
         {
             "name": "RSA_NUM",
-            "description": "N° d'index du RSA ",
+            "description": "N° d'index du RSA",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "10",
             "format": "default",
             "dateCreated": "2006",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 10
+            }
         },
         {
             "name": "RSS_NUM",
             "description": "Numéro de version du format du RSA",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "3",
             "format": "default",
             "dateCreated": "2006",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 3
+            }
         },
         {
             "name": "SUP_TYP1_NAT",
             "description": "Nature du supplément pour le premier type",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 2
+            }
         },
         {
             "name": "SUP_TYP1_NBR",
             "description": "Nombre de supplément pour le premier type",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
-            "length": null,
+            "length": "4",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "number"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 9999
+            }
         },
         {
             "name": "SUP_TYP2_NAT",
             "description": "Nature du supplément pour le deuxième type",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 2
+            }
         },
         {
             "name": "SUP_TYP2_NBR",
             "description": "Nombre de supplément pour le deuxième type",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
-            "length": null,
+            "length": "4",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "number"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 9999
+            }
         },
         {
             "name": "UM_ORD_NUM",
             "description": "N° séquentiel de RUM",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 99
+            }
+        },
+        {
+            "name": "UM_TYP",
+            "description": "Type d'UM",
+            "type": "string",
+            "length": "2",
+            "dateCreated": "2006",
+            "dateDeleted": "2010",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 2
+            }
+        },
+        {
+            "name": "DP_POS",
+            "description": "Position du DP",
+            "type": "string",
+            "length": "10",
+            "dateCreated": "2006",
+            "dateDeleted": "2008",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 10
+            }
+        },
+        {
+            "name": "VAL_PAR",
+            "description": "Valorisation partielle",
+            "type": "string",
+            "length": "1",
+            "dateCreated": "2006",
+            "dateDeleted": "2010",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
+        },
+        {
+            "name": "ETA_NUM_GEO2",
+            "description": "Deuxième numéro FINESS géographique",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2012",
+            "dateDeleted": "2013",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 9
+            }
+        },
+        {
+            "name": "VAL_REA",
+            "description": "Valorisation réa",
+            "type": "string",
+            "length": "1",
+            "dateCreated": "2006",
+            "dateDeleted": "2010",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
+        },
+        {
+            "name": "IND_SRC",
+            "description": "Indicateur de SRC",
+            "type": "string",
+            "length": "1",
+            "dateCreated": "2009",
+            "dateDeleted": "2010",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
+        },
+        {
+            "name": "ETA_NUM_GEO1",
+            "description": "Premier numéro FINESS géographique",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2012",
+            "dateDeleted": "2013",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 9
+            }
+        },
+        {
+            "name": "PAR_NBR_SEJ",
+            "description": "Durée séjour partielle",
+            "type": "number",
+            "length": null,
+            "dateCreated": "2006",
+            "dateDeleted": "2010",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         }
     ],
     "name": "T_MCOaa_nnUM",
     "title": "Unité médicale",
-    "description": "Champ : Public et Privé",
     "produit": "PMSI MCO",
     "missingValues": [
         ""
@@ -265,7 +494,9 @@
     ],
     "history": {
         "dateCreated": "2006",
-        "dateDeleted": "2017",
+        "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public et Privé",
+    "observation": "Cette table contient tous les RUM (Résumé d'Unité Médical) d'un séjour; Il y a une ligne par RUM ms l'UM n'est toujours renseigné. Attention il y a de RSA fictifs qu'ils faut filtrer =>voir règles de gestion pour les supprimer (pas de possibilté de filtrer sans croiser avec la table MCOB)."
 }

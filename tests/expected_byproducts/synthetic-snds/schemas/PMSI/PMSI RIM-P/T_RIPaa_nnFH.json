@@ -4,61 +4,86 @@
             "name": "TYP_ART",
             "description": "Type d'enregistrement",
             "type": "string",
-            "nomenclature": "-",
-            "length": null,
+            "nomenclature": "MS_ENR_V",
+            "length": "1",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
         },
         {
             "name": "ETA_NUM_EPMSI",
             "description": "Numéro FINESS de l’entité juridique",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 9
+            }
         },
         {
             "name": "ETA_NUM_TWO",
             "description": "Numéro FINESS de l’établissement (site géographique)",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 9
+            }
         },
         {
             "name": "RIP_NUM",
             "description": "Numéro séquentiel de séjour (idem RPSA)",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "6",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 6
+            }
         },
         {
             "name": "FAC_NUM",
             "description": "N° séquentiel de facture",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "3",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 3
+            }
         },
         {
             "name": "DEL_DAT_ENT",
@@ -68,32 +93,38 @@
             "length": null,
             "format": "default",
             "dateCreated": "2013",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
             "name": "ENT_MOI",
             "description": "Mois de la date de début de séjour",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
-            "length": null,
-            "format": "default",
+            "length": "2",
+            "format": "%m",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
             "name": "ENT_ANN",
             "description": "Année de la date de début de séjour",
-            "type": "string",
+            "type": "year",
             "nomenclature": "-",
-            "length": null,
+            "length": "4",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -101,12 +132,17 @@
             "description": "Code UCD",
             "type": "string",
             "nomenclature": "NU_UCD_R",
-            "length": null,
+            "length": "7",
             "format": "default",
-            "dateCreated": "",
+            "dateCreated": "2010",
             "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 7
+            }
         },
         {
             "name": "COE_TAU",
@@ -116,8 +152,10 @@
             "length": null,
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -127,9 +165,11 @@
             "nomenclature": "-",
             "length": null,
             "format": "default",
-            "dateCreated": "",
+            "dateCreated": "2010",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -139,9 +179,11 @@
             "nomenclature": "-",
             "length": null,
             "format": "default",
-            "dateCreated": "",
+            "dateCreated": "2010",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -152,8 +194,10 @@
             "length": null,
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -164,8 +208,10 @@
             "length": null,
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -175,9 +221,11 @@
             "nomenclature": "-",
             "length": null,
             "format": "default",
-            "dateCreated": "",
+            "dateCreated": "2010",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -185,17 +233,21 @@
             "description": "Code UCD (0 à gauche)",
             "type": "string",
             "nomenclature": "NU_UCD_R",
-            "length": null,
+            "length": "13",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 13
+            }
         }
     ],
     "name": "T_RIPaa_nnFH",
     "title": "medicament",
-    "description": "Champ : Privé",
     "produit": "PMSI RIM-P",
     "missingValues": [
         ""
@@ -213,6 +265,18 @@
                     "RIP_NUM"
                 ]
             }
+        },
+        {
+            "fields": [
+                "TYP_ART"
+            ],
+            "reference": {
+                "resource": "MS_ENR_V",
+                "fields": [
+                    "ENR_COD"
+                ]
+            },
+            "description": "Nomenclature"
         },
         {
             "fields": [
@@ -241,7 +305,9 @@
     ],
     "history": {
         "dateCreated": "2010",
-        "dateDeleted": "2017",
+        "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Privé",
+    "observation": ""
 }

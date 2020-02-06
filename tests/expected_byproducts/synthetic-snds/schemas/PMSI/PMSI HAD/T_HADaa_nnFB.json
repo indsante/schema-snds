@@ -4,13 +4,18 @@
             "name": "ACT_COD",
             "description": "Code acte",
             "type": "string",
-            "nomenclature": "-",
-            "length": null,
+            "nomenclature": "IR_ACT_COD",
+            "length": "5",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 5
+            }
         },
         {
             "name": "ACT_COE",
@@ -20,21 +25,29 @@
             "length": null,
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
             "name": "ACT_NBR",
             "description": "Quantité",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
-            "length": null,
+            "length": "5",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "number"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 99999
+            }
         },
         {
             "name": "AMC_MNR",
@@ -44,8 +57,10 @@
             "length": null,
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -56,8 +71,10 @@
             "length": null,
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -68,32 +85,38 @@
             "length": null,
             "format": "default",
             "dateCreated": "2013",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
             "name": "ENT_ANN",
             "description": "Année de la date de début de séjour",
-            "type": "string",
+            "type": "year",
             "nomenclature": "-",
-            "length": null,
+            "length": "4",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
             "name": "ENT_MOI",
             "description": "Mois de la date de début de séjour",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
-            "length": null,
-            "format": "default",
+            "length": "2",
+            "format": "%m",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -101,24 +124,34 @@
             "description": "N° FINESS e-PMSI",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 9
+            }
         },
         {
             "name": "ETA_NUM_GEO",
             "description": "Numéro FINESS  géographique",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
             "dateCreated": "2017",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 9
+            }
         },
         {
             "name": "ETE_GHS_NUM",
@@ -128,8 +161,10 @@
             "length": null,
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -137,12 +172,17 @@
             "description": "Justification exonération TM",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
         },
         {
             "name": "FAC_MNT",
@@ -152,8 +192,10 @@
             "length": null,
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -161,36 +203,51 @@
             "description": "N° séquentiel de facture (idem RAPSS)",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "5",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 5
+            }
         },
         {
             "name": "FJ_COD_PEC",
             "description": "Code prise en charge FJ",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
         },
         {
             "name": "GHT_NUM",
             "description": "N° de GHT",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "4",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 4
+            }
         },
         {
             "name": "HAD_COE",
@@ -200,8 +257,10 @@
             "length": null,
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -212,8 +271,10 @@
             "length": null,
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -221,12 +282,17 @@
             "description": "Nature opération récupération NOEMIE Retour",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "3",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 3
+            }
         },
         {
             "name": "PRI_UNI",
@@ -236,8 +302,10 @@
             "length": null,
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -245,24 +313,34 @@
             "description": "Discipline de prestation (ex DMT)",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "3",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 3
+            }
         },
         {
             "name": "PSH_MDT",
             "description": "Mode de traitement",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 2
+            }
         },
         {
             "name": "REM_BAS",
@@ -272,8 +350,10 @@
             "length": null,
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -284,8 +364,10 @@
             "length": null,
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -293,53 +375,83 @@
             "description": "Numéro séquentiel d'entrée (idem RAPSS)",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "5",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 5
+            }
         },
         {
             "name": "SOR_ANN",
             "description": "Année de la date de fin de séjour",
-            "type": "string",
+            "type": "year",
             "nomenclature": "-",
-            "length": null,
+            "length": "4",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
             "name": "SOR_MOI",
             "description": "Mois de la date de fin de séjour",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
-            "length": null,
-            "format": "default",
+            "length": "2",
+            "format": "%m",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
             "name": "TYP_ART",
             "description": "Type d'enregistrement",
             "type": "string",
-            "nomenclature": "-",
-            "length": null,
+            "nomenclature": "MS_ENR_V",
+            "length": "1",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
+        },
+        {
+            "name": "ETA_NUM_TWO",
+            "description": "Numéro FINESS de l’établissement (site géographique)",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2010",
+            "dateDeleted": "2017",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 9
+            }
         }
     ],
     "name": "T_HADaa_nnFB",
     "title": "Table FB : Table des RSFA facture des établissements ex-OQN",
-    "description": "Champ : Privé",
     "produit": "PMSI HAD",
     "missingValues": [
         ""
@@ -357,11 +469,37 @@
                     "RHAD_NUM"
                 ]
             }
+        },
+        {
+            "fields": [
+                "ACT_COD"
+            ],
+            "reference": {
+                "resource": "IR_ACT_COD",
+                "fields": [
+                    "ACT_COD"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "TYP_ART"
+            ],
+            "reference": {
+                "resource": "MS_ENR_V",
+                "fields": [
+                    "ENR_COD"
+                ]
+            },
+            "description": "Nomenclature"
         }
     ],
     "history": {
         "dateCreated": "2010",
-        "dateDeleted": "2017",
+        "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Privé",
+    "observation": ""
 }

@@ -5,59 +5,81 @@
             "description": "N° séquentiel",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "8",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 8
+            }
         },
         {
             "name": "TYP_ART",
             "description": "Type d'enregistrement",
             "type": "string",
-            "nomenclature": "-",
-            "length": null,
+            "nomenclature": "MS_ENR_V",
+            "length": "1",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
         },
         {
             "name": "RSF_TYP",
             "description": "Type de format RSF (1 : ancien, 2 : nouveau)",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
         },
         {
             "name": "NUM_FAC",
             "description": "N° Facture séquentiel",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "3",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 3
+            }
         },
         {
             "name": "SOR_ANN",
             "description": "Année des soins",
-            "type": "string",
+            "type": "year",
             "nomenclature": "-",
-            "length": null,
+            "length": "4",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -68,20 +90,24 @@
             "length": null,
             "format": "default",
             "dateCreated": "2013",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
             "name": "SOR_MOI",
             "description": "Mois des soins",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
-            "length": null,
-            "format": "default",
+            "length": "2",
+            "format": "%m",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -89,83 +115,115 @@
             "description": "Numéro FINESS",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 9
+            }
         },
         {
             "name": "PSH_MDT",
             "description": "Mode de traitement",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 2
+            }
         },
         {
             "name": "PSH_DMT",
             "description": "Discipline de prestation (ex DMT)",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "3",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 3
+            }
         },
         {
             "name": "EXO_TM",
             "description": "Justification exo TM",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
         },
         {
             "name": "EXE_SPE",
             "description": "Spécialité exécutant",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 2
+            }
         },
         {
             "name": "ACT_COD",
             "description": "Code acte",
             "type": "string",
-            "nomenclature": "-",
-            "length": null,
+            "nomenclature": "IR_ACT_COD",
+            "length": "5",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 5
+            }
         },
         {
             "name": "ACT_NBR",
             "description": "Quantité",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -176,8 +234,10 @@
             "length": null,
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -188,8 +248,10 @@
             "length": null,
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -200,8 +262,10 @@
             "length": null,
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -212,8 +276,10 @@
             "length": null,
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -224,8 +290,10 @@
             "length": null,
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -236,8 +304,10 @@
             "length": null,
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -248,8 +318,10 @@
             "length": null,
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -260,8 +332,10 @@
             "length": null,
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -274,6 +348,8 @@
             "dateCreated": "2017",
             "dateDeleted": "2017",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -286,6 +362,8 @@
             "dateCreated": "2017",
             "dateDeleted": "2017",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -298,12 +376,13 @@
             "dateCreated": "2017",
             "dateDeleted": "2017",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         }
     ],
     "name": "T_SSRaa_nnFBSTC",
     "title": "ACE Prestation",
-    "description": "Champ : Public",
     "produit": "PMSI SSR",
     "missingValues": [
         ""
@@ -325,11 +404,37 @@
                     "SEQ_NUM"
                 ]
             }
+        },
+        {
+            "fields": [
+                "TYP_ART"
+            ],
+            "reference": {
+                "resource": "MS_ENR_V",
+                "fields": [
+                    "ENR_COD"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "ACT_COD"
+            ],
+            "reference": {
+                "resource": "IR_ACT_COD",
+                "fields": [
+                    "ACT_COD"
+                ]
+            },
+            "description": "Nomenclature"
         }
     ],
     "history": {
         "dateCreated": "2012",
-        "dateDeleted": "2017",
+        "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public",
+    "observation": "A partir de 2012"
 }

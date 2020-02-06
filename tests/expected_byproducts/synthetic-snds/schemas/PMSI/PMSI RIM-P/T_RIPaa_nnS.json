@@ -5,60 +5,85 @@
             "description": "Numéro FINESS e-PMSI",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
             "dateCreated": "2015",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 9
+            }
         },
         {
             "name": "FOR_NUM",
             "description": "Numéro de version du format de SRPSA",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "3",
             "format": "default",
             "dateCreated": "2015",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 3
+            }
         },
         {
             "name": "ETA_NUM_TWO",
             "description": "Numéro FINES géographique",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
             "dateCreated": "2015",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 9
+            }
         },
         {
             "name": "RIP_NUM",
             "description": "N° séquentiel de séjour",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "6",
             "format": "default",
             "dateCreated": "2015",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 6
+            }
         },
         {
             "name": "COD_SEX",
             "description": "Sexe du patient",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2015",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
         },
         {
             "name": "SEJ_DUREE",
@@ -68,68 +93,90 @@
             "length": null,
             "format": "default",
             "dateCreated": "2015",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
             "name": "SEJ_NBJ",
             "description": "Nombre de journées de présence ",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
-            "length": null,
+            "length": "5",
             "format": "default",
             "dateCreated": "2017",
             "dateDeleted": "2017",
             "dateMissing": [],
-            "type_oracle": "number"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 99999
+            }
         },
         {
             "name": "SEJ_FINI",
             "description": "Indicateur de séjour terminé",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2015",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
         },
         {
             "name": "HOS_TYP",
             "description": "Type d'hospitalisation",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2015",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
         },
         {
             "name": "SOR_MOI",
             "description": "Mois de la date de sortie du séjour",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
-            "length": null,
-            "format": "default",
+            "length": "2",
+            "format": "%m",
             "dateCreated": "2015",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
             "name": "SOR_ANN",
             "description": "Année de la date de sortie du séjour",
-            "type": "string",
+            "type": "year",
             "nomenclature": "-",
-            "length": null,
+            "length": "4",
             "format": "default",
             "dateCreated": "2015",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -137,65 +184,117 @@
             "description": "Mode d’entrée",
             "type": "string",
             "nomenclature": "MS_SOR_V",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2015",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
         },
         {
             "name": "ENT_PRV",
             "description": "Provenance",
             "type": "string",
             "nomenclature": "MS_PRV_V",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2015",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
         },
         {
             "name": "SOR_MOD",
             "description": "Mode de sortie",
             "type": "string",
             "nomenclature": "MS_SOR_V",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2015",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
         },
         {
             "name": "SOR_DES",
             "description": "Destination",
             "type": "string",
             "nomenclature": "MS_PRV_V",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2015",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
         },
         {
             "name": "TYP_GEN_RSA",
             "description": "Type de génération automatique du RPSA",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2015",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 1
+            }
+        },
+        {
+            "name": "SEJ_NBJ_PARTL",
+            "description": "Nombre de journées et demies journées en hospitalisation partielle",
+            "type": "number",
+            "length": null,
+            "dateCreated": "2015",
+            "dateDeleted": "2017",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "SEJ_NBJ_CPLT",
+            "description": "Nombre de journées de présence en hospitalisation complète",
+            "type": "number",
+            "length": null,
+            "dateCreated": "2015",
+            "dateDeleted": "2017",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
         }
     ],
     "name": "T_RIPaa_nnS",
     "title": "Synthèse du Séjour de Résumé par séquence anonymisé",
-    "description": "Champ : Public et Privé",
     "produit": "PMSI RIM-P",
     "missingValues": [
         ""
@@ -265,7 +364,9 @@
     ],
     "history": {
         "dateCreated": "2015",
-        "dateDeleted": "2017",
+        "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public et Privé",
+    "observation": ""
 }

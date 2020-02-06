@@ -10,6 +10,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -22,78 +24,92 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
             "name": "ANN",
             "description": "Année période de transmission",
-            "type": "string",
+            "type": "year",
             "nomenclature": "-",
             "length": null,
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
             "name": "MOI",
             "description": "Mois période de transmission",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
             "length": null,
-            "format": "default",
+            "format": "%m",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
             "name": "ANN_DEB",
             "description": "Année début de mesure",
-            "type": "string",
+            "type": "year",
             "nomenclature": "-",
             "length": null,
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
             "name": "MOI_DEB",
             "description": "Mois début de mesure",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
             "length": null,
-            "format": "default",
+            "format": "%m",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
             "name": "ANN_FIN",
             "description": "Année fin de mesure",
-            "type": "string",
+            "type": "year",
             "nomenclature": "-",
             "length": null,
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
             "name": "MOI_FIN",
             "description": "Mois fin de mesure",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
             "length": null,
-            "format": "default",
+            "format": "%m",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -106,6 +122,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -118,6 +136,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -130,6 +150,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -142,6 +164,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -154,6 +178,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -166,6 +192,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -178,12 +206,14 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         }
     ],
     "name": "T_RIPaa_nnISOCONT",
     "title": "Fich Comp : Isolement et contention",
-    "description": "Champ : Public",
+    "champ": "Public",
     "produit": "PMSI RIM-P",
     "missingValues": [
         ""
@@ -207,5 +237,6 @@
         "dateCreated": "",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "observation": ""
 }

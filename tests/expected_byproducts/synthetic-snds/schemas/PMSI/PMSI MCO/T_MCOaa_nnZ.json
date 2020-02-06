@@ -5,77 +5,108 @@
             "description": "Numéro FINESS e-PMSI",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
             "dateCreated": "2011",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 9
+            }
         },
         {
             "name": "ETE_GHS_NUM",
             "description": "Code du supplément (n° GHS)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
-            "length": null,
+            "length": "4",
             "format": "default",
             "dateCreated": "2011",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "number"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 9999
+            }
         },
         {
             "name": "GHS_SUP_COD",
             "description": "Code du supplément (n° GHS)",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "4",
             "format": "default",
             "dateCreated": "2011",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 4
+            }
         },
         {
             "name": "NBR_SUP",
             "description": "Nombre de suppléments (Nb actes menant dans le GHS)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
-            "length": null,
+            "length": "3",
             "format": "default",
             "dateCreated": "2011",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "number"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 999
+            }
         },
         {
             "name": "RSA_NUM",
-            "description": "N° d'index du RSA ",
+            "description": "N° d'index du RSA",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "10",
             "format": "default",
             "dateCreated": "2011",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 10
+            }
         },
         {
             "name": "RSS_NUM",
             "description": "Numéro de version du format du RSA",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "3",
             "format": "default",
             "dateCreated": "2011",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "type_oracle": "string"
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 3
+            }
         }
     ],
     "name": "T_MCOaa_nnZ",
     "title": "Fich comp radiothérapie",
-    "description": "Champ : Public",
     "produit": "PMSI MCO",
     "missingValues": [
         ""
@@ -97,7 +128,9 @@
     ],
     "history": {
         "dateCreated": "2011",
-        "dateDeleted": "2017",
+        "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public",
+    "observation": ""
 }

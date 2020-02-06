@@ -10,6 +10,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 9
@@ -25,10 +27,12 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 10000000000
+                "maximum": 9999999999
             }
         },
         {
@@ -41,10 +45,12 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000
+                "maximum": 99999
             }
         },
         {
@@ -57,10 +63,12 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 1000
+                "maximum": 999
             }
         },
         {
@@ -73,10 +81,12 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100
+                "maximum": 99
             }
         },
         {
@@ -89,10 +99,12 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 1000
+                "maximum": 999
             }
         },
         {
@@ -105,10 +117,12 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000
+                "maximum": 99999999
             }
         },
         {
@@ -121,6 +135,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "date"
         },
         {
@@ -133,10 +149,12 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000
+                "maximum": 99999999
             }
         },
         {
@@ -149,10 +167,12 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000
+                "maximum": 99999999
             }
         },
         {
@@ -165,10 +185,12 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000
+                "maximum": 99999999
             }
         },
         {
@@ -181,6 +203,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "date"
         },
         {
@@ -193,6 +217,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
                 "maxLength": 9
@@ -208,10 +234,12 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000
+                "maximum": 99999999
             }
         },
         {
@@ -224,16 +252,18 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000
+                "maximum": 99999999
             }
         }
     ],
     "name": "ER_DTR_F",
     "title": "affinage des actes de transport ",
-    "description": "",
+    "champ": "",
     "produit": "DCIR",
     "missingValues": [
         ""
@@ -331,5 +361,6 @@
         "dateCreated": "",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "observation": ""
 }

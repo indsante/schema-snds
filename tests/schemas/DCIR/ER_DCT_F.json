@@ -10,6 +10,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "date"
         },
         {
@@ -22,6 +24,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "date"
         },
         {
@@ -29,16 +33,18 @@
             "description": "Code du contrôle",
             "type": "integer",
             "nomenclature": "IR_CLC_V",
-            "length": "2",
+            "length": "3",
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
             "name": "DCT_LOT_TCR",
-            "description": "Type certification du lot",
+            "description": "Type Certification du Lot",
             "type": "string",
             "nomenclature": "IR_TCR_V",
             "length": "1",
@@ -46,11 +52,13 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
             "name": "DCT_CTL_TYP",
-            "description": "Type de contrôle",
+            "description": "Type de Controle",
             "type": "string",
             "nomenclature": "IR_CTL_V",
             "length": "1",
@@ -58,6 +66,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -70,6 +80,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -77,16 +89,18 @@
             "description": "Type de saisie affinée",
             "type": "integer",
             "nomenclature": "IR_SAF_V",
-            "length": "2",
+            "length": "3",
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
             "name": "DCT_INT_VER",
-            "description": "Type de version interface tiers",
+            "description": "Type de Version interface Tiers",
             "type": "string",
             "nomenclature": "IR_INT_V",
             "length": "2",
@@ -94,6 +108,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -106,11 +122,13 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "date"
         },
         {
             "name": "DCT_MUT_CMP",
-            "description": "Part mutuelle complémentaire décompte",
+            "description": "Part Mutuelle Complementaire décompte",
             "type": "string",
             "nomenclature": "-",
             "length": "1",
@@ -118,6 +136,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -125,16 +145,18 @@
             "description": "Type de saisie",
             "type": "integer",
             "nomenclature": "IR_SAI_V",
-            "length": "1",
+            "length": "2",
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
             "name": "DCT_REM_DTD",
-            "description": "Date de remboursement / recyclage",
+            "description": "Date de remboursement - recyclage",
             "type": "date",
             "nomenclature": "IR_DTE_V",
             "length": "8",
@@ -142,11 +164,13 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "date"
         },
         {
             "name": "DCT_RGU_SNS",
-            "description": "Sens de la régularisation",
+            "description": "Sens de la régulation",
             "type": "string",
             "nomenclature": "IR_RGU_V",
             "length": "1",
@@ -154,11 +178,13 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
             "name": "ORG_CLE_NEW",
-            "description": "Organisme de liquidation (après fusion des caisses)",
+            "description": "Code de l'organisme de liquidation",
             "type": "string",
             "nomenclature": "IR_ORG_V",
             "length": "9",
@@ -166,6 +192,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -178,11 +206,13 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
             "name": "FLX_DIS_DTD",
-            "description": "Date de mise à disposition des données dans SI     2",
+            "description": "Date de mise à disposition des données",
             "type": "date",
             "nomenclature": "IR_DTE_V",
             "length": "8",
@@ -190,47 +220,55 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "date"
         },
         {
             "name": "FLX_EMT_NUM",
-            "description": "N° émetteur du flux                                                  3",
+            "description": "numéro d'émetteur du flux",
             "type": "integer",
-            "nomenclature": "IR_NEM_V",
-            "length": "8",
+            "nomenclature": "IR_NEM_T",
+            "length": "4",
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
             "name": "FLX_EMT_ORD",
-            "description": "N° séquence du flux                                               4",
+            "description": "numéro de séquence du flux",
             "type": "integer",
             "nomenclature": "-",
-            "length": "8",
+            "length": "4",
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
             "name": "FLX_EMT_TYP",
-            "description": "Type d'émetteur                                                      5",
+            "description": "Type d'émetteur",
             "type": "integer",
-            "nomenclature": "-",
-            "length": "8",
+            "nomenclature": "IR_TYT_V",
+            "length": "2",
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
             "name": "FLX_TRT_DTD",
-            "description": "Date de traitement des données dans SI                   6",
+            "description": "Date d'entrée des données dans le système d'information",
             "type": "date",
             "nomenclature": "IR_DTE_V",
             "length": "8",
@@ -238,11 +276,13 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "date"
         },
         {
             "name": "ORG_CLE_NUM",
-            "description": "Ancien concept de l'organisme de liquidation (avant fusion, jusqu’au jour J de la fusion)          7",
+            "description": "organisme de liquidation des prestations (avant fusion des caisses)",
             "type": "string",
             "nomenclature": "IR_ORG_V",
             "length": "9",
@@ -250,6 +290,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "string"
         },
         {
@@ -262,6 +304,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         },
         {
@@ -274,12 +318,13 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "type_oracle": "number"
         }
     ],
     "name": "ER_DCT_F",
-    "title": "Décomptes",
-    "description": "",
+    "title": "Table des données de décompte",
     "produit": "DCIR",
     "missingValues": [
         ""
@@ -317,5 +362,7 @@
         "dateCreated": "",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "",
+    "observation": ""
 }

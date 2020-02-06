@@ -1,0 +1,22 @@
+{
+  "fields": [
+    {
+      "name": "BDI_COD_COD",
+      "type": "string",
+      "format": "default",
+      "role": "code"
+    },
+    {
+      "name": "BDI_COD_LIB",
+      "type": "string",
+      "format": "default",
+      "role": "label"
+    }
+    ],
+  "missingValues": [
+    ""
+    ],
+  "name": "BDI_COD",
+  "title": "Code postal dans le PMSI 2018",
+  "primaryKey": ["BDI_COD_COD", "BDI_COD_LIB"]
+}

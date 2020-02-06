@@ -1,0 +1,24 @@
+{
+  "fields": [
+    {
+      "name": "BDI_DEP_COD",
+      "type": "string",
+      "format": "default",
+      "role": "code"
+    },
+    {
+      "name": "BDI_DEP_LIB",
+      "type": "string",
+      "format": "default",
+      "role": "label"
+    }
+    ],
+  "missingValues": [
+    ""
+    ],
+  "name": "BDI_DEP",
+  "title": "Code département dans le PMSI",
+  "primaryKey": [
+    "BDI_DEP_COD"
+  ]
+}

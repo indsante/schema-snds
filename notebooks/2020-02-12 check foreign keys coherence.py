@@ -14,7 +14,7 @@
 
 import pandas as pd
 
-cd ../data/byproducts/synthetic-snds/schemas/DCIR/
+# cd ../data/byproducts/synthetic-snds/schemas/DCIR/
 
 df1 = pd.read_csv("ER_PHA_F.csv", sep=',')
 

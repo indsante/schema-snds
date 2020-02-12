@@ -16,11 +16,10 @@ from typing import Dict
 
 from tableschema import Schema
 
-from src.constants import NO_NOMENCLATURE, IGNORED_DATE_NOMENCLATURE, SCHEMAS_DIR, NOMENCLATURES_DIR, BYPRODUCTS_DIR, ROOT_DIR
+from src.constants import NO_NOMENCLATURE, IGNORED_DATE_NOMENCLATURE, SCHEMAS_DIR, NOMENCLATURES_DIR, \
+    SYNTHETIC_SNDS_DIR, TESTS_DIR
 from src.constants import STRING, NUMBER, INTEGER, TYPE_CSV
 from src.utils import get_all_schema_path, get_all_nomenclatures_schema, get_used_nomenclatures
-
-SYNTHETIC_SNDS_DIR = pjoin(BYPRODUCTS_DIR, "synthetic-snds")
 
 
 def generate_synthetic_snds(work_dir):
@@ -77,6 +76,7 @@ def generate_tsfaker_schemas(rooted_schemas_synthetic_snds_dir, work_dir):
     for source_schema_path in get_all_schema_path(work_dir):
         schema = Schema(source_schema_path)
         replace_length_by_bounds(schema)
+        remove_duplicate_ben_idt_ano_foreign_key(schema)
         replace_nomenclatures_by_foreign_key_reference(schema, nomenclature_to_fk_reference)
         schema.commit(strict=True)
 
@@ -129,8 +129,16 @@ def replace_length_by_bounds(schema):
                 assert schema.update_field(field.name, {'constraints': {'minimum': minimum, 'maximum': maximum}})
 
 
-def replace_nomenclatures_by_foreign_key_reference(schema, nomenclature_to_fk_reference):
+def replace_nomenclatures_by_foreign_key_reference(schema: Schema, nomenclature_to_fk_reference):
+    fk_fields = set()
+    for fk in schema.foreign_keys:
+        for field in fk['fields']:
+            fk_fields.add(field)
+
     for field in schema.fields:
+        if field.name in fk_fields:
+            continue
+
         nom_col = field.descriptor.get('nomenclature').split(':')
         nomenclature = nom_col[0]
         if nomenclature == NO_NOMENCLATURE or nomenclature == IGNORED_DATE_NOMENCLATURE:
@@ -181,6 +189,23 @@ def build_nomenclature_to_foreign_keys_reference() -> Dict[str, dict]:
     return nomenclature_to_fk_reference
 
 
+def remove_duplicate_ben_idt_ano_foreign_key(schema: Schema) -> None:
+    """ Only keep one foreign key for BEN_IDT_ANO to allow synthetic data generation"""
+    if schema.descriptor["name"] in ['KI_CCI_R', 'KI_ECD_R']:
+        resource_to_drop = 'IR_IBA_R'
+    elif schema.descriptor["name"] == 'NS_PRS_F':
+        resource_to_drop = 'IR_BEN_R'
+    else:
+        return
+
+    foreign_keys = list()
+    for fk in schema.foreign_keys:
+        if fk['fields'] == ['BEN_IDT_ANO'] and fk['reference']['resource'] == resource_to_drop:
+            continue
+        foreign_keys.append(fk)
+    schema.descriptor['foreignKeys'] = foreign_keys
+
+
 if __name__ == '__main__':
-    copy_nomenclatures_for_tsfaker(ROOT_DIR)
-    # generate_synthetic_snds(ROOT_DIR)
+    # copy_nomenclatures_for_tsfaker(ROOT_DIR)
+    generate_synthetic_snds(TESTS_DIR)

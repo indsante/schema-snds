@@ -304,42 +304,6 @@
         },
         {
             "fields": [
-                "FLX_EMT_NUM"
-            ],
-            "reference": {
-                "resource": "IR_NEM_T",
-                "fields": [
-                    "EMT_NUM_RES"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
-                "FLX_EMT_TYP"
-            ],
-            "reference": {
-                "resource": "IR_TYT_V",
-                "fields": [
-                    "TYT_COD"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
-                "ORG_CLE_NUM"
-            ],
-            "reference": {
-                "resource": "IR_ORG_V",
-                "fields": [
-                    "ORG_NUM"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
                 "ARO_THE_TAU"
             ],
             "reference": {

@@ -4,6 +4,7 @@ import logging
 
 from src.constants import ROOT_DIR
 from src.byproducts.main import generate_byproducts
+from src.byproducts.main import generate_schema_md
 from src.byproducts.update_byproducts_repositories import update_all_byproducts
 from src.utils import get_logging_level_value
 
@@ -33,3 +34,5 @@ if __name__ == '__main__':
 
     if args.update or args.local:
         update_all_byproducts(args.local, ROOT_DIR)
+
+    generate_schema_md()

@@ -14,8 +14,9 @@ test:
 
 update:
   stage: deploy
-  image: python:3.6-stretch
+  image: nikolaik/python-nodejs:python3.6-nodejs13-stretch
   before_script:
+    - ./install_tableschema_lib.sh
     - ./create_virtualenv.sh
     - source venv/bin/activate
   script: python main.py --update

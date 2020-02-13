@@ -13,7 +13,7 @@ def convert_schema_to_md(file_path, template, fields_format):
     subprocess.run("mkdir -p " + schemas_md_path, shell=True, check=True)
 
     cmd = "table-schema-to-markdown " + file_path.replace(" ", "\\ ") + \
-          " --template=" + template + " --fields-format="+fields_format+" >> " + \
+          " --template " + template + " --fields-format="+fields_format+" >> " + \
           file_path_dst.replace(".json", ".md").replace(" ", "\\ ")
 
     subprocess.run(cmd, shell=True, check=True)

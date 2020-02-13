@@ -331,30 +331,6 @@
                 ]
             },
             "description": "Nomenclature"
-        },
-        {
-            "fields": [
-                "FLX_EMT_NUM"
-            ],
-            "reference": {
-                "resource": "IR_NEM_V",
-                "fields": [
-                    "EMT_NUM"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
-                "ORG_CLE_NUM"
-            ],
-            "reference": {
-                "resource": "IR_ORG_V",
-                "fields": [
-                    "ORG_NUM"
-                ]
-            },
-            "description": "Nomenclature"
         }
     ],
     "history": {

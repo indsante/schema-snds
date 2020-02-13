@@ -1770,34 +1770,35 @@
     ],
     "foreignKeys": [
         {
-            "fields": "PFS_EXE_NUM",
+            "fields": [
+                "PFS_EXE_NUM"
+            ],
             "reference": {
                 "resource": "DA_PRA_R",
-                "fields": "PFS_PFS_NUM"
-            }
-        },
-        {
-            "fields": "PFS_PRE_NUM",
-            "reference": {
-                "resource": "DA_PRA_R",
-                "fields": "PFS_PFS_NUM"
-            }
-        },
-        {
-            "fields": "PRS_MTT_NUM",
-            "reference": {
-                "resource": "DA_PRA_R",
-                "fields": "PFS_PFS_NUM"
+                "fields": [
+                    "PFS_PFS_NUM"
+                ]
             }
         },
         {
             "fields": [
-                "BEN_IDT_ANO"
+                "PFS_PRE_NUM"
             ],
             "reference": {
-                "resource": "IR_BEN_R",
+                "resource": "DA_PRA_R",
                 "fields": [
-                    "BEN_IDT_ANO"
+                    "PFS_PFS_NUM"
+                ]
+            }
+        },
+        {
+            "fields": [
+                "PRS_MTT_NUM"
+            ],
+            "reference": {
+                "resource": "DA_PRA_R",
+                "fields": [
+                    "PFS_PFS_NUM"
                 ]
             }
         },

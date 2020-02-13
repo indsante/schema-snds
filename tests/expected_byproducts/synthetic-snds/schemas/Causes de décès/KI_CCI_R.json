@@ -867,17 +867,6 @@
         },
         {
             "fields": [
-                "BEN_IDT_ANO"
-            ],
-            "reference": {
-                "resource": "IR_IBA_R",
-                "fields": [
-                    "BEN_IDT_ANO"
-                ]
-            }
-        },
-        {
-            "fields": [
                 "CER_VER_NUM"
             ],
             "reference": {

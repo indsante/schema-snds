@@ -2,9 +2,9 @@
 import argparse
 import logging
 
-from src.constants import ROOT_DIR
 from src.byproducts.main import generate_byproducts
 from src.byproducts.update_byproducts_repositories import update_all_byproducts
+from src.constants import ROOT_DIR
 from src.utils import get_logging_level_value
 
 if __name__ == '__main__':

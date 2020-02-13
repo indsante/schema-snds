@@ -40,6 +40,7 @@ NOMENCLATURES_DIR = 'nomenclatures'
 BYPRODUCTS_DIR = pjoin(DATA, 'byproducts')
 DICO_SNDS_DIR = pjoin(BYPRODUCTS_DIR, 'dico-snds')
 SCHEMAS_DOCUMENTATION_SNDS_DIR = pjoin(BYPRODUCTS_DIR, 'documentation-snds', 'schemas')
+SYNTHETIC_SNDS_DIR = pjoin(BYPRODUCTS_DIR, "synthetic-snds")
 
 NO_NOMENCLATURE = '-'
 IGNORED_DATE_NOMENCLATURE = 'IR_DTE_V'

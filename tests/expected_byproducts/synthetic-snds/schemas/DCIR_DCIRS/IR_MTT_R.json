@@ -196,18 +196,6 @@
                     "BEN_IDT_ANO"
                 ]
             }
-        },
-        {
-            "fields": [
-                "BEN_RNG_GEM"
-            ],
-            "reference": {
-                "resource": "IR_BER_V",
-                "fields": [
-                    "BEN_RNG_GEM"
-                ]
-            },
-            "description": "Nomenclature"
         }
     ],
     "history": {

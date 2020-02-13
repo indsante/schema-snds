@@ -7,7 +7,6 @@ import pytest
 from goodtables import validate
 from tableschema import Schema
 
-from src.byproducts.main import generate_byproducts
 from src.constants import NOMENCLATURES_DIR, ROOT_DIR
 from src.utils import get_all_nomenclatures_csv_schema_path, get_all_nomenclatures_schema, get_used_nomenclatures, \
     get_present_nomenclatures
@@ -19,8 +18,7 @@ def test_nomenclatures_list():
     assert len(nomenclature_list) == len(set(nomenclature_list)), "There are duplicate nomenclatures"
 
 
-def test_nomenclature_presence():
-    generate_byproducts(False, ROOT_DIR)
+def test_nomenclature_presence(generate_byproducts_root):
     present_nomenclatures = get_present_nomenclatures(ROOT_DIR)
     print(present_nomenclatures)
     used_nomenclatures = get_used_nomenclatures(ROOT_DIR)

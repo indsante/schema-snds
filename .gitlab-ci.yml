@@ -6,9 +6,9 @@ test:
   stage: test
   image: nikolaik/python-nodejs:python3.6-nodejs13-stretch
   services:
-  - ./install_tableschema_lib.sh
   - postgres:11.1-alpine
   before_script:
+    - ./install_tableschema_lib.sh
     - ./create_virtualenv.sh
     - source venv/bin/activate
   script: pytest

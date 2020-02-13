@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-sudo npm install -g @opendataschema/table-schema-to-markdown
+npm install -g @opendataschema/table-schema-to-markdown

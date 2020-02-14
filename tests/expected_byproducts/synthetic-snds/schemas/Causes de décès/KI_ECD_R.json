@@ -220,17 +220,6 @@
         },
         {
             "fields": [
-                "BEN_IDT_ANO"
-            ],
-            "reference": {
-                "resource": "IR_IBA_R",
-                "fields": [
-                    "BEN_IDT_ANO"
-                ]
-            }
-        },
-        {
-            "fields": [
                 "ECD_CIM_COD"
             ],
             "reference": {

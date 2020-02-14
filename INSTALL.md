@@ -58,6 +58,17 @@ Utiliser le point d'entrée du programme
 
     ./main.py -h
 
+## Installation de la librairie javascript
+
+
+1- Installation de npm
+
+    https://nodejs.org/en/
+
+2- Installation des dépendances 
+
+    npm install -g @opendataschema/table-schema-to-markdown 
+
 
 ## Installation Docker
 

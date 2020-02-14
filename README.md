@@ -33,7 +33,7 @@ Pour cela vous pouvez :
 
 ## Installation du projet pour générer les produits dérivés
 
-**Dépendances** : python3, virtualenv, Docker, Docker-Compose, git
+**Dépendances** : python3, virtualenv, Docker, Docker-Compose, git, npm
 
 Activation d'un environnement virtuel Python avec les dépendances installées  
 

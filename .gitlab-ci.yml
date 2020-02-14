@@ -4,18 +4,34 @@ stages:
 
 test:
   stage: test
-  image: python:3.7-stretch
+  image: nikolaik/python-nodejs:python3.6-nodejs13-stretch
   services:
   - postgres:11.1-alpine
   before_script:
+    - apt-get update >/dev/null
+    - apt-get install -y locales >/dev/null
+    - echo "fr_FR UTF-8" > /etc/locale.gen
+    - locale-gen fr_FR.UTF-8
+    - export LANG=fr_FR.UTF-8
+    - export LANGUAGE=fr_FR:fr
+    - export LC_ALL=fr_FR.UTF-8
+    - ./install_tableschema_lib.sh
     - ./create_virtualenv.sh
     - source venv/bin/activate
   script: pytest
 
 update:
   stage: deploy
-  image: python:3.6-stretch
+  image: nikolaik/python-nodejs:python3.6-nodejs13-stretch
   before_script:
+    - apt-get update >/dev/null
+    - apt-get install -y locales >/dev/null
+    - echo "fr_FR UTF-8" > /etc/locale.gen
+    - locale-gen fr_FR.UTF-8
+    - export LANG=fr_FR.UTF-8
+    - export LANGUAGE=fr_FR:fr
+    - export LC_ALL=fr_FR.UTF-8
+    - ./install_tableschema_lib.sh
     - ./create_virtualenv.sh
     - source venv/bin/activate
   script: python main.py --update

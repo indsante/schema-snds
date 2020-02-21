@@ -53,8 +53,7 @@ def copy_nomenclatures_for_tsfaker(work_dir, products):
     rooted_nomenclatures_synthetic_snds_dir = pjoin(work_dir, SYNTHETIC_SNDS_DIR, NOMENCLATURES_DIR)
     logging.info("Copy nomenclatures for tsfaker in directory '{}'"
                  .format(rooted_nomenclatures_synthetic_snds_dir))
-    if os.path.exists(rooted_nomenclatures_synthetic_snds_dir):
-        shutil.rmtree(rooted_nomenclatures_synthetic_snds_dir)
+    shutil.rmtree(rooted_nomenclatures_synthetic_snds_dir, ignore_errors=True)
 
     os.makedirs(rooted_nomenclatures_synthetic_snds_dir, exist_ok=True)
     for root, dirs, files in os.walk(rooted_nomenclatures_dir):

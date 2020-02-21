@@ -23,10 +23,10 @@ def get_files_in_directory(directory):
             yield root, file
 
 
-@pytest.mark.parametrize('root,file', get_files_in_directory(pjoin(TESTS_DIR, BYPRODUCTS_DIR)))
-def test_generated_byproducts_equal_files(generate_byproducts_tests, root, file):
-    actual_file_path = os.path.join(root, file)
-    expected_file_path = actual_file_path.replace(BYPRODUCTS_DIR, EXPECTED_BYPRODUCTS_DIR)
+@pytest.mark.parametrize('root,file', get_files_in_directory(pjoin(TESTS_DIR, EXPECTED_BYPRODUCTS_DIR)))
+def test_generated_byproducts_equal_files(root, file):
+    expected_file_path = os.path.join(root, file)
+    actual_file_path = expected_file_path.replace(EXPECTED_BYPRODUCTS_DIR, BYPRODUCTS_DIR)
     with open(actual_file_path, encoding="utf-8") as f:
         actual = f.read().split("\n")
     with open(expected_file_path, encoding="utf-8") as f:

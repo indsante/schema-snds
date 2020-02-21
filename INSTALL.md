@@ -12,7 +12,18 @@ Pour windows, on recommande le terminal `gitbash` pour utiliser git et docker.
 Commande
 
     git clone https://gitlab.com/healthdatahub/schema-snds.git 
-    
+
+## Installation de la librairie javascript table-schema-to-markdown
+
+
+1- Installation de npm
+
+    https://nodejs.org/en/
+
+2- Installation des dépendances 
+
+    npm install -g @opendataschema/table-schema-to-markdown 
+
 
 ## Activation d'un environnement virtuel Python avec les dépendances installées
 
@@ -57,17 +68,6 @@ Utiliser le point d'entrée du programme
 
 
     ./main.py -h
-
-## Installation de la librairie javascript
-
-
-1- Installation de npm
-
-    https://nodejs.org/en/
-
-2- Installation des dépendances 
-
-    npm install -g @opendataschema/table-schema-to-markdown 
 
 
 ## Installation Docker

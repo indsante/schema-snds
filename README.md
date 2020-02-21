@@ -40,6 +40,10 @@ Activation d'un environnement virtuel Python avec les dépendances installées
     ./create_vitualenv.sh
     source venv/bin/activate
 
+Installation de la librairie javascript table-schema-to-markdown
+
+    npm install -g @opendataschema/table-schema-to-markdown 
+
 Utilisation 
 
     ./main.py -h

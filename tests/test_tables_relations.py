@@ -9,7 +9,7 @@ from src.constants import DICO_SNDS_DIR, TESTS_DIR
 
 def test_no_isolated_table():
     os.makedirs(DICO_SNDS_DIR, exist_ok=True)
-    table_schema_to_snds_graph(TESTS_DIR)
+    table_schema_to_snds_graph(TESTS_DIR, products=None)
 
     df_edges = pd.read_csv(pjoin(DICO_SNDS_DIR, DICO_EDGES_CSV))
     df_nodes = pd.read_csv(pjoin(DICO_SNDS_DIR, DICO_NODES_CSV))

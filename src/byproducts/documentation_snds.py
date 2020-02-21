@@ -15,21 +15,16 @@ def convert_schema_to_md(schema_path):
     os.makedirs(Path(md_path).parent, exist_ok=True)
 
     command = f"table-schema-to-markdown '{schema_path}' " \
-              f"--template '{TEMPLATES_PATH}' --fields-format 'table'"
+              f"--template '{TEMPLATES_PATH}' --fields-format table"
 
     command_list = shlex.split(command)
     with open(md_path, 'w') as f:
         subprocess.run(command_list, check=True, stdout=f)
 
 
-def generate_schema_md(work_dir):
-    # delete the current generated md schemas if exist
-    if exists(pjoin(work_dir, DOCUMENTATION_SCHEMAS_MD_DIR)):
-        shutil.rmtree(pjoin(work_dir, DOCUMENTATION_SCHEMAS_MD_DIR))
+def generate_schema_md(work_dir, products):
+    shutil.rmtree(pjoin(work_dir, DOCUMENTATION_SCHEMAS_MD_DIR), ignore_errors=True)
 
-    for schema_path in get_all_schema_path(work_dir):
+    for schema_path in get_all_schema_path(work_dir, products):
         convert_schema_to_md(schema_path)
 
-
-if __name__ == '__main__':
-    generate_schema_md(ROOT_DIR)

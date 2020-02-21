@@ -9,14 +9,33 @@ from tableschema import Schema
 from src.constants import SCHEMAS_DIR, NOMENCLATURES_DIR, NO_NOMENCLATURE
 
 
-def get_all_schema(work_dir) -> List[Schema]:
-    return [Schema(schema_path) for schema_path in get_all_schema_path(work_dir)]
+def get_all_products():
+    return os.listdir(SCHEMAS_DIR)
 
 
-def get_all_schema_path(work_dir) -> List[str]:
+def check_products_list(products):
+    if products is None:
+        return
+
+    product_list = get_all_products()
+    for product in products:
+        if product not in product_list:
+            raise ValueError(f"Le produit '{product}' ne fait pas parti de la liste des produits : {product_list}")
+
+
+def get_all_schema(work_dir, products) -> List[Schema]:
+    return [Schema(schema_path) for schema_path in get_all_schema_path(work_dir, products)]
+
+
+def get_all_schema_path(work_dir, product_list=None) -> List[str]:
+    check_products_list(product_list)
     schemas_dir = pjoin(work_dir, SCHEMAS_DIR)
 
     for root, dirs, files in os.walk(schemas_dir):
+        if product_list is not None:
+            if os.path.split(root)[1] not in product_list:
+                continue
+
         dirs.sort()
         for file in sorted(files):
             if not file.endswith('.json'):
@@ -91,9 +110,9 @@ def add_foreign_key(schema: Schema, fields: Union[str, List[str]], referenced_ta
     schema.commit(strict=True)
 
 
-def get_used_nomenclatures(work_dir):
+def get_used_nomenclatures(work_dir, products=None):
     used_nomenclatures = set()
-    for schema in get_all_schema(work_dir):
+    for schema in get_all_schema(work_dir, products):
         for field in schema.fields:
             nomenclature = field.descriptor['nomenclature'].split(':')[0]
             if nomenclature != NO_NOMENCLATURE:
@@ -110,4 +129,4 @@ def get_present_nomenclatures(work_dir):
 
 
 if __name__ == '__main__':
-    print(list(get_all_nomenclatures_csv_schema_path(NOMENCLATURES_DIR)))
+    print('\n'.join(get_all_schema_path(".", None)))

@@ -15,7 +15,7 @@ import pandas as pd
 from tableschema import Schema, Table
 
 from src.constants import DICO_SNDS_DIR, NO_NOMENCLATURE, DATE_CREATED, DATE_DELETED, DATE_MISSING, \
-    NOMENCLATURE, TYPE_ORACLE, NOMENCLATURES_DIR, ROOT_DIR
+    NOMENCLATURE, TYPE_ORACLE, NOMENCLATURES_DIR
 from src.utils import get_all_schema, get_all_nomenclatures_csv_schema_path, get_used_nomenclatures
 
 DICO_EDGES_CSV = "snds_links.csv"
@@ -51,18 +51,18 @@ DATE_SUPRESSION = 'suppression'
 DATES_MANQUANTES = 'dates_manquantes'
 
 
-def generate_dico_snds(work_dir):
+def generate_dico_snds(work_dir, products):
     logging.info("Convert schemas to dico-snds app data")
     os.makedirs(pjoin(work_dir, DICO_SNDS_DIR), exist_ok=True)
-    table_schema_to_snds_variables(work_dir)
-    table_schema_to_snds_tables(work_dir)
-    table_schema_to_snds_graph(work_dir)
-    table_schema_to_snds_nomenclatures(work_dir)
-    cp_nomenclatures(work_dir)
+    table_schema_to_snds_variables(work_dir, products)
+    table_schema_to_snds_tables(work_dir, products)
+    table_schema_to_snds_graph(work_dir, products)
+    table_schema_to_snds_nomenclatures(work_dir, products)
+    cp_nomenclatures(work_dir, products)
 
 
-def cp_nomenclatures(work_dir):
-    used_nomenclatures = get_used_nomenclatures(work_dir)
+def cp_nomenclatures(work_dir, products):
+    used_nomenclatures = get_used_nomenclatures(work_dir, products)
 
     rooted_nomenclatures_dir = pjoin(work_dir, NOMENCLATURES_DIR)
     rooted_nomenclatures_dico_snds_dir = pjoin(work_dir, DICO_SNDS_DIR, NOMENCLATURES_DIR)
@@ -79,12 +79,12 @@ def cp_nomenclatures(work_dir):
                 copyfile(source_file_path, target_file_path)
 
 
-def table_schema_to_snds_nomenclatures(work_dir):
-    used_nomenclatures = get_used_nomenclatures(work_dir)
+def table_schema_to_snds_nomenclatures(work_dir, products):
+    used_nomenclatures = get_used_nomenclatures(work_dir, products)
 
     logging.info(" - create a table with all nomenclatures title's : {}".format(DICO_NOMENCLATURES_CSV))
     nomenclature_dict = defaultdict(set)
-    for schema in get_all_schema(work_dir):
+    for schema in get_all_schema(work_dir, products):
         # table_name = schema.descriptor.get('name')
         for field in schema.fields:
             descriptor = field.descriptor
@@ -121,11 +121,11 @@ def table_schema_to_snds_nomenclatures(work_dir):
     df.to_csv(snds_nomenclature_path, index=False)
 
 
-def table_schema_to_snds_variables(work_dir):
+def table_schema_to_snds_variables(work_dir, products):
     # dico_produit = "produit"
     logging.info(" - convert schemas to {}".format(DICO_VARIABLES_CSV))
     variables_list = []
-    for schema in get_all_schema(work_dir):
+    for schema in get_all_schema(work_dir, products):
         for field in schema.fields:
             descriptor = field.descriptor
             length = descriptor.get('length', '')
@@ -162,14 +162,14 @@ def table_schema_to_snds_variables(work_dir):
     df.to_csv(snds_variable_path, index=False)
 
 
-def table_schema_to_snds_tables(work_dir):
+def table_schema_to_snds_tables(work_dir, products):
     logging.info(" - convert schemas to {}".format(DICO_TABLES_CSV))
     dico_produit = "Produit"
     dico_table = "Table"
     dico_libelle = 'Libelle'
 
     table_list = []
-    for schema in get_all_schema(work_dir):
+    for schema in get_all_schema(work_dir, products):
         logging.debug("   - convert schema {}".format(schema.descriptor['name']))
         table_list.append({
             dico_produit: schema.descriptor[SCHEMA_PRODUIT],
@@ -187,12 +187,12 @@ def table_schema_to_snds_tables(work_dir):
     df.to_csv(snds_table_path, index=False)
 
 
-def table_schema_to_snds_graph(work_dir):
+def table_schema_to_snds_graph(work_dir, products):
     logging.info(" - convert schemas to {} and {}".format(DICO_NODES_CSV, DICO_EDGES_CSV))
 
     node_dict = dict()
     schemas = [schema for schema in
-               get_all_schema(work_dir) if schema.descriptor["produit"] not in ["DAMIR", "EGB"]]
+               get_all_schema(work_dir, products) if schema.descriptor["produit"] not in ["DAMIR", "EGB"]]
     for i, schema in enumerate(schemas):
         descriptor = schema.descriptor
         table_name = descriptor['name']
@@ -208,9 +208,15 @@ def table_schema_to_snds_graph(work_dir):
     for schema in schemas:
         descriptor = schema.descriptor
         for foreign_key in descriptor.get("foreignKeys", []):
+            try:
+                target = node_dict[foreign_key['reference']['resource']]['index']
+            except KeyError as e:
+                logging.error("Missing foreign table", e)
+                raise e
+
             edge_list.append({
                 'source': node_dict[descriptor['name']]['index'],
-                'target': node_dict[foreign_key['reference']['resource']]['index'],
+                'target': target,
                 'joint_var': create_join_str(foreign_key['fields'], foreign_key['reference']['fields'],
                                              foreign_key.get('description', None)),
 
@@ -246,9 +252,3 @@ def create_join_str(source_fields: Union[str, List[str]], referenced_fields: Uni
     if description:
         result += ' | ' + description
     return result
-
-
-if __name__ == '__main__':
-    cp_nomenclatures(ROOT_DIR)
-    # table_schema_to_snds_variables(ROOT_DIR)
-    # generate_dico_snds(ROOT_DIR)

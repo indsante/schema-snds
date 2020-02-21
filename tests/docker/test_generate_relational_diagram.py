@@ -3,4 +3,4 @@ from src.constants import ROOT_DIR
 
 
 def test_generate_relational_diagram():
-    generate_relational_diagram(ROOT_DIR)
+    generate_relational_diagram(ROOT_DIR, products=None)

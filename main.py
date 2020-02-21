@@ -1,14 +1,17 @@
 #!/usr/bin/env python
+# coding: utf-8
 import argparse
 import logging
 
 from src.byproducts.main import generate_byproducts
 from src.byproducts.update_byproducts_repositories import update_all_byproducts
 from src.constants import ROOT_DIR
-from src.utils import get_logging_level_value
+from src.utils import get_logging_level_value, check_products_list, get_all_products
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Création de produits dérivés depuis les schémas du SNDS')
+    parser.add_argument('-p', '--products', dest='products', nargs='*', action='store', default=None,
+                        help="Se restreindre à certains sous-produits")
     parser.add_argument('-d', '--erd', dest='generate_erd',
                         action='store_const', const=True, default=False,
                         help="Générer un diagramme d'entité relationnelle (ERD), "
@@ -29,7 +32,10 @@ if __name__ == '__main__':
                         datefmt='%Y-%m-%d %H:%M:%S',
                         )
 
-    generate_byproducts(args.generate_erd, ROOT_DIR)
+    check_products_list(args.products)
+    args.products = args.products or get_all_products()
+
+    generate_byproducts(args.generate_erd, ROOT_DIR, args.products)
 
     if args.update or args.local:
         update_all_byproducts(args.local, ROOT_DIR)

@@ -18,7 +18,7 @@ def test_nomenclatures_list():
     assert len(nomenclature_list) == len(set(nomenclature_list)), "There are duplicate nomenclatures"
 
 
-def test_nomenclature_presence(generate_byproducts_root):
+def test_nomenclature_presence():
     present_nomenclatures = get_present_nomenclatures(ROOT_DIR)
     print(present_nomenclatures)
     used_nomenclatures = get_used_nomenclatures(ROOT_DIR)

@@ -22,11 +22,11 @@ from src.constants import STRING, NUMBER, INTEGER, TYPE_CSV
 from src.utils import get_all_schema_path, get_all_nomenclatures_schema, get_used_nomenclatures
 
 
-def generate_synthetic_snds(work_dir):
+def generate_synthetic_snds(work_dir, products):
     rooted_schemas_synthetic_snds_dir = pjoin(work_dir, SYNTHETIC_SNDS_DIR, SCHEMAS_DIR)
 
-    generate_tsfaker_schemas(rooted_schemas_synthetic_snds_dir, work_dir)
-    copy_nomenclatures_for_tsfaker(work_dir)
+    generate_tsfaker_schemas(rooted_schemas_synthetic_snds_dir, work_dir, products)
+    copy_nomenclatures_for_tsfaker(work_dir, products)
     run_tsfaker(rooted_schemas_synthetic_snds_dir)
 
 
@@ -47,14 +47,13 @@ def run_tsfaker(rooted_schemas_synthetic_snds_dir):
     subprocess.run(tsfaker_cmd.split())
 
 
-def copy_nomenclatures_for_tsfaker(work_dir):
-    used_nomenclatures = get_used_nomenclatures(work_dir)
+def copy_nomenclatures_for_tsfaker(work_dir, products):
+    used_nomenclatures = get_used_nomenclatures(work_dir, products)
     rooted_nomenclatures_dir = pjoin(work_dir, NOMENCLATURES_DIR)
     rooted_nomenclatures_synthetic_snds_dir = pjoin(work_dir, SYNTHETIC_SNDS_DIR, NOMENCLATURES_DIR)
     logging.info("Copy nomenclatures for tsfaker in directory '{}'"
                  .format(rooted_nomenclatures_synthetic_snds_dir))
-    if os.path.exists(rooted_nomenclatures_synthetic_snds_dir):
-        shutil.rmtree(rooted_nomenclatures_synthetic_snds_dir)
+    shutil.rmtree(rooted_nomenclatures_synthetic_snds_dir, ignore_errors=True)
 
     os.makedirs(rooted_nomenclatures_synthetic_snds_dir, exist_ok=True)
     for root, dirs, files in os.walk(rooted_nomenclatures_dir):
@@ -68,12 +67,12 @@ def copy_nomenclatures_for_tsfaker(work_dir):
                 copyfile(source_file_path, target_file_path)
 
 
-def generate_tsfaker_schemas(rooted_schemas_synthetic_snds_dir, work_dir):
+def generate_tsfaker_schemas(rooted_schemas_synthetic_snds_dir, work_dir, products):
     logging.info("Build standard tables schemas for tsfaker in directory '{}'"
                  .format(rooted_schemas_synthetic_snds_dir))
     nomenclature_to_fk_reference = build_nomenclature_to_foreign_keys_reference()
 
-    for source_schema_path in get_all_schema_path(work_dir):
+    for source_schema_path in get_all_schema_path(work_dir, products):
         schema = Schema(source_schema_path)
         replace_length_by_bounds(schema)
         remove_duplicate_ben_idt_ano_foreign_key(schema)

@@ -30,11 +30,9 @@ def get_all_schema(work_dir, products) -> List[Schema]:
 def get_all_schema_path(work_dir, product_list=None) -> List[str]:
     check_products_list(product_list)
     schemas_dir = pjoin(work_dir, SCHEMAS_DIR)
-
     for root, dirs, files in os.walk(schemas_dir):
-        if product_list is not None:
-            if os.path.split(root)[1] not in product_list:
-                continue
+        if not is_product_from_list_in_root(product_list, root):
+            continue
 
         dirs.sort()
         for file in sorted(files):
@@ -42,6 +40,15 @@ def get_all_schema_path(work_dir, product_list=None) -> List[str]:
                 continue
             schema_path = os.path.join(root, file)
             yield schema_path
+
+
+def is_product_from_list_in_root(product_list, root):
+    if product_list is None:
+        return True
+    for product in product_list:
+        if product in root:
+            return True
+    return False
 
 
 def get_all_nomenclatures_schema(nomenclatures_dir=NOMENCLATURES_DIR) -> List[Schema]:
@@ -126,7 +133,3 @@ def get_present_nomenclatures(work_dir):
         present_nomenclatures_files += files
     present_nomenclatures = [re.sub('.csv$', '', nom) for nom in present_nomenclatures_files]
     return present_nomenclatures
-
-
-if __name__ == '__main__':
-    print('\n'.join(get_all_schema_path(".", None)))

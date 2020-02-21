@@ -30,9 +30,3 @@ def generate_byproducts(generate_erd: bool, work_dir: str, products: list = None
 
     if generate_erd:
         generate_relational_diagram(work_dir, products)
-
-
-if __name__ == '__main__':
-    from src.constants import TESTS_DIR
-
-    generate_byproducts(False, TESTS_DIR)

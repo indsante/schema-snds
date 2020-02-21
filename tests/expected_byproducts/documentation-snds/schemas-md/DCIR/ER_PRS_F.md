@@ -5,7 +5,6 @@
 - Clé primaire : `DCT_ORD_NUM`, `FLX_DIS_DTD`, `FLX_EMT_NUM`, `FLX_EMT_ORD`, `FLX_EMT_TYP`, `FLX_TRT_DTD`, `ORG_CLE_NUM`, `PRS_ORD_NUM`, `REM_TYP_AFF`
 <br />
 - Clé(s) étrangère(s) : <br />
-`BEN_NIR_PSA`, `BEN_RNG_GEM` => table [CT_IDE_AAAA_GN](/tables/CT_IDE_AAAA_GN) [ `ben_nir_psa`, `ben_rng_gem` ]<br />
 `PFS_EXE_NUM` => table [DA_PRA_R](/tables/DA_PRA_R) [ `PFS_PFS_NUM` ]<br />
 `PFS_PRE_NUM` => table [DA_PRA_R](/tables/DA_PRA_R) [ `PFS_PFS_NUM` ]<br />
 `PRS_MTT_NUM` => table [DA_PRA_R](/tables/DA_PRA_R) [ `PFS_PFS_NUM` ]<br />

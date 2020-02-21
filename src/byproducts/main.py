@@ -1,6 +1,7 @@
 import logging
 import shutil
 from os.path import join as pjoin
+
 from src.byproducts.dico_snds import generate_dico_snds
 from src.byproducts.documentation_snds import generate_schema_md
 from src.byproducts.relational_diagram import generate_relational_diagram
@@ -21,6 +22,3 @@ def generate_byproducts(generate_erd, work_dir):
 
     if generate_erd:
         generate_relational_diagram(work_dir)
-
-
-

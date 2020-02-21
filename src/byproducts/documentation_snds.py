@@ -1,31 +1,34 @@
+import os
+import shlex
 import shutil
-from os.path import join as pjoin
-from os.path import exists
-from pathlib import Path
-from src.constants import SCHEMAS_DIR, SCHEMAS_MD_DIR, TEMPLATES_DIR, ROOT_DIR
-from src.utils import get_all_schema_path
 import subprocess
+from os.path import exists
+from os.path import join as pjoin
+from pathlib import Path
+
+from src.constants import SCHEMAS_DIR, DOCUMENTATION_SCHEMAS_MD_DIR, ROOT_DIR, TEMPLATES_PATH
+from src.utils import get_all_schema_path
 
 
-def convert_schema_to_md(file_path, template, fields_format):
-    file_path_dst = file_path.replace(SCHEMAS_DIR, SCHEMAS_MD_DIR)
-    schemas_md_path = Path(file_path_dst).parent.as_posix().replace(" ", "\\ ")
-    subprocess.run("mkdir -p " + schemas_md_path, shell=True, check=True)
+def convert_schema_to_md(schema_path):
+    md_path = schema_path.replace(SCHEMAS_DIR, DOCUMENTATION_SCHEMAS_MD_DIR).replace(".json", ".md")
+    os.makedirs(Path(md_path).parent, exist_ok=True)
 
-    cmd = "table-schema-to-markdown " + file_path.replace(" ", "\\ ") + \
-          " --template " + template + " --fields-format="+fields_format+" >> " + \
-          file_path_dst.replace(".json", ".md").replace(" ", "\\ ")
+    command = f"table-schema-to-markdown '{schema_path}' " \
+              f"--template '{TEMPLATES_PATH}' --fields-format 'table'"
 
-    subprocess.run(cmd, shell=True, check=True)
+    command_list = shlex.split(command)
+    with open(md_path, 'w') as f:
+        subprocess.run(command_list, check=True, stdout=f)
 
 
 def generate_schema_md(work_dir):
     # delete the current generated md schemas if exist
-    if exists(pjoin(work_dir, SCHEMAS_MD_DIR)):
-        shutil.rmtree(pjoin(work_dir, SCHEMAS_MD_DIR))
+    if exists(pjoin(work_dir, DOCUMENTATION_SCHEMAS_MD_DIR)):
+        shutil.rmtree(pjoin(work_dir, DOCUMENTATION_SCHEMAS_MD_DIR))
 
-    for schema in get_all_schema_path(work_dir):
-        convert_schema_to_md(schema, TEMPLATES_DIR+"/template_schema.hbs", "table")
+    for schema_path in get_all_schema_path(work_dir):
+        convert_schema_to_md(schema_path)
 
 
 if __name__ == '__main__':

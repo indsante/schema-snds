@@ -22,6 +22,7 @@
         ""
     ],
     "name": "DS_PST_V",
+    "title": "Type de présentation de l'enfant lors de l'accouchement",
     "primaryKey": [
         "ACC_PST_COD"
     ]

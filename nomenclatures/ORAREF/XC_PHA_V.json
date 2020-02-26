@@ -17,6 +17,7 @@
         ""
     ],
     "name": "XC_PHA_V",
+    "title": "Phase de traitement de l'acte médical",
     "primaryKey": [
         "PHA_COD"
     ]

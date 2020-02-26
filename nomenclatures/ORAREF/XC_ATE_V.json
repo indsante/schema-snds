@@ -17,6 +17,7 @@
         ""
     ],
     "name": "XC_ATE_V",
+    "title": "Activité associée à l'acte médical",
     "primaryKey": [
         "ATE_COD"
     ]

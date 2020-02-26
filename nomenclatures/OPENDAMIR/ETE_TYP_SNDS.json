@@ -15,5 +15,6 @@
   ],
   "missingValues": [],
   "name": "ETE_TYP_SNDS",
+  "title": "Type d'établissement (OPEN DAMIR)",
   "primaryKey": "ETE_TYP_SNDS"
 }

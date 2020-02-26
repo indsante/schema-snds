@@ -15,5 +15,6 @@
   ],
   "missingValues": [],
   "name": "PSE_STJ_SNDS",
+  "title": "Statut juridique du professonnel de santé exécutant (OPEN DAMIR)",
   "primaryKey": "PSE_STJ_SNDS"
 }

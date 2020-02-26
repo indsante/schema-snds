@@ -15,5 +15,6 @@
   ],
   "missingValues": [],
   "name": "PSE_ACT_CAT",
+  "title": "Catégorie d'activité de l'exécutant (OPEN DAMIR)",
   "primaryKey": "PSE_ACT_CAT"
 }

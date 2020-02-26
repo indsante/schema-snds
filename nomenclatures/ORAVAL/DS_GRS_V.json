@@ -22,6 +22,7 @@
         ""
     ],
     "name": "DS_GRS_V",
+    "title": "Contribution de la grossesse au décès (oui/non/nsp)",
     "primaryKey": [
         "DCD_GRS_COD"
     ]

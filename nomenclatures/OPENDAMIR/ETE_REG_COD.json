@@ -15,5 +15,6 @@
   ],
   "missingValues": [],
   "name": "ETE_REG_COD",
+  "title": "Région d'implantation de l'établissement exécutant (OPEN DAMIR)",
   "primaryKey": "ETE_REG_COD"
 }

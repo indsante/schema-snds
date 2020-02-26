@@ -22,6 +22,7 @@
         ""
     ],
     "name": "DS_VER_V",
+    "title": "Version du certicat de décès (1997/2017)",
     "primaryKey": [
         "CER_VER_NUM"
     ]

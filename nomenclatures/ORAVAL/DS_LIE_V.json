@@ -22,6 +22,7 @@
         ""
     ],
     "name": "DS_LIE_V",
+    "title": "Lieu du décès",
     "primaryKey": [
         "DCD_LIE_COD"
     ]

@@ -15,5 +15,6 @@
   ],
   "missingValues": [],
   "name": "MDT_TYP_COD",
+  "title": "Mode de traitement de l'établissement exécutant (OPEN DAMIR)",
   "primaryKey": "MDT_TYP_COD"
 }

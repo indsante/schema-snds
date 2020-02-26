@@ -15,5 +15,6 @@
   ],
   "missingValues": [],
   "name": "PSP_ACT_SNDS",
+  "title": "Nature d'activité du professionnel de santé prescripteur (OPEN DAMIR)",
   "primaryKey": "PSP_ACT_SNDS"
 }

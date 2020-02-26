@@ -15,5 +15,6 @@
   ],
   "missingValues": [],
   "name": "PSP_SPE_SNDS",
+  "title": "Spécialité médicale du professionnel de santé prescripteur (OPEN DAMIR)",
   "primaryKey": "PSP_SPE_SNDS"
 }

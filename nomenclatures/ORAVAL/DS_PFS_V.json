@@ -22,6 +22,7 @@
         ""
     ],
     "name": "DS_PFS_V",
+    "title": "Activité professionnelle du parent",
     "primaryKey": [
         "ACT_PFS_COD"
     ]

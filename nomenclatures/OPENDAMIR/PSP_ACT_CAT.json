@@ -15,5 +15,6 @@
   ],
   "missingValues": [],
   "name": "PSP_ACT_CAT",
+  "title": "Catégorie d'activité du prescripteur (OPEN DAMIR)",
   "primaryKey": "PSP_ACT_CAT"
 }

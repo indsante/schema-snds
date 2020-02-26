@@ -15,5 +15,6 @@
   ],
   "missingValues": [],
   "name": "AGE_BEN_SNDS",
+  "title": "Tranches d'âge du bénéficiaire (OPEN_DAMIR)",
   "primaryKey": "AGE_BEN_SNDS"
 }

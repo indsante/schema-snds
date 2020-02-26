@@ -22,6 +22,7 @@
         ""
     ],
     "name": "DS_ATT_V",
+    "title": "Accident du travail (oui/non/sans précision)",
     "primaryKey": [
         "DCD_ATT_COD"
     ]

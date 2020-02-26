@@ -22,6 +22,7 @@
         ""
     ],
     "name": "DS_VOL_V",
+    "title": "Volet du certificat de décès (intial/complémentaire)",
     "primaryKey": [
         "TYP_VOL_COD"
     ]

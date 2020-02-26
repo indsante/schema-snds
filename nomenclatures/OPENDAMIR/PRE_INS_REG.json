@@ -15,5 +15,6 @@
   ],
   "missingValues": [],
   "name": "PRE_INS_REG",
+  "title": "Région du professionnel de santé prescripteur (OPEN DAMIR)",
   "primaryKey": "PRE_INS_REG"
 }

@@ -15,5 +15,6 @@
   ],
   "missingValues": [],
   "name": "PSE_ACT_SNDS",
+  "title": "Nature d'activité du professionnel de santé exécutant (OPEN DAMIR)",
   "primaryKey": "PSE_ACT_SNDS"
 }

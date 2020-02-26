@@ -22,6 +22,7 @@
         ""
     ],
     "name": "DS_DEB_V",
+    "title": "Type de début de travail d'accouchement",
     "primaryKey": [
         "ACC_DEB_COD"
     ]

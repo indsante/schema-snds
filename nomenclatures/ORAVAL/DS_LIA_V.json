@@ -22,6 +22,7 @@
         ""
     ],
     "name": "DS_LIA_V",
+    "title": "Lieu d'accouchement",
     "primaryKey": [
         "ACC_LIA_COD"
     ]

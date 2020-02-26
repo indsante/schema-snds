@@ -22,6 +22,7 @@
         ""
     ],
     "name": "DS_SIT_V",
+    "title": "Situation de la mère (en couple : oui/non)",
     "primaryKey": [
         "MER_SIT_TOP"
     ]

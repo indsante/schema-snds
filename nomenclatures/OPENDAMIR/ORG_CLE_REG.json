@@ -15,5 +15,6 @@
   ],
   "missingValues": [],
   "name": "ORG_CLE_REG",
+  "title": "Région de l'organisme de liquidation (OPEN DAMIR)",
   "primaryKey": "ORG_CLE_REG"
 }

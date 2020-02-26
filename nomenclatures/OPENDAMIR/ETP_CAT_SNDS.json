@@ -15,5 +15,6 @@
   ],
   "missingValues": [],
   "name": "ETP_CAT_SNDS",
+  "title": "Catégorie de l'établissement prescripteur (OPEN DAMIR)",
   "primaryKey": "ETP_CAT_SNDS"
 }

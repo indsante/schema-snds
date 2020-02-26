@@ -22,6 +22,7 @@
         ""
     ],
     "name": "DS_ACP_V",
+    "title": "Activité professionnelle (actif/inactif/retraité)",
     "primaryKey": [
         "PFV_ACP_COD"
     ]

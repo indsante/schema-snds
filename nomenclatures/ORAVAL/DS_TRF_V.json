@@ -22,6 +22,7 @@
         ""
     ],
     "name": "DS_TRF_V",
+    "title": "Transfert ou hospitalisation particulière de l'enfant (oui/non)",
     "primaryKey": [
         "HOS_TRF_TOP"
     ]

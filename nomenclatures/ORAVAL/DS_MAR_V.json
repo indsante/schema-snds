@@ -22,6 +22,7 @@
         ""
     ],
     "name": "DS_MAR_V",
+    "title": "Etat matrimonial",
     "primaryKey": [
         "ETA_MAR_COD"
     ]

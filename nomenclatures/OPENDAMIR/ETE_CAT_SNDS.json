@@ -15,5 +15,6 @@
   ],
   "missingValues": [],
   "name": "ETE_CAT_SNDS",
+  "title": "Catégorie de l'établissement exécutant (OPEN DAMIR)",
   "primaryKey": "ETE_CAT_SNDS"
 }

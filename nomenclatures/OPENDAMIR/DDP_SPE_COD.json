@@ -15,5 +15,6 @@
   ],
   "missingValues": [],
   "name": "DDP_SPE_COD",
+  "title": "Discipline de l'établissement exécutant (OPEN_DAMIR)",
   "primaryKey": "DDP_SPE_COD"
 }

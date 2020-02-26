@@ -22,6 +22,7 @@
         ""
     ],
     "name": "DS_PC1_V",
+    "title": "Catégorie socio-professionnelle",
     "primaryKey": [
         "CAT_PC1_CH1"
     ]

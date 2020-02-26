@@ -15,5 +15,6 @@
   ],
   "missingValues": [],
   "name": "EXE_INS_REG",
+  "title": "Region du professionnel de santé exécutant (OPEN DAMIR)",
   "primaryKey": "EXE_INS_REG"
 }

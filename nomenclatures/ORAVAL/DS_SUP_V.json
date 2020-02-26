@@ -22,6 +22,7 @@
         ""
     ],
     "name": "DS_SUP_V",
+    "title" : "Type de support du certificat de décès (électronique/papier)",
     "primaryKey": [
         "CER_SUP_TYP"
     ]

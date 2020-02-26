@@ -15,5 +15,6 @@
   ],
   "missingValues": [],
   "name": "BEN_RES_REG",
+  "title": "Région de résidence du bénéficiaire (OPEN_DAMIR)",
   "primaryKey": "BEN_RES_REG"
 }

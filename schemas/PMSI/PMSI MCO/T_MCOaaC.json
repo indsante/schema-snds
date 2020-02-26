@@ -1,0 +1,656 @@
+{
+    "fields": [
+        {
+            "name": "COH_NAI_RET",
+            "description": "Code retour contr\u00f4le \u00ab Coh\u00e9rence date naissance \u00bb",
+            "type": "boolean",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "COH_SEX_RET",
+            "description": "Code retour contr\u00f4le \u00ab Coh\u00e9rence sexe \u00bb",
+            "type": "boolean",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "DAT_RET",
+            "description": "Code retour contr\u00f4le \u00ab\u00a0date de r\u00e9f\u00e9rence\u00bb (date d'entr\u00e9e)",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "constraints": {
+                "enum": [
+                    "0"
+                ]
+            },
+            "dateCreated": "2006",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ENT_DAT",
+            "description": "date d'entr\u00e9e",
+            "type": "date",
+            "nomenclature": "-",
+            "length": "8",
+            "format": "%d%m%Y",
+            "dateCreated": "2009",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ETA_NUM",
+            "description": "Num\u00e9ro FINESS e-PMSI",
+            "type": "integer",
+            "nomenclature": "-",
+            "length": "9",
+            "format": "default",
+            "constraints": {
+                "minimum": 100000000
+            },
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ETA_NUM_RET",
+            "description": "Code retour contr\u00f4le \"N\u00b0 FINESS d\u2019inscription e-PMSI\"",
+            "type": "boolean",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2017",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "EXE_SOI_AMD",
+            "description": "Date d'entr\u00e9e au format ann\u00e9e + mois",
+            "type": "yearmonth",
+            "nomenclature": "-",
+            "length": "6",
+            "format": "default",
+            "dateCreated": "2009",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "EXE_SOI_AMF",
+            "description": "Date de sortie au format ann\u00e9e + mois",
+            "type": "yearmonth",
+            "nomenclature": "-",
+            "length": "6",
+            "format": "default",
+            "dateCreated": "2009",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "EXE_SOI_DTD",
+            "description": "Date d'entr\u00e9e (date)",
+            "type": "datetime",
+            "nomenclature": "-",
+            "length": null,
+            "format": "%d%b%Y:%H:%M:%S",
+            "dateCreated": "2009",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "date"
+        },
+        {
+            "name": "EXE_SOI_DTF",
+            "description": "Date de sortie (date)",
+            "type": "datetime",
+            "nomenclature": "-",
+            "length": null,
+            "format": "%d%b%Y:%H:%M:%S",
+            "dateCreated": "2009",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "date"
+        },
+        {
+            "name": "FHO_RET",
+            "description": "Code retour \u00ab\u00a0fusion ANO HOSP et HOSP PMSI\u00a0\u00bb",
+            "type": "boolean",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "FOR_NUM",
+            "description": "N\u00b0 format",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "3",
+            "format": "default",
+            "constraints": {
+                "enum": [
+                    "010",
+                    "011",
+                    "012"
+                ]
+            },
+            "dateCreated": "2008",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "HOS_NN_MAM",
+            "description": "Hospitalisation d'un nouveau-n\u00e9 aupr\u00e8s de la m\u00e8re",
+            "type": "boolean",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "HOS_NNE_RET",
+            "description": "Code retour contr\u00f4le \u00ab Hospitalisation d'un nouveau-n\u00e9 aupr\u00e8s de la m\u00e8re \u00bb",
+            "type": "boolean",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "HOS_ORG_RET",
+            "description": "Code retour contr\u00f4le \u00ab Hospitalisation pour pr\u00e9l\u00e8vement d'organe \u00bb",
+            "type": "boolean",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "HOS_PLO",
+            "description": "Hospitalisation pour pr\u00e9l\u00e8vement d'organe",
+            "type": "boolean",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "NAI_RET",
+            "description": "Code retour contr\u00f4le \u00ab\u00a0date de naissance\u00a0\u00bb",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "constraints": {
+                "enum": [
+                    "0",
+                    "1",
+                    "9"
+                ]
+            },
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "NIR_ANO_17",
+            "description": "N\u00b0 anonyme",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "17",
+            "format": "default",
+            "constraints": {
+                "minLength": 17
+            },
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "NIR_ANO_MAM",
+            "description": "N\u00b0 anonyme m\u00e8re-enfant",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "32",
+            "format": "default",
+            "constraints": {
+                "minLength": 32
+            },
+            "dateCreated": "2013",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "NIR_RET",
+            "description": "Code retour contr\u00f4le \u00ab\u00a0n\u00b0 s\u00e9curit\u00e9 sociale\u00a0\u00bb",
+            "type": "boolean",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "NUM_DAT_AT",
+            "description": "Num\u00e9ro accident du travail ou date d\u2019accident de droit commun",
+            "type": "integer",
+            "nomenclature": "-",
+            "length": "9",
+            "format": "default",
+            "constraints": {
+                "minimum": 100000000
+            },
+            "dateCreated": "2015",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "NUM_DAT_AT_RET",
+            "description": "Code retour contr\u00f4le \"\u00a0Num\u00e9ro accident du travail ou date d\u2019accident de droit commun\"",
+            "type": "boolean",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2015",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ORG_CPL_NUM",
+            "description": "N\u00b0 d\u2019organisme compl\u00e9mentaire",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "10",
+            "format": "default",
+            "dateCreated": "2015",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ORG_CPL_NUM_RET",
+            "description": "Code retour contr\u00f4le \"\u00a0N\u00b0 d\u2019organisme compl\u00e9mentaire\"",
+            "type": "boolean",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2015",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "PMS_RET",
+            "description": "Code retour \u00ab\u00a0fusion ANO PMSI et fichier PMSI\u00a0\u00bb",
+            "type": "boolean",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "trueValues": [
+                "0"
+            ],
+            "falseValues": [
+                "0"
+            ],
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "RNG_BEN",
+            "description": "Rang du b\u00e9n\u00e9ficiaire",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "3",
+            "format": "default",
+            "dateCreated": "2015",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "RNG_BEN_RET",
+            "description": "Code retour contr\u00f4le \u00ab Rang du b\u00e9n\u00e9ficiaire \u00bb",
+            "type": "boolean",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2015",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "RNG_NAI",
+            "description": "Rang de naissance",
+            "type": "integer",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2015",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "RNG_NAI_RET",
+            "description": "Code retour contr\u00f4le \u00ab Rang de naissance \u00bb",
+            "type": "boolean",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2015",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "RSA_NUM",
+            "description": "N\u00b0 s\u00e9quentiel dans fichier PMSI",
+            "type": "integer",
+            "nomenclature": "-",
+            "length": "10",
+            "format": "default",
+            "constraints": {
+                "minimum": 1000000000
+            },
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "SEJ_MER_RET",
+            "description": "Code retour contr\u00f4le \u00ab N\u00b0 administratif de s\u00e9jour de la m\u00e8re \u00bb",
+            "type": "boolean",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "SEJ_NUM",
+            "description": "N\u00b0 de s\u00e9jour",
+            "type": "integer",
+            "nomenclature": "-",
+            "length": "5",
+            "format": "default",
+            "constraints": {
+                "minimum": 10000
+            },
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "SEJ_RET",
+            "description": "Code retour contr\u00f4le \u00ab\u00a0n\u00b0 d\u2019identification administratif de s\u00e9jour \u00bb",
+            "type": "boolean",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "trueValues": [
+                "0"
+            ],
+            "falseValues": [
+                "9"
+            ],
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "SEX_RET",
+            "description": "Code retour contr\u00f4le \u00ab\u00a0sexe\u00a0\u00bb",
+            "type": "boolean",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "SOR_ANN",
+            "description": "Ann\u00e9e de sortie",
+            "type": "year",
+            "nomenclature": "-",
+            "length": "4",
+            "format": "default",
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "SOR_DAT",
+            "description": "date de sortie",
+            "type": "date",
+            "nomenclature": "-",
+            "length": "8",
+            "format": "%d%m%Y",
+            "dateCreated": "2009",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "SOR_MOI",
+            "description": "Mois de sortie",
+            "type": "date",
+            "nomenclature": "-",
+            "length": "2",
+            "format": "%m",
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "VID_HOSP_FOR",
+            "description": "N\u00b0 format VID-HOSP",
+            "type": "integer",
+            "nomenclature": "-",
+            "length": "3",
+            "format": "default",
+            "constraints": {
+                "minimum": 100
+            },
+            "dateCreated": "2008",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ENT_AM",
+            "description": "Date d'entr\u00e9e au format ann\u00e9e + mois",
+            "type": "yearmonth",
+            "length": "6",
+            "dateCreated": "2009",
+            "dateDeleted": "2011",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "date"
+        },
+        {
+            "name": "SOR_AM",
+            "description": "Date de sortie au format ann\u00e9e + mois",
+            "type": "yearmonth",
+            "length": "6",
+            "dateCreated": "2009",
+            "dateDeleted": "2011",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "date"
+        }
+    ],
+    "name": "T_MCOaaC",
+    "title": "NIR patient et Dates de soin",
+    "produit": "PMSI MCO",
+    "missingValues": [
+        ""
+    ],
+    "primaryKey": [
+        "ETA_NUM",
+        "RSA_NUM"
+    ],
+    "foreignKeys": [
+        {
+            "fields": [
+                "ETA_NUM",
+                "RSA_NUM"
+            ],
+            "reference": {
+                "resource": "T_MCOaa_nnB",
+                "fields": [
+                    "ETA_NUM",
+                    "RSA_NUM"
+                ]
+            },
+            "description": "Bidirectionnel"
+        },
+        {
+            "fields": "NIR_ANO_17",
+            "reference": {
+                "resource": "IR_BEN_R",
+                "fields": "BEN_NIR_PSA"
+            }
+        }
+    ],
+    "history": {
+        "dateCreated": "2005",
+        "dateDeleted": "",
+        "dateMissing": []
+    },
+    "champ": "Public et Priv\u00e9",
+    "observation": "Cette table fournit les informations d'identification du patient (permet de cha\u00eener avec DCIR), elle contient 1 ligne par RSA (table MCOB). Les codes retour nous informent sur la qualit\u00e9 dev NIR_ANO_17 et non pas sur le s\u00e9jour; Pour les codes retour qui ne valent pas 0, cela signifie donc que le NIR_ANO_17 n'est pas bon (env. 2% des lignes; cf onglet \"Filtres\") mais le s\u00e9jour est quant \u00e0 lui correct. Attention il y a de RSA fictifs qu'ils faut filtrer, voir r\u00e8gles de gestion pour les supprimer (pas de possibilt\u00e9 de filtrer sans croiser avec la table MCOB)."
+}

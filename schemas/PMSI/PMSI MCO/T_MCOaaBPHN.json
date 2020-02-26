@@ -1,0 +1,254 @@
+{
+    "name": "T_MCOaaBPHN",
+    "title": "B et P hors nomenclature (extension de fichier .bphn)",
+    "produit": "PMSI MCO",
+    "history": {
+        "dateCreated": "2010",
+        "dateDeleted": "2011",
+        "dateMissing": []
+    },
+    "missingValues": [
+        ""
+    ],
+    "fields": [
+        {
+            "name": "NBR_FAC_AUT_ETP",
+            "description": "Nombre factur\u00e9 pour un autre \u00e9tablissement public",
+            "type": "integer",
+            "length": "10",
+            "dateCreated": "2010",
+            "dateDeleted": "2011",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "NBR_FAC_TOT",
+            "description": "Nombre total factur\u00e9",
+            "type": "integer",
+            "length": "10",
+            "dateCreated": "2010",
+            "dateDeleted": "2011",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "ACT_COD",
+            "description": "Code acte",
+            "type": "string",
+            "length": "4",
+            "dateCreated": "2010",
+            "dateDeleted": "2011",
+            "nomenclature": "IR_ACT_COD",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ANN_MOI",
+            "description": "Mois et ann\u00e9e",
+            "type": "yearmonth",
+            "length": null,
+            "dateCreated": "2010",
+            "dateDeleted": "2011",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "date"
+        },
+        {
+            "name": "NBR_AUT_ETP",
+            "description": "Nombre r\u00e9alis\u00e9 pour un autre \u00e9tablissement public",
+            "type": "integer",
+            "length": "10",
+            "dateCreated": "2010",
+            "dateDeleted": "2011",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "NBR_REA_TOT",
+            "description": "Nombre total r\u00e9alis\u00e9",
+            "type": "integer",
+            "length": "10",
+            "dateCreated": "2010",
+            "dateDeleted": "2011",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "NBR_PHE",
+            "description": "Nombre r\u00e9alis\u00e9 pour  patients hospitalis\u00e9s au sein de l\u2019\u00e9tablissement",
+            "type": "integer",
+            "length": "10",
+            "dateCreated": "2010",
+            "dateDeleted": "2011",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "FIC_TYP",
+            "description": "Type de fichier",
+            "type": "string",
+            "length": "3",
+            "dateCreated": "2010",
+            "dateDeleted": "2011",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "NBR_INC_DEM",
+            "description": "Nombre r\u00e9alis\u00e9 autre ou demandeur inconnu",
+            "type": "integer",
+            "length": "10",
+            "dateCreated": "2010",
+            "dateDeleted": "2011",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "NBR_FAC_CON_EXT",
+            "description": "Nombre factur\u00e9 pour consultants externes",
+            "type": "integer",
+            "length": "10",
+            "dateCreated": "2010",
+            "dateDeleted": "2011",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "NBR_FAC_SEC_LIB",
+            "description": "Nombre factur\u00e9  \u00e9manant du secteur lib\u00e9ral",
+            "type": "integer",
+            "length": "10",
+            "dateCreated": "2010",
+            "dateDeleted": "2011",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "NBR_CON_EXT",
+            "description": "Nombre r\u00e9alis\u00e9 pour consultants externes",
+            "type": "integer",
+            "length": "10",
+            "dateCreated": "2010",
+            "dateDeleted": "2011",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "ETA_NUM",
+            "description": "Num\u00e9ro FINESS e-PMSI",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2010",
+            "dateDeleted": "2011",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "NBR_FAC_INC_DEM",
+            "description": "Nombre factur\u00e9 autre ou demandeur inconnu",
+            "type": "integer",
+            "length": "10",
+            "dateCreated": "2010",
+            "dateDeleted": "2011",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "NBR_FAC_PHE",
+            "description": "Nombre factur\u00e9 pour patients hospitalis\u00e9s au sein de l\u2019\u00e9tablissement",
+            "type": "integer",
+            "length": "10",
+            "dateCreated": "2010",
+            "dateDeleted": "2011",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "NBR_SEC_LIB",
+            "description": "Nombre r\u00e9alis\u00e9 \u00e9manant du secteur lib\u00e9ral",
+            "type": "integer",
+            "length": "10",
+            "dateCreated": "2010",
+            "dateDeleted": "2011",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        }
+    ],
+    "champ": "Public",
+    "observation": "",
+    "foreignKeys": [
+        {
+            "fields": [
+                "ETA_NUM"
+            ],
+            "reference": {
+                "resource": "T_MCOaa_nnE",
+                "fields": [
+                    "ETA_NUM"
+                ]
+            }
+        }
+    ]
+}

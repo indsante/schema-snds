@@ -1,0 +1,270 @@
+{
+    "fields": [
+        {
+            "name": "DEL_DAT_ENT",
+            "description": "D\u00e9lai par rapport \u00e0 la date d'entr\u00e9e",
+            "type": "integer",
+            "nomenclature": "-",
+            "length": "5",
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "ENT_ANN",
+            "description": "Ann\u00e9e d\u00e9but de s\u00e9jour",
+            "type": "year",
+            "nomenclature": "-",
+            "length": "4",
+            "format": "default",
+            "dateCreated": "2008",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ENT_MOI",
+            "description": "Mois de d\u00e9but de s\u00e9jour",
+            "type": "date",
+            "nomenclature": "-",
+            "length": "2",
+            "format": "%m",
+            "dateCreated": "2008",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ETA_NUM",
+            "description": "Num\u00e9ro FINESS e-PMSI",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "9",
+            "format": "default",
+            "dateCreated": "2011",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ETA_NUM_GEO",
+            "description": "Num\u00e9ro FINESS g\u00e9ographique",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "9",
+            "format": "default",
+            "dateCreated": "2016",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "FAC_MNT",
+            "description": "Montant total factur\u00e9",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "7,2",
+            "format": "default",
+            "dateCreated": "2011",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "LPP_COD",
+            "description": "Code r\u00e9f\u00e9rence LPP",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "13",
+            "format": "default",
+            "dateCreated": "2011",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "LPP_PRI_UNI",
+            "description": "Prix d'achat unitaire",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "7,2",
+            "format": "default",
+            "dateCreated": "2011",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "LPP_PU_DEV",
+            "description": "Tarif r\u00e9f\u00e9rence LPP ou Prix Unitaire sur devis",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "7,2",
+            "format": "default",
+            "dateCreated": "2011",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "LPP_QUA",
+            "description": "Quantit\u00e9",
+            "type": "integer",
+            "nomenclature": "-",
+            "length": "2",
+            "format": "default",
+            "dateCreated": "2011",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "MNT_UNI_ECA",
+            "description": "Montant unitaire de l'\u00e9cart indemnisable",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "7,2",
+            "format": "default",
+            "dateCreated": "2011",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "NUM_FAC",
+            "description": "N\u00b0 Facture s\u00e9quentiel",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "3",
+            "format": "default",
+            "dateCreated": "2011",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "RSF_TYP",
+            "description": "Type de format RSF (1 : ancien, 2 : nouveau)",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2011",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "SEQ_NUM",
+            "description": "N\u00b0 s\u00e9quentiel",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "8",
+            "format": "default",
+            "dateCreated": "2011",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "TIP_PRS_IDE",
+            "description": "Code r\u00e9f\u00e9rence LPP (format num\u00e9rique)",
+            "type": "integer",
+            "nomenclature": "NT_LPP",
+            "length": "13",
+            "format": "default",
+            "dateCreated": "2011",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "TOT_MNT_ECA",
+            "description": "Montant total de l'\u00e9cart indemnisable",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "7,2",
+            "format": "default",
+            "dateCreated": "2011",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "TYP_ART",
+            "description": "Type d'enregistrement",
+            "type": "string",
+            "nomenclature": "MS_ENR_V",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2011",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        }
+    ],
+    "name": "T_MCOaaFPSTC",
+    "title": "ACE DMI en sus",
+    "produit": "PMSI MCO",
+    "missingValues": [
+        ""
+    ],
+    "foreignKeys": [
+        {
+            "fields": [
+                "ETA_NUM",
+                "SEQ_NUM"
+            ],
+            "reference": {
+                "resource": "T_MCOaa_nnFASTC",
+                "fields": [
+                    "ETA_NUM",
+                    "SEQ_NUM"
+                ]
+            }
+        }
+    ],
+    "history": {
+        "dateCreated": "2011",
+        "dateDeleted": "",
+        "dateMissing": []
+    },
+    "champ": "Public",
+    "observation": "les HCL ne pas transmettent plus d'ACE au niveau finess g\u00e9o \u00e0 partir de 2015"
+}

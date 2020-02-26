@@ -1,0 +1,270 @@
+{
+    "fields": [
+        {
+            "name": "ACH_PRU_TTC",
+            "description": "Prix d'achat unitaire TTC",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "7,2",
+            "format": "default",
+            "dateCreated": "2009",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "DEL_DAT_ENT",
+            "description": "D\u00e9lai par rapport \u00e0 la date d'entr\u00e9e",
+            "type": "integer",
+            "nomenclature": "-",
+            "length": "5",
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "ECRT_IND_MNT",
+            "description": "Montant total de l'\u00e9cart indemnisable",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "7,2",
+            "format": "default",
+            "dateCreated": "2009",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "ECRT_IND_MTU",
+            "description": "Montant unitaire de l'\u00e9cart indemnisable",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "7,2",
+            "format": "default",
+            "dateCreated": "2009",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "ENT_ANN",
+            "description": "Ann\u00e9e d\u00e9but de s\u00e9jour",
+            "type": "year",
+            "nomenclature": "-",
+            "length": "4",
+            "format": "default",
+            "dateCreated": "2009",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ENT_MOI",
+            "description": "Mois de d\u00e9but de s\u00e9jour",
+            "type": "date",
+            "nomenclature": "-",
+            "length": "2",
+            "format": "%m",
+            "dateCreated": "2009",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ETA_NUM",
+            "description": "Num\u00e9ro FINESS e-PMSI",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "9",
+            "format": "default",
+            "dateCreated": "2009",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ETA_NUM_GEO",
+            "description": "Num\u00e9ro FINESS g\u00e9ographique",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "9",
+            "format": "default",
+            "dateCreated": "2016",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "FAC_MNT",
+            "description": "Montant total factur\u00e9 TTC",
+            "type": "integer",
+            "nomenclature": "-",
+            "length": "7",
+            "format": "default",
+            "dateCreated": "2009",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "FRACT_COE",
+            "description": "Coefficient de fractionnement",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "5,2",
+            "format": "default",
+            "dateCreated": "2009",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "NUM_FAC",
+            "description": "N\u00b0 Facture s\u00e9quentiel",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "3",
+            "format": "default",
+            "dateCreated": "2009",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "QUA",
+            "description": "Quantit\u00e9",
+            "type": "integer",
+            "nomenclature": "-",
+            "length": "3",
+            "format": "default",
+            "dateCreated": "2009",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "RSF_TYP",
+            "description": "Type de format RSF (1 : ancien, 2 : nouveau)",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2009",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "SEQ_NUM",
+            "description": "N\u00b0 s\u00e9quentiel",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "8",
+            "format": "default",
+            "dateCreated": "2009",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "TYP_ART",
+            "description": "Type d'enregistrement",
+            "type": "string",
+            "nomenclature": "MS_ENR_V",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2009",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "UCD_COD",
+            "description": "Code UCD",
+            "type": "string",
+            "nomenclature": "NU_UCD_R",
+            "length": "7",
+            "format": "default",
+            "dateCreated": "2009",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "UCD_UCD_COD",
+            "description": "Code UCD (0 \u00e0 gauche)",
+            "type": "string",
+            "nomenclature": "NU_UCD_R",
+            "length": "13",
+            "format": "default",
+            "dateCreated": "2009",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        }
+    ],
+    "name": "T_MCOaaFHSTC",
+    "title": "ACE medicament en sus",
+    "produit": "PMSI MCO",
+    "missingValues": [
+        ""
+    ],
+    "foreignKeys": [
+        {
+            "fields": [
+                "ETA_NUM",
+                "SEQ_NUM"
+            ],
+            "reference": {
+                "resource": "T_MCOaa_nnFASTC",
+                "fields": [
+                    "ETA_NUM",
+                    "SEQ_NUM"
+                ]
+            }
+        }
+    ],
+    "history": {
+        "dateCreated": "2009",
+        "dateDeleted": "",
+        "dateMissing": []
+    },
+    "champ": "Public",
+    "observation": "les HCL ne pas transmettent plus d'ACE au niveau finess g\u00e9o \u00e0 partir de 2015"
+}

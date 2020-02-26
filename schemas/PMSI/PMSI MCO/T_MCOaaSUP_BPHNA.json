@@ -1,0 +1,142 @@
+{
+    "name": "T_MCOaaSUP_BPHNA",
+    "title": "Fich sup BP HN nb",
+    "produit": "PMSI MCO",
+    "history": {
+        "dateCreated": "2010",
+        "dateDeleted": "",
+        "dateMissing": []
+    },
+    "missingValues": [
+        ""
+    ],
+    "fields": [
+        {
+            "name": "ACT_COD",
+            "description": "Code acte",
+            "type": "string",
+            "length": "4",
+            "dateCreated": "2010",
+            "dateDeleted": "",
+            "nomenclature": "IR_ACT_COD",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "NBR_ACT_PAT_AUT_ETB",
+            "description": "Nombre d'actes r\u00e9alis\u00e9s pour les patients d'autres \u00e9tablissements ou de laboratoires ext\u00e9rieurs",
+            "type": "integer",
+            "length": "10",
+            "dateCreated": "2010",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "NBR_ACT_CON_EXT",
+            "description": "Dont nombre d'actes r\u00e9alis\u00e9s pour consultants externe",
+            "type": "integer",
+            "length": "10",
+            "dateCreated": "2010",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "ETA_NUM",
+            "description": "N\u00b0 FINESS",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2010",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "NBR_ACT_PAT_ETB",
+            "description": "Nombre d'actes r\u00e9alis\u00e9s pour patients de l'etab",
+            "type": "integer",
+            "length": "10",
+            "dateCreated": "2010",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "FIC_TYP",
+            "description": "Type de fichier",
+            "type": "string",
+            "length": "3",
+            "dateCreated": "2010",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ANN_MOI",
+            "description": "Ann\u00e9e+Mois",
+            "type": "yearmonth",
+            "length": "6",
+            "dateCreated": "2010",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "NBR_ACT_PAT_HOS",
+            "description": "Dont nombre d'actes r\u00e9alis\u00e9s pour patients hospitalis\u00e9s",
+            "type": "integer",
+            "length": "10",
+            "dateCreated": "2010",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        }
+    ],
+    "champ": "Public",
+    "observation": "Chgt de nom en 2015 ajout du pr\u00e9fixe SUP_",
+    "foreignKeys": [
+        {
+            "fields": [
+                "ETA_NUM"
+            ],
+            "reference": {
+                "resource": "T_MCOaa_nnE",
+                "fields": [
+                    "ETA_NUM"
+                ]
+            }
+        }
+    ]
+}

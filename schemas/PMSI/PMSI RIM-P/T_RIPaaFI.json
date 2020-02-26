@@ -1,0 +1,214 @@
+{
+    "fields": [
+        {
+            "name": "TYP_ART",
+            "description": "Type d'enregistrement",
+            "type": "string",
+            "nomenclature": "MS_ENR_V",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ETA_NUM_EPMSI",
+            "description": "Num\u00e9ro FINESS de l\u2019entit\u00e9 juridique",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "9",
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ETA_NUM_TWO",
+            "description": "Num\u00e9ro FINESS de l\u2019\u00e9tablissement (site g\u00e9ographique)",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "9",
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "RIP_NUM",
+            "description": "Num\u00e9ro s\u00e9quentiel de s\u00e9jour (idem RPSA)",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "6",
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "FAC_NUM",
+            "description": "N\u00b0 s\u00e9quentiel de facture",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "3",
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "DEL_DAT_ENT",
+            "description": "D\u00e9lai par rapport \u00e0 la date d'entr\u00e9e",
+            "type": "number",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "ENT_MOI",
+            "description": "Mois de la date de d\u00e9but de s\u00e9jour",
+            "type": "date",
+            "nomenclature": "-",
+            "length": "2",
+            "format": "%m",
+            "dateCreated": "2010",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ENT_ANN",
+            "description": "Ann\u00e9e de la date de d\u00e9but de s\u00e9jour",
+            "type": "year",
+            "nomenclature": "-",
+            "length": "4",
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "SOR_MOI",
+            "description": "Mois de la date de fin de s\u00e9jour",
+            "type": "date",
+            "nomenclature": "-",
+            "length": "2",
+            "format": "%m",
+            "dateCreated": "2010",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "SOR_ANN",
+            "description": "Ann\u00e9e de la date de fin de s\u00e9jour",
+            "type": "year",
+            "nomenclature": "-",
+            "length": "4",
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "SEJ_DUR",
+            "description": "Dur\u00e9e (Date de fin de s\u00e9jour-date de d\u00e9but de s\u00e9jour)",
+            "type": "number",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "SEJ_FIN",
+            "description": "Nature d'interruption ou de fin de s\u00e9jour",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ETB_NUM",
+            "description": "Etablissement de transfert ou de retour ou lieu d'ex\u00e9cution de l'acte",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "14",
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        }
+    ],
+    "name": "T_RIPaaFI",
+    "title": "interruption de sejour",
+    "produit": "PMSI RIM-P",
+    "missingValues": [
+        ""
+    ],
+    "foreignKeys": [
+        {
+            "fields": [
+                "ETA_NUM_EPMSI",
+                "RIP_NUM"
+            ],
+            "reference": {
+                "resource": "T_RIPaa_nnFB",
+                "fields": [
+                    "ETA_NUM_EPMSI",
+                    "RIP_NUM"
+                ]
+            }
+        }
+    ],
+    "history": {
+        "dateCreated": "2010",
+        "dateDeleted": "",
+        "dateMissing": []
+    },
+    "champ": "Priv\u00e9",
+    "observation": ""
+}

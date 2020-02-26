@@ -1,0 +1,102 @@
+{
+    "name": "T_MCOaaLEG",
+    "title": "Fichier donnant toutes les erreurs d\u00e9tect\u00e9es par la fonction groupage",
+    "produit": "PMSI MCO",
+    "history": {
+        "dateCreated": "2014",
+        "dateDeleted": "",
+        "dateMissing": []
+    },
+    "missingValues": [
+        ""
+    ],
+    "fields": [
+        {
+            "name": "ETA_NUM",
+            "description": "N\u00b0 FINESS e-PMSI",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ANN",
+            "description": "Ann\u00e9e p\u00e9riode",
+            "type": "year",
+            "length": "4",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "COD_ERR",
+            "description": "Code retour",
+            "type": "string",
+            "length": "4",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "MOI",
+            "description": "Mois p\u00e9riode",
+            "type": "date",
+            "length": "2",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "%m",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "RSA_NUM",
+            "description": "N\u00b0 d'index du RSA",
+            "type": "string",
+            "length": "10",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        }
+    ],
+    "champ": "Public et Priv\u00e9",
+    "observation": "",
+    "foreignKeys": [
+        {
+            "fields": [
+                "ETA_NUM",
+                "RSA_NUM"
+            ],
+            "reference": {
+                "resource": "T_MCOaa_nnB",
+                "fields": [
+                    "ETA_NUM",
+                    "RSA_NUM"
+                ]
+            }
+        }
+    ]
+}

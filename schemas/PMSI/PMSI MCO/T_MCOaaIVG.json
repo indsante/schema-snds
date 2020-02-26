@@ -1,0 +1,186 @@
+{
+    "fields": [
+        {
+            "name": "ANN",
+            "description": "Ann\u00e9e p\u00e9riode",
+            "type": "year",
+            "nomenclature": "-",
+            "length": "4",
+            "format": "default",
+            "dateCreated": "2017",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ANN_IVG_PREC",
+            "description": "Ann\u00e9e de la derni\u00e8re IVG",
+            "type": "year",
+            "nomenclature": "-",
+            "length": "4",
+            "format": "default",
+            "dateCreated": "2017",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ETA_NUM",
+            "description": "N\u00b0 FINESS e-PMSI",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "9",
+            "format": "default",
+            "dateCreated": "2017",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ETA_NUM_ENT",
+            "description": "N\u00b0 FINESS du fichier d'entr\u00e9e",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "9",
+            "format": "default",
+            "dateCreated": "2017",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "MOI",
+            "description": "N\u00b0 p\u00e9riode (mois)",
+            "type": "date",
+            "nomenclature": "-",
+            "length": "2",
+            "format": "%m",
+            "dateCreated": "2017",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "NBR_IVG_ANT",
+            "description": "Nombre d'IVG ant\u00e9rieures",
+            "type": "integer",
+            "nomenclature": "-",
+            "length": "2",
+            "format": "default",
+            "dateCreated": "2017",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "NBR_NAIS_ANT",
+            "description": "Nombre de naissances vivantes ant\u00e9rieures",
+            "type": "integer",
+            "nomenclature": "-",
+            "length": "2",
+            "format": "default",
+            "dateCreated": "2017",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "PRS_TYP",
+            "description": "Type de prestation",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "2",
+            "format": "default",
+            "dateCreated": "2017",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "RSA_NUM",
+            "description": "N\u00b0 d'index du RSA",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "10",
+            "format": "default",
+            "dateCreated": "2017",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "SOR_ANN",
+            "description": "Ann\u00e9e du s\u00e9jour",
+            "type": "year",
+            "nomenclature": "-",
+            "length": "4",
+            "format": "default",
+            "dateCreated": "2017",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "SOR_MOI",
+            "description": "Mois du s\u00e9jour",
+            "type": "date",
+            "nomenclature": "-",
+            "length": "2",
+            "format": "%m",
+            "dateCreated": "2017",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        }
+    ],
+    "name": "T_MCOaaIVG",
+    "title": "Fich comp IVG",
+    "produit": "PMSI MCO",
+    "missingValues": [
+        ""
+    ],
+    "foreignKeys": [
+        {
+            "fields": [
+                "ETA_NUM",
+                "RSA_NUM"
+            ],
+            "reference": {
+                "resource": "T_MCOaa_nnB",
+                "fields": [
+                    "ETA_NUM",
+                    "RSA_NUM"
+                ]
+            }
+        }
+    ],
+    "history": {
+        "dateCreated": "2017",
+        "dateDeleted": "",
+        "dateMissing": []
+    },
+    "champ": "Public",
+    "observation": ""
+}

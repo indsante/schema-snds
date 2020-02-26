@@ -1,0 +1,244 @@
+{
+    "name": "T_SSRaaCCAR",
+    "title": "classification acte de r\u00e9adaptation",
+    "produit": "PMSI SSR",
+    "history": {
+        "dateCreated": "2009",
+        "dateDeleted": "2014",
+        "dateMissing": []
+    },
+    "missingValues": [
+        ""
+    ],
+    "fields": [
+        {
+            "name": "CCAR_NBR_REA",
+            "description": "Nombre de r\u00e9alisations",
+            "type": "number",
+            "length": null,
+            "dateCreated": "2009",
+            "dateDeleted": "2014",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "NBR_PAT",
+            "description": "Nombre de patients en acte individuel",
+            "type": "number",
+            "length": null,
+            "dateCreated": "2012",
+            "dateDeleted": "2014",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "APP_SUP_COD",
+            "description": "Code suppl\u00e9mentaire \"appareillage\"",
+            "type": "string",
+            "length": "3",
+            "dateCreated": "2012",
+            "dateDeleted": "2014",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "CCAR_ACT",
+            "description": "Code principal",
+            "type": "string",
+            "length": "7",
+            "dateCreated": "2009",
+            "dateDeleted": "2012",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "INT_COD",
+            "description": "Code de l'intervenant",
+            "type": "string",
+            "length": "2",
+            "dateCreated": "2009",
+            "dateDeleted": "2014",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "RHS_NUM",
+            "description": "Num\u00e9ro s\u00e9quentiel du RHS",
+            "type": "string",
+            "length": "3",
+            "dateCreated": "2009",
+            "dateDeleted": "2014",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ETA_NUM",
+            "description": "N\u00b0 FINESS de l'\u00e9tablissement",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2009",
+            "dateDeleted": "2014",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "DELAI_ENT_UM",
+            "description": "D\u00e9lai depuis l'entr\u00e9e dans l'UM",
+            "type": "number",
+            "length": null,
+            "dateCreated": "2012",
+            "dateDeleted": "2014",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "MODUL_PAT1_COD",
+            "description": "Code \"modulateur de patient\" n\u00b01",
+            "type": "string",
+            "length": "2",
+            "dateCreated": "2012",
+            "dateDeleted": "2014",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "MODUL_PAT2_COD",
+            "description": "Code \"modulateur de patient\" n\u00b02",
+            "type": "string",
+            "length": "2",
+            "dateCreated": "2012",
+            "dateDeleted": "2014",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "CCAR_ACT_COMP_WEEK",
+            "description": "Acte compatible avec  la semaine",
+            "type": "string",
+            "length": "1",
+            "dateCreated": "2010",
+            "dateDeleted": "2014",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "CCAR_COD",
+            "description": "Code principal",
+            "type": "string",
+            "length": "7",
+            "dateCreated": "2012",
+            "dateDeleted": "2014",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "MODUL_LIEU_COD",
+            "description": "Code modulateur de lieu",
+            "type": "string",
+            "length": "2",
+            "dateCreated": "2012",
+            "dateDeleted": "2014",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "RHA_VER",
+            "description": "N\u00b0 version du format du RHA",
+            "type": "string",
+            "length": "3",
+            "dateCreated": "2009",
+            "dateDeleted": "2014",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "RHA_NUM",
+            "description": "N\u00b0 S\u00e9quentiel du s\u00e9jour",
+            "type": "string",
+            "length": "7",
+            "dateCreated": "2009",
+            "dateDeleted": "2014",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        }
+    ],
+    "foreignKeys": [
+        {
+            "fields": [
+                "ETA_NUM",
+                "RHA_NUM",
+                "RHS_NUM"
+            ],
+            "reference": {
+                "resource": "T_SSRaa_nnB",
+                "fields": [
+                    "ETA_NUM",
+                    "RHA_NUM",
+                    "RHS_NUM"
+                ]
+            }
+        }
+    ],
+    "champ": "Public et Priv\u00e9",
+    "observation": "remplac\u00e9e par la table T_SSRaaCSARR"
+}

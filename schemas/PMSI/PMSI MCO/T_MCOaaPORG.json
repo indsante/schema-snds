@@ -1,0 +1,172 @@
+{
+    "fields": [
+        {
+            "name": "ANN",
+            "description": "Ann\u00e9e p\u00e9riode",
+            "type": "year",
+            "nomenclature": "-",
+            "length": "4",
+            "format": "default",
+            "dateCreated": "2008",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ANN_PO",
+            "description": "Ann\u00e9e de la date de r\u00e9alisation du pr\u00e9l\u00e8vement d'organe",
+            "type": "year",
+            "nomenclature": "-",
+            "length": "4",
+            "format": "default",
+            "dateCreated": "2009",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "DELAI",
+            "description": "D\u00e9lai entre la date d\u2019entr\u00e9e du s\u00e9jour et la date de r\u00e9alisation du pr\u00e9l\u00e8vement d'organe",
+            "type": "integer",
+            "nomenclature": "-",
+            "length": "4",
+            "format": "default",
+            "dateCreated": "2008",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "ETA_NUM",
+            "description": "N\u00b0 FINESS e-PMSI",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "9",
+            "format": "default",
+            "dateCreated": "2008",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ETA_NUM_ENT",
+            "description": "N\u00b0 FINESS du fichier d'entr\u00e9e",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "9",
+            "format": "default",
+            "dateCreated": "2017",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "MOI",
+            "description": "N\u00b0 p\u00e9riode (mois)",
+            "type": "date",
+            "nomenclature": "-",
+            "length": "2",
+            "format": "%m",
+            "dateCreated": "2008",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "MOI_PO",
+            "description": "Mois de la date de r\u00e9alisation du pr\u00e9l\u00e8vement d'organe",
+            "type": "date",
+            "nomenclature": "-",
+            "length": "2",
+            "format": "%m",
+            "dateCreated": "2008",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "PO_COD",
+            "description": "Code PO",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "3",
+            "format": "default",
+            "dateCreated": "2008",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "PRS_TYP",
+            "description": "Type de prestation",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "2",
+            "format": "default",
+            "dateCreated": "2008",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "RSA_NUM",
+            "description": "N\u00b0 d'index du RSA",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "10",
+            "format": "default",
+            "dateCreated": "2008",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        }
+    ],
+    "name": "T_MCOaaPORG",
+    "title": "Fich comp pr\u00e9l\u00e9vement d'organe",
+    "produit": "PMSI MCO",
+    "missingValues": [
+        ""
+    ],
+    "foreignKeys": [
+        {
+            "fields": [
+                "ETA_NUM",
+                "RSA_NUM"
+            ],
+            "reference": {
+                "resource": "T_MCOaa_nnB",
+                "fields": [
+                    "ETA_NUM",
+                    "RSA_NUM"
+                ]
+            }
+        }
+    ],
+    "history": {
+        "dateCreated": "2008",
+        "dateDeleted": "",
+        "dateMissing": []
+    },
+    "champ": "Public",
+    "observation": ""
+}

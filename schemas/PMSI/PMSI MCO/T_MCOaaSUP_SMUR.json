@@ -1,0 +1,128 @@
+{
+    "name": "T_MCOaaSUP_SMUR",
+    "title": "Fich sup SMUR",
+    "produit": "PMSI MCO",
+    "history": {
+        "dateCreated": "2016",
+        "dateDeleted": "",
+        "dateMissing": []
+    },
+    "missingValues": [
+        ""
+    ],
+    "fields": [
+        {
+            "name": "ETA_NUM",
+            "description": "Num\u00e9ro FINESS ePMSI",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2016",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "NBR_SOR_PRIM",
+            "description": "Nombre de sorties primaires",
+            "type": "integer",
+            "length": "6",
+            "dateCreated": "2016",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "ETA_NUM_SMUR",
+            "description": "N\u00b0 FINESS d\u2019implantation SMUR",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2016",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "NBR_SOR_SND",
+            "description": "Nombre de sorties secondaires",
+            "type": "integer",
+            "length": "6",
+            "dateCreated": "2016",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "ANN_MOI",
+            "description": "Ann\u00e9e+Mois",
+            "type": "yearmonth",
+            "length": "6",
+            "dateCreated": "2016",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "FIC_TYP",
+            "description": "Type de fichier",
+            "type": "string",
+            "length": "3",
+            "dateCreated": "2016",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "NBR_TIIH",
+            "description": "Nombre TIIH (transfert infirmier inter-hospitalier)",
+            "type": "integer",
+            "length": "6",
+            "dateCreated": "2016",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        }
+    ],
+    "champ": "Public",
+    "observation": "",
+    "foreignKeys": [
+        {
+            "fields": [
+                "ETA_NUM"
+            ],
+            "reference": {
+                "resource": "T_MCOaa_nnE",
+                "fields": [
+                    "ETA_NUM"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,116 @@
+{
+    "fields": [
+        {
+            "name": "ETA_NUM",
+            "description": "Num\u00e9ro FINESS e-PMSI",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "9",
+            "format": "default",
+            "dateCreated": "2011",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ETE_GHS_NUM",
+            "description": "Code du suppl\u00e9ment (n\u00b0 GHS)",
+            "type": "integer",
+            "nomenclature": "-",
+            "length": "4",
+            "format": "default",
+            "dateCreated": "2011",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "GHS_SUP_COD",
+            "description": "Code du suppl\u00e9ment (n\u00b0 GHS)",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "4",
+            "format": "default",
+            "dateCreated": "2011",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "NBR_SUP",
+            "description": "Nombre de suppl\u00e9ments (Nb actes menant dans le GHS)",
+            "type": "integer",
+            "nomenclature": "-",
+            "length": "3",
+            "format": "default",
+            "dateCreated": "2011",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "RSA_NUM",
+            "description": "N\u00b0 d'index du RSA",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "10",
+            "format": "default",
+            "dateCreated": "2011",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "RSS_NUM",
+            "description": "Num\u00e9ro de version du format du RSA",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "3",
+            "format": "default",
+            "dateCreated": "2011",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        }
+    ],
+    "name": "T_MCOaaZ",
+    "title": "Fich comp radioth\u00e9rapie",
+    "produit": "PMSI MCO",
+    "missingValues": [
+        ""
+    ],
+    "foreignKeys": [
+        {
+            "fields": [
+                "ETA_NUM",
+                "RSA_NUM"
+            ],
+            "reference": {
+                "resource": "T_MCOaa_nnB",
+                "fields": [
+                    "ETA_NUM",
+                    "RSA_NUM"
+                ]
+            }
+        }
+    ],
+    "history": {
+        "dateCreated": "2011",
+        "dateDeleted": "",
+        "dateMissing": []
+    },
+    "champ": "Public",
+    "observation": ""
+}

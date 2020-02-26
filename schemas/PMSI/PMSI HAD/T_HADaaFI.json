@@ -1,0 +1,214 @@
+{
+    "fields": [
+        {
+            "name": "DEL_DAT_ENT",
+            "description": "delai par rapport a date entree",
+            "type": "number",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "ENT_ANN",
+            "description": "Ann\u00e9e de la date d\u00e9but de s\u00e9jour",
+            "type": "year",
+            "nomenclature": "-",
+            "length": "4",
+            "format": "default",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ENT_MOI",
+            "description": "Mois de la date d\u00e9but de s\u00e9jour",
+            "type": "date",
+            "nomenclature": "-",
+            "length": "2",
+            "format": "%m",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ETA_NUM_EPMSI",
+            "description": "N\u00b0 FINESS ePMSI",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "9",
+            "format": "default",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ETA_NUM_GEO",
+            "description": "Num\u00e9ro FINESS  g\u00e9ographique",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "9",
+            "format": "default",
+            "dateCreated": "2017",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ETB_NUM",
+            "description": "Etablissement de transfert ou de retour ou lieu d'ex\u00e9cution de l'acte",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "14",
+            "format": "default",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "FAC_NUM",
+            "description": "N\u00b0 s\u00e9quentiel de facture (idem RAPSS)",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "5",
+            "format": "default",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "RHAD_NUM",
+            "description": "Num\u00e9ro s\u00e9quentiel d'entr\u00e9e (idem RAPSS)",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "5",
+            "format": "default",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "SEJ_FIN",
+            "description": "Nature d'interruption ou de fin de s\u00e9jour",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "SOR_ANN",
+            "description": "Ann\u00e9e de la date fin de s\u00e9jour",
+            "type": "year",
+            "nomenclature": "-",
+            "length": "4",
+            "format": "default",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "SOR_MOI",
+            "description": "Mois de la date fin de s\u00e9jour",
+            "type": "date",
+            "nomenclature": "-",
+            "length": "2",
+            "format": "%m",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "TYP_ART",
+            "description": "Type d'enregistrement",
+            "type": "string",
+            "nomenclature": "MS_ENR_V",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ETA_NUM_TWO",
+            "description": "Num\u00e9ro FINESS de l\u2019\u00e9tablissement (site g\u00e9ographique)",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2014",
+            "dateDeleted": "2017",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        }
+    ],
+    "name": "T_HADaaFI",
+    "title": "Table FI : Table des RSFA interruption de s\u00e9jour des \u00e9tablissements ex-OQN",
+    "produit": "PMSI HAD",
+    "missingValues": [
+        ""
+    ],
+    "foreignKeys": [
+        {
+            "fields": [
+                "ETA_NUM_EPMSI",
+                "RHAD_NUM"
+            ],
+            "reference": {
+                "resource": "T_HADaa_nnB",
+                "fields": [
+                    "ETA_NUM_EPMSI",
+                    "RHAD_NUM"
+                ]
+            }
+        }
+    ],
+    "history": {
+        "dateCreated": "2014",
+        "dateDeleted": "",
+        "dateMissing": []
+    },
+    "champ": "Priv\u00e9",
+    "observation": ""
+}

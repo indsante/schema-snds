@@ -1,0 +1,118 @@
+{
+    "name": "T_SSRaaA",
+    "title": "Acte CCAM",
+    "produit": "PMSI SSR",
+    "history": {
+        "dateCreated": "2005",
+        "dateDeleted": "2009",
+        "dateMissing": []
+    },
+    "missingValues": [
+        ""
+    ],
+    "fields": [
+        {
+            "name": "ETA_NUM",
+            "description": "N\u00b0 FINESS de l'\u00e9tablissement",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2005",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "PHA_ACT",
+            "description": "Phase",
+            "type": "string",
+            "length": "1",
+            "dateCreated": "2005",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "RHA_VER",
+            "description": "N\u00b0 version du format du RHA",
+            "type": "string",
+            "length": "3",
+            "dateCreated": "2005",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "CDC_ACT",
+            "description": "Code de l'acte CCAM",
+            "type": "string",
+            "length": "7",
+            "dateCreated": "2005",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "RHS_NUM",
+            "description": "Num\u00e9ro s\u00e9quentiel du RHS",
+            "type": "string",
+            "length": "3",
+            "dateCreated": "2005",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "RHA_NUM",
+            "description": "N\u00b0 S\u00e9quentiel du s\u00e9jour",
+            "type": "string",
+            "length": "7",
+            "dateCreated": "2005",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        }
+    ],
+    "foreignKeys": [
+        {
+            "fields": [
+                "ETA_NUM",
+                "RHA_NUM",
+                "RHS_NUM"
+            ],
+            "reference": {
+                "resource": "T_SSRaa_nnB",
+                "fields": [
+                    "ETA_NUM",
+                    "RHA_NUM",
+                    "RHS_NUM"
+                ]
+            }
+        }
+    ],
+    "champ": "Public et Priv\u00e9",
+    "observation": "remplac\u00e9e par la table T_SSRaaCCAM"
+}

@@ -1,0 +1,202 @@
+{
+    "fields": [
+        {
+            "name": "ETA_NUM",
+            "description": "N\u00b0 FINESS de l'\u00e9tablissement",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "9",
+            "format": "default",
+            "dateCreated": "2009",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "RHA_VER",
+            "description": "N\u00b0 version du format du RHA",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "3",
+            "format": "default",
+            "dateCreated": "2009",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "RHA_NUM",
+            "description": "N\u00b0 S\u00e9quentiel du s\u00e9jour",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "7",
+            "format": "default",
+            "dateCreated": "2009",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "RHS_NUM",
+            "description": "Num\u00e9ro s\u00e9quentiel du RHS",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "3",
+            "format": "default",
+            "dateCreated": "2009",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "CCAM_DEL_ENT_UM",
+            "description": "D\u00e9lai depuis l'entr\u00e9e dans l'UM",
+            "type": "number",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "CCAM_ACT",
+            "description": "Code de l'acte CCAM",
+            "type": "string",
+            "nomenclature": "IR_CCAM_V54",
+            "length": "7",
+            "format": "default",
+            "dateCreated": "2009",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "EXT_PMSI",
+            "description": "Extension PMSI",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "2",
+            "format": "default",
+            "dateCreated": "2016",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "CCAM_PHA_ACT",
+            "description": "Code de la phase",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2009",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "CCAM_COD_ACT",
+            "description": "Code de l'activit\u00e9",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2009",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "CCAM_EXT_DOC",
+            "description": "Extension documentaire",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "CCAM_NBR_REA",
+            "description": "Nombre de r\u00e9alisation",
+            "type": "number",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default",
+            "dateCreated": "2009",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "CCAM_VAL_DAT",
+            "description": "Date de validit\u00e9 de l'acte compatible avec  la semaine",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        }
+    ],
+    "name": "T_SSRaaCCAM",
+    "title": "Acte CCAM",
+    "produit": "PMSI SSR",
+    "missingValues": [
+        ""
+    ],
+    "foreignKeys": [
+        {
+            "fields": [
+                "ETA_NUM",
+                "RHA_NUM",
+                "RHS_NUM"
+            ],
+            "reference": {
+                "resource": "T_SSRaa_nnB",
+                "fields": [
+                    "ETA_NUM",
+                    "RHA_NUM",
+                    "RHS_NUM"
+                ]
+            }
+        }
+    ],
+    "history": {
+        "dateCreated": "2009",
+        "dateDeleted": "",
+        "dateMissing": []
+    },
+    "champ": "Public et Priv\u00e9",
+    "observation": ""
+}

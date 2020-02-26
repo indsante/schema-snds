@@ -1,0 +1,116 @@
+{
+    "fields": [
+        {
+            "name": "ETA_NUM",
+            "description": "Num\u00e9ro FINESS e-PMSI",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "9",
+            "format": "default",
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ETE_GHS_NUM",
+            "description": "Regroupage en GHS (format num\u00e9rique de GHS_NUM)",
+            "type": "integer",
+            "nomenclature": "-",
+            "length": "4",
+            "format": "default",
+            "dateCreated": "2009",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "GHM_NUM",
+            "description": "Regroupage en GHM",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "6",
+            "format": "default",
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "GHS_NUM",
+            "description": "Regroupage en GHS (utilis\u00e9 pour la valorisation)",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "4",
+            "format": "default",
+            "dateCreated": "2009",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "GHS_THEO",
+            "description": "Regroupage en GHS (GHS correspond au GHM)",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "4",
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "RSA_NUM",
+            "description": "N\u00b0 d'index du RSA",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "10",
+            "format": "default",
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        }
+    ],
+    "name": "T_MCOaaGVxx",
+    "title": "Table de passage en version de GHM",
+    "produit": "PMSI MCO",
+    "missingValues": [
+        ""
+    ],
+    "foreignKeys": [
+        {
+            "fields": [
+                "ETA_NUM",
+                "RSA_NUM"
+            ],
+            "reference": {
+                "resource": "T_MCOaa_nnB",
+                "fields": [
+                    "ETA_NUM",
+                    "RSA_NUM"
+                ]
+            }
+        }
+    ],
+    "history": {
+        "dateCreated": "2005",
+        "dateDeleted": "",
+        "dateMissing": []
+    },
+    "champ": "Public et Priv\u00e9",
+    "observation": "Version GV10 : cr\u00e9ation 2005, suppression 2007\nVersion GV9 : cr\u00e9ation 2005, suppression 2008\nVersion GV10B : cr\u00e9ation 2007, suppression 2008\nVersion GV10C : cr\u00e9ation 2008, suppression 2010\nVersion GV11 : cr\u00e9ation 2008, suppression 2010\nVersion GV11B : cr\u00e9ation 2009, suppression 2011\nVersion GV11C : cr\u00e9ation 2010, suppression 2012\nVersion GV11D : cr\u00e9ation 2011, suppression 2013\nVersion GV11E : cr\u00e9ation 2012, suppression 2014\nVersion GV11F : cr\u00e9ation 2013, suppression 2015\nVersion GV11G : cr\u00e9ation 2014, suppression 2016\nVersion GV2016 : cr\u00e9ation 2015, suppression 2017\nVersion GV2017 : cr\u00e9ation 2016\nVersion GV2018 : cr\u00e9ation 2017"
+}

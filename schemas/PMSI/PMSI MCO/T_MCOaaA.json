@@ -1,0 +1,242 @@
+{
+    "fields": [
+        {
+            "name": "ACV_ACT",
+            "description": "Activit\u00e9",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ANP_ACT",
+            "description": "Association non pr\u00e9vue",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "CDC_ACT",
+            "description": "Code CCAM (hors extension PMSI)",
+            "type": "string",
+            "nomenclature": "IR_CCAM_V54",
+            "length": "7",
+            "format": "default",
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "CMP_DAT",
+            "description": "Dates de validit\u00e9 de l'acte compatibles avec les dates du RUM",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2010",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "DOC_ACT",
+            "description": "Extension documentaire",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ENT_DAT_DEL",
+            "description": "D\u00e9lai depuis la date d'entr\u00e9e\nVariable de type Caract\u00e8re de 2005 \u00e0 2013, puis de type num\u00e9rique \u00e0 partir de 2014",
+            "type": "integer",
+            "nomenclature": "-",
+            "length": "3",
+            "format": "default",
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "ETA_NUM",
+            "description": "Num\u00e9ro FINESS e-PMSI",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "9",
+            "format": "default",
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "EXT_PMSI",
+            "description": "Extension PMSI",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "3",
+            "format": "default",
+            "dateCreated": "2015",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "MOD_ACT",
+            "description": "Modificateurs",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "4",
+            "format": "default",
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "NBR_EXE_ACT",
+            "description": "Nombre de r\u00e9alisations de l'acte n\u00b0 1 pendant le s\u00e9jour",
+            "type": "integer",
+            "nomenclature": "-",
+            "length": "2",
+            "format": "default",
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "PHA_ACT",
+            "description": "Phase",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "REM_EXP_ACT",
+            "description": "Remboursement exceptionnel",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "RSA_NUM",
+            "description": "N\u00b0 d'index du RSA",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "10",
+            "format": "default",
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "RSS_NUM",
+            "description": "Num\u00e9ro de version du format du RSA",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "3",
+            "format": "default",
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "RUM_SEQ",
+            "description": "N\u00b0 s\u00e9quentiel du RUM ayant fourni le DP",
+            "type": "string",
+            "length": "2",
+            "dateCreated": "2008",
+            "dateDeleted": "2010",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        }
+    ],
+    "name": "T_MCOaaA",
+    "title": "Acte CCAM",
+    "produit": "PMSI MCO",
+    "missingValues": [
+        ""
+    ],
+    "foreignKeys": [
+        {
+            "fields": [
+                "ETA_NUM",
+                "RSA_NUM"
+            ],
+            "reference": {
+                "resource": "T_MCOaa_nnB",
+                "fields": [
+                    "ETA_NUM",
+                    "RSA_NUM"
+                ]
+            }
+        }
+    ],
+    "history": {
+        "dateCreated": "2005",
+        "dateDeleted": "",
+        "dateMissing": []
+    },
+    "champ": "Public et Priv\u00e9",
+    "observation": "Cette Table contients les actes CCAM r\u00e9alis\u00e9s au cours des s\u00e9jours : Lorsque le s\u00e9jour < 1 jour les actes CCAM sont tous saisis -Sinon seuls les Codes \"Classants\" sont obligatoirement saisis - pour le d\u00e9tail des r\u00e8gles, il faut se r\u00e9f\u00e9rer \u00e0 l'onglet \"CCAM\". Ne contient pas d'actes relatifs aux RSA fictifs pas besoin de filtrer"
+}

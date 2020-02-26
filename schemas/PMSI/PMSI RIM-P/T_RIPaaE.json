@@ -1,0 +1,116 @@
+{
+    "fields": [
+        {
+            "name": "ETA_NUM",
+            "description": "N\u00b0FINESS",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "9",
+            "format": "default",
+            "dateCreated": "2007",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "SOC_RAI",
+            "description": "Raison sociale",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "60",
+            "format": "default",
+            "dateCreated": "2007",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "REG_ETA",
+            "description": "R\u00e9gion",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "40",
+            "format": "default",
+            "dateCreated": "2007",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ANN_TRT",
+            "description": "N\u00b0 du trimestre PMSI transmis",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "7",
+            "format": "default",
+            "dateCreated": "2007",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "STA_ETA",
+            "description": "Statut de l'\u00e9tablissement",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "3",
+            "format": "default",
+            "dateCreated": "2007",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "VAL_ETA",
+            "description": "Validation des donn\u00e9es",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "50",
+            "format": "default",
+            "dateCreated": "2007",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ETB_EXE_FIN",
+            "description": "N\u00b0FINESS sans cl\u00e9",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "8",
+            "format": "default",
+            "dateCreated": "2007",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        }
+    ],
+    "name": "T_RIPaaE",
+    "title": "etablissement",
+    "produit": "PMSI RIM-P",
+    "missingValues": [
+        ""
+    ],
+    "primaryKey": "ETA_NUM",
+    "history": {
+        "dateCreated": "2007",
+        "dateDeleted": "",
+        "dateMissing": []
+    },
+    "champ": "Public et Priv\u00e9",
+    "observation": ""
+}

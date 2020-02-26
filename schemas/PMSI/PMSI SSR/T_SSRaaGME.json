@@ -1,0 +1,158 @@
+{
+    "fields": [
+        {
+            "name": "ETA_NUM",
+            "description": "N\u00b0 FINESS de l'\u00e9tablisement",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "9",
+            "format": "default",
+            "dateCreated": "2012",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "RHA_VER",
+            "description": "N\u00b0 version du format du RHA",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "3",
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "RHA_NUM",
+            "description": "N\u00b0 S\u00e9quentiel du s\u00e9jour",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "7",
+            "format": "default",
+            "dateCreated": "2012",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "NBR_JOU",
+            "description": "Nombre de jours",
+            "type": "number",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "GME_COD",
+            "description": "Code GME",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "6",
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "GMT_NUM",
+            "description": "GMT",
+            "type": "string",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default",
+            "dateCreated": "2017",
+            "dateDeleted": "2017",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "RHS_NUM",
+            "description": "N\u00b0 s\u00e9quentiel du RHS",
+            "type": "string",
+            "length": "3",
+            "dateCreated": "2012",
+            "dateDeleted": "2013",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "RET_COD",
+            "description": "code retour *",
+            "type": "string",
+            "length": "3",
+            "dateCreated": "2012",
+            "dateDeleted": "2013",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "GME",
+            "description": "GME",
+            "type": "string",
+            "length": "6",
+            "dateCreated": "2012",
+            "dateDeleted": "2013",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        }
+    ],
+    "name": "T_SSRaaGME",
+    "title": "GME",
+    "produit": "PMSI SSR",
+    "missingValues": [
+        ""
+    ],
+    "foreignKeys": [
+        {
+            "fields": [
+                "ETA_NUM",
+                "RHA_NUM"
+            ],
+            "reference": {
+                "resource": "T_SSRaa_nnB",
+                "fields": [
+                    "ETA_NUM",
+                    "RHA_NUM"
+                ]
+            }
+        }
+    ],
+    "history": {
+        "dateCreated": "2012",
+        "dateDeleted": "",
+        "dateMissing": []
+    },
+    "champ": "Public et Priv\u00e9",
+    "observation": "A partir de 2012"
+}

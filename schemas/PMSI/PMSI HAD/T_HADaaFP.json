@@ -1,0 +1,315 @@
+{
+    "fields": [
+        {
+            "name": "DEL_DAT_ENT",
+            "description": "delai par rapport a date entree",
+            "type": "number",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [
+                "2015",
+                "2016"
+            ],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "ENT_ANN",
+            "description": "Ann\u00e9e de la date d\u00e9but de s\u00e9jour",
+            "type": "year",
+            "nomenclature": "-",
+            "length": "4",
+            "format": "default",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [
+                "2015",
+                "2016"
+            ],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ENT_MOI",
+            "description": "Mois de la date d\u00e9but de s\u00e9jour",
+            "type": "date",
+            "nomenclature": "-",
+            "length": "2",
+            "format": "%m",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [
+                "2015",
+                "2016"
+            ],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ETA_NUM_EPMSI",
+            "description": "N\u00b0 FINESS ePMSI",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "9",
+            "format": "default",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [
+                "2015",
+                "2016"
+            ],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ETA_NUM_GEO",
+            "description": "Num\u00e9ro FINESS  g\u00e9ographique",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "9",
+            "format": "default",
+            "dateCreated": "2017",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "FAC_MNT",
+            "description": "Montant total factur\u00e9",
+            "type": "number",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [
+                "2015",
+                "2016"
+            ],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "FAC_NUM",
+            "description": "N\u00b0 s\u00e9quentiel de facture (idem RAPSS)",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "5",
+            "format": "default",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [
+                "2015",
+                "2016"
+            ],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "LPP_COD",
+            "description": "Code r\u00e9f\u00e9rence LPP",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "13",
+            "format": "default",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [
+                "2015",
+                "2016"
+            ],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "LPP_PRI_UNI",
+            "description": "Prix d'achat unitaire",
+            "type": "number",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [
+                "2015",
+                "2016"
+            ],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "LPP_PU_DEV",
+            "description": "Tarif r\u00e9f\u00e9rence LPP Prix Unitaire sur devis",
+            "type": "number",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [
+                "2015",
+                "2016"
+            ],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "LPP_QUA",
+            "description": "Quantit\u00e9",
+            "type": "number",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [
+                "2015",
+                "2016"
+            ],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "MNT_UNI_ECA",
+            "description": "Montant unitaire de l'\u00e9cart indemnisable",
+            "type": "number",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [
+                "2015",
+                "2016"
+            ],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "RHAD_NUM",
+            "description": "Num\u00e9ro s\u00e9quentiel d'entr\u00e9e (idem RAPSS)",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "5",
+            "format": "default",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [
+                "2015",
+                "2016"
+            ],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "TIP_PRS_IDE",
+            "description": "Code LPP (13 c)",
+            "type": "number",
+            "nomenclature": "NT_LPP",
+            "length": null,
+            "format": "default",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [
+                "2015",
+                "2016"
+            ],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "TOT_MNT_ECA",
+            "description": "Montant total de l'\u00e9cart indemnisable",
+            "type": "number",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [
+                "2015",
+                "2016"
+            ],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "TYP_ART",
+            "description": "Type d'enregistrement",
+            "type": "string",
+            "nomenclature": "MS_ENR_V",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "dateMissing": [
+                "2015",
+                "2016"
+            ],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ETA_NUM_TWO",
+            "description": "Num\u00e9ro FINESS de l\u2019\u00e9tablissement (site g\u00e9ographique)",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2014",
+            "dateDeleted": "2017",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        }
+    ],
+    "name": "T_HADaaFP",
+    "title": "Table FP : Table des RSFA des LPP/DMI en sus des \u00e9tablissements ex-OQN",
+    "produit": "PMSI HAD",
+    "missingValues": [
+        ""
+    ],
+    "foreignKeys": [
+        {
+            "fields": [
+                "ETA_NUM_EPMSI",
+                "RHAD_NUM"
+            ],
+            "reference": {
+                "resource": "T_HADaa_nnB",
+                "fields": [
+                    "ETA_NUM_EPMSI",
+                    "RHAD_NUM"
+                ]
+            }
+        }
+    ],
+    "history": {
+        "dateCreated": "2014",
+        "dateDeleted": "",
+        "dateMissing": []
+    },
+    "champ": "Priv\u00e9",
+    "observation": ""
+}

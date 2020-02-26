@@ -1,0 +1,144 @@
+{
+    "name": "T_HADaaLEG",
+    "title": "Fichier donnant toutes les erreurs d\u00e9tect\u00e9es par la fonction groupage (LEG)",
+    "produit": "PMSI HAD",
+    "history": {
+        "dateCreated": "2014",
+        "dateDeleted": "",
+        "dateMissing": []
+    },
+    "missingValues": [
+        ""
+    ],
+    "fields": [
+        {
+            "name": "SSEQ_NUM",
+            "description": "Num\u00e9ro de sous-s\u00e9quence",
+            "type": "string",
+            "length": "4",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "FAC_NUM",
+            "description": "N\u00b0 s\u00e9quentiel de facture",
+            "type": "string",
+            "length": "5",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "COD_ERR",
+            "description": "Code retour",
+            "type": "string",
+            "length": "4",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "RHAD_NUM",
+            "description": "N\u00b0 s\u00e9quentiel de s\u00e9jour d'HAD/ N\u00b0 s\u00e9quentiel d'entr\u00e9e",
+            "type": "string",
+            "length": "5",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ANN",
+            "description": "Ann\u00e9e p\u00e9riode",
+            "type": "year",
+            "length": "4",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ETA_NUM_ePMSI",
+            "description": "N\u00b0 FINESS e-PMSI",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "SEQ_NUM",
+            "description": "Num\u00e9ro de la s\u00e9quence dans le s\u00e9jour",
+            "type": "string",
+            "length": "4",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "MOI",
+            "description": "Mois p\u00e9riode",
+            "type": "date",
+            "length": "2",
+            "dateCreated": "2014",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "%m",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        }
+    ],
+    "foreignKeys": [
+        {
+            "fields": [
+                "ETA_NUM_ePMSI",
+                "RHAD_NUM"
+            ],
+            "reference": {
+                "resource": "T_HADaa_nnB",
+                "fields": [
+                    "ETA_NUM_EPMSI",
+                    "RHAD_NUM"
+                ]
+            }
+        }
+    ],
+    "champ": "Public et Priv\u00e9",
+    "observation": ""
+}

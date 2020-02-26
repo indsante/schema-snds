@@ -1,0 +1,186 @@
+{
+    "fields": [
+        {
+            "name": "TYP_ART",
+            "description": "Type d'enregistrement",
+            "type": "string",
+            "nomenclature": "MS_ENR_V",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2012",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ETA_NUM_EPMSI",
+            "description": "Num\u00e9ro FINESS de l\u2019entit\u00e9 juridique",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "9",
+            "format": "default",
+            "dateCreated": "2012",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ETA_NUM_TWO",
+            "description": "Num\u00e9ro FINESS de l\u2019\u00e9tablissement (site g\u00e9ographique)",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "9",
+            "format": "default",
+            "dateCreated": "2012",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "RIP_NUM",
+            "description": "Num\u00e9ro s\u00e9quentiel de s\u00e9jour (idem RPSA)",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "6",
+            "format": "default",
+            "dateCreated": "2012",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "FAC_NUM",
+            "description": "N\u00b0 s\u00e9quentiel de facture",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "3",
+            "format": "default",
+            "dateCreated": "2012",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "PSH_MDT",
+            "description": "Mode de traitement",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "2",
+            "format": "default",
+            "dateCreated": "2012",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "PSH_DMT",
+            "description": "Discipline de prestation (ex DMT)",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "3",
+            "format": "default",
+            "dateCreated": "2012",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ANN_MOI",
+            "description": "Mois et ann\u00e9e",
+            "type": "yearmonth",
+            "nomenclature": "-",
+            "length": "6",
+            "format": "default",
+            "dateCreated": "2012",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "DEL_DAT_ENT",
+            "description": "d\u00e9lai par rapport \u00e0 la date d'entr\u00e9e",
+            "type": "number",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default",
+            "dateCreated": "2012",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "ACT_NBR",
+            "description": "Quantit\u00e9 acte",
+            "type": "integer",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default",
+            "dateCreated": "2012",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "NABM_COD",
+            "description": "Code acte",
+            "type": "string",
+            "nomenclature": "IR_BIO_R",
+            "length": "8",
+            "format": "default",
+            "dateCreated": "2012",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        }
+    ],
+    "name": "T_RIPaaFL",
+    "title": "actes de Biologie",
+    "produit": "PMSI RIM-P",
+    "missingValues": [
+        ""
+    ],
+    "foreignKeys": [
+        {
+            "fields": [
+                "ETA_NUM_EPMSI",
+                "RIP_NUM"
+            ],
+            "reference": {
+                "resource": "T_RIPaa_nnFB",
+                "fields": [
+                    "ETA_NUM_EPMSI",
+                    "RIP_NUM"
+                ]
+            }
+        }
+    ],
+    "history": {
+        "dateCreated": "2012",
+        "dateDeleted": "",
+        "dateMissing": []
+    },
+    "champ": "Priv\u00e9",
+    "observation": "Mise en colonnes des actes en 2015 (pr toutes les ann\u00e9es)"
+}

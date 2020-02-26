@@ -1,0 +1,200 @@
+{
+    "fields": [
+        {
+            "name": "ACT_NBR",
+            "description": "Quantit\u00e9 acte",
+            "type": "integer",
+            "nomenclature": "-",
+            "length": "5",
+            "format": "default",
+            "dateCreated": "2012",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "ANN_MOI",
+            "description": "Mois et ann\u00e9e de l'acte",
+            "type": "yearmonth",
+            "nomenclature": "-",
+            "length": "6",
+            "format": "default",
+            "dateCreated": "2012",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "DEL_DAT_ENT",
+            "description": "Delai par rapport \u00e0 la date d'entr\u00e9e rsfa",
+            "type": "number",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default",
+            "dateCreated": "2012",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "ETA_NUM_EPMSI",
+            "description": "N\u00b0 FINESS e-PMSI",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "9",
+            "format": "default",
+            "dateCreated": "2012",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ETA_NUM_GEO",
+            "description": "Num\u00e9ro FINESS  g\u00e9ographique",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "9",
+            "format": "default",
+            "dateCreated": "2017",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "FAC_NUM",
+            "description": "N\u00b0 Facture s\u00e9quentiel",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "5",
+            "format": "default",
+            "dateCreated": "2012",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "NABM_COD",
+            "description": "Code acte NABM",
+            "type": "string",
+            "nomenclature": "IR_BIO_R",
+            "length": "8",
+            "format": "default",
+            "dateCreated": "2012",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "PSH_DMT",
+            "description": "Discipline de prestation (ex DMT)",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "3",
+            "format": "default",
+            "dateCreated": "2012",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "PSH_MDT",
+            "description": "Mode de traitement",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "2",
+            "format": "default",
+            "dateCreated": "2012",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "RHAD_NUM",
+            "description": "N\u00b0 s\u00e9quentiel",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "5",
+            "format": "default",
+            "dateCreated": "2012",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "TYP_ART",
+            "description": "Type d'enregistrement",
+            "type": "string",
+            "nomenclature": "MS_ENR_V",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2012",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ETA_NUM_TWO",
+            "description": "Num\u00e9ro FINESS de l\u2019\u00e9tablissement (site g\u00e9ographique)",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2012",
+            "dateDeleted": "2017",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        }
+    ],
+    "name": "T_HADaaFL",
+    "title": "Table FL : Table des actes de biologie (issus de la NABM) des \u00e9tablissements ex-OQN",
+    "produit": "PMSI HAD",
+    "missingValues": [
+        ""
+    ],
+    "foreignKeys": [
+        {
+            "fields": [
+                "ETA_NUM_EPMSI",
+                "RHAD_NUM"
+            ],
+            "reference": {
+                "resource": "T_HADaa_nnB",
+                "fields": [
+                    "ETA_NUM_EPMSI",
+                    "RHAD_NUM"
+                ]
+            }
+        }
+    ],
+    "history": {
+        "dateCreated": "2012",
+        "dateDeleted": "",
+        "dateMissing": []
+    },
+    "champ": "Priv\u00e9",
+    "observation": ""
+}

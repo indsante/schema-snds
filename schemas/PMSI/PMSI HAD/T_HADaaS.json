@@ -1,0 +1,256 @@
+{
+    "fields": [
+        {
+            "name": "ETA_NUM_EPMSI",
+            "description": "Num\u00e9ro FINESS e-PMSI",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "9",
+            "format": "default",
+            "dateCreated": "2015",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "RAPSS_NUM",
+            "description": "Num\u00e9ro de version du format de SRAPSS",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "3",
+            "format": "default",
+            "dateCreated": "2015",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ETA_NUM_GEO",
+            "description": "Num\u00e9ro FINESS de l\u2019\u00e9tablissement (code g\u00e9ographique)",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "9",
+            "format": "default",
+            "dateCreated": "2017",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "RHAD_NUM",
+            "description": "Num\u00e9ro s\u00e9quentiel d'entr\u00e9e",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "5",
+            "format": "default",
+            "dateCreated": "2015",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "COD_SEX",
+            "description": "Sexe du patient",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2015",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "SEJ_NBJ",
+            "description": "Nombre de journ\u00e9es dans le s\u00e9jour = dur\u00e9e sur s\u00e9jours termin\u00e9s (date de sortie-date d'entr\u00e9e)",
+            "type": "integer",
+            "nomenclature": "-",
+            "length": "5",
+            "format": "default",
+            "dateCreated": "2015",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "HAD_DUREE",
+            "description": "Dur\u00e9e couverte par les s\u00e9quences (tous s\u00e9jours)",
+            "type": "number",
+            "nomenclature": "-",
+            "length": null,
+            "format": "default",
+            "dateCreated": "2015",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "SEJ_FINI",
+            "description": "Indicateur de s\u00e9jour termin\u00e9",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2015",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "SEJ_ERR",
+            "description": "indicateur de s\u00e9jour 100% en erreur",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2015",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "SOR_MOI",
+            "description": "Mois de la date de sortie du s\u00e9jour",
+            "type": "date",
+            "nomenclature": "-",
+            "length": "2",
+            "format": "%m",
+            "dateCreated": "2015",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "SOR_ANN",
+            "description": "Ann\u00e9e de la date de sortie du s\u00e9jour",
+            "type": "year",
+            "nomenclature": "-",
+            "length": "4",
+            "format": "default",
+            "dateCreated": "2015",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ENT_MOD",
+            "description": "Mode d\u2019entr\u00e9e",
+            "type": "string",
+            "nomenclature": "MS_SOR_V",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2015",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ENT_PRV",
+            "description": "Provenance",
+            "type": "string",
+            "nomenclature": "MS_PRV_V",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2015",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "SOR_MOD",
+            "description": "Mode de sortie",
+            "type": "string",
+            "nomenclature": "MS_SOR_V",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2015",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "SOR_DES",
+            "description": "Destination",
+            "type": "string",
+            "nomenclature": "MS_PRV_V",
+            "length": "1",
+            "format": "default",
+            "dateCreated": "2015",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ETA_NUM_TWO",
+            "description": "Num\u00e9ro FINESS de l\u2019\u00e9tablissement (code g\u00e9ographique)",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2015",
+            "dateDeleted": "2017",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        }
+    ],
+    "name": "T_HADaaS",
+    "title": "Synth\u00e8ses des R\u00e9sum\u00e9s Anonyme Par Sous-S\u00e9quence",
+    "produit": "PMSI HAD",
+    "missingValues": [
+        ""
+    ],
+    "foreignKeys": [
+        {
+            "fields": [
+                "ETA_NUM_EPMSI",
+                "RHAD_NUM"
+            ],
+            "reference": {
+                "resource": "T_HADaa_nnB",
+                "fields": [
+                    "ETA_NUM_EPMSI",
+                    "RHAD_NUM"
+                ]
+            }
+        }
+    ],
+    "history": {
+        "dateCreated": "2015",
+        "dateDeleted": "",
+        "dateMissing": []
+    },
+    "champ": "Public et Priv\u00e9",
+    "observation": ""
+}

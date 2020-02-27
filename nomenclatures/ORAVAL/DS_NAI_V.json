@@ -22,7 +22,7 @@
         ""
     ],
     "name": "DS_NAI_V",
-    "title": "Type de naissance (unique/gemellaire/triple/quadruple/quintuple)",
+    "title": "Type de naissance",
     "primaryKey": [
         "RNG_NAI_TYP"
     ]

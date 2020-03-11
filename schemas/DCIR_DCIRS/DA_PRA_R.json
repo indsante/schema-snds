@@ -144,7 +144,7 @@
             "name": "PFS_PRA_SPE",
             "description": "Spécialité Médicale PS",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_SPA_D",
             "length": "2",
             "format": "default",
             "dateCreated": "",

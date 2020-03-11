@@ -172,7 +172,7 @@
             "name": "PRA_MEP_COD",
             "description": "Mode d'exercice particulier",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_MEP_V",
             "length": "2",
             "format": "default",
             "dateCreated": "",

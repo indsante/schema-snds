@@ -228,7 +228,7 @@
             "name": "EXC_EXC_NAT",
             "description": "Nature d exercice",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_EPS_V",
             "length": "2",
             "format": "default",
             "dateCreated": "",

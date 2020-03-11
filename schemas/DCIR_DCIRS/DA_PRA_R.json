@@ -186,7 +186,7 @@
             "name": "CNV_CNV_COD",
             "description": "Code convention nationale du P.S.",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_CNV_V",
             "length": "1",
             "format": "default",
             "dateCreated": "",

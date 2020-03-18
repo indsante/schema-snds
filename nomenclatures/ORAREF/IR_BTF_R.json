@@ -1,0 +1,36 @@
+{
+    "fields": [
+        {
+            "name": "BTF_PRS_IDE",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "BTF_HIS_DTD",
+            "type": "date",
+            "format": "default"
+        },
+        {
+            "name": "BTF_TAR_NAT",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "BTF_HIS_DTF",
+            "type": "date",
+            "format": "default"
+        },
+        {
+            "name": "BTF_TAR_COF",
+            "type": "number",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_BTF_R",
+    "title": "Nomenclature des coefficients actes affinés en biologie",
+    "description": "Source CNAM"
+}

@@ -73,41 +73,6 @@
       "format": "default"
     },
     {
-      "name": "PHA_SUB_DOS",
-      "type": "string",
-      "format": "default"
-    },
-    {
-      "name": "PHA_DOS_UNI",
-      "type": "string",
-      "format": "default"
-    },
-    {
-      "name": "PHA_UPC_NBR",
-      "type": "string",
-      "format": "default"
-    },
-    {
-      "name": "PHA_ATC_CLA",
-      "type": "string",
-      "format": "default"
-    },
-    {
-      "name": "PHA_ATC_LIB",
-      "type": "string",
-      "format": "default"
-    },
-    {
-      "name": "PHA_EPH_CLA",
-      "type": "string",
-      "format": "default"
-    },
-    {
-      "name": "PHA_EPH_LIB",
-      "type": "string",
-      "format": "default"
-    },
-    {
       "name": "PHA_LAB_NOM",
       "type": "string",
       "format": "default"
@@ -339,6 +304,81 @@
     },
     {
       "name": "PHA_ATC_L03",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_AST_TOP",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "PHA_CAR_TOP",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "PHA_DAT_OPP",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_DIA_TOP",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "PHA_GRD_CND",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_HDD_SPE",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "PHA_PRD_UND",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "PHA_PRD_UNI",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "PHA_ATC_CLA",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_ATC_LIB",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_DOS_UNI",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_EPH_CLA",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_EPH_LIB",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_SUB_DOS",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PHA_UPC_NBR",
       "type": "string",
       "format": "default"
     }

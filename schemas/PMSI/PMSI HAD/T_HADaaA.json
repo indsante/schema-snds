@@ -18,7 +18,7 @@
             "name": "CCAM_COD",
             "description": "Code de l'acte CCAM (hors extension PMSI)",
             "type": "string",
-            "nomenclature": "IR_CCAM_V54",
+            "nomenclature": "IR_CCAM_V63",
             "length": "7",
             "format": "default",
             "dateCreated": "2010",

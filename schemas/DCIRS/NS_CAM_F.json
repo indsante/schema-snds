@@ -382,7 +382,7 @@
             "name": "CAM_PRS_IDE",
             "description": "Code CCAM de l'acte médical",
             "type": "string",
-            "nomenclature": "IR_CCAM_V54",
+            "nomenclature": "IR_CCAM_V63",
             "length": "13",
             "format": "default",
             "dateCreated": "",

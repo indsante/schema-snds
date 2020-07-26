@@ -1,5 +1,10 @@
 {
     "fields": [
+         {
+            "name": "BTF_PRS_IDE__BTF_HIS_DTD",
+            "type": "string",
+            "format": "default"
+        },
         {
             "name": "BTF_PRS_IDE",
             "type": "integer",
@@ -8,7 +13,7 @@
         },
         {
             "name": "BTF_HIS_DTD",
-            "type": "date",
+            "type": "string",
             "format": "default"
         },
         {
@@ -18,7 +23,7 @@
         },
         {
             "name": "BTF_HIS_DTF",
-            "type": "date",
+            "type": "string",
             "format": "default"
         },
         {
@@ -32,5 +37,8 @@
     ],
     "name": "IR_BTF_R",
     "title": "Nomenclature des coefficients actes affinés en biologie",
-    "description": "Source CNAM"
+    "description": "Source CNAM",
+    "primaryKey": [
+        "BTF_PRS_IDE__BTF_HIS_DTD"
+    ]
 }

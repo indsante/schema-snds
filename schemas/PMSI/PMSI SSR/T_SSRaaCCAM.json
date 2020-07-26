@@ -74,7 +74,7 @@
             "name": "CCAM_ACT",
             "description": "Code de l'acte CCAM",
             "type": "string",
-            "nomenclature": "IR_CCAM_V54",
+            "nomenclature": "IR_CCAM_V63",
             "length": "7",
             "format": "default",
             "dateCreated": "2009",

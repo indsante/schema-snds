@@ -38,7 +38,7 @@
             "name": "CDC_ACT",
             "description": "Code CCAM (hors extension PMSI)",
             "type": "string",
-            "nomenclature": "IR_CCAM_V54",
+            "nomenclature": "IR_CCAM_V63",
             "length": "7",
             "format": "default",
             "dateCreated": "2005",
@@ -283,7 +283,7 @@
                 "CDC_ACT"
             ],
             "reference": {
-                "resource": "IR_CCAM_V54",
+                "resource": "IR_CCAM_V63",
                 "fields": [
                     "CAM_PRS_IDE_COD"
                 ]

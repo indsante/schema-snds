@@ -1,0 +1,29 @@
+{
+  "fields": [
+    {
+      "name": "CAM_PRS_IDE_COD",
+      "type": "string",
+      "format": "default",
+      "role": "code"
+    },
+    {
+      "name": "CAM_PRS_IDE_LIB",
+      "type": "string",
+      "format": "default",
+      "role": "label"
+    },
+    {
+      "name": "CAM_PRS_RGT",
+      "type": "string",
+      "format": "default"
+    }
+  ],
+  "missingValues": [
+    ""
+  ],
+  "name": "IR_CCAM_V63",
+  "title": "Classification commune des actes médicaux (CNAM)",
+  "primaryKey": [
+    "CAM_PRS_IDE_COD"
+  ]
+}

@@ -30,7 +30,7 @@
         },
         {
             "name": "IMB_ALD_DTD",
-            "description": "Date de début d'exonération du ticket modérateur attribuée par les services médicaux (ALD, AT, MP)",
+            "description": "Date de début d'exonération du ticket modérateur attribuée par les services médicaux (ALD, AT, MP)",
             "type": "date",
             "nomenclature": "IR_DTE_V",
             "length": "8",
@@ -44,7 +44,7 @@
         },
         {
             "name": "IMB_ALD_DTF",
-            "description": "Date de fin de l'exonération attribuée par les services médicaux (ALD, AT, MP)",
+            "description": "Date de fin de l'exonération attribuée par les services médicaux (ALD, AT, MP)",
             "type": "date",
             "nomenclature": "IR_DTE_V",
             "length": "8",

@@ -9,14 +9,9 @@ Ce schéma du SNDS **centralise** une description du SNDS sous un format **stand
 
 Ce schéma permet de générer des documentations dans plusieurs formats, actuellement :
 - un [dictionnaire interactif](http://dico-snds.health-data-hub.fr/) des variables et des liens entre tables,
-- une [documentation textuelle](http://documentation-snds.health-data-hub.fr/) (section `tables`).
+- une [documentation textuelle](https://documentation-snds.health-data-hub.fr/tables/).
 
-Il est envisagé d'utiliser ce schéma pour générer d'autres supports de documentations, et pour configurer des codes qui manipulent les données.
-
-Un diagramme relationnel du SNDS au format pdf est par exemple généré, en créant des tables vides dans une base PostgreSQL puis en analysant son contenu avec [SchemaCrawler](http://schemacrawler.com/).
-
-Nous projetons également d'ajouter des valeurs exemples pour chaque variable, 
-afin de générer des jeux de données synthétiques respectant la structure formelle du SNDS.
+Il permet également de générer une version [synthétiques du SNDS](https://documentation-snds.health-data-hub.fr/ressources/donnees_synthetiques.html).
 
 
 ## Modifier le schéma

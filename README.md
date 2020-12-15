@@ -23,8 +23,7 @@ Vos propositions de corrections et d'améliorations sont bienvenues.
 Pour cela vous pouvez :
 - éditer directement les fichiers json dans le dossier [schemas](schemas) et ouvrir une `merge-request`,
 - ouvrir une `issue`,
-- écrire à l'équipe du Lab Santé à la [DREES](https://drees.solidarites-sante.gouv.fr/etudes-et-statistiques/), qui développe et maintient ce projet : [ld-lab-github@sante.gouv.fr](mailto:ld-lab-github@sante.gouv.fr). 
-
+- écrire à l'équipe open source du Health Data Hub qui développe et maintient ce projet <opensource@health-data-hub.fr>
 
 ## Installation du projet pour générer les produits dérivés
 
@@ -58,4 +57,6 @@ basé sur des documents de la [Caisse Nationale d'Assurance Maladie](https://ass
 
 Ce projet a été initié dans le cadre du programme 
 [« Entrepreneurs d'intérêt général »](https://entrepreneur-interet-general.etalab.gouv.fr/), 
-pour le projet [Open Chronic](https://entrepreneur-interet-general.etalab.gouv.fr/defis/2019/openchronic.html).
+pour le projet [Open Chronic](https://entrepreneur-interet-general.etalab.gouv.fr/defis/2019/openchronic.html) et développé par Pierre-Alain Jachiet (actuellement à l'HAS). 
+
+Ce projet est maintenu par le [Health Data Hub](https://www.health-data-hub.fr/).

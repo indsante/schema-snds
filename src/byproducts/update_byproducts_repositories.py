@@ -172,7 +172,7 @@ def update_remote_byproduct_repository(last_commit_id_str: str,
                      "Création d'un commit et d'une merge request pour le synchoniser.".format(byproduct_repository))
 
         exec_terminal("git config user.name 'schema-snds GitLab-CI robot'")
-        exec_terminal('git config user.email "ld-lab-github@sante.gouv.fr"')
+        exec_terminal('git config user.email "hdh-bot@health-data-hub.fr"')
         branch_name = "update-from-schema-snds-{}".format(last_commit_id_str)
         commit_and_push_modifications(branch_name, last_commit_id_str)
 
